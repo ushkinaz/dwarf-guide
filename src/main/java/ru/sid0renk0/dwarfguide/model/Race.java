@@ -1,0 +1,41 @@
+package ru.sid0renk0.dwarfguide.model;
+
+/**
+ * @author Dmitry Sidorenko
+ */
+public enum Race {
+    DWARF,
+    HUMAN,
+    ELF,
+    GOBLIN,
+    KOBOLD,
+    GREMLIN,
+    TROLL,
+    OGRE,
+    UNICORN,
+    DRAGON,
+    SATYR,
+    COLOSSUS_BRONZE,
+    GIANT,
+    CYCLOPS,
+    ETTIN,
+    MINOTAUR,
+    YETI,
+    SASQUATCH,
+    BLIZZARD_MAN,
+    WOLF_ICE,
+    FAIRY,
+    PIXIE,
+    BEAK_DOG,
+    GRIMELING,
+    WEREWOLF,
+    BLENDEC_FOUL,
+    STRANGLER,
+    NIGHTWING,
+    HARPY,
+    HYDRA,
+    MERPERSON,
+    SEA_SERPENT,
+    SEA_MONSTER,
+    BIRD_ROC,
+}

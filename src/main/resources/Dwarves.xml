@@ -515,7 +515,7 @@
         <Traits>
             <Trait>Has a calm demeanor</Trait>
             <Trait>Self-conscious</Trait>
-            <Trait>Doesn't often experience strong cravings or urges</Trait>
+            <Trait>Doesn't often value strong cravings or urges</Trait>
             <Trait>Can handle stress</Trait>
             <Trait>Often cheerful</Trait>
             <Trait>Appreciates art and natural beauty</Trait>
@@ -1770,7 +1770,7 @@
         </Attributes>
         <Traits>
             <Trait>Is always tense and jittery</Trait>
-            <Trait>Doesn't often experience strong cravings or urges</Trait>
+            <Trait>Doesn't often value strong cravings or urges</Trait>
             <Trait>Loves a good thrill</Trait>
             <Trait>Has a fertile imagination</Trait>
             <Trait>Appreciates art and natural beauty</Trait>
@@ -2531,7 +2531,7 @@
         <Traits>
             <Trait>Often feels discouraged</Trait>
             <Trait>Comfortable in social situations</Trait>
-            <Trait>Doesn't often experience strong cravings or urges</Trait>
+            <Trait>Doesn't often value strong cravings or urges</Trait>
             <Trait>Enjoys being in crowds</Trait>
             <Trait>Is not a risk-taker</Trait>
             <Trait>Often cheerful</Trait>
@@ -2585,7 +2585,7 @@
             <KinaestheticSense>975</KinaestheticSense>
         </Attributes>
         <Traits>
-            <Trait>Doesn't often experience strong cravings or urges</Trait>
+            <Trait>Doesn't often value strong cravings or urges</Trait>
             <Trait>Enjoys the company of others</Trait>
             <Trait>Assertive</Trait>
             <Trait>Is not a risk-taker</Trait>
@@ -2772,7 +2772,7 @@
         </Attributes>
         <Traits>
             <Trait>Has a calm demeanor</Trait>
-            <Trait>Doesn't often experience strong cravings or urges</Trait>
+            <Trait>Doesn't often value strong cravings or urges</Trait>
             <Trait>Often cheerful</Trait>
             <Trait>Candid and sincere in dealings with others</Trait>
             <Trait>Very confident</Trait>
