@@ -24,7 +24,7 @@
 
     <name>dwarfguide</name>
 
-    <url>http://ushkinaz.github.com/dwarf-guide/</url>
+    <url>http://ushkinaz.github.com/creature-guide/</url>
     <inceptionYear>2011</inceptionYear>
 
     <licenses>
@@ -49,14 +49,14 @@
     </developers>
 
     <scm>
-        <url>https://github.com/ushkinaz/dwarf-guide</url>
-        <connection>scm:git:git://github.com/ushkinaz/dwarf-guide.git</connection>
-        <developerConnection>scm:git:git@github.com:ushkinaz/dwarf-guide.git</developerConnection>
+        <url>https://github.com/ushkinaz/creature-guide</url>
+        <connection>scm:git:git://github.com/ushkinaz/creature-guide.git</connection>
+        <developerConnection>scm:git:git@github.com:ushkinaz/creature-guide.git</developerConnection>
     </scm>
 
     <issueManagement>
         <system>GitHub issues</system>
-        <url>https://github.com/ushkinaz/dwarf-guide/issues</url>
+        <url>https://github.com/ushkinaz/creature-guide/issues</url>
     </issueManagement>
 
     <ciManagement>

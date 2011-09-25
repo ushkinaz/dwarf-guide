@@ -1,6 +1,7 @@
 package ru.sid0renk0.dwarfguide.model;
 
 import javolution.xml.XMLFormat;
+import javolution.xml.XMLSerializable;
 import javolution.xml.stream.XMLStreamException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,9 +11,9 @@ import java.util.Date;
 /**
  * @author Dmitry Sidorenko
  */
-public class Dwarf {
+public class Creature implements XMLSerializable {
     @SuppressWarnings({"unused"})
-    private static final Logger LOGGER = LoggerFactory.getLogger(Dwarf.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(Creature.class);
 
     private String name;
     private String englishName;
@@ -37,7 +38,7 @@ public class Dwarf {
 //    private Mood mood;
 //    private Skill moodSkill;
 
-    public Dwarf() {
+    public Creature() {
         skills = new ParametersGroup<SkillEnum, Skill>(SkillEnum.class, Skill.class);
         attributes = new ParametersGroup<AttributeEnum, GenericParameter>(AttributeEnum.class, GenericParameter.class);
     }
@@ -122,15 +123,15 @@ public class Dwarf {
         this.age = age;
     }
 
-    protected static final XMLFormat<Dwarf> GRAPHIC_XML = new XMLFormat<Dwarf>(Dwarf.class) {
-              public void write(Dwarf dwarf, OutputElement xml) throws XMLStreamException {
-                  xml.add("DWARF", "RACE");
-                  xml.add(dwarf.name, "Name");
-                  xml.add(dwarf.englishName, "EnglishName");
+    protected static final XMLFormat<Creature> CREATURE_XML_FORMAT = new XMLFormat<Creature>(Creature.class) {
+              public void write(Creature creature, OutputElement xml) throws XMLStreamException {
+                  xml.add(creature.race, "RACE");
+                  xml.add(creature.name, "Name");
+                  xml.add(creature.englishName, "EnglishName");
               }
-              public void read(XMLFormat.InputElement xml, Dwarf dwarf) throws XMLStreamException {
-                  dwarf.name = xml.get("EnglishName");
-                  dwarf.englishName= xml.get("Name");
+              public void read(XMLFormat.InputElement xml, Creature creature) throws XMLStreamException {
+                  creature.name = xml.get("EnglishName");
+                  creature.englishName= xml.get("Name");
              }
          };
 }
