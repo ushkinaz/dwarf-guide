@@ -13,7 +13,9 @@
   ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
-  --><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  -->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>ru.sid0renk0.dwarfguide</groupId>
     <artifactId>dwarfguide</artifactId>
@@ -22,7 +24,7 @@
 
     <name>dwarfguide</name>
 
-    <url>http://ushkinaz.github.com/dwarfguide/</url>
+    <url>http://ushkinaz.github.com/dwarf-guide/</url>
     <inceptionYear>2011</inceptionYear>
 
     <licenses>
@@ -47,14 +49,14 @@
     </developers>
 
     <scm>
-        <url>https://github.com/ushkinaz/dwarfguide</url>
-        <connection>scm:git:git://github.com/ushkinaz/dwarfguide.git</connection>
-        <developerConnection>scm:git:git@github.com:ushkinaz/dwarfguide.git</developerConnection>
+        <url>https://github.com/ushkinaz/dwarf-guide</url>
+        <connection>scm:git:git://github.com/ushkinaz/dwarf-guide.git</connection>
+        <developerConnection>scm:git:git@github.com:ushkinaz/dwarf-guide.git</developerConnection>
     </scm>
 
     <issueManagement>
         <system>GitHub issues</system>
-        <url>https://github.com/ushkinaz/dwarfguide/issues</url>
+        <url>https://github.com/ushkinaz/dwarf-guide/issues</url>
     </issueManagement>
 
     <ciManagement>
@@ -91,6 +93,12 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
             <version>${slf4j.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.javolution</groupId>
+            <artifactId>javolution</artifactId>
+            <version>5.3.1</version>
         </dependency>
 
         <dependency>
