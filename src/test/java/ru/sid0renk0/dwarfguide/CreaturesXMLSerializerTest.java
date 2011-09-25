@@ -37,7 +37,7 @@ public class CreaturesXMLSerializerTest {
         assertThat(dwarfBerMedenoddom.getNickname(), is("Manager"));
         assertThat(dwarfBerMedenoddom.getHappiness(), is(138));
         assertThat(dwarfBerMedenoddom.getProfession(), is(Profession.ADMINISTRATOR));
-        assertThat(dwarfBerMedenoddom.getSex(), is(Sex.Female));
+        assertThat(dwarfBerMedenoddom.getSex(), is(Sex.FEMALE));
 
         {
             Calendar calendar = Calendar.getInstance();

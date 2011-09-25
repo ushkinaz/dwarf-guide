@@ -13,16 +13,16 @@ import java.util.regex.Pattern;
 /**
  * @author Dmitry Sidorenko
  */
-public class HappinessConverter implements Converter<Integer> {
+public class IntegerInBracketsConverter implements Converter<Integer> {
     @SuppressWarnings({"unused"})
-    private static final Logger LOGGER = LoggerFactory.getLogger(HappinessConverter.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(IntegerInBracketsConverter.class);
 
-    private static final Pattern happyPATTERN = Pattern.compile(".* \\[(\\d*)\\]");
+    private static final Pattern BRACKETS_PATTERN = Pattern.compile(".* \\[(\\d*)\\]");
 
     @Override
     public Integer read(InputNode node) throws Exception {
         String value = node.getValue();
-        Matcher matcher = happyPATTERN.matcher(value);
+        Matcher matcher = BRACKETS_PATTERN.matcher(value);
         if (matcher.find()) {
             return Integer.valueOf(matcher.group(1));
         }

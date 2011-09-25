@@ -2,16 +2,17 @@ package ru.sid0renk0.dwarfguide.model;
 
 import javolution.xml.XMLSerializable;
 import org.simpleframework.xml.Element;
+import org.simpleframework.xml.ElementList;
 import org.simpleframework.xml.Root;
 import org.simpleframework.xml.convert.Convert;
-import org.simpleframework.xml.core.Persister;
-import org.simpleframework.xml.core.Resolve;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import ru.sid0renk0.dwarfguide.model.xml.BirthdayConverter;
-import ru.sid0renk0.dwarfguide.model.xml.HappinessConverter;
+import ru.sid0renk0.dwarfguide.model.xml.IntegerInBracketsConverter;
 
 import java.util.Date;
+import java.util.LinkedList;
+import java.util.List;
 
 /**
  * @author Dmitry Sidorenko
@@ -41,7 +42,7 @@ public class Creature implements XMLSerializable {
 
 
     @Element
-    @Convert(HappinessConverter.class)
+    @Convert(IntegerInBracketsConverter.class)
     private Integer happiness;
 
     @Element
@@ -54,18 +55,19 @@ public class Creature implements XMLSerializable {
     @Element
     private int age;
 
-    private ParametersGroup<SkillEnum, Skill> skills;
+    @ElementList
+    private List<Skill> skills;
 
-    private ParametersGroup<AttributeEnum, GenericParameter> attributes;
+//    private ParametersGroup<AttributeEnum, GenericParameter> attributes;
 //    private ParametersGroup<TraitsEnum, GenericParameter> traits;
-    private ParametersGroup<AttributeEnum, GenericParameter> labours;
+//    private ParametersGroup<AttributeEnum, GenericParameter> labours;
 //
 //    private Mood mood;
 //    private Skill moodSkill;
 
     public Creature() {
-        skills = new ParametersGroup<SkillEnum, Skill>(SkillEnum.class, Skill.class);
-        attributes = new ParametersGroup<AttributeEnum, GenericParameter>(AttributeEnum.class, GenericParameter.class);
+        skills = new LinkedList<Skill>();
+//        attributes = new ParametersGroup<AttributeEnum, GenericParameter>(AttributeEnum.class, GenericParameter.class);
     }
 
     public String getName() {
