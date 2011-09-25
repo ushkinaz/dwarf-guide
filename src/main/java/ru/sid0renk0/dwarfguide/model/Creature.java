@@ -1,12 +1,15 @@
 package ru.sid0renk0.dwarfguide.model;
 
-import javolution.xml.XMLFormat;
 import javolution.xml.XMLSerializable;
-import javolution.xml.stream.XMLStreamException;
 import org.simpleframework.xml.Element;
 import org.simpleframework.xml.Root;
+import org.simpleframework.xml.convert.Convert;
+import org.simpleframework.xml.core.Persister;
+import org.simpleframework.xml.core.Resolve;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import ru.sid0renk0.dwarfguide.model.xml.BirthdayConverter;
+import ru.sid0renk0.dwarfguide.model.xml.HappinessConverter;
 
 import java.util.Date;
 
@@ -18,30 +21,38 @@ public class Creature implements XMLSerializable {
     @SuppressWarnings({"unused"})
     private static final Logger LOGGER = LoggerFactory.getLogger(Creature.class);
 
-    @Element(name = "Name")
+    @Element
     private String name;
 
-    @Element(name = "EnglishName")
+    @Element
     private String englishName;
 
-    @Element(name = "Nickname", required = false)
+    @Element(required = false)
     private String nickname;
 
-    @Element(name = "Race")
+    @Element
     private Race race;
 
-    @Element(name = "Profession")
+    @Element
     private Profession profession;
 
-    @Element(name = "CustomProfession", required = false)
+    @Element(required = false)
     private String customProfession = "";
 
 
-    private int happiness;
-    private Sex sex;
-    private Date birthday;
-    private int age;
+    @Element
+    @Convert(HappinessConverter.class)
+    private Integer happiness;
 
+    @Element
+    private Sex sex;
+
+    @Element(name = "DOB")
+    @Convert(BirthdayConverter.class)
+    private Date birthday;
+
+    @Element
+    private int age;
 
     private ParametersGroup<SkillEnum, Skill> skills;
 

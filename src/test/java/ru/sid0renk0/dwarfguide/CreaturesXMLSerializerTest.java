@@ -3,7 +3,12 @@ package ru.sid0renk0.dwarfguide;
 import org.junit.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import ru.sid0renk0.dwarfguide.model.Creature;
 import ru.sid0renk0.dwarfguide.model.Creatures;
+import ru.sid0renk0.dwarfguide.model.Profession;
+import ru.sid0renk0.dwarfguide.model.Sex;
+
+import java.util.Calendar;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.notNullValue;
@@ -17,33 +22,6 @@ public class CreaturesXMLSerializerTest {
     private static final Logger LOGGER = LoggerFactory.getLogger(CreaturesXMLSerializerTest.class);
 
 
-    //No serialization needed atm
-/*
-    @Test
-    public void testSerialize() throws Exception {
-
-        OutputStream out = new FileOutputStream("MyDwarves.xml");
-
-        Creatures creatures = new Creatures();
-
-        Creature creature = new Creature();
-
-        creature.setRace(Race.DWARF);
-        creature.setName("Ber Medenoddom");
-        creature.setEnglishName("Ber Tribecloister");
-        creatures.add(creature);
-
-        creature.setRace(Race.DWARF);
-        creature.setName("Tekkud Alurist");
-        creature.setEnglishName("Tekkud Weightdagger");
-        creatures.add(creature);
-
-        Creatures creatures1 = new Creatures();
-        CreaturesXMLSerializer.serialize(out, creatures);
-
-    }
-*/
-
     @Test
     public void testDeserialize() throws Exception {
         Creatures dwarves = CreaturesXMLSerializer.deserialize(this.getClass()
@@ -51,5 +29,26 @@ public class CreaturesXMLSerializerTest {
                 .getResourceAsStream("TestDwarves.xml"));
         assertThat(dwarves.getCreatures(), notNullValue());
         assertThat(dwarves.getCreatures().size(), is(110));
+
+        Creature dwarfBerMedenoddom = dwarves.getCreatures().get(0);
+
+        assertThat(dwarfBerMedenoddom.getName(), is("Ber Medenoddom"));
+        assertThat(dwarfBerMedenoddom.getEnglishName(), is("Ber Tribecloister"));
+        assertThat(dwarfBerMedenoddom.getNickname(), is("Manager"));
+        assertThat(dwarfBerMedenoddom.getHappiness(), is(138));
+        assertThat(dwarfBerMedenoddom.getProfession(), is(Profession.ADMINISTRATOR));
+        assertThat(dwarfBerMedenoddom.getSex(), is(Sex.Female));
+
+        {
+            Calendar calendar = Calendar.getInstance();
+            calendar.setTime(dwarfBerMedenoddom.getBirthday());
+
+            assertThat(calendar.get(Calendar.DAY_OF_MONTH), is(7));
+            assertThat(calendar.get(Calendar.MONTH), is(9));
+            assertThat(calendar.get(Calendar.YEAR), is(990));
+        }
+        assertThat(dwarfBerMedenoddom.getAge(), is(65));
+        assertThat(dwarfBerMedenoddom.getCustomProfession(), is(""));
+
     }
 }
