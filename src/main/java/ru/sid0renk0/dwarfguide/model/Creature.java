@@ -3,6 +3,8 @@ package ru.sid0renk0.dwarfguide.model;
 import javolution.xml.XMLFormat;
 import javolution.xml.XMLSerializable;
 import javolution.xml.stream.XMLStreamException;
+import org.simpleframework.xml.Element;
+import org.simpleframework.xml.Root;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,17 +13,28 @@ import java.util.Date;
 /**
  * @author Dmitry Sidorenko
  */
+@Root(name = "Creature", strict = false)
 public class Creature implements XMLSerializable {
     @SuppressWarnings({"unused"})
     private static final Logger LOGGER = LoggerFactory.getLogger(Creature.class);
 
+    @Element(name = "Name")
     private String name;
+
+    @Element(name = "EnglishName")
     private String englishName;
+
+    @Element(name = "Nickname", required = false)
     private String nickname;
 
+    @Element(name = "Race")
     private Race race;
+
+    @Element(name = "Profession")
     private Profession profession;
-    private String customProfession;
+
+    @Element(name = "CustomProfession", required = false)
+    private String customProfession = "";
 
     private int happiness;
     private Sex sex;
@@ -123,15 +136,4 @@ public class Creature implements XMLSerializable {
         this.age = age;
     }
 
-    protected static final XMLFormat<Creature> CREATURE_XML_FORMAT = new XMLFormat<Creature>(Creature.class) {
-              public void write(Creature creature, OutputElement xml) throws XMLStreamException {
-                  xml.add(creature.race, "RACE");
-                  xml.add(creature.name, "Name");
-                  xml.add(creature.englishName, "EnglishName");
-              }
-              public void read(XMLFormat.InputElement xml, Creature creature) throws XMLStreamException {
-                  creature.name = xml.get("EnglishName");
-                  creature.englishName= xml.get("Name");
-             }
-         };
 }

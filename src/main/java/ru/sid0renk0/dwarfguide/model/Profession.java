@@ -4,6 +4,8 @@ package ru.sid0renk0.dwarfguide.model;
  * @author Dmitry Sidorenko
  */
 public enum Profession {
+    CHILD,
+
     MINER,
     STONEWORKER,
     ENGRAVER,
@@ -149,13 +151,14 @@ public enum Profession {
     MASTER_LASHER,
     MASTER_BOWMAN,
     MASTER_BLOWGUNMAN,
-  
-    SHEARER,
+
+    //Todo: Runesmith exports in lowercase
+    Shearer,
     SPINNER,
     POTTER,
     GLAZER,
     PRESSER,
-    BEEKEEPER,
+    BEE_KEEPER,
     WAX_WORKER,
     
 }
