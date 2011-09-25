@@ -1,5 +1,8 @@
 package ru.sid0renk0.dwarfguide.model;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @author Dmitry Sidorenko
  */
@@ -40,7 +43,7 @@ public enum SkillEnum {
     STONECRAFT(33, "Stone crafter", "Stone Crafting"),
     METALCRAFT(34, "Metal crafter", "Metal Crafting"),
     GLASSMAKER(35, "Glassmaker", "Glassmaking"),
-    LEATHERWORK(36, "Leatherworker", "Leatherworkering[sic]"),
+    LEATHERWORK(36, "Leatherworker", "Leatherworkering"),
     BONECARVE(37, "Bone carver", "Bone Carving"),
     AXE(38, "Axeman", "Axe"),
     SWORD(39, "Swordsman", "Sword"),
@@ -118,11 +121,17 @@ public enum SkillEnum {
     POTTERY(111, "Potter", "Pottery"),
     GLAZING(112, "Glazer", "Glazing"),
     PRESSING(113, "Presser", "Pressing"),
-    BEEKEEPING(114, "Beekeeper", "Beekeeping"),
+    BEEKEEPING(114, "Beekeeper", "Bee Keeping"),
     WAX_WORKING(115, "Wax worker", "Wax Working"),;
+
+    private static volatile Map<String, SkillEnum> runesmithSkills;
 
     private int    id;
     private String skill;
+
+    /**
+     * Runesmith exports skills by this
+     */
     private String description;
 
     private SkillEnum(int id, String skill, String description) {
@@ -130,6 +139,7 @@ public enum SkillEnum {
         this.skill = skill;
         this.description = description;
 
+        registerSelf(this);
     }
 
     public int getId() {
@@ -143,4 +153,16 @@ public enum SkillEnum {
     public String getDescription() {
         return description;
     }
+
+    private static synchronized void registerSelf(SkillEnum skillEnum) {
+        if (runesmithSkills == null) {
+            runesmithSkills = new HashMap<String, SkillEnum>();
+        }
+        runesmithSkills.put(skillEnum.description.toUpperCase(), skillEnum);
+    }
+
+    public static SkillEnum getByRuneSmithName(String name) {
+        return runesmithSkills.get(name.toUpperCase());
+    }
+
 }

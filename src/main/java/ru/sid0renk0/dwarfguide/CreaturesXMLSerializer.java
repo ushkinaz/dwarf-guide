@@ -29,7 +29,7 @@ public class CreaturesXMLSerializer {
         Strategy strategy = new AnnotationStrategy();
         RegistryMatcher matcher = new RegistryMatcher();
 
-        matcher.bind(SkillEnum.class, new EnumTransform<SkillEnum>(SkillEnum.class));
+        matcher.bind(SkillEnum.class, new SkillEnumTransform());
         matcher.bind(Sex.class, new EnumTransform<Sex>(Sex.class));
 
         Serializer serializer = new Persister(strategy, matcher, format);
@@ -51,6 +51,18 @@ public class CreaturesXMLSerializer {
 
         @Override
         public String write(EnumType value) throws Exception {
+            throw new NotImplementedException();
+        }
+    }
+
+    private static class SkillEnumTransform implements Transform<SkillEnum> {
+        @Override
+        public SkillEnum read(String value) throws Exception {
+            return SkillEnum.getByRuneSmithName(value);
+        }
+
+        @Override
+        public String write(SkillEnum value) throws Exception {
             throw new NotImplementedException();
         }
     }
