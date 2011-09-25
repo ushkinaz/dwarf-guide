@@ -33,4 +33,16 @@ public class Creatures {
         creatures.add(creature);
 
     }
+
+    @Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder();
+        sb.append("Creatures");
+        sb.append("{");
+        for (Creature creature : creatures) {
+            sb.append(creature);
+        }
+        sb.append('}');
+        return sb.toString();
+    }
 }

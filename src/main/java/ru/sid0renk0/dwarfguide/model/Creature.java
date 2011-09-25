@@ -36,6 +36,7 @@ public class Creature implements XMLSerializable {
     @Element(name = "CustomProfession", required = false)
     private String customProfession = "";
 
+
     private int happiness;
     private Sex sex;
     private Date birthday;

@@ -20,11 +20,13 @@ public class CreaturesXMLSerializer {
     private static final Logger LOGGER = LoggerFactory.getLogger(CreaturesXMLSerializer.class);
 
 
+/*
     public static void serialize(OutputStream out, Creatures creatures) throws Exception {
         Serializer serializer = new Persister();
 
         serializer.write(creatures, out);
     }
+*/
 
 
     public static Creatures deserialize(InputStream in) throws Exception {

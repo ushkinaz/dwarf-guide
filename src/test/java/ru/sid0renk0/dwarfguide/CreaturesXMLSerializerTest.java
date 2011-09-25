@@ -3,15 +3,11 @@ package ru.sid0renk0.dwarfguide;
 import org.junit.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import ru.sid0renk0.dwarfguide.model.Creature;
 import ru.sid0renk0.dwarfguide.model.Creatures;
-import ru.sid0renk0.dwarfguide.model.Race;
 
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.OutputStream;
-import java.util.ArrayList;
-import java.util.List;
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.CoreMatchers.notNullValue;
+import static org.junit.Assert.*;
 
 /**
  * @author Dmitry Sidorenko
@@ -20,6 +16,9 @@ public class CreaturesXMLSerializerTest {
     @SuppressWarnings({"unused"})
     private static final Logger LOGGER = LoggerFactory.getLogger(CreaturesXMLSerializerTest.class);
 
+
+    //No serialization needed atm
+/*
     @Test
     public void testSerialize() throws Exception {
 
@@ -43,12 +42,14 @@ public class CreaturesXMLSerializerTest {
         CreaturesXMLSerializer.serialize(out, creatures);
 
     }
+*/
 
     @Test
     public void testDeserialize() throws Exception {
-        Creatures dwarves = CreaturesXMLSerializer.deserialize(new FileInputStream("Dwarves.xml"));
-        dwarves.toString();
-
-
+        Creatures dwarves = CreaturesXMLSerializer.deserialize(this.getClass()
+                .getClassLoader()
+                .getResourceAsStream("TestDwarves.xml"));
+        assertThat(dwarves.getCreatures(), notNullValue());
+        assertThat(dwarves.getCreatures().size(), is(110));
     }
 }
