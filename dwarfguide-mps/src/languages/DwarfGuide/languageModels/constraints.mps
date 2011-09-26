@@ -17,7 +17,7 @@
   </roots>
   <root id="627290435249133500">
     <node role="property" roleId="tp1t.1213098023997" type="tp1t.NodePropertyConstraint" typeId="tp1t.1147467115080" id="627290435249133504">
-      <link role="applicableProperty" roleId="tp1t.1147467295099" targetNodeId="oily.7336574368822048410" resolveInfo="id" />
+      <link role="applicableProperty" roleId="tp1t.1147467295099" targetNodeId="oily.7336574368822048410" resolveInfo="identifier" />
       <node role="propertyValidator" roleId="tp1t.1212097481299" type="tp1t.ConstraintFunction_PropertyValidator" typeId="tp1t.1212096972063" id="627290435249133505">
         <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="627290435249133506">
           <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="627290435249133598">
@@ -84,7 +84,7 @@
                             <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="627290435249133568" resolveInfo="identifable" />
                           </node>
                           <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="7336574368822202671">
-                            <link role="property" roleId="tp25.1138056395725" targetNodeId="oily.7336574368822048410" resolveInfo="id" />
+                            <link role="property" roleId="tp25.1138056395725" targetNodeId="oily.7336574368822048410" resolveInfo="identifier" />
                           </node>
                         </node>
                         <node role="leftExpression" roleId="tpee.1081773367580" type="tp1t.ConstraintsFunctionParameter_propertyValue" typeId="tp1t.1153138554286" id="7336574368822170537" />
@@ -115,9 +115,9 @@
             </node>
           </node>
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="627290435249133535">
-            <node role="expression" roleId="tpee.1068581517676" type="tpee.GreaterThanOrEqualsExpression" typeId="tpee.1153417849900" id="7336574368822202681">
-              <node role="leftExpression" roleId="tpee.1081773367580" type="tp1t.ConstraintsFunctionParameter_propertyValue" typeId="tp1t.1153138554286" id="7336574368822202682" />
-              <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7336574368822202683">
+            <node role="expression" roleId="tpee.1068581517676" type="tpee.GreaterThanOrEqualsExpression" typeId="tpee.1153417849900" id="7336574368822258825">
+              <node role="leftExpression" roleId="tpee.1081773367580" type="tp1t.ConstraintsFunctionParameter_propertyValue" typeId="tp1t.1153138554286" id="7336574368822258826" />
+              <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7336574368822258827">
                 <property name="value" nameId="tpee.1068580320021" value="0" />
               </node>
             </node>
