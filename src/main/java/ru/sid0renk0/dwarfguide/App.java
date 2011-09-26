@@ -16,14 +16,22 @@
 
 package ru.sid0renk0.dwarfguide;
 
+import com.google.inject.Guice;
+import com.google.inject.Injector;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import ru.sid0renk0.dwarfguide.model.configuration.DFHackConfiguration;
 
 public class App {
     @SuppressWarnings({"UnusedDeclaration"})
     private static final Logger LOGGER = LoggerFactory.getLogger(App.class);
 
-    public static void main(String[] args){
-      //TODO: implement
+    public static void main(String[] args) {
+        final GuideModule module = new GuideModule();
+
+        Injector injector = Guice.createInjector(module);
+
+        DFHackConfiguration configuration = injector.getInstance(DFHackConfiguration.class);
+
     }
 }

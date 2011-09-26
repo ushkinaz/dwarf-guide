@@ -16,6 +16,7 @@
 
 package ru.sid0renk0.dwarfguide;
 
+import com.google.inject.Provider;
 import org.simpleframework.xml.Serializer;
 import org.simpleframework.xml.convert.AnnotationStrategy;
 import org.simpleframework.xml.core.Persister;
@@ -34,7 +35,7 @@ import java.io.InputStream;
 /**
  * @author Dmitry Sidorenko
  */
-public class CreaturesXMLSerializer {
+public class CreaturesXMLSerializer implements Provider<Creatures> {
     @SuppressWarnings({"unused"})
     private static final Logger LOGGER = LoggerFactory.getLogger(CreaturesXMLSerializer.class);
 
@@ -57,6 +58,12 @@ public class CreaturesXMLSerializer {
         Serializer serializer = new Persister(strategy, matcher, format);
 
         return serializer.read(Creatures.class, in);
+    }
+
+    @Override
+    public Creatures get() {
+//        return deserialize(this.getClass().getClassLoader().getResourceAsStream("TestDwarves.xml"));
+        return null;
     }
 
     private static class EnumTransform<EnumType extends Enum<EnumType>> extends ReadonlyTransform<EnumType> {
