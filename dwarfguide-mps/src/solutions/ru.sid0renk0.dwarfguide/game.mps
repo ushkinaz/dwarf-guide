@@ -9,6 +9,15 @@
       <property name="name" nameId="tpck.1169194664001" value="CreatureSkills" />
     </node>
   </roots>
-  <root id="8768382629599860234" />
+  <root id="8768382629599860234">
+    <node role="skill" roleId="oily.7336574368822246837" type="oily.Skill" typeId="oily.7336574368822058574" id="8768382629599863652">
+      <property name="name" nameId="tpck.1169194664001" value="Mining" />
+      <property name="identifier" nameId="oily.7336574368822048410" value="0" />
+    </node>
+    <node role="skill" roleId="oily.7336574368822246837" type="oily.Skill" typeId="oily.7336574368822058574" id="8768382629599863653">
+      <property name="name" nameId="tpck.1169194664001" value="Wood Cutting" />
+      <property name="identifier" nameId="oily.7336574368822048410" value="1" />
+    </node>
+  </root>
 </model>
 
