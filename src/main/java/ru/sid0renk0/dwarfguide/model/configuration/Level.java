@@ -7,10 +7,11 @@ import org.slf4j.LoggerFactory;
 /**
  * @author Dmitry Sidorenko
  */
-public class Level extends Entity{
+public class Level extends Entity {
     @SuppressWarnings({"unused"})
     private static final Logger LOGGER = LoggerFactory.getLogger(Level.class);
 
     @Attribute(name = "xpNxtLvl")
     private int experienceNextLevel;
+
 }

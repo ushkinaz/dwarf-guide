@@ -1,23 +1,15 @@
 package ru.sid0renk0.dwarfguide.model.configuration;
 
 import org.simpleframework.xml.Attribute;
-import org.simpleframework.xml.core.Commit;
-import org.simpleframework.xml.core.Complete;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
  * @author Dmitry Sidorenko
  */
-public class Trait {
+public class Trait extends Entity {
     @SuppressWarnings({"unused"})
     private static final Logger LOGGER = LoggerFactory.getLogger(Trait.class);
-
-    @Attribute
-    private int id;
-
-    @Attribute
-    private String name;
 
     @Attribute
     private String level_0;
@@ -37,15 +29,6 @@ public class Trait {
     @Attribute
     private String level_5;
 
-
-    public String getName() {
-        return name;
-    }
-
-    @Commit
-    public void commit(){
-
-    }
 
     @Override
     public String toString() {

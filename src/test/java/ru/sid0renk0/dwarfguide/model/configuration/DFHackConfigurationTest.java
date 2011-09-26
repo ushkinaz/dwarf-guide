@@ -4,6 +4,8 @@ import org.junit.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.InputStream;
+
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.notNullValue;
 import static org.junit.Assert.*;
@@ -15,37 +17,31 @@ public class DFHackConfigurationTest {
     @SuppressWarnings({"unused"})
     private static final Logger LOGGER = LoggerFactory.getLogger(DFHackConfigurationTest.class);
 
-    @Test
-    public void testSerialize() throws Exception {
-//        Format format = new Format(4, new CamelCaseStyle(true));
-//        Serializer serializer = new Persister(format);
-//        DFHackConfiguration source = new DFHackConfiguration();
-//        Base value = new Base();
-//        Mood mood = new Mood();
-//        mood.id = 0;
-//        mood.name = "222";
-//        value.moods.add(mood);
-//        source.baseConfigurations.put("DF111", value);
-//        serializer.write(source, new File("out.xml"));
+    DFHackConfiguration config;
 
+    @Before
+    public void setup() throws Exception {
+        InputStream resourceAsStream = this.getClass().getClassLoader().getResourceAsStream("Memory.xml");
+
+        try {
+            config = DFHackConfiguration.deserialize(resourceAsStream);
+        } finally {
+            resourceAsStream.close();
+        }
     }
 
     @Test
     public void testDeserialize() throws Exception {
 
-        DFHackConfiguration c = DFHackConfiguration.deserialize(this.getClass()
-                .getClassLoader()
-                .getResourceAsStream("Memory.xml"));
+        assertThat(config, notNullValue());
 
-        assertThat(c, notNullValue());
+        assertThat(config.getVersions(), notNullValue());
+        assertThat(config.getVersions().size(), is(44));
 
-        assertThat(c.getVersions(), notNullValue());
-        assertThat(c.getVersions().size(), is(44));
+        assertThat(config.getBaseList(), notNullValue());
+        assertThat(config.getBaseList().size(), is(2));
 
-        assertThat(c.getBaseList(), notNullValue());
-        assertThat(c.getBaseList().size(), is(2));
-
-        Base base = c.getBaseByVersion("DF2010", "windows");
+        Base base = config.getBaseByVersion("DF2010", "windows");
         assertThat(base, notNullValue());
 
         assertThat(base.getMoods().size(), is(6));
@@ -55,5 +51,15 @@ public class DFHackConfigurationTest {
         assertThat(base.getSkills().size(), is(116));
         assertThat(base.getLevels().size(), is(21));
         assertThat(base.getLabors().size(), is(73));
+    }
+
+    @Test
+    public void testEntities() throws Exception {
+
+        Base base = config.getBaseByVersion("DF2010", "windows");
+        assertThat(base.getJob("Carve Ramp").getId(), is(7));
+
+//        "Shearer"
+//        Profession.
     }
 }

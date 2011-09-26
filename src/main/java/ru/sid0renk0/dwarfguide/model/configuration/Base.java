@@ -3,6 +3,7 @@ package ru.sid0renk0.dwarfguide.model.configuration;
 import org.simpleframework.xml.Attribute;
 import org.simpleframework.xml.ElementList;
 import org.simpleframework.xml.Root;
+import org.simpleframework.xml.core.Commit;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -75,6 +76,53 @@ public class Base {
 
     public List<Labor> getLabors() {
         return unmodifiableList(labors);
+    }
+
+    private static EntityMap<Job>        jobMap        = new EntityMap<Job>();
+    private static EntityMap<Labor>      laborMap      = new EntityMap<Labor>();
+    private static EntityMap<Level>      levelMap      = new EntityMap<Level>();
+    private static EntityMap<Mood>       moodMap       = new EntityMap<Mood>();
+    private static EntityMap<Profession> professionMap = new EntityMap<Profession>();
+    private static EntityMap<Skill>      skillMap      = new EntityMap<Skill>();
+    private static EntityMap<Trait>      traitMap      = new EntityMap<Trait>();
+
+    @Commit
+    public void commit() {
+        fillEntityMap(skills, skillMap);
+    }
+
+    private <T extends Entity> void fillEntityMap(List<T> entityList, EntityMap<T> entityMap) {
+        for (T entity : entityList) {
+            entityMap.addEntity(entity);
+        }
+    }
+
+    public Job getJob(String name) {
+        return jobMap.findEntity(name);
+    }
+
+    public Labor getLabor(String name) {
+        return laborMap.findEntity(name);
+    }
+
+    public Level getLevel(String name) {
+        return levelMap.findEntity(name);
+    }
+
+    public Mood getMood(String name) {
+        return moodMap.findEntity(name);
+    }
+
+    public Profession getProfession(String name) {
+        return professionMap.findEntity(name);
+    }
+
+    public Skill getSkill(String name) {
+        return skillMap.findEntity(name);
+    }
+
+    public Trait getTrait(String name) {
+        return traitMap.findEntity(name);
     }
 
 }

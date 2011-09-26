@@ -5,7 +5,7 @@ import org.simpleframework.xml.Attribute;
 /**
  * @author Dmitry Sidorenko
  */
-public class Profession extends Entity{
+public class Profession extends Entity {
 
     @Attribute
     private boolean military;
