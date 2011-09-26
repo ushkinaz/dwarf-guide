@@ -43,7 +43,7 @@ public class Base {
     protected List<Level> levels;
 
     @ElementList(empty = false, required = false, name = "Labors")
-    protected List<Labor> labors;
+    protected List<Labour> labours;
 
 
     public String getName() {
@@ -74,12 +74,12 @@ public class Base {
         return unmodifiableList(levels);
     }
 
-    public List<Labor> getLabors() {
-        return unmodifiableList(labors);
+    public List<Labour> getLabours() {
+        return unmodifiableList(labours);
     }
 
     private static EntityMap<Job>        jobMap        = new EntityMap<Job>();
-    private static EntityMap<Labor>      laborMap      = new EntityMap<Labor>();
+    private static EntityMap<Labour>     laborMap      = new EntityMap<Labour>();
     private static EntityMap<Level>      levelMap      = new EntityMap<Level>();
     private static EntityMap<Mood>       moodMap       = new EntityMap<Mood>();
     private static EntityMap<Profession> professionMap = new EntityMap<Profession>();
@@ -89,7 +89,7 @@ public class Base {
     @Commit
     public void commit() {
         fillEntityMap(jobs, jobMap);
-        fillEntityMap(labors, laborMap);
+        fillEntityMap(labours, laborMap);
         fillEntityMap(levels, levelMap);
         fillEntityMap(moods, moodMap);
         fillEntityMap(professions, professionMap);
@@ -107,7 +107,7 @@ public class Base {
         return jobMap.findEntity(name);
     }
 
-    public Labor getLabor(String name) {
+    public Labour getLabor(String name) {
         return laborMap.findEntity(name);
     }
 

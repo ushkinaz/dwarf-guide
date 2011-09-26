@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 /**
  * @author Dmitry Sidorenko
  */
-public class Labor extends Entity {
+public class Labour extends Entity {
     @SuppressWarnings({"unused"})
-    private static final Logger LOGGER = LoggerFactory.getLogger(Labor.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(Labour.class);
 }

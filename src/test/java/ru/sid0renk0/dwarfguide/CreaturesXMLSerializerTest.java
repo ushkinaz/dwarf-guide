@@ -55,5 +55,8 @@ public class CreaturesXMLSerializerTest {
         assertThat(dwarfBerMedenoddom.getAge(), is(65));
         assertThat(dwarfBerMedenoddom.getCustomProfession(), is(""));
 
+        assertThat(dwarfBerMedenoddom.getSkills().get(1).getSkill().getId(), is(24));
+        assertThat(dwarfBerMedenoddom.getSkills().get(1).getExperience(), is(40));
+
     }
 }

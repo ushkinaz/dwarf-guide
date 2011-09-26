@@ -46,4 +46,9 @@ public class Entity {
     public int hashCode() {
         return id;
     }
+
+    @Override
+    public String toString() {
+        return "{name='" + name + "\'}";
+    }
 }

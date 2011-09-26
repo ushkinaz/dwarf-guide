@@ -50,7 +50,7 @@ public class DFHackConfigurationTest {
         assertThat(base.getJobs().size(), is(224));
         assertThat(base.getSkills().size(), is(116));
         assertThat(base.getLevels().size(), is(21));
-        assertThat(base.getLabors().size(), is(73));
+        assertThat(base.getLabours().size(), is(73));
     }
 
     @Test
