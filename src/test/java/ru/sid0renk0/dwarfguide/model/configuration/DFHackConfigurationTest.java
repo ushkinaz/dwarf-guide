@@ -1,14 +1,8 @@
 package ru.sid0renk0.dwarfguide.model.configuration;
 
 import org.junit.*;
-import org.simpleframework.xml.Serializer;
-import org.simpleframework.xml.core.Persister;
-import org.simpleframework.xml.stream.CamelCaseStyle;
-import org.simpleframework.xml.stream.Format;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import java.io.File;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.notNullValue;
@@ -26,7 +20,7 @@ public class DFHackConfigurationTest {
 //        Format format = new Format(4, new CamelCaseStyle(true));
 //        Serializer serializer = new Persister(format);
 //        DFHackConfiguration source = new DFHackConfiguration();
-//        BaseConfiguration value = new BaseConfiguration();
+//        Base value = new Base();
 //        Mood mood = new Mood();
 //        mood.id = 0;
 //        mood.name = "222";
@@ -44,9 +38,12 @@ public class DFHackConfigurationTest {
                 .getResourceAsStream("Memory.xml"));
 
         assertThat(c, notNullValue());
-//        assertThat(c.getBaseConfigurations(), notNullValue());
-//        assertThat(c.getBaseConfigurations().size(), is(6));
 
+        assertThat(c.getVersions(), notNullValue());
+        assertThat(c.getVersions().size(), is(44));
+
+        assertThat(c.getBaseList(), notNullValue());
+        assertThat(c.getBaseList().size(), is(2));
 
 
     }

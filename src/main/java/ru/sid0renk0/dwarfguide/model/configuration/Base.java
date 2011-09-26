@@ -1,6 +1,5 @@
 package ru.sid0renk0.dwarfguide.model.configuration;
 
-import org.simpleframework.xml.Element;
 import org.simpleframework.xml.ElementList;
 import org.simpleframework.xml.Root;
 import org.slf4j.Logger;
@@ -13,13 +12,14 @@ import java.util.List;
  * @author Dmitry Sidorenko
  */
 
-@Root(name="Base", strict = false)
-public class BaseConfiguration {
+@Root(strict = false)
+public class Base {
     @SuppressWarnings({"unused"})
-    private static final Logger LOGGER = LoggerFactory.getLogger(BaseConfiguration.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(Base.class);
 
 
-//    private List<Trait> traits;
+    @ElementList(empty = false, required = false, name = "Traits", entry = "Trait")
+    private List<Trait> traits;
 
     @ElementList(empty = false, required = false)
     private List<Mood> moods = new ArrayList<Mood>();
@@ -30,9 +30,14 @@ public class BaseConfiguration {
 //    Levels
 //    Labors
 
-
-    public BaseConfiguration() {
+    public List<Trait> getTraits() {
+        return traits;
     }
+
+    public List<Mood> getMoods() {
+        return moods;
+    }
+
 
 //    public List<Mood> getMoods() {
 //        return Collections.unmodifiableList(moods);
