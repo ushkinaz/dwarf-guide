@@ -11,9 +11,9 @@ import org.simpleframework.xml.transform.Transform;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import ru.sid0renk0.dwarfguide.model.Creatures;
+import ru.sid0renk0.dwarfguide.model.configuration.Base;
 import ru.sid0renk0.dwarfguide.model.configuration.Sex;
 import ru.sid0renk0.dwarfguide.model.configuration.Skill;
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import java.io.InputStream;
 
@@ -24,7 +24,20 @@ public class CreaturesXMLSerializer {
     @SuppressWarnings({"unused"})
     private static final Logger LOGGER = LoggerFactory.getLogger(CreaturesXMLSerializer.class);
 
-    public static Creatures deserialize(InputStream in) throws Exception {
+    /**
+     * Shitty hack. Need to find a way around
+     */
+    private static Base base;
+
+    public static Base getBase() {
+        return base;
+    }
+
+    /**
+     * Synchronization is needed to make ru.sid0renk0.dwarfguide.CreaturesXMLSerializer#base magic to work
+     */
+    public static synchronized Creatures deserialize(InputStream in, Base base) throws Exception {
+        CreaturesXMLSerializer.base = base;
         Format format = new Format(4, "<?xml version=\"1.0\" encoding=\"UTF-8\"?>", new CamelCaseStyle(true));
         Strategy strategy = new AnnotationStrategy();
         RegistryMatcher matcher = new RegistryMatcher();
@@ -34,7 +47,9 @@ public class CreaturesXMLSerializer {
 
         Serializer serializer = new Persister(strategy, matcher, format);
 
-        return serializer.read(Creatures.class, in);
+        Creatures creatures = serializer.read(Creatures.class, in);
+        CreaturesXMLSerializer.base = null;
+        return creatures;
     }
 
     private static class EnumTransform<EnumType extends Enum<EnumType>> implements Transform<EnumType> {
@@ -51,20 +66,20 @@ public class CreaturesXMLSerializer {
 
         @Override
         public String write(EnumType value) throws Exception {
-            throw new NotImplementedException();
+            throw new UnsupportedOperationException();
         }
     }
 
     private static class SkillEnumTransform implements Transform<Skill> {
         @Override
         public Skill read(String value) throws Exception {
-            throw new NotImplementedException();
+            throw new UnsupportedOperationException();
 //            return Skill.getByRuneSmithName(value);
         }
 
         @Override
         public String write(Skill value) throws Exception {
-            throw new NotImplementedException();
+            throw new UnsupportedOperationException();
         }
     }
 }

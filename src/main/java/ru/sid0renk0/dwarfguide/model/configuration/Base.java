@@ -88,7 +88,13 @@ public class Base {
 
     @Commit
     public void commit() {
+        fillEntityMap(jobs, jobMap);
+        fillEntityMap(labors, laborMap);
+        fillEntityMap(levels, levelMap);
+        fillEntityMap(moods, moodMap);
+        fillEntityMap(professions, professionMap);
         fillEntityMap(skills, skillMap);
+        fillEntityMap(traits, traitMap);
     }
 
     private <T extends Entity> void fillEntityMap(List<T> entityList, EntityMap<T> entityMap) {

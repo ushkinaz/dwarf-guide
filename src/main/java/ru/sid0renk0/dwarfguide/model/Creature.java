@@ -2,7 +2,6 @@ package ru.sid0renk0.dwarfguide.model;
 
 import javolution.xml.XMLSerializable;
 import org.simpleframework.xml.Element;
-import org.simpleframework.xml.ElementList;
 import org.simpleframework.xml.Root;
 import org.simpleframework.xml.convert.Convert;
 import org.slf4j.Logger;
@@ -10,12 +9,11 @@ import org.slf4j.LoggerFactory;
 import ru.sid0renk0.dwarfguide.model.configuration.Profession;
 import ru.sid0renk0.dwarfguide.model.configuration.Race;
 import ru.sid0renk0.dwarfguide.model.configuration.Sex;
-import ru.sid0renk0.dwarfguide.model.xml.BirthdayConverter;
-import ru.sid0renk0.dwarfguide.model.xml.IntegerInBracketsConverter;
+import ru.sid0renk0.dwarfguide.model.converters.BirthdayConverter;
+import ru.sid0renk0.dwarfguide.model.converters.IntegerInBracketsConverter;
+import ru.sid0renk0.dwarfguide.model.converters.ProfessionConverter;
 
 import java.util.Date;
-import java.util.LinkedList;
-import java.util.List;
 
 /**
  * @author Dmitry Sidorenko
@@ -37,8 +35,6 @@ public class Creature implements XMLSerializable {
     @Element
     private Race race;
 
-    @Element
-    private Profession profession;
 
     @Element(required = false)
     private String customProfession = "";
@@ -58,8 +54,13 @@ public class Creature implements XMLSerializable {
     @Element
     private int age;
 
-    @ElementList
-    private List<SkillInstance> skills;
+//    @ElementList(name = "Skills")
+//    private List<SkillInstance> skills;
+
+    @Element(name = "Profession")
+    @Convert(ProfessionConverter.class)
+    private Profession profession;
+
 
 //    private ParametersGroup<AttributeEnum, GenericParameter> attributes;
 //    private ParametersGroup<TraitsEnum, GenericParameter> traits;
@@ -69,7 +70,7 @@ public class Creature implements XMLSerializable {
 //    private SkillInstance moodSkill;
 
     public Creature() {
-        skills = new LinkedList<SkillInstance>();
+//        skills = new LinkedList<SkillInstance>();
 //        attributes = new ParametersGroup<AttributeEnum, GenericParameter>(AttributeEnum.class, GenericParameter.class);
     }
 

@@ -1,11 +1,10 @@
-package ru.sid0renk0.dwarfguide.model.xml;
+package ru.sid0renk0.dwarfguide.model.converters;
 
 import org.simpleframework.xml.convert.Converter;
 import org.simpleframework.xml.stream.InputNode;
 import org.simpleframework.xml.stream.OutputNode;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -17,7 +16,7 @@ import java.util.Locale;
  */
 public class BirthdayConverter implements Converter<Date> {
     @SuppressWarnings({"unused"})
-    private static final Logger LOGGER = LoggerFactory.getLogger(BirthdayConverter.class);
+    private static final Logger     LOGGER      = LoggerFactory.getLogger(BirthdayConverter.class);
     private static final DateFormat DATE_FORMAT = new SimpleDateFormat("dd/MM/yyyy", Locale.US);
 
     @Override
@@ -28,6 +27,6 @@ public class BirthdayConverter implements Converter<Date> {
 
     @Override
     public void write(OutputNode node, Date value) throws Exception {
-        throw new NotImplementedException();
+        throw new UnsupportedOperationException();
     }
 }

@@ -1,11 +1,10 @@
-package ru.sid0renk0.dwarfguide.model.xml;
+package ru.sid0renk0.dwarfguide.model.converters;
 
 import org.simpleframework.xml.convert.Converter;
 import org.simpleframework.xml.stream.InputNode;
 import org.simpleframework.xml.stream.OutputNode;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -32,6 +31,6 @@ public class IntegerInBracketsConverter implements Converter<Integer> {
 
     @Override
     public void write(OutputNode node, Integer value) throws Exception {
-        throw new NotImplementedException();
+        throw new UnsupportedOperationException();
     }
 }

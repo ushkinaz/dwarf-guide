@@ -1,6 +1,8 @@
 package ru.sid0renk0.dwarfguide.model.configuration;
 
-import org.simpleframework.xml.*;
+import org.simpleframework.xml.ElementList;
+import org.simpleframework.xml.Root;
+import org.simpleframework.xml.Serializer;
 import org.simpleframework.xml.core.Commit;
 import org.simpleframework.xml.core.Persister;
 import org.slf4j.Logger;
@@ -42,13 +44,13 @@ public class DFHackConfiguration {
         return Collections.unmodifiableList(versions);
     }
 
-    public Base getBaseByVersion(String version, String os){
+    public Base getBaseByVersion(String version) {
         return mapVersions.get(version);
     }
 
 
     @Commit
-    public void commit(){
+    public void commit() {
         //TODO: Build versions based on "Version.base" attribute
         // Simply return base for now. No need for version specific info
         for (Base base : baseList) {
@@ -59,10 +61,6 @@ public class DFHackConfiguration {
 
 
     public static DFHackConfiguration deserialize(InputStream in) throws Exception {
-//        Format format = new Format(4, new CamelCaseStyle(true));
-//        Strategy strategy = new AnnotationStrategy();
-//        RegistryMatcher matcher = new RegistryMatcher();
-
         Serializer serializer = new Persister();
 
         return serializer.read(DFHackConfiguration.class, in);

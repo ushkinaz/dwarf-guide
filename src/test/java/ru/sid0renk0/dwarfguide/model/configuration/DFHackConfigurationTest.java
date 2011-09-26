@@ -41,7 +41,7 @@ public class DFHackConfigurationTest {
         assertThat(config.getBaseList(), notNullValue());
         assertThat(config.getBaseList().size(), is(2));
 
-        Base base = config.getBaseByVersion("DF2010", "windows");
+        Base base = config.getBaseByVersion("DF2010");
         assertThat(base, notNullValue());
 
         assertThat(base.getMoods().size(), is(6));
@@ -56,7 +56,7 @@ public class DFHackConfigurationTest {
     @Test
     public void testEntities() throws Exception {
 
-        Base base = config.getBaseByVersion("DF2010", "windows");
+        Base base = config.getBaseByVersion("DF2010");
         assertThat(base.getJob("Carve Ramp").getId(), is(7));
 
 //        "Shearer"

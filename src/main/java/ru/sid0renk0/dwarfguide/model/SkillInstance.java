@@ -5,7 +5,8 @@ import org.simpleframework.xml.convert.Convert;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import ru.sid0renk0.dwarfguide.model.configuration.Skill;
-import ru.sid0renk0.dwarfguide.model.xml.IntegerInBracketsConverter;
+import ru.sid0renk0.dwarfguide.model.converters.IntegerInBracketsConverter;
+import ru.sid0renk0.dwarfguide.model.converters.SkillConverter;
 
 /**
  * @author Dmitry Sidorenko
@@ -15,6 +16,7 @@ public class SkillInstance extends GenericParameter {
     private static final Logger LOGGER = LoggerFactory.getLogger(SkillInstance.class);
 
     @Element(name = "Name")
+    @Convert(SkillConverter.class)
     private Skill skill;
 
     @Element

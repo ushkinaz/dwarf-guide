@@ -5,9 +5,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import ru.sid0renk0.dwarfguide.model.Creature;
 import ru.sid0renk0.dwarfguide.model.Creatures;
-import ru.sid0renk0.dwarfguide.model.configuration.Profession;
+import ru.sid0renk0.dwarfguide.model.configuration.DFHackConfiguration;
 import ru.sid0renk0.dwarfguide.model.configuration.Sex;
 
+import java.io.InputStream;
 import java.util.Calendar;
 
 import static org.hamcrest.CoreMatchers.is;
@@ -24,9 +25,13 @@ public class CreaturesXMLSerializerTest {
 
     @Test
     public void testDeserialize() throws Exception {
-        Creatures dwarves = CreaturesXMLSerializer.deserialize(this.getClass()
-                .getClassLoader()
-                .getResourceAsStream("TestDwarves.xml"));
+        InputStream configXML = this.getClass().getClassLoader().getResourceAsStream("Memory.xml");
+        InputStream dwarvesXML = this.getClass().getClassLoader().getResourceAsStream("TestDwarves.xml");
+
+        DFHackConfiguration configuration = DFHackConfiguration.deserialize(configXML);
+        Creatures dwarves = CreaturesXMLSerializer.deserialize(dwarvesXML, configuration.getBaseByVersion("DF2010"));
+
+
         assertThat(dwarves.getCreatures(), notNullValue());
         assertThat(dwarves.getCreatures().size(), is(110));
 
