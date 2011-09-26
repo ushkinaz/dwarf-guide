@@ -7,7 +7,6 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="${project}/src/languages/DwarfGuide/DwarfGuide.mpl" />
-      <modulePath path="${project}/src/solutions/DwarfGuide.sandbox/DwarfGuide.sandbox.msd" />
     </projectModules>
     <genConfs />
   </component>
