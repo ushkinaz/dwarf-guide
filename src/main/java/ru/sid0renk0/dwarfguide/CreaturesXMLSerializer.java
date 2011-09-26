@@ -22,16 +22,6 @@ public class CreaturesXMLSerializer {
     @SuppressWarnings({"unused"})
     private static final Logger LOGGER = LoggerFactory.getLogger(CreaturesXMLSerializer.class);
 
-//    /**
-//     * Shitty hack. Need to find a way around
-//     */
-//    private static Base base;
-//
-//    public static Base getBase() {
-//        return base;
-//    }
-//
-
     /**
      * Synchronization is needed to make ru.sid0renk0.dwarfguide.CreaturesXMLSerializer#base magic to work
      */
