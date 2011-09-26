@@ -5,6 +5,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import ru.sid0renk0.dwarfguide.model.Creature;
 import ru.sid0renk0.dwarfguide.model.Creatures;
+import ru.sid0renk0.dwarfguide.model.TraitInstance;
 import ru.sid0renk0.dwarfguide.model.configuration.DFHackConfiguration;
 import ru.sid0renk0.dwarfguide.model.configuration.Sex;
 
@@ -57,6 +58,16 @@ public class CreaturesXMLSerializerTest {
 
         assertThat(dwarfBerMedenoddom.getSkills().get(1).getSkill().getId(), is(24));
         assertThat(dwarfBerMedenoddom.getSkills().get(1).getExperience(), is(40));
+
+        assertThat(dwarfBerMedenoddom.getMood().getId(), is(0));
+        assertThat(dwarfBerMedenoddom.getMoodSkill().getId(), is(36));
+
+        assertThat(dwarfBerMedenoddom.getTraits().size(), is(12));
+
+        TraitInstance traitInstance = dwarfBerMedenoddom.getTraits().get(0);
+        assertThat(traitInstance.getLevel(), is(2));
+        assertThat(traitInstance.getValue(), is(40));
+        assertThat(traitInstance.getTrait().getId(), is(1));
 
     }
 }

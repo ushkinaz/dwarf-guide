@@ -29,6 +29,29 @@ public class Trait extends Entity {
     @Attribute
     private String level_5;
 
+    public String getLevel_0() {
+        return level_0;
+    }
+
+    public String getLevel_1() {
+        return level_1;
+    }
+
+    public String getLevel_2() {
+        return level_2;
+    }
+
+    public String getLevel_3() {
+        return level_3;
+    }
+
+    public String getLevel_4() {
+        return level_4;
+    }
+
+    public String getLevel_5() {
+        return level_5;
+    }
 
     @Override
     public String toString() {

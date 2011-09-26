@@ -67,20 +67,95 @@ public class Creature implements XMLSerializable {
     private Profession profession;
 
 
-//    private ParametersGroup<AttributeEnum, GenericParameter> attributes;
-//    private ParametersGroup<TraitsEnum, GenericParameter> traits;
-//
+    //    private ParametersGroup<AttributeEnum, GenericParameter> attributes;
+    @ElementList(name = "Traits", entry = "Trait", empty = false)
+    private List<TraitInstance> traits;
 
-    @Element(name = "Type")
+    @Element(name = "Type", required = false)
     @Path("Mood")
     private Mood mood;
 
-//    @Element(name = "")
-//    @Path("Skill")
-//    private Skill moodSkill;
+    @Element(name = "Skill", required = false)
+    @Path("Mood")
+    private Skill moodSkill;
 
-    public Creature() {
-    }
+
+    @Path("Attributes")
+    @Element(name = "Strength")
+    private int strength;
+
+    @Path("Attributes")
+    @Element(name = "Agility")
+    private int agility;
+
+    @Path("Attributes")
+    @Element(name = "Toughness")
+    private int toughness;
+
+    @Path("Attributes")
+    @Element(name = "Endurance")
+    private int endurance;
+
+    @Path("Attributes")
+    @Element(name = "Recuperation")
+    private int recuperation;
+
+    @Path("Attributes")
+    @Element(name = "DiseaseResistance")
+    private int diseaseResistance;
+
+    @Path("Attributes")
+    @Element(name = "Willpower")
+    private int willpower;
+
+    @Path("Attributes")
+    @Element(name = "Memory")
+    private int memory;
+
+    @Path("Attributes")
+    @Element(name = "Focus")
+    private int focus;
+
+    @Path("Attributes")
+    @Element(name = "Intuition")
+    private int intuition;
+
+    @Path("Attributes")
+    @Element(name = "Patience")
+    private int patience;
+
+    @Path("Attributes")
+    @Element(name = "Empathy")
+    private int empathy;
+
+    @Path("Attributes")
+    @Element(name = "SocialAwareness")
+    private int socialAwareness;
+
+    @Path("Attributes")
+    @Element(name = "Creatvity")
+    private int creatvity;
+
+    @Path("Attributes")
+    @Element(name = "Musicality")
+    private int musicality;
+
+    @Path("Attributes")
+    @Element(name = "AnalyticalAbility")
+    private int analyticalAbility;
+
+    @Path("Attributes")
+    @Element(name = "LinguisticAbility")
+    private int linguisticAbility;
+
+    @Path("Attributes")
+    @Element(name = "SpatialSense")
+    private int spatialSense;
+
+    @Path("Attributes")
+    @Element(name = "KinaestheticSense")
+    private int kinestheticSense;
+
 
     public String getName() {
         return name;
@@ -122,8 +197,24 @@ public class Creature implements XMLSerializable {
         return age;
     }
 
+    public List<Labour> getLabours() {
+        return labours;
+    }
+
+    public Mood getMood() {
+        return mood;
+    }
+
     public List<SkillInstance> getSkills() {
         return unmodifiableList(skills);
+    }
+
+    public List<TraitInstance> getTraits() {
+        return traits;
+    }
+
+    public Skill getMoodSkill() {
+        return moodSkill;
     }
 
     @Commit

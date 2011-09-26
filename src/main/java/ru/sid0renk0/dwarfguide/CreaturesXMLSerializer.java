@@ -10,6 +10,7 @@ import org.simpleframework.xml.transform.RegistryMatcher;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import ru.sid0renk0.dwarfguide.model.Creatures;
+import ru.sid0renk0.dwarfguide.model.TraitInstance;
 import ru.sid0renk0.dwarfguide.model.configuration.*;
 
 import java.io.InputStream;
@@ -41,17 +42,15 @@ public class CreaturesXMLSerializer {
         RegistryMatcher matcher = new RegistryMatcher();
 
         matcher.bind(Labour.class, new LabourTransform(base));
-
-
         matcher.bind(Mood.class, new MoodTransform(base));
         matcher.bind(Profession.class, new ProfessionTransform(base));
         matcher.bind(Skill.class, new SkillTransform(base));
         matcher.bind(Sex.class, new EnumTransform<Sex>(Sex.class));
+        matcher.bind(TraitInstance.class, new TraitInstanceTransform(base));
 
         Serializer serializer = new Persister(strategy, matcher, format);
 
-        Creatures creatures = serializer.read(Creatures.class, in);
-        return creatures;
+        return serializer.read(Creatures.class, in);
     }
 
     private static class EnumTransform<EnumType extends Enum<EnumType>> extends ReadonlyTransform<EnumType> {
@@ -117,6 +116,19 @@ public class CreaturesXMLSerializer {
         @Override
         public Mood read(String value) throws Exception {
             return base.getMood(value);
+        }
+    }
+
+    private static class TraitInstanceTransform extends ReadonlyTransform<TraitInstance> {
+        private final Base base;
+
+        public TraitInstanceTransform(Base base) {
+            this.base = base;
+        }
+
+        @Override
+        public TraitInstance read(String value) throws Exception {
+            return base.getTraitByDescription(value);
         }
     }
 }

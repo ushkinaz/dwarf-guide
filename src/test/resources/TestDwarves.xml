@@ -135,8 +135,8 @@
             <Labour>memory object not declared: type=labor key=95</Labour>
         </Labours>
         <Mood>
-            <Type>None</Type>
-            <Skill> - </Skill>
+            <Type>Fey</Type>
+            <Skill>Leatherworkering</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -269,7 +269,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -401,7 +401,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -528,7 +528,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -643,7 +643,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -763,7 +763,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -887,7 +887,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -1088,7 +1088,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -1227,7 +1227,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -1393,7 +1393,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -1604,7 +1604,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -1808,7 +1808,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -2024,7 +2024,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -2136,7 +2136,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -2285,7 +2285,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -2384,7 +2384,7 @@
         <Labours/>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -2474,7 +2474,7 @@
         <Labours/>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -2612,7 +2612,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -2699,7 +2699,7 @@
         <Labours/>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -2795,7 +2795,7 @@
         <Labours/>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -2936,7 +2936,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -3052,7 +3052,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -3211,7 +3211,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -3450,7 +3450,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -3591,7 +3591,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -3778,7 +3778,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -3905,7 +3905,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -4043,7 +4043,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -4198,7 +4198,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -4329,7 +4329,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -4452,7 +4452,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -4633,7 +4633,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -4828,7 +4828,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -5016,7 +5016,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -5209,7 +5209,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -5333,7 +5333,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -5458,7 +5458,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -5554,7 +5554,7 @@
         <Labours/>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -5760,7 +5760,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -5886,7 +5886,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -6006,7 +6006,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -6168,7 +6168,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -6362,7 +6362,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -6559,7 +6559,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -6723,7 +6723,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -6850,7 +6850,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -7008,7 +7008,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -7153,7 +7153,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -7284,7 +7284,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -7409,7 +7409,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -7546,7 +7546,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -7653,7 +7653,7 @@
         <Labours/>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -7775,7 +7775,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -7901,7 +7901,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -8059,7 +8059,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -8170,7 +8170,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -8301,7 +8301,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -8448,7 +8448,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -8593,7 +8593,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -8708,7 +8708,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -8822,7 +8822,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -8985,7 +8985,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -9151,7 +9151,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -9288,7 +9288,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -9404,7 +9404,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -9517,7 +9517,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -9649,7 +9649,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -9821,7 +9821,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -9918,7 +9918,7 @@
         <Labours/>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -10005,7 +10005,7 @@
         <Labours/>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -10126,7 +10126,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -10266,7 +10266,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -10389,7 +10389,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -10501,7 +10501,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -10601,7 +10601,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -10715,7 +10715,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -10853,7 +10853,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -10980,7 +10980,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -11131,7 +11131,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -11260,7 +11260,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -11374,7 +11374,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -11509,7 +11509,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -11617,7 +11617,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -11741,7 +11741,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -11892,7 +11892,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -12013,7 +12013,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -12117,7 +12117,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -12233,7 +12233,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -12319,7 +12319,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -12393,7 +12393,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -12473,7 +12473,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -12586,7 +12586,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -12680,7 +12680,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -12800,7 +12800,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -12877,7 +12877,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -12977,7 +12977,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -13058,7 +13058,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -13144,7 +13144,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -13241,7 +13241,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -13351,7 +13351,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -13453,7 +13453,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -13523,7 +13523,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -13593,7 +13593,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -13705,7 +13705,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -13808,7 +13808,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -13914,7 +13914,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -14010,7 +14010,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -14079,7 +14079,7 @@
         </Labours>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -14155,7 +14155,7 @@
         <Labours/>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
     <Creature>
@@ -14213,7 +14213,7 @@
         <Labours/>
         <Mood>
             <Type>None</Type>
-            <Skill> - </Skill>
+            <Skill>-</Skill>
         </Mood>
     </Creature>
 </Creatures>

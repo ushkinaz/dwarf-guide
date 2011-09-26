@@ -6,8 +6,11 @@ import org.simpleframework.xml.Root;
 import org.simpleframework.xml.core.Commit;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import ru.sid0renk0.dwarfguide.model.TraitInstance;
 
 import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
 
 import static java.util.Collections.unmodifiableList;
 
@@ -86,6 +89,8 @@ public class Base {
     private static EntityMap<Skill>      skillMap      = new EntityMap<Skill>();
     private static EntityMap<Trait>      traitMap      = new EntityMap<Trait>();
 
+    private static Map<String, TraitInstance> traitDescriptionMap = new TreeMap<String, TraitInstance>();
+
     @Commit
     public void commit() {
         fillEntityMap(jobs, jobMap);
@@ -95,6 +100,16 @@ public class Base {
         fillEntityMap(professions, professionMap);
         fillEntityMap(skills, skillMap);
         fillEntityMap(traits, traitMap);
+
+        for (Trait trait : traits) {
+            traitDescriptionMap.put(trait.getLevel_0(), new TraitInstance(trait, 0));
+            traitDescriptionMap.put(trait.getLevel_1(), new TraitInstance(trait, 1));
+            traitDescriptionMap.put(trait.getLevel_2(), new TraitInstance(trait, 2));
+            traitDescriptionMap.put(trait.getLevel_3(), new TraitInstance(trait, 3));
+            traitDescriptionMap.put(trait.getLevel_4(), new TraitInstance(trait, 4));
+            traitDescriptionMap.put(trait.getLevel_5(), new TraitInstance(trait, 5));
+        }
+
     }
 
     private <T extends Entity> void fillEntityMap(List<T> entityList, EntityMap<T> entityMap) {
@@ -131,4 +146,7 @@ public class Base {
         return traitMap.findEntity(name);
     }
 
+    public TraitInstance getTraitByDescription(String value) {
+        return traitDescriptionMap.get(value);
+    }
 }
