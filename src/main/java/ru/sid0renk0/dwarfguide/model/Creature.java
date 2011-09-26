@@ -7,6 +7,9 @@ import org.simpleframework.xml.Root;
 import org.simpleframework.xml.convert.Convert;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import ru.sid0renk0.dwarfguide.model.configuration.Profession;
+import ru.sid0renk0.dwarfguide.model.configuration.Race;
+import ru.sid0renk0.dwarfguide.model.configuration.Sex;
 import ru.sid0renk0.dwarfguide.model.xml.BirthdayConverter;
 import ru.sid0renk0.dwarfguide.model.xml.IntegerInBracketsConverter;
 
@@ -56,17 +59,17 @@ public class Creature implements XMLSerializable {
     private int age;
 
     @ElementList
-    private List<Skill> skills;
+    private List<SkillInstance> skills;
 
 //    private ParametersGroup<AttributeEnum, GenericParameter> attributes;
 //    private ParametersGroup<TraitsEnum, GenericParameter> traits;
 //    private ParametersGroup<AttributeEnum, GenericParameter> labours;
 //
 //    private Mood mood;
-//    private Skill moodSkill;
+//    private SkillInstance moodSkill;
 
     public Creature() {
-        skills = new LinkedList<Skill>();
+        skills = new LinkedList<SkillInstance>();
 //        attributes = new ParametersGroup<AttributeEnum, GenericParameter>(AttributeEnum.class, GenericParameter.class);
     }
 

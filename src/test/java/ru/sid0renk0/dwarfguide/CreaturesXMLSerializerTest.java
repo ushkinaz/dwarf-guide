@@ -5,8 +5,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import ru.sid0renk0.dwarfguide.model.Creature;
 import ru.sid0renk0.dwarfguide.model.Creatures;
-import ru.sid0renk0.dwarfguide.model.Profession;
-import ru.sid0renk0.dwarfguide.model.Sex;
+import ru.sid0renk0.dwarfguide.model.configuration.Profession;
+import ru.sid0renk0.dwarfguide.model.configuration.Sex;
 
 import java.util.Calendar;
 

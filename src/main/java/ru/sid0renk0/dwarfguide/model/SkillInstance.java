@@ -4,14 +4,15 @@ import org.simpleframework.xml.Element;
 import org.simpleframework.xml.convert.Convert;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import ru.sid0renk0.dwarfguide.model.configuration.SkillEnum;
 import ru.sid0renk0.dwarfguide.model.xml.IntegerInBracketsConverter;
 
 /**
  * @author Dmitry Sidorenko
  */
-public class Skill extends GenericParameter {
+public class SkillInstance extends GenericParameter {
     @SuppressWarnings({"unused"})
-    private static final Logger LOGGER = LoggerFactory.getLogger(Skill.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(SkillInstance.class);
 
     @Element(name = "Name")
     private SkillEnum skillEnum;

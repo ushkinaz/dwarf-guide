@@ -6,7 +6,11 @@ import org.slf4j.LoggerFactory;
 /**
  * @author Dmitry Sidorenko
  */
-public class Configuration {
+public class Trait {
     @SuppressWarnings({"unused"})
-    private static final Logger LOGGER = LoggerFactory.getLogger(Configuration.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(Trait.class);
+
+    private int id;
+    private String name;
+
 }

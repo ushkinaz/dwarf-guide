@@ -11,8 +11,8 @@ import org.simpleframework.xml.transform.Transform;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import ru.sid0renk0.dwarfguide.model.Creatures;
-import ru.sid0renk0.dwarfguide.model.Sex;
-import ru.sid0renk0.dwarfguide.model.SkillEnum;
+import ru.sid0renk0.dwarfguide.model.configuration.Sex;
+import ru.sid0renk0.dwarfguide.model.configuration.SkillEnum;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import java.io.InputStream;

@@ -1,4 +1,4 @@
-package ru.sid0renk0.dwarfguide.model;
+package ru.sid0renk0.dwarfguide.model.configuration;
 
 import java.util.HashMap;
 import java.util.Map;
