@@ -4,7 +4,7 @@ import org.simpleframework.xml.Element;
 import org.simpleframework.xml.convert.Convert;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import ru.sid0renk0.dwarfguide.model.configuration.SkillEnum;
+import ru.sid0renk0.dwarfguide.model.configuration.Skill;
 import ru.sid0renk0.dwarfguide.model.xml.IntegerInBracketsConverter;
 
 /**
@@ -15,7 +15,7 @@ public class SkillInstance extends GenericParameter {
     private static final Logger LOGGER = LoggerFactory.getLogger(SkillInstance.class);
 
     @Element(name = "Name")
-    private SkillEnum skillEnum;
+    private Skill skill;
 
     @Element
     @Convert(IntegerInBracketsConverter.class)
@@ -24,8 +24,8 @@ public class SkillInstance extends GenericParameter {
     @Element
     private int experience;
 
-    public SkillEnum getSkillEnum() {
-        return skillEnum;
+    public Skill getSkill() {
+        return skill;
     }
 
     public int getLevel() {

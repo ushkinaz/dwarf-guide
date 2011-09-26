@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.notNullValue;
-import static org.junit.Assert.assertThat;
+import static org.junit.Assert.*;
 
 /**
  * @author Dmitry Sidorenko
@@ -45,6 +45,15 @@ public class DFHackConfigurationTest {
         assertThat(c.getBaseList(), notNullValue());
         assertThat(c.getBaseList().size(), is(2));
 
+        Base base = c.getBaseByVersion("DF2010", "windows");
+        assertThat(base, notNullValue());
 
+        assertThat(base.getMoods().size(), is(6));
+        assertThat(base.getTraits().size(), is(30));
+        assertThat(base.getProfessions().size(), is(106));
+        assertThat(base.getJobs().size(), is(224));
+        assertThat(base.getSkills().size(), is(116));
+        assertThat(base.getLevels().size(), is(21));
+        assertThat(base.getLabors().size(), is(73));
     }
 }

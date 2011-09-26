@@ -9,22 +9,15 @@ import org.slf4j.LoggerFactory;
  * @author Dmitry Sidorenko
  */
 @Root(strict = false)
-public class Version {
+public class Version extends Base{
     @SuppressWarnings({"unused"})
     private static final Logger LOGGER = LoggerFactory.getLogger(Version.class);
-
-    @Attribute
-    private String name;
 
     @Attribute
     private String os;
 
     @Attribute
     private String base;
-
-    public String getName() {
-        return name;
-    }
 
     public String getOs() {
         return os;

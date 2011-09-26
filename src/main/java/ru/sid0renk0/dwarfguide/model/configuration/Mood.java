@@ -8,25 +8,11 @@ import org.slf4j.LoggerFactory;
  * @author Dmitry Sidorenko
  */
 
-public class Mood {
+public class Mood extends Entity {
     @SuppressWarnings({"unused"})
     private static final Logger LOGGER = LoggerFactory.getLogger(Mood.class);
 
-    @Attribute
-    int id;
-
-    @Attribute
-    String name;
-
     public Mood() {
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public String getName() {
-        return name;
     }
 
     @Override

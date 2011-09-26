@@ -12,7 +12,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import ru.sid0renk0.dwarfguide.model.Creatures;
 import ru.sid0renk0.dwarfguide.model.configuration.Sex;
-import ru.sid0renk0.dwarfguide.model.configuration.SkillEnum;
+import ru.sid0renk0.dwarfguide.model.configuration.Skill;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import java.io.InputStream;
@@ -29,7 +29,7 @@ public class CreaturesXMLSerializer {
         Strategy strategy = new AnnotationStrategy();
         RegistryMatcher matcher = new RegistryMatcher();
 
-        matcher.bind(SkillEnum.class, new SkillEnumTransform());
+        matcher.bind(Skill.class, new SkillEnumTransform());
         matcher.bind(Sex.class, new EnumTransform<Sex>(Sex.class));
 
         Serializer serializer = new Persister(strategy, matcher, format);
@@ -55,14 +55,15 @@ public class CreaturesXMLSerializer {
         }
     }
 
-    private static class SkillEnumTransform implements Transform<SkillEnum> {
+    private static class SkillEnumTransform implements Transform<Skill> {
         @Override
-        public SkillEnum read(String value) throws Exception {
-            return SkillEnum.getByRuneSmithName(value);
+        public Skill read(String value) throws Exception {
+            throw new NotImplementedException();
+//            return Skill.getByRuneSmithName(value);
         }
 
         @Override
-        public String write(SkillEnum value) throws Exception {
+        public String write(Skill value) throws Exception {
             throw new NotImplementedException();
         }
     }

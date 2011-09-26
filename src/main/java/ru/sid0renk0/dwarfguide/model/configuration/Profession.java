@@ -1,164 +1,31 @@
 package ru.sid0renk0.dwarfguide.model.configuration;
 
+import org.simpleframework.xml.Attribute;
+
 /**
  * @author Dmitry Sidorenko
  */
-public enum Profession {
-    CHILD,
+public class Profession extends Entity{
 
-    MINER,
-    STONEWORKER,
-    ENGRAVER,
-    MASON,
-    ARCHITECT,
-    METALSMITH,
-    FURNACE_OPERATOR,
-    WEAPONSMITH,
-    ARMORER,
-    BLACKSMITH,
-    METALCRAFTER,
+    @Attribute
+    private boolean military;
 
-    FARMER,
-    MILLER,
-    THRESHER,
-    PLANTER,
-    HERBALIST,
-    MILKER,
-    CHEESE_MAKER,
-    POTASH_MAKER,
-    LYE_MAKER,
-    WOOD_BURNER,
-    SOAP_MAKER,
-    DYER,
-    TANNER,
-    BUTCHER,
-    COOK,
-    BREWER,
+    @Attribute(name = "can_assign_labors")
+    private String canAssignLabors;
 
-    CRAFTSMAN,
-    WOODCRAFTER,
-    STONECRAFTER,
-    LEATHERWORKER,
-    BONE_CARVER,
-    WEAVER,
-    CLOTHIER,
-    GLASSMAKER,
-    STRAND_EXTRACTOR,
-    ENGINEER,
-    MECHANIC,
-    SIEGE_ENGINEER,
-    SIEGE_OPERATOR,
-    PUMP_OPERATOR,
+    public boolean isMilitary() {
+        return military;
+    }
 
-    THIEF,
-    MASTER_THIEF,
+    public String getCanAssignLabors() {
+        return canAssignLabors;
+    }
 
-    WOODWORKER,
-    WOODCUTTER,
-    CARPENTER,
-    BOWYER,
-    RANGER,
-    ANIMAL_CARETAKER,
-    ANIMAL_TRAINER,
-    HUNTER,
-    TRAPPER,
-    ANIMAL_DISSECTOR,
-    FISHERY_WORKER,
-    FISHERMAN,
-    FISH_DISSECTOR,
-    FISH_CLEANER,
-
-    DRUID,
-    DRUNK,
-
-    JEWELER,
-    GEM_CUTTER,
-    GEM_SETTER,
-
-    CHIEF_PHYSICIAN,
-    DOCTOR,
-    DIAGNOSER,
-    SURGEON,
-    BONE_SETTER,
-    SUTURER,
-
-    PRIEST,
-    HIGH_PRIEST,
-    PHILOSOPHER,
-    ADVISOR,
-
-    DUNGEONMASTER,
-    QUARTERMASTER,
-    EXECUTIONER,
-
-    CLERK,
-    BROKER,
-    TRADER,
-    MERCHANT,
-    SHOPKEEPER,
-    MERCHANTBARON,
-    MERCHANTPRINCE,
-
-    BARON,
-    COUNT,
-    DUKE,
-    KING,
-
-    ALCHEMIST,
-    BOOKKEEPER,
-    TAXCOLLECTOR,
-
-    MAYOR,
-    LEADER,
-    DIPLOMAT,
-    GUILDREP,
-    OUTPOSTLIAISON,
-    ADMINISTRATOR,
-    MANAGER,
-
-    BARON_CONSORT,
-    COUNT_CONSORT,
-    DUKE_CONSORT,
-    KING_CONSORT,
-
-    RECRUIT,
-  
-    WRESTLER,
-    SWORDSMAN,
-    MACEMAN,
-    AXEMAN,
-    HAMMERMAN,
-    SPEARMAN,
-    PIKEMAN,
-    CROSSBOWMAN,
-    LASHER,
-    BOWMAN,
-    BLOWGUNMAN,
-  
-    CAPTAIN_OF_THE_GUARD,
-    SHERIFF,
-  
-    CHAMPION,
-
-    MASTER_WRESTLER,
-    MASTER_SWORDSMAN,
-    MASTER_MACEMAN,
-    MASTER_AXEMAN,
-    MASTER_HAMMERMAN,
-    MASTER_SPEARMAN,
-    MASTER_PIKEMAN,
-    MASTER_CROSSBOWMAN,
-    MASTER_LASHER,
-    MASTER_BOWMAN,
-    MASTER_BLOWGUNMAN,
-
-    //Todo: Runesmith exports in lowercase
-    Shearer,
-    SPINNER,
-    POTTER,
-    GLAZER,
-    PRESSER,
-    BEE_KEEPER,
-    WAX_WORKER,
-    
+    @Override
+    public String toString() {
+        return "Profession{" +
+                "military=" + military +
+                ", canAssignLabors='" + canAssignLabors + '\'' +
+                "} " + super.toString();
+    }
 }
