@@ -33,7 +33,7 @@
     <dependencies>
         <dependency>
             <groupId>ru.sid0renk0.dwarfguide</groupId>
-            <artifactId>xml-2-mps</artifactId>
+            <artifactId>dwarfguide-dfhack</artifactId>
             <version>${version}</version>
         </dependency>
 
