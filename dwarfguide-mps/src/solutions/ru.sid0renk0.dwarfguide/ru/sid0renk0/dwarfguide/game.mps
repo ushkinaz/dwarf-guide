@@ -10,9 +10,6 @@
     <node type="oily.CreatureFeats" typeId="oily.7336574368822246835" id="8768382629599860234">
       <property name="name" nameId="tpck.1169194664001" value="DwarfFortress DF2010" />
     </node>
-    <node type="oily.Game" typeId="oily.3025991346594298078" id="3025991346594298143">
-      <property name="name" nameId="tpck.1169194664001" value="Dwarf Fortress" />
-    </node>
   </roots>
   <root id="8768382629599860234">
     <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594286752">
@@ -48,14 +45,6 @@
     <node role="skill" roleId="oily.7336574368822246837" type="oily.Skill" typeId="oily.7336574368822058574" id="8768382629599863653">
       <property name="name" nameId="tpck.1169194664001" value="Wood Cutting" />
       <property name="identifier" nameId="oily.7336574368822048410" value="1" />
-    </node>
-  </root>
-  <root id="3025991346594298143">
-    <node role="version" roleId="oily.3025991346594298084" type="oily.GameVersion" typeId="oily.3025991346594298081" id="3025991346594306674">
-      <property name="name" nameId="tpck.1169194664001" value="40d" />
-    </node>
-    <node role="version" roleId="oily.3025991346594298084" type="oily.GameVersion" typeId="oily.3025991346594298081" id="3025991346594298144">
-      <property name="name" nameId="tpck.1169194664001" value="DF 2010" />
     </node>
   </root>
 </model>
