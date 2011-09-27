@@ -2,7 +2,6 @@
 <model modelUID="r:8ba5d3a4-7310-4278-b613-8f0d89d1a5f3(ru.sid0renk0.dwarfguide.game)">
   <persistence version="7" />
   <language namespace="e1765a93-ac50-40c3-96a0-0757007e948a(DwarfGuide)" />
-  <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <language-engaged-on-generation namespace="e1765a93-ac50-40c3-96a0-0757007e948a(DwarfGuide)" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="oily" modelUID="r:6971719d-e964-41ab-b051-652c6cbd412c(DwarfGuide.structure)" version="-1" implicit="yes" />
@@ -12,6 +11,16 @@
     </node>
   </roots>
   <root id="8768382629599860234">
+    <node role="profession" roleId="oily.2886000266267467112" type="oily.Profession" typeId="oily.3025991346594277152" id="2886000266267646863">
+      <property name="name" nameId="tpck.1169194664001" value="Miner" />
+      <property name="identifier" nameId="oily.7336574368822048410" value="9" />
+      <property name="military" nameId="oily.3025991346594277156" value="true" />
+    </node>
+    <node role="level" roleId="oily.2886000266267467113" type="oily.Level" typeId="oily.2886000266267467114" id="2886000266267646862">
+      <property name="name" nameId="tpck.1169194664001" value="Dabbling" />
+      <property name="identifier" nameId="oily.7336574368822048410" value="0" />
+      <property name="xpNextLevel" nameId="oily.2886000266267467120" value="500" />
+    </node>
     <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594286752">
       <property name="name" nameId="tpck.1169194664001" value="Fishing" />
       <property name="identifier" nameId="oily.7336574368822048410" value="41" />
