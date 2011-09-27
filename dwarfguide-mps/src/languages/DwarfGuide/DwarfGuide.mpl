@@ -23,12 +23,12 @@
     </generator>
   </generators>
   <stubModelEntries>
-    <stubModelEntry path="C:/Workspace/dg/dwarfguide-core/target/dwarfguide-core.jar">
+    <stubModelEntry path="${DWARVEN_PATH}/dwarfguide-core/target/dwarfguide-core.jar">
       <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
     </stubModelEntry>
   </stubModelEntries>
   <runtimeStubModels>
-    <stubModelEntry path="C:/Workspace/dg/dwarfguide-core/target/dwarfguide-core.jar">
+    <stubModelEntry path="${DWARVEN_PATH}/dwarfguide-core/target/dwarfguide-core.jar">
       <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
     </stubModelEntry>
   </runtimeStubModels>
