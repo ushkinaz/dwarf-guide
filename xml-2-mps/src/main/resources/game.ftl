@@ -9,20 +9,19 @@
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="oily" modelUID="r:6971719d-e964-41ab-b051-652c6cbd412c(DwarfGuide.structure)" version="-1" implicit="yes" />
   <roots>
-[#foreach version in versions]
+
     <node type="oily.CreatureFeats" typeId="oily.7336574368822246835" id="8768382629599860234">
-      <property name="name" nameId="tpck.1169194664001" value="${version.os}" />
-    </node>
-[/#foreach]
-    <node type="oily.Game" typeId="oily.3025991346594298078" id="3025991346594298143">
-      <property name="name" nameId="tpck.1169194664001" value="Dwarf Fortress" />
+      <property name="name" nameId="tpck.1169194664001" value="${name}" />
     </node>
   </roots>
   <root id="8768382629599860234">
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594286752">
-      <property name="name" nameId="tpck.1169194664001" value="Fishing" />
-      <property name="identifier" nameId="oily.7336574368822048410" value="41" />
+[#foreach labour in labours]
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="30259913465942867${labour.id}">
+      <property name="name" nameId="tpck.1169194664001" value="${labour.name}" />
+      <property name="identifier" nameId="oily.7336574368822048410" value="${labour.id}" />
     </node>
+[/#foreach]
+
     <!--node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594286752">
       <property name="name" nameId="tpck.1169194664001" value="Fishing" />
       <property name="identifier" nameId="oily.7336574368822048410" value="41" />

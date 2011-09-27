@@ -46,7 +46,7 @@ public class Convert {
         cfg.setObjectWrapper(new BeansWrapper());
         OutputStreamWriter output = new OutputStreamWriter(System.out);
 
-        tpl.process(configuration, output);
+        tpl.process(configuration.getBaseByVersion("DF2010"), output);
     }
 
     private static boolean isChecked(String value) {
