@@ -15,6 +15,7 @@
       <property name="name" nameId="tpck.1169194664001" value="Miner" />
       <property name="identifier" nameId="oily.7336574368822048410" value="9" />
       <property name="military" nameId="oily.3025991346594277156" value="true" />
+      <property name="canAssignLabors" nameId="oily.3025991346594277157" value="true" />
     </node>
     <node role="level" roleId="oily.2886000266267467113" type="oily.Level" typeId="oily.2886000266267467114" id="2886000266267646862">
       <property name="name" nameId="tpck.1169194664001" value="Dabbling" />

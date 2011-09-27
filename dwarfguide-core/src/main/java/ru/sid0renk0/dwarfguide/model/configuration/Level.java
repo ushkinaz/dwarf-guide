@@ -29,5 +29,9 @@ public class Level extends Entity {
 
     @Attribute(name = "xpNxtLvl")
     private int experienceNextLevel;
+    
+    public int getExperienceNextLevel(){
+        return experienceNextLevel;
+    }
 
 }

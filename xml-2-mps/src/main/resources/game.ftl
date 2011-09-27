@@ -16,54 +16,62 @@
   </roots>
   <root id="8768382629599860234">
 [#foreach labour in labours]
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="30259913465942867${labour.id}">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="30259913465941000${labour.id}">
       <property name="name" nameId="tpck.1169194664001" value="${labour.name}" />
       <property name="identifier" nameId="oily.7336574368822048410" value="${labour.id}" />
     </node>
 [/#foreach]
 
-    <!--node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594286752">
-      <property name="name" nameId="tpck.1169194664001" value="Fishing" />
-      <property name="identifier" nameId="oily.7336574368822048410" value="41" />
+[#foreach job in jobs]
+    <node role="job" roleId="oily.3025991346594277172" type="oily.Job" typeId="oily.3025991346594277158" id="30259913465942000${job.id}">
+      <property name="name" nameId="tpck.1169194664001" value="${job.name}" />
+      <property name="identifier" nameId="oily.7336574368822048410" value="${job.id}" />
     </node>
-    <node role="job" roleId="oily.3025991346594277172" type="oily.Job" typeId="oily.3025991346594277158" id="3025991346594286751">
-      <property name="name" nameId="tpck.1169194664001" value="Miner" />
-      <property name="identifier" nameId="oily.7336574368822048410" value="22" />
+[/#foreach]
+
+[#foreach skill in skills]
+    <node role="skill" roleId="oily.7336574368822246837" type="oily.Skill" typeId="oily.7336574368822058574" id="8768382629599863${skill.id}">
+      <property name="name" nameId="tpck.1169194664001" value="${skill.name}" />
+      <property name="identifier" nameId="oily.7336574368822048410" value="${skill.id}" />
     </node>
-    <node role="mood" roleId="oily.3025991346594277151" type="oily.Mood" typeId="oily.3025991346594271712" id="3025991346594286750">
-      <property name="name" nameId="tpck.1169194664001" value="Fey" />
-      <property name="identifier" nameId="oily.7336574368822048410" value="0" />
+[/#foreach]
+
+[#foreach trait in traits]
+    <node role="trait" roleId="oily.3025991346594271710" type="oily.Trait" typeId="oily.3025991346593851837" id="3025991346594280${trait.id}">
+      <property name="name" nameId="tpck.1169194664001" value="${trait.name}" />
+      <property name="identifier" nameId="oily.7336574368822048410" value="${trait.name}" />
+      <property name="level_0" nameId="oily.3025991346593851843" value="${trait.level_0}" />
+      <property name="level_1" nameId="oily.3025991346593851846" value="${trait.level_1}" />
+      <property name="level_2" nameId="oily.3025991346593851847" value="${trait.level_2}" />
+      <property name="level_3" nameId="oily.3025991346593851850" value="${trait.level_3}" />
+      <property name="level_4" nameId="oily.3025991346593851849" value="${trait.level_4}" />
+      <property name="level_5" nameId="oily.3025991346593851848" value="${trait.level_5}" />
     </node>
-    <node role="mood" roleId="oily.3025991346594277151" type="oily.Mood" typeId="oily.3025991346594271712" id="3025991346594298077">
-      <property name="name" nameId="tpck.1169194664001" value="Possesed" />
-      <property name="identifier" nameId="oily.7336574368822048410" value="1" />
+[/#foreach]
+
+[#foreach level in levels]
+    <node role="level" roleId="oily.2886000266267467113" type="oily.Level" typeId="oily.2886000266267467114" id="2886000266267646${level.id}">
+      <property name="name" nameId="tpck.1169194664001" value="${level.name}" />
+      <property name="identifier" nameId="oily.7336574368822048410" value="${level.id}" />
+      <property name="xpNextLevel" nameId="oily.2886000266267467120" value="${level.experienceNextLevel}" />
     </node>
-    <node role="trait" roleId="oily.3025991346594271710" type="oily.Trait" typeId="oily.3025991346593851837" id="3025991346594286749">
-      <property name="name" nameId="tpck.1169194664001" value="Nervousness" />
-      <property name="identifier" nameId="oily.7336574368822048410" value="3" />
-      <property name="level_0" nameId="oily.3025991346593851843" value="Is a nervous wreck" />
-      <property name="level_1" nameId="oily.3025991346593851846" value="Is always tense and jittery" />
-      <property name="level_2" nameId="oily.3025991346593851847" value="Is often nervous" />
-      <property name="level_3" nameId="oily.3025991346593851850" value="Has a calm demeanor" />
-      <property name="level_4" nameId="oily.3025991346593851849" value="Has a calm demeanor" />
-      <property name="level_5" nameId="oily.3025991346593851848" value="Has a calm demeanor" />
+[/#foreach]
+
+[#foreach mood in moods]
+    <node role="mood" roleId="oily.3025991346594277151" type="oily.Mood" typeId="oily.3025991346594271712" id="30259913465944${mood.id}">
+      <property name="name" nameId="tpck.1169194664001" value="${mood.name}" />
+      <property name="identifier" nameId="oily.7336574368822048410" value="${mood.id}" />
     </node>
-    <node role="skill" roleId="oily.7336574368822246837" type="oily.Skill" typeId="oily.7336574368822058574" id="8768382629599863652">
-      <property name="name" nameId="tpck.1169194664001" value="Mining" />
-      <property name="identifier" nameId="oily.7336574368822048410" value="0" />
+[/#foreach]
+
+[#foreach profession in professions]
+    <node role="profession" roleId="oily.2886000266267467112" type="oily.Profession" typeId="oily.3025991346594277152" id="288600026626762${profession.id}">
+      <property name="name" nameId="tpck.1169194664001" value="${profession.name}" />
+      <property name="identifier" nameId="oily.7336574368822048410" value="${profession.id}" />
+      <property name="military" nameId="oily.3025991346594277156" value="${profession.military}" />
+      <property name="canAssignLabors" nameId="oily.3025991346594277157" value="${profession.canAssignLabors}" />
     </node>
-    <node role="skill" roleId="oily.7336574368822246837" type="oily.Skill" typeId="oily.7336574368822058574" id="8768382629599863653">
-      <property name="name" nameId="tpck.1169194664001" value="Wood Cutting" />
-      <property name="identifier" nameId="oily.7336574368822048410" value="1" />
-    </node>
-  </root>
-  <root id="3025991346594298143">
-    <node role="version" roleId="oily.3025991346594298084" type="oily.GameVersion" typeId="oily.3025991346594298081" id="3025991346594306674">
-      <property name="name" nameId="tpck.1169194664001" value="40d" />
-    </node>
-    <node role="version" roleId="oily.3025991346594298084" type="oily.GameVersion" typeId="oily.3025991346594298081" id="3025991346594298144">
-      <property name="name" nameId="tpck.1169194664001" value="DF 2010" />
-    </node>
-  </root>
+[/#foreach]
+
 </model>
 
