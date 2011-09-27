@@ -20,7 +20,7 @@ import org.junit.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.io.InputStream;
+import java.io.FileOutputStream;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.notNullValue;
@@ -34,17 +34,12 @@ public class DFHackConfigurationReaderTest {
     private static final Logger LOGGER = LoggerFactory.getLogger(DFHackConfigurationReaderTest.class);
 
     DFHackConfigurationReader reader;
-    DFHackConfiguration config;
+    DFHackConfiguration       config;
 
     @Before
     public void setup() throws Exception {
-        InputStream resourceAsStream = this.getClass().getClassLoader().getResourceAsStream("Memory.xml");
-
-        try {
-            config = reader.deserialize();
-        } finally {
-            resourceAsStream.close();
-        }
+        reader = new DFHackConfigurationReader("TestMemory.xml");
+        config = reader.deserialize();
     }
 
     @Test

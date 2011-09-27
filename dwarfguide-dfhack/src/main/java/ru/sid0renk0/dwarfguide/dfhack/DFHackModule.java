@@ -27,7 +27,14 @@ import com.google.inject.name.Names;
 
 
 public class DFHackModule extends AbstractModule {
+
+    private String configFile;
+
+    public DFHackModule(String configFile) {
+        this.configFile = configFile;
+    }
+
     protected void configure() {
-        bind(String.class).annotatedWith(Names.named("dfhack.xml")).toInstance("Memory.xml");
+        bind(String.class).annotatedWith(Names.named("dfhack.xml")).toInstance(configFile);
     }
 }

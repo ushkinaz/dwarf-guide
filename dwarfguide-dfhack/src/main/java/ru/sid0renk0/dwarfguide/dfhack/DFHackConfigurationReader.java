@@ -23,8 +23,6 @@ import org.simpleframework.xml.core.Persister;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.io.BufferedInputStream;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 
@@ -45,12 +43,7 @@ public class DFHackConfigurationReader {
         Serializer serializer = new Persister();
 
         InputStream in = null;
-        try {
-            in = new BufferedInputStream(new FileInputStream(fileName));
-        } catch (FileNotFoundException e) {
-            LOGGER.error("Can't file file: " + fileName, e);
-            throw e;
-        }
+        in = DFHackConfigurationReader.class.getResourceAsStream(fileName);
         return serializer.read(DFHackConfiguration.class, in);
     }
 

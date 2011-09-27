@@ -18,7 +18,6 @@ package ru.sid0renk0.dwarfguide.xml2mps;
 
 import com.google.inject.Guice;
 import com.google.inject.Injector;
-import freemarker.ext.beans.BeansWrapper;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
 import org.slf4j.Logger;
@@ -28,7 +27,6 @@ import ru.sid0renk0.dwarfguide.dfhack.DFHackConfigurationReader;
 import ru.sid0renk0.dwarfguide.dfhack.DFHackModule;
 
 import java.io.BufferedOutputStream;
-import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.OutputStreamWriter;
 
@@ -38,23 +36,24 @@ public class Convert {
 
     public static void main(String[] args) {
         try {
-            doConvert();
+            String configFile = "Memory.xml";
+            if (args.length > 0) {
+                configFile = args[0];
+            }
+            Injector injector = Guice.createInjector(new DFHackModule(configFile));
+            DFHackConfigurationReader configurationReader = injector.getInstance(DFHackConfigurationReader.class);
+
+            DFHackConfiguration configuration = configurationReader.deserialize();
+
+            Configuration cfg = new Configuration();
+
+            Template tpl = cfg.getTemplate("game.ftl");
+            OutputStreamWriter output = new OutputStreamWriter(new BufferedOutputStream(new FileOutputStream("game.mps")));
+
+            tpl.process(configuration.getBaseByVersion("DF2010"), output);
         } catch (Exception e) {
             LOGGER.error("Error", e);
         }
     }
 
-    private static void doConvert() throws Exception {
-        Injector injector = Guice.createInjector(new DFHackModule());
-        DFHackConfigurationReader configurationReader = injector.getInstance(DFHackConfigurationReader.class);
-
-        DFHackConfiguration configuration = configurationReader.deserialize();
-
-        Configuration cfg = new Configuration();
-        Template tpl = cfg.getTemplate("game.ftl", "UTF-8");
-        cfg.setObjectWrapper(new BeansWrapper());
-        OutputStreamWriter output = new OutputStreamWriter(new BufferedOutputStream(new FileOutputStream("game.xml")));
-
-        tpl.process(configuration.getBaseByVersion("DF2010"), output);
-    }
 }
