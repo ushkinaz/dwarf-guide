@@ -30,9 +30,9 @@
     <dependencies>
 
         <dependency>
-            <groupId>ru.sid0renk0.dwarfguide</groupId>
-            <artifactId>dwarfguide-core</artifactId>
-            <version>${version}</version>
+            <groupId>org.simpleframework</groupId>
+            <artifactId>simple-xml</artifactId>
+            <version>2.6.1</version>
         </dependency>
 
         <dependency>

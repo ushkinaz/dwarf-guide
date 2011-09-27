@@ -20,7 +20,7 @@ import org.simpleframework.xml.Element;
 import org.simpleframework.xml.convert.Convert;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import ru.sid0renk0.dwarfguide.model.configuration.Skill;
+import ru.sid0renk0.dwarfguide.dfhack.Skill;
 import ru.sid0renk0.dwarfguide.model.converters.IntegerInBracketsConverter;
 
 /**

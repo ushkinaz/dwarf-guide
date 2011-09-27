@@ -25,7 +25,7 @@ import org.simpleframework.xml.convert.Convert;
 import org.simpleframework.xml.core.Commit;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import ru.sid0renk0.dwarfguide.model.configuration.*;
+import ru.sid0renk0.dwarfguide.dfhack.*;
 import ru.sid0renk0.dwarfguide.model.converters.BirthdayConverter;
 import ru.sid0renk0.dwarfguide.model.converters.IntegerInBracketsConverter;
 

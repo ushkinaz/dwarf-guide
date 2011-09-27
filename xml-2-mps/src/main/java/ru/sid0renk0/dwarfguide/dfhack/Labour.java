@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package ru.sid0renk0.dwarfguide.model.configuration;
+package ru.sid0renk0.dwarfguide.dfhack;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -22,7 +22,7 @@ import org.slf4j.LoggerFactory;
 /**
  * @author Dmitry Sidorenko
  */
-public class Job extends Entity {
+public class Labour extends Entity {
     @SuppressWarnings({"unused"})
-    private static final Logger LOGGER = LoggerFactory.getLogger(Job.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(Labour.class);
 }

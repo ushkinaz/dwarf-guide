@@ -18,7 +18,7 @@ package ru.sid0renk0.dwarfguide.model;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import ru.sid0renk0.dwarfguide.model.configuration.Trait;
+import ru.sid0renk0.dwarfguide.dfhack.Trait;
 
 /**
  * @author Dmitry Sidorenko

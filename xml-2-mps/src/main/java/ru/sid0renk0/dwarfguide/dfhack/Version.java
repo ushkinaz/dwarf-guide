@@ -14,58 +14,43 @@
  * limitations under the License.
  */
 
-package ru.sid0renk0.dwarfguide.model.configuration;
+package ru.sid0renk0.dwarfguide.dfhack;
 
 import org.simpleframework.xml.Attribute;
+import org.simpleframework.xml.Root;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
  * @author Dmitry Sidorenko
  */
-public class Entity {
+@Root(strict = false)
+public class Version extends Base {
     @SuppressWarnings({"unused"})
-    private static final Logger LOGGER = LoggerFactory.getLogger(Entity.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(Version.class);
 
     @Attribute
-    protected int    id;
+    private String os;
+
     @Attribute
-    protected String name;
+    private String base;
 
-
-    public int getId() {
-        return id;
+    public String getOs() {
+        return os;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) {
-            return true;
-        }
-        if (o == null || getClass() != o.getClass()) {
-            return false;
-        }
-
-        Entity entity = (Entity) o;
-
-        if (id != entity.id) {
-            return false;
-        }
-
-        return true;
-    }
-
-    @Override
-    public int hashCode() {
-        return id;
+    public String getBase() {
+        return base;
     }
 
     @Override
     public String toString() {
-        return "{name='" + name + "\'}";
+        final StringBuilder sb = new StringBuilder();
+        sb.append("Version");
+        sb.append("{name='").append(name).append('\'');
+        sb.append(", os='").append(os).append('\'');
+        sb.append(", base='").append(base).append('\'');
+        sb.append('}');
+        return sb.toString();
     }
 }

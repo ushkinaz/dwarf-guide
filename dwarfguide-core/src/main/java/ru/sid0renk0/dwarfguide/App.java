@@ -20,7 +20,6 @@ import com.google.inject.Guice;
 import com.google.inject.Injector;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import ru.sid0renk0.dwarfguide.model.configuration.DFHackConfiguration;
 
 public class App {
     @SuppressWarnings({"UnusedDeclaration"})
@@ -30,8 +29,6 @@ public class App {
         final GuideModule module = new GuideModule();
 
         Injector injector = Guice.createInjector(module);
-
-        DFHackConfiguration configuration = injector.getInstance(DFHackConfiguration.class);
 
     }
 }

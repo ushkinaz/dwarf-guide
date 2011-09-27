@@ -14,43 +14,34 @@
  * limitations under the License.
  */
 
-package ru.sid0renk0.dwarfguide.model.configuration;
+package ru.sid0renk0.dwarfguide.dfhack;
 
 import org.simpleframework.xml.Attribute;
-import org.simpleframework.xml.Root;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 /**
  * @author Dmitry Sidorenko
  */
-@Root(strict = false)
-public class Version extends Base {
-    @SuppressWarnings({"unused"})
-    private static final Logger LOGGER = LoggerFactory.getLogger(Version.class);
+public class Profession extends Entity {
 
     @Attribute
-    private String os;
+    private boolean military;
 
-    @Attribute
-    private String base;
+    @Attribute(name = "can_assign_labors")
+    private String canAssignLabors;
 
-    public String getOs() {
-        return os;
+    public boolean isMilitary() {
+        return military;
     }
 
-    public String getBase() {
-        return base;
+    public String getCanAssignLabors() {
+        return canAssignLabors;
     }
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder();
-        sb.append("Version");
-        sb.append("{name='").append(name).append('\'');
-        sb.append(", os='").append(os).append('\'');
-        sb.append(", base='").append(base).append('\'');
-        sb.append('}');
-        return sb.toString();
+        return "Profession{" +
+                "military=" + military +
+                ", canAssignLabors='" + canAssignLabors + '\'' +
+                "} " + super.toString();
     }
 }

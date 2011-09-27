@@ -14,34 +14,28 @@
  * limitations under the License.
  */
 
-package ru.sid0renk0.dwarfguide.model.configuration;
+package ru.sid0renk0.dwarfguide.dfhack;
 
-import org.simpleframework.xml.Attribute;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * @author Dmitry Sidorenko
  */
-public class Profession extends Entity {
 
-    @Attribute
-    private boolean military;
+public class Mood extends Entity {
+    @SuppressWarnings({"unused"})
+    private static final Logger LOGGER = LoggerFactory.getLogger(Mood.class);
 
-    @Attribute(name = "can_assign_labors")
-    private String canAssignLabors;
-
-    public boolean isMilitary() {
-        return military;
-    }
-
-    public String getCanAssignLabors() {
-        return canAssignLabors;
-    }
+    private static EntityMap<Mood> entityMap = new EntityMap<Mood>();
 
     @Override
     public String toString() {
-        return "Profession{" +
-                "military=" + military +
-                ", canAssignLabors='" + canAssignLabors + '\'' +
-                "} " + super.toString();
+        final StringBuilder sb = new StringBuilder();
+        sb.append("Mood");
+        sb.append("{id=").append(id);
+        sb.append(", name='").append(name).append('\'');
+        sb.append('}');
+        return sb.toString();
     }
 }

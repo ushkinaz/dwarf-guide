@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package ru.sid0renk0.dwarfguide.model.configuration;
+package ru.sid0renk0.dwarfguide.dfhack;
 
 import org.simpleframework.xml.ElementList;
 import org.simpleframework.xml.Root;

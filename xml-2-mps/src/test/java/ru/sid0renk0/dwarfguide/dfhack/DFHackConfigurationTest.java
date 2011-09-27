@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package ru.sid0renk0.dwarfguide.model.configuration;
+package ru.sid0renk0.dwarfguide.dfhack;
 
 import org.junit.*;
 import org.slf4j.Logger;
@@ -69,13 +69,4 @@ public class DFHackConfigurationTest {
         assertThat(base.getLabours().size(), is(73));
     }
 
-    @Test
-    public void testEntities() throws Exception {
-
-        Base base = config.getBaseByVersion("DF2010");
-        assertThat(base.getJob("Carve Ramp").getId(), is(7));
-
-//        "Shearer"
-//        Profession.
-    }
 }

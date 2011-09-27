@@ -25,26 +25,12 @@ package ru.sid0renk0.dwarfguide;
 import com.google.inject.AbstractModule;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import ru.sid0renk0.dwarfguide.model.Creatures;
-import ru.sid0renk0.dwarfguide.model.configuration.DFHackConfiguration;
-
-import java.io.InputStream;
-
-import static ru.sid0renk0.dwarfguide.model.configuration.DFHackConfiguration.deserialize;
 
 public class GuideModule extends AbstractModule {
     @SuppressWarnings({"UnusedDeclaration"})
     private static final Logger LOGGER = LoggerFactory.getLogger(GuideModule.class);
 
     protected void configure() {
-        InputStream in = this.getClass().getClassLoader().getResourceAsStream("Memory.xml");
-        try {
-            bind(DFHackConfiguration.class).toInstance(deserialize(in));
-            bind(Creatures.class).toProvider(CreaturesXMLSerializer.class);
-        } catch (Exception e) {
-            //TODO: add proper handling
-            LOGGER.error("Error", e);
-        }
     }
 }
 

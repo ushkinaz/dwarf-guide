@@ -21,7 +21,7 @@ import freemarker.template.Configuration;
 import freemarker.template.Template;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import ru.sid0renk0.dwarfguide.model.configuration.DFHackConfiguration;
+import ru.sid0renk0.dwarfguide.dfhack.DFHackConfiguration;
 
 import java.io.FileInputStream;
 import java.io.OutputStreamWriter;

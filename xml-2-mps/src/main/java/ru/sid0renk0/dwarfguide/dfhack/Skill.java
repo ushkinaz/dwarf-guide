@@ -14,12 +14,10 @@
  * limitations under the License.
  */
 
-package ru.sid0renk0.dwarfguide.model.configuration;
+package ru.sid0renk0.dwarfguide.dfhack;
 
 /**
  * @author Dmitry Sidorenko
  */
-public enum Sex {
-    MALE,
-    FEMALE
+public class Skill extends Entity {
 }
