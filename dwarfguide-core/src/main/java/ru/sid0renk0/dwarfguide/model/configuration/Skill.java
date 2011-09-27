@@ -20,7 +20,4 @@ package ru.sid0renk0.dwarfguide.model.configuration;
  * @author Dmitry Sidorenko
  */
 public class Skill extends Entity {
-    public Skill(int id, String name) {
-        super(id, name);
-    }
 }
