@@ -7,11 +7,33 @@
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="oily" modelUID="r:6971719d-e964-41ab-b051-652c6cbd412c(DwarfGuide.structure)" version="-1" implicit="yes" />
   <roots>
-    <node type="oily.SkillRepository" typeId="oily.7336574368822246835" id="8768382629599860234">
-      <property name="name" nameId="tpck.1169194664001" value="CreatureSkills" />
+    <node type="oily.CreatureFeats" typeId="oily.7336574368822246835" id="8768382629599860234">
+      <property name="name" nameId="tpck.1169194664001" value="DwarfFortress DF2010" />
     </node>
   </roots>
   <root id="8768382629599860234">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594286752">
+      <property name="name" nameId="tpck.1169194664001" value="Fishing" />
+      <property name="identifier" nameId="oily.7336574368822048410" value="41" />
+    </node>
+    <node role="job" roleId="oily.3025991346594277172" type="oily.Job" typeId="oily.3025991346594277158" id="3025991346594286751">
+      <property name="name" nameId="tpck.1169194664001" value="Miner" />
+      <property name="identifier" nameId="oily.7336574368822048410" value="22" />
+    </node>
+    <node role="mood" roleId="oily.3025991346594277151" type="oily.Mood" typeId="oily.3025991346594271712" id="3025991346594286750">
+      <property name="name" nameId="tpck.1169194664001" value="Fey" />
+      <property name="identifier" nameId="oily.7336574368822048410" value="4" />
+    </node>
+    <node role="trait" roleId="oily.3025991346594271710" type="oily.Trait" typeId="oily.3025991346593851837" id="3025991346594286749">
+      <property name="name" nameId="tpck.1169194664001" value="Nervousness" />
+      <property name="identifier" nameId="oily.7336574368822048410" value="3" />
+      <property name="level_0" nameId="oily.3025991346593851843" value="Is a nervous wreck" />
+      <property name="level_1" nameId="oily.3025991346593851846" value="Is always tense and jittery" />
+      <property name="level_2" nameId="oily.3025991346593851847" value="Is often nervous" />
+      <property name="level_3" nameId="oily.3025991346593851850" value="Has a calm demeanor" />
+      <property name="level_4" nameId="oily.3025991346593851849" value="Has a calm demeanor" />
+      <property name="level_5" nameId="oily.3025991346593851848" value="Has a calm demeanor" />
+    </node>
     <node role="skill" roleId="oily.7336574368822246837" type="oily.Skill" typeId="oily.7336574368822058574" id="8768382629599863652">
       <property name="name" nameId="tpck.1169194664001" value="Mining" />
       <property name="identifier" nameId="oily.7336574368822048410" value="0" />
