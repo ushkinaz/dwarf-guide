@@ -21,6 +21,7 @@
         <module>dwarfguide-ui</module>
         <module>dwarfguide-mps</module>
         <module>dwarfguide-core</module>
+        <module>xml-2-mps</module>
     </modules>
 
     <build>
