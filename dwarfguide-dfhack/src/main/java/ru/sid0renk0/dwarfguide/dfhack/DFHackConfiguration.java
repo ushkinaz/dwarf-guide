@@ -76,10 +76,4 @@ public class DFHackConfiguration {
     }
 
 
-    public static DFHackConfiguration deserialize(InputStream in) throws Exception {
-        Serializer serializer = new Persister();
-
-        return serializer.read(DFHackConfiguration.class, in);
-    }
-
 }

@@ -16,14 +16,20 @@
 
 package ru.sid0renk0.dwarfguide.xml2mps;
 
+import com.google.inject.Guice;
+import com.google.inject.Injector;
 import freemarker.ext.beans.BeansWrapper;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import ru.sid0renk0.dwarfguide.dfhack.DFHackConfiguration;
+import ru.sid0renk0.dwarfguide.dfhack.DFHackConfigurationReader;
+import ru.sid0renk0.dwarfguide.dfhack.DFHackModule;
 
+import java.io.BufferedOutputStream;
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.OutputStreamWriter;
 
 public class Convert {
@@ -39,22 +45,16 @@ public class Convert {
     }
 
     private static void doConvert() throws Exception {
-        DFHackConfiguration configuration = DFHackConfiguration.deserialize(new FileInputStream("Memory.xml"));
+        Injector injector = Guice.createInjector(new DFHackModule());
+        DFHackConfigurationReader configurationReader = injector.getInstance(DFHackConfigurationReader.class);
+
+        DFHackConfiguration configuration = configurationReader.deserialize();
 
         Configuration cfg = new Configuration();
         Template tpl = cfg.getTemplate("game.ftl", "UTF-8");
         cfg.setObjectWrapper(new BeansWrapper());
-        OutputStreamWriter output = new OutputStreamWriter(System.out);
+        OutputStreamWriter output = new OutputStreamWriter(new BufferedOutputStream(new FileOutputStream("game.xml")));
 
         tpl.process(configuration.getBaseByVersion("DF2010"), output);
-    }
-
-    private static boolean isChecked(String value) {
-        return "+".equals(value.trim());
-    }
-
-    // Process a template using FreeMarker and print the results
-
-    static void freemarkerDo(DFHackConfiguration datamodel, String template) throws Exception {
     }
 }

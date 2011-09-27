@@ -29,10 +29,11 @@ import static org.junit.Assert.*;
 /**
  * @author Dmitry Sidorenko
  */
-public class DFHackConfigurationTest {
+public class DFHackConfigurationReaderTest {
     @SuppressWarnings({"unused"})
-    private static final Logger LOGGER = LoggerFactory.getLogger(DFHackConfigurationTest.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(DFHackConfigurationReaderTest.class);
 
+    DFHackConfigurationReader reader;
     DFHackConfiguration config;
 
     @Before
@@ -40,7 +41,7 @@ public class DFHackConfigurationTest {
         InputStream resourceAsStream = this.getClass().getClassLoader().getResourceAsStream("Memory.xml");
 
         try {
-            config = DFHackConfiguration.deserialize(resourceAsStream);
+            config = reader.deserialize();
         } finally {
             resourceAsStream.close();
         }
