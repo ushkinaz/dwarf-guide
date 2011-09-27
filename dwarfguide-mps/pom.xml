@@ -29,4 +29,11 @@
     </parent>
 
     <name>MPS generated files for DwarfGuide</name>
+    <dependencies>
+        <dependency>
+            <groupId>ru.sid0renk0.dwarfguide</groupId>
+            <artifactId>dwarfguide-core</artifactId>
+            <version>${version}</version>
+        </dependency>
+    </dependencies>
 </project>
