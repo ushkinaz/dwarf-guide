@@ -1,5 +1,6 @@
 [#ftl]
-[#assign id = 1]
+[#setting number_format="computer"]
+[#assign id = 3025991346594277173]
 [#macro macro_id][#assign id = id + 1] id="${id}"[/#macro]
 [#-- @ftlvariable name="" type="ru.sid0renk0.dwarfguide.dfhack.Base" --]
 [#--Fucking important to have no empty line at the beginning. Who knew Java is so space dependant--]
