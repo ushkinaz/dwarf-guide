@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="HasName.java" startLine="6" startPosition="0" endLine="9" endPosition="0" unitName="ru.sid0renk0.dwarfguide.game.HasName" />
+  <unitInfo fileName="EnumRegistry.java" startLine="6" startPosition="0" endLine="22" endPosition="0" unitName="ru.sid0renk0.dwarfguide.game.EnumRegistry" />
+  <root nodeId="2935713650493978824">
+    <nodeInfo nodeId="2935713650493978824" fileName="LevelEnum.java" startLine="28" startPosition="0" endLine="29" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="name" />
+    <nodeInfo nodeId="2935713650493978824" fileName="LevelEnum.java" startLine="31" startPosition="26" endLine="32" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2935713650493978824" fileName="LevelEnum.java" startLine="35" startPosition="28" endLine="36" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2935713650493978824" fileName="LevelEnum.java" startLine="30" startPosition="0" endLine="33" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="LevelEnum#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="2935713650493978824" fileName="LevelEnum.java" startLine="34" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="toString#()Ljava/lang/String;" />
+    <scopeInfo nodeId="2935713650493978824" fileName="LevelEnum.java" startLine="31" startPosition="26" endLine="32" endPosition="21" />
+    <scopeInfo nodeId="2935713650493978824" fileName="LevelEnum.java" startLine="35" startPosition="28" endLine="36" endPosition="16" />
+    <scopeInfo nodeId="2935713650493978824" fileName="LevelEnum.java" startLine="30" startPosition="0" endLine="33" endPosition="3" />
+    <scopeInfo nodeId="2935713650493978824" fileName="LevelEnum.java" startLine="34" startPosition="0" endLine="38" endPosition="0" />
+    <unitInfo nodeId="2935713650493978824" fileName="LevelEnum.java" startLine="6" startPosition="0" endLine="39" endPosition="0" unitName="ru.sid0renk0.dwarfguide.game.LevelEnum" />
+  </root>
+  <root nodeId="2935713650493982395">
+    <nodeInfo nodeId="2935713650493982395" fileName="MoodEnum.java" startLine="13" startPosition="0" endLine="14" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="name" />
+    <nodeInfo nodeId="2935713650493982395" fileName="MoodEnum.java" startLine="16" startPosition="25" endLine="17" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2935713650493982395" fileName="MoodEnum.java" startLine="20" startPosition="28" endLine="21" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2935713650493982395" fileName="MoodEnum.java" startLine="15" startPosition="0" endLine="18" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MoodEnum#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="2935713650493982395" fileName="MoodEnum.java" startLine="19" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="toString#()Ljava/lang/String;" />
+    <scopeInfo nodeId="2935713650493982395" fileName="MoodEnum.java" startLine="16" startPosition="25" endLine="17" endPosition="21" />
+    <scopeInfo nodeId="2935713650493982395" fileName="MoodEnum.java" startLine="20" startPosition="28" endLine="21" endPosition="16" />
+    <scopeInfo nodeId="2935713650493982395" fileName="MoodEnum.java" startLine="15" startPosition="0" endLine="18" endPosition="3" />
+    <scopeInfo nodeId="2935713650493982395" fileName="MoodEnum.java" startLine="19" startPosition="0" endLine="23" endPosition="0" />
+    <unitInfo nodeId="2935713650493982395" fileName="MoodEnum.java" startLine="6" startPosition="0" endLine="24" endPosition="0" unitName="ru.sid0renk0.dwarfguide.game.MoodEnum" />
+  </root>
+  <root nodeId="2935713650493982396">
+    <nodeInfo nodeId="2935713650493982396" fileName="ProfessionEnum.java" startLine="113" startPosition="0" endLine="114" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="name" />
+    <nodeInfo nodeId="2935713650493982396" fileName="ProfessionEnum.java" startLine="116" startPosition="31" endLine="117" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2935713650493982396" fileName="ProfessionEnum.java" startLine="120" startPosition="28" endLine="121" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2935713650493982396" fileName="ProfessionEnum.java" startLine="115" startPosition="0" endLine="118" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ProfessionEnum#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="2935713650493982396" fileName="ProfessionEnum.java" startLine="119" startPosition="0" endLine="123" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="toString#()Ljava/lang/String;" />
+    <scopeInfo nodeId="2935713650493982396" fileName="ProfessionEnum.java" startLine="116" startPosition="31" endLine="117" endPosition="21" />
+    <scopeInfo nodeId="2935713650493982396" fileName="ProfessionEnum.java" startLine="120" startPosition="28" endLine="121" endPosition="16" />
+    <scopeInfo nodeId="2935713650493982396" fileName="ProfessionEnum.java" startLine="115" startPosition="0" endLine="118" endPosition="3" />
+    <scopeInfo nodeId="2935713650493982396" fileName="ProfessionEnum.java" startLine="119" startPosition="0" endLine="123" endPosition="0" />
+    <unitInfo nodeId="2935713650493982396" fileName="ProfessionEnum.java" startLine="6" startPosition="0" endLine="124" endPosition="0" unitName="ru.sid0renk0.dwarfguide.game.ProfessionEnum" />
+  </root>
+  <root nodeId="2935713650493982397">
+    <nodeInfo nodeId="2935713650493982397" fileName="SkillEnum.java" startLine="123" startPosition="0" endLine="124" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="name" />
+    <nodeInfo nodeId="2935713650493982397" fileName="SkillEnum.java" startLine="126" startPosition="26" endLine="127" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2935713650493982397" fileName="SkillEnum.java" startLine="130" startPosition="28" endLine="131" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2935713650493982397" fileName="SkillEnum.java" startLine="125" startPosition="0" endLine="128" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="SkillEnum#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="2935713650493982397" fileName="SkillEnum.java" startLine="129" startPosition="0" endLine="133" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="toString#()Ljava/lang/String;" />
+    <scopeInfo nodeId="2935713650493982397" fileName="SkillEnum.java" startLine="126" startPosition="26" endLine="127" endPosition="21" />
+    <scopeInfo nodeId="2935713650493982397" fileName="SkillEnum.java" startLine="130" startPosition="28" endLine="131" endPosition="16" />
+    <scopeInfo nodeId="2935713650493982397" fileName="SkillEnum.java" startLine="125" startPosition="0" endLine="128" endPosition="3" />
+    <scopeInfo nodeId="2935713650493982397" fileName="SkillEnum.java" startLine="129" startPosition="0" endLine="133" endPosition="0" />
+    <unitInfo nodeId="2935713650493982397" fileName="SkillEnum.java" startLine="6" startPosition="0" endLine="134" endPosition="0" unitName="ru.sid0renk0.dwarfguide.game.SkillEnum" />
+  </root>
+  <root nodeId="2935713650493982399">
+    <nodeInfo nodeId="2935713650493982399" fileName="LabourEnum.java" startLine="80" startPosition="0" endLine="81" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="name" />
+    <nodeInfo nodeId="2935713650493982399" fileName="LabourEnum.java" startLine="83" startPosition="27" endLine="84" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2935713650493982399" fileName="LabourEnum.java" startLine="87" startPosition="28" endLine="88" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2935713650493982399" fileName="LabourEnum.java" startLine="82" startPosition="0" endLine="85" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="LabourEnum#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="2935713650493982399" fileName="LabourEnum.java" startLine="86" startPosition="0" endLine="90" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="toString#()Ljava/lang/String;" />
+    <scopeInfo nodeId="2935713650493982399" fileName="LabourEnum.java" startLine="83" startPosition="27" endLine="84" endPosition="21" />
+    <scopeInfo nodeId="2935713650493982399" fileName="LabourEnum.java" startLine="87" startPosition="28" endLine="88" endPosition="16" />
+    <scopeInfo nodeId="2935713650493982399" fileName="LabourEnum.java" startLine="82" startPosition="0" endLine="85" endPosition="3" />
+    <scopeInfo nodeId="2935713650493982399" fileName="LabourEnum.java" startLine="86" startPosition="0" endLine="90" endPosition="0" />
+    <unitInfo nodeId="2935713650493982399" fileName="LabourEnum.java" startLine="6" startPosition="0" endLine="91" endPosition="0" unitName="ru.sid0renk0.dwarfguide.game.LabourEnum" />
+  </root>
+  <root nodeId="2935713650493982400">
+    <nodeInfo nodeId="2935713650493982400" fileName="TraitEnum.java" startLine="37" startPosition="0" endLine="38" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="name" />
+    <nodeInfo nodeId="2935713650493982400" fileName="TraitEnum.java" startLine="40" startPosition="26" endLine="41" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2935713650493982400" fileName="TraitEnum.java" startLine="44" startPosition="28" endLine="45" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2935713650493982400" fileName="TraitEnum.java" startLine="39" startPosition="0" endLine="42" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="TraitEnum#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="2935713650493982400" fileName="TraitEnum.java" startLine="43" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="toString#()Ljava/lang/String;" />
+    <scopeInfo nodeId="2935713650493982400" fileName="TraitEnum.java" startLine="40" startPosition="26" endLine="41" endPosition="21" />
+    <scopeInfo nodeId="2935713650493982400" fileName="TraitEnum.java" startLine="44" startPosition="28" endLine="45" endPosition="16" />
+    <scopeInfo nodeId="2935713650493982400" fileName="TraitEnum.java" startLine="39" startPosition="0" endLine="42" endPosition="3" />
+    <scopeInfo nodeId="2935713650493982400" fileName="TraitEnum.java" startLine="43" startPosition="0" endLine="47" endPosition="0" />
+    <unitInfo nodeId="2935713650493982400" fileName="TraitEnum.java" startLine="6" startPosition="0" endLine="48" endPosition="0" unitName="ru.sid0renk0.dwarfguide.game.TraitEnum" />
+  </root>
+  <root nodeId="2935713650494030537">
+    <nodeInfo nodeId="2935713650494030537" fileName="AttributeEnum.java" startLine="26" startPosition="0" endLine="27" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="registry" />
+    <nodeInfo nodeId="2935713650494030537" fileName="AttributeEnum.java" startLine="28" startPosition="0" endLine="29" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="name" />
+    <nodeInfo nodeId="2935713650494030537" fileName="AttributeEnum.java" startLine="31" startPosition="30" endLine="32" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2935713650494030537" fileName="AttributeEnum.java" startLine="32" startPosition="21" endLine="33" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2935713650494030537" fileName="AttributeEnum.java" startLine="36" startPosition="28" endLine="37" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2935713650494030537" fileName="AttributeEnum.java" startLine="40" startPosition="27" endLine="41" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2935713650494030537" fileName="AttributeEnum.java" startLine="44" startPosition="62" endLine="45" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2935713650494030537" fileName="AttributeEnum.java" startLine="30" startPosition="0" endLine="34" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="AttributeEnum#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="2935713650494030537" fileName="AttributeEnum.java" startLine="35" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="toString#()Ljava/lang/String;" />
+    <nodeInfo nodeId="2935713650494030537" fileName="AttributeEnum.java" startLine="39" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="2935713650494030537" fileName="AttributeEnum.java" startLine="43" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="registerSelf#(Lru/sid0renk0/dwarfguide/game/AttributeEnum;)V" />
+    <scopeInfo nodeId="2935713650494030537" fileName="AttributeEnum.java" startLine="36" startPosition="28" endLine="37" endPosition="16" />
+    <scopeInfo nodeId="2935713650494030537" fileName="AttributeEnum.java" startLine="40" startPosition="27" endLine="41" endPosition="16" />
+    <scopeInfo nodeId="2935713650494030537" fileName="AttributeEnum.java" startLine="44" startPosition="62" endLine="45" endPosition="34" />
+    <scopeInfo nodeId="2935713650494030537" fileName="AttributeEnum.java" startLine="31" startPosition="30" endLine="33" endPosition="23" />
+    <scopeInfo nodeId="2935713650494030537" fileName="AttributeEnum.java" startLine="30" startPosition="0" endLine="34" endPosition="3" />
+    <scopeInfo nodeId="2935713650494030537" fileName="AttributeEnum.java" startLine="35" startPosition="0" endLine="39" endPosition="0" />
+    <scopeInfo nodeId="2935713650494030537" fileName="AttributeEnum.java" startLine="39" startPosition="0" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="2935713650494030537" fileName="AttributeEnum.java" startLine="43" startPosition="0" endLine="47" endPosition="0" />
+    <unitInfo nodeId="2935713650494030537" fileName="AttributeEnum.java" startLine="6" startPosition="0" endLine="48" endPosition="0" unitName="ru.sid0renk0.dwarfguide.game.AttributeEnum" />
+  </root>
+</debugInfo>
+

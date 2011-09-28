@@ -53,7 +53,7 @@
                             <excludeTransitive>true</excludeTransitive>
                             <stripVersion>true</stripVersion>
                             <outputDirectory>${project.basedir}/lib</outputDirectory>
-
+                            <includeScope>compile</includeScope>
                         </configuration>
                     </execution>
                 </executions>
