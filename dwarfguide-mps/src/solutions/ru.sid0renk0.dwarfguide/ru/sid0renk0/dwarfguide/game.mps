@@ -1,4 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2010-2011, Dmitry Sidorenko. All Rights Reserved.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
 <model modelUID="r:8ba5d3a4-7310-4278-b613-8f0d89d1a5f3(ru.sid0renk0.dwarfguide.game)">
   <persistence version="7" />
   <language namespace="e1765a93-ac50-40c3-96a0-0757007e948a(DwarfGuide)" />
@@ -9,297 +25,298 @@
     <node type="oily.CreatureFeats" typeId="oily.7336574368822246835" id="8768382629599860234">
       <property name="name" nameId="tpck.1169194664001" value="DF2010" />
     </node>
+    <node type="oily.JobsContainer" typeId="oily.4799850196116388868" id="4799850196116388894" />
   </roots>
   <root id="8768382629599860234">
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277174">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277174">
       <property name="name" nameId="tpck.1169194664001" value="Mining" />
       <property name="identifier" nameId="oily.7336574368822048410" value="0" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277175">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277175">
       <property name="name" nameId="tpck.1169194664001" value="Stone Hauling" />
       <property name="identifier" nameId="oily.7336574368822048410" value="1" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277176">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277176">
       <property name="name" nameId="tpck.1169194664001" value="Wood Hauling" />
       <property name="identifier" nameId="oily.7336574368822048410" value="2" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277177">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277177">
       <property name="name" nameId="tpck.1169194664001" value="Burial" />
       <property name="identifier" nameId="oily.7336574368822048410" value="3" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277178">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277178">
       <property name="name" nameId="tpck.1169194664001" value="Food Hauling" />
       <property name="identifier" nameId="oily.7336574368822048410" value="4" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277179">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277179">
       <property name="name" nameId="tpck.1169194664001" value="Refuse Hauling" />
       <property name="identifier" nameId="oily.7336574368822048410" value="5" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277180">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277180">
       <property name="name" nameId="tpck.1169194664001" value="Item Hauling" />
       <property name="identifier" nameId="oily.7336574368822048410" value="6" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277181">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277181">
       <property name="name" nameId="tpck.1169194664001" value="Furniture Hauling" />
       <property name="identifier" nameId="oily.7336574368822048410" value="7" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277182">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277182">
       <property name="name" nameId="tpck.1169194664001" value="Animal Hauling" />
       <property name="identifier" nameId="oily.7336574368822048410" value="8" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277183">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277183">
       <property name="name" nameId="tpck.1169194664001" value="Cleaning" />
       <property name="identifier" nameId="oily.7336574368822048410" value="9" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277184">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277184">
       <property name="name" nameId="tpck.1169194664001" value="Wood Cutting" />
       <property name="identifier" nameId="oily.7336574368822048410" value="10" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277185">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277185">
       <property name="name" nameId="tpck.1169194664001" value="Carpentry" />
       <property name="identifier" nameId="oily.7336574368822048410" value="11" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277186">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277186">
       <property name="name" nameId="tpck.1169194664001" value="Stone Detailing" />
       <property name="identifier" nameId="oily.7336574368822048410" value="12" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277187">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277187">
       <property name="name" nameId="tpck.1169194664001" value="Masonry" />
       <property name="identifier" nameId="oily.7336574368822048410" value="13" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277188">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277188">
       <property name="name" nameId="tpck.1169194664001" value="Architecture" />
       <property name="identifier" nameId="oily.7336574368822048410" value="14" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277189">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277189">
       <property name="name" nameId="tpck.1169194664001" value="Animal Training" />
       <property name="identifier" nameId="oily.7336574368822048410" value="15" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277190">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277190">
       <property name="name" nameId="tpck.1169194664001" value="Animal Care" />
       <property name="identifier" nameId="oily.7336574368822048410" value="16" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277191">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277191">
       <property name="name" nameId="tpck.1169194664001" value="Diagnosis" />
       <property name="identifier" nameId="oily.7336574368822048410" value="17" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277192">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277192">
       <property name="name" nameId="tpck.1169194664001" value="Surgery" />
       <property name="identifier" nameId="oily.7336574368822048410" value="18" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277193">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277193">
       <property name="name" nameId="tpck.1169194664001" value="Setting Bones" />
       <property name="identifier" nameId="oily.7336574368822048410" value="19" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277194">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277194">
       <property name="name" nameId="tpck.1169194664001" value="Suturing" />
       <property name="identifier" nameId="oily.7336574368822048410" value="20" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277195">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277195">
       <property name="name" nameId="tpck.1169194664001" value="Dressing Wounds" />
       <property name="identifier" nameId="oily.7336574368822048410" value="21" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277196">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277196">
       <property name="name" nameId="tpck.1169194664001" value="Feed Patients/Prisoners" />
       <property name="identifier" nameId="oily.7336574368822048410" value="22" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277197">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277197">
       <property name="name" nameId="tpck.1169194664001" value="Recovering Wounded" />
       <property name="identifier" nameId="oily.7336574368822048410" value="23" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277198">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277198">
       <property name="name" nameId="tpck.1169194664001" value="Butchery" />
       <property name="identifier" nameId="oily.7336574368822048410" value="24" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277199">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277199">
       <property name="name" nameId="tpck.1169194664001" value="Trapping" />
       <property name="identifier" nameId="oily.7336574368822048410" value="25" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277200">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277200">
       <property name="name" nameId="tpck.1169194664001" value="Small Animal Dissection" />
       <property name="identifier" nameId="oily.7336574368822048410" value="26" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277201">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277201">
       <property name="name" nameId="tpck.1169194664001" value="Leatherworking" />
       <property name="identifier" nameId="oily.7336574368822048410" value="27" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277202">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277202">
       <property name="name" nameId="tpck.1169194664001" value="Tanning" />
       <property name="identifier" nameId="oily.7336574368822048410" value="28" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277203">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277203">
       <property name="name" nameId="tpck.1169194664001" value="Brewing" />
       <property name="identifier" nameId="oily.7336574368822048410" value="29" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277204">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277204">
       <property name="name" nameId="tpck.1169194664001" value="Alchemy" />
       <property name="identifier" nameId="oily.7336574368822048410" value="30" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277205">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277205">
       <property name="name" nameId="tpck.1169194664001" value="Soap Maker" />
       <property name="identifier" nameId="oily.7336574368822048410" value="31" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277206">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277206">
       <property name="name" nameId="tpck.1169194664001" value="Weaving" />
       <property name="identifier" nameId="oily.7336574368822048410" value="32" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277207">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277207">
       <property name="name" nameId="tpck.1169194664001" value="Clothesmaking" />
       <property name="identifier" nameId="oily.7336574368822048410" value="33" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277208">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277208">
       <property name="name" nameId="tpck.1169194664001" value="Milling" />
       <property name="identifier" nameId="oily.7336574368822048410" value="34" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277209">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277209">
       <property name="name" nameId="tpck.1169194664001" value="Plant Processing" />
       <property name="identifier" nameId="oily.7336574368822048410" value="35" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277210">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277210">
       <property name="name" nameId="tpck.1169194664001" value="Cheese Making" />
       <property name="identifier" nameId="oily.7336574368822048410" value="36" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277211">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277211">
       <property name="name" nameId="tpck.1169194664001" value="Milking" />
       <property name="identifier" nameId="oily.7336574368822048410" value="37" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277212">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277212">
       <property name="name" nameId="tpck.1169194664001" value="Cooking" />
       <property name="identifier" nameId="oily.7336574368822048410" value="38" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277213">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277213">
       <property name="name" nameId="tpck.1169194664001" value="Farming (Fields)" />
       <property name="identifier" nameId="oily.7336574368822048410" value="39" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277214">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277214">
       <property name="name" nameId="tpck.1169194664001" value="Plant Gathering" />
       <property name="identifier" nameId="oily.7336574368822048410" value="40" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277215">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277215">
       <property name="name" nameId="tpck.1169194664001" value="Fishing" />
       <property name="identifier" nameId="oily.7336574368822048410" value="41" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277216">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277216">
       <property name="name" nameId="tpck.1169194664001" value="Fish Cleaning" />
       <property name="identifier" nameId="oily.7336574368822048410" value="42" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277217">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277217">
       <property name="name" nameId="tpck.1169194664001" value="Fish Dissection" />
       <property name="identifier" nameId="oily.7336574368822048410" value="43" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277218">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277218">
       <property name="name" nameId="tpck.1169194664001" value="Hunting" />
       <property name="identifier" nameId="oily.7336574368822048410" value="44" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277219">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277219">
       <property name="name" nameId="tpck.1169194664001" value="Furnace Operating" />
       <property name="identifier" nameId="oily.7336574368822048410" value="45" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277220">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277220">
       <property name="name" nameId="tpck.1169194664001" value="Weaponsmithing" />
       <property name="identifier" nameId="oily.7336574368822048410" value="46" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277221">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277221">
       <property name="name" nameId="tpck.1169194664001" value="Armoring" />
       <property name="identifier" nameId="oily.7336574368822048410" value="47" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277222">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277222">
       <property name="name" nameId="tpck.1169194664001" value="Blacksmithing" />
       <property name="identifier" nameId="oily.7336574368822048410" value="48" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277223">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277223">
       <property name="name" nameId="tpck.1169194664001" value="Metalcrafting" />
       <property name="identifier" nameId="oily.7336574368822048410" value="49" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277224">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277224">
       <property name="name" nameId="tpck.1169194664001" value="Gem Cutting" />
       <property name="identifier" nameId="oily.7336574368822048410" value="50" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277225">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277225">
       <property name="name" nameId="tpck.1169194664001" value="Gem Setting" />
       <property name="identifier" nameId="oily.7336574368822048410" value="51" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277226">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277226">
       <property name="name" nameId="tpck.1169194664001" value="Woodcrafting" />
       <property name="identifier" nameId="oily.7336574368822048410" value="52" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277227">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277227">
       <property name="name" nameId="tpck.1169194664001" value="Stonecrafting" />
       <property name="identifier" nameId="oily.7336574368822048410" value="53" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277228">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277228">
       <property name="name" nameId="tpck.1169194664001" value="Bone Carving" />
       <property name="identifier" nameId="oily.7336574368822048410" value="54" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277229">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277229">
       <property name="name" nameId="tpck.1169194664001" value="Glassmaking" />
       <property name="identifier" nameId="oily.7336574368822048410" value="55" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277230">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277230">
       <property name="name" nameId="tpck.1169194664001" value="Strand Extraction" />
       <property name="identifier" nameId="oily.7336574368822048410" value="56" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277231">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277231">
       <property name="name" nameId="tpck.1169194664001" value="Siege Engineering" />
       <property name="identifier" nameId="oily.7336574368822048410" value="57" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277232">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277232">
       <property name="name" nameId="tpck.1169194664001" value="Siege Operating" />
       <property name="identifier" nameId="oily.7336574368822048410" value="58" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277233">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277233">
       <property name="name" nameId="tpck.1169194664001" value="Crossbow-making" />
       <property name="identifier" nameId="oily.7336574368822048410" value="59" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277234">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277234">
       <property name="name" nameId="tpck.1169194664001" value="Mechanics" />
       <property name="identifier" nameId="oily.7336574368822048410" value="60" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277235">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277235">
       <property name="name" nameId="tpck.1169194664001" value="Potash Making" />
       <property name="identifier" nameId="oily.7336574368822048410" value="61" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277236">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277236">
       <property name="name" nameId="tpck.1169194664001" value="Lye Making" />
       <property name="identifier" nameId="oily.7336574368822048410" value="62" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277237">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277237">
       <property name="name" nameId="tpck.1169194664001" value="Dyeing" />
       <property name="identifier" nameId="oily.7336574368822048410" value="63" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277238">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277238">
       <property name="name" nameId="tpck.1169194664001" value="Wood Burning" />
       <property name="identifier" nameId="oily.7336574368822048410" value="64" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277239">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277239">
       <property name="name" nameId="tpck.1169194664001" value="Pump Operating" />
       <property name="identifier" nameId="oily.7336574368822048410" value="65" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277240">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277240">
       <property name="name" nameId="tpck.1169194664001" value="Shearing" />
       <property name="identifier" nameId="oily.7336574368822048410" value="66" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277241">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277241">
       <property name="name" nameId="tpck.1169194664001" value="Spinning" />
       <property name="identifier" nameId="oily.7336574368822048410" value="67" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277242">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277242">
       <property name="name" nameId="tpck.1169194664001" value="Pottery" />
       <property name="identifier" nameId="oily.7336574368822048410" value="68" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277243">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277243">
       <property name="name" nameId="tpck.1169194664001" value="Glazing" />
       <property name="identifier" nameId="oily.7336574368822048410" value="69" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277244">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277244">
       <property name="name" nameId="tpck.1169194664001" value="Pressing" />
       <property name="identifier" nameId="oily.7336574368822048410" value="70" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277245">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277245">
       <property name="name" nameId="tpck.1169194664001" value="Bee Keeping" />
       <property name="identifier" nameId="oily.7336574368822048410" value="71" />
     </node>
-    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labor" typeId="oily.3025991346594277173" id="3025991346594277246">
+    <node role="labor" roleId="oily.3025991346594277178" type="oily.Labour" typeId="oily.3025991346594277173" id="3025991346594277246">
       <property name="name" nameId="tpck.1169194664001" value="Wax Working" />
       <property name="identifier" nameId="oily.7336574368822048410" value="72" />
     </node>
@@ -2727,6 +2744,16 @@
       <property name="identifier" nameId="oily.7336574368822048410" value="105" />
       <property name="military" nameId="oily.3025991346594277156" value="false" />
       <property name="canAssignLabors" nameId="oily.3025991346594277157" value="true" />
+    </node>
+  </root>
+  <root id="4799850196116388894">
+    <node role="job" roleId="oily.4799850196116388871" type="oily.Job" typeId="oily.3025991346594277158" id="4799850196116398556">
+      <property name="name" nameId="tpck.1169194664001" value="ddd" />
+      <property name="identifier" nameId="oily.7336574368822048410" value="0" />
+    </node>
+    <node role="job" roleId="oily.4799850196116388871" type="oily.Job" typeId="oily.3025991346594277158" id="4799850196116398557">
+      <property name="name" nameId="tpck.1169194664001" value="dsd" />
+      <property name="identifier" nameId="oily.7336574368822048410" value="1" />
     </node>
   </root>
 </model>
