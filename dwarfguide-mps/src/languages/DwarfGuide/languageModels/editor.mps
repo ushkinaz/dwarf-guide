@@ -11,24 +11,30 @@
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="oily.7336574368822048409" resolveInfo="HasId" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="7336574368822202684">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="feats" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="oily.7336574368822058574" resolveInfo="Skill" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="7336574368822246838">
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="oily.7336574368822246835" resolveInfo="CreatureFeats" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="3025991346593851851">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="feats" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="oily.3025991346593851837" resolveInfo="Trait" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="3025991346594271716">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="feats" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="oily.3025991346594271712" resolveInfo="Mood" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="3025991346594285170">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="feats" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="oily.3025991346594277173" resolveInfo="Labour" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="3025991346594285189">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="oily.3025991346594277158" resolveInfo="Job" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="3025991346594285240">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="feats" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="oily.3025991346594277152" resolveInfo="Profession" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="3025991346594298085">
@@ -38,39 +44,50 @@
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="oily.3025991346594298081" resolveInfo="GameVersion" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2886000266267467122">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="feats" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="oily.2886000266267467114" resolveInfo="Level" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="4799850196116388872">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="containers" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="oily.4799850196116388868" resolveInfo="JobsContainer" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2935713650493810386">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="containers" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="oily.4799850196116398559" resolveInfo="LabourContainer" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2935713650493810430">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="containers" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="oily.2935713650493810367" resolveInfo="LevelContainer" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2935713650493810452">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="containers" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="oily.2935713650493810369" resolveInfo="ProfessionContainer" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2935713650493810475">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="containers" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="oily.2935713650493810370" resolveInfo="SkillContainer" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2935713650493810498">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="containers" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="oily.2935713650493810371" resolveInfo="TraitContainer" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2935713650493989215">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="containers" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="oily.2935713650493810368" resolveInfo="MoodContainer" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2935713650494001855">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="feats" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="oily.2935713650494001850" resolveInfo="Attribute" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2935713650494016116">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="containers" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="oily.2935713650494016114" resolveInfo="AttributeContainer" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2935713650494030679">
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="oily.2935713650494030677" resolveInfo="AttributeReference" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2935713650494030686">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="oily.2935713650494030557" resolveInfo="Creature" />
     </node>
   </roots>
