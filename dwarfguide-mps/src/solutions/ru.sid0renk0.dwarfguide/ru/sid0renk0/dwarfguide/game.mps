@@ -16,6 +16,7 @@
     <node type="oily.SkillContainer" typeId="oily.2935713650493810370" id="2935713650493982397" />
     <node type="oily.LabourContainer" typeId="oily.4799850196116398559" id="2935713650493982399" />
     <node type="oily.TraitContainer" typeId="oily.2935713650493810371" id="2935713650493982400" />
+    <node type="oily.AttributeContainer" typeId="oily.2935713650494016114" id="2935713650494030537" />
   </roots>
   <root id="4799850196116388894">
     <node role="job" roleId="oily.4799850196116388871" type="oily.Job" typeId="oily.3025991346594277158" id="3025991346594277247">
@@ -2751,6 +2752,84 @@
       <property name="level_3" nameId="oily.3025991346593851850" value="Takes time when making decisions" />
       <property name="level_4" nameId="oily.3025991346593851849" value="Extremely cautious" />
       <property name="level_5" nameId="oily.3025991346593851848" value="Thinks through every alternative and their consequences before acting" />
+    </node>
+  </root>
+  <root id="2935713650494030537">
+    <node role="attribute" roleId="oily.2935713650494016115" type="oily.Attribute" typeId="oily.2935713650494001850" id="2935713650494030538">
+      <property name="name" nameId="tpck.1169194664001" value="Strength" />
+      <property name="identifier" nameId="oily.7336574368822048410" value="0" />
+    </node>
+    <node role="attribute" roleId="oily.2935713650494016115" type="oily.Attribute" typeId="oily.2935713650494001850" id="2935713650494030539">
+      <property name="identifier" nameId="oily.7336574368822048410" value="1" />
+      <property name="name" nameId="tpck.1169194664001" value="Agility" />
+    </node>
+    <node role="attribute" roleId="oily.2935713650494016115" type="oily.Attribute" typeId="oily.2935713650494001850" id="2935713650494030540">
+      <property name="identifier" nameId="oily.7336574368822048410" value="2" />
+      <property name="name" nameId="tpck.1169194664001" value="Toughness" />
+    </node>
+    <node role="attribute" roleId="oily.2935713650494016115" type="oily.Attribute" typeId="oily.2935713650494001850" id="2935713650494030541">
+      <property name="identifier" nameId="oily.7336574368822048410" value="3" />
+      <property name="name" nameId="tpck.1169194664001" value="Endurance" />
+    </node>
+    <node role="attribute" roleId="oily.2935713650494016115" type="oily.Attribute" typeId="oily.2935713650494001850" id="2935713650494030542">
+      <property name="identifier" nameId="oily.7336574368822048410" value="4" />
+      <property name="name" nameId="tpck.1169194664001" value="Recuperation" />
+    </node>
+    <node role="attribute" roleId="oily.2935713650494016115" type="oily.Attribute" typeId="oily.2935713650494001850" id="2935713650494030544">
+      <property name="identifier" nameId="oily.7336574368822048410" value="5" />
+      <property name="name" nameId="tpck.1169194664001" value="DiseaseResistance" />
+    </node>
+    <node role="attribute" roleId="oily.2935713650494016115" type="oily.Attribute" typeId="oily.2935713650494001850" id="2935713650494030543">
+      <property name="identifier" nameId="oily.7336574368822048410" value="6" />
+      <property name="name" nameId="tpck.1169194664001" value="Willpower" />
+    </node>
+    <node role="attribute" roleId="oily.2935713650494016115" type="oily.Attribute" typeId="oily.2935713650494001850" id="2935713650494030545">
+      <property name="identifier" nameId="oily.7336574368822048410" value="7" />
+      <property name="name" nameId="tpck.1169194664001" value="Memory" />
+    </node>
+    <node role="attribute" roleId="oily.2935713650494016115" type="oily.Attribute" typeId="oily.2935713650494001850" id="2935713650494030546">
+      <property name="identifier" nameId="oily.7336574368822048410" value="8" />
+      <property name="name" nameId="tpck.1169194664001" value="Focus" />
+    </node>
+    <node role="attribute" roleId="oily.2935713650494016115" type="oily.Attribute" typeId="oily.2935713650494001850" id="2935713650494030547">
+      <property name="identifier" nameId="oily.7336574368822048410" value="9" />
+      <property name="name" nameId="tpck.1169194664001" value="Intuition" />
+    </node>
+    <node role="attribute" roleId="oily.2935713650494016115" type="oily.Attribute" typeId="oily.2935713650494001850" id="2935713650494030548">
+      <property name="identifier" nameId="oily.7336574368822048410" value="10" />
+      <property name="name" nameId="tpck.1169194664001" value="Patience" />
+    </node>
+    <node role="attribute" roleId="oily.2935713650494016115" type="oily.Attribute" typeId="oily.2935713650494001850" id="2935713650494030549">
+      <property name="name" nameId="tpck.1169194664001" value="Empathy" />
+      <property name="identifier" nameId="oily.7336574368822048410" value="11" />
+    </node>
+    <node role="attribute" roleId="oily.2935713650494016115" type="oily.Attribute" typeId="oily.2935713650494001850" id="2935713650494030550">
+      <property name="name" nameId="tpck.1169194664001" value="SocialAwareness" />
+      <property name="identifier" nameId="oily.7336574368822048410" value="12" />
+    </node>
+    <node role="attribute" roleId="oily.2935713650494016115" type="oily.Attribute" typeId="oily.2935713650494001850" id="2935713650494030551">
+      <property name="identifier" nameId="oily.7336574368822048410" value="13" />
+      <property name="name" nameId="tpck.1169194664001" value="Creatvity" />
+    </node>
+    <node role="attribute" roleId="oily.2935713650494016115" type="oily.Attribute" typeId="oily.2935713650494001850" id="2935713650494030552">
+      <property name="identifier" nameId="oily.7336574368822048410" value="14" />
+      <property name="name" nameId="tpck.1169194664001" value="Musicality" />
+    </node>
+    <node role="attribute" roleId="oily.2935713650494016115" type="oily.Attribute" typeId="oily.2935713650494001850" id="2935713650494030553">
+      <property name="identifier" nameId="oily.7336574368822048410" value="15" />
+      <property name="name" nameId="tpck.1169194664001" value="AnalyticalAbility" />
+    </node>
+    <node role="attribute" roleId="oily.2935713650494016115" type="oily.Attribute" typeId="oily.2935713650494001850" id="2935713650494030554">
+      <property name="identifier" nameId="oily.7336574368822048410" value="16" />
+      <property name="name" nameId="tpck.1169194664001" value="LinguisticAbility" />
+    </node>
+    <node role="attribute" roleId="oily.2935713650494016115" type="oily.Attribute" typeId="oily.2935713650494001850" id="2935713650494030555">
+      <property name="identifier" nameId="oily.7336574368822048410" value="17" />
+      <property name="name" nameId="tpck.1169194664001" value="SpatialSense" />
+    </node>
+    <node role="attribute" roleId="oily.2935713650494016115" type="oily.Attribute" typeId="oily.2935713650494001850" id="2935713650494030556">
+      <property name="identifier" nameId="oily.7336574368822048410" value="18" />
+      <property name="name" nameId="tpck.1169194664001" value="KinaestheticSense" />
     </node>
   </root>
 </model>

@@ -87,7 +87,7 @@
     </node>
     <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="8768382629599967622" />
     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.RootTemplateAnnotation" typeId="tpf8.1168619357332" id="8768382629599967627">
-      <link role="applicableConcept" roleId="tpf8.1168619429071" targetNodeId="oily.7336574368822246835" resolveInfo="CreatureFeats" />
+      <link role="applicableConcept" roleId="tpf8.1168619429071" targetNodeId="oily.2935713650493810370" resolveInfo="SkillContainer" />
     </node>
   </root>
   <root id="3025991346594252671">
