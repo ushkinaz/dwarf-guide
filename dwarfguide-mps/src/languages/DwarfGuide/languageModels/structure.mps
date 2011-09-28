@@ -1,20 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-  ~ Copyright (c) 2010-2011, Dmitry Sidorenko. All Rights Reserved.
-  ~
-  ~ Licensed under the Apache License, Version 2.0 (the "License");
-  ~ you may not use this file except in compliance with the License.
-  ~ You may obtain a copy of the License at
-  ~
-  ~ http://www.apache.org/licenses/LICENSE-2.0
-  ~
-  ~ Unless required by applicable law or agreed to in writing, software
-  ~ distributed under the License is distributed on an "AS IS" BASIS,
-  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  ~ See the License for the specific language governing permissions and
-  ~ limitations under the License.
-  -->
-
 <model modelUID="r:6971719d-e964-41ab-b051-652c6cbd412c(DwarfGuide.structure)">
   <persistence version="7" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
@@ -77,6 +61,32 @@
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4799850196116398559">
       <property name="name" nameId="tpck.1169194664001" value="LabourContainer" />
+      <property name="rootable" nameId="tpce.1096454100552" value="true" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2935713650493810367">
+      <property name="name" nameId="tpck.1169194664001" value="LevelContainer" />
+      <property name="rootable" nameId="tpce.1096454100552" value="true" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2935713650493810368">
+      <property name="name" nameId="tpck.1169194664001" value="MoodContainer" />
+      <property name="rootable" nameId="tpce.1096454100552" value="true" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2935713650493810369">
+      <property name="name" nameId="tpck.1169194664001" value="ProfessionContainer" />
+      <property name="rootable" nameId="tpce.1096454100552" value="true" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2935713650493810370">
+      <property name="name" nameId="tpck.1169194664001" value="SkillContainer" />
+      <property name="rootable" nameId="tpce.1096454100552" value="true" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2935713650493810371">
+      <property name="name" nameId="tpck.1169194664001" value="TraitContainer" />
+      <property name="rootable" nameId="tpce.1096454100552" value="true" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
   </roots>
@@ -254,6 +264,53 @@
       <link role="target" roleId="tpce.1071599976176" targetNodeId="3025991346594277158" resolveInfo="Job" />
     </node>
   </root>
-  <root id="4799850196116398559" />
+  <root id="4799850196116398559">
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2935713650493810385">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="labour" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="3025991346594277173" resolveInfo="Labour" />
+    </node>
+  </root>
+  <root id="2935713650493810367">
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2935713650493810429">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="level" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2886000266267467114" resolveInfo="Level" />
+    </node>
+  </root>
+  <root id="2935713650493810368">
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2935713650493810450">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="mood" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="3025991346594271712" resolveInfo="Mood" />
+    </node>
+  </root>
+  <root id="2935713650493810369">
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2935713650493810451">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="profession" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="3025991346594277152" resolveInfo="Profession" />
+    </node>
+  </root>
+  <root id="2935713650493810370">
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2935713650493810474">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="skill" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="7336574368822058574" resolveInfo="Skill" />
+    </node>
+  </root>
+  <root id="2935713650493810371">
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2935713650493810497">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="trait" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="3025991346593851837" resolveInfo="Trait" />
+    </node>
+  </root>
 </model>
 

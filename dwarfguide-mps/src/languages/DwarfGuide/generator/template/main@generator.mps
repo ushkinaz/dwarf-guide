@@ -53,6 +53,15 @@
           </node>
         </node>
       </node>
+      <node role="conditionFunction" roleId="tpf8.1167169362365" type="tpf8.BaseMappingRule_Condition" typeId="tpf8.1167168920554" id="2935713650493983851">
+        <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="2935713650493983852">
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2935713650493983853">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="2935713650493983854">
+              <property name="value" nameId="tpee.1068580123138" value="false" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node role="mappingLabel" roleId="tpf8.1200911492601" type="tpf8.MappingLabelDeclaration" typeId="tpf8.1200911316486" id="8768382629599967032">
       <property name="name" nameId="tpck.1169194664001" value="SkillDecralation" />
@@ -111,7 +120,7 @@
                     <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="3025991346594286596">
                       <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~String%dreplaceAll(java%dlang%dString,java%dlang%dString)%cjava%dlang%dString" resolveInfo="replaceAll" />
                       <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3025991346594286597">
-                        <property name="value" nameId="tpee.1070475926801" value="[ -]" />
+                        <property name="value" nameId="tpee.1070475926801" value="[ -\\.]" />
                       </node>
                       <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3025991346594286599">
                         <property name="value" nameId="tpee.1070475926801" value="_" />

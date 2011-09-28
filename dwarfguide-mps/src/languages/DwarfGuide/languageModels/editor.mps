@@ -1,20 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-  ~ Copyright (c) 2010-2011, Dmitry Sidorenko. All Rights Reserved.
-  ~
-  ~ Licensed under the Apache License, Version 2.0 (the "License");
-  ~ you may not use this file except in compliance with the License.
-  ~ You may obtain a copy of the License at
-  ~
-  ~ http://www.apache.org/licenses/LICENSE-2.0
-  ~
-  ~ Unless required by applicable law or agreed to in writing, software
-  ~ distributed under the License is distributed on an "AS IS" BASIS,
-  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  ~ See the License for the specific language governing permissions and
-  ~ limitations under the License.
-  -->
-
 <model modelUID="r:dd98ed87-2306-4991-8fa1-9f09297137f7(DwarfGuide.editor)">
   <persistence version="7" />
   <language namespace="18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)" />
@@ -58,6 +42,24 @@
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="4799850196116388872">
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="oily.4799850196116388868" resolveInfo="JobsContainer" />
+    </node>
+    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2935713650493810386">
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="oily.4799850196116398559" resolveInfo="LabourContainer" />
+    </node>
+    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2935713650493810430">
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="oily.2935713650493810367" resolveInfo="LevelContainer" />
+    </node>
+    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2935713650493810452">
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="oily.2935713650493810369" resolveInfo="ProfessionContainer" />
+    </node>
+    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2935713650493810475">
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="oily.2935713650493810370" resolveInfo="SkillContainer" />
+    </node>
+    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2935713650493810498">
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="oily.2935713650493810371" resolveInfo="TraitContainer" />
+    </node>
+    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2935713650493989215">
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="oily.2935713650493810368" resolveInfo="MoodContainer" />
     </node>
   </roots>
   <root id="7336574368822058567">
@@ -679,7 +681,7 @@
           <property name="flag" nameId="tpc2.1186414551515" value="true" />
         </node>
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4799850196116388883">
-          <property name="text" nameId="tpc2.1073389577007" value="job" />
+          <property name="text" nameId="tpc2.1073389577007" value="jobs" />
         </node>
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4799850196116388884">
           <property name="text" nameId="tpc2.1073389577007" value=":" />
@@ -707,6 +709,330 @@
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4799850196116388892">
         <property name="text" nameId="tpc2.1073389577007" value="}" />
         <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.MatchingLabelStyleClassItem" typeId="tpc2.1236262245656" id="4799850196116388893">
+          <property name="labelName" nameId="tpc2.1238091709220" value="body-brace" />
+        </node>
+      </node>
+    </node>
+  </root>
+  <root id="2935713650493810386">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="2935713650493810409">
+      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2935713650493810410" />
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2935713650493810411">
+        <property name="text" nameId="tpc2.1073389577007" value="labour container" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2935713650493810412">
+        <property name="text" nameId="tpc2.1073389577007" value="{" />
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.MatchingLabelStyleClassItem" typeId="tpc2.1236262245656" id="2935713650493810413">
+          <property name="labelName" nameId="tpc2.1238091709220" value="body-brace" />
+        </node>
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineStyleClassItem" typeId="tpc2.1237308012275" id="2935713650493810414">
+          <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        </node>
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="2935713650493810415">
+        <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2935713650493810416" />
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutIndentStyleClassItem" typeId="tpc2.1237307900041" id="2935713650493810417">
+          <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2935713650493810418">
+          <property name="text" nameId="tpc2.1073389577007" value="labours" />
+        </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2935713650493810419">
+          <property name="text" nameId="tpc2.1073389577007" value=":" />
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.PunctuationLeftStyleClassItem" typeId="tpc2.1233758997495" id="2935713650493810420">
+            <property name="flag" nameId="tpc2.1186414551515" value="true" />
+          </node>
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineStyleClassItem" typeId="tpc2.1237308012275" id="2935713650493810421">
+            <property name="flag" nameId="tpc2.1186414551515" value="true" />
+          </node>
+        </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="2935713650493810422">
+          <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="oily.2935713650493810385" />
+          <node role="cellLayout" roleId="tpc2.1140524464360" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2935713650493810423" />
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineChildrenStyleClassItem" typeId="tpc2.1237375020029" id="2935713650493810424">
+            <property name="flag" nameId="tpc2.1186414551515" value="true" />
+          </node>
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutIndentStyleClassItem" typeId="tpc2.1237307900041" id="2935713650493810425">
+            <property name="flag" nameId="tpc2.1186414551515" value="true" />
+          </node>
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineStyleClassItem" typeId="tpc2.1237308012275" id="2935713650493810426">
+            <property name="flag" nameId="tpc2.1186414551515" value="true" />
+          </node>
+        </node>
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2935713650493810427">
+        <property name="text" nameId="tpc2.1073389577007" value="}" />
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.MatchingLabelStyleClassItem" typeId="tpc2.1236262245656" id="2935713650493810428">
+          <property name="labelName" nameId="tpc2.1238091709220" value="body-brace" />
+        </node>
+      </node>
+    </node>
+  </root>
+  <root id="2935713650493810430">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="2935713650494001235">
+      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2935713650494001236" />
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2935713650494001237">
+        <property name="text" nameId="tpc2.1073389577007" value="level container" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2935713650494001238">
+        <property name="text" nameId="tpc2.1073389577007" value="{" />
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.MatchingLabelStyleClassItem" typeId="tpc2.1236262245656" id="2935713650494001239">
+          <property name="labelName" nameId="tpc2.1238091709220" value="body-brace" />
+        </node>
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineStyleClassItem" typeId="tpc2.1237308012275" id="2935713650494001240">
+          <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        </node>
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="2935713650494001241">
+        <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2935713650494001242" />
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutIndentStyleClassItem" typeId="tpc2.1237307900041" id="2935713650494001243">
+          <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2935713650494001244">
+          <property name="text" nameId="tpc2.1073389577007" value="levels" />
+        </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2935713650494001245">
+          <property name="text" nameId="tpc2.1073389577007" value=":" />
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.PunctuationLeftStyleClassItem" typeId="tpc2.1233758997495" id="2935713650494001246">
+            <property name="flag" nameId="tpc2.1186414551515" value="true" />
+          </node>
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineStyleClassItem" typeId="tpc2.1237308012275" id="2935713650494001247">
+            <property name="flag" nameId="tpc2.1186414551515" value="true" />
+          </node>
+        </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="2935713650494001248">
+          <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="oily.2935713650493810429" />
+          <node role="cellLayout" roleId="tpc2.1140524464360" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2935713650494001249" />
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineChildrenStyleClassItem" typeId="tpc2.1237375020029" id="2935713650494001250">
+            <property name="flag" nameId="tpc2.1186414551515" value="true" />
+          </node>
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutIndentStyleClassItem" typeId="tpc2.1237307900041" id="2935713650494001251">
+            <property name="flag" nameId="tpc2.1186414551515" value="true" />
+          </node>
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineStyleClassItem" typeId="tpc2.1237308012275" id="2935713650494001252">
+            <property name="flag" nameId="tpc2.1186414551515" value="true" />
+          </node>
+        </node>
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2935713650494001253">
+        <property name="text" nameId="tpc2.1073389577007" value="}" />
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.MatchingLabelStyleClassItem" typeId="tpc2.1236262245656" id="2935713650494001254">
+          <property name="labelName" nameId="tpc2.1238091709220" value="body-brace" />
+        </node>
+      </node>
+    </node>
+  </root>
+  <root id="2935713650493810452">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="2935713650493810454">
+      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2935713650493810455" />
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2935713650493810456">
+        <property name="text" nameId="tpc2.1073389577007" value="profession container" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2935713650493810457">
+        <property name="text" nameId="tpc2.1073389577007" value="{" />
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.MatchingLabelStyleClassItem" typeId="tpc2.1236262245656" id="2935713650493810458">
+          <property name="labelName" nameId="tpc2.1238091709220" value="body-brace" />
+        </node>
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineStyleClassItem" typeId="tpc2.1237308012275" id="2935713650493810459">
+          <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        </node>
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="2935713650493810460">
+        <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2935713650493810461" />
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutIndentStyleClassItem" typeId="tpc2.1237307900041" id="2935713650493810462">
+          <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2935713650493810463">
+          <property name="text" nameId="tpc2.1073389577007" value="professions" />
+        </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2935713650493810464">
+          <property name="text" nameId="tpc2.1073389577007" value=":" />
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.PunctuationLeftStyleClassItem" typeId="tpc2.1233758997495" id="2935713650493810465">
+            <property name="flag" nameId="tpc2.1186414551515" value="true" />
+          </node>
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineStyleClassItem" typeId="tpc2.1237308012275" id="2935713650493810466">
+            <property name="flag" nameId="tpc2.1186414551515" value="true" />
+          </node>
+        </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="2935713650493810467">
+          <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="oily.2935713650493810451" />
+          <node role="cellLayout" roleId="tpc2.1140524464360" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2935713650493810468" />
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineChildrenStyleClassItem" typeId="tpc2.1237375020029" id="2935713650493810469">
+            <property name="flag" nameId="tpc2.1186414551515" value="true" />
+          </node>
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutIndentStyleClassItem" typeId="tpc2.1237307900041" id="2935713650493810470">
+            <property name="flag" nameId="tpc2.1186414551515" value="true" />
+          </node>
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineStyleClassItem" typeId="tpc2.1237308012275" id="2935713650493810471">
+            <property name="flag" nameId="tpc2.1186414551515" value="true" />
+          </node>
+        </node>
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2935713650493810472">
+        <property name="text" nameId="tpc2.1073389577007" value="}" />
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.MatchingLabelStyleClassItem" typeId="tpc2.1236262245656" id="2935713650493810473">
+          <property name="labelName" nameId="tpc2.1238091709220" value="body-brace" />
+        </node>
+      </node>
+    </node>
+  </root>
+  <root id="2935713650493810475">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="2935713650493810477">
+      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2935713650493810478" />
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2935713650493810479">
+        <property name="text" nameId="tpc2.1073389577007" value="skill container" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2935713650493810480">
+        <property name="text" nameId="tpc2.1073389577007" value="{" />
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.MatchingLabelStyleClassItem" typeId="tpc2.1236262245656" id="2935713650493810481">
+          <property name="labelName" nameId="tpc2.1238091709220" value="body-brace" />
+        </node>
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineStyleClassItem" typeId="tpc2.1237308012275" id="2935713650493810482">
+          <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        </node>
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="2935713650493810483">
+        <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2935713650493810484" />
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutIndentStyleClassItem" typeId="tpc2.1237307900041" id="2935713650493810485">
+          <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2935713650493810486">
+          <property name="text" nameId="tpc2.1073389577007" value="skills" />
+        </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2935713650493810487">
+          <property name="text" nameId="tpc2.1073389577007" value=":" />
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.PunctuationLeftStyleClassItem" typeId="tpc2.1233758997495" id="2935713650493810488">
+            <property name="flag" nameId="tpc2.1186414551515" value="true" />
+          </node>
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineStyleClassItem" typeId="tpc2.1237308012275" id="2935713650493810489">
+            <property name="flag" nameId="tpc2.1186414551515" value="true" />
+          </node>
+        </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="2935713650493810490">
+          <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="oily.2935713650493810474" />
+          <node role="cellLayout" roleId="tpc2.1140524464360" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2935713650493810491" />
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineChildrenStyleClassItem" typeId="tpc2.1237375020029" id="2935713650493810492">
+            <property name="flag" nameId="tpc2.1186414551515" value="true" />
+          </node>
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutIndentStyleClassItem" typeId="tpc2.1237307900041" id="2935713650493810493">
+            <property name="flag" nameId="tpc2.1186414551515" value="true" />
+          </node>
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineStyleClassItem" typeId="tpc2.1237308012275" id="2935713650493810494">
+            <property name="flag" nameId="tpc2.1186414551515" value="true" />
+          </node>
+        </node>
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2935713650493810495">
+        <property name="text" nameId="tpc2.1073389577007" value="}" />
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.MatchingLabelStyleClassItem" typeId="tpc2.1236262245656" id="2935713650493810496">
+          <property name="labelName" nameId="tpc2.1238091709220" value="body-brace" />
+        </node>
+      </node>
+    </node>
+  </root>
+  <root id="2935713650493810498">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="2935713650493810500">
+      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2935713650493810501" />
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2935713650493810502">
+        <property name="text" nameId="tpc2.1073389577007" value="trait container" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2935713650493810503">
+        <property name="text" nameId="tpc2.1073389577007" value="{" />
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.MatchingLabelStyleClassItem" typeId="tpc2.1236262245656" id="2935713650493810504">
+          <property name="labelName" nameId="tpc2.1238091709220" value="body-brace" />
+        </node>
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineStyleClassItem" typeId="tpc2.1237308012275" id="2935713650493810505">
+          <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        </node>
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="2935713650493810506">
+        <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2935713650493810507" />
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutIndentStyleClassItem" typeId="tpc2.1237307900041" id="2935713650493810508">
+          <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2935713650493810509">
+          <property name="text" nameId="tpc2.1073389577007" value="traits" />
+        </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2935713650493810510">
+          <property name="text" nameId="tpc2.1073389577007" value=":" />
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.PunctuationLeftStyleClassItem" typeId="tpc2.1233758997495" id="2935713650493810511">
+            <property name="flag" nameId="tpc2.1186414551515" value="true" />
+          </node>
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineStyleClassItem" typeId="tpc2.1237308012275" id="2935713650493810512">
+            <property name="flag" nameId="tpc2.1186414551515" value="true" />
+          </node>
+        </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="2935713650493810513">
+          <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="oily.2935713650493810497" />
+          <node role="cellLayout" roleId="tpc2.1140524464360" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2935713650493810514" />
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineChildrenStyleClassItem" typeId="tpc2.1237375020029" id="2935713650493810515">
+            <property name="flag" nameId="tpc2.1186414551515" value="true" />
+          </node>
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutIndentStyleClassItem" typeId="tpc2.1237307900041" id="2935713650493810516">
+            <property name="flag" nameId="tpc2.1186414551515" value="true" />
+          </node>
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineStyleClassItem" typeId="tpc2.1237308012275" id="2935713650493810517">
+            <property name="flag" nameId="tpc2.1186414551515" value="true" />
+          </node>
+        </node>
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2935713650493810518">
+        <property name="text" nameId="tpc2.1073389577007" value="}" />
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.MatchingLabelStyleClassItem" typeId="tpc2.1236262245656" id="2935713650493810519">
+          <property name="labelName" nameId="tpc2.1238091709220" value="body-brace" />
+        </node>
+      </node>
+    </node>
+  </root>
+  <root id="2935713650493989215">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="2935713650493989238">
+      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2935713650493989239" />
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2935713650493989240">
+        <property name="text" nameId="tpc2.1073389577007" value="mood container" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2935713650493989241">
+        <property name="text" nameId="tpc2.1073389577007" value="{" />
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.MatchingLabelStyleClassItem" typeId="tpc2.1236262245656" id="2935713650493989242">
+          <property name="labelName" nameId="tpc2.1238091709220" value="body-brace" />
+        </node>
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineStyleClassItem" typeId="tpc2.1237308012275" id="2935713650493989243">
+          <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        </node>
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="2935713650493989244">
+        <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2935713650493989245" />
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutIndentStyleClassItem" typeId="tpc2.1237307900041" id="2935713650493989246">
+          <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2935713650493989247">
+          <property name="text" nameId="tpc2.1073389577007" value="moods" />
+        </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2935713650493989248">
+          <property name="text" nameId="tpc2.1073389577007" value=":" />
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.PunctuationLeftStyleClassItem" typeId="tpc2.1233758997495" id="2935713650493989249">
+            <property name="flag" nameId="tpc2.1186414551515" value="true" />
+          </node>
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineStyleClassItem" typeId="tpc2.1237308012275" id="2935713650493989250">
+            <property name="flag" nameId="tpc2.1186414551515" value="true" />
+          </node>
+        </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="2935713650493989251">
+          <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="oily.2935713650493810450" />
+          <node role="cellLayout" roleId="tpc2.1140524464360" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2935713650493989252" />
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineChildrenStyleClassItem" typeId="tpc2.1237375020029" id="2935713650493989253">
+            <property name="flag" nameId="tpc2.1186414551515" value="true" />
+          </node>
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutIndentStyleClassItem" typeId="tpc2.1237307900041" id="2935713650493989254">
+            <property name="flag" nameId="tpc2.1186414551515" value="true" />
+          </node>
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineStyleClassItem" typeId="tpc2.1237308012275" id="2935713650493989255">
+            <property name="flag" nameId="tpc2.1186414551515" value="true" />
+          </node>
+        </node>
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2935713650493989256">
+        <property name="text" nameId="tpc2.1073389577007" value="}" />
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.MatchingLabelStyleClassItem" typeId="tpc2.1236262245656" id="2935713650493989257">
           <property name="labelName" nameId="tpc2.1238091709220" value="body-brace" />
         </node>
       </node>
