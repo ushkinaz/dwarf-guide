@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="HasName.java" startLine="6" startPosition="0" endLine="9" endPosition="0" unitName="ru.sid0renk0.dwarfguide.game.HasName" />
-  <unitInfo fileName="EnumRegistry.java" startLine="6" startPosition="0" endLine="22" endPosition="0" unitName="ru.sid0renk0.dwarfguide.game.EnumRegistry" />
   <root nodeId="2935713650493978824">
     <nodeInfo nodeId="2935713650493978824" fileName="LevelEnum.java" startLine="28" startPosition="0" endLine="29" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="name" />
     <nodeInfo nodeId="2935713650493978824" fileName="LevelEnum.java" startLine="31" startPosition="26" endLine="32" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
