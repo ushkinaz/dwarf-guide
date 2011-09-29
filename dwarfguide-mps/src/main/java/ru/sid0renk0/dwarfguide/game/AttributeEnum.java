@@ -4,33 +4,13 @@ package ru.sid0renk0.dwarfguide.game;
 
 
 public enum AttributeEnum {
-  STRENGTH("Strength"),
-  AGILITY("Agility"),
-  TOUGHNESS("Toughness"),
-  ENDURANCE("Endurance"),
-  RECUPERATION("Recuperation"),
-  DISEASERESISTANCE("DiseaseResistance"),
-  WILLPOWER("Willpower"),
-  MEMORY("Memory"),
-  FOCUS("Focus"),
-  INTUITION("Intuition"),
-  PATIENCE("Patience"),
-  EMPATHY("Empathy"),
-  SOCIALAWARENESS("SocialAwareness"),
-  CREATVITY("Creatvity"),
-  MUSICALITY("Musicality"),
-  ANALYTICALABILITY("AnalyticalAbility"),
-  LINGUISTICABILITY("LinguisticAbility"),
-  SPATIALSENSE("SpatialSense"),
-  KINAESTHETICSENSE("KinaestheticSense");
-
-  private static EnumRegistry<AttributeEnum> registry = new EnumRegistry<AttributeEnum>();
+  BODY("Body"),
+  SOUL("Soul");
 
   private String name;
 
   AttributeEnum(String name) {
     this.name = name;
-    registerSelf(this);
   }
 
   public String toString() {
@@ -39,9 +19,5 @@ public enum AttributeEnum {
 
   public String getName() {
     return name;
-  }
-
-  public static void registerSelf(AttributeEnum enumeration) {
-    registry.addEnum(enumeration);
   }
 }
