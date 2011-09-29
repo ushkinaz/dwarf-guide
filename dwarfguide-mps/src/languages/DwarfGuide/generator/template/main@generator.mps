@@ -52,34 +52,11 @@
     </node>
   </roots>
   <root id="8768382629599860236">
-    <node role="rootMappingRule" roleId="tpf8.1167514678247" type="tpf8.Root_MappingRule" typeId="tpf8.1167514355419" id="2935713650494100842">
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="containers" />
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="oily.2935713650494016114" resolveInfo="AttributeContainer" />
-      <link role="template" roleId="tpf8.1167514355421" targetNodeId="2935713650494225182" resolveInfo="AttributeEnum" />
+    <node role="createRootRule" roleId="tpf8.1167088157977" type="tpf8.CreateRootRule" typeId="tpf8.1167087469898" id="8150566930650516">
+      <link role="templateNode" roleId="tpf8.1167087469901" targetNodeId="8150566929476107" resolveInfo="HasName" />
     </node>
-    <node role="rootMappingRule" roleId="tpf8.1167514678247" type="tpf8.Root_MappingRule" typeId="tpf8.1167514355419" id="2935713650494247476">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="oily.4799850196116398559" resolveInfo="LabourContainer" />
-      <link role="template" roleId="tpf8.1167514355421" targetNodeId="2935713650494225756" resolveInfo="LabourEnum" />
-    </node>
-    <node role="rootMappingRule" roleId="tpf8.1167514678247" type="tpf8.Root_MappingRule" typeId="tpf8.1167514355419" id="2935713650494247477">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="oily.2935713650493810367" resolveInfo="LevelContainer" />
-      <link role="template" roleId="tpf8.1167514355421" targetNodeId="2935713650494225809" resolveInfo="LevelEnum" />
-    </node>
-    <node role="rootMappingRule" roleId="tpf8.1167514678247" type="tpf8.Root_MappingRule" typeId="tpf8.1167514355419" id="2935713650494247478">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="oily.2935713650493810368" resolveInfo="MoodContainer" />
-      <link role="template" roleId="tpf8.1167514355421" targetNodeId="2935713650494225862" resolveInfo="MoodEnum" />
-    </node>
-    <node role="rootMappingRule" roleId="tpf8.1167514678247" type="tpf8.Root_MappingRule" typeId="tpf8.1167514355419" id="2935713650494247479">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="oily.2935713650493810369" resolveInfo="ProfessionContainer" />
-      <link role="template" roleId="tpf8.1167514355421" targetNodeId="2935713650494225915" resolveInfo="ProfessionEnum" />
-    </node>
-    <node role="rootMappingRule" roleId="tpf8.1167514678247" type="tpf8.Root_MappingRule" typeId="tpf8.1167514355419" id="2935713650494247480">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="oily.2935713650493810370" resolveInfo="SkillContainer" />
-      <link role="template" roleId="tpf8.1167514355421" targetNodeId="2935713650494225968" resolveInfo="SkillEnum" />
-    </node>
-    <node role="rootMappingRule" roleId="tpf8.1167514678247" type="tpf8.Root_MappingRule" typeId="tpf8.1167514355419" id="2935713650494247481">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="oily.2935713650493810371" resolveInfo="TraitContainer" />
-      <link role="template" roleId="tpf8.1167514355421" targetNodeId="2935713650494226067" resolveInfo="TraitEnum" />
+    <node role="createRootRule" roleId="tpf8.1167088157977" type="tpf8.CreateRootRule" typeId="tpf8.1167087469898" id="8150566930650517">
+      <link role="templateNode" roleId="tpf8.1167087469901" targetNodeId="8150566929479508" resolveInfo="EnumRegistry" />
     </node>
   </root>
   <root id="2935713650494225182">
@@ -984,19 +961,6 @@
               <node role="map" roleId="tp2q.1197932505799" type="tpee.LocalInstanceFieldReference" typeId="tpee.7785501532031639928" id="8150566929568675">
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="8150566929479555" resolveInfo="map" />
               </node>
-            </node>
-          </node>
-        </node>
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="8150566930185998">
-          <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="8150566930185999">
-            <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="8150566930186000" />
-          </node>
-          <node role="condition" roleId="tpee.1068580123160" type="tpee.GreaterThanExpression" typeId="tpee.1081506762703" id="8150566930331326">
-            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8150566930331327">
-              <property name="value" nameId="tpee.1068580320021" value="2" />
-            </node>
-            <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8150566930331328">
-              <property name="value" nameId="tpee.1068580320021" value="2" />
             </node>
           </node>
         </node>

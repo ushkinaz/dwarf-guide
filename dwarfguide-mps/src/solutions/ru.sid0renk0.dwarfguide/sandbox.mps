@@ -2,14 +2,12 @@
 <model modelUID="r:54f57b7f-b3f9-4f1d-ae3a-207acf73235a(sandbox)">
   <persistence version="7" />
   <language namespace="e1765a93-ac50-40c3-96a0-0757007e948a(DwarfGuide)" />
-  <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
+  <language-engaged-on-generation namespace="e1765a93-ac50-40c3-96a0-0757007e948a(DwarfGuide)" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="oily" modelUID="r:6971719d-e964-41ab-b051-652c6cbd412c(DwarfGuide.structure)" version="-1" implicit="yes" />
-  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
   <roots>
     <node type="oily.AttributeContainer" typeId="oily.2935713650494016114" id="2935713650494030537" />
     <node type="oily.ProfessionContainer" typeId="oily.2935713650493810369" id="2935713650493982396" />
-    <node type="oily.Strategy" typeId="oily.8150566930055015" id="8150566930650400" />
   </roots>
   <root id="2935713650494030537">
     <node role="attributeGroup" roleId="oily.2935713650494016115" type="oily.AttributeGroup" typeId="oily.8150566930529567" id="8150566930640592">
@@ -81,32 +79,6 @@
       <property name="identifier" nameId="oily.7336574368822048410" value="0" />
       <property name="military" nameId="oily.3025991346594277156" value="false" />
       <property name="canAssignLabors" nameId="oily.3025991346594277157" value="true" />
-    </node>
-  </root>
-  <root id="8150566930650400">
-    <node role="professionReference" roleId="oily.8150566930055027" type="oily.ProfessionReference" typeId="oily.8150566930055016" id="8150566930650402">
-      <link role="profession" roleId="oily.8150566930055017" targetNodeId="3025991346594277644" resolveInfo="MINER" />
-    </node>
-    <node role="stopExpression" roleId="oily.8150566930120604" type="tpee.LessThanExpression" typeId="tpee.1081506773034" id="8150566930650404">
-      <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8150566930650407">
-        <property name="value" nameId="tpee.1068580320021" value="1000" />
-      </node>
-      <node role="leftExpression" roleId="tpee.1081773367580" type="oily.AttributeReference" typeId="oily.2935713650494030677" id="8150566930650403">
-        <link role="attribute" roleId="oily.2935713650494030678" targetNodeId="8150566930640585" resolveInfo="Strength" />
-      </node>
-    </node>
-    <node role="ratingFormula" roleId="oily.8150566930193469" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="8150566930650414">
-      <node role="rightExpression" roleId="tpee.1081773367579" type="oily.AttributeReference" typeId="oily.2935713650494030677" id="8150566930650417">
-        <link role="attribute" roleId="oily.2935713650494030678" targetNodeId="2935713650494030547" resolveInfo="Intuition" />
-      </node>
-      <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.MulExpression" typeId="tpee.1092119917967" id="8150566930650410">
-        <node role="leftExpression" roleId="tpee.1081773367580" type="oily.AttributeReference" typeId="oily.2935713650494030677" id="8150566930650409">
-          <link role="attribute" roleId="oily.2935713650494030678" targetNodeId="8150566930640585" resolveInfo="Strength" />
-        </node>
-        <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8150566930650413">
-          <property name="value" nameId="tpee.1068580320021" value="3" />
-        </node>
-      </node>
     </node>
   </root>
 </model>
