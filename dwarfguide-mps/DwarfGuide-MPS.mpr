@@ -16,8 +16,8 @@
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="${project}/src/languages/DwarfGuide/DwarfGuide.mpl" />
-      <modulePath path="${project}/src/solutions/ru.sid0renk0.dwarfguide/dwarfguide.msd" />
+      <modulePath path="${project}/src/languages/Creature/Creature.mpl" folder="" />
+      <modulePath path="${project}/src/solutions/sandbox/sandbox.msd" folder="" />
     </projectModules>
     <genConfs />
   </component>

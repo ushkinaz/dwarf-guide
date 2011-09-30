@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:49fbdea9-ceb8-4353-9f35-a0ddd7dd43e0(DwarfGuide.constraints)">
+<model modelUID="r:4ee42f44-921d-417e-8cb8-b81a75bdc0f1(Creature.constraints)">
   <persistence version="7" />
   <language namespace="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1(jetbrains.mps.lang.constraints)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="oily" modelUID="r:6971719d-e964-41ab-b051-652c6cbd412c(DwarfGuide.structure)" version="-1" />
+  <import index="2ivj" modelUID="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(Creature.structure)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="-1" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
@@ -11,12 +11,12 @@
   <import index="tp1t" modelUID="r:00000000-0000-4000-0000-011c8959030d(jetbrains.mps.lang.constraints.structure)" version="8" implicit="yes" />
   <roots>
     <node type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="627290435249133500">
-      <link role="concept" roleId="tp1t.1213093996982" targetNodeId="oily.7336574368822048409" resolveInfo="HasId" />
+      <link role="concept" roleId="tp1t.1213093996982" targetNodeId="2ivj.7336574368822048409" resolveInfo="HasId" />
     </node>
   </roots>
   <root id="627290435249133500">
     <node role="property" roleId="tp1t.1213098023997" type="tp1t.NodePropertyConstraint" typeId="tp1t.1147467115080" id="627290435249133504">
-      <link role="applicableProperty" roleId="tp1t.1147467295099" targetNodeId="oily.7336574368822048410" resolveInfo="identifier" />
+      <link role="applicableProperty" roleId="tp1t.1147467295099" targetNodeId="2ivj.7336574368822048410" resolveInfo="identifier" />
       <node role="propertyValidator" roleId="tp1t.1212097481299" type="tp1t.ConstraintFunction_PropertyValidator" typeId="tp1t.1212096972063" id="627290435249133505">
         <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="627290435249133506">
           <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="627290435249133598">
@@ -50,11 +50,11 @@
                     <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="627290435249133568">
                       <property name="name" nameId="tpck.1169194664001" value="identifable" />
                       <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="627290435249133569">
-                        <link role="concept" roleId="tp25.1138405853777" targetNodeId="oily.7336574368822048409" resolveInfo="HasId" />
+                        <link role="concept" roleId="tp25.1138405853777" targetNodeId="2ivj.7336574368822048409" resolveInfo="HasId" />
                       </node>
                       <node role="initializer" roleId="tpee.1068431790190" type="tpee.CastExpression" typeId="tpee.1070534934090" id="627290435249133574">
                         <node role="type" roleId="tpee.1070534934091" type="tp25.SNodeType" typeId="tp25.1138055754698" id="627290435249133575">
-                          <link role="concept" roleId="tp25.1138405853777" targetNodeId="oily.7336574368822048409" resolveInfo="HasId" />
+                          <link role="concept" roleId="tp25.1138405853777" targetNodeId="2ivj.7336574368822048409" resolveInfo="HasId" />
                         </node>
                         <node role="expression" roleId="tpee.1070534934092" type="tp2q.ForEachVariableReference" typeId="tp2q.1153944233411" id="627290435249133577">
                           <link role="variable" roleId="tp2q.1153944258490" targetNodeId="627290435249133516" resolveInfo="child" />
@@ -83,7 +83,7 @@
                             <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="627290435249133568" resolveInfo="identifable" />
                           </node>
                           <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="7336574368822202671">
-                            <link role="property" roleId="tp25.1138056395725" targetNodeId="oily.7336574368822048410" resolveInfo="identifier" />
+                            <link role="property" roleId="tp25.1138056395725" targetNodeId="2ivj.7336574368822048410" resolveInfo="identifier" />
                           </node>
                         </node>
                         <node role="leftExpression" roleId="tpee.1081773367580" type="tp1t.ConstraintsFunctionParameter_propertyValue" typeId="tp1t.1153138554286" id="7336574368822170537" />
@@ -101,7 +101,7 @@
                     </node>
                     <node role="operation" roleId="tpee.1197027833540" type="tp25.Concept_IsSubConceptOfOperation" typeId="tp25.1180031783296" id="627290435249133562">
                       <node role="conceptArgument" roleId="tp25.1180031783297" type="tp25.RefConcept_Reference" typeId="tp25.1177026924588" id="627290435249133565">
-                        <link role="conceptDeclaration" roleId="tp25.1177026940964" targetNodeId="oily.7336574368822048409" resolveInfo="HasId" />
+                        <link role="conceptDeclaration" roleId="tp25.1177026940964" targetNodeId="2ivj.7336574368822048409" resolveInfo="HasId" />
                       </node>
                     </node>
                   </node>
