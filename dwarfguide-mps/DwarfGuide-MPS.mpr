@@ -18,6 +18,7 @@
     <projectModules>
       <modulePath path="${project}/src/languages/Creature/Creature.mpl" folder="" />
       <modulePath path="${project}/src/solutions/sandbox/sandbox.msd" folder="" />
+      <modulePath path="${project}/src/languages/Ratings/Ratings.mpl" folder="" />
     </projectModules>
     <genConfs />
   </component>
