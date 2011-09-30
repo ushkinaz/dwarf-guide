@@ -4,7 +4,8 @@ package sandbox.df2001;
 
 
 public enum ProfessionEnum {
-  NAME();
+  Worker(),
+  Dynasty_Labourer();
 
   ProfessionEnum() {
   }

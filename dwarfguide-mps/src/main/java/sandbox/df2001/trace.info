@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="HasName.java" startLine="6" startPosition="0" endLine="9" endPosition="0" unitName="sandbox.df2001.HasName" />
-  <unitInfo fileName="EnumRegistry.java" startLine="9" startPosition="0" endLine="25" endPosition="0" unitName="sandbox.df2001.EnumRegistry" />
-  <root nodeId="2413918680966884229">
-    <nodeInfo nodeId="2413918680966884229" fileName="ProfessionEnum.java" startLine="8" startPosition="0" endLine="10" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ProfessionEnum#()V" />
-    <scopeInfo nodeId="2413918680966884229" fileName="ProfessionEnum.java" startLine="9" startPosition="20" endLine="9" endPosition="20" />
-    <scopeInfo nodeId="2413918680966884229" fileName="ProfessionEnum.java" startLine="8" startPosition="0" endLine="10" endPosition="3" />
-    <unitInfo nodeId="2413918680966884229" fileName="ProfessionEnum.java" startLine="6" startPosition="0" endLine="12" endPosition="0" unitName="sandbox.df2001.ProfessionEnum" />
-  </root>
+  <unitInfo fileName="ProfessionEnum.java" startLine="6" startPosition="0" endLine="13" endPosition="0" unitName="sandbox.df2001.ProfessionEnum" />
+  <unitInfo fileName="EnumRegistry.java" startLine="10" startPosition="0" endLine="27" endPosition="0" unitName="sandbox.df2001.EnumRegistry" />
 </debugInfo>
 
