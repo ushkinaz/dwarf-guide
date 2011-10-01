@@ -16,9 +16,9 @@
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="${project}/src/languages/Ratings/Ratings.mpl" folder="" />
       <modulePath path="${project}/src/languages/Creature/Creature.mpl" folder="" />
       <modulePath path="${project}/src/solutions/sandbox/sandbox.msd" folder="" />
-      <modulePath path="${project}/src/languages/Ratings/Ratings.mpl" folder="" />
     </projectModules>
     <genConfs />
   </component>

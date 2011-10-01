@@ -7,6 +7,7 @@
   <sourcePath />
   <usedLanguages>
     <usedLanguage>ec18e679-bd6d-4441-a00b-ab06c2d44eec(Creature)</usedLanguage>
+    <usedLanguage>c02302e9-f3bd-4ae6-8b1e-54a7ff15399b(Ratings)</usedLanguage>
   </usedLanguages>
 </solution>
 
