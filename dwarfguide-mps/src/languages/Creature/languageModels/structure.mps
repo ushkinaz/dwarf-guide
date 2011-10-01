@@ -61,18 +61,22 @@
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3169390138954787311">
       <property name="name" nameId="tpck.1169194664001" value="SkillReference" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3169390138954787317">
       <property name="name" nameId="tpck.1169194664001" value="TraitReference" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3169390138954787323">
       <property name="name" nameId="tpck.1169194664001" value="MoodReference" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3169390138954787329">
       <property name="name" nameId="tpck.1169194664001" value="AttributeReference" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
     </node>
   </roots>
