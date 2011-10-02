@@ -5,6 +5,9 @@ package sandbox.df2001;
 import javax.annotation.Generated;
 
 @Generated(value = {"MPS"})
-public interface HasName {
-  public String getName();
+public enum RaceEnum {
+  DWARF();
+
+  RaceEnum() {
+  }
 }

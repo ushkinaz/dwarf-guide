@@ -71,6 +71,18 @@
     <node type="2ivj.Skill" typeId="2ivj.7336574368822058574" id="7201497847334348563">
       <property name="name" nameId="tpck.1169194664001" value="Mining" />
     </node>
+    <node type="2ivj.Sex" typeId="2ivj.7201497847334454007" id="7201497847334454022">
+      <property name="name" nameId="tpck.1169194664001" value="Male" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="sexes" />
+    </node>
+    <node type="2ivj.Sex" typeId="2ivj.7201497847334454007" id="7201497847334463966">
+      <property name="name" nameId="tpck.1169194664001" value="Female" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="sexes" />
+    </node>
+    <node type="2ivj.Sex" typeId="2ivj.7201497847334454007" id="7201497847334463967">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="sexes" />
+      <property name="name" nameId="tpck.1169194664001" value="Undecided" />
+    </node>
   </roots>
   <root id="2413918680966884229" />
   <root id="2413918680967037467" />
@@ -130,5 +142,8 @@
     </node>
   </root>
   <root id="7201497847334348563" />
+  <root id="7201497847334454022" />
+  <root id="7201497847334463966" />
+  <root id="7201497847334463967" />
 </model>
 
