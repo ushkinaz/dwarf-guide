@@ -7,7 +7,6 @@
   <generators />
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">ec18e679-bd6d-4441-a00b-ab06c2d44eec(Creature)</dependency>
     <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
   </dependencies>
   <usedLanguages>
@@ -16,6 +15,8 @@
   <usedDevKits>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
   </usedDevKits>
-  <extendedLanguages />
+  <extendedLanguages>
+    <extendedLanguage>ec18e679-bd6d-4441-a00b-ab06c2d44eec(Creature)</extendedLanguage>
+  </extendedLanguages>
 </language>
 
