@@ -1,19 +1,3 @@
-<!--
-  ~ Copyright (c) 2010-2011, Dmitry Sidorenko. All Rights Reserved.
-  ~
-  ~ Licensed under the Apache License, Version 2.0 (the "License");
-  ~ you may not use this file except in compliance with the License.
-  ~ You may obtain a copy of the License at
-  ~
-  ~ http://www.apache.org/licenses/LICENSE-2.0
-  ~
-  ~ Unless required by applicable law or agreed to in writing, software
-  ~ distributed under the License is distributed on an "AS IS" BASIS,
-  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  ~ See the License for the specific language governing permissions and
-  ~ limitations under the License.
-  -->
-
 <html>
 <head>
 <title>
@@ -21,11 +5,11 @@
 </title>
 <script type="text/javascript">
 
-var bodyAttr = [1250,900,1250,1000,1000,1000];
+var bodyattr = [1250,900,1250,1000,1000,1000];
 
-var soulAttr = [1250,1250,1250,1000,1500,1000,1250,1500,1000,1000,1000,1000,1000];
+var soulattr = [1250,1250,1250,1000,1500,1000,1250,1500,1000,1000,1000,1000,1000];
 
-var persTrait = [50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,55,50,50,50,50,50,50,50,55,50,50,45];
+var perstrait = [50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,55,50,50,50,50,50,50,50,55,50,50,45];
 
 var changelog = [""];
 
@@ -58,6 +42,8 @@ function disablebodyenter(e) {
         directbodysubmit();
         document.getElementById("directbodynum").value = ""
     }
+    ;
+
     return (key != 13);
 }
 
@@ -74,6 +60,8 @@ function disablesoulenter(e) {
         directsoulsubmit();
         document.getElementById("directsoulnum").value = ""
     }
+    ;
+
     return (key != 13);
 }
 
@@ -90,6 +78,8 @@ function disablepersenter(e) {
         directperssubmit();
         document.getElementById("directpersnum").value = ""
     }
+    ;
+
     return (key != 13);
 }
 
@@ -106,12 +96,14 @@ function disableverbenter(e) {
         verbalevalsubmit();
         document.getElementById("verbaleval").value = ""
     }
+    ;
+
     return (key != 13);
 }
 
 var xmlDoc;
-var names = [];
-var dorfNum;
+var dwarfnames = [];
+var dorfnum;
 var microsoft;
 
 function xmlupdate() {
@@ -133,41 +125,41 @@ function xmlupdate() {
     }
 
     if (microsoft == "yes") {
-        dorfNum = xmlDoc.getElementsByTagName("Creatures")[0].childNodes.length;
+        dorfnum = xmlDoc.getElementsByTagName("Creatures")[0].childNodes.length;
     }
     else {
-        dorfNum = ((xmlDoc.getElementsByTagName("Creatures")[0].childNodes.length - 1) / 2);
+        dorfnum = ((xmlDoc.getElementsByTagName("Creatures")[0].childNodes.length - 1) / 2);
     }
-    dorfNum = parseInt(dorfNum);
+    dorfnum = parseInt(dorfnum);
     var i = 0;
-    for (i = 0; i < dorfNum; i++) {
+    for (i = 0; i < dorfnum; i++) {
         try {
-            names[i] = xmlDoc.getElementsByTagName("Creature")[i].getElementsByTagName("Nickname")[0].childNodes[0]
+            dwarfnames[i] = xmlDoc.getElementsByTagName("Creature")[i].getElementsByTagName("Nickname")[0].childNodes[0]
                     .nodeValue;
         }
         catch (e) {
-            names[i] = xmlDoc.getElementsByTagName("Creature")[i].getElementsByTagName("Name")[0].childNodes[0]
+            dwarfnames[i] = xmlDoc.getElementsByTagName("Creature")[i].getElementsByTagName("Name")[0].childNodes[0]
                     .nodeValue;
         }
         var x = document.getElementById("dwarflist");
         var option = document.createElement("option");
-        option.text = names[i];
+        option.text = dwarfnames[i];
         x.options.add(option, x.options.length);
     }
 
     var i = 0;
-    for (i = 0; i < dorfNum; i++) {
+    for (i = 0; i < dorfnum; i++) {
         try {
-            names[i] = xmlDoc.getElementsByTagName("Creature")[i].getElementsByTagName("Nickname")[0].childNodes[0]
+            dwarfnames[i] = xmlDoc.getElementsByTagName("Creature")[i].getElementsByTagName("Nickname")[0].childNodes[0]
                     .nodeValue;
         }
         catch (e) {
-            names[i] = xmlDoc.getElementsByTagName("Creature")[i].getElementsByTagName("Name")[0].childNodes[0]
+            dwarfnames[i] = xmlDoc.getElementsByTagName("Creature")[i].getElementsByTagName("Name")[0].childNodes[0]
                     .nodeValue;
         }
         var x = document.getElementById("dorfsfrom");
         var option = document.createElement("option");
-        option.text = names[i];
+        option.text = dwarfnames[i];
         x.options.add(option, x.options.length);
     }
 
@@ -191,6 +183,7 @@ function printgender(gender) {
     } else {
         gender = "Female"
     }
+    ;
     if (gender == "Male") {
         document.getElementById("printdwarfgender").innerHTML = "\u2642";
         document.getElementById("printdwarfgender2").innerHTML = "\u2642";
@@ -202,22 +195,22 @@ function printgender(gender) {
 }
 
 function bodyupdate() {
-    while (newbody < bodyAttr.length) {
-        document.getElementById("bodyAttr" + newbody).innerHTML = bodyAttr[newbody];
+    while (newbody < bodyattr.length) {
+        document.getElementById("bodyattr" + newbody).innerHTML = bodyattr[newbody];
         newbody++;
     }
 }
 
 function soulupdate() {
-    while (newsoul < soulAttr.length) {
-        document.getElementById("soulAttr" + newsoul).innerHTML = soulAttr[newsoul];
+    while (newsoul < soulattr.length) {
+        document.getElementById("soulattr" + newsoul).innerHTML = soulattr[newsoul];
         newsoul++;
     }
 }
 
 function traitupdate() {
-    while (newtrait < persTrait.length) {
-        document.getElementById("persTrait" + newtrait).innerHTML = persTrait[newtrait];
+    while (newtrait < perstrait.length) {
+        document.getElementById("perstrait" + newtrait).innerHTML = perstrait[newtrait];
         newtrait++;
     }
 }
@@ -225,27 +218,27 @@ function traitupdate() {
 var verbalinput = [];
 
 function xmlprocess() {
-    bodyAttr = [1250,900,1250,1000,1000,1000];
+    bodyattr = [1250,900,1250,1000,1000,1000];
 
-    soulAttr = [1250,1250,1250,1000,1500,1000,1250,1500,1000,1000,1000,1000,1000];
+    soulattr = [1250,1250,1250,1000,1500,1000,1250,1500,1000,1000,1000,1000,1000];
 
-    persTrait = [50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,55,50,50,50,50,50,50,50,55,50,50,45];
+    perstrait = [50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,55,50,50,50,50,50,50,50,55,50,50,45];
 
     verbalinput = [];
 
     i = 0;
-    for (i = 0; i < bodyAttr.length; i++) {
-        document.getElementById("bodyAttr" + i).innerHTML = bodyAttr[i];
+    for (i = 0; i < bodyattr.length; i++) {
+        document.getElementById("bodyattr" + i).innerHTML = bodyattr[i];
     }
 
     i = 0;
-    for (i = 0; i < soulAttr.length; i++) {
-        document.getElementById("soulAttr" + i).innerHTML = soulAttr[i];
+    for (i = 0; i < soulattr.length; i++) {
+        document.getElementById("soulattr" + i).innerHTML = soulattr[i];
     }
 
     i = 0;
-    for (i = 0; i < persTrait.length; i++) {
-        document.getElementById("persTrait" + i).innerHTML = persTrait[i];
+    for (i = 0; i < perstrait.length; i++) {
+        document.getElementById("perstrait" + i).innerHTML = perstrait[i];
     }
 
     if (document.getElementById("dwarflist").selectedIndex == 0) {
@@ -253,9 +246,11 @@ function xmlprocess() {
         document.getElementById("printdwarf").innerHTML = document.getElementById("dwarfname").value;
         return;
     }
+    ;
+
     var pick = (document.getElementById("dwarflist").selectedIndex - 1);
 
-    document.getElementById("dwarfname").value = names[pick];
+    document.getElementById("dwarfname").value = dwarfnames[pick];
     printname();
 
     if (xmlDoc.getElementsByTagName("Sex")[pick].childNodes[0].nodeValue == "Male") {
@@ -268,42 +263,42 @@ function xmlprocess() {
     }
     printgender(gender);
 
-    bodyAttr[0] = xmlDoc.getElementsByTagName("Strength")[pick].childNodes[0].nodeValue;
-    bodyAttr[1] = xmlDoc.getElementsByTagName("Agility")[pick].childNodes[0].nodeValue;
-    bodyAttr[2] = xmlDoc.getElementsByTagName("Toughness")[pick].childNodes[0].nodeValue;
-    bodyAttr[3] = xmlDoc.getElementsByTagName("Endurance")[pick].childNodes[0].nodeValue;
-    bodyAttr[4] = xmlDoc.getElementsByTagName("DiseaseResistance")[pick].childNodes[0].nodeValue;
-    bodyAttr[5] = xmlDoc.getElementsByTagName("Recuperation")[pick].childNodes[0].nodeValue;
+    bodyattr[0] = xmlDoc.getElementsByTagName("Strength")[pick].childNodes[0].nodeValue;
+    bodyattr[1] = xmlDoc.getElementsByTagName("Agility")[pick].childNodes[0].nodeValue;
+    bodyattr[2] = xmlDoc.getElementsByTagName("Toughness")[pick].childNodes[0].nodeValue;
+    bodyattr[3] = xmlDoc.getElementsByTagName("Endurance")[pick].childNodes[0].nodeValue;
+    bodyattr[4] = xmlDoc.getElementsByTagName("DiseaseResistance")[pick].childNodes[0].nodeValue;
+    bodyattr[5] = xmlDoc.getElementsByTagName("Recuperation")[pick].childNodes[0].nodeValue;
 
     i = 0;
-    for (i = 0; i < bodyAttr.length; i++) {
-        document.getElementById("bodyAttr" + i).innerHTML = bodyAttr[i];
+    for (i = 0; i < bodyattr.length; i++) {
+        document.getElementById("bodyattr" + i).innerHTML = bodyattr[i];
     }
 
-    soulAttr[0] = xmlDoc.getElementsByTagName("AnalyticalAbility")[pick].childNodes[0].nodeValue;
-    soulAttr[1] = xmlDoc.getElementsByTagName("Memory")[pick].childNodes[0].nodeValue;
-    soulAttr[2] = xmlDoc.getElementsByTagName("Creatvity")[pick].childNodes[0].nodeValue;
-    soulAttr[3] = xmlDoc.getElementsByTagName("Intuition")[pick].childNodes[0].nodeValue;
-    soulAttr[4] = xmlDoc.getElementsByTagName("Focus")[pick].childNodes[0].nodeValue;
-    soulAttr[5] = xmlDoc.getElementsByTagName("Willpower")[pick].childNodes[0].nodeValue;
-    soulAttr[6] = xmlDoc.getElementsByTagName("Patience")[pick].childNodes[0].nodeValue;
-    soulAttr[7] = xmlDoc.getElementsByTagName("SpatialSense")[pick].childNodes[0].nodeValue;
-    soulAttr[8] = xmlDoc.getElementsByTagName("KinaestheticSense")[pick].childNodes[0].nodeValue;
-    soulAttr[9] = xmlDoc.getElementsByTagName("LinguisticAbility")[pick].childNodes[0].nodeValue;
-    soulAttr[10] = xmlDoc.getElementsByTagName("Musicality")[pick].childNodes[0].nodeValue;
-    soulAttr[11] = xmlDoc.getElementsByTagName("Empathy")[pick].childNodes[0].nodeValue;
-    soulAttr[12] = xmlDoc.getElementsByTagName("SocialAwareness")[pick].childNodes[0].nodeValue;
+    soulattr[0] = xmlDoc.getElementsByTagName("AnalyticalAbility")[pick].childNodes[0].nodeValue;
+    soulattr[1] = xmlDoc.getElementsByTagName("Memory")[pick].childNodes[0].nodeValue;
+    soulattr[2] = xmlDoc.getElementsByTagName("Creatvity")[pick].childNodes[0].nodeValue;
+    soulattr[3] = xmlDoc.getElementsByTagName("Intuition")[pick].childNodes[0].nodeValue;
+    soulattr[4] = xmlDoc.getElementsByTagName("Focus")[pick].childNodes[0].nodeValue;
+    soulattr[5] = xmlDoc.getElementsByTagName("Willpower")[pick].childNodes[0].nodeValue;
+    soulattr[6] = xmlDoc.getElementsByTagName("Patience")[pick].childNodes[0].nodeValue;
+    soulattr[7] = xmlDoc.getElementsByTagName("SpatialSense")[pick].childNodes[0].nodeValue;
+    soulattr[8] = xmlDoc.getElementsByTagName("KinaestheticSense")[pick].childNodes[0].nodeValue;
+    soulattr[9] = xmlDoc.getElementsByTagName("LinguisticAbility")[pick].childNodes[0].nodeValue;
+    soulattr[10] = xmlDoc.getElementsByTagName("Musicality")[pick].childNodes[0].nodeValue;
+    soulattr[11] = xmlDoc.getElementsByTagName("Empathy")[pick].childNodes[0].nodeValue;
+    soulattr[12] = xmlDoc.getElementsByTagName("SocialAwareness")[pick].childNodes[0].nodeValue;
 
     i = 0;
-    for (i = 0; i < soulAttr.length; i++) {
-        document.getElementById("soulAttr" + i).innerHTML = soulAttr[i];
+    for (i = 0; i < soulattr.length; i++) {
+        document.getElementById("soulattr" + i).innerHTML = soulattr[i];
     }
 
     var traitsperdorf = [];
 
 
     i = 0;
-    for (i = 0; i < dorfNum; i++) {
+    for (i = 0; i < dorfnum; i++) {
         traitsperdorf[i] = xmlDoc.getElementsByTagName("Traits")[i].childNodes.length;
         if (microsoft == "yes") {
         }
@@ -316,7 +311,7 @@ function xmlprocess() {
     traitstotal[0] = traitsperdorf[0];
 
     i = 1;
-    for (i = 1; i < dorfNum; i++) {
+    for (i = 1; i < dorfnum; i++) {
         traitstotal[i] = parseInt(traitstotal[i - 1]) + parseInt(traitsperdorf[i]);
     }
     var dwarfpick = document.getElementById("dwarflist").selectedIndex;
@@ -342,24 +337,24 @@ function directbodysubmit() {
     printgender();
 
     var pick = document.getElementById("directbody").selectedIndex;
-    bodyAttr[pick] = document.getElementById("directbodynum").value;
-    bodyAttr[pick] = parseInt(bodyAttr[pick], 10);
-    if (isNaN(bodyAttr[pick])) {
-        bodyAttr[pick] = document.getElementById("bodyAttr" + pick).innerHTML;
+    bodyattr[pick] = document.getElementById("directbodynum").value;
+    bodyattr[pick] = parseInt(bodyattr[pick], 10);
+    if (isNaN(bodyattr[pick])) {
+        bodyattr[pick] = document.getElementById("bodyattr" + pick).innerHTML;
         changelog.splice(0, 0, "Error! " + document.getElementById("directbody").options[pick]
                 .text + " must be a number!");
         changelogupdate();
     }
-    else if (bodyAttr[pick] < 0 || bodyAttr[pick] > 5000) {
-        bodyAttr[pick] = document.getElementById("bodyAttr" + pick).innerHTML;
+    else if (bodyattr[pick] < 0 || bodyattr[pick] > 5000) {
+        bodyattr[pick] = document.getElementById("bodyattr" + pick).innerHTML;
         changelog.splice(0, 0, "Error! " + document.getElementById("directbody").options[pick]
                 .text + " must be between 0 and 5000!");
         changelogupdate();
     }
     else {
-        document.getElementById("bodyAttr" + pick).innerHTML = bodyAttr[pick];
+        document.getElementById("bodyattr" + pick).innerHTML = bodyattr[pick];
         changelog.splice(0, 0, document.getElementById("directbody").options[pick]
-                .text + " set to " + bodyAttr[pick] + " by User.");
+                .text + " set to " + bodyattr[pick] + " by User.");
         guide();
         changelogupdate();
     }
@@ -370,24 +365,24 @@ function directsoulsubmit() {
     printname();
     printgender();
     var pick = document.getElementById("directsoul").selectedIndex;
-    soulAttr[pick] = document.getElementById("directsoulnum").value;
-    soulAttr[pick] = parseInt(soulAttr[pick], 10);
-    if (isNaN(soulAttr[pick])) {
-        soulAttr[pick] = document.getElementById("soulAttr" + pick).innerHTML;
+    soulattr[pick] = document.getElementById("directsoulnum").value;
+    soulattr[pick] = parseInt(soulattr[pick], 10);
+    if (isNaN(soulattr[pick])) {
+        soulattr[pick] = document.getElementById("soulattr" + pick).innerHTML;
         changelog.splice(0, 0, "Error! " + document.getElementById("directsoul").options[pick]
                 .text + " must be a number!");
         changelogupdate();
     }
-    else if (soulAttr[pick] < 0 || soulAttr[pick] > 5000) {
-        soulAttr[pick] = document.getElementById("soulAttr" + pick).innerHTML;
+    else if (soulattr[pick] < 0 || soulattr[pick] > 5000) {
+        soulattr[pick] = document.getElementById("soulattr" + pick).innerHTML;
         changelog.splice(0, 0, "Error! " + document.getElementById("directsoul").options[pick]
                 .text + " must be between 0 and 5000!");
         changelogupdate();
     }
     else {
-        document.getElementById("soulAttr" + pick).innerHTML = soulAttr[pick];
+        document.getElementById("soulattr" + pick).innerHTML = soulattr[pick];
         changelog.splice(0, 0, document.getElementById("directsoul").options[pick]
-                .text + " set to " + soulAttr[pick] + " by User.");
+                .text + " set to " + soulattr[pick] + " by User.");
         guide();
         changelogupdate();
     }
@@ -398,24 +393,24 @@ function directperssubmit() {
     printname();
     printgender();
     var pick = document.getElementById("directpers").selectedIndex;
-    persTrait[pick] = document.getElementById("directpersnum").value;
-    persTrait[pick] = parseInt(persTrait[pick], 10);
-    if (isNaN(persTrait[pick])) {
-        persTrait[pick] = document.getElementById("persTrait" + pick).innerHTML;
+    perstrait[pick] = document.getElementById("directpersnum").value;
+    perstrait[pick] = parseInt(perstrait[pick], 10);
+    if (isNaN(perstrait[pick])) {
+        perstrait[pick] = document.getElementById("perstrait" + pick).innerHTML;
         changelog.splice(0, 0, "Error! " + document.getElementById("directpers").options[pick]
                 .text + " must be a number!");
         changelogupdate();
     }
-    else if (persTrait[pick] < 0 || persTrait[pick] > 100) {
-        persTrait[pick] = document.getElementById("persTrait" + pick).innerHTML;
+    else if (perstrait[pick] < 0 || perstrait[pick] > 100) {
+        perstrait[pick] = document.getElementById("perstrait" + pick).innerHTML;
         changelog.splice(0, 0, "Error! " + document.getElementById("directpers").options[pick]
                 .text + " must be between 0 and 100!");
         changelogupdate();
     }
     else {
-        document.getElementById("persTrait" + pick).innerHTML = persTrait[pick];
+        document.getElementById("perstrait" + pick).innerHTML = perstrait[pick];
         changelog.splice(0, 0, document.getElementById("directpers").options[pick]
-                .text + " set to " + persTrait[pick] + " by User.");
+                .text + " set to " + perstrait[pick] + " by User.");
         guide();
         changelogupdate();
     }
@@ -525,7 +520,7 @@ function bestdorf() {
     }
 
     i = 0;
-    for (i = 0; i < dorfNum; i++) {
+    for (i = 0; i < dorfnum; i++) {
         dorfbodyattrs[0] = xmlDoc.getElementsByTagName("Strength")[i].childNodes[0].nodeValue;
         dorfbodyattrs[1] = xmlDoc.getElementsByTagName("Agility")[i].childNodes[0].nodeValue;
         dorfbodyattrs[2] = xmlDoc.getElementsByTagName("Toughness")[i].childNodes[0].nodeValue;
@@ -555,7 +550,7 @@ function bestdorf() {
         document.getElementById("printdwarfgender2").innerHTML = "\u263C";
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
             skilleval = dorfallattrs[i].toString();
             skilleval = skilleval.split(",");
@@ -572,70 +567,71 @@ function bestdorf() {
         }
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
             fortsum = fortsum + attrsum[i];
 
         }
 
-        fortavg = Math.round(fortsum / dorfNum);
+        fortavg = Math.round(fortsum / dorfnum);
         fortavg = Math.round(((fortavg * 89) / 1976) - (916735 / 988));
         dwarfworth = Math.round((fortsum * 100) / 21835) / 100;
         document.getElementById("guidance")
-                .innerHTML = "Your " + dorfNum + " dwarves have the attribute points of " + dwarfworth + " average dwarves. If this is your starting seven, about " + fortavg + " percent of embarks will have as many or fewer attribute points as this embark.";
+                .innerHTML = "Your " + dorfnum + " dwarves have the attribute points of " + dwarfworth + " average dwarves. If this is your starting seven, about " + fortavg + " percent of embarks will have as many or fewer attribute points as this embark.";
 
         return;
     }
 
 // LEADER/MANAGER (not low straightforwardness, not low cooperation, organizer, socializer)
     i = 0;
-    var dorfsListElement = document.getElementById("dorfsfrom");
-    for (i = 0; i < dorfNum; i++) {
+    for (i = 0; i < dorfnum; i++) {
 
-        if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+        if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                 .selected == true) {
             var traitsperdorf = [];
-            var dorftraitlist = [];
+            var traitList = [];
             traitsperdorf[i] = xmlDoc.getElementsByTagName("Traits")[i].childNodes.length;
             if (microsoft == "yes") {
             }
             else {
                 traitsperdorf[i] = (traitsperdorf[i] - 1) / 2;
             }
+            ;
+
             if (pick == 1) {
 
                 x = 0;
                 for (x = 0; x < traitsperdorf[i]; x++) {
-                    dorftraitlist[x] = xmlDoc.getElementsByTagName("Traits")[i].getElementsByTagName("Trait")[x]
+                    traitList[x] = xmlDoc.getElementsByTagName("Traits")[i].getElementsByTagName("Trait")[x]
                             .childNodes[0].nodeValue;
-                    dorftraitlist[x] = dorftraitlist[x].toLowerCase();
+                    traitList[x] = traitList[x].toLowerCase();
                 }
 
-                dorftraitlist = dorftraitlist.toString();
+                traitList = traitList.toString();
 
-                if (dorftraitlist.search("to compromise with somebody else") != -1) {
+                if (traitList.search("to compromise with somebody else") != -1) {
                     skillcomp[i] = "deek";
-                    ratelist[i] = namerate(names[i], skillcomp[i]);
+                    ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
                 }
-                else if (dorftraitlist.search("rather intimidate others") != -1) {
+                else if (traitList.search("rather intimidate others") != -1) {
                     skillcomp[i] = "deek";
-                    ratelist[i] = namerate(names[i], skillcomp[i]);
+                    ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
                 }
-                else if (dorftraitlist.search("like to compromise") != -1) {
+                else if (traitList.search("like to compromise") != -1) {
                     skillcomp[i] = "deek";
-                    ratelist[i] = namerate(names[i], skillcomp[i]);
+                    ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
                 }
-                else if (dorftraitlist.search("some deception is necessary") != -1) {
+                else if (traitList.search("some deception is necessary") != -1) {
                     skillcomp[i] = "deek";
-                    ratelist[i] = namerate(names[i], skillcomp[i]);
+                    ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
                 }
-                else if (dorftraitlist.search("not straightforward") != -1) {
+                else if (traitList.search("not straightforward") != -1) {
                     skillcomp[i] = "deek";
-                    ratelist[i] = namerate(names[i], skillcomp[i]);
+                    ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
                 }
-                else if (dorftraitlist.search("guarded in relationships") != -1) {
+                else if (traitList.search("guarded in relationships") != -1) {
                     skillcomp[i] = "deek";
-                    ratelist[i] = namerate(names[i], skillcomp[i]);
+                    ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
                 }
 
                 else {
@@ -645,7 +641,7 @@ function bestdorf() {
 
                     skillcomp[i] = anabbest() + crebest() + socbest() + lingbest() + empbest() + socbest();
                     skillcomp[i] = Math.round(skillcomp[i] / 6);
-                    ratelist[i] = namerate(names[i], skillcomp[i]);
+                    ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
                 }
 
             }
@@ -656,16 +652,16 @@ function bestdorf() {
     if (pick == 2) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = intubest() + empbest() + socbest() + anabbest() + membest() + intubest() + lingbest() + empbest() + socbest();
                 skillcomp[i] = Math.round(skillcomp[i] / 9);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
 
         }
@@ -675,16 +671,16 @@ function bestdorf() {
     if (pick == 3) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = strbest() + agibest() + tuffbest() + willbest() + spabest() + kinbest();
                 skillcomp[i] = Math.round(skillcomp[i] / 6);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
         }
     }
@@ -693,16 +689,16 @@ function bestdorf() {
     if (pick == 4 || pick == 18 || pick == 19) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = agibest() + focbest() + spabest() + kinbest();
                 skillcomp[i] = Math.round(skillcomp[i] / 4);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
         }
     }
@@ -711,16 +707,16 @@ function bestdorf() {
     if (pick == 5) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = lingbest() + empbest() + socbest();
                 skillcomp[i] = Math.round(skillcomp[i] / 3);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
         }
     }
@@ -729,16 +725,16 @@ function bestdorf() {
     if (pick == 6 || pick == 64) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = strbest() + tuffbest() + endrbest() + willbest() + spabest() + kinbest();
                 skillcomp[i] = Math.round(skillcomp[i] / 6);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
         }
     }
@@ -747,16 +743,16 @@ function bestdorf() {
     if (pick == 7 || pick == 10 || pick == 45 || pick == 46 || pick == 47 || pick == 50 || pick == 51 || pick == 52) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = agibest() + crebest() + spabest() + kinbest();
                 skillcomp[i] = Math.round(skillcomp[i] / 4);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
         }
     }
@@ -765,16 +761,16 @@ function bestdorf() {
     if (pick == 8) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = strbest() + agibest() + crebest() + spabest() + kinbest();
                 skillcomp[i] = Math.round(skillcomp[i] / 5);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
         }
     }
@@ -783,16 +779,16 @@ function bestdorf() {
     if (pick == 9 || pick == 58 || pick == 66) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = strbest() + agibest() + endrbest() + willbest() + spabest() + kinbest();
                 skillcomp[i] = Math.round(skillcomp[i] / 6);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
         }
     }
@@ -801,16 +797,16 @@ function bestdorf() {
     if (pick == 11 || pick == 39 || pick == 41 || pick == 42 || pick == 43 || pick == 48 || pick == 49) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = strbest() + agibest() + endrbest() + willbest() + spabest() + kinbest();
                 skillcomp[i] = Math.round(skillcomp[i] / 6);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
         }
     }
@@ -819,16 +815,16 @@ function bestdorf() {
     if (pick == 12 || pick == 33 || pick == 37) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = agibest() + kinbest();
                 skillcomp[i] = Math.round(skillcomp[i] / 2);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
         }
     }
@@ -837,16 +833,16 @@ function bestdorf() {
     if (pick == 13) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = agibest() + tuffbest() + endrbest() + intubest() + patbest() + empbest();
                 skillcomp[i] = Math.round(skillcomp[i] / 6);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
         }
     }
@@ -855,16 +851,16 @@ function bestdorf() {
     if (pick == 14) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = agibest() + anabbest() + crebest() + spabest();
                 skillcomp[i] = Math.round(skillcomp[i] / 4);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
         }
     }
@@ -873,16 +869,16 @@ function bestdorf() {
     if (pick == 15) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = strbest() + agibest() + focbest() + spabest() + kinbest();
                 skillcomp[i] = Math.round(skillcomp[i] / 5);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
         }
     }
@@ -891,16 +887,16 @@ function bestdorf() {
     if (pick == 16) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = agibest() + endrbest() + willbest() + spabest() + kinbest();
                 skillcomp[i] = Math.round(skillcomp[i] / 5);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
         }
     }
@@ -909,16 +905,16 @@ function bestdorf() {
     if (pick == 17 || pick == 59) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = anabbest() + membest() + intubest();
                 skillcomp[i] = Math.round(skillcomp[i] / 3);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
         }
     }
@@ -927,16 +923,16 @@ function bestdorf() {
     if (pick == 20) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = agibest() + spabest() + kinbest() + empbest();
                 skillcomp[i] = Math.round(skillcomp[i] / 4);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
         }
     }
@@ -945,16 +941,16 @@ function bestdorf() {
     if (pick == 21) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = strbest() + agibest() + kinbest();
                 skillcomp[i] = Math.round(skillcomp[i] / 3);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
         }
     }
@@ -963,16 +959,16 @@ function bestdorf() {
     if (pick == 22 || pick == 25 || pick == 26 || pick == 29 || pick == 30 || pick == 34) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = strbest() + agibest() + endrbest() + kinbest();
                 skillcomp[i] = Math.round(skillcomp[i] / 4);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
         }
     }
@@ -981,16 +977,16 @@ function bestdorf() {
     if (pick == 23) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = strbest() + agibest() + endrbest() + anabbest() + crebest() + kinbest();
                 skillcomp[i] = Math.round(skillcomp[i] / 6);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
         }
     }
@@ -999,16 +995,16 @@ function bestdorf() {
     if (pick == 24) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = agibest() + anabbest() + crebest() + kinbest();
                 skillcomp[i] = Math.round(skillcomp[i] / 4);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
         }
     }
@@ -1017,16 +1013,16 @@ function bestdorf() {
     if (pick == 27) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = agibest() + membest() + kinbest();
                 skillcomp[i] = Math.round(skillcomp[i] / 3);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
         }
     }
@@ -1035,16 +1031,16 @@ function bestdorf() {
     if (pick == 28 || pick == 31 || pick == 32 || pick == 35) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = strbest() + tuffbest() + endrbest() + kinbest();
                 skillcomp[i] = Math.round(skillcomp[i] / 4);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
         }
     }
@@ -1053,16 +1049,16 @@ function bestdorf() {
     if (pick == 36) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = agibest() + endrbest() + kinbest();
                 skillcomp[i] = Math.round(skillcomp[i] / 3);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
         }
     }
@@ -1071,16 +1067,16 @@ function bestdorf() {
     if (pick == 38) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = strbest() + agibest() + focbest() + patbest() + kinbest();
                 skillcomp[i] = Math.round(skillcomp[i] / 5);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
         }
     }
@@ -1089,16 +1085,16 @@ function bestdorf() {
     if (pick == 40) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = strbest() + tuffbest() + endrbest() + anabbest() + kinbest();
                 skillcomp[i] = Math.round(skillcomp[i] / 5);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
         }
     }
@@ -1107,16 +1103,16 @@ function bestdorf() {
     if (pick == 44) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = agibest() + anabbest() + spabest() + kinbest();
                 skillcomp[i] = Math.round(skillcomp[i] / 4);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
         }
     }
@@ -1125,16 +1121,16 @@ function bestdorf() {
     if (pick == 53) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = strbest() + agibest() + endrbest() + anabbest() + kinbest();
                 skillcomp[i] = Math.round(skillcomp[i] / 5);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
         }
     }
@@ -1143,16 +1139,16 @@ function bestdorf() {
     if (pick == 54 || pick == 56) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = strbest() + agibest() + endrbest() + anabbest() + crebest() + spabest();
                 skillcomp[i] = Math.round(skillcomp[i] / 6);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
         }
     }
@@ -1161,16 +1157,16 @@ function bestdorf() {
     if (pick == 55 || pick == 63) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = strbest() + tuffbest() + endrbest() + willbest() + kinbest();
                 skillcomp[i] = Math.round(skillcomp[i] / 5);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
         }
     }
@@ -1179,16 +1175,16 @@ function bestdorf() {
     if (pick == 57) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = strbest() + tuffbest() + endrbest() + anabbest() + focbest() + spabest();
                 skillcomp[i] = Math.round(skillcomp[i] / 6);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
         }
     }
@@ -1197,16 +1193,16 @@ function bestdorf() {
     if (pick == 60) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = anabbest() + crebest() + spabest();
                 skillcomp[i] = Math.round(skillcomp[i] / 3);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
         }
     }
@@ -1215,16 +1211,16 @@ function bestdorf() {
     if (pick == 61) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = anabbest() + crebest() + socbest();
                 skillcomp[i] = Math.round(skillcomp[i] / 3);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
         }
     }
@@ -1233,16 +1229,16 @@ function bestdorf() {
     if (pick == 62 || pick == 72) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = anabbest() + membest() + focbest();
                 skillcomp[i] = Math.round(skillcomp[i] / 3);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
         }
     }
@@ -1251,25 +1247,25 @@ function bestdorf() {
     if (pick == 65) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = agibest() + tuffbest() + endrbest() + willbest() + spabest() + kinbest();
                 skillcomp[i] = Math.round(skillcomp[i] / 6);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
         }
     }
 
 // COMEDIAN (not high self-consciousness, ACKsL)
     i = 0;
-    for (i = 0; i < dorfNum; i++) {
+    for (i = 0; i < dorfnum; i++) {
 
-        if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+        if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                 .selected == true) {
             var traitsperdorf = [];
             var dorftraitlist = [];
@@ -1279,6 +1275,8 @@ function bestdorf() {
             else {
                 traitsperdorf[i] = (traitsperdorf[i] - 1) / 2;
             }
+            ;
+
             if (pick == 67) {
 
                 x = 0;
@@ -1292,11 +1290,11 @@ function bestdorf() {
 
                 if (dorftraitlist.search("socially cripplied") != -1) {
                     skillcomp[i] = "deek";
-                    ratelist[i] = namerate(names[i], skillcomp[i]);
+                    ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
                 }
                 else if (dorftraitlist.search("rejection and ridicule") != -1) {
                     skillcomp[i] = "deek";
-                    ratelist[i] = namerate(names[i], skillcomp[i]);
+                    ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
                 }
 
                 else {
@@ -1307,7 +1305,7 @@ function bestdorf() {
 
                     skillcomp[i] = agibest() + crebest() + kinbest() + lingbest();
                     skillcomp[i] = Math.round(skillcomp[i] / 4);
-                    ratelist[i] = namerate(names[i], skillcomp[i]);
+                    ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
                 }
             }
         }
@@ -1316,9 +1314,9 @@ function bestdorf() {
 
 // INTIMIDATOR (not high cooperation, AKsL)
     i = 0;
-    for (i = 0; i < dorfNum; i++) {
+    for (i = 0; i < dorfnum; i++) {
 
-        if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+        if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                 .selected == true) {
             var traitsperdorf = [];
             var dorftraitlist = [];
@@ -1328,6 +1326,8 @@ function bestdorf() {
             else {
                 traitsperdorf[i] = (traitsperdorf[i] - 1) / 2;
             }
+            ;
+
             if (pick == 68) {
 
                 x = 0;
@@ -1341,15 +1341,15 @@ function bestdorf() {
 
                 if (dorftraitlist.search("needs to get along with others") != -1) {
                     skillcomp[i] = "deek";
-                    ratelist[i] = namerate(names[i], skillcomp[i]);
+                    ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
                 }
                 else if (dorftraitlist.search("dislikes confrontations") != -1) {
                     skillcomp[i] = "deek";
-                    ratelist[i] = namerate(names[i], skillcomp[i]);
+                    ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
                 }
                 else if (dorftraitlist.search("willing to compromise") != -1) {
                     skillcomp[i] = "deek";
-                    ratelist[i] = namerate(names[i], skillcomp[i]);
+                    ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
                 }
 
                 else {
@@ -1360,7 +1360,7 @@ function bestdorf() {
 
                     skillcomp[i] = agibest() + kinbest() + lingbest();
                     skillcomp[i] = Math.round(skillcomp[i] / 3);
-                    ratelist[i] = namerate(names[i], skillcomp[i]);
+                    ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
                 }
             }
         }
@@ -1371,25 +1371,25 @@ function bestdorf() {
     if (pick == 69) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = intubest() + empbest() + socbest();
                 skillcomp[i] = Math.round(skillcomp[i] / 3);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
         }
     }
 
 // LIAR (low straightforwardness, CLSa)
     i = 0;
-    for (i = 0; i < dorfNum; i++) {
+    for (i = 0; i < dorfnum; i++) {
 
-        if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+        if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                 .selected == true) {
             var traitsperdorf = [];
             var dorftraitlist = [];
@@ -1399,6 +1399,8 @@ function bestdorf() {
             else {
                 traitsperdorf[i] = (traitsperdorf[i] - 1) / 2;
             }
+            ;
+
             if (pick == 70) {
 
                 x = 0;
@@ -1421,7 +1423,7 @@ function bestdorf() {
                 }
                 else {
                     skillcomp[i] = "deek";
-                    ratelist[i] = namerate(names[i], skillcomp[i]);
+                    ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
                 }
 
                 function isliar() {
@@ -1432,7 +1434,7 @@ function bestdorf() {
 
                     skillcomp[i] = crebest() + lingbest() + socbest();
                     skillcomp[i] = Math.round(skillcomp[i] / 3);
-                    ratelist[i] = namerate(names[i], skillcomp[i]);
+                    ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
                 }
             }
         }
@@ -1443,16 +1445,16 @@ function bestdorf() {
     if (pick == 71) {
 
         i = 0;
-        for (i = 0; i < dorfNum; i++) {
+        for (i = 0; i < dorfnum; i++) {
 
-            if (dorfsListElement[0].selected == true || dorfsListElement[i + 1]
+            if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
                     .selected == true) {
                 skilleval = dorfallattrs[i].toString();
                 skilleval = skilleval.split(",");
 
                 skillcomp[i] = intubest() + focbest() + spabest();
                 skillcomp[i] = Math.round(skillcomp[i] / 3);
-                ratelist[i] = namerate(names[i], skillcomp[i]);
+                ratelist[i] = namerate(dwarfnames[i], skillcomp[i]);
             }
         }
     }
@@ -1461,65 +1463,92 @@ function bestdorf() {
         superbname.splice(0, 0, "You are lucky to have a superb " + ratejob + " in");
         superbname[(superbname.length - 1)] = superbname[(superbname.length - 1)].replace(/;/g, ".");
     }
+    ;
     if (superbname.length >= 3) {
         superbname[(superbname.length - 2)] = superbname[(superbname.length - 2)] + " and ";
     }
+    ;
+
     if (verygoodname.length >= 1) {
         verygoodname.splice(0, 0, "You'll have a very good " + ratejob + " in");
         verygoodname[(verygoodname.length - 1)] = verygoodname[(verygoodname.length - 1)].replace(/;/g, ".");
     }
+    ;
     if (verygoodname.length >= 3) {
         verygoodname[(verygoodname.length - 2)] = verygoodname[(verygoodname.length - 2)] + " and ";
     }
+    ;
+
     if (goodname.length >= 1) {
         goodname.splice(0, 0, "If you want a good " + ratejob + "; there's");
         goodname[(goodname.length - 1)] = goodname[(goodname.length - 1)].replace(/;/g, ".");
     }
+    ;
     if (goodname.length >= 3) {
         goodname[(goodname.length - 2)] = goodname[(goodname.length - 2)] + " and ";
     }
+    ;
+
     if (highavgname.length >= 1) {
         highavgname.splice(0, 0, " For a " + ratejob + " a bit above average; try");
         highavgname[(highavgname.length - 1)] = highavgname[(highavgname.length - 1)].replace(/;/g, ".");
     }
+    ;
     if (highavgname.length >= 3) {
         highavgname[(highavgname.length - 2)] = highavgname[(highavgname.length - 2)] + " and ";
     }
+    ;
+
     if (lowavgname.length >= 1) {
         lowavgname.splice(0, 0, "If you'll settle for a below average " + ratejob + "; there's");
         lowavgname[(lowavgname.length - 1)] = lowavgname[(lowavgname.length - 1)].replace(/;/g, ".");
     }
+    ;
     if (lowavgname.length >= 3) {
         lowavgname[(lowavgname.length - 2)] = lowavgname[(lowavgname.length - 2)] + " and ";
     }
+    ;
+
     if (poorname.length >= 1) {
         poorname.splice(0, 0, "You will have a poor " + ratejob + " in");
         poorname[(poorname.length - 1)] = poorname[(poorname.length - 1)].replace(/;/g, ".");
     }
+    ;
     if (poorname.length >= 3) {
         poorname[(poorname.length - 2)] = poorname[(poorname.length - 2)] + " and ";
     }
+    ;
+
     if (verypoorname.length >= 1) {
         verypoorname.splice(0, 0, "You'll have a very poor " + ratejob + " in");
         verypoorname[(verypoorname.length - 1)] = verypoorname[(verypoorname.length - 1)].replace(/;/g, ".");
     }
+    ;
     if (verypoorname.length >= 3) {
         verypoorname[(verypoorname.length - 2)] = verypoorname[(verypoorname.length - 2)] + " and ";
     }
+    ;
+
     if (horriblename.length >= 1) {
         horriblename.splice(0, 0, "You're unlucky to have a horrible " + ratejob + " in");
         horriblename[(horriblename.length - 1)] = horriblename[(horriblename.length - 1)].replace(/;/g, ".");
     }
+    ;
     if (horriblename.length >= 3) {
         horriblename[(horriblename.length - 2)] = horriblename[(horriblename.length - 2)] + " and ";
     }
+    ;
+
     if (deekname.length >= 1) {
         deekname.splice(0, 0, "The following dwarves cannot be a " + ratejob + " because of personality problems:");
         deekname[(deekname.length - 1)] = deekname[(deekname.length - 1)].replace(/;/g, ".");
     }
+    ;
     if (deekname.length >= 3) {
         deekname[(deekname.length - 2)] = deekname[(deekname.length - 2)] + " and ";
     }
+    ;
+
     document.getElementById("printdwarf2").innerHTML = "\u263C " + "Best " + document.getElementById("joblist")
             .options[pick].text;
     document.getElementById("printdwarfgender2").innerHTML = "\u263C";
@@ -1611,7 +1640,7 @@ function verbalevalsubmit(verbalinput) {
     for (i = 0; i < bodyiter.length; i++) {
         bodyattrarray[i] = bodyiter[i].text;
         bodyattrarray[i] = bodyattrarray[i].replace(/\s/ig, "_");
-        eval("var " + bodyattrarray[i] + " = ['bodyAttr'," + i + ",'directbody'];");
+        eval("var " + bodyattrarray[i] + " = ['bodyattr'," + i + ",'directbody'];");
     }
 
     var i = 0;
@@ -1620,7 +1649,7 @@ function verbalevalsubmit(verbalinput) {
     for (i = 0; i < souliter.length; i++) {
         soulattrarray[i] = souliter[i].text;
         soulattrarray[i] = soulattrarray[i].replace(/\s/ig, "_");
-        eval("var " + soulattrarray[i] + " = ['soulAttr'," + i + ",'directsoul'];");
+        eval("var " + soulattrarray[i] + " = ['soulattr'," + i + ",'directsoul'];");
     }
 
     var i = 0;
@@ -1632,7 +1661,7 @@ function verbalevalsubmit(verbalinput) {
         persattrarray[i] = persattrarray[i].replace(/\u0028/ig, "_");
         persattrarray[i] = persattrarray[i].replace(/\u0029/ig, "_");
         persattrarray[i] = persattrarray[i].replace(/\u002D/ig, "_");
-        eval("var " + persattrarray[i] + " = ['persTrait'," + i + ",'directpers'];");
+        eval("var " + persattrarray[i] + " = ['perstrait'," + i + ",'directpers'];");
     }
 
 // STRENGTH
@@ -3301,6 +3330,8 @@ function minusattrtopct(newattr) {
     else if (x >= 1100) {
         xpct = Math.round((0.0417669 * x) + 37.3904)
     }
+    ;
+
     newattr = xpct;
     return newattr;
 }
@@ -3328,6 +3359,8 @@ function avgattrtopct(newattr) {
     else if (x >= 1300) {
         xpct = Math.round((0.0238412 * x) + 52.3404)
     }
+    ;
+
     newattr = xpct;
     return newattr;
 }
@@ -3355,6 +3388,8 @@ function plusattrtopct(newattr) {
     else if (x >= 1550) {
         xpct = Math.round((0.0238412 * x) + 46.3801)
     }
+    ;
+
     newattr = xpct;
     return newattr;
 }
@@ -3382,6 +3417,8 @@ function dubplusattrtopct(newattr) {
     else if (x >= 1800) {
         xpct = Math.round((0.0238412 * x) + 40.4198)
     }
+    ;
+
     newattr = xpct;
     return newattr;
 }
@@ -3392,26 +3429,26 @@ function guide() {
     var soulattrpct = [];
 
 
-    bodyattrpct[0] = plusattrtopct(bodyAttr[0]);
-    bodyattrpct[1] = minusattrtopct(bodyAttr[1]);
-    bodyattrpct[2] = plusattrtopct(bodyAttr[2]);
-    bodyattrpct[3] = avgattrtopct(bodyAttr[3]);
-    bodyattrpct[4] = avgattrtopct(bodyAttr[4]);
-    bodyattrpct[5] = avgattrtopct(bodyAttr[5]);
+    bodyattrpct[0] = plusattrtopct(bodyattr[0]);
+    bodyattrpct[1] = minusattrtopct(bodyattr[1]);
+    bodyattrpct[2] = plusattrtopct(bodyattr[2]);
+    bodyattrpct[3] = avgattrtopct(bodyattr[3]);
+    bodyattrpct[4] = avgattrtopct(bodyattr[4]);
+    bodyattrpct[5] = avgattrtopct(bodyattr[5]);
 
-    soulattrpct[0] = plusattrtopct(soulAttr[0]);
-    soulattrpct[1] = plusattrtopct(soulAttr[1]);
-    soulattrpct[2] = plusattrtopct(soulAttr[2]);
-    soulattrpct[3] = avgattrtopct(soulAttr[3]);
-    soulattrpct[4] = dubplusattrtopct(soulAttr[4]);
-    soulattrpct[5] = avgattrtopct(soulAttr[5]);
-    soulattrpct[6] = plusattrtopct(soulAttr[6]);
-    soulattrpct[7] = dubplusattrtopct(soulAttr[7]);
-    soulattrpct[8] = avgattrtopct(soulAttr[8]);
-    soulattrpct[9] = avgattrtopct(soulAttr[9]);
-    soulattrpct[10] = avgattrtopct(soulAttr[10]);
-    soulattrpct[11] = avgattrtopct(soulAttr[11]);
-    soulattrpct[12] = avgattrtopct(soulAttr[12]);
+    soulattrpct[0] = plusattrtopct(soulattr[0]);
+    soulattrpct[1] = plusattrtopct(soulattr[1]);
+    soulattrpct[2] = plusattrtopct(soulattr[2]);
+    soulattrpct[3] = avgattrtopct(soulattr[3]);
+    soulattrpct[4] = dubplusattrtopct(soulattr[4]);
+    soulattrpct[5] = avgattrtopct(soulattr[5]);
+    soulattrpct[6] = plusattrtopct(soulattr[6]);
+    soulattrpct[7] = dubplusattrtopct(soulattr[7]);
+    soulattrpct[8] = avgattrtopct(soulattr[8]);
+    soulattrpct[9] = avgattrtopct(soulattr[9]);
+    soulattrpct[10] = avgattrtopct(soulattr[10]);
+    soulattrpct[11] = avgattrtopct(soulattr[11]);
+    soulattrpct[12] = avgattrtopct(soulattr[12]);
 
     var minbit = Math
             .round((bodyattrpct[0] + bodyattrpct[2] + bodyattrpct[3] + soulattrpct[5] + soulattrpct[7] + soulattrpct[8]) / 6);//STEWSsKs
@@ -3564,16 +3601,18 @@ function guide() {
     jobrate("Student;", bookstud);
     jobrate("Observer;", obser);
 // jobrate("Concentrator;",concen); 
-    if (persTrait[26] < 40) {
+    if (perstrait[26] < 40) {
         jobrate("Liar;", liar);
     }
     jobrate("Judge of intent;", joi);
-    if (persTrait[10] <= 60) {
+    if (perstrait[10] <= 60) {
         jobrate("Intimidator;", intim);
     }
-    if (persTrait[23] <= 75) {
+    ;
+    if (perstrait[23] <= 75) {
         jobrate("Comedian;", comedy);
     }
+    ;
     jobrate("Wrestler;", armwork);
     jobrate("Dodger;", dodger);
     jobrate("Biter;", minbit);
@@ -3645,58 +3684,82 @@ function guide() {
         superb.splice(0, 0, subjpro + " bears the mien of a superb ");
         superb[(superb.length - 1)] = superb[(superb.length - 1)].replace(/;/g, ".");
     }
+    ;
     if (superb.length >= 3) {
         superb[(superb.length - 2)] = superb[(superb.length - 2)] + " and ";
     }
+    ;
+
     if (verygood.length >= 1) {
         verygood.splice(0, 0, subjpro + " has the potential to be a very good ");
         verygood[(verygood.length - 1)] = verygood[(verygood.length - 1)].replace(/;/g, ".");
     }
+    ;
     if (verygood.length >= 3) {
         verygood[(verygood.length - 2)] = verygood[(verygood.length - 2)] + " and ";
     }
+    ;
+
     if (good.length >= 1) {
         good.splice(0, 0, subjpro + " has the look of a good ");
         good[(good.length - 1)] = good[(good.length - 1)].replace(/;/g, ".");
     }
+    ;
     if (good.length >= 3) {
         good[(good.length - 2)] = good[(good.length - 2)] + " and ";
     }
+    ;
+
     if (highavg.length >= 1) {
         highavg.splice(0, 0, subjpro + " will be a little better than most as a ");
         highavg[(highavg.length - 1)] = highavg[(highavg.length - 1)].replace(/;/g, ".");
     }
+    ;
     if (highavg.length >= 3) {
         highavg[(highavg.length - 2)] = highavg[(highavg.length - 2)] + " and ";
     }
+    ;
+
     if (lowavg.length >= 1) {
         lowavg.splice(0, 0, subjpro + " comes across as a below average ");
         lowavg[(lowavg.length - 1)] = lowavg[(lowavg.length - 1)].replace(/;/g, ".");
     }
+    ;
     if (lowavg.length >= 3) {
         lowavg[(lowavg.length - 2)] = lowavg[(lowavg.length - 2)] + " and ";
     }
+    ;
+
     if (poor.length >= 1) {
         poor.splice(0, 0, subjpro + " will make a poor ");
         poor[(poor.length - 1)] = poor[(poor.length - 1)].replace(/;/g, ".");
     }
+    ;
     if (poor.length >= 3) {
         poor[(poor.length - 2)] = poor[(poor.length - 2)] + " and ";
     }
+    ;
+
     if (verypoor.length >= 1) {
         verypoor.splice(0, 0, subjpro + " seems like a very poor ");
         verypoor[(verypoor.length - 1)] = verypoor[(verypoor.length - 1)].replace(/;/g, ".");
     }
+    ;
     if (verypoor.length >= 3) {
         verypoor[(verypoor.length - 2)] = verypoor[(verypoor.length - 2)] + " and ";
     }
+    ;
+
     if (horrible.length >= 1) {
         horrible.splice(0, 0, subjpro + " would be horrible as a ");
         horrible[(horrible.length - 1)] = horrible[(horrible.length - 1)].replace(/;/g, ".");
     }
+    ;
     if (horrible.length >= 3) {
         horrible[(horrible.length - 2)] = horrible[(horrible.length - 2)] + " and ";
     }
+    ;
+
     if (document.getElementById("brightside").checked == true && superb.length + verygood.length + good.length + highavg
             .length < 20) {
         analysis.splice(0, 0, superb + " " + verygood + " " + good + " " + highavg + " " + lowavg);
@@ -3712,54 +3775,54 @@ function guide() {
         analysis.splice(0, 0, superb + " " + verygood + " " + good + " " + poor + " " + verypoor + " " + horrible);
     }
 
-    if (persTrait[24] < 25) {
+    if (perstrait[24] < 25) {
         analysis.splice(0, 0, "This lazy sack of booze prefers to spend time <span " + colorred + ">On Break.</span>");
     }
-    else if (persTrait[24] > 75) {
+    else if (perstrait[24] > 75) {
         analysis
                 .splice(0, 0, "Excellent! " + detpro + " breaks will be <span " + colorblue + ">shorter</span> than most.");
     }
-    if (persTrait[4] < 25) {
+    if (perstrait[4] < 25) {
         analysis.splice(0, 0, subjpro + " can't find the spirit to <span " + colorred + ">rage</span> in battle.");
     }
-    else if (persTrait[4] > 75) {
+    else if (perstrait[4] > 75) {
         analysis.splice(0, 0, "When battles go poorly, " + subjpro
                 .toLowerCase() + " is prone to flying against the enemy in a <span " + colorblue + ">rage.</span>");
     }
-    if (persTrait[3] < 40) {
+    if (perstrait[3] < 40) {
         analysis
                 .splice(0, 0, subjpro + " seems unhappy at the thought of <span " + colorred + ">helping others</span>.");
     }
-    else if (persTrait[3] > 60) {
+    else if (perstrait[3] > 60) {
         analysis
                 .splice(0, 0, subjpro + " seems happy at the thought of <span " + colorblue + ">helping others</span>.");
     }
-    if (persTrait[7] < 40) {
+    if (perstrait[7] < 40) {
         analysis.splice(0, 0, detpro + " unassertive nature won't allow " + objpro
                 .toLowerCase() + " to attempt <span " + colorred + ">Persuasion</span>.");
     }
-    if (persTrait[10] < 40) {
+    if (perstrait[10] < 40) {
         analysis.splice(0, 0, subjpro + " cannot be relied on to <span " + colorred + ">Pacify</span> others.");
     }
-    else if (persTrait[10] > 60) {
+    else if (perstrait[10] > 60) {
         analysis.splice(0, 0, "A communitarian dwarf; " + subjpro
                 .toLowerCase() + " will never <span " + colorred + ">Intimidate</span> others.");
     }
-    if (persTrait[15] < 40) {
+    if (perstrait[15] < 40) {
         analysis.splice(0, 0, "When others try to start a <span " + colorred + ">Conversation</span>; " + subjpro
                 .toLowerCase() + " doesn't respond.");
     }
-    if (persTrait[23] > 75) {
+    if (perstrait[23] > 75) {
         analysis.splice(0, 0, "Held back by self-consciousness; " + subjpro
                 .toLowerCase() + " will not attempt <span " + colorred + ">Comedy</span>.");
     }
-    if (persTrait[26] < 40) {
+    if (perstrait[26] < 40) {
         analysis.splice(0, 0, subjpro + " cannot be honest enough to <span " + colorred + ">Console</span> another.");
     }
-    else if (persTrait[26] > 39 && persTrait[26] < 61) {
+    else if (perstrait[26] > 39 && perstrait[26] < 61) {
         analysis.splice(0, 0, subjpro + " is too direct to <span " + colorred + ">Lie</span>.");
     }
-    else if (persTrait[26] > 60) {
+    else if (perstrait[26] > 60) {
         analysis
                 .splice(0, 0, subjpro + " is too straightforward to <span " + colorred + ">Lie</span> or <span " + colorred + ">Flatter</span>.");
     }
@@ -3776,7 +3839,7 @@ function guide() {
 </head>
 <body>
 Welcome to the Dwarven Guidance Counselor. I'll be offering you advice today. Shall I color-code your evaluation? <input
-        type="checkbox" id="colorcode"><br>
+        type="checkbox" id="colorcode" checked><br>
 What's your name, please? <input type="text" id="dwarfname" value="Urist McAverage"
                                  onKeyPress="return disableEnterKey(event)" onkeyup="printname()">
 And your gender? <input type="radio" name="gender" id="male" value="Male" checked="checked"
