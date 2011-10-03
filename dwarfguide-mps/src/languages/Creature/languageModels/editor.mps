@@ -113,14 +113,8 @@
   <root id="2886000266267467122">
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="2886000266267467166">
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2886000266267467167" />
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="7201497847334484261">
-        <property name="text" nameId="tpc2.1073389577007" value="level" />
-      </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Component" typeId="tpc2.1078939183254" id="7201497847334471704">
-        <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="7336574368822058567" resolveInfo="IdEditorComponent" />
-      </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Component" typeId="tpc2.1078939183254" id="7201497847334471706">
-        <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="7201497847334471683" resolveInfo="NameEditorComponent" />
+        <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="7201497847334508693" resolveInfo="EntityEditor" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2886000266267467170">
         <property name="text" nameId="tpc2.1073389577007" value="{" />
@@ -163,14 +157,8 @@
   <root id="3025991346594285240">
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="3025991346594285269">
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="3025991346594285270" />
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="7201497847334496195">
-        <property name="text" nameId="tpc2.1073389577007" value="profession" />
-      </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Component" typeId="tpc2.1078939183254" id="7201497847334471712">
-        <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="7336574368822058567" resolveInfo="IdEditorComponent" />
-      </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Component" typeId="tpc2.1078939183254" id="7201497847334471714">
-        <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="7201497847334471683" resolveInfo="NameEditorComponent" />
+        <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="7201497847334508693" resolveInfo="EntityEditor" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="3025991346594285273">
         <property name="text" nameId="tpc2.1073389577007" value="{" />
@@ -240,14 +228,8 @@
   <root id="3025991346594285170">
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="7201497847334471695">
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="7201497847334471696" />
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="7201497847334484263">
-        <property name="text" nameId="tpc2.1073389577007" value="labour" />
-      </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Component" typeId="tpc2.1078939183254" id="7201497847334471697">
-        <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="7336574368822058567" resolveInfo="IdEditorComponent" />
-      </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Component" typeId="tpc2.1078939183254" id="7201497847334471698">
-        <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="7201497847334471683" resolveInfo="NameEditorComponent" />
+        <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="7201497847334508693" resolveInfo="EntityEditor" />
       </node>
     </node>
   </root>
@@ -279,14 +261,8 @@
   <root id="3025991346594271716">
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="7201497847334471707">
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="7201497847334471708" />
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="7201497847334484259">
-        <property name="text" nameId="tpc2.1073389577007" value="mood" />
-      </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Component" typeId="tpc2.1078939183254" id="7201497847334471709">
-        <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="7336574368822058567" resolveInfo="IdEditorComponent" />
-      </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Component" typeId="tpc2.1078939183254" id="7201497847334471710">
-        <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="7201497847334471683" resolveInfo="NameEditorComponent" />
+        <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="7201497847334508693" resolveInfo="EntityEditor" />
       </node>
     </node>
   </root>
@@ -296,39 +272,24 @@
         <property name="text" nameId="tpc2.1073389577007" value="job" />
       </node>
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="3025991346594285224" />
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Component" typeId="tpc2.1078939183254" id="7201497847334471631">
-        <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="7336574368822058567" resolveInfo="IdEditorComponent" />
-      </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Component" typeId="tpc2.1078939183254" id="7201497847334471687">
-        <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="7201497847334471683" resolveInfo="NameEditorComponent" />
+        <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="7201497847334508693" resolveInfo="EntityEditor" />
       </node>
     </node>
   </root>
   <root id="2413918680966986121">
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="2413918680966986123">
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2413918680966986124" />
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="7201497847334484267">
-        <property name="text" nameId="tpc2.1073389577007" value="attribute" />
-      </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Component" typeId="tpc2.1078939183254" id="2413918680966986139">
-        <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="7336574368822058567" resolveInfo="IdEditorComponent" />
-      </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Component" typeId="tpc2.1078939183254" id="7201497847334471690">
-        <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="7201497847334471683" resolveInfo="NameEditorComponent" />
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Component" typeId="tpc2.1078939183254" id="9217530999004699581">
+        <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="7201497847334508693" resolveInfo="EntityEditor" />
       </node>
     </node>
   </root>
   <root id="3169390138954787262">
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="3169390138954787264">
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="3169390138954787265" />
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="3169390138954787266">
-        <property name="text" nameId="tpc2.1073389577007" value="trait" />
-      </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Component" typeId="tpc2.1078939183254" id="7201497847334484255">
-        <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="7336574368822058567" resolveInfo="IdEditorComponent" />
-      </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Component" typeId="tpc2.1078939183254" id="7201497847334484257">
-        <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="7201497847334471683" resolveInfo="NameEditorComponent" />
+        <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="7201497847334508693" resolveInfo="EntityEditor" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="3169390138954787268">
         <property name="text" nameId="tpc2.1073389577007" value="{" />
@@ -577,10 +538,7 @@
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="7201497847334332225">
         <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="7201497847334332226" />
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Component" typeId="tpc2.1078939183254" id="7201497847334484242">
-          <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="7336574368822058567" resolveInfo="IdEditorComponent" />
-        </node>
-        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Component" typeId="tpc2.1078939183254" id="7201497847334484244">
-          <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="7201497847334471683" resolveInfo="NameEditorComponent" />
+          <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="7201497847334508693" resolveInfo="EntityEditor" />
         </node>
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="7201497847334332228">

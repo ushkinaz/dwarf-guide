@@ -8,6 +8,7 @@
   <import index="2ivj" modelUID="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(Creature.structure)" version="-1" implicit="yes" />
   <import index="zr07" modelUID="r:7fec707a-d129-495b-a874-6bf1d397f4a7(Ratings.structure)" version="-1" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
+  <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
   <roots>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="2413918680966884229">
       <property name="name" nameId="tpck.1169194664001" value="Worker" />
@@ -49,6 +50,7 @@
       <property name="level_4" nameId="2ivj.3025991346593851849" value="5" />
       <property name="level_5" nameId="2ivj.3025991346593851848" value="6" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="traits" />
+      <property name="identifier" nameId="2ivj.7336574368822048410" value="29" />
     </node>
     <node type="2ivj.Trait" typeId="2ivj.3025991346593851837" id="8701932881020747805">
       <property name="name" nameId="tpck.1169194664001" value="Rage" />
@@ -59,6 +61,7 @@
       <property name="level_4" nameId="2ivj.3025991346593851849" value="5" />
       <property name="level_5" nameId="2ivj.3025991346593851848" value="6" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="traits" />
+      <property name="identifier" nameId="2ivj.7336574368822048410" value="1" />
     </node>
     <node type="2ivj.FeatureStatistic" typeId="2ivj.3169390138954926968" id="3169390138954977593">
       <property name="low" nameId="2ivj.3169390138954926969" value="0" />
@@ -69,6 +72,7 @@
       <property name="name" nameId="tpck.1169194664001" value="Dwarf" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="races" />
       <property name="shortDescription" nameId="tpck.1156234966388" value="Short and srudy" />
+      <property name="identifier" nameId="2ivj.7336574368822048410" value="1" />
     </node>
     <node type="2ivj.Skill" typeId="2ivj.7336574368822058574" id="7201497847334348563">
       <property name="name" nameId="tpck.1169194664001" value="Mining" />
@@ -106,20 +110,42 @@
     <node role="professionReference" roleId="zr07.2413918680966884231" type="2ivj.ProfessionReference" typeId="2ivj.2413918680966836691" id="3169390138954784330">
       <link role="profession" roleId="2ivj.2413918680966836692" targetNodeId="2413918680966884229" resolveInfo="Worker" />
     </node>
-    <node role="ratingFormula" roleId="zr07.8150566930193469" type="tpee.MulExpression" typeId="tpee.1092119917967" id="3169390138954906793">
-      <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="3169390138954906796">
-        <property name="value" nameId="tpee.1068580320021" value="2" />
-      </node>
-      <node role="leftExpression" roleId="tpee.1081773367580" type="2ivj.AttributeReference" typeId="2ivj.3169390138954787329" id="3169390138954906792">
-        <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747800" resolveInfo="Strength" />
-      </node>
-    </node>
     <node role="stopExpression" roleId="zr07.8150566930120604" type="tpee.GreaterThanExpression" typeId="tpee.1081506762703" id="3169390138954984120">
       <node role="leftExpression" roleId="tpee.1081773367580" type="2ivj.AttributeReference" typeId="2ivj.3169390138954787329" id="3169390138954984119">
         <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747801" resolveInfo="Agility" />
       </node>
       <node role="rightExpression" roleId="tpee.1081773367579" type="2ivj.AttributeReference" typeId="2ivj.3169390138954787329" id="7201497847334416642">
         <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747803" resolveInfo="Endurance" />
+      </node>
+    </node>
+    <node role="ratingFormula" roleId="zr07.8150566930193469" type="tpee.MulExpression" typeId="tpee.1092119917967" id="9217530999004514626">
+      <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="9217530999004514632">
+        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="e2lb.~Math" resolveInfo="Math" />
+        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~Math%dsignum(float)%cfloat" resolveInfo="signum" />
+        <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.MinusExpression" typeId="tpee.1068581242869" id="9217530999004532954">
+          <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="9217530999004532957">
+            <property name="value" nameId="tpee.1068580320021" value="1250" />
+          </node>
+          <node role="leftExpression" roleId="tpee.1081773367580" type="2ivj.AttributeReference" typeId="2ivj.3169390138954787329" id="9217530999004665826">
+            <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747800" resolveInfo="Strength" />
+          </node>
+        </node>
+      </node>
+      <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="9217530999004514609">
+        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~Math%dsqrt(double)%cdouble" resolveInfo="sqrt" />
+        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="e2lb.~Math" resolveInfo="Math" />
+        <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="9217530999004514620">
+          <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="e2lb.~Math" resolveInfo="Math" />
+          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~Math%dabs(int)%cint" resolveInfo="abs" />
+          <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.MinusExpression" typeId="tpee.1068581242869" id="9217530999004514622">
+            <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="9217530999004514625">
+              <property name="value" nameId="tpee.1068580320021" value="1250" />
+            </node>
+            <node role="leftExpression" roleId="tpee.1081773367580" type="2ivj.AttributeReference" typeId="2ivj.3169390138954787329" id="9217530999004514621">
+              <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747800" resolveInfo="Strength" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </root>
