@@ -47,7 +47,7 @@
       <property name="name" nameId="tpck.1169194664001" value="Attribute" />
       <property name="helpURL" nameId="tpce.2465654535473034588" value="http://df.magmawiki.com/index.php/DF2010:Attribute" />
       <property name="rootable" nameId="tpce.1096454100552" value="true" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3025991346594277152">
       <property name="name" nameId="tpck.1169194664001" value="Profession" />
@@ -77,7 +77,7 @@
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3169390138954787329">
       <property name="name" nameId="tpck.1169194664001" value="AttributeReference" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="7201497847334399005" resolveInfo="FeatureReference" />
     </node>
     <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="3169390138954906798">
       <property name="name" nameId="tpck.1169194664001" value="Feature" />
@@ -103,6 +103,16 @@
     </node>
     <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="7201497847334508686">
       <property name="name" nameId="tpck.1169194664001" value="Entity" />
+    </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4319959043045834034">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
+      <property name="name" nameId="tpck.1169194664001" value="AverageFieldRef" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+    </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4319959043046304680">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
+      <property name="name" nameId="tpck.1169194664001" value="AverageField" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
   </roots>
   <root id="7336574368822048409">
@@ -195,6 +205,12 @@
     </node>
   </root>
   <root id="2935713650494001850">
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4319959043046304698">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="average" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="4319959043046304680" resolveInfo="AverageField" />
+    </node>
     <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="9217530999004665837">
       <property name="value" nameId="tpce.1105725733873" value="attr" />
       <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
@@ -262,6 +278,7 @@
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <property name="role" nameId="tpce.1071599776563" value="attribute" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="2935713650494001850" resolveInfo="Attribute" />
+      <link role="specializedLink" roleId="tpce.1071599698500" targetNodeId="7201497847334399006" />
     </node>
   </root>
   <root id="3169390138954906798">
@@ -335,6 +352,23 @@
     </node>
     <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7201497847334508692">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7336574368822048409" resolveInfo="HasId" />
+    </node>
+  </root>
+  <root id="4319959043045834034">
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4319959043046304701">
+      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
+      <property name="role" nameId="tpce.1071599776563" value="averageField" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="4319959043046304680" resolveInfo="AverageField" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="4319959043045834035">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpee.1197027803184" resolveInfo="IOperation" />
+    </node>
+  </root>
+  <root id="4319959043046304680">
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="4319959043046304681">
+      <property name="name" nameId="tpck.1169194664001" value="average" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
     </node>
   </root>
 </model>
