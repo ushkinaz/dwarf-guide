@@ -117,11 +117,11 @@
         <link role="feature" roleId="2ivj.7201497847334399006" targetNodeId="8701932881020747801" resolveInfo="Agility" />
       </node>
     </node>
-    <node role="ratingFormula" roleId="zr07.8150566930193469" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4319959043046350815">
+    <node role="ratingFormula" roleId="zr07.8150566930193469" type="tpee.DotExpression" typeId="tpee.1197027756228" id="571577773479890029">
       <node role="operand" roleId="tpee.1197027771414" type="2ivj.AttributeReference" typeId="2ivj.3169390138954787329" id="4319959043046350814">
         <link role="feature" roleId="2ivj.7201497847334399006" targetNodeId="8701932881020747803" resolveInfo="Endurance" />
       </node>
-      <node role="operation" roleId="tpee.1197027833540" type="2ivj.AverageFieldRef" typeId="2ivj.4319959043045834034" id="4319959043046350819">
+      <node role="operation" roleId="tpee.1197027833540" type="2ivj.AverageFieldRef" typeId="2ivj.4319959043045834034" id="571577773479890033">
         <link role="averageField" roleId="2ivj.4319959043046304701" targetNodeId="4319959043046345755" />
       </node>
     </node>
