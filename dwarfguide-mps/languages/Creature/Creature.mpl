@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="Creature" uuid="ec18e679-bd6d-4441-a00b-ab06c2d44eec" compileInMPS="true" doNotGenerateAdapters="false">
+<language namespace="net.dwarfguide.creature" uuid="ec18e679-bd6d-4441-a00b-ab06c2d44eec" compileInMPS="true" doNotGenerateAdapters="false">
   <models>
-    <modelRoot path="${language_descriptor}/languageModels" namespacePrefix="Creature" />
+    <modelRoot path="${language_descriptor}/languageModels" namespacePrefix="net.dwarfguide.creature" />
   </models>
   <accessoryModels />
   <generators>
-    <generator name="CreatureGenerator" generatorUID="Creature#2413918680966875812" uuid="cd2006f9-7fb7-4cd6-8983-2a54d8aa19d3">
+    <generator name="CreatureGenerator" generatorUID="net.dwarfguide.creature#2413918680966875812" uuid="cd2006f9-7fb7-4cd6-8983-2a54d8aa19d3">
       <models>
-        <modelRoot path="${language_descriptor}/generator/template" namespacePrefix="Creature.generator.template" />
+        <modelRoot path="${language_descriptor}/generator/template" namespacePrefix="net.dwarfguide.creature.generator.template" />
       </models>
       <external-templates>
         <generator generatorUID="5f9babc9-8d5d-4825-8e61-17b241ee6272(jetbrains.mps.baseLanguage.collections#1151699677197)" />

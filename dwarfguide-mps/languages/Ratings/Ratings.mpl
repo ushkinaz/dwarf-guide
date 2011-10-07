@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="Ratings" uuid="c02302e9-f3bd-4ae6-8b1e-54a7ff15399b" compileInMPS="true" doNotGenerateAdapters="false">
+<language namespace="net.dwarfguide.ratings" uuid="c02302e9-f3bd-4ae6-8b1e-54a7ff15399b" compileInMPS="true" doNotGenerateAdapters="false">
   <models>
-    <modelRoot path="${language_descriptor}/languageModels" namespacePrefix="Ratings" />
+    <modelRoot path="${language_descriptor}/languageModels" namespacePrefix="net.dwarfguide.ratings" />
   </models>
   <accessoryModels />
   <generators />
@@ -16,7 +16,7 @@
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
   </usedDevKits>
   <extendedLanguages>
-    <extendedLanguage>ec18e679-bd6d-4441-a00b-ab06c2d44eec(Creature)</extendedLanguage>
+    <extendedLanguage>ec18e679-bd6d-4441-a00b-ab06c2d44eec(net.dwarfguide.creature)</extendedLanguage>
   </extendedLanguages>
 </language>
 

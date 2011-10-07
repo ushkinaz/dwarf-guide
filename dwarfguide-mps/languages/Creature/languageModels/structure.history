@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="ebxb" modelUID="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(Creature.generator.template.main@generator)" version="-1" />
+      <model index="u4gs" modelUID="r:1a527766-7c4c-4109-af04-a8993a5e6cea(Creature.editor)" version="-1" />
+      <model index="2yst" modelUID="r:b6fd1764-9efa-4f45-9ad7-a43db3ccfbb1(Creature.behavior)" version="-1" />
+      <model index="2ivj" modelUID="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(Creature.structure)" version="-1" />
+      <model index="f2s1" modelUID="r:4ee42f44-921d-417e-8cb8-b81a75bdc0f1(Creature.constraints)" version="-1" />
+      <model index="5lvm" modelUID="r:8337cabc-d565-4711-bff9-f7d3ea2e7b7c(Creature.typesystem)" version="-1" />
+    </dependencies>
+    <RenameModel oldModel="r:b6fd1764-9efa-4f45-9ad7-a43db3ccfbb1(Creature.behavior)" newModel="r:b6fd1764-9efa-4f45-9ad7-a43db3ccfbb1(net.dwarfguide.creature.behavior)" />
+    <RenameModel oldModel="r:8337cabc-d565-4711-bff9-f7d3ea2e7b7c(Creature.typesystem)" newModel="r:8337cabc-d565-4711-bff9-f7d3ea2e7b7c(net.dwarfguide.creature.typesystem)" />
+    <RenameModel oldModel="r:1a527766-7c4c-4109-af04-a8993a5e6cea(Creature.editor)" newModel="r:1a527766-7c4c-4109-af04-a8993a5e6cea(net.dwarfguide.creature.editor)" />
+    <RenameModel oldModel="r:4ee42f44-921d-417e-8cb8-b81a75bdc0f1(Creature.constraints)" newModel="r:4ee42f44-921d-417e-8cb8-b81a75bdc0f1(net.dwarfguide.creature.constraints)" />
+    <RenameModel oldModel="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(Creature.structure)" newModel="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(net.dwarfguide.creature.structure)" />
+    <RenameModel oldModel="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(Creature.generator.template.main@generator)" newModel="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
+  </StructureModification>
+</history>
+
