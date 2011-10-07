@@ -16,16 +16,19 @@
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3025991346594277158">
       <property name="name" nameId="tpck.1169194664001" value="Job" />
       <property name="rootable" nameId="tpce.1096454100552" value="true" />
+      <property name="iconPath" nameId="tpce.1160488491229" value="${DWARVEN_PATH}/dwarfguide-resources/icons/wrench-screwdriver.png" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3025991346594277173">
       <property name="name" nameId="tpck.1169194664001" value="Labour" />
       <property name="rootable" nameId="tpce.1096454100552" value="true" />
+      <property name="iconPath" nameId="tpce.1160488491229" value="${DWARVEN_PATH}/dwarfguide-resources/icons/toolbox.png" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3025991346593851837">
       <property name="name" nameId="tpck.1169194664001" value="Trait" />
       <property name="rootable" nameId="tpce.1096454100552" value="true" />
+      <property name="iconPath" nameId="tpce.1160488491229" value="${DWARVEN_PATH}/dwarfguide-resources/icons/wand.png" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2886000266267467114">
@@ -36,22 +39,26 @@
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3025991346594271712">
       <property name="name" nameId="tpck.1169194664001" value="Mood" />
       <property name="rootable" nameId="tpce.1096454100552" value="true" />
+      <property name="iconPath" nameId="tpce.1160488491229" value="${DWARVEN_PATH}/dwarfguide-resources/icons/smiley-nerd.png" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7336574368822058574">
       <property name="name" nameId="tpck.1169194664001" value="Skill" />
       <property name="rootable" nameId="tpce.1096454100552" value="true" />
+      <property name="iconPath" nameId="tpce.1160488491229" value="${DWARVEN_PATH}/dwarfguide-resources/icons/hand.png" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2935713650494001850">
       <property name="name" nameId="tpck.1169194664001" value="Attribute" />
       <property name="helpURL" nameId="tpce.2465654535473034588" value="http://df.magmawiki.com/index.php/DF2010:Attribute" />
       <property name="rootable" nameId="tpce.1096454100552" value="true" />
+      <property name="iconPath" nameId="tpce.1160488491229" value="${DWARVEN_PATH}/dwarfguide-resources/icons/document-attribute-s.png" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3025991346594277152">
       <property name="name" nameId="tpck.1169194664001" value="Profession" />
       <property name="rootable" nameId="tpce.1096454100552" value="true" />
+      <property name="iconPath" nameId="tpce.1160488491229" value="${DWARVEN_PATH}/dwarfguide-resources/icons/book-brown.png" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2413918680966836691">
@@ -85,6 +92,7 @@
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3169390138954984125">
       <property name="name" nameId="tpck.1169194664001" value="Race" />
       <property name="rootable" nameId="tpce.1096454100552" value="true" />
+      <property name="iconPath" nameId="tpce.1160488491229" value="${DWARVEN_PATH}/dwarfguide-resources/icons/user-silhouette-question.png" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7201497847334454007">

@@ -21,3 +21,5 @@ Run `mnv package`
 Bay 12 games for countless hours of fun
 knaveofstaves for Dwarven Guidance Counselor, which gave me an idea
 peterix for DFHack
+
+Some icons are copyright © Yusuke Kamiyamane.
