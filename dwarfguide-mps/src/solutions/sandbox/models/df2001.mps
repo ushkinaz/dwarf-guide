@@ -112,12 +112,38 @@
         <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="7201497847334555922" resolveInfo="Gem cutting" />
       </node>
     </node>
-    <node role="ratingFormula" roleId="zr07.8150566930193469" type="tpee.DotExpression" typeId="tpee.1197027756228" id="571577773480161362">
-      <node role="operand" roleId="tpee.1197027771414" type="2ivj.AttributeReference" typeId="2ivj.3169390138954787329" id="571577773480160365">
-        <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747801" resolveInfo="Agility" />
+    <node role="ratingFormula" roleId="zr07.8150566930193469" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="571577773480236084">
+      <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.MinusExpression" typeId="tpee.1068581242869" id="571577773480181416">
+        <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="571577773480181398">
+          <node role="expression" roleId="tpee.1079359253376" type="tpee.DotExpression" typeId="tpee.1197027756228" id="571577773480181401">
+            <node role="operand" roleId="tpee.1197027771414" type="2ivj.AttributeReference" typeId="2ivj.3169390138954787329" id="571577773480181400">
+              <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747801" resolveInfo="Agility" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="2ivj.AverageFieldRef" typeId="2ivj.4319959043045834034" id="571577773480181405">
+              <link role="averageField" roleId="2ivj.4319959043046304701" targetNodeId="4319959043046345752" />
+            </node>
+          </node>
+        </node>
+        <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="571577773480181419">
+          <node role="expression" roleId="tpee.1079359253376" type="tpee.DotExpression" typeId="tpee.1197027756228" id="571577773480181422">
+            <node role="operand" roleId="tpee.1197027771414" type="2ivj.AttributeReference" typeId="2ivj.3169390138954787329" id="571577773480181421">
+              <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747801" resolveInfo="Agility" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="2ivj.AverageFieldRef" typeId="2ivj.4319959043045834034" id="571577773480181426">
+              <link role="averageField" roleId="2ivj.4319959043046304701" targetNodeId="4319959043046345752" />
+            </node>
+          </node>
+        </node>
       </node>
-      <node role="operation" roleId="tpee.1197027833540" type="2ivj.AverageFieldRef" typeId="2ivj.4319959043045834034" id="571577773480161366">
-        <link role="averageField" roleId="2ivj.4319959043046304701" targetNodeId="4319959043046345752" />
+      <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="571577773480236087">
+        <node role="expression" roleId="tpee.1079359253376" type="tpee.DotExpression" typeId="tpee.1197027756228" id="571577773480236090">
+          <node role="operand" roleId="tpee.1197027771414" type="2ivj.AttributeReference" typeId="2ivj.3169390138954787329" id="571577773480236089">
+            <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747803" resolveInfo="Endurance" />
+          </node>
+          <node role="operation" roleId="tpee.1197027833540" type="2ivj.AverageFieldRef" typeId="2ivj.4319959043045834034" id="571577773480236094">
+            <link role="averageField" roleId="2ivj.4319959043046304701" targetNodeId="4319959043046345753" />
+          </node>
+        </node>
       </node>
     </node>
   </root>
