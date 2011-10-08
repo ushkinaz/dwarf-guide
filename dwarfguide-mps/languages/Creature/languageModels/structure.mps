@@ -16,19 +16,19 @@
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3025991346594277158">
       <property name="name" nameId="tpck.1169194664001" value="Job" />
       <property name="rootable" nameId="tpce.1096454100552" value="true" />
-      <property name="iconPath" nameId="tpce.1160488491229" value="${DWARVEN_PATH}/dwarfguide-resources/local/wrench-screwdriver.png" />
+      <property name="iconPath" nameId="tpce.1160488491229" value="${DWARVEN_PATH}/dwarfguide-resources/icons/job.png" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3025991346594277173">
       <property name="name" nameId="tpck.1169194664001" value="Labour" />
       <property name="rootable" nameId="tpce.1096454100552" value="true" />
-      <property name="iconPath" nameId="tpce.1160488491229" value="${DWARVEN_PATH}/dwarfguide-resources/local/toolbox.png" />
+      <property name="iconPath" nameId="tpce.1160488491229" value="${DWARVEN_PATH}/dwarfguide-resources/icons/labour.png" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3025991346593851837">
       <property name="name" nameId="tpck.1169194664001" value="Trait" />
       <property name="rootable" nameId="tpce.1096454100552" value="true" />
-      <property name="iconPath" nameId="tpce.1160488491229" value="${DWARVEN_PATH}/dwarfguide-resources/local/wand.png" />
+      <property name="iconPath" nameId="tpce.1160488491229" value="${DWARVEN_PATH}/dwarfguide-resources/icons/trait.png" />
       <property name="helpURL" nameId="tpce.2465654535473034588" value="http://df.magmawiki.com/index.php/Personality_trait" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
@@ -41,14 +41,14 @@
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3025991346594271712">
       <property name="name" nameId="tpck.1169194664001" value="Mood" />
       <property name="rootable" nameId="tpce.1096454100552" value="true" />
-      <property name="iconPath" nameId="tpce.1160488491229" value="${DWARVEN_PATH}/dwarfguide-resources/local/smiley-nerd.png" />
+      <property name="iconPath" nameId="tpce.1160488491229" value="${DWARVEN_PATH}/dwarfguide-resources/icons/mood.png" />
       <property name="helpURL" nameId="tpce.2465654535473034588" value="http://df.magmawiki.com/index.php/Mood" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7336574368822058574">
       <property name="name" nameId="tpck.1169194664001" value="Skill" />
       <property name="rootable" nameId="tpce.1096454100552" value="true" />
-      <property name="iconPath" nameId="tpce.1160488491229" value="${DWARVEN_PATH}/dwarfguide-resources/local/hand.png" />
+      <property name="iconPath" nameId="tpce.1160488491229" value="${DWARVEN_PATH}/dwarfguide-resources/icons/skill.png" />
       <property name="helpURL" nameId="tpce.2465654535473034588" value="http://df.magmawiki.com/index.php/Skill" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
@@ -56,13 +56,13 @@
       <property name="name" nameId="tpck.1169194664001" value="Attribute" />
       <property name="helpURL" nameId="tpce.2465654535473034588" value="http://df.magmawiki.com/index.php/Attribute" />
       <property name="rootable" nameId="tpce.1096454100552" value="true" />
-      <property name="iconPath" nameId="tpce.1160488491229" value="${DWARVEN_PATH}/dwarfguide-resources/local/document-attribute-s.png" />
+      <property name="iconPath" nameId="tpce.1160488491229" value="${DWARVEN_PATH}/dwarfguide-resources/icons/attribute.png" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3025991346594277152">
       <property name="name" nameId="tpck.1169194664001" value="Profession" />
       <property name="rootable" nameId="tpce.1096454100552" value="true" />
-      <property name="iconPath" nameId="tpce.1160488491229" value="${DWARVEN_PATH}/dwarfguide-resources/local/book-brown.png" />
+      <property name="iconPath" nameId="tpce.1160488491229" value="${DWARVEN_PATH}/dwarfguide-resources/icons/profession.png" />
       <property name="helpURL" nameId="tpce.2465654535473034588" value="http://df.magmawiki.com/index.php/Profession" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
@@ -97,7 +97,7 @@
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3169390138954984125">
       <property name="name" nameId="tpck.1169194664001" value="Race" />
       <property name="rootable" nameId="tpce.1096454100552" value="true" />
-      <property name="iconPath" nameId="tpce.1160488491229" value="${DWARVEN_PATH}/dwarfguide-resources/local/user-silhouette-question.png" />
+      <property name="iconPath" nameId="tpce.1160488491229" value="${DWARVEN_PATH}/dwarfguide-resources/icons/race.png" />
       <property name="helpURL" nameId="tpce.2465654535473034588" value="http://df.magmawiki.com/index.php/Creature" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
