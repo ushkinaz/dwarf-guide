@@ -5,6 +5,7 @@
   <import index="tpc2" modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="32" implicit="yes" />
   <import index="zr07" modelUID="r:7fec707a-d129-495b-a874-6bf1d397f4a7(net.dwarfguide.ratings.structure)" version="1" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
+  <import index="u4gs" modelUID="r:1a527766-7c4c-4109-af04-a8993a5e6cea(net.dwarfguide.creature.editor)" version="0" implicit="yes" />
   <roots>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2413918680966858848">
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="zr07.8150566930055015" resolveInfo="Strategy" />
@@ -17,10 +18,11 @@
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="2413918680966884232">
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2413918680966884233" />
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2413918680966884234">
-        <property name="text" nameId="tpc2.1073389577007" value="strategy" />
+        <property name="text" nameId="tpc2.1073389577007" value="strategy for" />
+        <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="u4gs.2455624152132770420" resolveInfo="keyword" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2413918680966884235">
-        <property name="text" nameId="tpc2.1073389577007" value="for" />
+        <property name="text" nameId="tpc2.1073389577007" value=":" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="2413918680966884236">
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="zr07.2413918680966884231" />
@@ -41,6 +43,7 @@
         </node>
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2413918680966884243">
           <property name="text" nameId="tpc2.1073389577007" value="unsuitible" />
+          <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="u4gs.2455624152132770420" resolveInfo="keyword" />
         </node>
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2413918680966884244">
           <property name="text" nameId="tpc2.1073389577007" value=":" />
@@ -67,6 +70,7 @@
         </node>
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2413918680966884252">
           <property name="text" nameId="tpc2.1073389577007" value="rating" />
+          <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="u4gs.2455624152132770420" resolveInfo="keyword" />
         </node>
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2413918680966884253">
           <property name="text" nameId="tpc2.1073389577007" value=":" />
@@ -100,9 +104,11 @@
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="7201497847334465379" />
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="7201497847334465380">
         <property name="text" nameId="tpc2.1073389577007" value="rating level" />
+        <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="u4gs.2455624152132770420" resolveInfo="keyword" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="7201497847334465381">
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
+        <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="u4gs.2455624152132770411" resolveInfo="string" />
       </node>
     </node>
   </root>
