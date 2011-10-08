@@ -148,6 +148,12 @@
       <property name="name" nameId="tpck.1169194664001" value="MaximumStatisticRef" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="4319959043045834034" resolveInfo="StatisticsFieldRef" />
     </node>
+    <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="3848777903716151683">
+      <property name="name" nameId="tpck.1169194664001" value="HasCreatureContraint" />
+    </node>
+    <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="3848777903716151685">
+      <property name="name" nameId="tpck.1169194664001" value="HasProfessionConstraint" />
+    </node>
   </roots>
   <root id="7336574368822048409">
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="7336574368822048410">
@@ -479,6 +485,22 @@
   <root id="2455624152132732048">
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2455624152132732049">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpee.1197027803184" resolveInfo="IOperation" />
+    </node>
+  </root>
+  <root id="3848777903716151683">
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3848777903716151684">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="creatureReference" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2455624152132549373" resolveInfo="CreatureReference" />
+    </node>
+  </root>
+  <root id="3848777903716151685">
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3848777903716151686">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="professionRef" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2413918680966836691" resolveInfo="ProfessionRef" />
     </node>
   </root>
 </model>
