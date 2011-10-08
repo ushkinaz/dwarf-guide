@@ -3,9 +3,11 @@
   <persistence version="7" />
   <language namespace="ec18e679-bd6d-4441-a00b-ab06c2d44eec(net.dwarfguide.creature)" />
   <language namespace="c02302e9-f3bd-4ae6-8b1e-54a7ff15399b(net.dwarfguide.ratings)" />
+  <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="2ivj" modelUID="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(net.dwarfguide.creature.structure)" version="0" implicit="yes" />
   <import index="zr07" modelUID="r:7fec707a-d129-495b-a874-6bf1d397f4a7(net.dwarfguide.ratings.structure)" version="1" implicit="yes" />
+  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
   <roots>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="2413918680966884229">
       <property name="name" nameId="tpck.1169194664001" value="Worker" />
@@ -19,22 +21,22 @@
     </node>
     <node type="2ivj.Attribute" typeId="2ivj.2935713650494001850" id="8701932881020747800">
       <property name="name" nameId="tpck.1169194664001" value="Strength" />
-      <property name="identifier" nameId="2ivj.7336574368822048410" value="0" />
+      <property name="identifier" nameId="2ivj.7336574368822048410" value="3" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="attributes" />
     </node>
     <node type="2ivj.Attribute" typeId="2ivj.2935713650494001850" id="8701932881020747801">
       <property name="name" nameId="tpck.1169194664001" value="Agility" />
-      <property name="identifier" nameId="2ivj.7336574368822048410" value="1" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="attributes" />
+      <property name="identifier" nameId="2ivj.7336574368822048410" value="0" />
     </node>
     <node type="2ivj.Attribute" typeId="2ivj.2935713650494001850" id="8701932881020747802">
       <property name="name" nameId="tpck.1169194664001" value="Toughness" />
-      <property name="identifier" nameId="2ivj.7336574368822048410" value="0" />
+      <property name="identifier" nameId="2ivj.7336574368822048410" value="4" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="attributes" />
     </node>
     <node type="2ivj.Attribute" typeId="2ivj.2935713650494001850" id="8701932881020747803">
       <property name="name" nameId="tpck.1169194664001" value="Endurance" />
-      <property name="identifier" nameId="2ivj.7336574368822048410" value="0" />
+      <property name="identifier" nameId="2ivj.7336574368822048410" value="1" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="attributes" />
     </node>
     <node type="2ivj.Trait" typeId="2ivj.3025991346593851837" id="8701932881020747804">
@@ -89,6 +91,11 @@
     <node type="2ivj.Race" typeId="2ivj.3169390138954984125" id="2455624152132937618">
       <property name="name" nameId="tpck.1169194664001" value="Goblin" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="1" />
+    </node>
+    <node type="2ivj.Attribute" typeId="2ivj.2935713650494001850" id="2455624152132987906">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="attributes" />
+      <property name="name" nameId="tpck.1169194664001" value="Nimblness" />
+      <property name="identifier" nameId="2ivj.7336574368822048410" value="5" />
     </node>
   </roots>
   <root id="2413918680966884229">
@@ -197,6 +204,12 @@
     <node role="professionReference" roleId="zr07.2413918680966884231" type="2ivj.ProfessionRef" typeId="2ivj.2413918680966836691" id="2455624152132604448">
       <link role="profession" roleId="2ivj.2413918680966836692" targetNodeId="2413918680966884229" resolveInfo="Worker" />
     </node>
+    <node role="stopExpression" roleId="zr07.8150566930120604" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="2455624152132990829">
+      <property name="value" nameId="tpee.1068580123138" value="false" />
+    </node>
+    <node role="ratingFormula" roleId="zr07.8150566930193469" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="2455624152132990830">
+      <property name="value" nameId="tpee.1068580320021" value="300" />
+    </node>
   </root>
   <root id="2455624152132937618">
     <node role="attributeStatistic" roleId="2ivj.2455624152132514819" type="2ivj.AttributeStatistic" typeId="2ivj.2455624152132514798" id="2455624152132937619">
@@ -263,5 +276,6 @@
       <link role="trait" roleId="2ivj.3169390138954787318" targetNodeId="8701932881020747805" resolveInfo="Rage" />
     </node>
   </root>
+  <root id="2455624152132987906" />
 </model>
 

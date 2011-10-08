@@ -8,14 +8,14 @@
   <unitInfo fileName="Creature.java" startLine="7" startPosition="0" endLine="85" endPosition="0" unitName="sandbox.df2001.Creature" />
   <root nodeId="2455624152132604446">
     <nodeInfo nodeId="2455624152132604446" fileName="Strategy.java" startLine="7" startPosition="23" endLine="8" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="dwarf" />
-    <nodeInfo nodeId="2455624152132604446" fileName="Strategy.java" startLine="13" startPosition="26" endLine="14" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2455624152132604446" fileName="Strategy.java" startLine="17" startPosition="31" endLine="18" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2455624152132604446" fileName="Strategy.java" startLine="13" startPosition="26" endLine="14" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2455624152132604446" fileName="Strategy.java" startLine="17" startPosition="31" endLine="18" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2455624152132604446" fileName="Strategy.java" startLine="9" startPosition="0" endLine="11" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Strategy#()V" />
     <nodeInfo nodeId="2455624152132604446" fileName="Strategy.java" startLine="12" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getRating#()I" />
     <nodeInfo nodeId="2455624152132604446" fileName="Strategy.java" startLine="16" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="shouldStop#()Z" />
     <scopeInfo nodeId="2455624152132604446" fileName="Strategy.java" startLine="10" startPosition="21" endLine="10" endPosition="21" />
-    <scopeInfo nodeId="2455624152132604446" fileName="Strategy.java" startLine="13" startPosition="26" endLine="14" endPosition="11" />
-    <scopeInfo nodeId="2455624152132604446" fileName="Strategy.java" startLine="17" startPosition="31" endLine="18" endPosition="11" />
+    <scopeInfo nodeId="2455624152132604446" fileName="Strategy.java" startLine="13" startPosition="26" endLine="14" endPosition="15" />
+    <scopeInfo nodeId="2455624152132604446" fileName="Strategy.java" startLine="17" startPosition="31" endLine="18" endPosition="17" />
     <scopeInfo nodeId="2455624152132604446" fileName="Strategy.java" startLine="9" startPosition="0" endLine="11" endPosition="3" />
     <scopeInfo nodeId="2455624152132604446" fileName="Strategy.java" startLine="12" startPosition="0" endLine="16" endPosition="0" />
     <scopeInfo nodeId="2455624152132604446" fileName="Strategy.java" startLine="16" startPosition="0" endLine="20" endPosition="0" />
