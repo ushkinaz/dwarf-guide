@@ -12,4 +12,4 @@ for root, dirs, files in os.walk('../dwarfguide-mps/'):
                 m = re.search('<property name="iconPath" nameId=".*" value="\$\{DWARVEN_PATH\}\/(.*)"', line)
                 if m:
                     print (m.group(1))
-                    #call(["git", "add", "../" + m.group(1)])
+                    call(["git", "add", "../" + m.group(1)])
