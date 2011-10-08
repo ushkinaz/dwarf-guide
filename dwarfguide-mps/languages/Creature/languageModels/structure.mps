@@ -124,7 +124,7 @@
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2455624152132549373">
-      <property name="name" nameId="tpck.1169194664001" value="RaceReference" />
+      <property name="name" nameId="tpck.1169194664001" value="CreatureReference" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
