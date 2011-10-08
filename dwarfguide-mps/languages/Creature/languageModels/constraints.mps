@@ -17,7 +17,7 @@
     </node>
     <node type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="4319959043045920972">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
-      <link role="concept" roleId="tp1t.1213093996982" targetNodeId="2ivj.4319959043045834034" resolveInfo="AverageFieldRef" />
+      <link role="concept" roleId="tp1t.1213093996982" targetNodeId="2ivj.4319959043045834034" resolveInfo="StatisticsFieldRef" />
     </node>
   </roots>
   <root id="627290435249133500">
@@ -220,7 +220,7 @@
                   <property name="name" nameId="tpck.1169194664001" value="array" />
                   <node role="type" roleId="tpee.5680397130376446158" type="tpee.ArrayType" typeId="tpee.1070534760951" id="571577773479971381">
                     <node role="componentType" roleId="tpee.1070534760952" type="tp25.SNodeType" typeId="tp25.1138055754698" id="571577773479971382">
-                      <link role="concept" roleId="tp25.1138405853777" targetNodeId="2ivj.4319959043046304680" resolveInfo="AverageField" />
+                      <link role="concept" roleId="tp25.1138405853777" targetNodeId="2ivj.4319959043046304680" resolveInfo="StatisticsField" />
                     </node>
                   </node>
                   <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="571577773479971383">
@@ -250,7 +250,7 @@
                         </node>
                       </node>
                       <node role="componentType" roleId="tpee.1154542793668" type="tp25.SNodeType" typeId="tp25.1138055754698" id="571577773479971394">
-                        <link role="concept" roleId="tp25.1138405853777" targetNodeId="2ivj.4319959043046304680" resolveInfo="AverageField" />
+                        <link role="concept" roleId="tp25.1138405853777" targetNodeId="2ivj.4319959043046304680" resolveInfo="StatisticsField" />
                       </node>
                     </node>
                   </node>
@@ -275,7 +275,7 @@
                   <node role="expression" roleId="tpee.1068581517676" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="571577773480160738">
                     <node role="creator" roleId="tpee.1145553007750" type="tp2q.ListCreatorWithInit" typeId="tp2q.1160600644654" id="571577773480160739">
                       <node role="elementType" roleId="tp2q.1237721435807" type="tp25.SNodeType" typeId="tp25.1138055754698" id="571577773480160740">
-                        <link role="concept" roleId="tp25.1138405853777" targetNodeId="2ivj.4319959043046304680" resolveInfo="AverageField" />
+                        <link role="concept" roleId="tp25.1138405853777" targetNodeId="2ivj.4319959043046304680" resolveInfo="StatisticsField" />
                       </node>
                       <node role="initValue" roleId="tp2q.1237721435808" type="tpee.DotExpression" typeId="tpee.1197027756228" id="571577773480160741">
                         <node role="operand" roleId="tpee.1197027771414" type="tp1t.ConstraintFunctionParameter_referenceNode" typeId="tp1t.1163200647017" id="571577773480160742" />

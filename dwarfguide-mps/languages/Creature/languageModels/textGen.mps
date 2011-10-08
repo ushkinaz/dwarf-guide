@@ -11,11 +11,11 @@
   <roots>
     <node type="2omo.ConceptTextGenDeclaration" typeId="2omo.1233670071145" id="571577773480287997">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
-      <link role="conceptDeclaration" roleId="2omo.1233670257997" targetNodeId="2ivj.3169390138954787329" resolveInfo="AttributeReference" />
+      <link role="conceptDeclaration" roleId="2omo.1233670257997" targetNodeId="2ivj.3169390138954787329" resolveInfo="AttributeRef" />
     </node>
     <node type="2omo.ConceptTextGenDeclaration" typeId="2omo.1233670071145" id="571577773480288036">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
-      <link role="conceptDeclaration" roleId="2omo.1233670257997" targetNodeId="2ivj.4319959043045834034" resolveInfo="AverageFieldRef" />
+      <link role="conceptDeclaration" roleId="2omo.1233670257997" targetNodeId="2ivj.4319959043045834034" resolveInfo="StatisticsFieldRef" />
     </node>
   </roots>
   <root id="571577773480287997">

@@ -12,7 +12,7 @@
   <roots>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2413918680966836693">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.2413918680966836691" resolveInfo="ProfessionReference" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.2413918680966836691" resolveInfo="ProfessionRef" />
     </node>
     <node type="tpc2.EditorComponentDeclaration" typeId="tpc2.1078938745671" id="7336574368822058567">
       <property name="name" nameId="tpck.1169194664001" value="IdEditorComponent" />
@@ -44,19 +44,19 @@
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="3169390138954787313">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.3169390138954787311" resolveInfo="SkillReference" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.3169390138954787311" resolveInfo="SkillRef" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="3169390138954787319">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.3169390138954787317" resolveInfo="TraitReference" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.3169390138954787317" resolveInfo="TraitRef" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="3169390138954787325">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.3169390138954787323" resolveInfo="MoodReference" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.3169390138954787323" resolveInfo="MoodRef" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="3169390138954787331">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.3169390138954787329" resolveInfo="AttributeReference" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.3169390138954787329" resolveInfo="AttributeRef" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="3169390138954984131">
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.3169390138954984125" resolveInfo="Race" />
@@ -74,11 +74,11 @@
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="4319959043045934332">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.4319959043045834034" resolveInfo="AverageFieldRef" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.4319959043045834034" resolveInfo="StatisticsFieldRef" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="4319959043046304682">
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.4319959043046304680" resolveInfo="AverageField" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.4319959043046304680" resolveInfo="StatisticsField" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2455624152132514801">
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.2455624152132514798" resolveInfo="AttributeStatistic" />

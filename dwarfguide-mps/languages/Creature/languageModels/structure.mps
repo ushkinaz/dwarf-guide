@@ -62,27 +62,27 @@
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2413918680966836691">
-      <property name="name" nameId="tpck.1169194664001" value="ProfessionReference" />
+      <property name="name" nameId="tpck.1169194664001" value="ProfessionRef" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3169390138954787311">
-      <property name="name" nameId="tpck.1169194664001" value="SkillReference" />
+      <property name="name" nameId="tpck.1169194664001" value="SkillRef" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3169390138954787317">
-      <property name="name" nameId="tpck.1169194664001" value="TraitReference" />
+      <property name="name" nameId="tpck.1169194664001" value="TraitRef" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3169390138954787323">
-      <property name="name" nameId="tpck.1169194664001" value="MoodReference" />
+      <property name="name" nameId="tpck.1169194664001" value="MoodRef" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3169390138954787329">
-      <property name="name" nameId="tpck.1169194664001" value="AttributeReference" />
+      <property name="name" nameId="tpck.1169194664001" value="AttributeRef" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
@@ -105,12 +105,12 @@
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4319959043045834034">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
-      <property name="name" nameId="tpck.1169194664001" value="AverageFieldRef" />
+      <property name="name" nameId="tpck.1169194664001" value="StatisticsFieldRef" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4319959043046304680">
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
-      <property name="name" nameId="tpck.1169194664001" value="AverageField" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="" />
+      <property name="name" nameId="tpck.1169194664001" value="StatisticsField" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2455624152132514798">
@@ -198,7 +198,7 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="dependsOn" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="3169390138954787329" resolveInfo="AttributeReference" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="3169390138954787329" resolveInfo="AttributeRef" />
     </node>
     <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="7201497847334524815">
       <property name="value" nameId="tpce.1105725733873" value="skill" />
@@ -231,7 +231,7 @@
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="7201497847334497020">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="skillReference" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="3169390138954787311" resolveInfo="SkillReference" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="3169390138954787311" resolveInfo="SkillRef" />
     </node>
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3025991346594277156">
       <property name="name" nameId="tpck.1169194664001" value="military" />
@@ -301,13 +301,13 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="skillReference" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="3169390138954787311" resolveInfo="SkillReference" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="3169390138954787311" resolveInfo="SkillRef" />
     </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="7201497847334248147">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="traitReference" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="3169390138954787317" resolveInfo="TraitReference" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="3169390138954787317" resolveInfo="TraitRef" />
     </node>
     <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="3169390138954984129">
       <property name="value" nameId="tpce.1105725733873" value="Race" />
@@ -335,7 +335,7 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
       <property name="role" nameId="tpce.1071599776563" value="averageField" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="4319959043046304680" resolveInfo="AverageField" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="4319959043046304680" resolveInfo="StatisticsField" />
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="4319959043045834035">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpee.1197027803184" resolveInfo="IOperation" />
@@ -364,13 +364,13 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="attributeReference" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="3169390138954787329" resolveInfo="AttributeReference" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="3169390138954787329" resolveInfo="AttributeRef" />
     </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2455624152132549379">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="average" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="4319959043046304680" resolveInfo="AverageField" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="4319959043046304680" resolveInfo="StatisticsField" />
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2455624152132601316">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="3025991346594277161" resolveInfo="HasName" />

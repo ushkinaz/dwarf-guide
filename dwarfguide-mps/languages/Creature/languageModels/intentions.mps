@@ -73,7 +73,7 @@
                 <node role="rValue" roleId="tpee.1068498886297" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="2455624152132549411">
                   <node role="creator" roleId="tpee.1145553007750" type="tp25.SNodeCreator" typeId="tp25.1180636770613" id="2455624152132549413">
                     <node role="createdType" roleId="tp25.1180636770616" type="tp25.SNodeType" typeId="tp25.1138055754698" id="2455624152132549414">
-                      <link role="concept" roleId="tp25.1138405853777" targetNodeId="2ivj.3169390138954787329" resolveInfo="AttributeReference" />
+                      <link role="concept" roleId="tp25.1138405853777" targetNodeId="2ivj.3169390138954787329" resolveInfo="AttributeRef" />
                     </node>
                   </node>
                 </node>
@@ -129,7 +129,7 @@
                 <node role="rValue" roleId="tpee.1068498886297" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="2455624152132598441">
                   <node role="creator" roleId="tpee.1145553007750" type="tp25.SNodeCreator" typeId="tp25.1180636770613" id="2455624152132598443">
                     <node role="createdType" roleId="tp25.1180636770616" type="tp25.SNodeType" typeId="tp25.1138055754698" id="2455624152132598444">
-                      <link role="concept" roleId="tp25.1138405853777" targetNodeId="2ivj.4319959043046304680" resolveInfo="AverageField" />
+                      <link role="concept" roleId="tp25.1138405853777" targetNodeId="2ivj.4319959043046304680" resolveInfo="StatisticsField" />
                     </node>
                   </node>
                 </node>
@@ -227,12 +227,12 @@
               <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="2455624152132513848">
                 <property name="name" nameId="tpck.1169194664001" value="skillReference" />
                 <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="2455624152132513849">
-                  <link role="concept" roleId="tp25.1138405853777" targetNodeId="2ivj.3169390138954787311" resolveInfo="SkillReference" />
+                  <link role="concept" roleId="tp25.1138405853777" targetNodeId="2ivj.3169390138954787311" resolveInfo="SkillRef" />
                 </node>
                 <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="2455624152132513850">
                   <node role="creator" roleId="tpee.1145553007750" type="tp25.SNodeCreator" typeId="tp25.1180636770613" id="2455624152132513851">
                     <node role="createdType" roleId="tp25.1180636770616" type="tp25.SNodeType" typeId="tp25.1138055754698" id="2455624152132513852">
-                      <link role="concept" roleId="tp25.1138405853777" targetNodeId="2ivj.3169390138954787311" resolveInfo="SkillReference" />
+                      <link role="concept" roleId="tp25.1138405853777" targetNodeId="2ivj.3169390138954787311" resolveInfo="SkillRef" />
                     </node>
                   </node>
                 </node>
@@ -325,12 +325,12 @@
               <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="2455624152132513893">
                 <property name="name" nameId="tpck.1169194664001" value="traitReference" />
                 <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="2455624152132513894">
-                  <link role="concept" roleId="tp25.1138405853777" targetNodeId="2ivj.3169390138954787317" resolveInfo="TraitReference" />
+                  <link role="concept" roleId="tp25.1138405853777" targetNodeId="2ivj.3169390138954787317" resolveInfo="TraitRef" />
                 </node>
                 <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="2455624152132513895">
                   <node role="creator" roleId="tpee.1145553007750" type="tp25.SNodeCreator" typeId="tp25.1180636770613" id="2455624152132513896">
                     <node role="createdType" roleId="tp25.1180636770616" type="tp25.SNodeType" typeId="tp25.1138055754698" id="2455624152132513897">
-                      <link role="concept" roleId="tp25.1138405853777" targetNodeId="2ivj.3169390138954787317" resolveInfo="TraitReference" />
+                      <link role="concept" roleId="tp25.1138405853777" targetNodeId="2ivj.3169390138954787317" resolveInfo="TraitRef" />
                     </node>
                   </node>
                 </node>

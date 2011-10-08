@@ -50,7 +50,7 @@
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="8701932881020807697">
       <property name="name" nameId="tpck.1169194664001" value="attributeReference" />
-      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="2ivj.3169390138954787329" resolveInfo="AttributeReference" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="2ivj.3169390138954787329" resolveInfo="AttributeRef" />
     </node>
   </root>
   <root id="8701932881020807752">
@@ -72,7 +72,7 @@
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="8701932881020807754">
       <property name="name" nameId="tpck.1169194664001" value="moodReference" />
-      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="2ivj.3169390138954787323" resolveInfo="MoodReference" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="2ivj.3169390138954787323" resolveInfo="MoodRef" />
     </node>
   </root>
   <root id="8701932881020807764">
@@ -94,7 +94,7 @@
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="8701932881020807766">
       <property name="name" nameId="tpck.1169194664001" value="skillReference" />
-      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="2ivj.3169390138954787311" resolveInfo="SkillReference" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="2ivj.3169390138954787311" resolveInfo="SkillRef" />
     </node>
   </root>
   <root id="8701932881020807775">
@@ -116,7 +116,7 @@
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="8701932881020807777">
       <property name="name" nameId="tpck.1169194664001" value="traitReference" />
-      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="2ivj.3169390138954787317" resolveInfo="TraitReference" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="2ivj.3169390138954787317" resolveInfo="TraitRef" />
     </node>
   </root>
   <root id="4319959043045834036">
@@ -138,7 +138,7 @@
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="4319959043045834038">
       <property name="name" nameId="tpck.1169194664001" value="ref" />
-      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="2ivj.4319959043045834034" resolveInfo="AverageFieldRef" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="2ivj.4319959043045834034" resolveInfo="StatisticsFieldRef" />
     </node>
   </root>
 </model>
