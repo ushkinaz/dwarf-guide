@@ -16,7 +16,6 @@
 
 package ru.sid0renk0.dwarfguide.model;
 
-import javolution.xml.XMLSerializable;
 import org.simpleframework.xml.Element;
 import org.simpleframework.xml.ElementList;
 import org.simpleframework.xml.Path;
@@ -38,7 +37,7 @@ import static java.util.Collections.unmodifiableList;
  * @author Dmitry Sidorenko
  */
 @Root(name = "Creature", strict = false)
-public class Creature implements XMLSerializable {
+public class Creature {
     @SuppressWarnings({"unused"})
     private static final Logger LOGGER = LoggerFactory.getLogger(Creature.class);
 
