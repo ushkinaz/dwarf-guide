@@ -84,10 +84,16 @@
     <node type="2ivj.Creature" typeId="2ivj.3169390138954984125" id="2455624152132595976">
       <property name="name" nameId="tpck.1169194664001" value="Dwarf" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="0" />
+      <property name="singular" nameId="2ivj.3848777903716133165" value="dwarf" />
+      <property name="plural" nameId="2ivj.3848777903716133166" value="dwarves" />
+      <property name="adjective" nameId="2ivj.3848777903716133167" value="dwarven" />
     </node>
     <node type="2ivj.Creature" typeId="2ivj.3169390138954984125" id="2455624152132937618">
       <property name="name" nameId="tpck.1169194664001" value="Goblin" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="1" />
+      <property name="singular" nameId="2ivj.3848777903716133165" value="goblin" />
+      <property name="plural" nameId="2ivj.3848777903716133166" value="goblins" />
+      <property name="adjective" nameId="2ivj.3848777903716133167" value="goblin" />
     </node>
     <node type="2ivj.Attribute" typeId="2ivj.2935713650494001850" id="2455624152132987906">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="attributes" />
@@ -303,6 +309,9 @@
   <root id="3848777903716127654">
     <node role="professionReference" roleId="zr07.2413918680966884231" type="2ivj.ProfessionRef" typeId="2ivj.2413918680966836691" id="3848777903716127657">
       <link role="profession" roleId="2ivj.2413918680966836692" targetNodeId="2413918680966884229" resolveInfo="Worker" />
+    </node>
+    <node role="creatureReference" roleId="zr07.3848777903716127658" type="2ivj.CreatureReference" typeId="2ivj.2455624152132549373" id="3848777903716151682">
+      <link role="creature" roleId="2ivj.2455624152132549374" targetNodeId="2455624152132595976" resolveInfo="Dwarf" />
     </node>
   </root>
 </model>
