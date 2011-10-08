@@ -3,11 +3,9 @@
   <persistence version="7" />
   <language namespace="ec18e679-bd6d-4441-a00b-ab06c2d44eec(net.dwarfguide.creature)" />
   <language namespace="c02302e9-f3bd-4ae6-8b1e-54a7ff15399b(net.dwarfguide.ratings)" />
-  <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="2ivj" modelUID="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(net.dwarfguide.creature.structure)" version="0" implicit="yes" />
   <import index="zr07" modelUID="r:7fec707a-d129-495b-a874-6bf1d397f4a7(net.dwarfguide.ratings.structure)" version="1" implicit="yes" />
-  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
   <roots>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="2413918680966884229">
       <property name="name" nameId="tpck.1169194664001" value="Worker" />
@@ -314,14 +312,6 @@
     </node>
     <node role="professionRef" roleId="2ivj.3848777903716151686" type="2ivj.ProfessionRef" typeId="2ivj.2413918680966836691" id="3848777903716169424">
       <link role="profession" roleId="2ivj.2413918680966836692" targetNodeId="2413918680966884229" resolveInfo="Worker" />
-    </node>
-    <node role="stopExpression" roleId="zr07.8150566930120604" type="tpee.LessThanExpression" typeId="tpee.1081506773034" id="3848777903716175124">
-      <node role="leftExpression" roleId="tpee.1081773367580" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="3848777903716175123">
-        <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="7201497847334348563" resolveInfo="Mining" />
-      </node>
-      <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="3848777903716175127">
-        <property name="value" nameId="tpee.1068580320021" value="2000" />
-      </node>
     </node>
   </root>
 </model>

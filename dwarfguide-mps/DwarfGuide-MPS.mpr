@@ -19,6 +19,7 @@
       <modulePath path="${project}/languages/Ratings/Ratings.mpl" folder="" />
       <modulePath path="${project}/languages/Creature/Creature.mpl" folder="" />
       <modulePath path="${project}/solutions/sandbox/sandbox.msd" folder="" />
+      <modulePath path="${project}/devkits/DwarfGuide/DwarfGuide.devkit" />
     </projectModules>
     <genConfs />
   </component>
