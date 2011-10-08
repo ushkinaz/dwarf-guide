@@ -64,27 +64,27 @@
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2413918680966836691">
       <property name="name" nameId="tpck.1169194664001" value="ProfessionReference" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3169390138954787311">
       <property name="name" nameId="tpck.1169194664001" value="SkillReference" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3169390138954787317">
       <property name="name" nameId="tpck.1169194664001" value="TraitReference" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3169390138954787323">
       <property name="name" nameId="tpck.1169194664001" value="MoodReference" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3169390138954787329">
       <property name="name" nameId="tpck.1169194664001" value="AttributeReference" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="3169390138954906798">
       <property name="name" nameId="tpck.1169194664001" value="Feature" />
@@ -112,6 +112,18 @@
       <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
       <property name="name" nameId="tpck.1169194664001" value="AverageField" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2455624152132514798">
+      <property name="name" nameId="tpck.1169194664001" value="AttributeStatistic" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2455624152132549373">
+      <property name="name" nameId="tpck.1169194664001" value="RaceReference" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2455624152132549380">
+      <property name="name" nameId="tpck.1169194664001" value="AttributeStatisticReference" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
     </node>
   </roots>
   <root id="7336574368822048409">
@@ -204,12 +216,6 @@
     </node>
   </root>
   <root id="2935713650494001850">
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4319959043046304698">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="average" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="4319959043046304680" resolveInfo="AverageField" />
-    </node>
     <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="9217530999004665837">
       <property name="value" nameId="tpce.1105725733873" value="attr" />
       <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
@@ -285,11 +291,11 @@
     </node>
   </root>
   <root id="3169390138954984125">
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="7201497847334248145">
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2455624152132514819">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="attributeReference" />
+      <property name="role" nameId="tpce.1071599776563" value="attributeStatistic" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="3169390138954787329" resolveInfo="AttributeReference" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2455624152132514798" resolveInfo="AttributeStatistic" />
     </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="7201497847334248146">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -339,6 +345,51 @@
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="4319959043046304681">
       <property name="name" nameId="tpck.1169194664001" value="average" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
+    </node>
+  </root>
+  <root id="2455624152132514798">
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="2455624152132549368">
+      <property name="value" nameId="tpce.1105725733873" value="Statistic for a given attribute and given race" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473914776" resolveInfo="shortDescription" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="2455624152132549371">
+      <property name="name" nameId="tpck.1169194664001" value="min" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="2455624152132549372">
+      <property name="name" nameId="tpck.1169194664001" value="max" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2455624152132514799">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="attributeReference" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="3169390138954787329" resolveInfo="AttributeReference" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2455624152132549379">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="average" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="4319959043046304680" resolveInfo="AverageField" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2455624152132601316">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="3025991346594277161" resolveInfo="HasName" />
+    </node>
+  </root>
+  <root id="2455624152132549373">
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2455624152132549374">
+      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <property name="role" nameId="tpce.1071599776563" value="race" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="3169390138954984125" resolveInfo="Race" />
+    </node>
+  </root>
+  <root id="2455624152132549380">
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2455624152132549381">
+      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <property name="role" nameId="tpce.1071599776563" value="attributeStatistic" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2455624152132514798" resolveInfo="AttributeStatistic" />
     </node>
   </root>
 </model>
