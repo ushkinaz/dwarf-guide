@@ -16,6 +16,7 @@ public class EnumRegistry<T extends Enum<T> & HasName> {
   }
 
   public void addEnum(T enumeration) {
+    workaround.hashCode();
     workaround = enumeration;
     MapSequence.fromMap(map).put(workaround.getName(), enumeration);
   }

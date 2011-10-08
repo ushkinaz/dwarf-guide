@@ -74,12 +74,12 @@
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3169390138954787311">
       <property name="name" nameId="tpck.1169194664001" value="SkillRef" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3169390138954787317">
       <property name="name" nameId="tpck.1169194664001" value="TraitRef" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3169390138954787323">
       <property name="name" nameId="tpck.1169194664001" value="MoodRef" />
