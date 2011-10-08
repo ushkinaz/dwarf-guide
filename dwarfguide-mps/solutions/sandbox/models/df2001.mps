@@ -104,14 +104,6 @@
     <node role="professionReference" roleId="zr07.2413918680966884231" type="2ivj.ProfessionReference" typeId="2ivj.2413918680966836691" id="3169390138954784330">
       <link role="profession" roleId="2ivj.2413918680966836692" targetNodeId="2413918680966884229" resolveInfo="Worker" />
     </node>
-    <node role="stopExpression" roleId="zr07.8150566930120604" type="tpee.GreaterThanExpression" typeId="tpee.1081506762703" id="3169390138954984120">
-      <node role="leftExpression" roleId="tpee.1081773367580" type="2ivj.AttributeReference" typeId="2ivj.3169390138954787329" id="571577773479971090">
-        <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747801" resolveInfo="Agility" />
-      </node>
-      <node role="rightExpression" roleId="tpee.1081773367579" type="2ivj.SkillReference" typeId="2ivj.3169390138954787311" id="571577773479971091">
-        <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="7201497847334555922" resolveInfo="Gem cutting" />
-      </node>
-    </node>
     <node role="ratingFormula" roleId="zr07.8150566930193469" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="571577773480236084">
       <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.MinusExpression" typeId="tpee.1068581242869" id="571577773480181416">
         <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="571577773480181398">
@@ -144,6 +136,14 @@
             <link role="averageField" roleId="2ivj.4319959043046304701" targetNodeId="4319959043046345753" />
           </node>
         </node>
+      </node>
+    </node>
+    <node role="stopExpression" roleId="zr07.8150566930120604" type="tpee.GreaterThanExpression" typeId="tpee.1081506762703" id="571577773480286961">
+      <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="571577773480286964">
+        <property name="value" nameId="tpee.1068580320021" value="320" />
+      </node>
+      <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="571577773480286960">
+        <property name="value" nameId="tpee.1068580320021" value="500" />
       </node>
     </node>
   </root>
