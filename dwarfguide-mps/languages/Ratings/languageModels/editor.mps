@@ -20,7 +20,7 @@
         <property name="text" nameId="tpc2.1073389577007" value="strategy" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2413918680966884235">
-        <property name="text" nameId="tpc2.1073389577007" value="profession reference" />
+        <property name="text" nameId="tpc2.1073389577007" value="for" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="2413918680966884236">
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="zr07.2413918680966884231" />
@@ -40,7 +40,7 @@
           <property name="flag" nameId="tpc2.1186414551515" value="true" />
         </node>
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2413918680966884243">
-          <property name="text" nameId="tpc2.1073389577007" value="stop expression" />
+          <property name="text" nameId="tpc2.1073389577007" value="unsuitible" />
         </node>
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2413918680966884244">
           <property name="text" nameId="tpc2.1073389577007" value=":" />
@@ -66,7 +66,7 @@
           </node>
         </node>
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2413918680966884252">
-          <property name="text" nameId="tpc2.1073389577007" value="rating formula" />
+          <property name="text" nameId="tpc2.1073389577007" value="rating" />
         </node>
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2413918680966884253">
           <property name="text" nameId="tpc2.1073389577007" value=":" />

@@ -208,10 +208,10 @@
         <property name="statistic" nameId="2ivj.4319959043046304681" value="0" />
       </node>
       <node role="max" roleId="2ivj.2455624152132659868" type="2ivj.StatisticsField" typeId="2ivj.4319959043046304680" id="2455624152132937622">
-        <property name="statistic" nameId="2ivj.4319959043046304681" value="5000" />
+        <property name="statistic" nameId="2ivj.4319959043046304681" value="2000" />
       </node>
       <node role="average" roleId="2ivj.2455624152132549379" type="2ivj.StatisticsField" typeId="2ivj.4319959043046304680" id="2455624152132937623">
-        <property name="statistic" nameId="2ivj.4319959043046304681" value="1500" />
+        <property name="statistic" nameId="2ivj.4319959043046304681" value="1000" />
       </node>
     </node>
     <node role="attributeStatistic" roleId="2ivj.2455624152132514819" type="2ivj.AttributeStatistic" typeId="2ivj.2455624152132514798" id="2455624152132937624">
@@ -223,10 +223,10 @@
         <property name="statistic" nameId="2ivj.4319959043046304681" value="0" />
       </node>
       <node role="max" roleId="2ivj.2455624152132659868" type="2ivj.StatisticsField" typeId="2ivj.4319959043046304680" id="2455624152132937627">
-        <property name="statistic" nameId="2ivj.4319959043046304681" value="5000" />
+        <property name="statistic" nameId="2ivj.4319959043046304681" value="2000" />
       </node>
       <node role="average" roleId="2ivj.2455624152132549379" type="2ivj.StatisticsField" typeId="2ivj.4319959043046304680" id="2455624152132937628">
-        <property name="statistic" nameId="2ivj.4319959043046304681" value="1500" />
+        <property name="statistic" nameId="2ivj.4319959043046304681" value="1000" />
       </node>
     </node>
     <node role="attributeStatistic" roleId="2ivj.2455624152132514819" type="2ivj.AttributeStatistic" typeId="2ivj.2455624152132514798" id="2455624152132937629">
@@ -238,10 +238,10 @@
         <property name="statistic" nameId="2ivj.4319959043046304681" value="0" />
       </node>
       <node role="max" roleId="2ivj.2455624152132659868" type="2ivj.StatisticsField" typeId="2ivj.4319959043046304680" id="2455624152132937632">
-        <property name="statistic" nameId="2ivj.4319959043046304681" value="5000" />
+        <property name="statistic" nameId="2ivj.4319959043046304681" value="2000" />
       </node>
       <node role="average" roleId="2ivj.2455624152132549379" type="2ivj.StatisticsField" typeId="2ivj.4319959043046304680" id="2455624152132937633">
-        <property name="statistic" nameId="2ivj.4319959043046304681" value="1500" />
+        <property name="statistic" nameId="2ivj.4319959043046304681" value="1000" />
       </node>
     </node>
     <node role="attributeStatistic" roleId="2ivj.2455624152132514819" type="2ivj.AttributeStatistic" typeId="2ivj.2455624152132514798" id="2455624152132937634">
@@ -253,20 +253,11 @@
         <property name="statistic" nameId="2ivj.4319959043046304681" value="0" />
       </node>
       <node role="max" roleId="2ivj.2455624152132659868" type="2ivj.StatisticsField" typeId="2ivj.4319959043046304680" id="2455624152132937637">
-        <property name="statistic" nameId="2ivj.4319959043046304681" value="5000" />
+        <property name="statistic" nameId="2ivj.4319959043046304681" value="2000" />
       </node>
       <node role="average" roleId="2ivj.2455624152132549379" type="2ivj.StatisticsField" typeId="2ivj.4319959043046304680" id="2455624152132937638">
-        <property name="statistic" nameId="2ivj.4319959043046304681" value="1500" />
+        <property name="statistic" nameId="2ivj.4319959043046304681" value="1000" />
       </node>
-    </node>
-    <node role="skillReference" roleId="2ivj.7201497847334248146" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="2455624152132937639">
-      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="7201497847334555922" resolveInfo="Gem cutting" />
-    </node>
-    <node role="skillReference" roleId="2ivj.7201497847334248146" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="2455624152132937640">
-      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="7201497847334348563" resolveInfo="Mining" />
-    </node>
-    <node role="traitReference" roleId="2ivj.7201497847334248147" type="2ivj.TraitRef" typeId="2ivj.3169390138954787317" id="2455624152132937641">
-      <link role="trait" roleId="2ivj.3169390138954787318" targetNodeId="8701932881020747804" resolveInfo="Nervousness" />
     </node>
     <node role="traitReference" roleId="2ivj.7201497847334248147" type="2ivj.TraitRef" typeId="2ivj.3169390138954787317" id="2455624152132937642">
       <link role="trait" roleId="2ivj.3169390138954787318" targetNodeId="8701932881020747805" resolveInfo="Rage" />

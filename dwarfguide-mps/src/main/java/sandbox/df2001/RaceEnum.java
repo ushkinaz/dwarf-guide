@@ -6,7 +6,8 @@ import javax.annotation.Generated;
 
 @Generated(value = {"MPS"})
 public enum RaceEnum {
-  DWARF();
+  DWARF(),
+  GOBLIN();
 
   RaceEnum() {
   }
