@@ -55,7 +55,7 @@
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.3169390138954787329" resolveInfo="AttributeRef" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="3169390138954984131">
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.3169390138954984125" resolveInfo="Race" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.3169390138954984125" resolveInfo="Creature" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="7201497847334454009">
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.7201497847334454007" resolveInfo="Sex" />

@@ -13,7 +13,7 @@
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
   <roots>
     <node type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="3848777903716026007">
-      <link role="concept" roleId="1i04.1225194240799" targetNodeId="2ivj.3169390138954984125" resolveInfo="Race" />
+      <link role="concept" roleId="1i04.1225194240799" targetNodeId="2ivj.3169390138954984125" resolveInfo="Creature" />
     </node>
     <node type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="3848777903716026502">
       <link role="concept" roleId="1i04.1225194240799" targetNodeId="2ivj.2455624152132514798" resolveInfo="AttributeStatistic" />

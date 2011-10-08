@@ -79,11 +79,11 @@
       <property name="name" nameId="tpck.1169194664001" value="Gem cutting" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="1" />
     </node>
-    <node type="2ivj.Race" typeId="2ivj.3169390138954984125" id="2455624152132595976">
+    <node type="2ivj.Creature" typeId="2ivj.3169390138954984125" id="2455624152132595976">
       <property name="name" nameId="tpck.1169194664001" value="Dwarf" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="0" />
     </node>
-    <node type="2ivj.Race" typeId="2ivj.3169390138954984125" id="2455624152132937618">
+    <node type="2ivj.Creature" typeId="2ivj.3169390138954984125" id="2455624152132937618">
       <property name="name" nameId="tpck.1169194664001" value="Goblin" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="1" />
     </node>
