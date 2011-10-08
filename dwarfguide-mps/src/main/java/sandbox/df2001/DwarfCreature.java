@@ -20,17 +20,16 @@ public class DwarfCreature {
   public static final int AVG_ENDURANCE = 1500;
 
   private String myName;
-  private String myEnglishName;
   private String myNickname;
   private RaceEnum myRace;
-  private String myCustomProfession;
-  private int myHappiness;
-  private String myBirthday;
-  private int myAge;
   private int myAgility;
   private int myStrength;
   private int myToughness;
   private int myEndurance;
+  private int myGem_cutting;
+  private int myMining;
+  private int myNervousness;
+  private int myRage;
 
   public DwarfCreature() {
     this.setRace(RaceEnum.DWARF);
@@ -42,14 +41,6 @@ public class DwarfCreature {
 
   private void setName(String value) {
     this.myName = value;
-  }
-
-  public String getEnglishName() {
-    return this.myEnglishName;
-  }
-
-  private void setEnglishName(String value) {
-    this.myEnglishName = value;
   }
 
   public String getNickname() {
@@ -66,38 +57,6 @@ public class DwarfCreature {
 
   private void setRace(RaceEnum value) {
     this.myRace = value;
-  }
-
-  public String getCustomProfession() {
-    return this.myCustomProfession;
-  }
-
-  private void setCustomProfession(String value) {
-    this.myCustomProfession = value;
-  }
-
-  public int getHappiness() {
-    return this.myHappiness;
-  }
-
-  private void setHappiness(int value) {
-    this.myHappiness = value;
-  }
-
-  public String getBirthday() {
-    return this.myBirthday;
-  }
-
-  private void setBirthday(String value) {
-    this.myBirthday = value;
-  }
-
-  public int getAge() {
-    return this.myAge;
-  }
-
-  private void setAge(int value) {
-    this.myAge = value;
   }
 
   public int getAgility() {
@@ -130,5 +89,37 @@ public class DwarfCreature {
 
   private void setEndurance(int value) {
     this.myEndurance = value;
+  }
+
+  public int getGem_cutting() {
+    return this.myGem_cutting;
+  }
+
+  private void setGem_cutting(int value) {
+    this.myGem_cutting = value;
+  }
+
+  public int getMining() {
+    return this.myMining;
+  }
+
+  private void setMining(int value) {
+    this.myMining = value;
+  }
+
+  public int getNervousness() {
+    return this.myNervousness;
+  }
+
+  private void setNervousness(int value) {
+    this.myNervousness = value;
+  }
+
+  public int getRage() {
+    return this.myRage;
+  }
+
+  private void setRage(int value) {
+    this.myRage = value;
   }
 }

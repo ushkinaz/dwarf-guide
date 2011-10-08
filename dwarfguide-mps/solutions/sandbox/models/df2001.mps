@@ -92,6 +92,16 @@
       <property name="name" nameId="tpck.1169194664001" value="Nimblness" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="5" />
     </node>
+    <node type="2ivj.Job" typeId="2ivj.3025991346594277158" id="3848777903716104596">
+      <property name="name" nameId="tpck.1169194664001" value="Make Raw ??" />
+      <property name="identifier" nameId="2ivj.7336574368822048410" value="82" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="jobs" />
+    </node>
+    <node type="2ivj.Labour" typeId="2ivj.3025991346594277173" id="3848777903716104597">
+      <property name="name" nameId="tpck.1169194664001" value="Small Animal Dissection" />
+      <property name="identifier" nameId="2ivj.7336574368822048410" value="26" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="labours" />
+    </node>
   </roots>
   <root id="2413918680966884229">
     <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="7201497847334507607">
@@ -285,5 +295,7 @@
     </node>
   </root>
   <root id="2455624152132987906" />
+  <root id="3848777903716104596" />
+  <root id="3848777903716104597" />
 </model>
 
