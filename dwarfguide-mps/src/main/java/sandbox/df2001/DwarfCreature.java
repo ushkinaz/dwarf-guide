@@ -5,7 +5,20 @@ package sandbox.df2001;
 import javax.annotation.Generated;
 
 @Generated(value = {"MPS"})
-public class Creature {
+public class DwarfCreature {
+  public static final int MIN_AGILITY = 0;
+  public static final int MIN_STRENGTH = 0;
+  public static final int MIN_TOUGHNESS = 0;
+  public static final int MIN_ENDURANCE = 0;
+  public static final int MAX_AGILITY = 5000;
+  public static final int MAX_STRENGTH = 5000;
+  public static final int MAX_TOUGHNESS = 5000;
+  public static final int MAX_ENDURANCE = 5000;
+  public static final int AVG_AGILITY = 1500;
+  public static final int AVG_STRENGTH = 1500;
+  public static final int AVG_TOUGHNESS = 1500;
+  public static final int AVG_ENDURANCE = 1500;
+
   private String myName;
   private String myEnglishName;
   private String myNickname;
@@ -14,8 +27,13 @@ public class Creature {
   private int myHappiness;
   private String myBirthday;
   private int myAge;
+  private int myAgility;
+  private int myStrength;
+  private int myToughness;
+  private int myEndurance;
 
-  public Creature() {
+  public DwarfCreature() {
+    this.setRace(RaceEnum.DWARF);
   }
 
   public String getName() {
@@ -80,5 +98,37 @@ public class Creature {
 
   private void setAge(int value) {
     this.myAge = value;
+  }
+
+  public int getAgility() {
+    return this.myAgility;
+  }
+
+  private void setAgility(int value) {
+    this.myAgility = value;
+  }
+
+  public int getStrength() {
+    return this.myStrength;
+  }
+
+  private void setStrength(int value) {
+    this.myStrength = value;
+  }
+
+  public int getToughness() {
+    return this.myToughness;
+  }
+
+  private void setToughness(int value) {
+    this.myToughness = value;
+  }
+
+  public int getEndurance() {
+    return this.myEndurance;
+  }
+
+  private void setEndurance(int value) {
+    this.myEndurance = value;
   }
 }
