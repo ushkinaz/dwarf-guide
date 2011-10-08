@@ -18,7 +18,7 @@
       <mapping-priorities>
         <mapping-priority-rule kind="before_or_together">
           <greater-priority-mapping>
-            <generator generatorUID="cd2006f9-7fb7-4cd6-8983-2a54d8aa19d3(Creature#2413918680966875812)" />
+            <generator generatorUID="cd2006f9-7fb7-4cd6-8983-2a54d8aa19d3(net.dwarfguide.creature#2413918680966875812)" />
             <external-mapping>
               <all-local-mappings />
             </external-mapping>

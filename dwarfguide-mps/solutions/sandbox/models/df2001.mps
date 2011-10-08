@@ -170,20 +170,26 @@
   <root id="8701932881020747804" />
   <root id="8701932881020747805" />
   <root id="3169390138954995685">
-    <node role="traitReference" roleId="2ivj.7201497847334248147" type="2ivj.TraitReference" typeId="2ivj.3169390138954787317" id="7201497847334331062">
-      <link role="trait" roleId="2ivj.3169390138954787318" targetNodeId="8701932881020747804" resolveInfo="Nervousness" />
-    </node>
-    <node role="traitReference" roleId="2ivj.7201497847334248147" type="2ivj.TraitReference" typeId="2ivj.3169390138954787317" id="7201497847334333419">
-      <link role="trait" roleId="2ivj.3169390138954787318" targetNodeId="8701932881020747805" resolveInfo="Rage" />
-    </node>
-    <node role="attributeReference" roleId="2ivj.7201497847334248145" type="2ivj.AttributeReference" typeId="2ivj.3169390138954787329" id="571577773480180604">
+    <node role="attributeReference" roleId="2ivj.7201497847334248145" type="2ivj.AttributeReference" typeId="2ivj.3169390138954787329" id="2455624152132514790">
       <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747801" resolveInfo="Agility" />
     </node>
-    <node role="attributeReference" roleId="2ivj.7201497847334248145" type="2ivj.AttributeReference" typeId="2ivj.3169390138954787329" id="571577773480180605">
+    <node role="attributeReference" roleId="2ivj.7201497847334248145" type="2ivj.AttributeReference" typeId="2ivj.3169390138954787329" id="2455624152132514791">
+      <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747800" resolveInfo="Strength" />
+    </node>
+    <node role="attributeReference" roleId="2ivj.7201497847334248145" type="2ivj.AttributeReference" typeId="2ivj.3169390138954787329" id="2455624152132514793">
       <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747803" resolveInfo="Endurance" />
     </node>
-    <node role="skillReference" roleId="2ivj.7201497847334248146" type="2ivj.SkillReference" typeId="2ivj.3169390138954787311" id="7201497847334382062">
+    <node role="skillReference" roleId="2ivj.7201497847334248146" type="2ivj.SkillReference" typeId="2ivj.3169390138954787311" id="2455624152132514794">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="7201497847334555922" resolveInfo="Gem cutting" />
+    </node>
+    <node role="skillReference" roleId="2ivj.7201497847334248146" type="2ivj.SkillReference" typeId="2ivj.3169390138954787311" id="2455624152132514795">
       <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="7201497847334348563" resolveInfo="Mining" />
+    </node>
+    <node role="traitReference" roleId="2ivj.7201497847334248147" type="2ivj.TraitReference" typeId="2ivj.3169390138954787317" id="2455624152132514796">
+      <link role="trait" roleId="2ivj.3169390138954787318" targetNodeId="8701932881020747804" resolveInfo="Nervousness" />
+    </node>
+    <node role="traitReference" roleId="2ivj.7201497847334248147" type="2ivj.TraitReference" typeId="2ivj.3169390138954787317" id="2455624152132514797">
+      <link role="trait" roleId="2ivj.3169390138954787318" targetNodeId="8701932881020747805" resolveInfo="Rage" />
     </node>
   </root>
   <root id="7201497847334348563">
