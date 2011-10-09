@@ -14,6 +14,11 @@
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="MPSFavoritesManager">
+    <favorites_list name="Strategy">
+      <favorite_root model_ref="r:829a4768-a0f0-4207-9366-74694af3864f(sandbox.df2001)" node_pointer="3848777903716127654" />
+    </favorites_list>
+  </component>
   <component name="MPSProject">
     <projectModules>
       <modulePath path="${project}/languages/Creature/Creature.mpl" folder="" />

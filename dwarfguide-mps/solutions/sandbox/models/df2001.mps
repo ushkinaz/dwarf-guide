@@ -313,58 +313,17 @@
     <node role="professionRef" roleId="2ivj.3848777903716151686" type="2ivj.ProfessionRef" typeId="2ivj.2413918680966836691" id="3848777903716504702">
       <link role="profession" roleId="2ivj.2413918680966836692" targetNodeId="2413918680966884229" resolveInfo="Worker" />
     </node>
-    <node role="ratingFormula" roleId="2ivj.3848777903716482832" type="tpee.MinusExpression" typeId="tpee.1068581242869" id="297736238471137356">
-      <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="297736238471139593">
-        <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="297736238471137352">
-          <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="297736238471032155">
-            <node role="expression" roleId="tpee.1079359253376" type="tpee.DotExpression" typeId="tpee.1197027756228" id="297736238471038839">
-              <node role="operand" roleId="tpee.1197027771414" type="2ivj.AttributeStatisticReference" typeId="2ivj.2455624152132549380" id="297736238471038838">
-                <link role="attributeStatistic" roleId="2ivj.2455624152132549381" targetNodeId="2455624152132937648" resolveInfo="Strength" />
-              </node>
-              <node role="operation" roleId="tpee.1197027833540" type="2ivj.AverageStatisticRef" typeId="2ivj.2455624152132659810" id="297736238471038843">
-                <link role="stat" roleId="2ivj.4319959043046304701" targetNodeId="2455624152132937652" />
-              </node>
-            </node>
-          </node>
-          <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="297736238471139585">
-            <node role="expression" roleId="tpee.1079359253376" type="tpee.DotExpression" typeId="tpee.1197027756228" id="297736238471139588">
-              <node role="operand" roleId="tpee.1197027771414" type="2ivj.AttributeStatisticReference" typeId="2ivj.2455624152132549380" id="297736238471139587">
-                <link role="attributeStatistic" roleId="2ivj.2455624152132549381" targetNodeId="2455624152132937648" resolveInfo="Strength" />
-              </node>
-              <node role="operation" roleId="tpee.1197027833540" type="2ivj.MinimumStatisticRef" typeId="2ivj.2455624152132732046" id="297736238471139592">
-                <link role="stat" roleId="2ivj.4319959043046304701" targetNodeId="2455624152132937650" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="297736238471139597">
-          <node role="expression" roleId="tpee.1079359253376" type="tpee.DotExpression" typeId="tpee.1197027756228" id="297736238471139600">
-            <node role="operand" roleId="tpee.1197027771414" type="2ivj.AttributeStatisticReference" typeId="2ivj.2455624152132549380" id="297736238471139599">
-              <link role="attributeStatistic" roleId="2ivj.2455624152132549381" targetNodeId="2455624152132937643" resolveInfo="Agility" />
-            </node>
-            <node role="operation" roleId="tpee.1197027833540" type="2ivj.MaximumStatisticRef" typeId="2ivj.2455624152132732048" id="297736238471139604">
-              <link role="stat" roleId="2ivj.4319959043046304701" targetNodeId="2455624152132937646" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="297736238471137360">
-        <node role="expression" roleId="tpee.1079359253376" type="tpee.MulExpression" typeId="tpee.1092119917967" id="297736238471137364">
-          <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="297736238471137367">
-            <property name="value" nameId="tpee.1068580320021" value="2" />
-          </node>
-          <node role="leftExpression" roleId="tpee.1081773367580" type="2ivj.AttributeStatisticReference" typeId="2ivj.2455624152132549380" id="297736238471137363">
-            <link role="attributeStatistic" roleId="2ivj.2455624152132549381" targetNodeId="2455624152132937643" resolveInfo="Agility" />
-          </node>
-        </node>
-      </node>
+    <node role="stopExpression" roleId="2ivj.3848777903716482831" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="297736238471215304">
+      <property name="value" nameId="tpee.1068580123138" value="false" />
     </node>
-    <node role="stopExpression" roleId="2ivj.3848777903716482831" type="tpee.LessThanExpression" typeId="tpee.1081506773034" id="297736238471032143">
-      <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="297736238471032146">
-        <property name="value" nameId="tpee.1068580320021" value="2000" />
+    <node role="ratingFormula" roleId="2ivj.3848777903716482832" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="297736238471262874">
+      <node role="rightExpression" roleId="tpee.1081773367579" type="2ivj.Average" typeId="2ivj.297736238471143922" id="297736238471260797">
+        <node role="attributeStatisticReference" roleId="2ivj.297736238471143923" type="2ivj.AttributeStatisticReference" typeId="2ivj.2455624152132549380" id="297736238471261821">
+          <link role="attributeStatistic" roleId="2ivj.2455624152132549381" targetNodeId="2455624152132937658" resolveInfo="Endurance" />
+        </node>
       </node>
-      <node role="leftExpression" roleId="tpee.1081773367580" type="2ivj.AttributeStatisticReference" typeId="2ivj.2455624152132549380" id="297736238471032142">
-        <link role="attributeStatistic" roleId="2ivj.2455624152132549381" targetNodeId="2455624152132937653" resolveInfo="Toughness" />
+      <node role="leftExpression" roleId="tpee.1081773367580" type="2ivj.AttributeStatisticReference" typeId="2ivj.2455624152132549380" id="297736238471262877">
+        <link role="attributeStatistic" roleId="2ivj.2455624152132549381" targetNodeId="2455624152132937658" resolveInfo="Endurance" />
       </node>
     </node>
   </root>

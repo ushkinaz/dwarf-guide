@@ -17,11 +17,11 @@ public class StrategyWorkerDwarf {
   }
 
   public int getRating() {
-    return (DwarfCreature.AVG_STRENGTH) + (DwarfCreature.MIN_STRENGTH) + (DwarfCreature.MAX_AGILITY) - (creature.getAgility() * 2);
+    return creature.getEndurance() + DwarfCreature.AVG_ENDURANCE;
   }
 
   public boolean shouldStop() {
-    return creature.getToughness() < 2000;
+    return false;
   }
 
   public String getDescription() {
