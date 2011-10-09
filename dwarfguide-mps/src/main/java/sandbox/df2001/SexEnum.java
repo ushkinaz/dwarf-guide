@@ -6,9 +6,9 @@ import javax.annotation.Generated;
 
 @Generated(value = {"MPS"})
 public enum SexEnum {
-  Male(),
-  Female(),
-  Undecided();
+  MALE(),
+  FEMALE(),
+  UNDECIDED();
 
   SexEnum() {
   }

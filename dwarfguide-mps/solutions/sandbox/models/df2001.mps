@@ -313,16 +313,33 @@
     <node role="professionRef" roleId="2ivj.3848777903716151686" type="2ivj.ProfessionRef" typeId="2ivj.2413918680966836691" id="3848777903716504702">
       <link role="profession" roleId="2ivj.2413918680966836692" targetNodeId="2413918680966884229" resolveInfo="Worker" />
     </node>
-    <node role="stopExpression" roleId="2ivj.3848777903716482831" type="tpee.GreaterThanExpression" typeId="tpee.1081506762703" id="3848777903716330222">
-      <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="3848777903716330225">
-        <property name="value" nameId="tpee.1068580320021" value="333" />
+    <node role="ratingFormula" roleId="2ivj.3848777903716482832" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="297736238471032151">
+      <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="297736238471032147">
+        <node role="leftExpression" roleId="tpee.1081773367580" type="2ivj.AttributeStatisticReference" typeId="2ivj.2455624152132549380" id="297736238470940463">
+          <link role="attributeStatistic" roleId="2ivj.2455624152132549381" targetNodeId="2455624152132937643" resolveInfo="Agility" />
+        </node>
+        <node role="rightExpression" roleId="tpee.1081773367579" type="2ivj.AttributeStatisticReference" typeId="2ivj.2455624152132549380" id="297736238471032150">
+          <link role="attributeStatistic" roleId="2ivj.2455624152132549381" targetNodeId="2455624152132937658" resolveInfo="Endurance" />
+        </node>
       </node>
-      <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="3848777903716330221">
-        <property name="value" nameId="tpee.1068580320021" value="33" />
+      <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="297736238471032155">
+        <node role="expression" roleId="tpee.1079359253376" type="tpee.MulExpression" typeId="tpee.1092119917967" id="297736238471032159">
+          <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="297736238471032162">
+            <property name="value" nameId="tpee.1068580320021" value="2" />
+          </node>
+          <node role="leftExpression" roleId="tpee.1081773367580" type="2ivj.AttributeStatisticReference" typeId="2ivj.2455624152132549380" id="297736238471032158">
+            <link role="attributeStatistic" roleId="2ivj.2455624152132549381" targetNodeId="2455624152132937648" resolveInfo="Strength" />
+          </node>
+        </node>
       </node>
     </node>
-    <node role="ratingFormula" roleId="2ivj.3848777903716482832" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="297736238470820532">
-      <property name="value" nameId="tpee.1068580320021" value="222" />
+    <node role="stopExpression" roleId="2ivj.3848777903716482831" type="tpee.LessThanExpression" typeId="tpee.1081506773034" id="297736238471032143">
+      <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="297736238471032146">
+        <property name="value" nameId="tpee.1068580320021" value="2000" />
+      </node>
+      <node role="leftExpression" roleId="tpee.1081773367580" type="2ivj.AttributeStatisticReference" typeId="2ivj.2455624152132549380" id="297736238471032142">
+        <link role="attributeStatistic" roleId="2ivj.2455624152132549381" targetNodeId="2455624152132937653" resolveInfo="Toughness" />
+      </node>
     </node>
   </root>
 </model>

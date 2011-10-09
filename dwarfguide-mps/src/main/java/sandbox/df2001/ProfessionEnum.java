@@ -6,8 +6,8 @@ import javax.annotation.Generated;
 
 @Generated(value = {"MPS"})
 public enum ProfessionEnum {
-  Worker(),
-  Idiot();
+  WORKER(),
+  IDIOT();
 
   ProfessionEnum() {
   }
