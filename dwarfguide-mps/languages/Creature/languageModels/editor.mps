@@ -86,10 +86,6 @@
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="297736238471143925">
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.297736238471143922" resolveInfo="Statistic" />
     </node>
-    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2455624152132549382">
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.2455624152132549380" resolveInfo="AttributeStatisticReference" />
-    </node>
   </roots>
   <root id="2413918680966836693">
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_RefCell" typeId="tpc2.1088013125922" id="2413918680966836694">
@@ -823,16 +819,6 @@
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="297736238471159094">
         <property name="text" nameId="tpc2.1073389577007" value=")" />
-      </node>
-    </node>
-  </root>
-  <root id="2455624152132549382">
-    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_RefCell" typeId="tpc2.1088013125922" id="2455624152132549383">
-      <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="2ivj.2455624152132549381" />
-      <node role="editorComponent" roleId="tpc2.1088186146602" type="tpc2.InlineEditorComponent" typeId="tpc2.1088185857835" id="2455624152132564517">
-        <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="2455624152132564519">
-          <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="2ivj.2455624152132514799" />
-        </node>
       </node>
     </node>
   </root>
