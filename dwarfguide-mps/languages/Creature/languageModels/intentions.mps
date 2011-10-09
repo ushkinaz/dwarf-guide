@@ -18,6 +18,7 @@
     </node>
     <node type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="2455624152132987133">
       <property name="name" nameId="tpck.1169194664001" value="GenerateId" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="interfaces" />
       <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="2ivj.7336574368822048409" resolveInfo="HasId" />
     </node>
   </roots>

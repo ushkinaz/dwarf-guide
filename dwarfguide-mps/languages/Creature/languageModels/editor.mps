@@ -62,6 +62,7 @@
     </node>
     <node type="tpc2.EditorComponentDeclaration" typeId="tpc2.1078938745671" id="7201497847334508693">
       <property name="name" nameId="tpck.1169194664001" value="EntityEditor" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="interfaces" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.7201497847334508686" resolveInfo="Entity" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2455624152132514801">

@@ -9,9 +9,11 @@
   <roots>
     <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="7336574368822048409">
       <property name="name" nameId="tpck.1169194664001" value="HasId" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="interfaces" />
     </node>
     <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="3025991346594277161">
       <property name="name" nameId="tpck.1169194664001" value="HasName" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="interfaces" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3025991346594277158">
       <property name="name" nameId="tpck.1169194664001" value="Job" />
@@ -93,6 +95,7 @@
     </node>
     <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="3169390138954906798">
       <property name="name" nameId="tpck.1169194664001" value="Feature" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="interfaces" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3169390138954984125">
       <property name="name" nameId="tpck.1169194664001" value="Creature" />
@@ -108,6 +111,7 @@
     </node>
     <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="7201497847334508686">
       <property name="name" nameId="tpck.1169194664001" value="Entity" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="interfaces" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4319959043046304680">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="" />
@@ -125,9 +129,11 @@
     </node>
     <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="3848777903716151683">
       <property name="name" nameId="tpck.1169194664001" value="HasCreatureContraint" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="interfaces" />
     </node>
     <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="3848777903716151685">
       <property name="name" nameId="tpck.1169194664001" value="HasProfessionConstraint" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="interfaces" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3848777903716482830">
       <property name="name" nameId="tpck.1169194664001" value="Strategy" />

@@ -15,6 +15,7 @@
       <link role="concept" roleId="1i04.1225194240799" targetNodeId="2ivj.2455624152132514798" resolveInfo="AttributeStatistic" />
     </node>
     <node type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="3848777903716100288">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="interfaces" />
       <link role="concept" roleId="1i04.1225194240799" targetNodeId="2ivj.3025991346594277161" resolveInfo="HasName" />
     </node>
   </roots>
