@@ -4,24 +4,22 @@ package sandbox.df2001;
 
 
 public class StrategyGem_cutterDwarf {
-  private Creature creature;
   private String myDescription;
   private RaceEnum myRace;
   private ProfessionEnum myProfession;
 
-  public StrategyGem_cutterDwarf(Creature creature) {
-    this.creature = creature;
+  public StrategyGem_cutterDwarf() {
     this.setDescription("Strategy for dwarven gem cutter");
     this.setRace(RaceEnum.DWARF);
     this.setProfession(ProfessionEnum.GEM_CUTTER);
   }
 
-  public int getRating() {
+  public int getRating(Creature creature) {
     return Math.abs((creature.getAgility() - DwarfStats.AVG_AGILITY));
   }
 
-  public boolean shouldStop() {
-    return false;
+  public boolean shouldStop(Creature creature) {
+    return creature.getAgility() < DwarfStats.AVG_AGILITY;
   }
 
   public String getDescription() {
