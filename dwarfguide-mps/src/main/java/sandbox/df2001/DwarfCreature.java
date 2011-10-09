@@ -33,6 +33,7 @@ public class DwarfCreature {
 
   public DwarfCreature() {
     this.setRace(RaceEnum.DWARF);
+    this.getAgility();
   }
 
   public String getName() {

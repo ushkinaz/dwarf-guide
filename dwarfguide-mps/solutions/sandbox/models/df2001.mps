@@ -2,11 +2,9 @@
 <model modelUID="r:829a4768-a0f0-4207-9366-74694af3864f(sandbox.df2001)">
   <persistence version="7" />
   <language namespace="ec18e679-bd6d-4441-a00b-ab06c2d44eec(net.dwarfguide.creature)" />
-  <language namespace="c02302e9-f3bd-4ae6-8b1e-54a7ff15399b(net.dwarfguide.ratings)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="2ivj" modelUID="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(net.dwarfguide.creature.structure)" version="0" implicit="yes" />
-  <import index="zr07" modelUID="r:7fec707a-d129-495b-a874-6bf1d397f4a7(net.dwarfguide.ratings.structure)" version="1" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
   <roots>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="2413918680966884229">
@@ -112,7 +110,7 @@
       <property name="identifier" nameId="2ivj.7336574368822048410" value="26" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="labours" />
     </node>
-    <node type="zr07.Strategy" typeId="zr07.8150566930055015" id="3848777903716127654" />
+    <node type="2ivj.Strategy" typeId="2ivj.3848777903716482830" id="3848777903716127654" />
   </roots>
   <root id="2413918680966884229">
     <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="7201497847334507607">
@@ -309,13 +307,13 @@
   <root id="3848777903716104596" />
   <root id="3848777903716104597" />
   <root id="3848777903716127654">
-    <node role="creatureReference" roleId="2ivj.3848777903716151684" type="2ivj.CreatureReference" typeId="2ivj.2455624152132549373" id="3848777903716175128">
+    <node role="creatureReference" roleId="2ivj.3848777903716151684" type="2ivj.CreatureReference" typeId="2ivj.2455624152132549373" id="3848777903716504701">
       <link role="creature" roleId="2ivj.2455624152132549374" targetNodeId="2455624152132595976" resolveInfo="Dwarf" />
     </node>
-    <node role="professionRef" roleId="2ivj.3848777903716151686" type="2ivj.ProfessionRef" typeId="2ivj.2413918680966836691" id="3848777903716169424">
+    <node role="professionRef" roleId="2ivj.3848777903716151686" type="2ivj.ProfessionRef" typeId="2ivj.2413918680966836691" id="3848777903716504702">
       <link role="profession" roleId="2ivj.2413918680966836692" targetNodeId="2413918680966884229" resolveInfo="Worker" />
     </node>
-    <node role="stopExpression" roleId="zr07.8150566930120604" type="tpee.GreaterThanExpression" typeId="tpee.1081506762703" id="3848777903716330222">
+    <node role="stopExpression" roleId="2ivj.3848777903716482831" type="tpee.GreaterThanExpression" typeId="tpee.1081506762703" id="3848777903716330222">
       <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="3848777903716330225">
         <property name="value" nameId="tpee.1068580320021" value="333" />
       </node>
@@ -323,8 +321,8 @@
         <property name="value" nameId="tpee.1068580320021" value="33" />
       </node>
     </node>
-    <node role="ratingFormula" roleId="zr07.8150566930193469" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="3848777903716330227">
-      <property name="value" nameId="tpee.1068580320021" value="500" />
+    <node role="ratingFormula" roleId="2ivj.3848777903716482832" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="297736238470820532">
+      <property name="value" nameId="tpee.1068580320021" value="222" />
     </node>
   </root>
 </model>

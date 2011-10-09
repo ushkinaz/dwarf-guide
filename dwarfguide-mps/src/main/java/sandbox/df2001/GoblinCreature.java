@@ -37,6 +37,7 @@ public class GoblinCreature {
 
   public GoblinCreature() {
     this.setRace(RaceEnum.GOBLIN);
+    this.getNimblness();
   }
 
   public String getName() {
