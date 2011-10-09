@@ -21,7 +21,7 @@ public class StrategyGem_cutterDwarf {
   }
 
   public boolean shouldStop(Creature creature) {
-    return creature.getAgility() < DwarfStats.AVG_AGILITY;
+    return creature.getAgility() < DwarfStats.AVG_AGILITY || creature.getNervousness() > 60;
   }
 
   public String getDescription() {
