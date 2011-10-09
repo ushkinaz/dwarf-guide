@@ -17,7 +17,7 @@ public class StrategyWorkerDwarf {
   }
 
   public int getRating() {
-    return creature.getEndurance() + DwarfCreature.AVG_ENDURANCE + creature.getStrength();
+    return creature.getEndurance() + DwarfCreature.MAX_AGILITY + creature.getStrength() + DwarfCreature.AVG_STRENGTH + DwarfCreature.MAX_ENDURANCE - ~(DwarfCreature.MAX_AGILITY);
   }
 
   public boolean shouldStop() {

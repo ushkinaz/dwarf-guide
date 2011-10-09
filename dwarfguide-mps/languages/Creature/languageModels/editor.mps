@@ -87,7 +87,7 @@
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.3848777903716482830" resolveInfo="Strategy" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="297736238471143925">
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.297736238471143922" resolveInfo="Average" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.297736238471143922" resolveInfo="Statistic" />
     </node>
   </roots>
   <root id="2413918680966836693">
@@ -855,8 +855,10 @@
   <root id="297736238471143925">
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="297736238471143927">
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="297736238471143928" />
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="297736238471143929">
-        <property name="text" nameId="tpc2.1073389577007" value="average" />
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="297736238471365703">
+        <property name="noTargetText" nameId="tpc2.1139852716018" value="statistic" />
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="2ivj.297736238471365654" resolveInfo="statisticType" />
+        <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="2455624152132770420" resolveInfo="keyword" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="297736238471159092">
         <property name="text" nameId="tpc2.1073389577007" value="(" />

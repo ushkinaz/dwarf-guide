@@ -36,7 +36,7 @@
       <property name="name" nameId="tpck.1169194664001" value="typeof_Strategy" />
     </node>
     <node type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="297736238471159095">
-      <property name="name" nameId="tpck.1169194664001" value="typeof_Average" />
+      <property name="name" nameId="tpck.1169194664001" value="typeof_Statistic" />
     </node>
   </roots>
   <root id="8701932881020807695">
@@ -217,7 +217,7 @@
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="297736238471159097">
       <property name="name" nameId="tpck.1169194664001" value="average" />
-      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="2ivj.297736238471143922" resolveInfo="Average" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="2ivj.297736238471143922" resolveInfo="Statistic" />
     </node>
   </root>
 </model>
