@@ -40,25 +40,25 @@
     </node>
     <node type="2ivj.Trait" typeId="2ivj.3025991346593851837" id="8701932881020747804">
       <property name="name" nameId="tpck.1169194664001" value="Nervousness" />
-      <property name="level_0" nameId="2ivj.3025991346593851843" value="1" />
-      <property name="level_1" nameId="2ivj.3025991346593851846" value="2" />
-      <property name="level_2" nameId="2ivj.3025991346593851847" value="3" />
-      <property name="level_3" nameId="2ivj.3025991346593851850" value="4" />
-      <property name="level_4" nameId="2ivj.3025991346593851849" value="5" />
-      <property name="level_5" nameId="2ivj.3025991346593851848" value="6" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="traits" />
-      <property name="identifier" nameId="2ivj.7336574368822048410" value="29" />
+      <property name="identifier" nameId="2ivj.7336574368822048410" value="0" />
+      <property name="highest" nameId="2ivj.3025991346593851843" value="Is a nervous wreck" />
+      <property name="veryHigh" nameId="2ivj.3025991346593851846" value="Is always tense and jittery" />
+      <property name="high" nameId="2ivj.3025991346593851847" value="Is often nervous" />
+      <property name="low" nameId="2ivj.3025991346593851850" value="Has a calm demeanor" />
+      <property name="lowest" nameId="2ivj.3025991346593851848" value="Has an incredibly calm demeanor" />
+      <property name="veryLow" nameId="2ivj.3025991346593851849" value="Has a very calm demeanor" />
     </node>
     <node type="2ivj.Trait" typeId="2ivj.3025991346593851837" id="8701932881020747805">
       <property name="name" nameId="tpck.1169194664001" value="Rage" />
-      <property name="level_0" nameId="2ivj.3025991346593851843" value="1" />
-      <property name="level_1" nameId="2ivj.3025991346593851846" value="2" />
-      <property name="level_2" nameId="2ivj.3025991346593851847" value="3" />
-      <property name="level_3" nameId="2ivj.3025991346593851850" value="4" />
-      <property name="level_4" nameId="2ivj.3025991346593851849" value="5" />
-      <property name="level_5" nameId="2ivj.3025991346593851848" value="6" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="traits" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="1" />
+      <property name="highest" nameId="2ivj.3025991346593851843" value="high" />
+      <property name="veryHigh" nameId="2ivj.3025991346593851846" value="2" />
+      <property name="high" nameId="2ivj.3025991346593851847" value="3" />
+      <property name="low" nameId="2ivj.3025991346593851850" value="4" />
+      <property name="veryLow" nameId="2ivj.3025991346593851849" value="5" />
+      <property name="lowest" nameId="2ivj.3025991346593851848" value="6" />
     </node>
     <node type="2ivj.Skill" typeId="2ivj.7336574368822058574" id="7201497847334348563">
       <property name="name" nameId="tpck.1169194664001" value="Mining" />
@@ -155,7 +155,6 @@
   </root>
   <root id="2455624152132595976">
     <node role="attributeStatistic" roleId="2ivj.2455624152132514819" type="2ivj.AttributeStatistic" typeId="2ivj.2455624152132514798" id="2455624152132937643">
-      <property name="name" value="Agility" />
       <node role="attr" roleId="2ivj.2455624152132514799" type="2ivj.AttributeRef" typeId="2ivj.3169390138954787329" id="2455624152132937644">
         <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747801" resolveInfo="Agility" />
       </node>
@@ -170,7 +169,6 @@
       </node>
     </node>
     <node role="attributeStatistic" roleId="2ivj.2455624152132514819" type="2ivj.AttributeStatistic" typeId="2ivj.2455624152132514798" id="2455624152132937648">
-      <property name="name" value="Strength" />
       <node role="attr" roleId="2ivj.2455624152132514799" type="2ivj.AttributeRef" typeId="2ivj.3169390138954787329" id="2455624152132937649">
         <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747800" resolveInfo="Strength" />
       </node>
@@ -185,7 +183,6 @@
       </node>
     </node>
     <node role="attributeStatistic" roleId="2ivj.2455624152132514819" type="2ivj.AttributeStatistic" typeId="2ivj.2455624152132514798" id="2455624152132937653">
-      <property name="name" value="Toughness" />
       <node role="attr" roleId="2ivj.2455624152132514799" type="2ivj.AttributeRef" typeId="2ivj.3169390138954787329" id="2455624152132937654">
         <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747802" resolveInfo="Toughness" />
       </node>
@@ -200,7 +197,6 @@
       </node>
     </node>
     <node role="attributeStatistic" roleId="2ivj.2455624152132514819" type="2ivj.AttributeStatistic" typeId="2ivj.2455624152132514798" id="2455624152132937658">
-      <property name="name" value="Endurance" />
       <node role="attr" roleId="2ivj.2455624152132514799" type="2ivj.AttributeRef" typeId="2ivj.3169390138954787329" id="2455624152132937659">
         <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747803" resolveInfo="Endurance" />
       </node>
@@ -217,7 +213,6 @@
   </root>
   <root id="2455624152132937618">
     <node role="attributeStatistic" roleId="2ivj.2455624152132514819" type="2ivj.AttributeStatistic" typeId="2ivj.2455624152132514798" id="2455624152133032713">
-      <property name="name" value="Nimblness" />
       <node role="attr" roleId="2ivj.2455624152132514799" type="2ivj.AttributeRef" typeId="2ivj.3169390138954787329" id="2455624152133032714">
         <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="2455624152132987906" resolveInfo="Nimblness" />
       </node>
@@ -232,7 +227,6 @@
       </node>
     </node>
     <node role="attributeStatistic" roleId="2ivj.2455624152132514819" type="2ivj.AttributeStatistic" typeId="2ivj.2455624152132514798" id="2455624152133032718">
-      <property name="name" value="Toughness" />
       <node role="attr" roleId="2ivj.2455624152132514799" type="2ivj.AttributeRef" typeId="2ivj.3169390138954787329" id="2455624152133032719">
         <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747802" resolveInfo="Toughness" />
       </node>
@@ -247,7 +241,6 @@
       </node>
     </node>
     <node role="attributeStatistic" roleId="2ivj.2455624152132514819" type="2ivj.AttributeStatistic" typeId="2ivj.2455624152132514798" id="2455624152133032723">
-      <property name="name" value="Strength" />
       <node role="attr" roleId="2ivj.2455624152132514799" type="2ivj.AttributeRef" typeId="2ivj.3169390138954787329" id="2455624152133032724">
         <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747800" resolveInfo="Strength" />
       </node>
@@ -262,7 +255,6 @@
       </node>
     </node>
     <node role="attributeStatistic" roleId="2ivj.2455624152132514819" type="2ivj.AttributeStatistic" typeId="2ivj.2455624152132514798" id="2455624152133032728">
-      <property name="name" value="Endurance" />
       <node role="attr" roleId="2ivj.2455624152132514799" type="2ivj.AttributeRef" typeId="2ivj.3169390138954787329" id="2455624152133032729">
         <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747803" resolveInfo="Endurance" />
       </node>
@@ -277,7 +269,6 @@
       </node>
     </node>
     <node role="attributeStatistic" roleId="2ivj.2455624152132514819" type="2ivj.AttributeStatistic" typeId="2ivj.2455624152132514798" id="2455624152133032733">
-      <property name="name" value="Agility" />
       <node role="attr" roleId="2ivj.2455624152132514799" type="2ivj.AttributeRef" typeId="2ivj.3169390138954787329" id="2455624152133032734">
         <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747801" resolveInfo="Agility" />
       </node>

@@ -20,6 +20,8 @@ public class Creature {
   private int myRage;
 
   public Creature() {
+    this.setNervousness(50);
+    this.setRage(50);
   }
 
   public String getName() {

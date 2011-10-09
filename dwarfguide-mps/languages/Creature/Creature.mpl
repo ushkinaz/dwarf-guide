@@ -11,6 +11,7 @@
       </models>
       <external-templates>
         <generator generatorUID="5f9babc9-8d5d-4825-8e61-17b241ee6272(jetbrains.mps.baseLanguage.collections#1151699677197)" />
+        <generator generatorUID="a150150e-46ee-4c9e-b080-08d136e4eefb(jetbrains.mps.baseLanguage.tuples#1238919486295)" />
       </external-templates>
       <usedLanguages>
         <usedLanguage>ec18e679-bd6d-4441-a00b-ab06c2d44eec(net.dwarfguide.creature)</usedLanguage>
@@ -33,6 +34,20 @@
             </external-mapping>
           </lesser-priority-mapping>
         </mapping-priority-rule>
+        <mapping-priority-rule kind="before_or_together">
+          <greater-priority-mapping>
+            <generator generatorUID="cd2006f9-7fb7-4cd6-8983-2a54d8aa19d3(net.dwarfguide.creature#2413918680966875812)" />
+            <external-mapping>
+              <all-local-mappings />
+            </external-mapping>
+          </greater-priority-mapping>
+          <lesser-priority-mapping>
+            <generator generatorUID="a150150e-46ee-4c9e-b080-08d136e4eefb(jetbrains.mps.baseLanguage.tuples#1238919486295)" />
+            <external-mapping>
+              <all-local-mappings />
+            </external-mapping>
+          </lesser-priority-mapping>
+        </mapping-priority-rule>
       </mapping-priorities>
     </generator>
   </generators>
@@ -40,16 +55,16 @@
     <stubModelEntry path="${DWARVEN_PATH}/dwarfguide-mps/lib/guice.jar">
       <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
     </stubModelEntry>
-    <stubModelEntry path="${DWARVEN_PATH}/dwarfguide-mps/lib/simple-xml.jar">
+    <stubModelEntry path="${DWARVEN_PATH}/dwarfguide-mps/lib/jsr250-api.jar">
       <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
     </stubModelEntry>
-    <stubModelEntry path="${DWARVEN_PATH}/dwarfguide-mps/lib/jsr250-api.jar">
+    <stubModelEntry path="${DWARVEN_PATH}/dwarfguide-mps/lib/simple-xml.jar">
       <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
     </stubModelEntry>
   </stubModelEntries>
   <sourcePath />
   <dependencies>
-    <dependency reexport="true">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
+    <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)</usedLanguage>
@@ -64,6 +79,7 @@
   </usedDevKits>
   <extendedLanguages>
     <extendedLanguage>83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)</extendedLanguage>
+    <extendedLanguage>a247e09e-2435-45ba-b8d2-07e93feba96a(jetbrains.mps.baseLanguage.tuples)</extendedLanguage>
   </extendedLanguages>
 </language>
 
