@@ -23,19 +23,31 @@ import org.slf4j.LoggerFactory;
  * @author Dmitry Sidorenko
  */
 public class ExperienceFactory {
-    @SuppressWarnings({"unused"})
-    private static final Logger LOGGER = LoggerFactory.getLogger(ExperienceFactory.class);
+  @SuppressWarnings({"unused"})
+  private static final Logger LOGGER = LoggerFactory.getLogger(ExperienceFactory.class);
 
-    public static int getSkillLevel(int experience) {
-        int levelExp = 500;
-        int level = 0;
+  public static int getSkillLevel(int experience) {
+    int levelExp = 500;
+    int level = 0;
 
-        while (levelExp <= experience) {
-            level++;
-            levelExp = levelExp + 500 + 100 * level;
-            LOGGER.debug(level + ":" + levelExp);
-        }
-
-        return level;
+    while (levelExp <= experience) {
+      level++;
+      levelExp = levelExp + 500 + 100 * level;
+      LOGGER.debug(level + ":" + levelExp);
     }
+
+    return level;
+  }
+
+  public static int estimateExperience(int level) {
+    int levelExp = 0;
+    while (level > 0) {
+      level--;
+      levelExp = levelExp + 500 + 100 * level;
+      LOGGER.debug(level + ":" + levelExp);
+    }
+
+    return levelExp;
+  }
 }
+
