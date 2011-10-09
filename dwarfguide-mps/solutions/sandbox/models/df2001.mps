@@ -111,6 +111,12 @@
       <property name="virtualPackage" nameId="tpck.1193676396447" value="labours" />
     </node>
     <node type="2ivj.Strategy" typeId="2ivj.3848777903716482830" id="3848777903716127654" />
+    <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="6143566370761541175">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
+      <property name="name" nameId="tpck.1169194664001" value="Gem cutter" />
+      <property name="identifier" nameId="2ivj.7336574368822048410" value="2" />
+      <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
+    </node>
   </roots>
   <root id="2413918680966884229">
     <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="7201497847334507607">
@@ -138,6 +144,12 @@
   <root id="7201497847334555922">
     <node role="dependsOn" roleId="2ivj.7201497847334467030" type="2ivj.AttributeRef" typeId="2ivj.3169390138954787329" id="571577773479973317">
       <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747801" resolveInfo="Agility" />
+    </node>
+    <node role="dependsOn" roleId="2ivj.7201497847334467030" type="2ivj.AttributeRef" typeId="2ivj.3169390138954787329" id="6143566370761541178">
+      <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747803" resolveInfo="Endurance" />
+    </node>
+    <node role="dependsOn" roleId="2ivj.7201497847334467030" type="2ivj.AttributeRef" typeId="2ivj.3169390138954787329" id="6143566370761541180">
+      <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747800" resolveInfo="Strength" />
     </node>
   </root>
   <root id="2455624152132595976">
@@ -310,8 +322,8 @@
     <node role="creatureReference" roleId="2ivj.3848777903716151684" type="2ivj.CreatureReference" typeId="2ivj.2455624152132549373" id="3848777903716504701">
       <link role="creature" roleId="2ivj.2455624152132549374" targetNodeId="2455624152132595976" resolveInfo="Dwarf" />
     </node>
-    <node role="professionRef" roleId="2ivj.3848777903716151686" type="2ivj.ProfessionRef" typeId="2ivj.2413918680966836691" id="3848777903716504702">
-      <link role="profession" roleId="2ivj.2413918680966836692" targetNodeId="2413918680966884229" resolveInfo="Worker" />
+    <node role="professionRef" roleId="2ivj.3848777903716151686" type="2ivj.ProfessionRef" typeId="2ivj.2413918680966836691" id="6143566370761541181">
+      <link role="profession" roleId="2ivj.2413918680966836692" targetNodeId="6143566370761541175" resolveInfo="Gem cutter" />
     </node>
     <node role="stopExpression" roleId="2ivj.3848777903716482831" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="297736238471215304">
       <property name="value" nameId="tpee.1068580123138" value="false" />
@@ -357,6 +369,11 @@
           </node>
         </node>
       </node>
+    </node>
+  </root>
+  <root id="6143566370761541175">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="6143566370761541176">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="7201497847334555922" resolveInfo="Gem cutting" />
     </node>
   </root>
 </model>
