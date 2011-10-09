@@ -6,6 +6,7 @@ import javax.annotation.Generated;
 
 @Generated(value = {"MPS"})
 public class GoblinStats {
+  public static RaceEnum race = RaceEnum.GOBLIN;
   public static final int MIN_NIMBLNESS = 0;
   public static final int MIN_TOUGHNESS = 0;
   public static final int MIN_STRENGTH = 0;
@@ -22,17 +23,6 @@ public class GoblinStats {
   public static final int AVG_ENDURANCE = 1500;
   public static final int AVG_AGILITY = 1500;
 
-  private RaceEnum myRace;
-
   public GoblinStats() {
-    this.setRace(RaceEnum.GOBLIN);
-  }
-
-  public RaceEnum getRace() {
-    return this.myRace;
-  }
-
-  private void setRace(RaceEnum value) {
-    this.myRace = value;
   }
 }

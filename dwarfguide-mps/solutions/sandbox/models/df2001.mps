@@ -312,8 +312,8 @@
           </node>
           <node role="rightExpression" roleId="tpee.1081773367579" type="2ivj.Statistic" typeId="2ivj.297736238471143922" id="6143566370761633017">
             <property name="statisticType" nameId="2ivj.297736238471365654" value="0" />
-            <node role="attributeStatisticReference" roleId="2ivj.297736238471143923" type="2ivj.AttributeStatisticReference" typeId="2ivj.2455624152132549380" id="6143566370761633018">
-              <link role="attributeStatistic" roleId="2ivj.2455624152132549381" targetNodeId="2455624152132937643" resolveInfo="Agility" />
+            <node role="attributeRef" roleId="2ivj.297736238471143923" type="2ivj.AttributeRef" typeId="2ivj.3169390138954787329" id="6143566370761800327">
+              <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747801" resolveInfo="Agility" />
             </node>
           </node>
         </node>
@@ -322,8 +322,8 @@
     <node role="stopExpression" roleId="2ivj.3848777903716482831" type="tpee.LessThanExpression" typeId="tpee.1081506773034" id="6143566370761755549">
       <node role="rightExpression" roleId="tpee.1081773367579" type="2ivj.Statistic" typeId="2ivj.297736238471143922" id="6143566370761755552">
         <property name="statisticType" nameId="2ivj.297736238471365654" value="0" />
-        <node role="attributeStatisticReference" roleId="2ivj.297736238471143923" type="2ivj.AttributeStatisticReference" typeId="2ivj.2455624152132549380" id="6143566370761755554">
-          <link role="attributeStatistic" roleId="2ivj.2455624152132549381" targetNodeId="2455624152132937643" resolveInfo="Agility" />
+        <node role="attributeRef" roleId="2ivj.297736238471143923" type="2ivj.AttributeRef" typeId="2ivj.3169390138954787329" id="6143566370761800328">
+          <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747801" resolveInfo="Agility" />
         </node>
       </node>
       <node role="leftExpression" roleId="tpee.1081773367580" type="2ivj.AttributeRef" typeId="2ivj.3169390138954787329" id="6143566370761755548">
