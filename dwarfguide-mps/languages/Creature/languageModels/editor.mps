@@ -79,20 +79,8 @@
       <property name="virtualPackage" nameId="tpck.1193676396447" value="" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.4319959043046304680" resolveInfo="StatisticsField" />
     </node>
-    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2455624152132711012">
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.2455624152132659810" resolveInfo="AverageStatisticRef" />
-    </node>
-    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2455624152132732138">
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.2455624152132732046" resolveInfo="MinimumStatisticRef" />
-    </node>
-    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2455624152132732154">
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.2455624152132732048" resolveInfo="MaximumStatisticRef" />
-    </node>
     <node type="tpc2.StyleSheet" typeId="tpc2.1186402211651" id="2455624152132770409">
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="" />
       <property name="name" nameId="tpck.1169194664001" value="Dwarfs" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="3848777903716482837">
@@ -705,33 +693,6 @@
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2455624152132710855" />
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="2455624152132710864">
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="2ivj.4319959043046304681" resolveInfo="statistic" />
-      </node>
-    </node>
-  </root>
-  <root id="2455624152132711012">
-    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="2455624152132711014">
-      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2455624152132711015" />
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2455624152132711016">
-        <property name="text" nameId="tpc2.1073389577007" value="average" />
-        <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="2455624152132770427" resolveInfo="variable" />
-      </node>
-    </node>
-  </root>
-  <root id="2455624152132732138">
-    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="2455624152132732140">
-      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2455624152132732141" />
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2455624152132732142">
-        <property name="text" nameId="tpc2.1073389577007" value="minimum" />
-        <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="2455624152132770427" resolveInfo="variable" />
-      </node>
-    </node>
-  </root>
-  <root id="2455624152132732154">
-    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="2455624152132732156">
-      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2455624152132732157" />
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2455624152132732158">
-        <property name="text" nameId="tpc2.1073389577007" value="maximum" />
-        <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="2455624152132770427" resolveInfo="variable" />
       </node>
     </node>
   </root>

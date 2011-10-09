@@ -109,11 +109,6 @@
     <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="7201497847334508686">
       <property name="name" nameId="tpck.1169194664001" value="Entity" />
     </node>
-    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4319959043045834034">
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
-      <property name="name" nameId="tpck.1169194664001" value="StatisticsFieldRef" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
-    </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4319959043046304680">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="" />
       <property name="name" nameId="tpck.1169194664001" value="StatisticsField" />
@@ -132,21 +127,6 @@
       <property name="name" nameId="tpck.1169194664001" value="AttributeStatisticReference" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
-    </node>
-    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2455624152132659810">
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
-      <property name="name" nameId="tpck.1169194664001" value="AverageStatisticRef" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="4319959043045834034" resolveInfo="StatisticsFieldRef" />
-    </node>
-    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2455624152132732046">
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
-      <property name="name" nameId="tpck.1169194664001" value="MinimumStatisticRef" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="4319959043045834034" resolveInfo="StatisticsFieldRef" />
-    </node>
-    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2455624152132732048">
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
-      <property name="name" nameId="tpck.1169194664001" value="MaximumStatisticRef" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="4319959043045834034" resolveInfo="StatisticsFieldRef" />
     </node>
     <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="3848777903716151683">
       <property name="name" nameId="tpck.1169194664001" value="HasCreatureContraint" />
@@ -412,20 +392,6 @@
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7336574368822048409" resolveInfo="HasId" />
     </node>
   </root>
-  <root id="4319959043045834034">
-    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.BooleanConceptProperty" typeId="tpce.1105725574259" id="2455624152132728917">
-      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473854053" resolveInfo="abstract" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4319959043046304701">
-      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
-      <property name="role" nameId="tpce.1071599776563" value="stat" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="4319959043046304680" resolveInfo="StatisticsField" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="4319959043045834035">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpee.1197027803184" resolveInfo="IOperation" />
-    </node>
-  </root>
   <root id="4319959043046304680">
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="4319959043046304681">
       <property name="name" nameId="tpck.1169194664001" value="statistic" />
@@ -479,21 +445,6 @@
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <property name="role" nameId="tpce.1071599776563" value="attributeStatistic" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="2455624152132514798" resolveInfo="AttributeStatistic" />
-    </node>
-  </root>
-  <root id="2455624152132659810">
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2455624152132659812">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpee.1197027803184" resolveInfo="IOperation" />
-    </node>
-  </root>
-  <root id="2455624152132732046">
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2455624152132732047">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpee.1197027803184" resolveInfo="IOperation" />
-    </node>
-  </root>
-  <root id="2455624152132732048">
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2455624152132732049">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpee.1197027803184" resolveInfo="IOperation" />
     </node>
   </root>
   <root id="3848777903716151683">
