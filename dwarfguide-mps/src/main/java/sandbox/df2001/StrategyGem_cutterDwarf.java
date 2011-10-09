@@ -17,7 +17,7 @@ public class StrategyGem_cutterDwarf {
   }
 
   public int getRating(Creature creature) {
-    return Math.abs((creature.getAgility() - DwarfStats.AVG_AGILITY));
+    return Math.abs((creature.getAgility() - DwarfStats.AVG_AGILITY)) + creature.getGem_cutting();
   }
 
   public boolean shouldStop(Creature creature) {
