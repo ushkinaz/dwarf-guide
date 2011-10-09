@@ -5,38 +5,21 @@ package sandbox.df2001;
 import javax.annotation.Generated;
 
 @Generated(value = {"MPS"})
-public class GoblinCreature {
-  public static final int MIN_NIMBLNESS = 0;
-  public static final int MIN_TOUGHNESS = 0;
-  public static final int MIN_STRENGTH = 0;
-  public static final int MIN_ENDURANCE = 0;
-  public static final int MIN_AGILITY = 0;
-  public static final int MAX_NIMBLNESS = 5000;
-  public static final int MAX_TOUGHNESS = 5000;
-  public static final int MAX_STRENGTH = 5000;
-  public static final int MAX_ENDURANCE = 5000;
-  public static final int MAX_AGILITY = 5000;
-  public static final int AVG_NIMBLNESS = 1500;
-  public static final int AVG_TOUGHNESS = 1500;
-  public static final int AVG_STRENGTH = 1500;
-  public static final int AVG_ENDURANCE = 1500;
-  public static final int AVG_AGILITY = 1500;
-
+public class Creature {
   private String myName;
   private String myNickname;
   private RaceEnum myRace;
   private int myNimblness;
-  private int myToughness;
   private int myStrength;
-  private int myEndurance;
   private int myAgility;
-  private int myGem_cutting;
+  private int myToughness;
+  private int myEndurance;
   private int myMining;
+  private int myGem_cutting;
   private int myNervousness;
   private int myRage;
 
-  public GoblinCreature() {
-    this.setRace(RaceEnum.GOBLIN);
+  public Creature() {
   }
 
   public String getName() {
@@ -71,28 +54,12 @@ public class GoblinCreature {
     this.myNimblness = value;
   }
 
-  public int getToughness() {
-    return this.myToughness;
-  }
-
-  private void setToughness(int value) {
-    this.myToughness = value;
-  }
-
   public int getStrength() {
     return this.myStrength;
   }
 
   private void setStrength(int value) {
     this.myStrength = value;
-  }
-
-  public int getEndurance() {
-    return this.myEndurance;
-  }
-
-  private void setEndurance(int value) {
-    this.myEndurance = value;
   }
 
   public int getAgility() {
@@ -103,12 +70,20 @@ public class GoblinCreature {
     this.myAgility = value;
   }
 
-  public int getGem_cutting() {
-    return this.myGem_cutting;
+  public int getToughness() {
+    return this.myToughness;
   }
 
-  private void setGem_cutting(int value) {
-    this.myGem_cutting = value;
+  private void setToughness(int value) {
+    this.myToughness = value;
+  }
+
+  public int getEndurance() {
+    return this.myEndurance;
+  }
+
+  private void setEndurance(int value) {
+    this.myEndurance = value;
   }
 
   public int getMining() {
@@ -117,6 +92,14 @@ public class GoblinCreature {
 
   private void setMining(int value) {
     this.myMining = value;
+  }
+
+  public int getGem_cutting() {
+    return this.myGem_cutting;
+  }
+
+  private void setGem_cutting(int value) {
+    this.myGem_cutting = value;
   }
 
   public int getNervousness() {
