@@ -148,7 +148,7 @@
     <node type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="297736238471365650">
       <property name="name" nameId="tpck.1169194664001" value="StatisticType" />
       <property name="hasNoDefaultMember" nameId="tpce.1212080844762" value="true" />
-      <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
+      <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983041843" resolveInfo="string" />
     </node>
   </roots>
   <root id="7336574368822048409">
@@ -492,15 +492,15 @@
   <root id="297736238471365650">
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="297736238471365651">
       <property name="externalValue" nameId="tpce.1083923523172" value="average" />
-      <property name="internalValue" nameId="tpce.1083923523171" value="0" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="average" />
     </node>
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="297736238471365652">
       <property name="externalValue" nameId="tpce.1083923523172" value="min" />
-      <property name="internalValue" nameId="tpce.1083923523171" value="1" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="min" />
     </node>
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="297736238471365653">
       <property name="externalValue" nameId="tpce.1083923523172" value="max" />
-      <property name="internalValue" nameId="tpce.1083923523171" value="2" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="max" />
     </node>
   </root>
 </model>

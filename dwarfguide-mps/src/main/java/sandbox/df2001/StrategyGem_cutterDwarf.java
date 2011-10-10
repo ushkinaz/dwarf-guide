@@ -17,11 +17,11 @@ public class StrategyGem_cutterDwarf {
   }
 
   public int getRating(Creature creature) {
-    return Math.abs((creature.getAgility() - DwarfStats.AVG_AGILITY)) + creature.getGem_cutting();
+    return Math.abs((creature.getAgility() - DwarfStats.AVG_AGILITY)) + creature.getGem_cutting() + DwarfStats.AVG_NIMBLNESS + DwarfStats.AVG_STRENGTH;
   }
 
   public boolean shouldStop(Creature creature) {
-    return creature.getAgility() < DwarfStats.AVG_AGILITY || creature.getNervousness() > 60;
+    return creature.getAgility() < DwarfStats.MAX_AGILITY || creature.getNervousness() > 60;
   }
 
   public String getDescription() {
