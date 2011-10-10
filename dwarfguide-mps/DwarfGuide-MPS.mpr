@@ -25,6 +25,7 @@
       <modulePath path="${project}/solutions/sandbox/sandbox.msd" folder="" />
       <modulePath path="${project}/devkits/DwarfGuide/DwarfGuide.devkit" />
       <modulePath path="${project}/solutions/DwarfGuide-MPS.build/DwarfGuide-MPS.build.msd" />
+      <modulePath path="${project}/solutions/net.dwarfguide.framework/framework.msd" folder="" />
     </projectModules>
     <genConfs />
   </component>

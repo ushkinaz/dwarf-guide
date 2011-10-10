@@ -5,7 +5,7 @@ package sandbox.df2001;
 import javax.annotation.Generated;
 
 @Generated(value = {"MPS"})
-public class StrategyGem_cutterDwarf {
+public class StrategyGem_cutterDwarf implements Strategy {
   private String myDescription;
   private RaceEnum myRace;
   private ProfessionEnum myProfession;

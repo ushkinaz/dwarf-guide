@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <root nodeId="7356936744394459474">
+    <unitInfo nodeId="7356936744394459474" fileName="XMLFile.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="net.dwarfguide.framework.core.XMLFile" />
+  </root>
+  <root nodeId="7356936744394540747">
+    <nodeInfo nodeId="7356936744394540749" fileName="HasName.java" startLine="8" startPosition="26" endLine="9" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
+    <scopeInfo nodeId="7356936744394540749" fileName="HasName.java" startLine="8" startPosition="26" endLine="9" endPosition="26" />
+    <unitInfo nodeId="7356936744394540747" fileName="HasName.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="net.dwarfguide.framework.core.HasName" />
+  </root>
+  <root nodeId="7356936744394540757">
+    <nodeInfo nodeId="7356936744394540763" fileName="EnumRegistry.java" startLine="11" startPosition="56" endLine="12" endPosition="112" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="map" />
+    <nodeInfo nodeId="7356936744394544059" fileName="EnumRegistry.java" startLine="17" startPosition="38" endLine="18" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7356936744394544083" fileName="EnumRegistry.java" startLine="21" startPosition="36" endLine="22" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7356936744394540776" fileName="EnumRegistry.java" startLine="13" startPosition="0" endLine="15" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="EnumRegistry#()V" />
+    <nodeInfo nodeId="7356936744394540780" fileName="EnumRegistry.java" startLine="16" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addEnum#(null)V" />
+    <nodeInfo nodeId="7356936744394540803" fileName="EnumRegistry.java" startLine="20" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="findByName#(Ljava/lang/String;)null" />
+    <scopeInfo nodeId="7356936744394540779" fileName="EnumRegistry.java" startLine="14" startPosition="25" endLine="14" endPosition="25" />
+    <scopeInfo nodeId="7356936744394540785" fileName="EnumRegistry.java" startLine="17" startPosition="38" endLine="18" endPosition="66" />
+    <scopeInfo nodeId="7356936744394540808" fileName="EnumRegistry.java" startLine="21" startPosition="36" endLine="22" endPosition="46" />
+    <scopeInfo nodeId="7356936744394540776" fileName="EnumRegistry.java" startLine="13" startPosition="0" endLine="15" endPosition="3" />
+    <scopeInfo nodeId="7356936744394540780" fileName="EnumRegistry.java" startLine="16" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="7356936744394540783" varName="enumeration" />
+    </scopeInfo>
+    <scopeInfo nodeId="7356936744394540803" fileName="EnumRegistry.java" startLine="20" startPosition="0" endLine="24" endPosition="0">
+      <varInfo nodeId="7356936744394540806" varName="name" />
+    </scopeInfo>
+    <unitInfo nodeId="7356936744394540757" fileName="EnumRegistry.java" startLine="10" startPosition="0" endLine="25" endPosition="0" unitName="net.dwarfguide.framework.core.EnumRegistry" />
+  </root>
+</debugInfo>
+
