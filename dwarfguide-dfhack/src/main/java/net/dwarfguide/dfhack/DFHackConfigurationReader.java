@@ -24,6 +24,7 @@ import org.slf4j.LoggerFactory;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.io.InputStream;
 
 /**
@@ -41,8 +42,13 @@ public class DFHackConfigurationReader {
   public DFHackConfiguration deserialize() throws Exception {
     Serializer serializer = new Persister();
 
-    InputStream in = FileUtils.openInputStream(new File(fileName));
-//    in = DFHackConfigurationReader.class.getResourceAsStream(fileName);
+    InputStream in;
+    try {
+      in = FileUtils.openInputStream(new File(fileName));
+    } catch (IOException e) {
+      LOGGER.info("Reading from bundled Memory.xml");
+      in = DFHackConfigurationReader.class.getResourceAsStream("Memory.xml");
+    }
     return serializer.read(DFHackConfiguration.class, in);
   }
 

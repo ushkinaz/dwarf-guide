@@ -27,6 +27,7 @@
   </parent>
 
   <artifactId>dwarfguide-dfhack</artifactId>
+  <name>DFHack integration</name>
   <description>Takes Memory.xml from dfhack and converts it into MPS model</description>
 
   <dependencies>

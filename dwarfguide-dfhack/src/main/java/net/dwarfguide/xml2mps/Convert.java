@@ -16,6 +16,7 @@
 
 package net.dwarfguide.xml2mps;
 
+import freemarker.cache.ClassTemplateLoader;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
 import freemarker.template.TemplateException;
@@ -54,6 +55,7 @@ public class Convert {
   private static void writeMPS(DFHackConfiguration configuration) throws IOException, TemplateException {
     Configuration cfg = new Configuration();
 
+    cfg.setTemplateLoader(new ClassTemplateLoader(Convert.class, "./"));
     Template tpl = cfg.getTemplate("game.ftl");
     OutputStreamWriter output = new OutputStreamWriter(new BufferedOutputStream(new FileOutputStream("game.mps")));
 
