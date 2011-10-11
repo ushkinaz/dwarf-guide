@@ -117,14 +117,304 @@ public class TraitDecoder {
     TraitDecoder.TraitLevels traitLevels;
 
     traitLevels = new TraitDecoder.TraitLevels();
-    traitLevels.setHighest("Is a nervous wreck");
-    traitLevels.setVeryHigh("Is always tense and jittery");
-    traitLevels.setHigh("Is often nervous");
-    traitLevels.setLow("Has a calm demeanor");
-    traitLevels.setVeryLow("Has a very calm demeanor");
-    traitLevels.setLowest("Has an incredibly calm demeanor");
+    traitLevels.setHighest("Has an incredibly calm demeanor");
+    traitLevels.setVeryHigh("Has a very calm demeanor");
+    traitLevels.setHigh("Has a calm demeanor");
+    traitLevels.setLow("Is often nervous");
+    traitLevels.setVeryLow("Is a nervous wreck");
+    traitLevels.setLowest("Is always tense and jittery");
 
     MapSequence.fromMap(levels).put(TraitEnum.NERVOUSNESS, traitLevels);
+
+    traitLevels = new TraitDecoder.TraitLevels();
+    traitLevels.setHighest("Never becomes angry");
+    traitLevels.setVeryHigh("Very slow to anger");
+    traitLevels.setHigh("Slow to anger");
+    traitLevels.setLow("Quick to anger");
+    traitLevels.setVeryLow("In a constant state of internal rage");
+    traitLevels.setLowest("Very quick to anger");
+
+    MapSequence.fromMap(levels).put(TraitEnum.RAGE, traitLevels);
+
+    traitLevels = new TraitDecoder.TraitLevels();
+    traitLevels.setHighest("Never feels discouraged");
+    traitLevels.setVeryHigh("Almost never feels discouraged");
+    traitLevels.setHigh("Rarely feels discouraged");
+    traitLevels.setLow("Often feels discouraged");
+    traitLevels.setVeryLow("Frequently depressed");
+    traitLevels.setLowest("Often sad and dejected");
+
+    MapSequence.fromMap(levels).put(TraitEnum.DEPRESSION, traitLevels);
+
+    traitLevels = new TraitDecoder.TraitLevels();
+    traitLevels.setHighest("Absolutely unfazed by the opinions of others");
+    traitLevels.setVeryHigh("Very comfortable in social situations");
+    traitLevels.setHigh("Comfortable in social situations");
+    traitLevels.setLow("Self-conscious");
+    traitLevels.setVeryLow("Socially crippled by thoughts that everyone is watching and judging");
+    traitLevels.setLowest("Concerned about rejection and ridicule");
+
+    MapSequence.fromMap(levels).put(TraitEnum.NEUROSIS, traitLevels);
+
+    traitLevels = new TraitDecoder.TraitLevels();
+    traitLevels.setHighest("Never feels tempted to overindulge in anything");
+    traitLevels.setVeryHigh("Only rarely feels strong cravings or urges");
+    traitLevels.setHigh("Doesn't often experience strong cravings or urges");
+    traitLevels.setLow("Occassionally overindulges");
+    traitLevels.setVeryLow("Is ruled by irresistible cravings and urges");
+    traitLevels.setLowest("Feels strong urges and seeks short-term rewards");
+
+    MapSequence.fromMap(levels).put(TraitEnum.URGE, traitLevels);
+
+    traitLevels = new TraitDecoder.TraitLevels();
+    traitLevels.setHighest("Impervious to the effects of stress");
+    traitLevels.setVeryHigh("Confident under pressure");
+    traitLevels.setHigh("Can handle stress");
+    traitLevels.setLow("Doesn't handle stress well");
+    traitLevels.setVeryLow("Becomes completely helpless in stressful situations");
+    traitLevels.setLowest("Cracks easily under pressure");
+
+    MapSequence.fromMap(levels).put(TraitEnum.STRESS, traitLevels);
+
+    traitLevels = new TraitDecoder.TraitLevels();
+    traitLevels.setHighest("Does not actively seek friendships, incredibly distant and reserved");
+    traitLevels.setVeryHigh("Very distant and reserved");
+    traitLevels.setHigh("Somewhat reserved");
+    traitLevels.setLow("Very friendly");
+    traitLevels.setVeryLow("Genuinely likes others, openly expresses positive feelings");
+    traitLevels.setLowest("Makes friends quickly");
+
+    MapSequence.fromMap(levels).put(TraitEnum.FRIENDLY, traitLevels);
+
+    traitLevels = new TraitDecoder.TraitLevels();
+    traitLevels.setHighest("Considers time alone much more important than associating with others");
+    traitLevels.setVeryHigh("Prefers to be alone");
+    traitLevels.setHigh("Tends to avoid crowds");
+    traitLevels.setLow("Enjoys the company of others");
+    traitLevels.setVeryLow("Truly treasures the company of others");
+    traitLevels.setLowest("Enjoys being in crowds");
+
+    MapSequence.fromMap(levels).put(TraitEnum.COMPANY, traitLevels);
+
+    traitLevels = new TraitDecoder.TraitLevels();
+    traitLevels.setHighest("Never speaks out or attempts to direct activities");
+    traitLevels.setVeryHigh("Prefers that others handle the leadership roles");
+    traitLevels.setHigh("Unassertive");
+    traitLevels.setLow("Assertive");
+    traitLevels.setVeryLow("Loves to take charge and direct activities");
+    traitLevels.setLowest("Very assertive");
+
+    MapSequence.fromMap(levels).put(TraitEnum.LEADERSHIP, traitLevels);
+
+    traitLevels = new TraitDecoder.TraitLevels();
+    traitLevels.setHighest("Can't be bothered with frantic, fast-paced living");
+    traitLevels.setVeryHigh("Lives life at a leisurely pace");
+    traitLevels.setHigh("Relaxed");
+    traitLevels.setLow("Very active");
+    traitLevels.setVeryLow("Constantly active and energetic");
+    traitLevels.setLowest("Very energetic and active");
+
+    MapSequence.fromMap(levels).put(TraitEnum.ACTIVENESS, traitLevels);
+
+    traitLevels = new TraitDecoder.TraitLevels();
+    traitLevels.setHighest("Entirely adverse to risk and excitement");
+    traitLevels.setVeryHigh("Doesn't need thrills or risks in life");
+    traitLevels.setHigh("Is not a risk-taker");
+    traitLevels.setLow("Loves a good thrill");
+    traitLevels.setVeryLow("Lives for risk and excitement");
+    traitLevels.setLowest("A risk-taker and a thrill-seeker");
+
+    MapSequence.fromMap(levels).put(TraitEnum.THRILLSEEKING, traitLevels);
+
+    traitLevels = new TraitDecoder.TraitLevels();
+    traitLevels.setHighest("Never optimistic or enthusiastic about anything");
+    traitLevels.setVeryHigh("A pessimist");
+    traitLevels.setHigh("Rarely happy or enthusiastic");
+    traitLevels.setLow("Often cheerful");
+    traitLevels.setVeryLow("Often feels filled with joy");
+    traitLevels.setLowest("Can be very happy and optimistic");
+
+    MapSequence.fromMap(levels).put(TraitEnum.OPTIMISM, traitLevels);
+
+    traitLevels = new TraitDecoder.TraitLevels();
+    traitLevels.setHighest("Interested only in facts and the real world");
+    traitLevels.setVeryHigh("Grounded in reality");
+    traitLevels.setHigh("Isn't given to flights of fancy");
+    traitLevels.setLow("Has a fertile imagination");
+    traitLevels.setVeryLow("Bored by reality and has a wonderful imagination");
+    traitLevels.setLowest("Incredibly creative");
+
+    MapSequence.fromMap(levels).put(TraitEnum.IMAGINATION, traitLevels);
+
+    traitLevels = new TraitDecoder.TraitLevels();
+    traitLevels.setHighest("Completely uninterested in art");
+    traitLevels.setVeryHigh("Not interested in art");
+    traitLevels.setHigh("Does not have a great aesthetic sensitivity");
+    traitLevels.setLow("Appreciates art and natural beauty");
+    traitLevels.setVeryLow("Can easily become absorbed in art and the beauty of the natural world");
+    traitLevels.setLowest("Greatly appreciates art and natural beauty");
+
+    MapSequence.fromMap(levels).put(TraitEnum.ARTISTIC, traitLevels);
+
+    traitLevels = new TraitDecoder.TraitLevels();
+    traitLevels.setHighest("Does not display own emotions and has no awareness of them");
+    traitLevels.setVeryHigh("Mostly unaware of own emotions and rarely expresses them");
+    traitLevels.setHigh("Tends not to openly express emotions");
+    traitLevels.setLow("Has a good awareness of own emotions");
+    traitLevels.setVeryLow("Has a profound understanding of own emotions");
+    traitLevels.setLowest("Has a great awareness of own emotions");
+
+    MapSequence.fromMap(levels).put(TraitEnum.EMOTION, traitLevels);
+
+    traitLevels = new TraitDecoder.TraitLevels();
+    traitLevels.setHighest("Resistant to change");
+    traitLevels.setVeryHigh("Uncomfortable with change");
+    traitLevels.setHigh("Prefers familiar routines");
+    traitLevels.setLow("Likes to try new things");
+    traitLevels.setVeryLow("Highly adventurous and loves fresh experiences");
+    traitLevels.setLowest("Eager for new experiences");
+
+    MapSequence.fromMap(levels).put(TraitEnum.ADVENTURE, traitLevels);
+
+    traitLevels = new TraitDecoder.TraitLevels();
+    traitLevels.setHighest("Completely uninterested in ideas and debates over intellectual issues");
+    traitLevels.setVeryHigh("Regards intellectual exercises as a waste of energy");
+    traitLevels.setHigh("Dislikes intellectual discussions");
+    traitLevels.setLow("Open-minded to new ideas");
+    traitLevels.setVeryLow("Entranced by riddles and puzzles; loves to debate issues and ideas");
+    traitLevels.setLowest("Loves new and fresh ideas");
+
+    MapSequence.fromMap(levels).put(TraitEnum.THINKING, traitLevels);
+
+    traitLevels = new TraitDecoder.TraitLevels();
+    traitLevels.setHighest("An ardent believer in convention and traditional society");
+    traitLevels.setVeryHigh("Prefers stability and security to ambiguity and disorder");
+    traitLevels.setHigh("Admires tradition");
+    traitLevels.setLow("Put off by authority and tradition");
+    traitLevels.setVeryLow("Revels in chaos and disorder");
+    traitLevels.setLowest("Loves to defy convention");
+
+    MapSequence.fromMap(levels).put(TraitEnum.REBELLIOUSNESS, traitLevels);
+
+    traitLevels = new TraitDecoder.TraitLevels();
+    traitLevels.setHighest("Sees others as selfish and conniving");
+    traitLevels.setVeryHigh("Does not trust others");
+    traitLevels.setHigh("Slow to trust others");
+    traitLevels.setLow("Trusting");
+    traitLevels.setVeryLow("Naturally trustful of everybody");
+    traitLevels.setLowest("Very trusting");
+
+    MapSequence.fromMap(levels).put(TraitEnum.TRUSTING, traitLevels);
+
+    traitLevels = new TraitDecoder.TraitLevels();
+    traitLevels.setHighest("Believes that some deception is necessary in relationships with others");
+    traitLevels.setVeryHigh("Not straightforward when dealing with others");
+    traitLevels.setHigh("Guarded in relationships with others");
+    traitLevels.setLow("Candid and sincere in dealings with others");
+    traitLevels.setVeryLow("Incredibly frank and candid in dealings with others");
+    traitLevels.setLowest("Very straightforward with others");
+
+    MapSequence.fromMap(levels).put(TraitEnum.HONESTY, traitLevels);
+
+    traitLevels = new TraitDecoder.TraitLevels();
+    traitLevels.setHighest("Views helping others as an imposition on own needs");
+    traitLevels.setVeryHigh("Dislikes helping others");
+    traitLevels.setHigh("Does not go out of own way to help others");
+    traitLevels.setLow("Finds helping others rewarding");
+    traitLevels.setVeryLow("Truly fulfilled by assisting those in need");
+    traitLevels.setLowest("Finds helping others very rewarding");
+
+    MapSequence.fromMap(levels).put(TraitEnum.HELPFULNESS, traitLevels);
+
+    traitLevels = new TraitDecoder.TraitLevels();
+    traitLevels.setHighest("Would never deny own needs just to compromise with somebody else");
+    traitLevels.setVeryHigh("Would rather intimidate others than compromise with them");
+    traitLevels.setHigh("Doesn't like to compromise with others");
+    traitLevels.setLow("Willing to compromise with others");
+    traitLevels.setVeryLow("Sacrifices own needs to get along with others");
+    traitLevels.setLowest("Dislikes confrontations");
+
+    MapSequence.fromMap(levels).put(TraitEnum.COMPROMISING, traitLevels);
+
+    traitLevels = new TraitDecoder.TraitLevels();
+    traitLevels.setHighest("Would never shy away from an opportunity to say they are better than somebody else");
+    traitLevels.setVeryHigh("Very willing to compare self favorably with others");
+    traitLevels.setHigh("Immodest");
+    traitLevels.setLow("Modest");
+    traitLevels.setVeryLow("Would never claim to be better than somebody else");
+    traitLevels.setLowest("Finds immodesty distasteful");
+
+    MapSequence.fromMap(levels).put(TraitEnum.MODESTY, traitLevels);
+
+    traitLevels = new TraitDecoder.TraitLevels();
+    traitLevels.setHighest("Would never let an objective judgement be tempered by mercy or pity");
+    traitLevels.setVeryHigh("Not affected by the suffering of others");
+    traitLevels.setHigh("Not easily moved to pity");
+    traitLevels.setLow("Compassionate");
+    traitLevels.setVeryLow("Incredibly compassionate and feels the pain of others");
+    traitLevels.setLowest("Easily moved to pity");
+
+    MapSequence.fromMap(levels).put(TraitEnum.COMPASSION, traitLevels);
+
+    traitLevels = new TraitDecoder.TraitLevels();
+    traitLevels.setHighest("Always feels as if they are not in control of own life");
+    traitLevels.setVeryHigh("Does not feel effective in life");
+    traitLevels.setHigh("Lacks confidence");
+    traitLevels.setLow("Confident");
+    traitLevels.setVeryLow("Incredibly confident");
+    traitLevels.setLowest("Very confident");
+
+    MapSequence.fromMap(levels).put(TraitEnum.CONFIDENCE, traitLevels);
+
+    traitLevels = new TraitDecoder.TraitLevels();
+    traitLevels.setHighest("Completely disorganized");
+    traitLevels.setVeryHigh("Very disorganized");
+    traitLevels.setHigh("Disorganized");
+    traitLevels.setLow("Organized");
+    traitLevels.setVeryLow("Loves to make lists and keep schedules");
+    traitLevels.setLowest("Tries to live a well-organized life");
+
+    MapSequence.fromMap(levels).put(TraitEnum.ORGANIZATION, traitLevels);
+
+    traitLevels = new TraitDecoder.TraitLevels();
+    traitLevels.setHighest("Hates rules, contracts and other confining elements in own life");
+    traitLevels.setVeryHigh("Dislikes contracts and regulations");
+    traitLevels.setHigh("Finds rules confining");
+    traitLevels.setLow("Has a sense of duty");
+    traitLevels.setVeryLow("Has a profound sense of duty and obligation");
+    traitLevels.setLowest("Has a strong sense of duty");
+
+    MapSequence.fromMap(levels).put(TraitEnum.LAWFULNESS, traitLevels);
+
+    traitLevels = new TraitDecoder.TraitLevels();
+    traitLevels.setHighest("Does the bare minimum necessary to accomplish the task at hand");
+    traitLevels.setVeryHigh("Very rarely does more work than necessary");
+    traitLevels.setHigh("Doesn't go out of own way to do more work than necessary");
+    traitLevels.setLow("Strives for excellence");
+    traitLevels.setVeryLow("Constantly strives for perfection");
+    traitLevels.setLowest("Thinks it is incredibly important to strive for excellence");
+
+    MapSequence.fromMap(levels).put(TraitEnum.EXCELLENCE, traitLevels);
+
+    traitLevels = new TraitDecoder.TraitLevels();
+    traitLevels.setHighest("Rarely completes tasks and is often overcome by distractions");
+    traitLevels.setVeryHigh("Has very little self-discipline");
+    traitLevels.setHigh("Is occasionally given to procrastination");
+    traitLevels.setLow("Is self-disciplined");
+    traitLevels.setVeryLow("Will persist in the face of any difficulty until the task is complete");
+    traitLevels.setLowest("Possesses great willpower");
+
+    MapSequence.fromMap(levels).put(TraitEnum.PERSEVERANCE, traitLevels);
+
+    traitLevels = new TraitDecoder.TraitLevels();
+    traitLevels.setHighest("Always acts without considering alternatives or thinking through possibilities");
+    traitLevels.setVeryHigh("Acts impulsively");
+    traitLevels.setHigh("Often does the first thing that comes to mind");
+    traitLevels.setLow("Takes time when making decisions");
+    traitLevels.setVeryLow("Thinks through every alternative and their consequences before acting");
+    traitLevels.setLowest("Extremely cautious");
+
+    MapSequence.fromMap(levels).put(TraitEnum.CAUTIOUSNESS, traitLevels);
 
 
   }

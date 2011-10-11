@@ -4,12 +4,12 @@
   <unitInfo fileName="Strategy.java" startLine="6" startPosition="0" endLine="10" endPosition="0" unitName="net.dwarfguide.model.core.Strategy" />
   <unitInfo fileName="SexEnum.java" startLine="7" startPosition="0" endLine="13" endPosition="0" unitName="net.dwarfguide.model.core.SexEnum" />
   <unitInfo fileName="RaceEnum.java" startLine="7" startPosition="0" endLine="13" endPosition="0" unitName="net.dwarfguide.model.core.RaceEnum" />
-  <unitInfo fileName="TraitEnum.java" startLine="7" startPosition="0" endLine="14" endPosition="0" unitName="net.dwarfguide.model.core.TraitEnum" />
-  <unitInfo fileName="ProfessionEnum.java" startLine="7" startPosition="0" endLine="14" endPosition="0" unitName="net.dwarfguide.model.core.ProfessionEnum" />
   <unitInfo fileName="CreatureRunesmithLoader.java" startLine="10" startPosition="0" endLine="20" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader" />
+  <unitInfo fileName="TraitEnum.java" startLine="7" startPosition="0" endLine="43" endPosition="0" unitName="net.dwarfguide.model.core.TraitEnum" />
   <unitInfo fileName="TraitInstance.java" startLine="8" startPosition="0" endLine="46" endPosition="0" unitName="net.dwarfguide.model.core.TraitInstance" />
   <unitInfo fileName="TraitDecoder.java" startLine="56" startPosition="0" endLine="115" endPosition="0" unitName="net.dwarfguide.model.core.TraitDecoder$TraitLevels" />
-  <unitInfo fileName="Creature.java" startLine="7" startPosition="0" endLine="68" endPosition="0" unitName="net.dwarfguide.model.core.Creature" />
-  <unitInfo fileName="TraitDecoder.java" startLine="11" startPosition="0" endLine="132" endPosition="0" unitName="net.dwarfguide.model.core.TraitDecoder" />
+  <unitInfo fileName="ProfessionEnum.java" startLine="7" startPosition="0" endLine="119" endPosition="0" unitName="net.dwarfguide.model.core.ProfessionEnum" />
+  <unitInfo fileName="TraitDecoder.java" startLine="11" startPosition="0" endLine="422" endPosition="0" unitName="net.dwarfguide.model.core.TraitDecoder" />
+  <unitInfo fileName="Creature.java" startLine="7" startPosition="0" endLine="1384" endPosition="0" unitName="net.dwarfguide.model.core.Creature" />
 </debugInfo>
 

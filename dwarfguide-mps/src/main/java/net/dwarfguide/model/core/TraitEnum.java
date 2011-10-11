@@ -6,7 +6,36 @@ import javax.annotation.Generated;
 
 @Generated(value = {"MPS"})
 public enum TraitEnum {
-  NERVOUSNESS();
+  NERVOUSNESS(),
+  RAGE(),
+  DEPRESSION(),
+  NEUROSIS(),
+  URGE(),
+  STRESS(),
+  FRIENDLY(),
+  COMPANY(),
+  LEADERSHIP(),
+  ACTIVENESS(),
+  THRILLSEEKING(),
+  OPTIMISM(),
+  IMAGINATION(),
+  ARTISTIC(),
+  EMOTION(),
+  ADVENTURE(),
+  THINKING(),
+  REBELLIOUSNESS(),
+  TRUSTING(),
+  HONESTY(),
+  HELPFULNESS(),
+  COMPROMISING(),
+  MODESTY(),
+  COMPASSION(),
+  CONFIDENCE(),
+  ORGANIZATION(),
+  LAWFULNESS(),
+  EXCELLENCE(),
+  PERSEVERANCE(),
+  CAUTIOUSNESS();
 
   TraitEnum() {
   }
