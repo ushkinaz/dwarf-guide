@@ -16,18 +16,17 @@
 
 package net.dwarfguide.xml2mps;
 
-import com.google.inject.Guice;
-import com.google.inject.Injector;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
+import freemarker.template.TemplateException;
 import net.dwarfguide.dfhack.DFHackConfiguration;
 import net.dwarfguide.dfhack.DFHackConfigurationReader;
-import net.dwarfguide.dfhack.DFHackModule;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.BufferedOutputStream;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.OutputStreamWriter;
 
 public class Convert {
@@ -40,20 +39,25 @@ public class Convert {
       if (args.length > 0) {
         configFile = args[0];
       }
-      Injector injector = Guice.createInjector(new DFHackModule(configFile));
-      DFHackConfigurationReader configurationReader = injector.getInstance(DFHackConfigurationReader.class);
-
-      DFHackConfiguration configuration = configurationReader.deserialize();
-
-      Configuration cfg = new Configuration();
-
-      Template tpl = cfg.getTemplate("game.ftl");
-      OutputStreamWriter output = new OutputStreamWriter(new BufferedOutputStream(new FileOutputStream("game.mps")));
-
-      tpl.process(configuration.getBaseByVersion("DF2010"), output);
+      writeMPS(readDFHack(configFile));
     } catch (Exception e) {
       LOGGER.error("Error", e);
     }
+  }
+
+  private static DFHackConfiguration readDFHack(String configFile) throws Exception {
+    DFHackConfigurationReader configurationReader = new DFHackConfigurationReader(configFile);
+
+    return configurationReader.deserialize();
+  }
+
+  private static void writeMPS(DFHackConfiguration configuration) throws IOException, TemplateException {
+    Configuration cfg = new Configuration();
+
+    Template tpl = cfg.getTemplate("game.ftl");
+    OutputStreamWriter output = new OutputStreamWriter(new BufferedOutputStream(new FileOutputStream("game.mps")));
+
+    tpl.process(configuration.getBaseByVersion("DF2010"), output);
   }
 
 }

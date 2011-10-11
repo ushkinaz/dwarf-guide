@@ -16,13 +16,13 @@
 
 package net.dwarfguide.dfhack;
 
-import com.google.inject.Inject;
-import com.google.inject.name.Named;
+import org.apache.commons.io.FileUtils;
 import org.simpleframework.xml.Serializer;
 import org.simpleframework.xml.core.Persister;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 
@@ -34,16 +34,15 @@ public class DFHackConfigurationReader {
   private static final Logger LOGGER = LoggerFactory.getLogger(DFHackConfigurationReader.class);
   private final String fileName;
 
-  @Inject
-  public DFHackConfigurationReader(@Named("dfhack.xml") String fileName) throws FileNotFoundException {
+  public DFHackConfigurationReader(String fileName) throws FileNotFoundException {
     this.fileName = fileName;
   }
 
   public DFHackConfiguration deserialize() throws Exception {
     Serializer serializer = new Persister();
 
-    InputStream in = null;
-    in = DFHackConfigurationReader.class.getResourceAsStream(fileName);
+    InputStream in = FileUtils.openInputStream(new File(fileName));
+//    in = DFHackConfigurationReader.class.getResourceAsStream(fileName);
     return serializer.read(DFHackConfiguration.class, in);
   }
 

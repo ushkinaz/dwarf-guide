@@ -27,8 +27,6 @@ public class Mood extends Entity {
   @SuppressWarnings({"unused"})
   private static final Logger LOGGER = LoggerFactory.getLogger(Mood.class);
 
-  private static EntityMap<Mood> entityMap = new EntityMap<Mood>();
-
   @Override
   public String toString() {
     final StringBuilder sb = new StringBuilder();
