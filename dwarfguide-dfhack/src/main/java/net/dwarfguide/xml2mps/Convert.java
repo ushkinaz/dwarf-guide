@@ -47,12 +47,16 @@ public class Convert {
   }
 
   private static DFHackConfiguration readDFHack(String configFile) throws Exception {
+    LOGGER.info("Loading DFHack configuration");
     DFHackConfigurationReader configurationReader = new DFHackConfigurationReader(configFile);
 
-    return configurationReader.deserialize();
+    DFHackConfiguration configuration = configurationReader.deserialize();
+    LOGGER.info("DFHack configuration loaded");
+    return configuration;
   }
 
   private static void writeMPS(DFHackConfiguration configuration) throws IOException, TemplateException {
+    LOGGER.info("Processing with generation");
     Configuration cfg = new Configuration();
 
     cfg.setTemplateLoader(new ClassTemplateLoader(Convert.class, "./"));
@@ -60,6 +64,7 @@ public class Convert {
     OutputStreamWriter output = new OutputStreamWriter(new BufferedOutputStream(new FileOutputStream("game.mps")));
 
     tpl.process(configuration.getBaseByVersion("DF2010"), output);
+    LOGGER.info("Generation complete");
   }
 
 }

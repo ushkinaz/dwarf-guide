@@ -33,8 +33,12 @@
     </layout>
   </appender>
 
+  <logger name="freemarker">
+    <level value="info"/>
+  </logger>
+
   <root>
-    <priority value="debug"/>
+    <priority value="info"/>
     <appender-ref ref="consoleAppender"/>
   </root>
 </log4j:configuration>
