@@ -7,10 +7,9 @@
   <unitInfo fileName="SexEnum.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="sandbox.df2001.SexEnum" />
   <unitInfo fileName="ProfessionEnum.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="sandbox.df2001.ProfessionEnum" />
   <unitInfo fileName="CreatureRunesmithLoader.java" startLine="10" startPosition="0" endLine="20" endPosition="0" unitName="sandbox.df2001.CreatureRunesmithLoader" />
+  <unitInfo fileName="TraitDecoder.java" startLine="10" startPosition="0" endLine="39" endPosition="0" unitName="sandbox.df2001.TraitDecoder" />
   <unitInfo fileName="TraitInstance.java" startLine="8" startPosition="0" endLine="46" endPosition="0" unitName="sandbox.df2001.TraitInstance" />
-  <unitInfo fileName="TraitDecoder.java" startLine="56" startPosition="0" endLine="115" endPosition="0" unitName="sandbox.df2001.TraitDecoder$TraitLevels" />
   <unitInfo fileName="Creature.java" startLine="7" startPosition="0" endLine="123" endPosition="0" unitName="sandbox.df2001.Creature" />
-  <unitInfo fileName="TraitDecoder.java" startLine="11" startPosition="0" endLine="142" endPosition="0" unitName="sandbox.df2001.TraitDecoder" />
   <root nodeId="2455624152132595976">
     <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="8" startPosition="25" endLine="9" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="race" />
     <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="9" startPosition="47" endLine="10" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="MIN_NIMBLNESS" />

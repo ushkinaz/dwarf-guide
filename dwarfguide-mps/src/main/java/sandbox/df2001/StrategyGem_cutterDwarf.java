@@ -17,11 +17,11 @@ public class StrategyGem_cutterDwarf implements Strategy {
   }
 
   public int getRating(Creature creature) {
-    return Math.abs((creature.getAttragility() - DwarfStats.AVG_AGILITY)) + creature.getSkillgem_cutting() + DwarfStats.AVG_NIMBLNESS + DwarfStats.AVG_STRENGTH;
+    return Math.abs((creature.getAttrAgility() - DwarfStats.AVG_AGILITY)) + creature.getSkillGem_cutting() + DwarfStats.AVG_NIMBLNESS + DwarfStats.AVG_STRENGTH;
   }
 
   public boolean shouldStop(Creature creature) {
-    return creature.getAttragility() < DwarfStats.MAX_AGILITY || creature.getTraitnervousness() > 60;
+    return creature.getAttrAgility() < DwarfStats.MAX_AGILITY || creature.getTraitNervousness() > 60;
   }
 
   public String getDescription() {

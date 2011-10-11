@@ -9,19 +9,19 @@ public class Creature {
   private String myName;
   private String myNickname;
   private RaceEnum myRace;
-  private int myAttrnimblness;
-  private int myAttrstrength;
-  private int myAttragility;
-  private int myAttrtoughness;
-  private int myAttrendurance;
-  private int mySkillmining;
-  private int mySkillgem_cutting;
-  private int myTraitnervousness;
-  private int myTraitrage;
+  private int myAttrNimblness;
+  private int myAttrStrength;
+  private int myAttrAgility;
+  private int myAttrToughness;
+  private int myAttrEndurance;
+  private int mySkillMining;
+  private int mySkillGem_cutting;
+  private int myTraitNervousness;
+  private int myTraitRage;
 
   public Creature() {
-    this.setTraitnervousness(50);
-    this.setTraitrage(50);
+    this.setTraitNervousness(50);
+    this.setTraitRage(50);
   }
 
   public String getName() {
@@ -48,75 +48,75 @@ public class Creature {
     this.myRace = value;
   }
 
-  public int getAttrnimblness() {
-    return this.myAttrnimblness;
+  public int getAttrNimblness() {
+    return this.myAttrNimblness;
   }
 
-  private void setAttrnimblness(int value) {
-    this.myAttrnimblness = value;
+  private void setAttrNimblness(int value) {
+    this.myAttrNimblness = value;
   }
 
-  public int getAttrstrength() {
-    return this.myAttrstrength;
+  public int getAttrStrength() {
+    return this.myAttrStrength;
   }
 
-  private void setAttrstrength(int value) {
-    this.myAttrstrength = value;
+  private void setAttrStrength(int value) {
+    this.myAttrStrength = value;
   }
 
-  public int getAttragility() {
-    return this.myAttragility;
+  public int getAttrAgility() {
+    return this.myAttrAgility;
   }
 
-  private void setAttragility(int value) {
-    this.myAttragility = value;
+  private void setAttrAgility(int value) {
+    this.myAttrAgility = value;
   }
 
-  public int getAttrtoughness() {
-    return this.myAttrtoughness;
+  public int getAttrToughness() {
+    return this.myAttrToughness;
   }
 
-  private void setAttrtoughness(int value) {
-    this.myAttrtoughness = value;
+  private void setAttrToughness(int value) {
+    this.myAttrToughness = value;
   }
 
-  public int getAttrendurance() {
-    return this.myAttrendurance;
+  public int getAttrEndurance() {
+    return this.myAttrEndurance;
   }
 
-  private void setAttrendurance(int value) {
-    this.myAttrendurance = value;
+  private void setAttrEndurance(int value) {
+    this.myAttrEndurance = value;
   }
 
-  public int getSkillmining() {
-    return this.mySkillmining;
+  public int getSkillMining() {
+    return this.mySkillMining;
   }
 
-  private void setSkillmining(int value) {
-    this.mySkillmining = value;
+  private void setSkillMining(int value) {
+    this.mySkillMining = value;
   }
 
-  public int getSkillgem_cutting() {
-    return this.mySkillgem_cutting;
+  public int getSkillGem_cutting() {
+    return this.mySkillGem_cutting;
   }
 
-  private void setSkillgem_cutting(int value) {
-    this.mySkillgem_cutting = value;
+  private void setSkillGem_cutting(int value) {
+    this.mySkillGem_cutting = value;
   }
 
-  public int getTraitnervousness() {
-    return this.myTraitnervousness;
+  public int getTraitNervousness() {
+    return this.myTraitNervousness;
   }
 
-  private void setTraitnervousness(int value) {
-    this.myTraitnervousness = value;
+  private void setTraitNervousness(int value) {
+    this.myTraitNervousness = value;
   }
 
-  public int getTraitrage() {
-    return this.myTraitrage;
+  public int getTraitRage() {
+    return this.myTraitRage;
   }
 
-  private void setTraitrage(int value) {
-    this.myTraitrage = value;
+  private void setTraitRage(int value) {
+    this.myTraitRage = value;
   }
 }

@@ -6,136 +6,33 @@ import javax.annotation.Generated;
 import java.util.Map;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
-import jetbrains.mps.internal.collections.runtime.IMapping;
 
 @Generated(value = {"MPS"})
 public class TraitDecoder {
-  private static Map<TraitEnum, TraitDecoder.TraitLevels> levels;
+  private static final Map<String, TraitInstance> levels;
 
   public TraitDecoder() {
-    levels = MapSequence.fromMap(new HashMap<TraitEnum, TraitDecoder.TraitLevels>());
   }
 
   public TraitInstance findByName(String description) {
-    TraitEnum trait = null;
-    int level = 0;
-    int value = 0;
-    for (IMapping<TraitEnum, TraitDecoder.TraitLevels> entry : MapSequence.fromMap(levels)) {
-      TraitDecoder.TraitLevels levels = entry.value();
-      if (levels.getHighest().equals(description)) {
-        level = 0;
-        trait = entry.key();
-        value = 95;
-      } else if (levels.getVeryHigh().equals(description)) {
-        level = 1;
-        trait = entry.key();
-        value = 83;
-      } else if (levels.getHigh().equals(description)) {
-        level = 2;
-        trait = entry.key();
-        value = 68;
-      } else if (levels.getLow().equals(description)) {
-        level = 3;
-        trait = entry.key();
-        value = 32;
-      } else if (levels.getVeryLow().equals(description)) {
-        level = 4;
-        trait = entry.key();
-        value = 17;
-      } else if (levels.getLowest().equals(description)) {
-        level = 5;
-        trait = entry.key();
-        value = 5;
-      } else {
-        throw new RuntimeException("Can't find trait by description");
-      }
-    }
-    return new TraitInstance(trait, level, value);
-  }
-
-  public static class TraitLevels {
-    private String myHighest;
-    private String myVeryHigh;
-    private String myHigh;
-    private String myLow;
-    private String myVeryLow;
-    private String myLowest;
-
-    public TraitLevels() {
-    }
-
-    public String getHighest() {
-      return this.myHighest;
-    }
-
-    protected void setHighest(String value) {
-      this.myHighest = value;
-    }
-
-    public String getVeryHigh() {
-      return this.myVeryHigh;
-    }
-
-    protected void setVeryHigh(String value) {
-      this.myVeryHigh = value;
-    }
-
-    public String getHigh() {
-      return this.myHigh;
-    }
-
-    protected void setHigh(String value) {
-      this.myHigh = value;
-    }
-
-    public String getLow() {
-      return this.myLow;
-    }
-
-    protected void setLow(String value) {
-      this.myLow = value;
-    }
-
-    public String getVeryLow() {
-      return this.myVeryLow;
-    }
-
-    protected void setVeryLow(String value) {
-      this.myVeryLow = value;
-    }
-
-    public String getLowest() {
-      return this.myLowest;
-    }
-
-    protected void setLowest(String value) {
-      this.myLowest = value;
-    }
+    return MapSequence.fromMap(levels).get(description);
   }
 
   static {
-    TraitDecoder.TraitLevels traitLevels;
+    levels = MapSequence.fromMap(new HashMap<String, TraitInstance>(400));
 
-    traitLevels = new TraitDecoder.TraitLevels();
-    traitLevels.setHighest("Is a nervous wreck");
-    traitLevels.setVeryHigh("Is always tense and jittery");
-    traitLevels.setHigh("Is often nervous");
-    traitLevels.setLow("Has a calm demeanor");
-    traitLevels.setVeryLow("Has a very calm demeanor");
-    traitLevels.setLowest("Has an incredibly calm demeanor");
-
-    MapSequence.fromMap(levels).put(TraitEnum.NERVOUSNESS, traitLevels);
-
-    traitLevels = new TraitDecoder.TraitLevels();
-    traitLevels.setHighest("high");
-    traitLevels.setVeryHigh("2");
-    traitLevels.setHigh("3");
-    traitLevels.setLow("4");
-    traitLevels.setVeryLow("5");
-    traitLevels.setLowest("6");
-
-    MapSequence.fromMap(levels).put(TraitEnum.RAGE, traitLevels);
-
+    MapSequence.fromMap(levels).put("Is a nervous wreck", new TraitInstance(TraitEnum.NERVOUSNESS, 0, 95));
+    MapSequence.fromMap(levels).put("Is always tense and jittery", new TraitInstance(TraitEnum.NERVOUSNESS, 1, 83));
+    MapSequence.fromMap(levels).put("Is often nervous", new TraitInstance(TraitEnum.NERVOUSNESS, 2, 68));
+    MapSequence.fromMap(levels).put("Has a calm demeanor", new TraitInstance(TraitEnum.NERVOUSNESS, 3, 32));
+    MapSequence.fromMap(levels).put("Has a very calm demeanor", new TraitInstance(TraitEnum.NERVOUSNESS, 4, 17));
+    MapSequence.fromMap(levels).put("Has an incredibly calm demeanor", new TraitInstance(TraitEnum.NERVOUSNESS, 5, 5));
+    MapSequence.fromMap(levels).put("high", new TraitInstance(TraitEnum.RAGE, 0, 95));
+    MapSequence.fromMap(levels).put("2", new TraitInstance(TraitEnum.RAGE, 1, 83));
+    MapSequence.fromMap(levels).put("3", new TraitInstance(TraitEnum.RAGE, 2, 68));
+    MapSequence.fromMap(levels).put("4", new TraitInstance(TraitEnum.RAGE, 3, 32));
+    MapSequence.fromMap(levels).put("5", new TraitInstance(TraitEnum.RAGE, 4, 17));
+    MapSequence.fromMap(levels).put("6", new TraitInstance(TraitEnum.RAGE, 5, 5));
 
   }
 }

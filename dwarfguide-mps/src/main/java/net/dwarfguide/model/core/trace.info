@@ -7,9 +7,8 @@
   <unitInfo fileName="CreatureRunesmithLoader.java" startLine="10" startPosition="0" endLine="20" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader" />
   <unitInfo fileName="TraitEnum.java" startLine="7" startPosition="0" endLine="43" endPosition="0" unitName="net.dwarfguide.model.core.TraitEnum" />
   <unitInfo fileName="TraitInstance.java" startLine="8" startPosition="0" endLine="46" endPosition="0" unitName="net.dwarfguide.model.core.TraitInstance" />
-  <unitInfo fileName="TraitDecoder.java" startLine="56" startPosition="0" endLine="115" endPosition="0" unitName="net.dwarfguide.model.core.TraitDecoder$TraitLevels" />
   <unitInfo fileName="ProfessionEnum.java" startLine="7" startPosition="0" endLine="119" endPosition="0" unitName="net.dwarfguide.model.core.ProfessionEnum" />
-  <unitInfo fileName="TraitDecoder.java" startLine="11" startPosition="0" endLine="422" endPosition="0" unitName="net.dwarfguide.model.core.TraitDecoder" />
+  <unitInfo fileName="TraitDecoder.java" startLine="10" startPosition="0" endLine="207" endPosition="0" unitName="net.dwarfguide.model.core.TraitDecoder" />
   <unitInfo fileName="Creature.java" startLine="7" startPosition="0" endLine="1384" endPosition="0" unitName="net.dwarfguide.model.core.Creature" />
 </debugInfo>
 

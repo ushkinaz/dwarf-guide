@@ -9,184 +9,184 @@ public class Creature {
   private String myName;
   private String myNickname;
   private RaceEnum myRace;
-  private int mySkillmining;
-  private int mySkillwood_Cutting;
-  private int mySkillcarpentry;
-  private int mySkillengraving;
-  private int mySkillmasonry;
-  private int mySkillanimal_Training;
-  private int mySkillanimal_Caretaking;
-  private int mySkillfish_Dissection;
-  private int mySkillanimal_Dissection;
-  private int mySkillfish_Cleaning;
-  private int mySkillbutchery;
-  private int mySkilltrapping;
-  private int mySkilltanning;
-  private int mySkillweaving;
-  private int mySkillbrewing;
-  private int mySkillalchemy;
-  private int mySkillclothes_Making;
-  private int mySkillmilling;
-  private int mySkillthreshing;
-  private int mySkillcheese_Making;
-  private int mySkillmilking;
-  private int mySkillcooking;
-  private int mySkillgrowing;
-  private int mySkillherbalism;
-  private int mySkillfishing;
-  private int mySkillfurnace_Operation;
-  private int mySkillstrand_Extraction;
-  private int mySkillweaponsmithing;
-  private int mySkillarmorsmithing;
-  private int mySkillmetalsmithing;
-  private int mySkillgem_Cutting;
-  private int mySkillgem_Setting;
-  private int mySkillwood_Crafting;
-  private int mySkillstone_Crafting;
-  private int mySkillmetal_Crafting;
-  private int mySkillglassmaking;
-  private int mySkillleatherworkering;
-  private int mySkillbone_Carving;
-  private int mySkillaxe;
-  private int mySkillsword;
-  private int mySkillknife;
-  private int mySkillmace;
-  private int mySkillhammer;
-  private int mySkillspear;
-  private int mySkillcrossbow;
-  private int mySkillshield;
-  private int mySkillarmor;
-  private int mySkillsiege_Engineering;
-  private int mySkillsiege_Operation;
-  private int mySkillbowmaking;
-  private int mySkillpike;
-  private int mySkilllash;
-  private int mySkillbow;
-  private int mySkillblowgun;
-  private int mySkillthrowing;
-  private int mySkillmachinery;
-  private int mySkillnature;
-  private int mySkillambush;
-  private int mySkillbuilding_Design;
-  private int mySkillwound_Dressing;
-  private int mySkilldiagnostics;
-  private int mySkillsurgery;
-  private int mySkillbone_Setting;
-  private int mySkillsuturing;
-  private int mySkillcrutch_walking;
-  private int mySkillwood_Burning;
-  private int mySkilllye_Making;
-  private int mySkillsoap_Making;
-  private int mySkillpotash_Making;
-  private int mySkilldyeing;
-  private int mySkillpump_Operation;
-  private int mySkillswimming;
-  private int mySkillpersuasion;
-  private int mySkillnegotiation;
-  private int mySkilljudging_Intent;
-  private int mySkillappraisal;
-  private int mySkillorganization;
-  private int mySkillrecord_Keeping;
-  private int mySkilllying;
-  private int mySkillintimidation;
-  private int mySkillconversation;
-  private int mySkillcomedy;
-  private int mySkillflattery;
-  private int mySkillconsoling;
-  private int mySkillpacification;
-  private int mySkilltracking;
-  private int mySkillstudying;
-  private int mySkillconcentration;
-  private int mySkilldiscipline;
-  private int mySkillobservation;
-  private int mySkillwriting;
-  private int mySkillprose;
-  private int mySkillpoetry;
-  private int mySkillreading;
-  private int mySkillspeaking;
-  private int mySkillcoordination;
-  private int mySkillbalance;
-  private int mySkillleadership;
-  private int mySkillteaching;
-  private int mySkillfighting;
-  private int mySkillarchery;
-  private int mySkillwrestling;
-  private int mySkillbiting;
-  private int mySkillstriking;
-  private int mySkillkicking;
-  private int mySkilldodging;
-  private int mySkillmisc__Object;
-  private int mySkillknapping;
-  private int mySkillsomething_Weird;
-  private int mySkillshearing;
-  private int mySkillwool_Spinning;
-  private int mySkillpottery;
-  private int mySkillglazing;
-  private int mySkillpress_Operation;
-  private int mySkillbee_Keeping;
-  private int mySkillwax_Working;
-  private int myTraitnervousness;
-  private int myTraitrage;
-  private int myTraitdepression;
-  private int myTraitneurosis;
-  private int myTraiturge;
-  private int myTraitstress;
-  private int myTraitfriendly;
-  private int myTraitcompany;
-  private int myTraitleadership;
-  private int myTraitactiveness;
-  private int myTraitthrillseeking;
-  private int myTraitoptimism;
-  private int myTraitimagination;
-  private int myTraitartistic;
-  private int myTraitemotion;
-  private int myTraitadventure;
-  private int myTraitthinking;
-  private int myTraitrebelliousness;
-  private int myTraittrusting;
-  private int myTraithonesty;
-  private int myTraithelpfulness;
-  private int myTraitcompromising;
-  private int myTraitmodesty;
-  private int myTraitcompassion;
-  private int myTraitconfidence;
-  private int myTraitorganization;
-  private int myTraitlawfulness;
-  private int myTraitexcellence;
-  private int myTraitperseverance;
-  private int myTraitcautiousness;
+  private int mySkillMining;
+  private int mySkillWood_Cutting;
+  private int mySkillCarpentry;
+  private int mySkillEngraving;
+  private int mySkillMasonry;
+  private int mySkillAnimal_Training;
+  private int mySkillAnimal_Caretaking;
+  private int mySkillFish_Dissection;
+  private int mySkillAnimal_Dissection;
+  private int mySkillFish_Cleaning;
+  private int mySkillButchery;
+  private int mySkillTrapping;
+  private int mySkillTanning;
+  private int mySkillWeaving;
+  private int mySkillBrewing;
+  private int mySkillAlchemy;
+  private int mySkillClothes_Making;
+  private int mySkillMilling;
+  private int mySkillThreshing;
+  private int mySkillCheese_Making;
+  private int mySkillMilking;
+  private int mySkillCooking;
+  private int mySkillGrowing;
+  private int mySkillHerbalism;
+  private int mySkillFishing;
+  private int mySkillFurnace_Operation;
+  private int mySkillStrand_Extraction;
+  private int mySkillWeaponsmithing;
+  private int mySkillArmorsmithing;
+  private int mySkillMetalsmithing;
+  private int mySkillGem_Cutting;
+  private int mySkillGem_Setting;
+  private int mySkillWood_Crafting;
+  private int mySkillStone_Crafting;
+  private int mySkillMetal_Crafting;
+  private int mySkillGlassmaking;
+  private int mySkillLeatherworkering;
+  private int mySkillBone_Carving;
+  private int mySkillAxe;
+  private int mySkillSword;
+  private int mySkillKnife;
+  private int mySkillMace;
+  private int mySkillHammer;
+  private int mySkillSpear;
+  private int mySkillCrossbow;
+  private int mySkillShield;
+  private int mySkillArmor;
+  private int mySkillSiege_Engineering;
+  private int mySkillSiege_Operation;
+  private int mySkillBowmaking;
+  private int mySkillPike;
+  private int mySkillLash;
+  private int mySkillBow;
+  private int mySkillBlowgun;
+  private int mySkillThrowing;
+  private int mySkillMachinery;
+  private int mySkillNature;
+  private int mySkillAmbush;
+  private int mySkillBuilding_Design;
+  private int mySkillWound_Dressing;
+  private int mySkillDiagnostics;
+  private int mySkillSurgery;
+  private int mySkillBone_Setting;
+  private int mySkillSuturing;
+  private int mySkillCrutch_walking;
+  private int mySkillWood_Burning;
+  private int mySkillLye_Making;
+  private int mySkillSoap_Making;
+  private int mySkillPotash_Making;
+  private int mySkillDyeing;
+  private int mySkillPump_Operation;
+  private int mySkillSwimming;
+  private int mySkillPersuasion;
+  private int mySkillNegotiation;
+  private int mySkillJudging_Intent;
+  private int mySkillAppraisal;
+  private int mySkillOrganization;
+  private int mySkillRecord_Keeping;
+  private int mySkillLying;
+  private int mySkillIntimidation;
+  private int mySkillConversation;
+  private int mySkillComedy;
+  private int mySkillFlattery;
+  private int mySkillConsoling;
+  private int mySkillPacification;
+  private int mySkillTracking;
+  private int mySkillStudying;
+  private int mySkillConcentration;
+  private int mySkillDiscipline;
+  private int mySkillObservation;
+  private int mySkillWriting;
+  private int mySkillProse;
+  private int mySkillPoetry;
+  private int mySkillReading;
+  private int mySkillSpeaking;
+  private int mySkillCoordination;
+  private int mySkillBalance;
+  private int mySkillLeadership;
+  private int mySkillTeaching;
+  private int mySkillFighting;
+  private int mySkillArchery;
+  private int mySkillWrestling;
+  private int mySkillBiting;
+  private int mySkillStriking;
+  private int mySkillKicking;
+  private int mySkillDodging;
+  private int mySkillMisc__Object;
+  private int mySkillKnapping;
+  private int mySkillSomething_Weird;
+  private int mySkillShearing;
+  private int mySkillWool_Spinning;
+  private int mySkillPottery;
+  private int mySkillGlazing;
+  private int mySkillPress_Operation;
+  private int mySkillBee_Keeping;
+  private int mySkillWax_Working;
+  private int myTraitNervousness;
+  private int myTraitRage;
+  private int myTraitDepression;
+  private int myTraitNeurosis;
+  private int myTraitUrge;
+  private int myTraitStress;
+  private int myTraitFriendly;
+  private int myTraitCompany;
+  private int myTraitLeadership;
+  private int myTraitActiveness;
+  private int myTraitThrillseeking;
+  private int myTraitOptimism;
+  private int myTraitImagination;
+  private int myTraitArtistic;
+  private int myTraitEmotion;
+  private int myTraitAdventure;
+  private int myTraitThinking;
+  private int myTraitRebelliousness;
+  private int myTraitTrusting;
+  private int myTraitHonesty;
+  private int myTraitHelpfulness;
+  private int myTraitCompromising;
+  private int myTraitModesty;
+  private int myTraitCompassion;
+  private int myTraitConfidence;
+  private int myTraitOrganization;
+  private int myTraitLawfulness;
+  private int myTraitExcellence;
+  private int myTraitPerseverance;
+  private int myTraitCautiousness;
 
   public Creature() {
-    this.setTraitnervousness(50);
-    this.setTraitrage(50);
-    this.setTraitdepression(50);
-    this.setTraitneurosis(50);
-    this.setTraiturge(50);
-    this.setTraitstress(50);
-    this.setTraitfriendly(50);
-    this.setTraitcompany(50);
-    this.setTraitleadership(50);
-    this.setTraitactiveness(50);
-    this.setTraitthrillseeking(50);
-    this.setTraitoptimism(50);
-    this.setTraitimagination(50);
-    this.setTraitartistic(50);
-    this.setTraitemotion(50);
-    this.setTraitadventure(50);
-    this.setTraitthinking(50);
-    this.setTraitrebelliousness(50);
-    this.setTraittrusting(50);
-    this.setTraithonesty(50);
-    this.setTraithelpfulness(50);
-    this.setTraitcompromising(50);
-    this.setTraitmodesty(50);
-    this.setTraitcompassion(50);
-    this.setTraitconfidence(50);
-    this.setTraitorganization(50);
-    this.setTraitlawfulness(50);
-    this.setTraitexcellence(50);
-    this.setTraitperseverance(50);
-    this.setTraitcautiousness(50);
+    this.setTraitNervousness(50);
+    this.setTraitRage(50);
+    this.setTraitDepression(50);
+    this.setTraitNeurosis(50);
+    this.setTraitUrge(50);
+    this.setTraitStress(50);
+    this.setTraitFriendly(50);
+    this.setTraitCompany(50);
+    this.setTraitLeadership(50);
+    this.setTraitActiveness(50);
+    this.setTraitThrillseeking(50);
+    this.setTraitOptimism(50);
+    this.setTraitImagination(50);
+    this.setTraitArtistic(50);
+    this.setTraitEmotion(50);
+    this.setTraitAdventure(50);
+    this.setTraitThinking(50);
+    this.setTraitRebelliousness(50);
+    this.setTraitTrusting(50);
+    this.setTraitHonesty(50);
+    this.setTraitHelpfulness(50);
+    this.setTraitCompromising(50);
+    this.setTraitModesty(50);
+    this.setTraitCompassion(50);
+    this.setTraitConfidence(50);
+    this.setTraitOrganization(50);
+    this.setTraitLawfulness(50);
+    this.setTraitExcellence(50);
+    this.setTraitPerseverance(50);
+    this.setTraitCautiousness(50);
   }
 
   public String getName() {
@@ -213,1171 +213,1171 @@ public class Creature {
     this.myRace = value;
   }
 
-  public int getSkillmining() {
-    return this.mySkillmining;
+  public int getSkillMining() {
+    return this.mySkillMining;
   }
 
-  private void setSkillmining(int value) {
-    this.mySkillmining = value;
+  private void setSkillMining(int value) {
+    this.mySkillMining = value;
   }
 
-  public int getSkillwood_Cutting() {
-    return this.mySkillwood_Cutting;
+  public int getSkillWood_Cutting() {
+    return this.mySkillWood_Cutting;
   }
 
-  private void setSkillwood_Cutting(int value) {
-    this.mySkillwood_Cutting = value;
+  private void setSkillWood_Cutting(int value) {
+    this.mySkillWood_Cutting = value;
   }
 
-  public int getSkillcarpentry() {
-    return this.mySkillcarpentry;
+  public int getSkillCarpentry() {
+    return this.mySkillCarpentry;
   }
 
-  private void setSkillcarpentry(int value) {
-    this.mySkillcarpentry = value;
+  private void setSkillCarpentry(int value) {
+    this.mySkillCarpentry = value;
   }
 
-  public int getSkillengraving() {
-    return this.mySkillengraving;
+  public int getSkillEngraving() {
+    return this.mySkillEngraving;
   }
 
-  private void setSkillengraving(int value) {
-    this.mySkillengraving = value;
+  private void setSkillEngraving(int value) {
+    this.mySkillEngraving = value;
   }
 
-  public int getSkillmasonry() {
-    return this.mySkillmasonry;
+  public int getSkillMasonry() {
+    return this.mySkillMasonry;
   }
 
-  private void setSkillmasonry(int value) {
-    this.mySkillmasonry = value;
+  private void setSkillMasonry(int value) {
+    this.mySkillMasonry = value;
   }
 
-  public int getSkillanimal_Training() {
-    return this.mySkillanimal_Training;
+  public int getSkillAnimal_Training() {
+    return this.mySkillAnimal_Training;
   }
 
-  private void setSkillanimal_Training(int value) {
-    this.mySkillanimal_Training = value;
+  private void setSkillAnimal_Training(int value) {
+    this.mySkillAnimal_Training = value;
   }
 
-  public int getSkillanimal_Caretaking() {
-    return this.mySkillanimal_Caretaking;
+  public int getSkillAnimal_Caretaking() {
+    return this.mySkillAnimal_Caretaking;
   }
 
-  private void setSkillanimal_Caretaking(int value) {
-    this.mySkillanimal_Caretaking = value;
+  private void setSkillAnimal_Caretaking(int value) {
+    this.mySkillAnimal_Caretaking = value;
   }
 
-  public int getSkillfish_Dissection() {
-    return this.mySkillfish_Dissection;
+  public int getSkillFish_Dissection() {
+    return this.mySkillFish_Dissection;
   }
 
-  private void setSkillfish_Dissection(int value) {
-    this.mySkillfish_Dissection = value;
+  private void setSkillFish_Dissection(int value) {
+    this.mySkillFish_Dissection = value;
   }
 
-  public int getSkillanimal_Dissection() {
-    return this.mySkillanimal_Dissection;
+  public int getSkillAnimal_Dissection() {
+    return this.mySkillAnimal_Dissection;
   }
 
-  private void setSkillanimal_Dissection(int value) {
-    this.mySkillanimal_Dissection = value;
+  private void setSkillAnimal_Dissection(int value) {
+    this.mySkillAnimal_Dissection = value;
   }
 
-  public int getSkillfish_Cleaning() {
-    return this.mySkillfish_Cleaning;
+  public int getSkillFish_Cleaning() {
+    return this.mySkillFish_Cleaning;
   }
 
-  private void setSkillfish_Cleaning(int value) {
-    this.mySkillfish_Cleaning = value;
+  private void setSkillFish_Cleaning(int value) {
+    this.mySkillFish_Cleaning = value;
   }
 
-  public int getSkillbutchery() {
-    return this.mySkillbutchery;
+  public int getSkillButchery() {
+    return this.mySkillButchery;
   }
 
-  private void setSkillbutchery(int value) {
-    this.mySkillbutchery = value;
+  private void setSkillButchery(int value) {
+    this.mySkillButchery = value;
   }
 
-  public int getSkilltrapping() {
-    return this.mySkilltrapping;
+  public int getSkillTrapping() {
+    return this.mySkillTrapping;
   }
 
-  private void setSkilltrapping(int value) {
-    this.mySkilltrapping = value;
+  private void setSkillTrapping(int value) {
+    this.mySkillTrapping = value;
   }
 
-  public int getSkilltanning() {
-    return this.mySkilltanning;
+  public int getSkillTanning() {
+    return this.mySkillTanning;
   }
 
-  private void setSkilltanning(int value) {
-    this.mySkilltanning = value;
+  private void setSkillTanning(int value) {
+    this.mySkillTanning = value;
   }
 
-  public int getSkillweaving() {
-    return this.mySkillweaving;
+  public int getSkillWeaving() {
+    return this.mySkillWeaving;
   }
 
-  private void setSkillweaving(int value) {
-    this.mySkillweaving = value;
+  private void setSkillWeaving(int value) {
+    this.mySkillWeaving = value;
   }
 
-  public int getSkillbrewing() {
-    return this.mySkillbrewing;
+  public int getSkillBrewing() {
+    return this.mySkillBrewing;
   }
 
-  private void setSkillbrewing(int value) {
-    this.mySkillbrewing = value;
+  private void setSkillBrewing(int value) {
+    this.mySkillBrewing = value;
   }
 
-  public int getSkillalchemy() {
-    return this.mySkillalchemy;
+  public int getSkillAlchemy() {
+    return this.mySkillAlchemy;
   }
 
-  private void setSkillalchemy(int value) {
-    this.mySkillalchemy = value;
+  private void setSkillAlchemy(int value) {
+    this.mySkillAlchemy = value;
   }
 
-  public int getSkillclothes_Making() {
-    return this.mySkillclothes_Making;
+  public int getSkillClothes_Making() {
+    return this.mySkillClothes_Making;
   }
 
-  private void setSkillclothes_Making(int value) {
-    this.mySkillclothes_Making = value;
+  private void setSkillClothes_Making(int value) {
+    this.mySkillClothes_Making = value;
   }
 
-  public int getSkillmilling() {
-    return this.mySkillmilling;
+  public int getSkillMilling() {
+    return this.mySkillMilling;
   }
 
-  private void setSkillmilling(int value) {
-    this.mySkillmilling = value;
+  private void setSkillMilling(int value) {
+    this.mySkillMilling = value;
   }
 
-  public int getSkillthreshing() {
-    return this.mySkillthreshing;
+  public int getSkillThreshing() {
+    return this.mySkillThreshing;
   }
 
-  private void setSkillthreshing(int value) {
-    this.mySkillthreshing = value;
+  private void setSkillThreshing(int value) {
+    this.mySkillThreshing = value;
   }
 
-  public int getSkillcheese_Making() {
-    return this.mySkillcheese_Making;
+  public int getSkillCheese_Making() {
+    return this.mySkillCheese_Making;
   }
 
-  private void setSkillcheese_Making(int value) {
-    this.mySkillcheese_Making = value;
+  private void setSkillCheese_Making(int value) {
+    this.mySkillCheese_Making = value;
   }
 
-  public int getSkillmilking() {
-    return this.mySkillmilking;
+  public int getSkillMilking() {
+    return this.mySkillMilking;
   }
 
-  private void setSkillmilking(int value) {
-    this.mySkillmilking = value;
+  private void setSkillMilking(int value) {
+    this.mySkillMilking = value;
   }
 
-  public int getSkillcooking() {
-    return this.mySkillcooking;
+  public int getSkillCooking() {
+    return this.mySkillCooking;
   }
 
-  private void setSkillcooking(int value) {
-    this.mySkillcooking = value;
+  private void setSkillCooking(int value) {
+    this.mySkillCooking = value;
   }
 
-  public int getSkillgrowing() {
-    return this.mySkillgrowing;
+  public int getSkillGrowing() {
+    return this.mySkillGrowing;
   }
 
-  private void setSkillgrowing(int value) {
-    this.mySkillgrowing = value;
+  private void setSkillGrowing(int value) {
+    this.mySkillGrowing = value;
   }
 
-  public int getSkillherbalism() {
-    return this.mySkillherbalism;
+  public int getSkillHerbalism() {
+    return this.mySkillHerbalism;
   }
 
-  private void setSkillherbalism(int value) {
-    this.mySkillherbalism = value;
+  private void setSkillHerbalism(int value) {
+    this.mySkillHerbalism = value;
   }
 
-  public int getSkillfishing() {
-    return this.mySkillfishing;
+  public int getSkillFishing() {
+    return this.mySkillFishing;
   }
 
-  private void setSkillfishing(int value) {
-    this.mySkillfishing = value;
+  private void setSkillFishing(int value) {
+    this.mySkillFishing = value;
   }
 
-  public int getSkillfurnace_Operation() {
-    return this.mySkillfurnace_Operation;
+  public int getSkillFurnace_Operation() {
+    return this.mySkillFurnace_Operation;
   }
 
-  private void setSkillfurnace_Operation(int value) {
-    this.mySkillfurnace_Operation = value;
+  private void setSkillFurnace_Operation(int value) {
+    this.mySkillFurnace_Operation = value;
   }
 
-  public int getSkillstrand_Extraction() {
-    return this.mySkillstrand_Extraction;
+  public int getSkillStrand_Extraction() {
+    return this.mySkillStrand_Extraction;
   }
 
-  private void setSkillstrand_Extraction(int value) {
-    this.mySkillstrand_Extraction = value;
+  private void setSkillStrand_Extraction(int value) {
+    this.mySkillStrand_Extraction = value;
   }
 
-  public int getSkillweaponsmithing() {
-    return this.mySkillweaponsmithing;
+  public int getSkillWeaponsmithing() {
+    return this.mySkillWeaponsmithing;
   }
 
-  private void setSkillweaponsmithing(int value) {
-    this.mySkillweaponsmithing = value;
+  private void setSkillWeaponsmithing(int value) {
+    this.mySkillWeaponsmithing = value;
   }
 
-  public int getSkillarmorsmithing() {
-    return this.mySkillarmorsmithing;
+  public int getSkillArmorsmithing() {
+    return this.mySkillArmorsmithing;
   }
 
-  private void setSkillarmorsmithing(int value) {
-    this.mySkillarmorsmithing = value;
+  private void setSkillArmorsmithing(int value) {
+    this.mySkillArmorsmithing = value;
   }
 
-  public int getSkillmetalsmithing() {
-    return this.mySkillmetalsmithing;
+  public int getSkillMetalsmithing() {
+    return this.mySkillMetalsmithing;
   }
 
-  private void setSkillmetalsmithing(int value) {
-    this.mySkillmetalsmithing = value;
+  private void setSkillMetalsmithing(int value) {
+    this.mySkillMetalsmithing = value;
   }
 
-  public int getSkillgem_Cutting() {
-    return this.mySkillgem_Cutting;
+  public int getSkillGem_Cutting() {
+    return this.mySkillGem_Cutting;
   }
 
-  private void setSkillgem_Cutting(int value) {
-    this.mySkillgem_Cutting = value;
+  private void setSkillGem_Cutting(int value) {
+    this.mySkillGem_Cutting = value;
   }
 
-  public int getSkillgem_Setting() {
-    return this.mySkillgem_Setting;
+  public int getSkillGem_Setting() {
+    return this.mySkillGem_Setting;
   }
 
-  private void setSkillgem_Setting(int value) {
-    this.mySkillgem_Setting = value;
+  private void setSkillGem_Setting(int value) {
+    this.mySkillGem_Setting = value;
   }
 
-  public int getSkillwood_Crafting() {
-    return this.mySkillwood_Crafting;
+  public int getSkillWood_Crafting() {
+    return this.mySkillWood_Crafting;
   }
 
-  private void setSkillwood_Crafting(int value) {
-    this.mySkillwood_Crafting = value;
+  private void setSkillWood_Crafting(int value) {
+    this.mySkillWood_Crafting = value;
   }
 
-  public int getSkillstone_Crafting() {
-    return this.mySkillstone_Crafting;
+  public int getSkillStone_Crafting() {
+    return this.mySkillStone_Crafting;
   }
 
-  private void setSkillstone_Crafting(int value) {
-    this.mySkillstone_Crafting = value;
+  private void setSkillStone_Crafting(int value) {
+    this.mySkillStone_Crafting = value;
   }
 
-  public int getSkillmetal_Crafting() {
-    return this.mySkillmetal_Crafting;
+  public int getSkillMetal_Crafting() {
+    return this.mySkillMetal_Crafting;
   }
 
-  private void setSkillmetal_Crafting(int value) {
-    this.mySkillmetal_Crafting = value;
+  private void setSkillMetal_Crafting(int value) {
+    this.mySkillMetal_Crafting = value;
   }
 
-  public int getSkillglassmaking() {
-    return this.mySkillglassmaking;
+  public int getSkillGlassmaking() {
+    return this.mySkillGlassmaking;
   }
 
-  private void setSkillglassmaking(int value) {
-    this.mySkillglassmaking = value;
+  private void setSkillGlassmaking(int value) {
+    this.mySkillGlassmaking = value;
   }
 
-  public int getSkillleatherworkering() {
-    return this.mySkillleatherworkering;
+  public int getSkillLeatherworkering() {
+    return this.mySkillLeatherworkering;
   }
 
-  private void setSkillleatherworkering(int value) {
-    this.mySkillleatherworkering = value;
+  private void setSkillLeatherworkering(int value) {
+    this.mySkillLeatherworkering = value;
   }
 
-  public int getSkillbone_Carving() {
-    return this.mySkillbone_Carving;
+  public int getSkillBone_Carving() {
+    return this.mySkillBone_Carving;
   }
 
-  private void setSkillbone_Carving(int value) {
-    this.mySkillbone_Carving = value;
+  private void setSkillBone_Carving(int value) {
+    this.mySkillBone_Carving = value;
   }
 
-  public int getSkillaxe() {
-    return this.mySkillaxe;
+  public int getSkillAxe() {
+    return this.mySkillAxe;
   }
 
-  private void setSkillaxe(int value) {
-    this.mySkillaxe = value;
+  private void setSkillAxe(int value) {
+    this.mySkillAxe = value;
   }
 
-  public int getSkillsword() {
-    return this.mySkillsword;
+  public int getSkillSword() {
+    return this.mySkillSword;
   }
 
-  private void setSkillsword(int value) {
-    this.mySkillsword = value;
+  private void setSkillSword(int value) {
+    this.mySkillSword = value;
   }
 
-  public int getSkillknife() {
-    return this.mySkillknife;
+  public int getSkillKnife() {
+    return this.mySkillKnife;
   }
 
-  private void setSkillknife(int value) {
-    this.mySkillknife = value;
+  private void setSkillKnife(int value) {
+    this.mySkillKnife = value;
   }
 
-  public int getSkillmace() {
-    return this.mySkillmace;
+  public int getSkillMace() {
+    return this.mySkillMace;
   }
 
-  private void setSkillmace(int value) {
-    this.mySkillmace = value;
+  private void setSkillMace(int value) {
+    this.mySkillMace = value;
   }
 
-  public int getSkillhammer() {
-    return this.mySkillhammer;
+  public int getSkillHammer() {
+    return this.mySkillHammer;
   }
 
-  private void setSkillhammer(int value) {
-    this.mySkillhammer = value;
+  private void setSkillHammer(int value) {
+    this.mySkillHammer = value;
   }
 
-  public int getSkillspear() {
-    return this.mySkillspear;
+  public int getSkillSpear() {
+    return this.mySkillSpear;
   }
 
-  private void setSkillspear(int value) {
-    this.mySkillspear = value;
+  private void setSkillSpear(int value) {
+    this.mySkillSpear = value;
   }
 
-  public int getSkillcrossbow() {
-    return this.mySkillcrossbow;
+  public int getSkillCrossbow() {
+    return this.mySkillCrossbow;
   }
 
-  private void setSkillcrossbow(int value) {
-    this.mySkillcrossbow = value;
+  private void setSkillCrossbow(int value) {
+    this.mySkillCrossbow = value;
   }
 
-  public int getSkillshield() {
-    return this.mySkillshield;
+  public int getSkillShield() {
+    return this.mySkillShield;
   }
 
-  private void setSkillshield(int value) {
-    this.mySkillshield = value;
+  private void setSkillShield(int value) {
+    this.mySkillShield = value;
   }
 
-  public int getSkillarmor() {
-    return this.mySkillarmor;
+  public int getSkillArmor() {
+    return this.mySkillArmor;
   }
 
-  private void setSkillarmor(int value) {
-    this.mySkillarmor = value;
+  private void setSkillArmor(int value) {
+    this.mySkillArmor = value;
   }
 
-  public int getSkillsiege_Engineering() {
-    return this.mySkillsiege_Engineering;
+  public int getSkillSiege_Engineering() {
+    return this.mySkillSiege_Engineering;
   }
 
-  private void setSkillsiege_Engineering(int value) {
-    this.mySkillsiege_Engineering = value;
+  private void setSkillSiege_Engineering(int value) {
+    this.mySkillSiege_Engineering = value;
   }
 
-  public int getSkillsiege_Operation() {
-    return this.mySkillsiege_Operation;
+  public int getSkillSiege_Operation() {
+    return this.mySkillSiege_Operation;
   }
 
-  private void setSkillsiege_Operation(int value) {
-    this.mySkillsiege_Operation = value;
+  private void setSkillSiege_Operation(int value) {
+    this.mySkillSiege_Operation = value;
   }
 
-  public int getSkillbowmaking() {
-    return this.mySkillbowmaking;
+  public int getSkillBowmaking() {
+    return this.mySkillBowmaking;
   }
 
-  private void setSkillbowmaking(int value) {
-    this.mySkillbowmaking = value;
+  private void setSkillBowmaking(int value) {
+    this.mySkillBowmaking = value;
   }
 
-  public int getSkillpike() {
-    return this.mySkillpike;
+  public int getSkillPike() {
+    return this.mySkillPike;
   }
 
-  private void setSkillpike(int value) {
-    this.mySkillpike = value;
+  private void setSkillPike(int value) {
+    this.mySkillPike = value;
   }
 
-  public int getSkilllash() {
-    return this.mySkilllash;
+  public int getSkillLash() {
+    return this.mySkillLash;
   }
 
-  private void setSkilllash(int value) {
-    this.mySkilllash = value;
+  private void setSkillLash(int value) {
+    this.mySkillLash = value;
   }
 
-  public int getSkillbow() {
-    return this.mySkillbow;
+  public int getSkillBow() {
+    return this.mySkillBow;
   }
 
-  private void setSkillbow(int value) {
-    this.mySkillbow = value;
+  private void setSkillBow(int value) {
+    this.mySkillBow = value;
   }
 
-  public int getSkillblowgun() {
-    return this.mySkillblowgun;
+  public int getSkillBlowgun() {
+    return this.mySkillBlowgun;
   }
 
-  private void setSkillblowgun(int value) {
-    this.mySkillblowgun = value;
+  private void setSkillBlowgun(int value) {
+    this.mySkillBlowgun = value;
   }
 
-  public int getSkillthrowing() {
-    return this.mySkillthrowing;
+  public int getSkillThrowing() {
+    return this.mySkillThrowing;
   }
 
-  private void setSkillthrowing(int value) {
-    this.mySkillthrowing = value;
+  private void setSkillThrowing(int value) {
+    this.mySkillThrowing = value;
   }
 
-  public int getSkillmachinery() {
-    return this.mySkillmachinery;
+  public int getSkillMachinery() {
+    return this.mySkillMachinery;
   }
 
-  private void setSkillmachinery(int value) {
-    this.mySkillmachinery = value;
+  private void setSkillMachinery(int value) {
+    this.mySkillMachinery = value;
   }
 
-  public int getSkillnature() {
-    return this.mySkillnature;
+  public int getSkillNature() {
+    return this.mySkillNature;
   }
 
-  private void setSkillnature(int value) {
-    this.mySkillnature = value;
+  private void setSkillNature(int value) {
+    this.mySkillNature = value;
   }
 
-  public int getSkillambush() {
-    return this.mySkillambush;
+  public int getSkillAmbush() {
+    return this.mySkillAmbush;
   }
 
-  private void setSkillambush(int value) {
-    this.mySkillambush = value;
+  private void setSkillAmbush(int value) {
+    this.mySkillAmbush = value;
   }
 
-  public int getSkillbuilding_Design() {
-    return this.mySkillbuilding_Design;
+  public int getSkillBuilding_Design() {
+    return this.mySkillBuilding_Design;
   }
 
-  private void setSkillbuilding_Design(int value) {
-    this.mySkillbuilding_Design = value;
+  private void setSkillBuilding_Design(int value) {
+    this.mySkillBuilding_Design = value;
   }
 
-  public int getSkillwound_Dressing() {
-    return this.mySkillwound_Dressing;
+  public int getSkillWound_Dressing() {
+    return this.mySkillWound_Dressing;
   }
 
-  private void setSkillwound_Dressing(int value) {
-    this.mySkillwound_Dressing = value;
+  private void setSkillWound_Dressing(int value) {
+    this.mySkillWound_Dressing = value;
   }
 
-  public int getSkilldiagnostics() {
-    return this.mySkilldiagnostics;
+  public int getSkillDiagnostics() {
+    return this.mySkillDiagnostics;
   }
 
-  private void setSkilldiagnostics(int value) {
-    this.mySkilldiagnostics = value;
+  private void setSkillDiagnostics(int value) {
+    this.mySkillDiagnostics = value;
   }
 
-  public int getSkillsurgery() {
-    return this.mySkillsurgery;
+  public int getSkillSurgery() {
+    return this.mySkillSurgery;
   }
 
-  private void setSkillsurgery(int value) {
-    this.mySkillsurgery = value;
+  private void setSkillSurgery(int value) {
+    this.mySkillSurgery = value;
   }
 
-  public int getSkillbone_Setting() {
-    return this.mySkillbone_Setting;
+  public int getSkillBone_Setting() {
+    return this.mySkillBone_Setting;
   }
 
-  private void setSkillbone_Setting(int value) {
-    this.mySkillbone_Setting = value;
+  private void setSkillBone_Setting(int value) {
+    this.mySkillBone_Setting = value;
   }
 
-  public int getSkillsuturing() {
-    return this.mySkillsuturing;
+  public int getSkillSuturing() {
+    return this.mySkillSuturing;
   }
 
-  private void setSkillsuturing(int value) {
-    this.mySkillsuturing = value;
+  private void setSkillSuturing(int value) {
+    this.mySkillSuturing = value;
   }
 
-  public int getSkillcrutch_walking() {
-    return this.mySkillcrutch_walking;
+  public int getSkillCrutch_walking() {
+    return this.mySkillCrutch_walking;
   }
 
-  private void setSkillcrutch_walking(int value) {
-    this.mySkillcrutch_walking = value;
+  private void setSkillCrutch_walking(int value) {
+    this.mySkillCrutch_walking = value;
   }
 
-  public int getSkillwood_Burning() {
-    return this.mySkillwood_Burning;
+  public int getSkillWood_Burning() {
+    return this.mySkillWood_Burning;
   }
 
-  private void setSkillwood_Burning(int value) {
-    this.mySkillwood_Burning = value;
+  private void setSkillWood_Burning(int value) {
+    this.mySkillWood_Burning = value;
   }
 
-  public int getSkilllye_Making() {
-    return this.mySkilllye_Making;
+  public int getSkillLye_Making() {
+    return this.mySkillLye_Making;
   }
 
-  private void setSkilllye_Making(int value) {
-    this.mySkilllye_Making = value;
+  private void setSkillLye_Making(int value) {
+    this.mySkillLye_Making = value;
   }
 
-  public int getSkillsoap_Making() {
-    return this.mySkillsoap_Making;
+  public int getSkillSoap_Making() {
+    return this.mySkillSoap_Making;
   }
 
-  private void setSkillsoap_Making(int value) {
-    this.mySkillsoap_Making = value;
+  private void setSkillSoap_Making(int value) {
+    this.mySkillSoap_Making = value;
   }
 
-  public int getSkillpotash_Making() {
-    return this.mySkillpotash_Making;
+  public int getSkillPotash_Making() {
+    return this.mySkillPotash_Making;
   }
 
-  private void setSkillpotash_Making(int value) {
-    this.mySkillpotash_Making = value;
+  private void setSkillPotash_Making(int value) {
+    this.mySkillPotash_Making = value;
   }
 
-  public int getSkilldyeing() {
-    return this.mySkilldyeing;
+  public int getSkillDyeing() {
+    return this.mySkillDyeing;
   }
 
-  private void setSkilldyeing(int value) {
-    this.mySkilldyeing = value;
+  private void setSkillDyeing(int value) {
+    this.mySkillDyeing = value;
   }
 
-  public int getSkillpump_Operation() {
-    return this.mySkillpump_Operation;
+  public int getSkillPump_Operation() {
+    return this.mySkillPump_Operation;
   }
 
-  private void setSkillpump_Operation(int value) {
-    this.mySkillpump_Operation = value;
+  private void setSkillPump_Operation(int value) {
+    this.mySkillPump_Operation = value;
   }
 
-  public int getSkillswimming() {
-    return this.mySkillswimming;
+  public int getSkillSwimming() {
+    return this.mySkillSwimming;
   }
 
-  private void setSkillswimming(int value) {
-    this.mySkillswimming = value;
+  private void setSkillSwimming(int value) {
+    this.mySkillSwimming = value;
   }
 
-  public int getSkillpersuasion() {
-    return this.mySkillpersuasion;
+  public int getSkillPersuasion() {
+    return this.mySkillPersuasion;
   }
 
-  private void setSkillpersuasion(int value) {
-    this.mySkillpersuasion = value;
+  private void setSkillPersuasion(int value) {
+    this.mySkillPersuasion = value;
   }
 
-  public int getSkillnegotiation() {
-    return this.mySkillnegotiation;
+  public int getSkillNegotiation() {
+    return this.mySkillNegotiation;
   }
 
-  private void setSkillnegotiation(int value) {
-    this.mySkillnegotiation = value;
+  private void setSkillNegotiation(int value) {
+    this.mySkillNegotiation = value;
   }
 
-  public int getSkilljudging_Intent() {
-    return this.mySkilljudging_Intent;
+  public int getSkillJudging_Intent() {
+    return this.mySkillJudging_Intent;
   }
 
-  private void setSkilljudging_Intent(int value) {
-    this.mySkilljudging_Intent = value;
+  private void setSkillJudging_Intent(int value) {
+    this.mySkillJudging_Intent = value;
   }
 
-  public int getSkillappraisal() {
-    return this.mySkillappraisal;
+  public int getSkillAppraisal() {
+    return this.mySkillAppraisal;
   }
 
-  private void setSkillappraisal(int value) {
-    this.mySkillappraisal = value;
+  private void setSkillAppraisal(int value) {
+    this.mySkillAppraisal = value;
   }
 
-  public int getSkillorganization() {
-    return this.mySkillorganization;
+  public int getSkillOrganization() {
+    return this.mySkillOrganization;
   }
 
-  private void setSkillorganization(int value) {
-    this.mySkillorganization = value;
+  private void setSkillOrganization(int value) {
+    this.mySkillOrganization = value;
   }
 
-  public int getSkillrecord_Keeping() {
-    return this.mySkillrecord_Keeping;
+  public int getSkillRecord_Keeping() {
+    return this.mySkillRecord_Keeping;
   }
 
-  private void setSkillrecord_Keeping(int value) {
-    this.mySkillrecord_Keeping = value;
+  private void setSkillRecord_Keeping(int value) {
+    this.mySkillRecord_Keeping = value;
   }
 
-  public int getSkilllying() {
-    return this.mySkilllying;
+  public int getSkillLying() {
+    return this.mySkillLying;
   }
 
-  private void setSkilllying(int value) {
-    this.mySkilllying = value;
+  private void setSkillLying(int value) {
+    this.mySkillLying = value;
   }
 
-  public int getSkillintimidation() {
-    return this.mySkillintimidation;
+  public int getSkillIntimidation() {
+    return this.mySkillIntimidation;
   }
 
-  private void setSkillintimidation(int value) {
-    this.mySkillintimidation = value;
+  private void setSkillIntimidation(int value) {
+    this.mySkillIntimidation = value;
   }
 
-  public int getSkillconversation() {
-    return this.mySkillconversation;
+  public int getSkillConversation() {
+    return this.mySkillConversation;
   }
 
-  private void setSkillconversation(int value) {
-    this.mySkillconversation = value;
+  private void setSkillConversation(int value) {
+    this.mySkillConversation = value;
   }
 
-  public int getSkillcomedy() {
-    return this.mySkillcomedy;
+  public int getSkillComedy() {
+    return this.mySkillComedy;
   }
 
-  private void setSkillcomedy(int value) {
-    this.mySkillcomedy = value;
+  private void setSkillComedy(int value) {
+    this.mySkillComedy = value;
   }
 
-  public int getSkillflattery() {
-    return this.mySkillflattery;
+  public int getSkillFlattery() {
+    return this.mySkillFlattery;
   }
 
-  private void setSkillflattery(int value) {
-    this.mySkillflattery = value;
+  private void setSkillFlattery(int value) {
+    this.mySkillFlattery = value;
   }
 
-  public int getSkillconsoling() {
-    return this.mySkillconsoling;
+  public int getSkillConsoling() {
+    return this.mySkillConsoling;
   }
 
-  private void setSkillconsoling(int value) {
-    this.mySkillconsoling = value;
+  private void setSkillConsoling(int value) {
+    this.mySkillConsoling = value;
   }
 
-  public int getSkillpacification() {
-    return this.mySkillpacification;
+  public int getSkillPacification() {
+    return this.mySkillPacification;
   }
 
-  private void setSkillpacification(int value) {
-    this.mySkillpacification = value;
+  private void setSkillPacification(int value) {
+    this.mySkillPacification = value;
   }
 
-  public int getSkilltracking() {
-    return this.mySkilltracking;
+  public int getSkillTracking() {
+    return this.mySkillTracking;
   }
 
-  private void setSkilltracking(int value) {
-    this.mySkilltracking = value;
+  private void setSkillTracking(int value) {
+    this.mySkillTracking = value;
   }
 
-  public int getSkillstudying() {
-    return this.mySkillstudying;
+  public int getSkillStudying() {
+    return this.mySkillStudying;
   }
 
-  private void setSkillstudying(int value) {
-    this.mySkillstudying = value;
+  private void setSkillStudying(int value) {
+    this.mySkillStudying = value;
   }
 
-  public int getSkillconcentration() {
-    return this.mySkillconcentration;
+  public int getSkillConcentration() {
+    return this.mySkillConcentration;
   }
 
-  private void setSkillconcentration(int value) {
-    this.mySkillconcentration = value;
+  private void setSkillConcentration(int value) {
+    this.mySkillConcentration = value;
   }
 
-  public int getSkilldiscipline() {
-    return this.mySkilldiscipline;
+  public int getSkillDiscipline() {
+    return this.mySkillDiscipline;
   }
 
-  private void setSkilldiscipline(int value) {
-    this.mySkilldiscipline = value;
+  private void setSkillDiscipline(int value) {
+    this.mySkillDiscipline = value;
   }
 
-  public int getSkillobservation() {
-    return this.mySkillobservation;
+  public int getSkillObservation() {
+    return this.mySkillObservation;
   }
 
-  private void setSkillobservation(int value) {
-    this.mySkillobservation = value;
+  private void setSkillObservation(int value) {
+    this.mySkillObservation = value;
   }
 
-  public int getSkillwriting() {
-    return this.mySkillwriting;
+  public int getSkillWriting() {
+    return this.mySkillWriting;
   }
 
-  private void setSkillwriting(int value) {
-    this.mySkillwriting = value;
+  private void setSkillWriting(int value) {
+    this.mySkillWriting = value;
   }
 
-  public int getSkillprose() {
-    return this.mySkillprose;
+  public int getSkillProse() {
+    return this.mySkillProse;
   }
 
-  private void setSkillprose(int value) {
-    this.mySkillprose = value;
+  private void setSkillProse(int value) {
+    this.mySkillProse = value;
   }
 
-  public int getSkillpoetry() {
-    return this.mySkillpoetry;
+  public int getSkillPoetry() {
+    return this.mySkillPoetry;
   }
 
-  private void setSkillpoetry(int value) {
-    this.mySkillpoetry = value;
+  private void setSkillPoetry(int value) {
+    this.mySkillPoetry = value;
   }
 
-  public int getSkillreading() {
-    return this.mySkillreading;
+  public int getSkillReading() {
+    return this.mySkillReading;
   }
 
-  private void setSkillreading(int value) {
-    this.mySkillreading = value;
+  private void setSkillReading(int value) {
+    this.mySkillReading = value;
   }
 
-  public int getSkillspeaking() {
-    return this.mySkillspeaking;
+  public int getSkillSpeaking() {
+    return this.mySkillSpeaking;
   }
 
-  private void setSkillspeaking(int value) {
-    this.mySkillspeaking = value;
+  private void setSkillSpeaking(int value) {
+    this.mySkillSpeaking = value;
   }
 
-  public int getSkillcoordination() {
-    return this.mySkillcoordination;
+  public int getSkillCoordination() {
+    return this.mySkillCoordination;
   }
 
-  private void setSkillcoordination(int value) {
-    this.mySkillcoordination = value;
+  private void setSkillCoordination(int value) {
+    this.mySkillCoordination = value;
   }
 
-  public int getSkillbalance() {
-    return this.mySkillbalance;
+  public int getSkillBalance() {
+    return this.mySkillBalance;
   }
 
-  private void setSkillbalance(int value) {
-    this.mySkillbalance = value;
+  private void setSkillBalance(int value) {
+    this.mySkillBalance = value;
   }
 
-  public int getSkillleadership() {
-    return this.mySkillleadership;
+  public int getSkillLeadership() {
+    return this.mySkillLeadership;
   }
 
-  private void setSkillleadership(int value) {
-    this.mySkillleadership = value;
+  private void setSkillLeadership(int value) {
+    this.mySkillLeadership = value;
   }
 
-  public int getSkillteaching() {
-    return this.mySkillteaching;
+  public int getSkillTeaching() {
+    return this.mySkillTeaching;
   }
 
-  private void setSkillteaching(int value) {
-    this.mySkillteaching = value;
+  private void setSkillTeaching(int value) {
+    this.mySkillTeaching = value;
   }
 
-  public int getSkillfighting() {
-    return this.mySkillfighting;
+  public int getSkillFighting() {
+    return this.mySkillFighting;
   }
 
-  private void setSkillfighting(int value) {
-    this.mySkillfighting = value;
+  private void setSkillFighting(int value) {
+    this.mySkillFighting = value;
   }
 
-  public int getSkillarchery() {
-    return this.mySkillarchery;
+  public int getSkillArchery() {
+    return this.mySkillArchery;
   }
 
-  private void setSkillarchery(int value) {
-    this.mySkillarchery = value;
+  private void setSkillArchery(int value) {
+    this.mySkillArchery = value;
   }
 
-  public int getSkillwrestling() {
-    return this.mySkillwrestling;
+  public int getSkillWrestling() {
+    return this.mySkillWrestling;
   }
 
-  private void setSkillwrestling(int value) {
-    this.mySkillwrestling = value;
+  private void setSkillWrestling(int value) {
+    this.mySkillWrestling = value;
   }
 
-  public int getSkillbiting() {
-    return this.mySkillbiting;
+  public int getSkillBiting() {
+    return this.mySkillBiting;
   }
 
-  private void setSkillbiting(int value) {
-    this.mySkillbiting = value;
+  private void setSkillBiting(int value) {
+    this.mySkillBiting = value;
   }
 
-  public int getSkillstriking() {
-    return this.mySkillstriking;
+  public int getSkillStriking() {
+    return this.mySkillStriking;
   }
 
-  private void setSkillstriking(int value) {
-    this.mySkillstriking = value;
+  private void setSkillStriking(int value) {
+    this.mySkillStriking = value;
   }
 
-  public int getSkillkicking() {
-    return this.mySkillkicking;
+  public int getSkillKicking() {
+    return this.mySkillKicking;
   }
 
-  private void setSkillkicking(int value) {
-    this.mySkillkicking = value;
+  private void setSkillKicking(int value) {
+    this.mySkillKicking = value;
   }
 
-  public int getSkilldodging() {
-    return this.mySkilldodging;
+  public int getSkillDodging() {
+    return this.mySkillDodging;
   }
 
-  private void setSkilldodging(int value) {
-    this.mySkilldodging = value;
+  private void setSkillDodging(int value) {
+    this.mySkillDodging = value;
   }
 
-  public int getSkillmisc__Object() {
-    return this.mySkillmisc__Object;
+  public int getSkillMisc__Object() {
+    return this.mySkillMisc__Object;
   }
 
-  private void setSkillmisc__Object(int value) {
-    this.mySkillmisc__Object = value;
+  private void setSkillMisc__Object(int value) {
+    this.mySkillMisc__Object = value;
   }
 
-  public int getSkillknapping() {
-    return this.mySkillknapping;
+  public int getSkillKnapping() {
+    return this.mySkillKnapping;
   }
 
-  private void setSkillknapping(int value) {
-    this.mySkillknapping = value;
+  private void setSkillKnapping(int value) {
+    this.mySkillKnapping = value;
   }
 
-  public int getSkillsomething_Weird() {
-    return this.mySkillsomething_Weird;
+  public int getSkillSomething_Weird() {
+    return this.mySkillSomething_Weird;
   }
 
-  private void setSkillsomething_Weird(int value) {
-    this.mySkillsomething_Weird = value;
+  private void setSkillSomething_Weird(int value) {
+    this.mySkillSomething_Weird = value;
   }
 
-  public int getSkillshearing() {
-    return this.mySkillshearing;
+  public int getSkillShearing() {
+    return this.mySkillShearing;
   }
 
-  private void setSkillshearing(int value) {
-    this.mySkillshearing = value;
+  private void setSkillShearing(int value) {
+    this.mySkillShearing = value;
   }
 
-  public int getSkillwool_Spinning() {
-    return this.mySkillwool_Spinning;
+  public int getSkillWool_Spinning() {
+    return this.mySkillWool_Spinning;
   }
 
-  private void setSkillwool_Spinning(int value) {
-    this.mySkillwool_Spinning = value;
+  private void setSkillWool_Spinning(int value) {
+    this.mySkillWool_Spinning = value;
   }
 
-  public int getSkillpottery() {
-    return this.mySkillpottery;
+  public int getSkillPottery() {
+    return this.mySkillPottery;
   }
 
-  private void setSkillpottery(int value) {
-    this.mySkillpottery = value;
+  private void setSkillPottery(int value) {
+    this.mySkillPottery = value;
   }
 
-  public int getSkillglazing() {
-    return this.mySkillglazing;
+  public int getSkillGlazing() {
+    return this.mySkillGlazing;
   }
 
-  private void setSkillglazing(int value) {
-    this.mySkillglazing = value;
+  private void setSkillGlazing(int value) {
+    this.mySkillGlazing = value;
   }
 
-  public int getSkillpress_Operation() {
-    return this.mySkillpress_Operation;
+  public int getSkillPress_Operation() {
+    return this.mySkillPress_Operation;
   }
 
-  private void setSkillpress_Operation(int value) {
-    this.mySkillpress_Operation = value;
+  private void setSkillPress_Operation(int value) {
+    this.mySkillPress_Operation = value;
   }
 
-  public int getSkillbee_Keeping() {
-    return this.mySkillbee_Keeping;
+  public int getSkillBee_Keeping() {
+    return this.mySkillBee_Keeping;
   }
 
-  private void setSkillbee_Keeping(int value) {
-    this.mySkillbee_Keeping = value;
+  private void setSkillBee_Keeping(int value) {
+    this.mySkillBee_Keeping = value;
   }
 
-  public int getSkillwax_Working() {
-    return this.mySkillwax_Working;
+  public int getSkillWax_Working() {
+    return this.mySkillWax_Working;
   }
 
-  private void setSkillwax_Working(int value) {
-    this.mySkillwax_Working = value;
+  private void setSkillWax_Working(int value) {
+    this.mySkillWax_Working = value;
   }
 
-  public int getTraitnervousness() {
-    return this.myTraitnervousness;
+  public int getTraitNervousness() {
+    return this.myTraitNervousness;
   }
 
-  private void setTraitnervousness(int value) {
-    this.myTraitnervousness = value;
+  private void setTraitNervousness(int value) {
+    this.myTraitNervousness = value;
   }
 
-  public int getTraitrage() {
-    return this.myTraitrage;
+  public int getTraitRage() {
+    return this.myTraitRage;
   }
 
-  private void setTraitrage(int value) {
-    this.myTraitrage = value;
+  private void setTraitRage(int value) {
+    this.myTraitRage = value;
   }
 
-  public int getTraitdepression() {
-    return this.myTraitdepression;
+  public int getTraitDepression() {
+    return this.myTraitDepression;
   }
 
-  private void setTraitdepression(int value) {
-    this.myTraitdepression = value;
+  private void setTraitDepression(int value) {
+    this.myTraitDepression = value;
   }
 
-  public int getTraitneurosis() {
-    return this.myTraitneurosis;
+  public int getTraitNeurosis() {
+    return this.myTraitNeurosis;
   }
 
-  private void setTraitneurosis(int value) {
-    this.myTraitneurosis = value;
+  private void setTraitNeurosis(int value) {
+    this.myTraitNeurosis = value;
   }
 
-  public int getTraiturge() {
-    return this.myTraiturge;
+  public int getTraitUrge() {
+    return this.myTraitUrge;
   }
 
-  private void setTraiturge(int value) {
-    this.myTraiturge = value;
+  private void setTraitUrge(int value) {
+    this.myTraitUrge = value;
   }
 
-  public int getTraitstress() {
-    return this.myTraitstress;
+  public int getTraitStress() {
+    return this.myTraitStress;
   }
 
-  private void setTraitstress(int value) {
-    this.myTraitstress = value;
+  private void setTraitStress(int value) {
+    this.myTraitStress = value;
   }
 
-  public int getTraitfriendly() {
-    return this.myTraitfriendly;
+  public int getTraitFriendly() {
+    return this.myTraitFriendly;
   }
 
-  private void setTraitfriendly(int value) {
-    this.myTraitfriendly = value;
+  private void setTraitFriendly(int value) {
+    this.myTraitFriendly = value;
   }
 
-  public int getTraitcompany() {
-    return this.myTraitcompany;
+  public int getTraitCompany() {
+    return this.myTraitCompany;
   }
 
-  private void setTraitcompany(int value) {
-    this.myTraitcompany = value;
+  private void setTraitCompany(int value) {
+    this.myTraitCompany = value;
   }
 
-  public int getTraitleadership() {
-    return this.myTraitleadership;
+  public int getTraitLeadership() {
+    return this.myTraitLeadership;
   }
 
-  private void setTraitleadership(int value) {
-    this.myTraitleadership = value;
+  private void setTraitLeadership(int value) {
+    this.myTraitLeadership = value;
   }
 
-  public int getTraitactiveness() {
-    return this.myTraitactiveness;
+  public int getTraitActiveness() {
+    return this.myTraitActiveness;
   }
 
-  private void setTraitactiveness(int value) {
-    this.myTraitactiveness = value;
+  private void setTraitActiveness(int value) {
+    this.myTraitActiveness = value;
   }
 
-  public int getTraitthrillseeking() {
-    return this.myTraitthrillseeking;
+  public int getTraitThrillseeking() {
+    return this.myTraitThrillseeking;
   }
 
-  private void setTraitthrillseeking(int value) {
-    this.myTraitthrillseeking = value;
+  private void setTraitThrillseeking(int value) {
+    this.myTraitThrillseeking = value;
   }
 
-  public int getTraitoptimism() {
-    return this.myTraitoptimism;
+  public int getTraitOptimism() {
+    return this.myTraitOptimism;
   }
 
-  private void setTraitoptimism(int value) {
-    this.myTraitoptimism = value;
+  private void setTraitOptimism(int value) {
+    this.myTraitOptimism = value;
   }
 
-  public int getTraitimagination() {
-    return this.myTraitimagination;
+  public int getTraitImagination() {
+    return this.myTraitImagination;
   }
 
-  private void setTraitimagination(int value) {
-    this.myTraitimagination = value;
+  private void setTraitImagination(int value) {
+    this.myTraitImagination = value;
   }
 
-  public int getTraitartistic() {
-    return this.myTraitartistic;
+  public int getTraitArtistic() {
+    return this.myTraitArtistic;
   }
 
-  private void setTraitartistic(int value) {
-    this.myTraitartistic = value;
+  private void setTraitArtistic(int value) {
+    this.myTraitArtistic = value;
   }
 
-  public int getTraitemotion() {
-    return this.myTraitemotion;
+  public int getTraitEmotion() {
+    return this.myTraitEmotion;
   }
 
-  private void setTraitemotion(int value) {
-    this.myTraitemotion = value;
+  private void setTraitEmotion(int value) {
+    this.myTraitEmotion = value;
   }
 
-  public int getTraitadventure() {
-    return this.myTraitadventure;
+  public int getTraitAdventure() {
+    return this.myTraitAdventure;
   }
 
-  private void setTraitadventure(int value) {
-    this.myTraitadventure = value;
+  private void setTraitAdventure(int value) {
+    this.myTraitAdventure = value;
   }
 
-  public int getTraitthinking() {
-    return this.myTraitthinking;
+  public int getTraitThinking() {
+    return this.myTraitThinking;
   }
 
-  private void setTraitthinking(int value) {
-    this.myTraitthinking = value;
+  private void setTraitThinking(int value) {
+    this.myTraitThinking = value;
   }
 
-  public int getTraitrebelliousness() {
-    return this.myTraitrebelliousness;
+  public int getTraitRebelliousness() {
+    return this.myTraitRebelliousness;
   }
 
-  private void setTraitrebelliousness(int value) {
-    this.myTraitrebelliousness = value;
+  private void setTraitRebelliousness(int value) {
+    this.myTraitRebelliousness = value;
   }
 
-  public int getTraittrusting() {
-    return this.myTraittrusting;
+  public int getTraitTrusting() {
+    return this.myTraitTrusting;
   }
 
-  private void setTraittrusting(int value) {
-    this.myTraittrusting = value;
+  private void setTraitTrusting(int value) {
+    this.myTraitTrusting = value;
   }
 
-  public int getTraithonesty() {
-    return this.myTraithonesty;
+  public int getTraitHonesty() {
+    return this.myTraitHonesty;
   }
 
-  private void setTraithonesty(int value) {
-    this.myTraithonesty = value;
+  private void setTraitHonesty(int value) {
+    this.myTraitHonesty = value;
   }
 
-  public int getTraithelpfulness() {
-    return this.myTraithelpfulness;
+  public int getTraitHelpfulness() {
+    return this.myTraitHelpfulness;
   }
 
-  private void setTraithelpfulness(int value) {
-    this.myTraithelpfulness = value;
+  private void setTraitHelpfulness(int value) {
+    this.myTraitHelpfulness = value;
   }
 
-  public int getTraitcompromising() {
-    return this.myTraitcompromising;
+  public int getTraitCompromising() {
+    return this.myTraitCompromising;
   }
 
-  private void setTraitcompromising(int value) {
-    this.myTraitcompromising = value;
+  private void setTraitCompromising(int value) {
+    this.myTraitCompromising = value;
   }
 
-  public int getTraitmodesty() {
-    return this.myTraitmodesty;
+  public int getTraitModesty() {
+    return this.myTraitModesty;
   }
 
-  private void setTraitmodesty(int value) {
-    this.myTraitmodesty = value;
+  private void setTraitModesty(int value) {
+    this.myTraitModesty = value;
   }
 
-  public int getTraitcompassion() {
-    return this.myTraitcompassion;
+  public int getTraitCompassion() {
+    return this.myTraitCompassion;
   }
 
-  private void setTraitcompassion(int value) {
-    this.myTraitcompassion = value;
+  private void setTraitCompassion(int value) {
+    this.myTraitCompassion = value;
   }
 
-  public int getTraitconfidence() {
-    return this.myTraitconfidence;
+  public int getTraitConfidence() {
+    return this.myTraitConfidence;
   }
 
-  private void setTraitconfidence(int value) {
-    this.myTraitconfidence = value;
+  private void setTraitConfidence(int value) {
+    this.myTraitConfidence = value;
   }
 
-  public int getTraitorganization() {
-    return this.myTraitorganization;
+  public int getTraitOrganization() {
+    return this.myTraitOrganization;
   }
 
-  private void setTraitorganization(int value) {
-    this.myTraitorganization = value;
+  private void setTraitOrganization(int value) {
+    this.myTraitOrganization = value;
   }
 
-  public int getTraitlawfulness() {
-    return this.myTraitlawfulness;
+  public int getTraitLawfulness() {
+    return this.myTraitLawfulness;
   }
 
-  private void setTraitlawfulness(int value) {
-    this.myTraitlawfulness = value;
+  private void setTraitLawfulness(int value) {
+    this.myTraitLawfulness = value;
   }
 
-  public int getTraitexcellence() {
-    return this.myTraitexcellence;
+  public int getTraitExcellence() {
+    return this.myTraitExcellence;
   }
 
-  private void setTraitexcellence(int value) {
-    this.myTraitexcellence = value;
+  private void setTraitExcellence(int value) {
+    this.myTraitExcellence = value;
   }
 
-  public int getTraitperseverance() {
-    return this.myTraitperseverance;
+  public int getTraitPerseverance() {
+    return this.myTraitPerseverance;
   }
 
-  private void setTraitperseverance(int value) {
-    this.myTraitperseverance = value;
+  private void setTraitPerseverance(int value) {
+    this.myTraitPerseverance = value;
   }
 
-  public int getTraitcautiousness() {
-    return this.myTraitcautiousness;
+  public int getTraitCautiousness() {
+    return this.myTraitCautiousness;
   }
 
-  private void setTraitcautiousness(int value) {
-    this.myTraitcautiousness = value;
+  private void setTraitCautiousness(int value) {
+    this.myTraitCautiousness = value;
   }
 }
