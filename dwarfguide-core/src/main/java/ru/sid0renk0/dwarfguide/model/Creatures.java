@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package ru.sid0renk0.dwarfguide.model;
+package net.dwarfguide.model;
 
 import org.simpleframework.xml.ElementList;
 import org.simpleframework.xml.Root;
@@ -31,34 +31,34 @@ import java.util.List;
 
 @Root(name = "Creatures", strict = false)
 public class Creatures {
-    @SuppressWarnings({"unused"})
-    private static final Logger LOGGER = LoggerFactory.getLogger(Creatures.class);
+  @SuppressWarnings({"unused"})
+  private static final Logger LOGGER = LoggerFactory.getLogger(Creatures.class);
 
-    @ElementList(inline = true)
-    private List<Creature> creatures;
+  @ElementList(inline = true)
+  private List<Creature> creatures;
 
-    public Creatures() {
-        creatures = new ArrayList<Creature>();
+  public Creatures() {
+    creatures = new ArrayList<Creature>();
+  }
+
+  public List<Creature> getCreatures() {
+    return Collections.unmodifiableList(creatures);
+  }
+
+  public void add(Creature creature) {
+    creatures.add(creature);
+
+  }
+
+  @Override
+  public String toString() {
+    final StringBuilder sb = new StringBuilder();
+    sb.append("Creatures");
+    sb.append("{");
+    for (Creature creature : creatures) {
+      sb.append(creature);
     }
-
-    public List<Creature> getCreatures() {
-        return Collections.unmodifiableList(creatures);
-    }
-
-    public void add(Creature creature) {
-        creatures.add(creature);
-
-    }
-
-    @Override
-    public String toString() {
-        final StringBuilder sb = new StringBuilder();
-        sb.append("Creatures");
-        sb.append("{");
-        for (Creature creature : creatures) {
-            sb.append(creature);
-        }
-        sb.append('}');
-        return sb.toString();
-    }
+    sb.append('}');
+    return sb.toString();
+  }
 }

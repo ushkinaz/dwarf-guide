@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package ru.sid0renk0.dwarfguide.model.converters;
+package net.dwarfguide.model.converters;
 
 import org.simpleframework.xml.convert.Converter;
 import org.simpleframework.xml.stream.InputNode;
@@ -29,24 +29,24 @@ import java.util.regex.Pattern;
  * @author Dmitry Sidorenko
  */
 public class IntegerInBracketsConverter implements Converter<Integer> {
-    @SuppressWarnings({"unused"})
-    private static final Logger LOGGER = LoggerFactory.getLogger(IntegerInBracketsConverter.class);
+  @SuppressWarnings({"unused"})
+  private static final Logger LOGGER = LoggerFactory.getLogger(IntegerInBracketsConverter.class);
 
-    private static final Pattern BRACKETS_PATTERN = Pattern.compile(".* \\[(\\d*)\\]");
+  private static final Pattern BRACKETS_PATTERN = Pattern.compile(".* \\[(\\d*)\\]");
 
-    @Override
-    public Integer read(InputNode node) throws Exception {
-        String value = node.getValue();
-        Matcher matcher = BRACKETS_PATTERN.matcher(value);
-        if (matcher.find()) {
-            return Integer.valueOf(matcher.group(1));
-        }
-        LOGGER.warn("Can't read happiness from node: %s", node);
-        return 0;
+  @Override
+  public Integer read(InputNode node) throws Exception {
+    String value = node.getValue();
+    Matcher matcher = BRACKETS_PATTERN.matcher(value);
+    if (matcher.find()) {
+      return Integer.valueOf(matcher.group(1));
     }
+    LOGGER.warn("Can't read happiness from node: %s", node);
+    return 0;
+  }
 
-    @Override
-    public void write(OutputNode node, Integer value) throws Exception {
-        throw new UnsupportedOperationException();
-    }
+  @Override
+  public void write(OutputNode node, Integer value) throws Exception {
+    throw new UnsupportedOperationException();
+  }
 }

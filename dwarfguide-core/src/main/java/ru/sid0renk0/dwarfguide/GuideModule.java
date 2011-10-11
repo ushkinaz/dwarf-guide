@@ -20,18 +20,18 @@
  * Date: 26.09.11
  * Time: 15:06
  */
-package ru.sid0renk0.dwarfguide;
+package net.dwarfguide;
 
 import com.google.inject.AbstractModule;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class GuideModule extends AbstractModule {
-    @SuppressWarnings({"UnusedDeclaration"})
-    private static final Logger LOGGER = LoggerFactory.getLogger(GuideModule.class);
+  @SuppressWarnings({"UnusedDeclaration"})
+  private static final Logger LOGGER = LoggerFactory.getLogger(GuideModule.class);
 
-    protected void configure() {
-    }
+  protected void configure() {
+  }
 }
 
 

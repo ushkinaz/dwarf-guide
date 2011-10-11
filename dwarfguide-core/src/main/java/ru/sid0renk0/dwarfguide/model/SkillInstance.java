@@ -14,41 +14,41 @@
  * limitations under the License.
  */
 
-package ru.sid0renk0.dwarfguide.model;
+package net.dwarfguide.model;
 
+import net.dwarfguide.dfhack.Skill;
+import net.dwarfguide.model.converters.IntegerInBracketsConverter;
 import org.simpleframework.xml.Element;
 import org.simpleframework.xml.convert.Convert;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import ru.sid0renk0.dwarfguide.dfhack.Skill;
-import ru.sid0renk0.dwarfguide.model.converters.IntegerInBracketsConverter;
 
 /**
  * @author Dmitry Sidorenko
  */
 public class SkillInstance {
-    @SuppressWarnings({"unused"})
-    private static final Logger LOGGER = LoggerFactory.getLogger(SkillInstance.class);
+  @SuppressWarnings({"unused"})
+  private static final Logger LOGGER = LoggerFactory.getLogger(SkillInstance.class);
 
-    @Element(name = "Name")
-    private Skill skill;
+  @Element(name = "Name")
+  private Skill skill;
 
-    @Element
-    @Convert(IntegerInBracketsConverter.class)
-    private Integer level;
+  @Element
+  @Convert(IntegerInBracketsConverter.class)
+  private Integer level;
 
-    @Element
-    private int experience;
+  @Element
+  private int experience;
 
-    public Skill getSkill() {
-        return skill;
-    }
+  public Skill getSkill() {
+    return skill;
+  }
 
-    public int getLevel() {
-        return level;
-    }
+  public int getLevel() {
+    return level;
+  }
 
-    public int getExperience() {
-        return experience;
-    }
+  public int getExperience() {
+    return experience;
+  }
 }

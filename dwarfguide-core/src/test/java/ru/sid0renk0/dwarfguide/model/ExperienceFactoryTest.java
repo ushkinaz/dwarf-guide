@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package ru.sid0renk0.dwarfguide.model;
+package net.dwarfguide.model;
 
 import org.junit.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import static net.dwarfguide.model.ExperienceFactory.estimateExperience;
+import static net.dwarfguide.model.ExperienceFactory.getSkillLevel;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.*;
-import static ru.sid0renk0.dwarfguide.model.ExperienceFactory.estimateExperience;
-import static ru.sid0renk0.dwarfguide.model.ExperienceFactory.getSkillLevel;
 
 /**
  * @author Dmitry Sidorenko

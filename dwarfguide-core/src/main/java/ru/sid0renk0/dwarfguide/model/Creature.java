@@ -14,8 +14,11 @@
  * limitations under the License.
  */
 
-package ru.sid0renk0.dwarfguide.model;
+package net.dwarfguide.model;
 
+import net.dwarfguide.dfhack.*;
+import net.dwarfguide.model.converters.BirthdayConverter;
+import net.dwarfguide.model.converters.IntegerInBracketsConverter;
 import org.simpleframework.xml.Element;
 import org.simpleframework.xml.ElementList;
 import org.simpleframework.xml.Path;
@@ -24,9 +27,6 @@ import org.simpleframework.xml.convert.Convert;
 import org.simpleframework.xml.core.Commit;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import ru.sid0renk0.dwarfguide.dfhack.*;
-import ru.sid0renk0.dwarfguide.model.converters.BirthdayConverter;
-import ru.sid0renk0.dwarfguide.model.converters.IntegerInBracketsConverter;
 
 import java.util.Date;
 import java.util.List;
@@ -38,202 +38,202 @@ import static java.util.Collections.unmodifiableList;
  */
 @Root(name = "Creature", strict = false)
 public class Creature {
-    @SuppressWarnings({"unused"})
-    private static final Logger LOGGER = LoggerFactory.getLogger(Creature.class);
+  @SuppressWarnings({"unused"})
+  private static final Logger LOGGER = LoggerFactory.getLogger(Creature.class);
 
-    @Element
-    private String name;
+  @Element
+  private String name;
 
-    @Element
-    private String englishName;
+  @Element
+  private String englishName;
 
-    @Element(required = false)
-    private String nickname;
+  @Element(required = false)
+  private String nickname;
 
-    @Element
-    private Race race;
-
-
-    @Element(required = false)
-    private String customProfession = "";
+  @Element
+  private Race race;
 
 
-    @Element
-    @Convert(IntegerInBracketsConverter.class)
-    private Integer happiness;
-
-    @Element
-    private Sex sex;
-
-    @Element(name = "DOB")
-    @Convert(BirthdayConverter.class)
-    private Date birthday;
-
-    @Element
-    private int age;
-
-    @ElementList(name = "Skills")
-    private List<SkillInstance> skills;
-
-    @ElementList(name = "Labours", entry = "Labour")
-    private List<Labour> labours;
-
-    @Element(name = "Profession")
-    private Profession profession;
+  @Element(required = false)
+  private String customProfession = "";
 
 
-    //    private ParametersGroup<AttributeEnum, GenericParameter> attributes;
-    @ElementList(name = "Traits", entry = "Trait", empty = false)
-    private List<TraitInstance> traits;
+  @Element
+  @Convert(IntegerInBracketsConverter.class)
+  private Integer happiness;
 
-    @Element(name = "Type", required = false)
-    @Path("Mood")
-    private Mood mood;
+  @Element
+  private Sex sex;
 
-    @Element(name = "Skill", required = false)
-    @Path("Mood")
-    private Skill moodSkill;
+  @Element(name = "DOB")
+  @Convert(BirthdayConverter.class)
+  private Date birthday;
 
+  @Element
+  private int age;
 
-    @Path("Attributes")
-    @Element(name = "Strength")
-    private int strength;
+  @ElementList(name = "Skills")
+  private List<SkillInstance> skills;
 
-    @Path("Attributes")
-    @Element(name = "Agility")
-    private int agility;
+  @ElementList(name = "Labours", entry = "Labour")
+  private List<Labour> labours;
 
-    @Path("Attributes")
-    @Element(name = "Toughness")
-    private int toughness;
-
-    @Path("Attributes")
-    @Element(name = "Endurance")
-    private int endurance;
-
-    @Path("Attributes")
-    @Element(name = "Recuperation")
-    private int recuperation;
-
-    @Path("Attributes")
-    @Element(name = "DiseaseResistance")
-    private int diseaseResistance;
-
-    @Path("Attributes")
-    @Element(name = "Willpower")
-    private int willpower;
-
-    @Path("Attributes")
-    @Element(name = "Memory")
-    private int memory;
-
-    @Path("Attributes")
-    @Element(name = "Focus")
-    private int focus;
-
-    @Path("Attributes")
-    @Element(name = "Intuition")
-    private int intuition;
-
-    @Path("Attributes")
-    @Element(name = "Patience")
-    private int patience;
-
-    @Path("Attributes")
-    @Element(name = "Empathy")
-    private int empathy;
-
-    @Path("Attributes")
-    @Element(name = "SocialAwareness")
-    private int socialAwareness;
-
-    @Path("Attributes")
-    @Element(name = "Creatvity")
-    private int creatvity;
-
-    @Path("Attributes")
-    @Element(name = "Musicality")
-    private int musicality;
-
-    @Path("Attributes")
-    @Element(name = "AnalyticalAbility")
-    private int analyticalAbility;
-
-    @Path("Attributes")
-    @Element(name = "LinguisticAbility")
-    private int linguisticAbility;
-
-    @Path("Attributes")
-    @Element(name = "SpatialSense")
-    private int spatialSense;
-
-    @Path("Attributes")
-    @Element(name = "KinaestheticSense")
-    private int kinestheticSense;
+  @Element(name = "Profession")
+  private Profession profession;
 
 
-    public String getName() {
-        return name;
-    }
+  //    private ParametersGroup<AttributeEnum, GenericParameter> attributes;
+  @ElementList(name = "Traits", entry = "Trait", empty = false)
+  private List<TraitInstance> traits;
 
-    public String getEnglishName() {
-        return englishName;
-    }
+  @Element(name = "Type", required = false)
+  @Path("Mood")
+  private Mood mood;
 
-    public String getNickname() {
-        return nickname;
-    }
+  @Element(name = "Skill", required = false)
+  @Path("Mood")
+  private Skill moodSkill;
 
-    public Race getRace() {
-        return race;
-    }
 
-    public Profession getProfession() {
-        return profession;
-    }
+  @Path("Attributes")
+  @Element(name = "Strength")
+  private int strength;
 
-    public String getCustomProfession() {
-        return customProfession;
-    }
+  @Path("Attributes")
+  @Element(name = "Agility")
+  private int agility;
 
-    public int getHappiness() {
-        return happiness;
-    }
+  @Path("Attributes")
+  @Element(name = "Toughness")
+  private int toughness;
 
-    public Sex getSex() {
-        return sex;
-    }
+  @Path("Attributes")
+  @Element(name = "Endurance")
+  private int endurance;
 
-    public Date getBirthday() {
-        return birthday;
-    }
+  @Path("Attributes")
+  @Element(name = "Recuperation")
+  private int recuperation;
 
-    public int getAge() {
-        return age;
-    }
+  @Path("Attributes")
+  @Element(name = "DiseaseResistance")
+  private int diseaseResistance;
 
-    public List<Labour> getLabours() {
-        return labours;
-    }
+  @Path("Attributes")
+  @Element(name = "Willpower")
+  private int willpower;
 
-    public Mood getMood() {
-        return mood;
-    }
+  @Path("Attributes")
+  @Element(name = "Memory")
+  private int memory;
 
-    public List<SkillInstance> getSkills() {
-        return unmodifiableList(skills);
-    }
+  @Path("Attributes")
+  @Element(name = "Focus")
+  private int focus;
 
-    public List<TraitInstance> getTraits() {
-        return traits;
-    }
+  @Path("Attributes")
+  @Element(name = "Intuition")
+  private int intuition;
 
-    public Skill getMoodSkill() {
-        return moodSkill;
-    }
+  @Path("Attributes")
+  @Element(name = "Patience")
+  private int patience;
 
-    @Commit
-    public void commit() {
+  @Path("Attributes")
+  @Element(name = "Empathy")
+  private int empathy;
 
-    }
+  @Path("Attributes")
+  @Element(name = "SocialAwareness")
+  private int socialAwareness;
+
+  @Path("Attributes")
+  @Element(name = "Creatvity")
+  private int creatvity;
+
+  @Path("Attributes")
+  @Element(name = "Musicality")
+  private int musicality;
+
+  @Path("Attributes")
+  @Element(name = "AnalyticalAbility")
+  private int analyticalAbility;
+
+  @Path("Attributes")
+  @Element(name = "LinguisticAbility")
+  private int linguisticAbility;
+
+  @Path("Attributes")
+  @Element(name = "SpatialSense")
+  private int spatialSense;
+
+  @Path("Attributes")
+  @Element(name = "KinaestheticSense")
+  private int kinestheticSense;
+
+
+  public String getName() {
+    return name;
+  }
+
+  public String getEnglishName() {
+    return englishName;
+  }
+
+  public String getNickname() {
+    return nickname;
+  }
+
+  public Race getRace() {
+    return race;
+  }
+
+  public Profession getProfession() {
+    return profession;
+  }
+
+  public String getCustomProfession() {
+    return customProfession;
+  }
+
+  public int getHappiness() {
+    return happiness;
+  }
+
+  public Sex getSex() {
+    return sex;
+  }
+
+  public Date getBirthday() {
+    return birthday;
+  }
+
+  public int getAge() {
+    return age;
+  }
+
+  public List<Labour> getLabours() {
+    return labours;
+  }
+
+  public Mood getMood() {
+    return mood;
+  }
+
+  public List<SkillInstance> getSkills() {
+    return unmodifiableList(skills);
+  }
+
+  public List<TraitInstance> getTraits() {
+    return traits;
+  }
+
+  public Skill getMoodSkill() {
+    return moodSkill;
+  }
+
+  @Commit
+  public void commit() {
+
+  }
 }

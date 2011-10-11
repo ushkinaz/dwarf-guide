@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package ru.sid0renk0.dwarfguide;
+package net.dwarfguide;
 
 import com.google.inject.Guice;
 import com.google.inject.Injector;
@@ -22,13 +22,13 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class App {
-    @SuppressWarnings({"UnusedDeclaration"})
-    private static final Logger LOGGER = LoggerFactory.getLogger(App.class);
+  @SuppressWarnings({"UnusedDeclaration"})
+  private static final Logger LOGGER = LoggerFactory.getLogger(App.class);
 
-    public static void main(String[] args) {
-        final GuideModule module = new GuideModule();
+  public static void main(String[] args) {
+    final GuideModule module = new GuideModule();
 
-        Injector injector = Guice.createInjector(module);
+    Injector injector = Guice.createInjector(module);
 
-    }
+  }
 }

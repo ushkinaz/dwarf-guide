@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package ru.sid0renk0.dwarfguide.model.converters;
+package net.dwarfguide.model.converters;
 
 import org.simpleframework.xml.convert.Converter;
 import org.simpleframework.xml.stream.InputNode;
@@ -31,18 +31,18 @@ import java.util.Locale;
  * @author Dmitry Sidorenko
  */
 public class BirthdayConverter implements Converter<Date> {
-    @SuppressWarnings({"unused"})
-    private static final Logger     LOGGER      = LoggerFactory.getLogger(BirthdayConverter.class);
-    private static final DateFormat DATE_FORMAT = new SimpleDateFormat("dd/MM/yyyy", Locale.US);
+  @SuppressWarnings({"unused"})
+  private static final Logger     LOGGER      = LoggerFactory.getLogger(BirthdayConverter.class);
+  private static final DateFormat DATE_FORMAT = new SimpleDateFormat("dd/MM/yyyy", Locale.US);
 
-    @Override
-    public Date read(InputNode node) throws Exception {
-        String value = node.getValue();
-        return DATE_FORMAT.parse(value);
-    }
+  @Override
+  public Date read(InputNode node) throws Exception {
+    String value = node.getValue();
+    return DATE_FORMAT.parse(value);
+  }
 
-    @Override
-    public void write(OutputNode node, Date value) throws Exception {
-        throw new UnsupportedOperationException();
-    }
+  @Override
+  public void write(OutputNode node, Date value) throws Exception {
+    throw new UnsupportedOperationException();
+  }
 }
