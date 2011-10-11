@@ -16,64 +16,64 @@
   -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.dwarfguide</groupId>
+  <artifactId>dwarfguide-mps</artifactId>
+  <packaging>jar</packaging>
+
+  <parent>
     <groupId>net.dwarfguide</groupId>
-    <artifactId>dwarfguide-mps</artifactId>
-    <packaging>jar</packaging>
+    <artifactId>dwarfguide-parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <relativePath>../dwarfguide-parent</relativePath>
+  </parent>
 
-    <parent>
-        <groupId>net.dwarfguide</groupId>
-        <artifactId>dwarfguide-parent</artifactId>
-        <version>1.0-SNAPSHOT</version>
-        <relativePath>../dwarfguide-parent</relativePath>
-    </parent>
+  <name>MPS generated files for DwarfGuide</name>
 
-    <name>MPS generated files for DwarfGuide</name>
+  <dependencies>
+    <dependency>
+      <groupId>net.dwarfguide</groupId>
+      <artifactId>dwarfguide-core</artifactId>
+      <version>${version}</version>
+    </dependency>
 
-    <dependencies>
-        <dependency>
-            <groupId>net.dwarfguide</groupId>
-            <artifactId>dwarfguide-core</artifactId>
-            <version>${version}</version>
-        </dependency>
+    <dependency>
+      <groupId>org.simpleframework</groupId>
+      <artifactId>simple-xml</artifactId>
+      <version>2.6.1</version>
+    </dependency>
 
-        <dependency>
-            <groupId>org.simpleframework</groupId>
-            <artifactId>simple-xml</artifactId>
-            <version>2.6.1</version>
-        </dependency>
+    <dependency>
+      <groupId>com.google.inject</groupId>
+      <artifactId>guice</artifactId>
+      <version>3.0</version>
+    </dependency>
 
-        <dependency>
-            <groupId>com.google.inject</groupId>
-            <artifactId>guice</artifactId>
-            <version>3.0</version>
-        </dependency>
+  </dependencies>
 
-    </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <version>2.3</version>
+        <executions>
+          <execution>
+            <id>copy-lib</id>
+            <phase>generate-resources</phase>
+            <goals>
+              <goal>copy-dependencies</goal>
+            </goals>
+            <configuration>
+              <excludeTransitive>true</excludeTransitive>
+              <stripVersion>true</stripVersion>
+              <outputDirectory>${project.basedir}/lib</outputDirectory>
+              <includeScope>compile</includeScope>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-dependency-plugin</artifactId>
-                <version>2.3</version>
-                <executions>
-                    <execution>
-                        <id>copy-lib</id>
-                        <phase>generate-resources</phase>
-                        <goals>
-                            <goal>copy-dependencies</goal>
-                        </goals>
-                        <configuration>
-                            <excludeTransitive>true</excludeTransitive>
-                            <stripVersion>true</stripVersion>
-                            <outputDirectory>${project.basedir}/lib</outputDirectory>
-                            <includeScope>compile</includeScope>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-
-        </plugins>
-    </build>
+    </plugins>
+  </build>
 </project>

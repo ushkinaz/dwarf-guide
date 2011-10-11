@@ -18,44 +18,44 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+  <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>net.dwarfguide</groupId>
-        <artifactId>dwarfguide-parent</artifactId>
-        <version>1.0-SNAPSHOT</version>
-        <relativePath>dwarfguide-parent</relativePath>
-    </parent>
+  <parent>
+    <groupId>net.dwarfguide</groupId>
+    <artifactId>dwarfguide-parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <relativePath>dwarfguide-parent</relativePath>
+  </parent>
 
-    <artifactId>dwarfguide</artifactId>
-    <packaging>pom</packaging>
+  <artifactId>dwarfguide</artifactId>
+  <packaging>pom</packaging>
 
-    <name>Dwarf Guide aggregating</name>
+  <name>Dwarf Guide aggregating</name>
 
-    <modules>
-        <module>dwarfguide-parent</module>
-        <module>dwarfguide-ui</module>
-        <module>dwarfguide-mps</module>
-        <module>dwarfguide-core</module>
-        <module>dwarfguide-dfhack</module>
-    </modules>
+  <modules>
+    <module>dwarfguide-parent</module>
+    <module>dwarfguide-ui</module>
+    <module>dwarfguide-mps</module>
+    <module>dwarfguide-core</module>
+    <module>dwarfguide-dfhack</module>
+  </modules>
 
-    <build>
-        <!--
-                <plugins>
-                    <plugin>
-                        <artifactId>maven-assembly-plugin</artifactId>
-                        <configuration>
-                            <finalName>${project.artifactId}-${maven.build.timestamp}</finalName>
-                            <appendAssemblyId>false</appendAssemblyId>
-                            <descriptorSourceDirectory>src/assembly</descriptorSourceDirectory>
-                            <descriptors>
-                                <descriptor>src/assembly/bank-assembly.xml</descriptor>
-                            </descriptors>
-                        </configuration>
-                    </plugin>
-                </plugins>
-        -->
-    </build>
+  <build>
+    <!--
+            <plugins>
+                <plugin>
+                    <artifactId>maven-assembly-plugin</artifactId>
+                    <configuration>
+                        <finalName>${project.artifactId}-${maven.build.timestamp}</finalName>
+                        <appendAssemblyId>false</appendAssemblyId>
+                        <descriptorSourceDirectory>src/assembly</descriptorSourceDirectory>
+                        <descriptors>
+                            <descriptor>src/assembly/bank-assembly.xml</descriptor>
+                        </descriptors>
+                    </configuration>
+                </plugin>
+            </plugins>
+    -->
+  </build>
 
 </project>
