@@ -1,10 +1,10 @@
 [#ftl]
+<?xml version="1.0" encoding="UTF-8"?>
 [#setting number_format="computer"]
 [#assign id = 1147483648]
 [#macro macro_id][#assign id = id + 1] id="${id}"[/#macro]
 [#-- @ftlvariable name="" type="net.dwarfguide.dfhack.Base" --]
 [#--Fucking important to have no empty line at the beginning. Who knew Java is so space dependant--]
-        <?xml version="1.0" encoding="UTF-8"?>
 <model modelUID="r:0afa5aba-9393-48fd-a0f8-fb77c2ba06be(net.dwarfguide.model.core)">
   <persistence version="7"/>
   <language namespace="ec18e679-bd6d-4441-a00b-ab06c2d44eec(net.dwarfguide.creature)"/>
