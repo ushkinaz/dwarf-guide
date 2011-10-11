@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="CreatureLoader.java" startLine="7" startPosition="0" endLine="10" endPosition="0" unitName="sandbox.df2001.CreatureLoader" />
+  <unitInfo fileName="Strategy.java" startLine="6" startPosition="0" endLine="10" endPosition="0" unitName="sandbox.df2001.Strategy" />
+  <unitInfo fileName="TraitEnum.java" startLine="7" startPosition="0" endLine="15" endPosition="0" unitName="sandbox.df2001.TraitEnum" />
+  <unitInfo fileName="RaceEnum.java" startLine="7" startPosition="0" endLine="15" endPosition="0" unitName="sandbox.df2001.RaceEnum" />
+  <unitInfo fileName="SexEnum.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="sandbox.df2001.SexEnum" />
+  <unitInfo fileName="ProfessionEnum.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="sandbox.df2001.ProfessionEnum" />
+  <unitInfo fileName="CreatureRunesmithLoader.java" startLine="10" startPosition="0" endLine="20" endPosition="0" unitName="sandbox.df2001.CreatureRunesmithLoader" />
+  <unitInfo fileName="TraitInstance.java" startLine="8" startPosition="0" endLine="46" endPosition="0" unitName="sandbox.df2001.TraitInstance" />
+  <unitInfo fileName="TraitDecoder.java" startLine="56" startPosition="0" endLine="115" endPosition="0" unitName="sandbox.df2001.TraitDecoder$TraitLevels" />
+  <unitInfo fileName="Creature.java" startLine="7" startPosition="0" endLine="123" endPosition="0" unitName="sandbox.df2001.Creature" />
+  <unitInfo fileName="TraitDecoder.java" startLine="11" startPosition="0" endLine="142" endPosition="0" unitName="sandbox.df2001.TraitDecoder" />
+  <root nodeId="2455624152132595976">
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="8" startPosition="25" endLine="9" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="race" />
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="9" startPosition="47" endLine="10" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="MIN_NIMBLNESS" />
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="10" startPosition="44" endLine="11" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="MIN_TOUGHNESS" />
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="11" startPosition="44" endLine="12" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="MIN_STRENGTH" />
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="12" startPosition="43" endLine="13" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="MIN_ENDURANCE" />
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="13" startPosition="44" endLine="14" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="MIN_AGILITY" />
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="14" startPosition="42" endLine="15" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="MAX_NIMBLNESS" />
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="15" startPosition="47" endLine="16" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="MAX_TOUGHNESS" />
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="16" startPosition="47" endLine="17" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="MAX_STRENGTH" />
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="17" startPosition="46" endLine="18" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="MAX_ENDURANCE" />
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="18" startPosition="47" endLine="19" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="MAX_AGILITY" />
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="19" startPosition="45" endLine="20" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="AVG_NIMBLNESS" />
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="20" startPosition="47" endLine="21" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="AVG_TOUGHNESS" />
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="21" startPosition="47" endLine="22" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="AVG_STRENGTH" />
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="22" startPosition="46" endLine="23" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="AVG_ENDURANCE" />
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="23" startPosition="47" endLine="24" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="AVG_AGILITY" />
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="25" startPosition="0" endLine="27" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="DwarfStats#()V" />
+    <scopeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="26" startPosition="23" endLine="26" endPosition="23" />
+    <scopeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="25" startPosition="0" endLine="27" endPosition="3" />
+    <unitInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="7" startPosition="0" endLine="29" endPosition="0" unitName="sandbox.df2001.DwarfStats" />
+  </root>
+  <root nodeId="2455624152132937618">
+    <nodeInfo nodeId="2455624152132937618" fileName="GoblinStats.java" startLine="8" startPosition="26" endLine="9" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="race" />
+    <nodeInfo nodeId="2455624152132937618" fileName="GoblinStats.java" startLine="9" startPosition="48" endLine="10" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="MIN_NIMBLNESS" />
+    <nodeInfo nodeId="2455624152132937618" fileName="GoblinStats.java" startLine="10" startPosition="44" endLine="11" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="MIN_TOUGHNESS" />
+    <nodeInfo nodeId="2455624152132937618" fileName="GoblinStats.java" startLine="11" startPosition="44" endLine="12" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="MIN_STRENGTH" />
+    <nodeInfo nodeId="2455624152132937618" fileName="GoblinStats.java" startLine="12" startPosition="43" endLine="13" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="MIN_ENDURANCE" />
+    <nodeInfo nodeId="2455624152132937618" fileName="GoblinStats.java" startLine="13" startPosition="44" endLine="14" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="MIN_AGILITY" />
+    <nodeInfo nodeId="2455624152132937618" fileName="GoblinStats.java" startLine="14" startPosition="42" endLine="15" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="MAX_NIMBLNESS" />
+    <nodeInfo nodeId="2455624152132937618" fileName="GoblinStats.java" startLine="15" startPosition="47" endLine="16" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="MAX_TOUGHNESS" />
+    <nodeInfo nodeId="2455624152132937618" fileName="GoblinStats.java" startLine="16" startPosition="47" endLine="17" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="MAX_STRENGTH" />
+    <nodeInfo nodeId="2455624152132937618" fileName="GoblinStats.java" startLine="17" startPosition="46" endLine="18" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="MAX_ENDURANCE" />
+    <nodeInfo nodeId="2455624152132937618" fileName="GoblinStats.java" startLine="18" startPosition="47" endLine="19" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="MAX_AGILITY" />
+    <nodeInfo nodeId="2455624152132937618" fileName="GoblinStats.java" startLine="19" startPosition="45" endLine="20" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="AVG_NIMBLNESS" />
+    <nodeInfo nodeId="2455624152132937618" fileName="GoblinStats.java" startLine="20" startPosition="47" endLine="21" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="AVG_TOUGHNESS" />
+    <nodeInfo nodeId="2455624152132937618" fileName="GoblinStats.java" startLine="21" startPosition="47" endLine="22" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="AVG_STRENGTH" />
+    <nodeInfo nodeId="2455624152132937618" fileName="GoblinStats.java" startLine="22" startPosition="46" endLine="23" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="AVG_ENDURANCE" />
+    <nodeInfo nodeId="2455624152132937618" fileName="GoblinStats.java" startLine="23" startPosition="47" endLine="24" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="AVG_AGILITY" />
+    <nodeInfo nodeId="2455624152132937618" fileName="GoblinStats.java" startLine="25" startPosition="0" endLine="27" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="GoblinStats#()V" />
+    <scopeInfo nodeId="2455624152132937618" fileName="GoblinStats.java" startLine="26" startPosition="24" endLine="26" endPosition="24" />
+    <scopeInfo nodeId="2455624152132937618" fileName="GoblinStats.java" startLine="25" startPosition="0" endLine="27" endPosition="3" />
+    <unitInfo nodeId="2455624152132937618" fileName="GoblinStats.java" startLine="7" startPosition="0" endLine="29" endPosition="0" unitName="sandbox.df2001.GoblinStats" />
+  </root>
+  <root nodeId="3848777903716127654">
+    <nodeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="8" startPosition="58" endLine="9" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myDescription" />
+    <nodeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="9" startPosition="31" endLine="10" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myRace" />
+    <nodeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="10" startPosition="26" endLine="11" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myProfession" />
+    <nodeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="13" startPosition="36" endLine="14" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="14" startPosition="59" endLine="15" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="15" startPosition="33" endLine="16" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="19" startPosition="43" endLine="20" endPosition="151" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="23" startPosition="48" endLine="24" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="27" startPosition="34" endLine="28" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="31" startPosition="45" endLine="32" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="35" startPosition="29" endLine="36" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="39" startPosition="40" endLine="40" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="43" startPosition="41" endLine="44" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="47" startPosition="52" endLine="48" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="18" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getRating#(Lsandbox/df2001/Creature;)I" />
+    <nodeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="22" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="shouldStop#(Lsandbox/df2001/Creature;)Z" />
+    <nodeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="26" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#()Ljava/lang/String;" />
+    <nodeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="30" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setDescription#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="34" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getRace#()Lsandbox/df2001/RaceEnum;" />
+    <nodeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="38" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setRace#(Lsandbox/df2001/RaceEnum;)V" />
+    <nodeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="42" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getProfession#()Lsandbox/df2001/ProfessionEnum;" />
+    <nodeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="46" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setProfession#(Lsandbox/df2001/ProfessionEnum;)V" />
+    <nodeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="12" startPosition="0" endLine="17" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="StrategyGem_cutterDwarf#()V" />
+    <scopeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="19" startPosition="43" endLine="20" endPosition="151" />
+    <scopeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="23" startPosition="48" endLine="24" endPosition="92" />
+    <scopeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="27" startPosition="34" endLine="28" endPosition="30" />
+    <scopeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="31" startPosition="45" endLine="32" endPosition="31" />
+    <scopeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="35" startPosition="29" endLine="36" endPosition="23" />
+    <scopeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="39" startPosition="40" endLine="40" endPosition="24" />
+    <scopeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="43" startPosition="41" endLine="44" endPosition="29" />
+    <scopeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="47" startPosition="52" endLine="48" endPosition="30" />
+    <scopeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="13" startPosition="36" endLine="16" endPosition="50" />
+    <scopeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
+    <scopeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
+    <scopeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
+    <scopeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="34" startPosition="0" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="38" startPosition="0" endLine="42" endPosition="0" />
+    <scopeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="42" startPosition="0" endLine="46" endPosition="0" />
+    <scopeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="46" startPosition="0" endLine="50" endPosition="0" />
+    <scopeInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="12" startPosition="0" endLine="17" endPosition="3" />
+    <unitInfo nodeId="3848777903716127654" fileName="StrategyGem_cutterDwarf.java" startLine="7" startPosition="0" endLine="51" endPosition="0" unitName="sandbox.df2001.StrategyGem_cutterDwarf" />
+  </root>
+</debugInfo>
+
