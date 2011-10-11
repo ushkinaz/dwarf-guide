@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package ru.sid0renk0.dwarfguide.dfhack;
+package net.dwarfguide.dfhack;
 
 import org.simpleframework.xml.Attribute;
 import org.slf4j.Logger;
@@ -24,48 +24,48 @@ import org.slf4j.LoggerFactory;
  * @author Dmitry Sidorenko
  */
 public class Entity {
-    @SuppressWarnings({"unused"})
-    private static final Logger LOGGER = LoggerFactory.getLogger(Entity.class);
+  @SuppressWarnings({"unused"})
+  private static final Logger LOGGER = LoggerFactory.getLogger(Entity.class);
 
-    @Attribute
-    protected int    id;
-    @Attribute
-    protected String name;
+  @Attribute
+  protected int    id;
+  @Attribute
+  protected String name;
 
 
-    public int getId() {
-        return id;
+  public int getId() {
+    return id;
+  }
+
+  public String getName() {
+    return name;
+  }
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
     }
 
-    public String getName() {
-        return name;
+    Entity entity = (Entity) o;
+
+    if (id != entity.id) {
+      return false;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) {
-            return true;
-        }
-        if (o == null || getClass() != o.getClass()) {
-            return false;
-        }
+    return true;
+  }
 
-        Entity entity = (Entity) o;
+  @Override
+  public int hashCode() {
+    return id;
+  }
 
-        if (id != entity.id) {
-            return false;
-        }
-
-        return true;
-    }
-
-    @Override
-    public int hashCode() {
-        return id;
-    }
-
-    @Override
-    public String toString() {
-        return "{name='" + name + "\'}";
-    }
+  @Override
+  public String toString() {
+    return "{name='" + name + "\'}";
+  }
 }

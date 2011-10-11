@@ -20,7 +20,7 @@
  * Date: 27.09.11
  * Time: 23:23
  */
-package ru.sid0renk0.dwarfguide.dfhack;
+package net.dwarfguide.dfhack;
 
 import com.google.inject.AbstractModule;
 import com.google.inject.name.Names;
@@ -28,13 +28,13 @@ import com.google.inject.name.Names;
 
 public class DFHackModule extends AbstractModule {
 
-    private String configFile;
+  private String configFile;
 
-    public DFHackModule(String configFile) {
-        this.configFile = configFile;
-    }
+  public DFHackModule(String configFile) {
+    this.configFile = configFile;
+  }
 
-    protected void configure() {
-        bind(String.class).annotatedWith(Names.named("dfhack.xml")).toInstance(configFile);
-    }
+  protected void configure() {
+    bind(String.class).annotatedWith(Names.named("dfhack.xml")).toInstance(configFile);
+  }
 }

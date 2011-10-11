@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package ru.sid0renk0.dwarfguide.dfhack;
+package net.dwarfguide.dfhack;
 
 /**
  * @author Dmitry Sidorenko
  */
 public enum Sex {
-    MALE,
-    FEMALE
+  MALE,
+  FEMALE
 }

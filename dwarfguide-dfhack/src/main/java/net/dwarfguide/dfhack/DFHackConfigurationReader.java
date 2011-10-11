@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package ru.sid0renk0.dwarfguide.dfhack;
+package net.dwarfguide.dfhack;
 
 import com.google.inject.Inject;
 import com.google.inject.name.Named;
@@ -30,21 +30,21 @@ import java.io.InputStream;
  * @author Dmitry Sidorenko
  */
 public class DFHackConfigurationReader {
-    @SuppressWarnings({"unused"})
-    private static final Logger LOGGER = LoggerFactory.getLogger(DFHackConfigurationReader.class);
-    private final String fileName;
+  @SuppressWarnings({"unused"})
+  private static final Logger LOGGER = LoggerFactory.getLogger(DFHackConfigurationReader.class);
+  private final String fileName;
 
-    @Inject
-    public DFHackConfigurationReader(@Named("dfhack.xml") String fileName) throws FileNotFoundException {
-        this.fileName = fileName;
-    }
+  @Inject
+  public DFHackConfigurationReader(@Named("dfhack.xml") String fileName) throws FileNotFoundException {
+    this.fileName = fileName;
+  }
 
-    public DFHackConfiguration deserialize() throws Exception {
-        Serializer serializer = new Persister();
+  public DFHackConfiguration deserialize() throws Exception {
+    Serializer serializer = new Persister();
 
-        InputStream in = null;
-        in = DFHackConfigurationReader.class.getResourceAsStream(fileName);
-        return serializer.read(DFHackConfiguration.class, in);
-    }
+    InputStream in = null;
+    in = DFHackConfigurationReader.class.getResourceAsStream(fileName);
+    return serializer.read(DFHackConfiguration.class, in);
+  }
 
 }

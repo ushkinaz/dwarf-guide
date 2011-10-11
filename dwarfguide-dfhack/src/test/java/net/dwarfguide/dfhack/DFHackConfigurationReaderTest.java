@@ -14,13 +14,11 @@
  * limitations under the License.
  */
 
-package ru.sid0renk0.dwarfguide.dfhack;
+package net.dwarfguide.dfhack;
 
 import org.junit.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import java.io.FileOutputStream;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.notNullValue;
@@ -30,39 +28,39 @@ import static org.junit.Assert.*;
  * @author Dmitry Sidorenko
  */
 public class DFHackConfigurationReaderTest {
-    @SuppressWarnings({"unused"})
-    private static final Logger LOGGER = LoggerFactory.getLogger(DFHackConfigurationReaderTest.class);
+  @SuppressWarnings({"unused"})
+  private static final Logger LOGGER = LoggerFactory.getLogger(DFHackConfigurationReaderTest.class);
 
-    DFHackConfigurationReader reader;
-    DFHackConfiguration       config;
+  DFHackConfigurationReader reader;
+  DFHackConfiguration       config;
 
-    @Before
-    public void setup() throws Exception {
-        reader = new DFHackConfigurationReader("TestMemory.xml");
-        config = reader.deserialize();
-    }
+  @Before
+  public void setup() throws Exception {
+    reader = new DFHackConfigurationReader("TestMemory.xml");
+    config = reader.deserialize();
+  }
 
-    @Test
-    public void testDeserialize() throws Exception {
+  @Test
+  public void testDeserialize() throws Exception {
 
-        assertThat(config, notNullValue());
+    assertThat(config, notNullValue());
 
-        assertThat(config.getVersions(), notNullValue());
-        assertThat(config.getVersions().size(), is(44));
+    assertThat(config.getVersions(), notNullValue());
+    assertThat(config.getVersions().size(), is(44));
 
-        assertThat(config.getBaseList(), notNullValue());
-        assertThat(config.getBaseList().size(), is(2));
+    assertThat(config.getBaseList(), notNullValue());
+    assertThat(config.getBaseList().size(), is(2));
 
-        Base base = config.getBaseByVersion("DF2010");
-        assertThat(base, notNullValue());
+    Base base = config.getBaseByVersion("DF2010");
+    assertThat(base, notNullValue());
 
-        assertThat(base.getMoods().size(), is(6));
-        assertThat(base.getTraits().size(), is(30));
-        assertThat(base.getProfessions().size(), is(106));
-        assertThat(base.getJobs().size(), is(224));
-        assertThat(base.getSkills().size(), is(116));
-        assertThat(base.getLevels().size(), is(21));
-        assertThat(base.getLabours().size(), is(73));
-    }
+    assertThat(base.getMoods().size(), is(6));
+    assertThat(base.getTraits().size(), is(30));
+    assertThat(base.getProfessions().size(), is(106));
+    assertThat(base.getJobs().size(), is(224));
+    assertThat(base.getSkills().size(), is(116));
+    assertThat(base.getLevels().size(), is(21));
+    assertThat(base.getLabours().size(), is(73));
+  }
 
 }

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package ru.sid0renk0.dwarfguide.dfhack;
+package net.dwarfguide.dfhack;
 
 import org.simpleframework.xml.Attribute;
 import org.simpleframework.xml.ElementList;
@@ -32,64 +32,64 @@ import static java.util.Collections.unmodifiableList;
 
 @Root(strict = false)
 public class Base {
-    @SuppressWarnings({"unused"})
-    private static final Logger LOGGER = LoggerFactory.getLogger(Base.class);
+  @SuppressWarnings({"unused"})
+  private static final Logger LOGGER = LoggerFactory.getLogger(Base.class);
 
-    @Attribute
-    protected String name;
+  @Attribute
+  protected String name;
 
-    @ElementList(empty = false, required = false, name = "Traits")
-    protected List<Trait> traits;
+  @ElementList(empty = false, required = false, name = "Traits")
+  protected List<Trait> traits;
 
-    @ElementList(empty = false, required = false, name = "Moods")
-    protected List<Mood> moods;
+  @ElementList(empty = false, required = false, name = "Moods")
+  protected List<Mood> moods;
 
-    @ElementList(empty = false, required = false, name = "Professions")
-    protected List<Profession> professions;
-
-
-    @ElementList(empty = false, required = false, name = "Jobs")
-    protected List<Job> jobs;
-
-    @ElementList(empty = false, required = false, name = "Skills")
-    protected List<Skill> skills;
-
-    @ElementList(empty = false, required = false, name = "Levels")
-    protected List<Level> levels;
-
-    @ElementList(empty = false, required = false, name = "Labors")
-    protected List<Labour> labours;
+  @ElementList(empty = false, required = false, name = "Professions")
+  protected List<Profession> professions;
 
 
-    public String getName() {
-        return name;
-    }
+  @ElementList(empty = false, required = false, name = "Jobs")
+  protected List<Job> jobs;
 
-    public List<Trait> getTraits() {
-        return unmodifiableList(traits);
-    }
+  @ElementList(empty = false, required = false, name = "Skills")
+  protected List<Skill> skills;
 
-    public List<Mood> getMoods() {
-        return unmodifiableList(moods);
-    }
+  @ElementList(empty = false, required = false, name = "Levels")
+  protected List<Level> levels;
 
-    public List<Profession> getProfessions() {
-        return unmodifiableList(professions);
-    }
+  @ElementList(empty = false, required = false, name = "Labors")
+  protected List<Labour> labours;
 
-    public List<Job> getJobs() {
-        return unmodifiableList(jobs);
-    }
 
-    public List<Skill> getSkills() {
-        return unmodifiableList(skills);
-    }
+  public String getName() {
+    return name;
+  }
 
-    public List<Level> getLevels() {
-        return unmodifiableList(levels);
-    }
+  public List<Trait> getTraits() {
+    return unmodifiableList(traits);
+  }
 
-    public List<Labour> getLabours() {
-        return unmodifiableList(labours);
-    }
+  public List<Mood> getMoods() {
+    return unmodifiableList(moods);
+  }
+
+  public List<Profession> getProfessions() {
+    return unmodifiableList(professions);
+  }
+
+  public List<Job> getJobs() {
+    return unmodifiableList(jobs);
+  }
+
+  public List<Skill> getSkills() {
+    return unmodifiableList(skills);
+  }
+
+  public List<Level> getLevels() {
+    return unmodifiableList(levels);
+  }
+
+  public List<Labour> getLabours() {
+    return unmodifiableList(labours);
+  }
 }
