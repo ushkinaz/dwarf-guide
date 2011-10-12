@@ -8,19 +8,24 @@ public class RatingStrategyFactory {
   }
 
   public RatingStrategy getStrategy(RaceEnum raceEnum, ProfessionEnum professionEnum) {
-    switch (raceEnum) {
-      case GOBLIN:
-        return new RatingWoodcrafterGoblin();
-      default:
-        return new RatingStrategy() {
-          public int getRating(Creature creature) {
-            return 0;
-          }
-
-          public boolean shouldStop(Creature creature) {
-            return false;
-          }
-        };
+    if (RaceEnum.DWARF == raceEnum && ProfessionEnum.WOODCRAFTER == professionEnum) {
+      return new RatingWoodcrafterDwarf();
     }
+    if (RaceEnum.GOBLIN == raceEnum && ProfessionEnum.ADMINISTRATOR == professionEnum) {
+      return new RatingAdministratorGoblin();
+    }
+    if (RaceEnum.DWARF == raceEnum && ProfessionEnum.AXEMAN == professionEnum) {
+      return new RatingAxemanDwarf();
+    }
+    // No strategy found, return NullObject 
+    return new RatingStrategy() {
+      public int getRating(Creature creature) {
+        return 0;
+      }
+
+      public boolean shouldStop(Creature creature) {
+        return false;
+      }
+    };
   }
 }

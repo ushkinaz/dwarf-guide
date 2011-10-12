@@ -5,23 +5,23 @@ package net.dwarfguide.model.core;
 import javax.annotation.Generated;
 
 @Generated(value = {"MPS"})
-public class RatingWoodcrafterGoblin implements RatingStrategy {
+public class RatingAdministratorGoblin implements RatingStrategy {
   private String myDescription;
   private RaceEnum myRace;
   private ProfessionEnum myProfession;
 
-  public RatingWoodcrafterGoblin() {
-    this.setDescription("Strategy for goblin woodcrafter");
+  public RatingAdministratorGoblin() {
+    this.setDescription("Strategy for goblin administrator");
     this.setRace(RaceEnum.GOBLIN);
-    this.setProfession(ProfessionEnum.WOODCRAFTER);
+    this.setProfession(ProfessionEnum.ADMINISTRATOR);
   }
 
   public int getRating(Creature creature) {
-    return creature.getTraitAdventure() + 2 - GoblinStats.MAX_ENDURANCE;
+    return 0;
   }
 
   public boolean shouldStop(Creature creature) {
-    return creature.getAttrAgility() < (GoblinStats.AVG_AGILITY + (GoblinStats.AVG_STRENGTH + 1));
+    return true;
   }
 
   public String getDescription() {
