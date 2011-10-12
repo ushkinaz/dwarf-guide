@@ -8,13 +8,13 @@ public class RatingStrategyFactory {
   }
 
   public RatingStrategy getStrategy(RaceEnum raceEnum, ProfessionEnum professionEnum) {
-    if (RaceEnum.DWARF == raceEnum && ProfessionEnum.WOODCRAFTER == professionEnum) {
+    if (RaceEnum.DWARF.equals(raceEnum) && ProfessionEnum.WOODCRAFTER.equals(professionEnum)) {
       return new RatingWoodcrafterDwarf();
     }
-    if (RaceEnum.GOBLIN == raceEnum && ProfessionEnum.ADMINISTRATOR == professionEnum) {
+    if (RaceEnum.GOBLIN.equals(raceEnum) && ProfessionEnum.ADMINISTRATOR.equals(professionEnum)) {
       return new RatingAdministratorGoblin();
     }
-    if (RaceEnum.DWARF == raceEnum && ProfessionEnum.AXEMAN == professionEnum) {
+    if (RaceEnum.DWARF.equals(raceEnum) && ProfessionEnum.AXEMAN.equals(professionEnum)) {
       return new RatingAxemanDwarf();
     }
     // No strategy found, return NullObject 
