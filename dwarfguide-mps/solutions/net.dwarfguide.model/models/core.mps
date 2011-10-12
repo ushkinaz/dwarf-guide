@@ -3186,6 +3186,81 @@
       <property name="identifier" nameId="2ivj.7336574368822048410" value="4" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="attributes" />
     </node>
+    <node type="2ivj.Attribute" typeId="2ivj.2935713650494001850" id="4936626689121327911">
+      <property name="name" nameId="tpck.1169194664001" value="Recuperation" />
+      <property name="identifier" nameId="2ivj.7336574368822048410" value="6" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="attributes" />
+    </node>
+    <node type="2ivj.Attribute" typeId="2ivj.2935713650494001850" id="4936626689121327912">
+      <property name="name" nameId="tpck.1169194664001" value="DiseaseResistance" />
+      <property name="identifier" nameId="2ivj.7336574368822048410" value="7" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="attributes" />
+    </node>
+    <node type="2ivj.Attribute" typeId="2ivj.2935713650494001850" id="4936626689121327913">
+      <property name="name" nameId="tpck.1169194664001" value="Willpower" />
+      <property name="identifier" nameId="2ivj.7336574368822048410" value="8" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="attributes" />
+    </node>
+    <node type="2ivj.Attribute" typeId="2ivj.2935713650494001850" id="4936626689121327914">
+      <property name="name" nameId="tpck.1169194664001" value="Memory" />
+      <property name="identifier" nameId="2ivj.7336574368822048410" value="9" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="attributes" />
+    </node>
+    <node type="2ivj.Attribute" typeId="2ivj.2935713650494001850" id="4936626689121327915">
+      <property name="name" nameId="tpck.1169194664001" value="Focus" />
+      <property name="identifier" nameId="2ivj.7336574368822048410" value="20" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="attributes" />
+    </node>
+    <node type="2ivj.Attribute" typeId="2ivj.2935713650494001850" id="4936626689121327916">
+      <property name="name" nameId="tpck.1169194664001" value="Intuition" />
+      <property name="identifier" nameId="2ivj.7336574368822048410" value="10" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="attributes" />
+    </node>
+    <node type="2ivj.Attribute" typeId="2ivj.2935713650494001850" id="4936626689121327917">
+      <property name="name" nameId="tpck.1169194664001" value="Patience" />
+      <property name="identifier" nameId="2ivj.7336574368822048410" value="11" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="attributes" />
+    </node>
+    <node type="2ivj.Attribute" typeId="2ivj.2935713650494001850" id="4936626689121327918">
+      <property name="name" nameId="tpck.1169194664001" value="Empathy" />
+      <property name="identifier" nameId="2ivj.7336574368822048410" value="12" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="attributes" />
+    </node>
+    <node type="2ivj.Attribute" typeId="2ivj.2935713650494001850" id="4936626689121327919">
+      <property name="name" nameId="tpck.1169194664001" value="SocialAwareness" />
+      <property name="identifier" nameId="2ivj.7336574368822048410" value="13" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="attributes" />
+    </node>
+    <node type="2ivj.Attribute" typeId="2ivj.2935713650494001850" id="4936626689121327920">
+      <property name="name" nameId="tpck.1169194664001" value="Creatvity" />
+      <property name="identifier" nameId="2ivj.7336574368822048410" value="14" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="attributes" />
+    </node>
+    <node type="2ivj.Attribute" typeId="2ivj.2935713650494001850" id="4936626689121327921">
+      <property name="name" nameId="tpck.1169194664001" value="Musicality" />
+      <property name="identifier" nameId="2ivj.7336574368822048410" value="15" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="attributes" />
+    </node>
+    <node type="2ivj.Attribute" typeId="2ivj.2935713650494001850" id="4936626689121327922">
+      <property name="name" nameId="tpck.1169194664001" value="LinguisticAbility" />
+      <property name="identifier" nameId="2ivj.7336574368822048410" value="17" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="attributes" />
+    </node>
+    <node type="2ivj.Attribute" typeId="2ivj.2935713650494001850" id="4936626689121327923">
+      <property name="name" nameId="tpck.1169194664001" value="SpatialSense" />
+      <property name="identifier" nameId="2ivj.7336574368822048410" value="18" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="attributes" />
+    </node>
+    <node type="2ivj.Attribute" typeId="2ivj.2935713650494001850" id="4936626689121327924">
+      <property name="name" nameId="tpck.1169194664001" value="KinaestheticSense" />
+      <property name="identifier" nameId="2ivj.7336574368822048410" value="19" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="attributes" />
+    </node>
+    <node type="2ivj.Attribute" typeId="2ivj.2935713650494001850" id="4936626689121327925">
+      <property name="name" nameId="tpck.1169194664001" value="AnalyticalAbility" />
+      <property name="identifier" nameId="2ivj.7336574368822048410" value="16" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="attributes" />
+    </node>
   </roots>
   <root id="1147483649" />
   <root id="1147483650" />
@@ -4094,5 +4169,20 @@
   <root id="2455624152132987906" />
   <root id="8701932881020747800" />
   <root id="8701932881020747802" />
+  <root id="4936626689121327911" />
+  <root id="4936626689121327912" />
+  <root id="4936626689121327913" />
+  <root id="4936626689121327914" />
+  <root id="4936626689121327915" />
+  <root id="4936626689121327916" />
+  <root id="4936626689121327917" />
+  <root id="4936626689121327918" />
+  <root id="4936626689121327919" />
+  <root id="4936626689121327920" />
+  <root id="4936626689121327921" />
+  <root id="4936626689121327922" />
+  <root id="4936626689121327923" />
+  <root id="4936626689121327924" />
+  <root id="4936626689121327925" />
 </model>
 
