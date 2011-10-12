@@ -99,7 +99,7 @@
       <property name="identifier" nameId="2ivj.7336574368822048410" value="26" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="labours" />
     </node>
-    <node type="2ivj.Strategy" typeId="2ivj.3848777903716482830" id="3848777903716127654" />
+    <node type="2ivj.RatingStrategy" typeId="2ivj.3848777903716482830" id="3848777903716127654" />
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="6143566370761541175">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
       <property name="name" nameId="tpck.1169194664001" value="Gem Cutter" />

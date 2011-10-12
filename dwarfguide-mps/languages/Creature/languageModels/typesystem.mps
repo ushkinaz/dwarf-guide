@@ -145,7 +145,7 @@
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="3848777903716482986">
       <property name="name" nameId="tpck.1169194664001" value="strategy" />
-      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="2ivj.3848777903716482830" resolveInfo="Strategy" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="2ivj.3848777903716482830" resolveInfo="RatingStrategy" />
     </node>
   </root>
   <root id="297736238471159095">

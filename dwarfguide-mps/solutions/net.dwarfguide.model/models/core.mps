@@ -3144,7 +3144,7 @@
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
-    <node type="2ivj.Strategy" typeId="2ivj.3848777903716482830" id="655979893346440619" />
+    <node type="2ivj.RatingStrategy" typeId="2ivj.3848777903716482830" id="655979893346440619" />
     <node type="2ivj.Race" typeId="2ivj.3169390138954984125" id="2455624152132595976">
       <property name="name" nameId="tpck.1169194664001" value="Dwarf" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="2" />
@@ -3996,7 +3996,6 @@
         </node>
       </node>
       <node role="leftExpression" roleId="tpee.1081773367580" type="2ivj.AttributeRef" typeId="2ivj.3169390138954787329" id="655979893346440710">
-        <property name="left_transform_hint" value="true" />
         <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747801" resolveInfo="Agility" />
       </node>
     </node>

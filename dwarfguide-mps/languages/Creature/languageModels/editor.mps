@@ -73,7 +73,7 @@
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="3848777903716482837">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="strategy" />
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.3848777903716482830" resolveInfo="Strategy" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.3848777903716482830" resolveInfo="RatingStrategy" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="297736238471143925">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="statistics" />

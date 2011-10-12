@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="CreatureLoader.java" startLine="7" startPosition="0" endLine="10" endPosition="0" unitName="net.dwarfguide.model.core.CreatureLoader" />
-  <unitInfo fileName="Strategy.java" startLine="6" startPosition="0" endLine="10" endPosition="0" unitName="net.dwarfguide.model.core.Strategy" />
-  <unitInfo fileName="CreatureRunesmithLoader.java" startLine="10" startPosition="0" endLine="20" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader" />
+  <unitInfo fileName="CreatureLoader.java" startLine="8" startPosition="0" endLine="12" endPosition="0" unitName="net.dwarfguide.model.core.CreatureLoader" />
+  <unitInfo fileName="RatingStrategy.java" startLine="7" startPosition="0" endLine="12" endPosition="0" unitName="net.dwarfguide.model.core.RatingStrategy" />
+  <unitInfo fileName="RatingStrategyFactory.java" startLine="15" startPosition="19" endLine="23" endPosition="9" unitName="net.dwarfguide.model.core.RatingStrategyFactory$1" />
+  <unitInfo fileName="CreatureRunesmithLoader.java" startLine="11" startPosition="0" endLine="22" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader" />
+  <unitInfo fileName="RatingStrategyFactory.java" startLine="6" startPosition="0" endLine="27" endPosition="0" unitName="net.dwarfguide.model.core.RatingStrategyFactory" />
   <unitInfo fileName="AttributeEnum.java" startLine="7" startPosition="0" endLine="40" endPosition="0" unitName="net.dwarfguide.model.core.AttributeEnum" />
   <unitInfo fileName="RaceEnum.java" startLine="7" startPosition="0" endLine="45" endPosition="0" unitName="net.dwarfguide.model.core.RaceEnum" />
   <unitInfo fileName="TraitInstance.java" startLine="8" startPosition="0" endLine="46" endPosition="0" unitName="net.dwarfguide.model.core.TraitInstance" />
@@ -55,48 +57,48 @@
     <unitInfo nodeId="2455624152132937618" fileName="GoblinStats.java" startLine="7" startPosition="0" endLine="29" endPosition="0" unitName="net.dwarfguide.model.core.GoblinStats" />
   </root>
   <root nodeId="655979893346440619">
-    <nodeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="8" startPosition="60" endLine="9" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myDescription" />
-    <nodeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="9" startPosition="31" endLine="10" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myRace" />
-    <nodeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="10" startPosition="26" endLine="11" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myProfession" />
-    <nodeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="13" startPosition="38" endLine="14" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="14" startPosition="59" endLine="15" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="15" startPosition="34" endLine="16" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="19" startPosition="43" endLine="20" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="23" startPosition="48" endLine="24" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="27" startPosition="34" endLine="28" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="31" startPosition="45" endLine="32" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="35" startPosition="29" endLine="36" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="39" startPosition="40" endLine="40" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="43" startPosition="41" endLine="44" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="47" startPosition="52" endLine="48" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="18" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getRating#(Lnet/dwarfguide/model/core/Creature;)I" />
-    <nodeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="22" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="shouldStop#(Lnet/dwarfguide/model/core/Creature;)Z" />
-    <nodeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="26" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#()Ljava/lang/String;" />
-    <nodeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="30" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setDescription#(Ljava/lang/String;)V" />
-    <nodeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="34" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getRace#()Lnet/dwarfguide/model/core/RaceEnum;" />
-    <nodeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="38" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setRace#(Lnet/dwarfguide/model/core/RaceEnum;)V" />
-    <nodeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="42" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getProfession#()Lnet/dwarfguide/model/core/ProfessionEnum;" />
-    <nodeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="46" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setProfession#(Lnet/dwarfguide/model/core/ProfessionEnum;)V" />
-    <nodeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="12" startPosition="0" endLine="17" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="StrategyWoodcrafterGoblin#()V" />
-    <scopeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="19" startPosition="43" endLine="20" endPosition="72" />
-    <scopeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="23" startPosition="48" endLine="24" endPosition="98" />
-    <scopeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="27" startPosition="34" endLine="28" endPosition="30" />
-    <scopeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="31" startPosition="45" endLine="32" endPosition="31" />
-    <scopeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="35" startPosition="29" endLine="36" endPosition="23" />
-    <scopeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="39" startPosition="40" endLine="40" endPosition="24" />
-    <scopeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="43" startPosition="41" endLine="44" endPosition="29" />
-    <scopeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="47" startPosition="52" endLine="48" endPosition="30" />
-    <scopeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="13" startPosition="38" endLine="16" endPosition="51" />
-    <scopeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
-    <scopeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
-    <scopeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
-    <scopeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="34" startPosition="0" endLine="38" endPosition="0" />
-    <scopeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="38" startPosition="0" endLine="42" endPosition="0" />
-    <scopeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="42" startPosition="0" endLine="46" endPosition="0" />
-    <scopeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="46" startPosition="0" endLine="50" endPosition="0" />
-    <scopeInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="12" startPosition="0" endLine="17" endPosition="3" />
-    <unitInfo nodeId="655979893346440619" fileName="StrategyWoodcrafterGoblin.java" startLine="7" startPosition="0" endLine="51" endPosition="0" unitName="net.dwarfguide.model.core.StrategyWoodcrafterGoblin" />
+    <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="8" startPosition="64" endLine="9" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myDescription" />
+    <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="9" startPosition="31" endLine="10" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myRace" />
+    <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="10" startPosition="26" endLine="11" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myProfession" />
+    <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="13" startPosition="36" endLine="14" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="14" startPosition="59" endLine="15" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="15" startPosition="34" endLine="16" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="19" startPosition="43" endLine="20" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="23" startPosition="48" endLine="24" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="27" startPosition="34" endLine="28" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="31" startPosition="45" endLine="32" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="35" startPosition="29" endLine="36" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="39" startPosition="40" endLine="40" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="43" startPosition="41" endLine="44" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="47" startPosition="52" endLine="48" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="18" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getRating#(Lnet/dwarfguide/model/core/Creature;)I" />
+    <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="22" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="shouldStop#(Lnet/dwarfguide/model/core/Creature;)Z" />
+    <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="26" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#()Ljava/lang/String;" />
+    <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="30" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setDescription#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="34" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getRace#()Lnet/dwarfguide/model/core/RaceEnum;" />
+    <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="38" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setRace#(Lnet/dwarfguide/model/core/RaceEnum;)V" />
+    <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="42" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getProfession#()Lnet/dwarfguide/model/core/ProfessionEnum;" />
+    <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="46" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setProfession#(Lnet/dwarfguide/model/core/ProfessionEnum;)V" />
+    <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="12" startPosition="0" endLine="17" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="RatingWoodcrafterGoblin#()V" />
+    <scopeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="19" startPosition="43" endLine="20" endPosition="72" />
+    <scopeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="23" startPosition="48" endLine="24" endPosition="98" />
+    <scopeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="27" startPosition="34" endLine="28" endPosition="30" />
+    <scopeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="31" startPosition="45" endLine="32" endPosition="31" />
+    <scopeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="35" startPosition="29" endLine="36" endPosition="23" />
+    <scopeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="39" startPosition="40" endLine="40" endPosition="24" />
+    <scopeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="43" startPosition="41" endLine="44" endPosition="29" />
+    <scopeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="47" startPosition="52" endLine="48" endPosition="30" />
+    <scopeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="13" startPosition="36" endLine="16" endPosition="51" />
+    <scopeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
+    <scopeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
+    <scopeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
+    <scopeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="34" startPosition="0" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="38" startPosition="0" endLine="42" endPosition="0" />
+    <scopeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="42" startPosition="0" endLine="46" endPosition="0" />
+    <scopeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="46" startPosition="0" endLine="50" endPosition="0" />
+    <scopeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="12" startPosition="0" endLine="17" endPosition="3" />
+    <unitInfo nodeId="655979893346440619" fileName="RatingWoodcrafterGoblin.java" startLine="7" startPosition="0" endLine="51" endPosition="0" unitName="net.dwarfguide.model.core.RatingWoodcrafterGoblin" />
   </root>
 </debugInfo>
 

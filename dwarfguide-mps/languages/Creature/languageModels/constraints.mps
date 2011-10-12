@@ -16,7 +16,7 @@
     </node>
     <node type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="3848777903716482883">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="strategy" />
-      <link role="concept" roleId="tp1t.1213093996982" targetNodeId="2ivj.3848777903716482830" resolveInfo="Strategy" />
+      <link role="concept" roleId="tp1t.1213093996982" targetNodeId="2ivj.3848777903716482830" resolveInfo="RatingStrategy" />
     </node>
   </roots>
   <root id="627290435249133500">
