@@ -2401,693 +2401,693 @@
       <property name="virtualPackage" nameId="tpck.1193676396447" value="traits" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484092">
-      <property name="name" nameId="tpck.1169194664001" value="MINER" />
+      <property name="name" nameId="tpck.1169194664001" value="Miner" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="0" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484093">
-      <property name="name" nameId="tpck.1169194664001" value="WOODWORKER" />
+      <property name="name" nameId="tpck.1169194664001" value="Woodworker" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="1" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484094">
-      <property name="name" nameId="tpck.1169194664001" value="CARPENTER" />
+      <property name="name" nameId="tpck.1169194664001" value="Carpenter" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="2" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484095">
-      <property name="name" nameId="tpck.1169194664001" value="BOWYER" />
+      <property name="name" nameId="tpck.1169194664001" value="Bowyer" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="3" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484096">
-      <property name="name" nameId="tpck.1169194664001" value="WOODCUTTER" />
+      <property name="name" nameId="tpck.1169194664001" value="Woodcutter" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="4" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484097">
-      <property name="name" nameId="tpck.1169194664001" value="STONEWORKER" />
+      <property name="name" nameId="tpck.1169194664001" value="Stoneworker" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="5" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484098">
-      <property name="name" nameId="tpck.1169194664001" value="ENGRAVER" />
+      <property name="name" nameId="tpck.1169194664001" value="Engraver" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="6" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484099">
-      <property name="name" nameId="tpck.1169194664001" value="MASON" />
+      <property name="name" nameId="tpck.1169194664001" value="Mason" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="7" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484100">
-      <property name="name" nameId="tpck.1169194664001" value="RANGER" />
+      <property name="name" nameId="tpck.1169194664001" value="Ranger" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="8" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484101">
-      <property name="name" nameId="tpck.1169194664001" value="ANIMAL_CARETAKER" />
+      <property name="name" nameId="tpck.1169194664001" value="Animal Caretaker" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="9" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484102">
-      <property name="name" nameId="tpck.1169194664001" value="ANIMAL_TRAINER" />
+      <property name="name" nameId="tpck.1169194664001" value="Animal Trainer" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="10" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484103">
-      <property name="name" nameId="tpck.1169194664001" value="HUNTER" />
+      <property name="name" nameId="tpck.1169194664001" value="Hunter" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="11" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484104">
-      <property name="name" nameId="tpck.1169194664001" value="TRAPPER" />
+      <property name="name" nameId="tpck.1169194664001" value="Trapper" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="12" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484105">
-      <property name="name" nameId="tpck.1169194664001" value="ANIMAL_DISSECTOR" />
+      <property name="name" nameId="tpck.1169194664001" value="Animal Dissector" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="13" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484106">
-      <property name="name" nameId="tpck.1169194664001" value="METALSMITH" />
+      <property name="name" nameId="tpck.1169194664001" value="Metalsmith" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="14" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484107">
-      <property name="name" nameId="tpck.1169194664001" value="FURNACE_OPERATOR" />
+      <property name="name" nameId="tpck.1169194664001" value="Furnace Operator" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="15" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484108">
-      <property name="name" nameId="tpck.1169194664001" value="WEAPONSMITH" />
+      <property name="name" nameId="tpck.1169194664001" value="Weaponsmith" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="16" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484109">
-      <property name="name" nameId="tpck.1169194664001" value="ARMORER" />
+      <property name="name" nameId="tpck.1169194664001" value="Armorer" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="17" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484110">
-      <property name="name" nameId="tpck.1169194664001" value="BLACKSMITH" />
+      <property name="name" nameId="tpck.1169194664001" value="Blacksmith" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="18" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484111">
-      <property name="name" nameId="tpck.1169194664001" value="METALCRAFTER" />
+      <property name="name" nameId="tpck.1169194664001" value="Metalcrafter" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="19" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484112">
-      <property name="name" nameId="tpck.1169194664001" value="JEWELER" />
+      <property name="name" nameId="tpck.1169194664001" value="Jeweler" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="20" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484113">
-      <property name="name" nameId="tpck.1169194664001" value="GEM_CUTTER" />
+      <property name="name" nameId="tpck.1169194664001" value="Gem Cutter" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="21" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484114">
-      <property name="name" nameId="tpck.1169194664001" value="GEM_SETTER" />
+      <property name="name" nameId="tpck.1169194664001" value="Gem Setter" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="22" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484115">
-      <property name="name" nameId="tpck.1169194664001" value="CRAFTSMAN" />
+      <property name="name" nameId="tpck.1169194664001" value="Craftsman" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="23" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484116">
-      <property name="name" nameId="tpck.1169194664001" value="WOODCRAFTER" />
+      <property name="name" nameId="tpck.1169194664001" value="Woodcrafter" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="24" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484117">
-      <property name="name" nameId="tpck.1169194664001" value="STONECRAFTER" />
+      <property name="name" nameId="tpck.1169194664001" value="Stonecrafter" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="25" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484118">
-      <property name="name" nameId="tpck.1169194664001" value="LEATHERWORKER" />
+      <property name="name" nameId="tpck.1169194664001" value="Leatherworker" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="26" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484119">
-      <property name="name" nameId="tpck.1169194664001" value="BONE_CARVER" />
+      <property name="name" nameId="tpck.1169194664001" value="Bone Carver" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="27" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484120">
-      <property name="name" nameId="tpck.1169194664001" value="WEAVER" />
+      <property name="name" nameId="tpck.1169194664001" value="Weaver" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="28" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484121">
-      <property name="name" nameId="tpck.1169194664001" value="CLOTHIER" />
+      <property name="name" nameId="tpck.1169194664001" value="Clothier" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="29" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484122">
-      <property name="name" nameId="tpck.1169194664001" value="GLASSMAKER" />
+      <property name="name" nameId="tpck.1169194664001" value="Glassmaker" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="30" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484123">
-      <property name="name" nameId="tpck.1169194664001" value="STRAND_EXTRACTOR" />
+      <property name="name" nameId="tpck.1169194664001" value="Strand Extractor" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="31" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484124">
-      <property name="name" nameId="tpck.1169194664001" value="FISHERY_WORKER" />
+      <property name="name" nameId="tpck.1169194664001" value="Fishery Worker" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="32" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484125">
-      <property name="name" nameId="tpck.1169194664001" value="FISHERMAN" />
+      <property name="name" nameId="tpck.1169194664001" value="Fisherman" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="33" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484126">
-      <property name="name" nameId="tpck.1169194664001" value="FISH_DISSECTOR" />
+      <property name="name" nameId="tpck.1169194664001" value="Fish Dissector" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="34" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484127">
-      <property name="name" nameId="tpck.1169194664001" value="FISH_CLEANER" />
+      <property name="name" nameId="tpck.1169194664001" value="Fish Cleaner" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="35" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484128">
-      <property name="name" nameId="tpck.1169194664001" value="FARMER" />
+      <property name="name" nameId="tpck.1169194664001" value="Farmer" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="36" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484129">
-      <property name="name" nameId="tpck.1169194664001" value="CHEESE_MAKER" />
+      <property name="name" nameId="tpck.1169194664001" value="Cheese Maker" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="37" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484130">
-      <property name="name" nameId="tpck.1169194664001" value="MILKER" />
+      <property name="name" nameId="tpck.1169194664001" value="Milker" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="38" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484131">
-      <property name="name" nameId="tpck.1169194664001" value="COOK" />
+      <property name="name" nameId="tpck.1169194664001" value="Cook" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="39" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484132">
-      <property name="name" nameId="tpck.1169194664001" value="THRESHER" />
+      <property name="name" nameId="tpck.1169194664001" value="Thresher" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="40" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484133">
-      <property name="name" nameId="tpck.1169194664001" value="MILLER" />
+      <property name="name" nameId="tpck.1169194664001" value="Miller" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="41" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484134">
-      <property name="name" nameId="tpck.1169194664001" value="BUTCHER" />
+      <property name="name" nameId="tpck.1169194664001" value="Butcher" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="42" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484135">
-      <property name="name" nameId="tpck.1169194664001" value="TANNER" />
+      <property name="name" nameId="tpck.1169194664001" value="Tanner" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="43" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484136">
-      <property name="name" nameId="tpck.1169194664001" value="DYER" />
+      <property name="name" nameId="tpck.1169194664001" value="Dyer" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="44" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484137">
-      <property name="name" nameId="tpck.1169194664001" value="PLANTER" />
+      <property name="name" nameId="tpck.1169194664001" value="Planter" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="45" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484138">
-      <property name="name" nameId="tpck.1169194664001" value="HERBALIST" />
+      <property name="name" nameId="tpck.1169194664001" value="Herbalist" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="46" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484139">
-      <property name="name" nameId="tpck.1169194664001" value="BREWER" />
+      <property name="name" nameId="tpck.1169194664001" value="Brewer" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="47" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484140">
-      <property name="name" nameId="tpck.1169194664001" value="SOAP_MAKER" />
+      <property name="name" nameId="tpck.1169194664001" value="Soap Maker" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="48" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484141">
-      <property name="name" nameId="tpck.1169194664001" value="POTASH_MAKER" />
+      <property name="name" nameId="tpck.1169194664001" value="Potash Maker" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="49" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484142">
-      <property name="name" nameId="tpck.1169194664001" value="LYE_MAKER" />
+      <property name="name" nameId="tpck.1169194664001" value="Lye Maker" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="50" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484143">
-      <property name="name" nameId="tpck.1169194664001" value="WOOD_BURNER" />
+      <property name="name" nameId="tpck.1169194664001" value="Wood Burner" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="51" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484144">
-      <property name="name" nameId="tpck.1169194664001" value="ENGINEER" />
+      <property name="name" nameId="tpck.1169194664001" value="Engineer" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="52" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484145">
-      <property name="name" nameId="tpck.1169194664001" value="MECHANIC" />
+      <property name="name" nameId="tpck.1169194664001" value="Mechanic" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="53" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484146">
-      <property name="name" nameId="tpck.1169194664001" value="SIEGE_ENGINEER" />
+      <property name="name" nameId="tpck.1169194664001" value="Siege Engineer" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="54" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484147">
-      <property name="name" nameId="tpck.1169194664001" value="SIEGE_OPERATOR" />
+      <property name="name" nameId="tpck.1169194664001" value="Siege Operator" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="55" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484148">
-      <property name="name" nameId="tpck.1169194664001" value="PUMP_OPERATOR" />
+      <property name="name" nameId="tpck.1169194664001" value="Pump Operator" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="56" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484149">
-      <property name="name" nameId="tpck.1169194664001" value="CLERK" />
+      <property name="name" nameId="tpck.1169194664001" value="Clerk" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="57" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484150">
-      <property name="name" nameId="tpck.1169194664001" value="ADMINISTRATOR" />
+      <property name="name" nameId="tpck.1169194664001" value="Administrator" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="58" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484151">
-      <property name="name" nameId="tpck.1169194664001" value="TRADER" />
+      <property name="name" nameId="tpck.1169194664001" value="Trader" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="59" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484152">
-      <property name="name" nameId="tpck.1169194664001" value="ARCHITECT" />
+      <property name="name" nameId="tpck.1169194664001" value="Architect" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="60" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484153">
-      <property name="name" nameId="tpck.1169194664001" value="ALCHEMIST" />
+      <property name="name" nameId="tpck.1169194664001" value="Alchemist" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="61" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484154">
-      <property name="name" nameId="tpck.1169194664001" value="DOCTOR" />
+      <property name="name" nameId="tpck.1169194664001" value="Doctor" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="62" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484155">
-      <property name="name" nameId="tpck.1169194664001" value="DIAGNOSER" />
+      <property name="name" nameId="tpck.1169194664001" value="Diagnoser" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="63" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484156">
-      <property name="name" nameId="tpck.1169194664001" value="BONE_SETTER" />
+      <property name="name" nameId="tpck.1169194664001" value="Bone Setter" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="64" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484157">
-      <property name="name" nameId="tpck.1169194664001" value="SUTURER" />
+      <property name="name" nameId="tpck.1169194664001" value="Suturer" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="65" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484158">
-      <property name="name" nameId="tpck.1169194664001" value="SURGEON" />
+      <property name="name" nameId="tpck.1169194664001" value="Surgeon" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="66" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484159">
-      <property name="name" nameId="tpck.1169194664001" value="MERCHANT" />
+      <property name="name" nameId="tpck.1169194664001" value="Merchant" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="67" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484160">
-      <property name="name" nameId="tpck.1169194664001" value="HAMMERMAN" />
+      <property name="name" nameId="tpck.1169194664001" value="Hammerman" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="68" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="true" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484161">
-      <property name="name" nameId="tpck.1169194664001" value="MASTER_HAMMERMAN" />
+      <property name="name" nameId="tpck.1169194664001" value="Master Hammerman" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="69" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="true" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484162">
-      <property name="name" nameId="tpck.1169194664001" value="SPEARMAN" />
+      <property name="name" nameId="tpck.1169194664001" value="Spearman" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="70" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="true" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484163">
-      <property name="name" nameId="tpck.1169194664001" value="MASTER_SPEARMAN" />
+      <property name="name" nameId="tpck.1169194664001" value="Master Spearman" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="71" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="true" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484164">
-      <property name="name" nameId="tpck.1169194664001" value="CROSSBOWMAN" />
+      <property name="name" nameId="tpck.1169194664001" value="Crossbowman" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="72" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="true" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484165">
-      <property name="name" nameId="tpck.1169194664001" value="MASTER_CROSSBOWMAN" />
+      <property name="name" nameId="tpck.1169194664001" value="Master Crossbowman" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="73" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="true" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484166">
-      <property name="name" nameId="tpck.1169194664001" value="WRESTLER" />
+      <property name="name" nameId="tpck.1169194664001" value="Wrestler" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="74" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="true" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484167">
-      <property name="name" nameId="tpck.1169194664001" value="MASTER_WRESTLER" />
+      <property name="name" nameId="tpck.1169194664001" value="Master Wrestler" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="75" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="true" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484168">
-      <property name="name" nameId="tpck.1169194664001" value="AXEMAN" />
+      <property name="name" nameId="tpck.1169194664001" value="Axeman" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="76" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="true" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484169">
-      <property name="name" nameId="tpck.1169194664001" value="MASTER_AXEMAN" />
+      <property name="name" nameId="tpck.1169194664001" value="Master Axeman" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="77" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="true" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484170">
-      <property name="name" nameId="tpck.1169194664001" value="SWORDSMAN" />
+      <property name="name" nameId="tpck.1169194664001" value="Swordsman" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="78" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="true" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484171">
-      <property name="name" nameId="tpck.1169194664001" value="MASTER_SWORDSMAN" />
+      <property name="name" nameId="tpck.1169194664001" value="Master Swordsman" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="79" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="true" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484172">
-      <property name="name" nameId="tpck.1169194664001" value="MACEMAN" />
+      <property name="name" nameId="tpck.1169194664001" value="Maceman" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="80" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="true" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484173">
-      <property name="name" nameId="tpck.1169194664001" value="MASTER_MACEMAN" />
+      <property name="name" nameId="tpck.1169194664001" value="Master Maceman" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="81" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="true" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484174">
-      <property name="name" nameId="tpck.1169194664001" value="PIKEMAN" />
+      <property name="name" nameId="tpck.1169194664001" value="Pikeman" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="82" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="true" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484175">
-      <property name="name" nameId="tpck.1169194664001" value="MASTER_PIKEMAN" />
+      <property name="name" nameId="tpck.1169194664001" value="Master Pikeman" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="83" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="true" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484176">
-      <property name="name" nameId="tpck.1169194664001" value="BOWMAN" />
+      <property name="name" nameId="tpck.1169194664001" value="Bowman" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="84" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="true" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484177">
-      <property name="name" nameId="tpck.1169194664001" value="MASTER_BOWMAN" />
+      <property name="name" nameId="tpck.1169194664001" value="Master Bowman" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="85" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="true" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484178">
-      <property name="name" nameId="tpck.1169194664001" value="BLOWGUNMAN" />
+      <property name="name" nameId="tpck.1169194664001" value="Blowgunman" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="86" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="true" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484179">
-      <property name="name" nameId="tpck.1169194664001" value="MASTER_BLOWGUNMAN" />
+      <property name="name" nameId="tpck.1169194664001" value="Master Blowgunman" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="87" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="true" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484180">
-      <property name="name" nameId="tpck.1169194664001" value="LASHER" />
+      <property name="name" nameId="tpck.1169194664001" value="Lasher" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="88" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="true" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484181">
-      <property name="name" nameId="tpck.1169194664001" value="MASTER_LASHER" />
+      <property name="name" nameId="tpck.1169194664001" value="Master Lasher" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="89" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="true" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484182">
-      <property name="name" nameId="tpck.1169194664001" value="RECRUIT" />
+      <property name="name" nameId="tpck.1169194664001" value="Recruit" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="90" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="true" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484183">
-      <property name="name" nameId="tpck.1169194664001" value="TRAINED_HUNTER" />
+      <property name="name" nameId="tpck.1169194664001" value="Trained Hunter" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="91" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484184">
-      <property name="name" nameId="tpck.1169194664001" value="TRAINED_WAR" />
+      <property name="name" nameId="tpck.1169194664001" value="Trained War" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="92" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484185">
-      <property name="name" nameId="tpck.1169194664001" value="MASTER_THIEF" />
+      <property name="name" nameId="tpck.1169194664001" value="Master Thief" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="93" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484186">
-      <property name="name" nameId="tpck.1169194664001" value="THIEF" />
+      <property name="name" nameId="tpck.1169194664001" value="Thief" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="94" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484187">
-      <property name="name" nameId="tpck.1169194664001" value="STANDARD" />
+      <property name="name" nameId="tpck.1169194664001" value="Standard" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="95" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484188">
-      <property name="name" nameId="tpck.1169194664001" value="CHILD" />
+      <property name="name" nameId="tpck.1169194664001" value="Child" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="96" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="false" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484189">
-      <property name="name" nameId="tpck.1169194664001" value="BABY" />
+      <property name="name" nameId="tpck.1169194664001" value="Baby" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="97" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="false" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484190">
-      <property name="name" nameId="tpck.1169194664001" value="DRUNK" />
+      <property name="name" nameId="tpck.1169194664001" value="Drunk" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="98" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="false" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
@@ -3129,14 +3129,14 @@
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484196">
-      <property name="name" nameId="tpck.1169194664001" value="BEE_KEEPER" />
+      <property name="name" nameId="tpck.1169194664001" value="Bee Keeper" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="104" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions" />
     </node>
     <node type="2ivj.Profession" typeId="2ivj.3025991346594277152" id="1147484197">
-      <property name="name" nameId="tpck.1169194664001" value="WAX_WORKER" />
+      <property name="name" nameId="tpck.1169194664001" value="Wax Worker" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="105" />
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
       <property name="military" nameId="2ivj.3025991346594277156" value="false" />
