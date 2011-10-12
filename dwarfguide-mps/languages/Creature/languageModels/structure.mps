@@ -86,7 +86,7 @@
       <property name="virtualPackage" nameId="tpck.1193676396447" value="interfaces" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3169390138954984125">
-      <property name="name" nameId="tpck.1169194664001" value="Creature" />
+      <property name="name" nameId="tpck.1169194664001" value="Race" />
       <property name="rootable" nameId="tpce.1096454100552" value="true" />
       <property name="iconPath" nameId="tpce.1160488491229" value="${DWARVEN_PATH}/dwarfguide-resources/icons/race.png" />
       <property name="helpURL" nameId="tpce.2465654535473034588" value="http://df.magmawiki.com/index.php/Creature" />
@@ -341,11 +341,11 @@
       <link role="target" roleId="tpce.1071599976176" targetNodeId="2455624152132514798" resolveInfo="AttributeStatistic" />
     </node>
     <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="2455624152132937681">
-      <property name="value" nameId="tpce.1105725733873" value="creature" />
+      <property name="value" nameId="tpce.1105725733873" value="race" />
       <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
     </node>
     <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="3169390138954984129">
-      <property name="value" nameId="tpce.1105725733873" value="Creature" />
+      <property name="value" nameId="tpce.1105725733873" value="Race" />
       <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473914776" resolveInfo="shortDescription" />
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="9217530999004665846">
@@ -401,7 +401,7 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <property name="role" nameId="tpce.1071599776563" value="creature" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="3169390138954984125" resolveInfo="Creature" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="3169390138954984125" resolveInfo="Race" />
     </node>
   </root>
   <root id="3848777903716151683">

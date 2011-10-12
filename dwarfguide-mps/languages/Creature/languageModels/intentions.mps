@@ -15,7 +15,7 @@
   <roots>
     <node type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="2455624152132456396">
       <property name="name" nameId="tpck.1169194664001" value="PopulateRaceWithFileds" />
-      <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="2ivj.3169390138954984125" resolveInfo="Creature" />
+      <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="2ivj.3169390138954984125" resolveInfo="Race" />
     </node>
     <node type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="2455624152132987133">
       <property name="name" nameId="tpck.1169194664001" value="GenerateId" />
