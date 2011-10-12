@@ -3630,72 +3630,204 @@
   <root id="1147484089" />
   <root id="1147484090" />
   <root id="1147484091" />
-  <root id="1147484092" />
+  <root id="1147484092">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121327889">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147483946" resolveInfo="Mining" />
+    </node>
+  </root>
   <root id="1147484093" />
-  <root id="1147484094" />
+  <root id="1147484094">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121315031">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147483948" resolveInfo="Carpentry" />
+    </node>
+  </root>
   <root id="1147484095" />
   <root id="1147484096" />
   <root id="1147484097" />
-  <root id="1147484098" />
+  <root id="1147484098">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121327884">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147483949" resolveInfo="Engraving" />
+    </node>
+  </root>
   <root id="1147484099" />
   <root id="1147484100" />
-  <root id="1147484101" />
-  <root id="1147484102" />
+  <root id="1147484101">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121315027">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147483952" resolveInfo="Animal Caretaking" />
+    </node>
+  </root>
+  <root id="1147484102">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121177973">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147483951" resolveInfo="Animal Training" />
+    </node>
+  </root>
   <root id="1147484103" />
-  <root id="1147484104" />
-  <root id="1147484105" />
+  <root id="1147484104">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121327900">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147483957" resolveInfo="Trapping" />
+    </node>
+  </root>
+  <root id="1147484105">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121177972">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147483954" resolveInfo="Animal Dissection" />
+    </node>
+  </root>
   <root id="1147484106" />
-  <root id="1147484107" />
+  <root id="1147484107">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121327896">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147483971" resolveInfo="Furnace Operation" />
+    </node>
+  </root>
   <root id="1147484108" />
   <root id="1147484109" />
   <root id="1147484110" />
   <root id="1147484111" />
   <root id="1147484112" />
-  <root id="1147484113" />
-  <root id="1147484114" />
+  <root id="1147484113">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121327894">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147483976" resolveInfo="Gem Cutting" />
+    </node>
+  </root>
+  <root id="1147484114">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121327886">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147483977" resolveInfo="Gem Setting" />
+    </node>
+  </root>
   <root id="1147484115" />
   <root id="1147484116" />
   <root id="1147484117" />
   <root id="1147484118" />
-  <root id="1147484119" />
-  <root id="1147484120" />
+  <root id="1147484119">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121177976">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147483983" resolveInfo="Bone Carving" />
+    </node>
+  </root>
+  <root id="1147484120">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121327901">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147483959" resolveInfo="Weaving" />
+    </node>
+  </root>
   <root id="1147484121" />
-  <root id="1147484122" />
-  <root id="1147484123" />
+  <root id="1147484122">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121327888">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147483981" resolveInfo="Glassmaking" />
+    </node>
+  </root>
+  <root id="1147484123">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121327905">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147483972" resolveInfo="Strand Extraction" />
+    </node>
+  </root>
   <root id="1147484124" />
   <root id="1147484125" />
-  <root id="1147484126" />
-  <root id="1147484127" />
+  <root id="1147484126">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121327903">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147483953" resolveInfo="Fish Dissection" />
+    </node>
+  </root>
+  <root id="1147484127">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121327904">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147483955" resolveInfo="Fish Cleaning" />
+    </node>
+  </root>
   <root id="1147484128" />
-  <root id="1147484129" />
-  <root id="1147484130" />
+  <root id="1147484129">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121315032">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147483965" resolveInfo="Cheese Making" />
+    </node>
+  </root>
+  <root id="1147484130">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121327898">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147483966" resolveInfo="Milking" />
+    </node>
+  </root>
   <root id="1147484131" />
-  <root id="1147484132" />
-  <root id="1147484133" />
-  <root id="1147484134" />
-  <root id="1147484135" />
+  <root id="1147484132">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121327887">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147483964" resolveInfo="Threshing" />
+    </node>
+  </root>
+  <root id="1147484133">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121327906">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147483963" resolveInfo="Milling" />
+    </node>
+  </root>
+  <root id="1147484134">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121315030">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147483956" resolveInfo="Butchery" />
+    </node>
+  </root>
+  <root id="1147484135">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121327899">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147483958" resolveInfo="Tanning" />
+    </node>
+  </root>
   <root id="1147484136" />
   <root id="1147484137" />
   <root id="1147484138" />
-  <root id="1147484139" />
-  <root id="1147484140" />
-  <root id="1147484141" />
-  <root id="1147484142" />
-  <root id="1147484143" />
+  <root id="1147484139">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121315029">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147483960" resolveInfo="Brewing" />
+    </node>
+  </root>
+  <root id="1147484140">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121327902">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147484013" resolveInfo="Soap Making" />
+    </node>
+  </root>
+  <root id="1147484141">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121327882">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147484014" resolveInfo="Potash Making" />
+    </node>
+  </root>
+  <root id="1147484142">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121327908">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147484012" resolveInfo="Lye Making" />
+    </node>
+  </root>
+  <root id="1147484143">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121327890">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147484011" resolveInfo="Wood Burning" />
+    </node>
+  </root>
   <root id="1147484144" />
   <root id="1147484145" />
   <root id="1147484146" />
-  <root id="1147484147" />
-  <root id="1147484148" />
+  <root id="1147484147">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121327895">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147483994" resolveInfo="Siege Operation" />
+    </node>
+  </root>
+  <root id="1147484148">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121327907">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147484016" resolveInfo="Pump Operation" />
+    </node>
+  </root>
   <root id="1147484149" />
   <root id="1147484150" />
   <root id="1147484151" />
-  <root id="1147484152" />
-  <root id="1147484153" />
+  <root id="1147484152">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121177974">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147484004" resolveInfo="Building Design" />
+    </node>
+  </root>
+  <root id="1147484153">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121177970">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147483961" resolveInfo="Alchemy" />
+    </node>
+  </root>
   <root id="1147484154" />
   <root id="1147484155" />
-  <root id="1147484156" />
-  <root id="1147484157" />
+  <root id="1147484156">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121315028">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147484008" resolveInfo="Bone Setting" />
+    </node>
+  </root>
+  <root id="1147484157">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121327891">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147484009" resolveInfo="Suturing" />
+    </node>
+  </root>
   <root id="1147484158" />
   <root id="1147484159" />
   <root id="1147484160" />
@@ -3704,7 +3836,11 @@
   <root id="1147484163" />
   <root id="1147484164" />
   <root id="1147484165" />
-  <root id="1147484166" />
+  <root id="1147484166">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121327883">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147484047" resolveInfo="Wrestling" />
+    </node>
+  </root>
   <root id="1147484167" />
   <root id="1147484168" />
   <root id="1147484169" />
@@ -3729,13 +3865,33 @@
   <root id="1147484188" />
   <root id="1147484189" />
   <root id="1147484190" />
-  <root id="1147484191" />
+  <root id="1147484191">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121327893">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147484055" resolveInfo="Shearing" />
+    </node>
+  </root>
   <root id="1147484192" />
-  <root id="1147484193" />
-  <root id="1147484194" />
+  <root id="1147484193">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121327885">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147484057" resolveInfo="Pottery" />
+    </node>
+  </root>
+  <root id="1147484194">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121327892">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147484058" resolveInfo="Glazing" />
+    </node>
+  </root>
   <root id="1147484195" />
-  <root id="1147484196" />
-  <root id="1147484197" />
+  <root id="1147484196">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121314590">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147484060" resolveInfo="Bee Keeping" />
+    </node>
+  </root>
+  <root id="1147484197">
+    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121327897">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147484061" resolveInfo="Wax Working" />
+    </node>
+  </root>
   <root id="655979893346440619">
     <node role="creatureReference" roleId="2ivj.3848777903716151684" type="2ivj.CreatureReference" typeId="2ivj.2455624152132549373" id="655979893346440707">
       <link role="creature" roleId="2ivj.2455624152132549374" targetNodeId="2455624152132595976" resolveInfo="Dwarf" />
