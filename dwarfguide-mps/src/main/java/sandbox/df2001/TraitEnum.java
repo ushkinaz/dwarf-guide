@@ -6,9 +6,16 @@ import javax.annotation.Generated;
 
 @Generated(value = {"MPS"})
 public enum TraitEnum {
-  NERVOUSNESS(),
-  RAGE();
+  NERVOUSNESS("Nervousness"),
+  RAGE("Rage");
 
-  TraitEnum() {
+  private String name;
+
+  TraitEnum(String name) {
+    this.name = name;
+  }
+
+  public String getName() {
+    return name;
   }
 }

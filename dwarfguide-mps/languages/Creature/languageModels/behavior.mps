@@ -21,7 +21,7 @@
     </node>
     <node type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="6143566370761775355">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="interfaces" />
-      <link role="concept" roleId="1i04.1225194240799" targetNodeId="2ivj.3848777903716151683" resolveInfo="HasCreatureContraint" />
+      <link role="concept" roleId="1i04.1225194240799" targetNodeId="2ivj.3848777903716151683" resolveInfo="HasRaceContraint" />
     </node>
   </roots>
   <root id="3848777903716026502">

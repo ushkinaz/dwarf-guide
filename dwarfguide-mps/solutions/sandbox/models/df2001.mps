@@ -70,14 +70,14 @@
       <property name="name" nameId="tpck.1169194664001" value="Gem cutting" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="1" />
     </node>
-    <node type="2ivj.Creature" typeId="2ivj.3169390138954984125" id="2455624152132595976">
+    <node type="2ivj.Race" typeId="2ivj.3169390138954984125" id="2455624152132595976">
       <property name="name" nameId="tpck.1169194664001" value="Dwarf" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="2" />
       <property name="singular" nameId="2ivj.3848777903716133165" value="dwarf" />
       <property name="plural" nameId="2ivj.3848777903716133166" value="dwarves" />
       <property name="adjective" nameId="2ivj.3848777903716133167" value="dwarven" />
     </node>
-    <node type="2ivj.Creature" typeId="2ivj.3169390138954984125" id="2455624152132937618">
+    <node type="2ivj.Race" typeId="2ivj.3169390138954984125" id="2455624152132937618">
       <property name="name" nameId="tpck.1169194664001" value="Goblin" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="1" />
       <property name="singular" nameId="2ivj.3848777903716133165" value="goblin" />
@@ -286,9 +286,6 @@
   <root id="3848777903716104596" />
   <root id="3848777903716104597" />
   <root id="3848777903716127654">
-    <node role="creatureReference" roleId="2ivj.3848777903716151684" type="2ivj.CreatureReference" typeId="2ivj.2455624152132549373" id="3848777903716504701">
-      <link role="creature" roleId="2ivj.2455624152132549374" targetNodeId="2455624152132595976" resolveInfo="Dwarf" />
-    </node>
     <node role="professionRef" roleId="2ivj.3848777903716151686" type="2ivj.ProfessionRef" typeId="2ivj.2413918680966836691" id="6143566370761541181">
       <link role="profession" roleId="2ivj.2413918680966836692" targetNodeId="6143566370761541175" resolveInfo="Gem Cutter" />
     </node>
@@ -350,6 +347,9 @@
           </node>
         </node>
       </node>
+    </node>
+    <node role="raceRef" roleId="2ivj.3848777903716151684" type="2ivj.RaceRef" typeId="2ivj.2455624152132549373" id="4936626689121516490">
+      <link role="race" roleId="2ivj.2455624152132549374" targetNodeId="2455624152132595976" resolveInfo="Dwarf" />
     </node>
   </root>
   <root id="6143566370761541175">

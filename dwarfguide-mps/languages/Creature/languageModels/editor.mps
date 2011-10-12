@@ -61,7 +61,7 @@
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2455624152132549375">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.2455624152132549373" resolveInfo="CreatureReference" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.2455624152132549373" resolveInfo="RaceRef" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2455624152132710852">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="statistics" />

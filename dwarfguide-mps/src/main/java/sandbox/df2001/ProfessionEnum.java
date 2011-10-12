@@ -6,10 +6,17 @@ import javax.annotation.Generated;
 
 @Generated(value = {"MPS"})
 public enum ProfessionEnum {
-  WORKER(),
-  IDIOT(),
-  GEM_CUTTER();
+  WORKER("Worker"),
+  IDIOT("Idiot"),
+  GEM_CUTTER("Gem Cutter");
 
-  ProfessionEnum() {
+  private String name;
+
+  ProfessionEnum(String name) {
+    this.name = name;
+  }
+
+  public String getName() {
+    return name;
   }
 }

@@ -6,37 +6,44 @@ import javax.annotation.Generated;
 
 @Generated(value = {"MPS"})
 public enum TraitEnum {
-  NERVOUSNESS(),
-  RAGE(),
-  DEPRESSION(),
-  NEUROSIS(),
-  URGE(),
-  STRESS(),
-  FRIENDLY(),
-  COMPANY(),
-  LEADERSHIP(),
-  ACTIVENESS(),
-  THRILLSEEKING(),
-  OPTIMISM(),
-  IMAGINATION(),
-  ARTISTIC(),
-  EMOTION(),
-  ADVENTURE(),
-  THINKING(),
-  REBELLIOUSNESS(),
-  TRUSTING(),
-  HONESTY(),
-  HELPFULNESS(),
-  COMPROMISING(),
-  MODESTY(),
-  COMPASSION(),
-  CONFIDENCE(),
-  ORGANIZATION(),
-  LAWFULNESS(),
-  EXCELLENCE(),
-  PERSEVERANCE(),
-  CAUTIOUSNESS();
+  NERVOUSNESS("Nervousness"),
+  RAGE("Rage"),
+  DEPRESSION("Depression"),
+  NEUROSIS("Neurosis"),
+  URGE("Urge"),
+  STRESS("Stress"),
+  FRIENDLY("Friendly"),
+  COMPANY("Company"),
+  LEADERSHIP("Leadership"),
+  ACTIVENESS("Activeness"),
+  THRILLSEEKING("Thrillseeking"),
+  OPTIMISM("Optimism"),
+  IMAGINATION("Imagination"),
+  ARTISTIC("Artistic"),
+  EMOTION("Emotion"),
+  ADVENTURE("Adventure"),
+  THINKING("Thinking"),
+  REBELLIOUSNESS("Rebelliousness"),
+  TRUSTING("Trusting"),
+  HONESTY("Honesty"),
+  HELPFULNESS("Helpfulness"),
+  COMPROMISING("Compromising"),
+  MODESTY("Modesty"),
+  COMPASSION("Compassion"),
+  CONFIDENCE("Confidence"),
+  ORGANIZATION("Organization"),
+  LAWFULNESS("Lawfulness"),
+  EXCELLENCE("Excellence"),
+  PERSEVERANCE("Perseverance"),
+  CAUTIOUSNESS("Cautiousness");
 
-  TraitEnum() {
+  private String name;
+
+  TraitEnum(String name) {
+    this.name = name;
+  }
+
+  public String getName() {
+    return name;
   }
 }

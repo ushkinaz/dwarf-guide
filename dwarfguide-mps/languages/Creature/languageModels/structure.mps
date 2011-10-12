@@ -107,12 +107,12 @@
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2455624152132549373">
-      <property name="name" nameId="tpck.1169194664001" value="CreatureReference" />
+      <property name="name" nameId="tpck.1169194664001" value="RaceRef" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="3848777903716151683">
-      <property name="name" nameId="tpck.1169194664001" value="HasCreatureContraint" />
+      <property name="name" nameId="tpck.1169194664001" value="HasRaceContraint" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="interfaces" />
     </node>
     <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="3848777903716151685">
@@ -400,16 +400,16 @@
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2455624152132549374">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <property name="role" nameId="tpce.1071599776563" value="creature" />
+      <property name="role" nameId="tpce.1071599776563" value="race" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="3169390138954984125" resolveInfo="Race" />
     </node>
   </root>
   <root id="3848777903716151683">
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3848777903716151684">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="creatureReference" />
+      <property name="role" nameId="tpce.1071599776563" value="raceRef" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="2455624152132549373" resolveInfo="CreatureReference" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2455624152132549373" resolveInfo="RaceRef" />
     </node>
   </root>
   <root id="3848777903716151685">
@@ -440,7 +440,7 @@
       <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="3848777903716482835">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="3848777903716151683" resolveInfo="HasCreatureContraint" />
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="3848777903716151683" resolveInfo="HasRaceContraint" />
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="3848777903716482836">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="3848777903716151685" resolveInfo="HasProfessionConstraint" />
