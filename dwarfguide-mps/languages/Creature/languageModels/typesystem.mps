@@ -30,9 +30,11 @@
     </node>
     <node type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="3848777903716482965">
       <property name="name" nameId="tpck.1169194664001" value="typeof_Strategy" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="strategy" />
     </node>
     <node type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="297736238471159095">
       <property name="name" nameId="tpck.1169194664001" value="typeof_Statistic" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="statistics" />
     </node>
   </roots>
   <root id="8701932881020807695">

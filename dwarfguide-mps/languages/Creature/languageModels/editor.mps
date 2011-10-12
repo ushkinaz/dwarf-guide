@@ -66,6 +66,7 @@
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.7201497847334508686" resolveInfo="Entity" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2455624152132514801">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="statistics" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.2455624152132514798" resolveInfo="AttributeStatistic" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2455624152132549375">
@@ -73,7 +74,7 @@
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.2455624152132549373" resolveInfo="CreatureReference" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2455624152132710852">
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="statistics" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.4319959043046304680" resolveInfo="StatisticsField" />
     </node>
     <node type="tpc2.StyleSheet" typeId="tpc2.1186402211651" id="2455624152132770409">
@@ -81,9 +82,11 @@
       <property name="name" nameId="tpck.1169194664001" value="Dwarfs" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="3848777903716482837">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="strategy" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.3848777903716482830" resolveInfo="Strategy" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="297736238471143925">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="statistics" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.297736238471143922" resolveInfo="Statistic" />
     </node>
   </roots>

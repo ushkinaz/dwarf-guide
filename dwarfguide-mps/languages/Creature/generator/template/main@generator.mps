@@ -35,9 +35,11 @@
     </node>
     <node type="tpee.ClassConcept" typeId="tpee.1068390468198" id="3848777903716482896">
       <property name="name" nameId="tpck.1169194664001" value="StrategyClass" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="strategy" />
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="297736238471260800">
       <property name="name" nameId="tpck.1169194664001" value="reduce_Statistic" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="statistics" />
       <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="2ivj.297736238471143922" resolveInfo="Statistic" />
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="6143566370761543312">
@@ -156,6 +158,7 @@
       <link role="template" roleId="tpf8.1167514355421" targetNodeId="6143566370761624074" resolveInfo="CreatureStats" />
     </node>
     <node role="rootMappingRule" roleId="tpf8.1167514678247" type="tpf8.Root_MappingRule" typeId="tpf8.1167514355419" id="297736238470807156">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="strategy" />
       <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="2ivj.3848777903716482830" resolveInfo="Strategy" />
       <link role="template" roleId="tpf8.1167514355421" targetNodeId="3848777903716482896" resolveInfo="StrategyClass" />
       <link role="labelDeclaration" roleId="tpf8.1200917515464" targetNodeId="297736238470975305" resolveInfo="StrategyClassLabel" />
@@ -197,6 +200,7 @@
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="297736238471260802">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="statistics" />
       <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="2ivj.297736238471143922" resolveInfo="Statistic" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="297736238471260803">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="297736238471260800" resolveInfo="reduce_Statistic" />

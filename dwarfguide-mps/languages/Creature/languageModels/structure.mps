@@ -114,12 +114,13 @@
       <property name="virtualPackage" nameId="tpck.1193676396447" value="interfaces" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4319959043046304680">
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="statistics" />
       <property name="name" nameId="tpck.1169194664001" value="StatisticsField" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2455624152132514798">
       <property name="name" nameId="tpck.1169194664001" value="AttributeStatistic" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="statistics" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2455624152132549373">
@@ -138,16 +139,19 @@
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3848777903716482830">
       <property name="name" nameId="tpck.1169194664001" value="Strategy" />
       <property name="rootable" nameId="tpce.1096454100552" value="true" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="strategy" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="297736238471143922">
       <property name="name" nameId="tpck.1169194664001" value="Statistic" />
       <property name="rootable" nameId="tpce.1096454100552" value="false" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="statistics" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
     </node>
     <node type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="297736238471365650">
       <property name="name" nameId="tpck.1169194664001" value="StatisticType" />
       <property name="hasNoDefaultMember" nameId="tpce.1212080844762" value="true" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="statistics" />
       <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983041843" resolveInfo="string" />
     </node>
   </roots>
