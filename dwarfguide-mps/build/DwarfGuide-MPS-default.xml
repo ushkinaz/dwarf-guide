@@ -1,47 +1,29 @@
-<!--
-  ~ Copyright (c) 2010-2011, Dmitry Sidorenko. All Rights Reserved.
-  ~
-  ~ Licensed under the Apache License, Version 2.0 (the "License");
-  ~ you may not use this file except in compliance with the License.
-  ~ You may obtain a copy of the License at
-  ~
-  ~ http://www.apache.org/licenses/LICENSE-2.0
-  ~
-  ~ Unless required by applicable law or agreed to in writing, software
-  ~ distributed under the License is distributed on an "AS IS" BASIS,
-  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  ~ See the License for the specific language governing permissions and
-  ~ limitations under the License.
-  -->
-
 <project name="DwarfGuide-MPS-default" default="main">
-  <property file="${ant.file}/../DwarfGuide-MPS.properties"/>
-  <import file="${ant.file}/../DwarfGuide-MPS-compile.xml"/>
-  <import file="${ant.file}/../DwarfGuide-MPS-languages.xml"/>
-  <target name="main" depends="compile,clean.before,folders.create,do.the.job,clean.after"/>
+  <property file="${ant.file}/../DwarfGuide-MPS.properties" />
+  <import file="${ant.file}/../DwarfGuide-MPS-compile.xml" />
+  <import file="${ant.file}/../DwarfGuide-MPS-languages.xml" />
+  <target name="main" depends="compile,clean.before,folders.create,do.the.job,clean.after" />
   <target name="compile">
-    <antcall target="compile.all"/>
+    <antcall target="compile.all" />
   </target>
   <target name="clean.before" depends="compile">
-    <delete dir="${deploy.dir}"/>
-    <tstamp/>
+    <delete dir="${deploy.dir}" />
+    <tstamp />
   </target>
   <target name="folders.create" depends="clean.before">
-    <mkdir dir="${deploy.dir}"/>
-    <mkdir dir="${deploy.dir}/DwarfGuide-MPS.zip.tmp/DwarfGuide-MPS"/>
-    <mkdir dir="${deploy.dir}/DwarfGuide-MPS.zip.tmp"/>
+    <mkdir dir="${deploy.dir}" />
+    <mkdir dir="${deploy.dir}/DwarfGuide-MPS.zip.tmp/DwarfGuide-MPS" />
+    <mkdir dir="${deploy.dir}/DwarfGuide-MPS.zip.tmp" />
   </target>
   <target name="do.the.job" depends="folders.create">
-    <antcall target="DwarfGuide-MPS-languages.pack.DwarfGuide"/>
-    <antcall target="DwarfGuide-MPS-languages.pack.net.dwarfguide.creature"/>
-    <antcall target="DwarfGuide-MPS-languages.pack.net.dwarfguide.ratings"/>
-    <mkdir dir="${deploy.dir}/DwarfGuide-MPS.zip.tmp/DwarfGuide-MPS"/>
+    <antcall target="DwarfGuide-MPS-languages.pack.net.dwarfguide.creature" />
+    <mkdir dir="${deploy.dir}/DwarfGuide-MPS.zip.tmp/DwarfGuide-MPS" />
     <zip destfile="${deploy.dir}/DwarfGuide-MPS.zip" duplicate="preserve" filesonly="true">
-      <zipfileset dir="${deploy.dir}/DwarfGuide-MPS.zip.tmp"/>
+      <zipfileset dir="${deploy.dir}/DwarfGuide-MPS.zip.tmp" />
     </zip>
-    <delete dir="${deploy.dir}/DwarfGuide-MPS.zip.tmp"/>
+    <delete dir="${deploy.dir}/DwarfGuide-MPS.zip.tmp" />
   </target>
   <target name="clean.after" depends="do.the.job">
-    <delete dir="${deploy.dir}/DwarfGuide-MPS.zip.tmp"/>
+    <delete dir="${deploy.dir}/DwarfGuide-MPS.zip.tmp" />
   </target>
 </project>
