@@ -5,6 +5,7 @@
   <unitInfo fileName="CreatureRunesmithLoader.java" startLine="10" startPosition="0" endLine="20" endPosition="0" unitName="sandbox.df2001.CreatureRunesmithLoader" />
   <unitInfo fileName="TraitEnum.java" startLine="7" startPosition="0" endLine="22" endPosition="0" unitName="sandbox.df2001.TraitEnum" />
   <unitInfo fileName="ProfessionEnum.java" startLine="7" startPosition="0" endLine="23" endPosition="0" unitName="sandbox.df2001.ProfessionEnum" />
+  <unitInfo fileName="AttributeEnum.java" startLine="7" startPosition="0" endLine="25" endPosition="0" unitName="sandbox.df2001.AttributeEnum" />
   <unitInfo fileName="TraitDecoder.java" startLine="10" startPosition="0" endLine="39" endPosition="0" unitName="sandbox.df2001.TraitDecoder" />
   <unitInfo fileName="RaceEnum.java" startLine="7" startPosition="0" endLine="45" endPosition="0" unitName="sandbox.df2001.RaceEnum" />
   <unitInfo fileName="TraitInstance.java" startLine="8" startPosition="0" endLine="46" endPosition="0" unitName="sandbox.df2001.TraitInstance" />
