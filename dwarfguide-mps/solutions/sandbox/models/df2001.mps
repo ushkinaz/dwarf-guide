@@ -65,18 +65,6 @@
       <property name="virtualPackage" nameId="tpck.1193676396447" value="skills" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="0" />
     </node>
-    <node type="2ivj.Sex" typeId="2ivj.7201497847334454007" id="7201497847334454022">
-      <property name="name" nameId="tpck.1169194664001" value="Male" />
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="sexes" />
-    </node>
-    <node type="2ivj.Sex" typeId="2ivj.7201497847334454007" id="7201497847334463966">
-      <property name="name" nameId="tpck.1169194664001" value="Female" />
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="sexes" />
-    </node>
-    <node type="2ivj.Sex" typeId="2ivj.7201497847334454007" id="7201497847334463967">
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="sexes" />
-      <property name="name" nameId="tpck.1169194664001" value="Undecided" />
-    </node>
     <node type="2ivj.Skill" typeId="2ivj.7336574368822058574" id="7201497847334555922">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="skills" />
       <property name="name" nameId="tpck.1169194664001" value="Gem cutting" />
@@ -139,9 +127,6 @@
       <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747802" resolveInfo="Toughness" />
     </node>
   </root>
-  <root id="7201497847334454022" />
-  <root id="7201497847334463966" />
-  <root id="7201497847334463967" />
   <root id="7201497847334555922">
     <node role="dependsOn" roleId="2ivj.7201497847334467030" type="2ivj.AttributeRef" typeId="2ivj.3169390138954787329" id="571577773479973317">
       <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747801" resolveInfo="Agility" />

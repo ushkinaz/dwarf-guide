@@ -40,13 +40,6 @@
       <property name="helpURL" nameId="tpce.2465654535473034588" value="http://df.magmawiki.com/index.php/Level" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
-    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3025991346594271712">
-      <property name="name" nameId="tpck.1169194664001" value="Mood" />
-      <property name="rootable" nameId="tpce.1096454100552" value="true" />
-      <property name="iconPath" nameId="tpce.1160488491229" value="${DWARVEN_PATH}/dwarfguide-resources/icons/mood.png" />
-      <property name="helpURL" nameId="tpce.2465654535473034588" value="http://df.magmawiki.com/index.php/Mood" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7336574368822058574">
       <property name="name" nameId="tpck.1169194664001" value="Skill" />
       <property name="rootable" nameId="tpce.1096454100552" value="true" />
@@ -83,11 +76,6 @@
       <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
     </node>
-    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3169390138954787323">
-      <property name="name" nameId="tpck.1169194664001" value="MoodRef" />
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3169390138954787329">
       <property name="name" nameId="tpck.1169194664001" value="AttributeRef" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="references" />
@@ -102,11 +90,6 @@
       <property name="rootable" nameId="tpce.1096454100552" value="true" />
       <property name="iconPath" nameId="tpce.1160488491229" value="${DWARVEN_PATH}/dwarfguide-resources/icons/race.png" />
       <property name="helpURL" nameId="tpce.2465654535473034588" value="http://df.magmawiki.com/index.php/Creature" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    </node>
-    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7201497847334454007">
-      <property name="name" nameId="tpck.1169194664001" value="Sex" />
-      <property name="rootable" nameId="tpce.1096454100552" value="true" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="7201497847334508686">
@@ -241,15 +224,6 @@
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7201497847334508686" resolveInfo="Entity" />
     </node>
   </root>
-  <root id="3025991346594271712">
-    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="2455624152132937677">
-      <property name="value" nameId="tpce.1105725733873" value="mood" />
-      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="9217530999004665844">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7201497847334508686" resolveInfo="Entity" />
-    </node>
-  </root>
   <root id="7336574368822058574">
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="7201497847334467030">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -334,14 +308,6 @@
       <link role="target" roleId="tpce.1071599976176" targetNodeId="3025991346593851837" resolveInfo="Trait" />
     </node>
   </root>
-  <root id="3169390138954787323">
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3169390138954787324">
-      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <property name="role" nameId="tpce.1071599776563" value="mood" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="3025991346594271712" resolveInfo="Mood" />
-    </node>
-  </root>
   <root id="3169390138954787329">
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3169390138954787330">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
@@ -384,15 +350,6 @@
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="9217530999004665846">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7201497847334508686" resolveInfo="Entity" />
-    </node>
-  </root>
-  <root id="7201497847334454007">
-    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="2455624152132937688">
-      <property name="value" nameId="tpce.1105725733873" value="sex" />
-      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7201497847334454008">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="3025991346594277161" resolveInfo="HasName" />
     </node>
   </root>
   <root id="7201497847334508686">
