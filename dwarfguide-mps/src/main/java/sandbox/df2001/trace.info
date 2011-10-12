@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="CreatureLoader.java" startLine="8" startPosition="0" endLine="12" endPosition="0" unitName="sandbox.df2001.CreatureLoader" />
+  <unitInfo fileName="Creatures.java" startLine="7" startPosition="0" endLine="12" endPosition="0" unitName="sandbox.df2001.Creatures" />
   <unitInfo fileName="RatingStrategy.java" startLine="7" startPosition="0" endLine="12" endPosition="0" unitName="sandbox.df2001.RatingStrategy" />
   <unitInfo fileName="RatingStrategyFactory.java" startLine="25" startPosition="15" endLine="33" endPosition="5" unitName="sandbox.df2001.RatingStrategyFactory$1" />
   <unitInfo fileName="CreatureRunesmithLoader.java" startLine="11" startPosition="0" endLine="22" endPosition="0" unitName="sandbox.df2001.CreatureRunesmithLoader" />
