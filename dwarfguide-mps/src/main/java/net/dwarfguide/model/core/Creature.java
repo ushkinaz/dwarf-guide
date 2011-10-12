@@ -9,6 +9,26 @@ public class Creature {
   private String myName;
   private String myNickname;
   private RaceEnum myRace;
+  private int myAttrNimblness;
+  private int myAttrRecuperation;
+  private int myAttrDiseaseResistance;
+  private int myAttrWillpower;
+  private int myAttrMemory;
+  private int myAttrFocus;
+  private int myAttrIntuition;
+  private int myAttrPatience;
+  private int myAttrEmpathy;
+  private int myAttrSocialAwareness;
+  private int myAttrCreatvity;
+  private int myAttrMusicality;
+  private int myAttrLinguisticAbility;
+  private int myAttrSpatialSense;
+  private int myAttrKinaestheticSense;
+  private int myAttrAnalyticalAbility;
+  private int myAttrStrength;
+  private int myAttrAgility;
+  private int myAttrToughness;
+  private int myAttrEndurance;
   private int mySkillMining;
   private int mySkillWood_Cutting;
   private int mySkillCarpentry;
@@ -211,6 +231,166 @@ public class Creature {
 
   private void setRace(RaceEnum value) {
     this.myRace = value;
+  }
+
+  public int getAttrNimblness() {
+    return this.myAttrNimblness;
+  }
+
+  private void setAttrNimblness(int value) {
+    this.myAttrNimblness = value;
+  }
+
+  public int getAttrRecuperation() {
+    return this.myAttrRecuperation;
+  }
+
+  private void setAttrRecuperation(int value) {
+    this.myAttrRecuperation = value;
+  }
+
+  public int getAttrDiseaseResistance() {
+    return this.myAttrDiseaseResistance;
+  }
+
+  private void setAttrDiseaseResistance(int value) {
+    this.myAttrDiseaseResistance = value;
+  }
+
+  public int getAttrWillpower() {
+    return this.myAttrWillpower;
+  }
+
+  private void setAttrWillpower(int value) {
+    this.myAttrWillpower = value;
+  }
+
+  public int getAttrMemory() {
+    return this.myAttrMemory;
+  }
+
+  private void setAttrMemory(int value) {
+    this.myAttrMemory = value;
+  }
+
+  public int getAttrFocus() {
+    return this.myAttrFocus;
+  }
+
+  private void setAttrFocus(int value) {
+    this.myAttrFocus = value;
+  }
+
+  public int getAttrIntuition() {
+    return this.myAttrIntuition;
+  }
+
+  private void setAttrIntuition(int value) {
+    this.myAttrIntuition = value;
+  }
+
+  public int getAttrPatience() {
+    return this.myAttrPatience;
+  }
+
+  private void setAttrPatience(int value) {
+    this.myAttrPatience = value;
+  }
+
+  public int getAttrEmpathy() {
+    return this.myAttrEmpathy;
+  }
+
+  private void setAttrEmpathy(int value) {
+    this.myAttrEmpathy = value;
+  }
+
+  public int getAttrSocialAwareness() {
+    return this.myAttrSocialAwareness;
+  }
+
+  private void setAttrSocialAwareness(int value) {
+    this.myAttrSocialAwareness = value;
+  }
+
+  public int getAttrCreatvity() {
+    return this.myAttrCreatvity;
+  }
+
+  private void setAttrCreatvity(int value) {
+    this.myAttrCreatvity = value;
+  }
+
+  public int getAttrMusicality() {
+    return this.myAttrMusicality;
+  }
+
+  private void setAttrMusicality(int value) {
+    this.myAttrMusicality = value;
+  }
+
+  public int getAttrLinguisticAbility() {
+    return this.myAttrLinguisticAbility;
+  }
+
+  private void setAttrLinguisticAbility(int value) {
+    this.myAttrLinguisticAbility = value;
+  }
+
+  public int getAttrSpatialSense() {
+    return this.myAttrSpatialSense;
+  }
+
+  private void setAttrSpatialSense(int value) {
+    this.myAttrSpatialSense = value;
+  }
+
+  public int getAttrKinaestheticSense() {
+    return this.myAttrKinaestheticSense;
+  }
+
+  private void setAttrKinaestheticSense(int value) {
+    this.myAttrKinaestheticSense = value;
+  }
+
+  public int getAttrAnalyticalAbility() {
+    return this.myAttrAnalyticalAbility;
+  }
+
+  private void setAttrAnalyticalAbility(int value) {
+    this.myAttrAnalyticalAbility = value;
+  }
+
+  public int getAttrStrength() {
+    return this.myAttrStrength;
+  }
+
+  private void setAttrStrength(int value) {
+    this.myAttrStrength = value;
+  }
+
+  public int getAttrAgility() {
+    return this.myAttrAgility;
+  }
+
+  private void setAttrAgility(int value) {
+    this.myAttrAgility = value;
+  }
+
+  public int getAttrToughness() {
+    return this.myAttrToughness;
+  }
+
+  private void setAttrToughness(int value) {
+    this.myAttrToughness = value;
+  }
+
+  public int getAttrEndurance() {
+    return this.myAttrEndurance;
+  }
+
+  private void setAttrEndurance(int value) {
+    this.myAttrEndurance = value;
   }
 
   public int getSkillMining() {

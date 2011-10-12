@@ -5,7 +5,9 @@ package net.dwarfguide.model.core;
 import javax.annotation.Generated;
 
 @Generated(value = {"MPS"})
-public enum RaceEnum {;
+public enum RaceEnum {
+  DWARF(),
+  GOBLIN();
 
   RaceEnum() {
   }
