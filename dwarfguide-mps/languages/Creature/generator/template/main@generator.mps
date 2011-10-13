@@ -4026,14 +4026,14 @@
         <node role="value" roleId="tpee.1188214630783" type="tpee.AnnotationInstanceValue" typeId="tpee.1188214545140" id="5030881626310641029">
           <link role="key" roleId="tpee.1188214555875" targetNodeId="12f6.~Generated%ddate()" resolveInfo="date" />
           <node role="value" roleId="tpee.1188214607812" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="5030881626310641031">
-            <property name="value" nameId="tpee.1070475926801" value="2011" />
+            <property name="value" nameId="tpee.1070475926801" value="2011.12.31" />
             <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.PropertyMacro" typeId="tpf8.1087833241328" id="5030881626310641041">
               <property name="propertyName" nameId="tpck.1757699476691236117" value="value" />
               <node role="propertyValueFunction" roleId="tpf8.1167756362303" type="tpf8.PropertyMacro_GetPropertyValue" typeId="tpf8.1167756080639" id="5030881626310641042">
                 <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5030881626310641043">
                   <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5030881626310641044">
                     <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="5030881626310641046">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="pjsg.1778400223746937106" resolveInfo="whenShort" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="pjsg.1778400223746937106" resolveInfo="when" />
                       <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="pjsg.1778400223746937100" resolveInfo="GenerationUtils" />
                     </node>
                   </node>
