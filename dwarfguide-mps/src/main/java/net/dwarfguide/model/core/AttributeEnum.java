@@ -4,7 +4,7 @@ package net.dwarfguide.model.core;
 
 import javax.annotation.Generated;
 
-@Generated(value = {"MPS"})
+@Generated(value = {"MPS"}, date = "13.10.11 14:54", comments = "Generated from model net.dwarfguide.model.core")
 public enum AttributeEnum {
   NIMBLNESS("Nimblness"),
   RECUPERATION("Recuperation"),

@@ -7,7 +7,7 @@ import java.util.Map;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
 
-@Generated(value = {"MPS"})
+@Generated(value = {"MPS"}, date = "13.10.11 14:54", comments = "Generated from model sandbox.df2001")
 public class TraitDecoder {
   private static final Map<String, TraitInstance> levels;
 
