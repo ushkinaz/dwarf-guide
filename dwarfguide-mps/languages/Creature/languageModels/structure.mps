@@ -155,6 +155,10 @@
       <property name="value" nameId="tpce.1105725733873" value="job" />
       <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
     </node>
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="1502914590776443939">
+      <property name="value" nameId="tpce.1105725733873" value="activity that creature performs right now" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473914776" resolveInfo="shortDescription" />
+    </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="9217530999004665841">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7201497847334508686" resolveInfo="Entity" />
     </node>
