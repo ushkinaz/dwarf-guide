@@ -4,7 +4,7 @@ package net.dwarfguide.model.core;
 
 import javax.annotation.Generated;
 
-@Generated(value = {"MPS"}, date = "13.10.11 14:54", comments = "Generated from model net.dwarfguide.model.core")
+@Generated(value = {"MPS"}, date = "2011.10.14", comments = "Generated from model net.dwarfguide.modelnet.dwarfguide.model.core")
 public interface RatingStrategy {
   public int getRating(Creature creature);
   public boolean shouldStop(Creature creature);

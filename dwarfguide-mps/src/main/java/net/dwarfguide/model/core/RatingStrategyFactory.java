@@ -7,7 +7,7 @@ import java.util.Map;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
 
-@Generated(value = {"MPS"}, date = "13.10.11 14:54", comments = "Generated from model net.dwarfguide.model.core")
+@Generated(value = {"MPS"}, date = "2011.10.14", comments = "Generated from model net.dwarfguide.modelnet.dwarfguide.model.core")
 public class RatingStrategyFactory {
   private Map<RaceProfession, RatingStrategy> strategies;
 

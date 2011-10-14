@@ -7,7 +7,7 @@ import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 
-@Generated(value = {"MPS"}, date = "13.10.11 14:54", comments = "Generated from model sandbox.df2001")
+@Generated(value = {"MPS"}, date = "2011.10.14", comments = "Generated from model sandboxsandbox")
 public class CreatureRunesmithLoader implements CreatureLoader {
   public CreatureRunesmithLoader(@XMLFile String fileName) {
   }
