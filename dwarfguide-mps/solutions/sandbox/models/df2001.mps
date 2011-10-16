@@ -107,11 +107,7 @@
       <property name="canAssignLabors" nameId="2ivj.3025991346594277157" value="true" />
     </node>
   </roots>
-  <root id="2413918680966884229">
-    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="7201497847334507607">
-      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="7201497847334348563" resolveInfo="Mining" />
-    </node>
-  </root>
+  <root id="2413918680966884229" />
   <root id="2413918680967037467" />
   <root id="8701932881020747800" />
   <root id="8701932881020747801" />
@@ -347,7 +343,7 @@
     </node>
   </root>
   <root id="6143566370761541175">
-    <node role="skillReference" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="6143566370761541176">
+    <node role="skillRef" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="6143566370761541176">
       <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="7201497847334555922" resolveInfo="Gem cutting" />
     </node>
   </root>
