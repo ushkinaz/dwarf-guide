@@ -54,7 +54,6 @@ public class RunesmithXMLReader implements Provider<Creatures> {
   }
 
   public void registerEnumTransform(RegistryMatcher matcher, Class enumClass) {
-    // Need direct typecast due to MPS stupidity 
     matcher.bind(enumClass, new RunesmithXMLReader.EnumTransform(enumClass));
   }
 

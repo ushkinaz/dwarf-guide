@@ -3258,6 +3258,70 @@
     <node type="2ivj.RatingStrategy" typeId="2ivj.3848777903716482830" id="655979893346440619" />
     <node type="2ivj.RatingStrategy" typeId="2ivj.3848777903716482830" id="1778400223746486791" />
     <node type="2ivj.RatingStrategy" typeId="2ivj.3848777903716482830" id="1778400223746510448" />
+    <node type="2ivj.ProfessionCategory" typeId="2ivj.5994105463846119150" id="5994105463846200585">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="professions.category" />
+      <property name="name" nameId="tpck.1169194664001" value="Miner" />
+    </node>
+    <node type="2ivj.ProfessionCategory" typeId="2ivj.5994105463846119150" id="5994105463846200590">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="professions.category" />
+      <property name="name" nameId="tpck.1169194664001" value="Woodworker" />
+    </node>
+    <node type="2ivj.ProfessionCategory" typeId="2ivj.5994105463846119150" id="5994105463846200592">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="professions.category" />
+      <property name="name" nameId="tpck.1169194664001" value="Stoneworker" />
+    </node>
+    <node type="2ivj.ProfessionCategory" typeId="2ivj.5994105463846119150" id="5994105463846200594">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="professions.category" />
+      <property name="name" nameId="tpck.1169194664001" value="Ranger" />
+    </node>
+    <node type="2ivj.ProfessionCategory" typeId="2ivj.5994105463846119150" id="5994105463846200596">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="professions.category" />
+      <property name="name" nameId="tpck.1169194664001" value="Doctor" />
+    </node>
+    <node type="2ivj.ProfessionCategory" typeId="2ivj.5994105463846119150" id="5994105463846200598">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="professions.category" />
+      <property name="name" nameId="tpck.1169194664001" value="Jeweler" />
+    </node>
+    <node type="2ivj.ProfessionCategory" typeId="2ivj.5994105463846119150" id="5994105463846200599">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="professions.category" />
+      <property name="name" nameId="tpck.1169194664001" value="Metalsmith" />
+    </node>
+    <node type="2ivj.ProfessionCategory" typeId="2ivj.5994105463846119150" id="5994105463846200600">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="professions.category" />
+      <property name="name" nameId="tpck.1169194664001" value="Fishery worker" />
+    </node>
+    <node type="2ivj.ProfessionCategory" typeId="2ivj.5994105463846119150" id="5994105463846200601">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="professions.category" />
+      <property name="name" nameId="tpck.1169194664001" value="Farmer" />
+    </node>
+    <node type="2ivj.ProfessionCategory" typeId="2ivj.5994105463846119150" id="5994105463846200602">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="professions.category" />
+      <property name="name" nameId="tpck.1169194664001" value="Administrator" />
+    </node>
+    <node type="2ivj.ProfessionCategory" typeId="2ivj.5994105463846119150" id="5994105463846200603">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="professions.category" />
+      <property name="name" nameId="tpck.1169194664001" value="Other Jobs" />
+    </node>
+    <node type="2ivj.ProfessionCategory" typeId="2ivj.5994105463846119150" id="5994105463846200604">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="professions.category" />
+      <property name="name" nameId="tpck.1169194664001" value="Engineer" />
+    </node>
+    <node type="2ivj.ProfessionCategory" typeId="2ivj.5994105463846119150" id="5994105463846200605">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="professions.category" />
+      <property name="name" nameId="tpck.1169194664001" value="Craftsdwarf" />
+    </node>
+    <node type="2ivj.ProfessionCategory" typeId="2ivj.5994105463846119150" id="5994105463846200607">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="professions.category" />
+      <property name="name" nameId="tpck.1169194664001" value="Miscellaneous" />
+    </node>
+    <node type="2ivj.ProfessionCategory" typeId="2ivj.5994105463846119150" id="5994105463846200608">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="professions.category" />
+      <property name="name" nameId="tpck.1169194664001" value="Broker" />
+    </node>
+    <node type="2ivj.ProfessionCategory" typeId="2ivj.5994105463846119150" id="5994105463846200609">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="professions.category" />
+      <property name="name" nameId="tpck.1169194664001" value="Military" />
+    </node>
   </roots>
   <root id="1147483649" />
   <root id="1147483650" />
@@ -3887,6 +3951,9 @@
     <node role="skillRef" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121177970">
       <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147483961" resolveInfo="Alchemy" />
     </node>
+    <node role="labourRef" roleId="2ivj.9062650802968998009" type="2ivj.LabourRef" typeId="2ivj.9062650802968998010" id="5994105463846200611">
+      <link role="labour" roleId="2ivj.9062650802968998011" targetNodeId="1147483679" resolveInfo="Alchemy" />
+    </node>
   </root>
   <root id="1147484154" />
   <root id="1147484155" />
@@ -3957,6 +4024,9 @@
   <root id="1147484196">
     <node role="skillRef" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121314590">
       <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147484060" resolveInfo="Bee Keeping" />
+    </node>
+    <node role="labourRef" roleId="2ivj.9062650802968998009" type="2ivj.LabourRef" typeId="2ivj.9062650802968998010" id="5994105463846200612">
+      <link role="labour" roleId="2ivj.9062650802968998011" targetNodeId="1147483720" resolveInfo="Bee Keeping" />
     </node>
   </root>
   <root id="1147484197">
@@ -4614,5 +4684,25 @@
       </node>
     </node>
   </root>
+  <root id="5994105463846200585">
+    <node role="professionRef" roleId="2ivj.5994105463846119151" type="2ivj.ProfessionRef" typeId="2ivj.2413918680966836691" id="5994105463846200610">
+      <link role="profession" roleId="2ivj.2413918680966836692" targetNodeId="1147484092" resolveInfo="Miner" />
+    </node>
+  </root>
+  <root id="5994105463846200590" />
+  <root id="5994105463846200592" />
+  <root id="5994105463846200594" />
+  <root id="5994105463846200596" />
+  <root id="5994105463846200598" />
+  <root id="5994105463846200599" />
+  <root id="5994105463846200600" />
+  <root id="5994105463846200601" />
+  <root id="5994105463846200602" />
+  <root id="5994105463846200603" />
+  <root id="5994105463846200604" />
+  <root id="5994105463846200605" />
+  <root id="5994105463846200607" />
+  <root id="5994105463846200608" />
+  <root id="5994105463846200609" />
 </model>
 
