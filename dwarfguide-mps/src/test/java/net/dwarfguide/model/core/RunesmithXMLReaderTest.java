@@ -14,7 +14,7 @@
  * limitations under the License.
  **********************************************************************************************************************/
 
-package sandbox.df2001;
+package net.dwarfguide.model.core;
 
 import org.hamcrest.CoreMatchers;
 import org.junit.*;
@@ -24,13 +24,14 @@ import org.slf4j.LoggerFactory;
 /**
  * @author Dmitry Sidorenko
  */
-public class CreaturesXMLSerializerTest {
+public class RunesmithXMLReaderTest {
   @SuppressWarnings({"unused"})
-  private static final Logger LOGGER = LoggerFactory.getLogger(CreaturesXMLSerializerTest.class);
+  private static final Logger LOGGER = LoggerFactory.getLogger(RunesmithXMLReaderTest.class);
 
   @Test
   public void testGet() throws Exception {
-    CreaturesXMLSerializer serializer =new CreaturesXMLSerializer("/Workspace\\dg\\TestDwarves.xml");
-    Assert.assertThat(serializer.get().getCreatures().size(), CoreMatchers.is(16));
+    RunesmithXMLReader serializer =new RunesmithXMLReader("/Workspace\\dg\\TestDwarves.xml");
+    Creatures creatures = serializer.get();
+    Assert.assertThat(creatures.getCreatures().size(), CoreMatchers.is(110));
   }
 }

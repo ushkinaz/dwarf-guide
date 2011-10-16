@@ -20,7 +20,6 @@ public class DwarfStats {
   public static final int MIN_WILLPOWER = 0;
   public static final int MIN_DISEASERESISTANCE = 0;
   public static final int MIN_RECUPERATION = 0;
-  public static final int MIN_NIMBLNESS = 0;
   public static final int MIN_TOUGHNESS = 0;
   public static final int MIN_STRENGTH = 0;
   public static final int MIN_ENDURANCE = 0;
@@ -40,7 +39,6 @@ public class DwarfStats {
   public static final int MAX_WILLPOWER = 5000;
   public static final int MAX_DISEASERESISTANCE = 5000;
   public static final int MAX_RECUPERATION = 5000;
-  public static final int MAX_NIMBLNESS = 5000;
   public static final int MAX_TOUGHNESS = 5000;
   public static final int MAX_STRENGTH = 5000;
   public static final int MAX_ENDURANCE = 5000;
@@ -60,7 +58,6 @@ public class DwarfStats {
   public static final int AVG_WILLPOWER = 1500;
   public static final int AVG_DISEASERESISTANCE = 1500;
   public static final int AVG_RECUPERATION = 1500;
-  public static final int AVG_NIMBLNESS = 1500;
   public static final int AVG_TOUGHNESS = 1500;
   public static final int AVG_STRENGTH = 1500;
   public static final int AVG_ENDURANCE = 1500;

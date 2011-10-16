@@ -20,12 +20,12 @@ import org.simpleframework.xml.core.Persister;
 /**
  * * @author Dmitry Sidorenko
  */
-public class CreaturesXMLSerializer implements Provider<Creatures> {
-  protected static Log log = LogFactory.getLog(CreaturesXMLSerializer.class);
+public class RunesmithXMLReader implements Provider<Creatures> {
+  protected static Log log = LogFactory.getLog(RunesmithXMLReader.class);
 
   private String myXmlFile;
 
-  public CreaturesXMLSerializer(String xmlFile) {
+  public RunesmithXMLReader(String xmlFile) {
     this.setXmlFile(xmlFile);
   }
 
@@ -45,8 +45,17 @@ public class CreaturesXMLSerializer implements Provider<Creatures> {
     Format format = new Format(new CamelCaseStyle(true));
     Strategy strategy = new AnnotationStrategy();
     RegistryMatcher matcher = new RegistryMatcher();
+    registerEnumTransform(matcher, Sex.class);
+    registerEnumTransform(matcher, ProfessionEnum.class);
+    registerEnumTransform(matcher, TraitEnum.class);
+
     Serializer serializer = new Persister(strategy, matcher, format);
     return serializer.read(Creatures.class, in);
+  }
+
+  public void registerEnumTransform(RegistryMatcher matcher, Class enumClass) {
+    // Need direct typecast due to MPS stupidity 
+    matcher.bind(enumClass, new RunesmithXMLReader.EnumTransform(enumClass));
   }
 
   public String getXmlFile() {

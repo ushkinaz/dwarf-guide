@@ -3170,11 +3170,6 @@
       <property name="identifier" nameId="2ivj.7336574368822048410" value="1" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="attributes" />
     </node>
-    <node type="2ivj.Attribute" typeId="2ivj.2935713650494001850" id="2455624152132987906">
-      <property name="name" nameId="tpck.1169194664001" value="Nimblness" />
-      <property name="identifier" nameId="2ivj.7336574368822048410" value="5" />
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="attributes" />
-    </node>
     <node type="2ivj.Attribute" typeId="2ivj.2935713650494001850" id="8701932881020747800">
       <property name="name" nameId="tpck.1169194664001" value="Strength" />
       <property name="identifier" nameId="2ivj.7336574368822048410" value="3" />
@@ -4180,20 +4175,6 @@
         <property name="statistic" nameId="2ivj.4319959043046304681" value="1500" />
       </node>
     </node>
-    <node role="attributeStatistic" roleId="2ivj.2455624152132514819" type="2ivj.AttributeStatistic" typeId="2ivj.2455624152132514798" id="1778400223746913407">
-      <node role="attr" roleId="2ivj.2455624152132514799" type="2ivj.AttributeRef" typeId="2ivj.3169390138954787329" id="1778400223746913408">
-        <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="2455624152132987906" resolveInfo="Nimblness" />
-      </node>
-      <node role="min" roleId="2ivj.2455624152132659867" type="2ivj.StatisticsField" typeId="2ivj.4319959043046304680" id="1778400223746913409">
-        <property name="statistic" nameId="2ivj.4319959043046304681" value="0" />
-      </node>
-      <node role="max" roleId="2ivj.2455624152132659868" type="2ivj.StatisticsField" typeId="2ivj.4319959043046304680" id="1778400223746913410">
-        <property name="statistic" nameId="2ivj.4319959043046304681" value="5000" />
-      </node>
-      <node role="average" roleId="2ivj.2455624152132549379" type="2ivj.StatisticsField" typeId="2ivj.4319959043046304680" id="1778400223746913411">
-        <property name="statistic" nameId="2ivj.4319959043046304681" value="1500" />
-      </node>
-    </node>
     <node role="attributeStatistic" roleId="2ivj.2455624152132514819" type="2ivj.AttributeStatistic" typeId="2ivj.2455624152132514798" id="1778400223746913412">
       <node role="attr" roleId="2ivj.2455624152132514799" type="2ivj.AttributeRef" typeId="2ivj.3169390138954787329" id="1778400223746913413">
         <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747802" resolveInfo="Toughness" />
@@ -4462,20 +4443,6 @@
         <property name="statistic" nameId="2ivj.4319959043046304681" value="1500" />
       </node>
     </node>
-    <node role="attributeStatistic" roleId="2ivj.2455624152132514819" type="2ivj.AttributeStatistic" typeId="2ivj.2455624152132514798" id="1778400223746913507">
-      <node role="attr" roleId="2ivj.2455624152132514799" type="2ivj.AttributeRef" typeId="2ivj.3169390138954787329" id="1778400223746913508">
-        <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="2455624152132987906" resolveInfo="Nimblness" />
-      </node>
-      <node role="min" roleId="2ivj.2455624152132659867" type="2ivj.StatisticsField" typeId="2ivj.4319959043046304680" id="1778400223746913509">
-        <property name="statistic" nameId="2ivj.4319959043046304681" value="0" />
-      </node>
-      <node role="max" roleId="2ivj.2455624152132659868" type="2ivj.StatisticsField" typeId="2ivj.4319959043046304680" id="1778400223746913510">
-        <property name="statistic" nameId="2ivj.4319959043046304681" value="5000" />
-      </node>
-      <node role="average" roleId="2ivj.2455624152132549379" type="2ivj.StatisticsField" typeId="2ivj.4319959043046304680" id="1778400223746913511">
-        <property name="statistic" nameId="2ivj.4319959043046304681" value="1500" />
-      </node>
-    </node>
     <node role="attributeStatistic" roleId="2ivj.2455624152132514819" type="2ivj.AttributeStatistic" typeId="2ivj.2455624152132514798" id="1778400223746913512">
       <node role="attr" roleId="2ivj.2455624152132514799" type="2ivj.AttributeRef" typeId="2ivj.3169390138954787329" id="1778400223746913513">
         <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747802" resolveInfo="Toughness" />
@@ -4535,7 +4502,6 @@
   </root>
   <root id="8701932881020747801" />
   <root id="8701932881020747803" />
-  <root id="2455624152132987906" />
   <root id="8701932881020747800" />
   <root id="8701932881020747802" />
   <root id="4936626689121327911" />

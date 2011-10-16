@@ -25,9 +25,6 @@ public class CreatureXML {
   @Element(name = "Profession")
   private ProfessionEnum profession;
   @Path(value = "Attributes")
-  @Element(name = "Nimblness")
-  private int Nimblness;
-  @Path(value = "Attributes")
   @Element(name = "Recuperation")
   private int Recuperation;
   @Path(value = "Attributes")

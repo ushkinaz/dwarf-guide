@@ -7,7 +7,6 @@ public class Creature {
   private String myName;
   private String myNickname;
   private RaceEnum myRace;
-  private int myAttrNimblness;
   private int myAttrRecuperation;
   private int myAttrDiseaseResistance;
   private int myAttrWillpower;
@@ -229,14 +228,6 @@ public class Creature {
 
   private void setRace(RaceEnum value) {
     this.myRace = value;
-  }
-
-  public int getAttrNimblness() {
-    return this.myAttrNimblness;
-  }
-
-  private void setAttrNimblness(int value) {
-    this.myAttrNimblness = value;
   }
 
   public int getAttrRecuperation() {

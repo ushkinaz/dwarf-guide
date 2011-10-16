@@ -4,7 +4,6 @@ package net.dwarfguide.model.core;
 
 
 public enum AttributeEnum {
-  NIMBLNESS("Nimblness"),
   RECUPERATION("Recuperation"),
   DISEASERESISTANCE("DiseaseResistance"),
   WILLPOWER("Willpower"),
