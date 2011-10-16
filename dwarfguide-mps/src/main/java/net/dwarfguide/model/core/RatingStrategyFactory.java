@@ -11,23 +11,11 @@ public class RatingStrategyFactory {
 
   public RatingStrategyFactory() {
     strategies = MapSequence.fromMap(new HashMap<RaceProfession, RatingStrategy>());
-    MapSequence.fromMap(strategies).put(new RaceProfession(RaceEnum.DWARF, ProfessionEnum.WOODCRAFTER), new RatingWoodcrafterDwarf());
-    MapSequence.fromMap(strategies).put(new RaceProfession(RaceEnum.GOBLIN, ProfessionEnum.ADMINISTRATOR), new RatingAdministratorGoblin());
-    MapSequence.fromMap(strategies).put(new RaceProfession(RaceEnum.DWARF, ProfessionEnum.AXEMAN), new RatingAxemanDwarf());
   }
 
   public RatingStrategy getStrategy(RaceEnum raceEnum, ProfessionEnum professionEnum) {
     if (MapSequence.fromMap(strategies).containsKey(new RaceProfession(raceEnum, professionEnum))) {
       return MapSequence.fromMap(strategies).get(new RaceProfession(raceEnum, professionEnum));
-    }
-    if (RaceEnum.DWARF.equals(raceEnum) && ProfessionEnum.WOODCRAFTER.equals(professionEnum)) {
-      return new RatingWoodcrafterDwarf();
-    }
-    if (RaceEnum.GOBLIN.equals(raceEnum) && ProfessionEnum.ADMINISTRATOR.equals(professionEnum)) {
-      return new RatingAdministratorGoblin();
-    }
-    if (RaceEnum.DWARF.equals(raceEnum) && ProfessionEnum.AXEMAN.equals(professionEnum)) {
-      return new RatingAxemanDwarf();
     }
     // No strategy found, return NullObject 
     return new RatingStrategy() {

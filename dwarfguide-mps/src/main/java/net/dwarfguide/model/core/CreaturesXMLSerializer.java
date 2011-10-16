@@ -5,6 +5,8 @@ package net.dwarfguide.model.core;
 import com.google.inject.Provider;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.apache.commons.io.FileUtils;
+import java.io.File;
 import java.io.InputStream;
 import org.simpleframework.xml.stream.Format;
 import org.simpleframework.xml.stream.CamelCaseStyle;
@@ -30,10 +32,10 @@ public class CreaturesXMLSerializer implements Provider<Creatures> {
   @Override
   public Creatures get() {
     try {
-      return deserialize(getClass().getClassLoader().getResourceAsStream(this.getXmlFile()));
+      return deserialize(FileUtils.openInputStream(new File(this.getXmlFile())));
     } catch (Exception exception) {
-      if (log.isDebugEnabled()) {
-        log.debug("Error deserializing", exception);
+      if (log.isErrorEnabled()) {
+        log.error("Error deserializing", exception);
       }
       return new Creatures();
     }
