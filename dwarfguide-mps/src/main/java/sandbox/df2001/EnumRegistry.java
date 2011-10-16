@@ -7,7 +7,7 @@ import java.util.Map;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.LinkedHashMap;
 
-@Generated(value = {"MPS"}, date = "2011.10.14", comments = "Generated from model sandboxsandbox")
+@Generated(value = {"MPS"}, date = "2011.10.16", comments = "Generated from model sandbox.df2001")
 public class EnumRegistry<T extends Enum<T> & HasName> {
   private final Map<String, T> map = MapSequence.fromMap(new LinkedHashMap<String, T>(16, (float) 0.75, false));
 

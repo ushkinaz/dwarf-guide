@@ -3,11 +3,13 @@
   <unitInfo fileName="XMLFile.java" startLine="7" startPosition="0" endLine="10" endPosition="0" unitName="sandbox.df2001.XMLFile" />
   <unitInfo fileName="HasName.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="sandbox.df2001.HasName" />
   <unitInfo fileName="CreatureLoader.java" startLine="8" startPosition="0" endLine="12" endPosition="0" unitName="sandbox.df2001.CreatureLoader" />
-  <unitInfo fileName="Creatures.java" startLine="7" startPosition="0" endLine="12" endPosition="0" unitName="sandbox.df2001.Creatures" />
   <unitInfo fileName="RatingStrategy.java" startLine="7" startPosition="0" endLine="12" endPosition="0" unitName="sandbox.df2001.RatingStrategy" />
+  <unitInfo fileName="Sex.java" startLine="6" startPosition="0" endLine="13" endPosition="0" unitName="sandbox.df2001.Sex" />
   <unitInfo fileName="RatingStrategyFactory.java" startLine="27" startPosition="15" endLine="35" endPosition="5" unitName="sandbox.df2001.RatingStrategyFactory$1" />
   <unitInfo fileName="Application.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="sandbox.df2001.Application" />
   <unitInfo fileName="CreatureRunesmithLoader.java" startLine="10" startPosition="0" endLine="21" endPosition="0" unitName="sandbox.df2001.CreatureRunesmithLoader" />
+  <unitInfo fileName="CreaturesXMLSerializer.java" startLine="52" startPosition="0" endLine="64" endPosition="0" unitName="sandbox.df2001.CreaturesXMLSerializer$EnumTransform" />
+  <unitInfo fileName="Creatures.java" startLine="12" startPosition="0" endLine="26" endPosition="0" unitName="sandbox.df2001.Creatures" />
   <unitInfo fileName="TraitEnum.java" startLine="7" startPosition="0" endLine="22" endPosition="0" unitName="sandbox.df2001.TraitEnum" />
   <unitInfo fileName="EnumRegistry.java" startLine="10" startPosition="0" endLine="25" endPosition="0" unitName="sandbox.df2001.EnumRegistry" />
   <unitInfo fileName="ProfessionEnum.java" startLine="7" startPosition="0" endLine="23" endPosition="0" unitName="sandbox.df2001.ProfessionEnum" />
@@ -17,6 +19,8 @@
   <unitInfo fileName="RaceProfession.java" startLine="8" startPosition="0" endLine="38" endPosition="0" unitName="sandbox.df2001.RaceProfession" />
   <unitInfo fileName="RaceEnum.java" startLine="7" startPosition="0" endLine="45" endPosition="0" unitName="sandbox.df2001.RaceEnum" />
   <unitInfo fileName="TraitInstance.java" startLine="8" startPosition="0" endLine="46" endPosition="0" unitName="sandbox.df2001.TraitInstance" />
+  <unitInfo fileName="CreaturesXMLSerializer.java" startLine="16" startPosition="0" endLine="65" endPosition="0" unitName="sandbox.df2001.CreaturesXMLSerializer" />
+  <unitInfo fileName="CreatureXML.java" startLine="9" startPosition="0" endLine="66" endPosition="0" unitName="sandbox.df2001.CreatureXML" />
   <unitInfo fileName="Creature.java" startLine="7" startPosition="0" endLine="123" endPosition="0" unitName="sandbox.df2001.Creature" />
   <root nodeId="2455624152132595976">
     <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="8" startPosition="25" endLine="9" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="race" />

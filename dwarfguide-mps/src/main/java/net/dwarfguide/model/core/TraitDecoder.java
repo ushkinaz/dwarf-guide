@@ -7,7 +7,7 @@ import java.util.Map;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
 
-@Generated(value = {"MPS"}, date = "2011.10.14", comments = "Generated from model net.dwarfguide.modelnet.dwarfguide.model.core")
+@Generated(value = {"MPS"}, date = "2011.10.16", comments = "Generated from model net.dwarfguide.model.core")
 public class TraitDecoder {
   private static final Map<String, TraitInstance> levels;
 

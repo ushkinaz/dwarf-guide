@@ -38,8 +38,6 @@ import static java.util.Collections.unmodifiableList;
  */
 @Root(name = "Creature", strict = false)
 public class Creature {
-  @SuppressWarnings({"unused"})
-  private static final Logger LOGGER = LoggerFactory.getLogger(Creature.class);
 
   @Element
   private String name;
@@ -230,10 +228,5 @@ public class Creature {
 
   public Skill getMoodSkill() {
     return moodSkill;
-  }
-
-  @Commit
-  public void commit() {
-
   }
 }

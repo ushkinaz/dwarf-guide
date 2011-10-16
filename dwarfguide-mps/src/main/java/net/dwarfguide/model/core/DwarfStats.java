@@ -4,7 +4,7 @@ package net.dwarfguide.model.core;
 
 import javax.annotation.Generated;
 
-@Generated(value = {"MPS"}, date = "2011.10.14", comments = "Generated from model net.dwarfguide.modelnet.dwarfguide.model.core")
+@Generated(value = {"MPS"}, date = "2011.10.16", comments = "Generated from model net.dwarfguide.model.core")
 public class DwarfStats {
   public static RaceEnum race = RaceEnum.DWARF;
   public static final int MIN_FOCUS = 0;
