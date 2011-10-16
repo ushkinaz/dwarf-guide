@@ -65,7 +65,7 @@
               <goal>copy-dependencies</goal>
             </goals>
             <configuration>
-              <excludeTransitive>true</excludeTransitive>
+              <excludeTransitive>false</excludeTransitive>
               <stripVersion>true</stripVersion>
               <outputDirectory>${project.basedir}/lib</outputDirectory>
               <includeScope>compile</includeScope>
