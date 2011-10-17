@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="XMLFile.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="net.dwarfguide.model.core.XMLFile" />
+  <unitInfo fileName="RatingStrategyFactory.java" startLine="6" startPosition="0" endLine="9" endPosition="0" unitName="net.dwarfguide.model.core.RatingStrategyFactory" />
   <unitInfo fileName="CreatureLoader.java" startLine="7" startPosition="0" endLine="10" endPosition="0" unitName="net.dwarfguide.model.core.CreatureLoader" />
   <unitInfo fileName="RatingStrategy.java" startLine="6" startPosition="0" endLine="10" endPosition="0" unitName="net.dwarfguide.model.core.RatingStrategy" />
   <unitInfo fileName="CreatureRunesmithLoader.java" startLine="38" startPosition="115" endLine="42" endPosition="7" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader$1" />
@@ -152,7 +153,7 @@
   <unitInfo fileName="CreatureXML.java" startLine="1308" startPosition="67" endLine="1312" endPosition="5" unitName="net.dwarfguide.model.core.CreatureXML$145" />
   <unitInfo fileName="CreatureXML.java" startLine="1316" startPosition="67" endLine="1320" endPosition="5" unitName="net.dwarfguide.model.core.CreatureXML$146" />
   <unitInfo fileName="Sex.java" startLine="6" startPosition="0" endLine="13" endPosition="0" unitName="net.dwarfguide.model.core.Sex" />
-  <unitInfo fileName="RatingStrategyFactory.java" startLine="24" startPosition="15" endLine="32" endPosition="5" unitName="net.dwarfguide.model.core.RatingStrategyFactory$1" />
+  <unitInfo fileName="RatingStrategyFactoryConcrete.java" startLine="24" startPosition="15" endLine="32" endPosition="5" unitName="net.dwarfguide.model.core.RatingStrategyFactoryConcrete$1" />
   <unitInfo fileName="CreatureRunesmithLoader.java" startLine="90" startPosition="0" endLine="98" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader$TraitTransform" />
   <unitInfo fileName="CreatureRunesmithLoader.java" startLine="90" startPosition="0" endLine="98" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader$TraitTransform" />
   <unitInfo fileName="Application.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="net.dwarfguide.model.core.Application" />
@@ -160,7 +161,7 @@
   <unitInfo fileName="CreatureRunesmithLoader.java" startLine="77" startPosition="0" endLine="89" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader$EnumTransform" />
   <unitInfo fileName="ReadonlyTransform.java" startLine="7" startPosition="0" endLine="20" endPosition="0" unitName="net.dwarfguide.model.core.ReadonlyTransform" />
   <unitInfo fileName="Creatures.java" startLine="11" startPosition="0" endLine="24" endPosition="0" unitName="net.dwarfguide.model.core.Creatures" />
-  <unitInfo fileName="RatingStrategyFactory.java" startLine="9" startPosition="0" endLine="35" endPosition="0" unitName="net.dwarfguide.model.core.RatingStrategyFactory" />
+  <unitInfo fileName="RatingStrategyFactoryConcrete.java" startLine="9" startPosition="0" endLine="35" endPosition="0" unitName="net.dwarfguide.model.core.RatingStrategyFactoryConcrete" />
   <unitInfo fileName="SkillXMLInstance.java" startLine="8" startPosition="0" endLine="36" endPosition="0" unitName="net.dwarfguide.model.core.SkillXMLInstance" />
   <unitInfo fileName="IntegerInBracketsConverter.java" startLine="13" startPosition="0" endLine="42" endPosition="0" unitName="net.dwarfguide.model.core.IntegerInBracketsConverter" />
   <unitInfo fileName="RaceProfession.java" startLine="8" startPosition="0" endLine="38" endPosition="0" unitName="net.dwarfguide.model.core.RaceProfession" />

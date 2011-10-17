@@ -97,7 +97,7 @@
     </node>
     <node type="tpee.ClassConcept" typeId="tpee.1068390468198" id="3754205069338619947">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="strategy" />
-      <property name="name" nameId="tpck.1169194664001" value="RatingStrategyFactory" />
+      <property name="name" nameId="tpck.1169194664001" value="RatingStrategyFactoryConcrete" />
     </node>
     <node type="cx9y.NamedTupleDeclaration" typeId="cx9y.1239360506533" id="1778400223746894847">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="strategy" />
@@ -155,6 +155,10 @@
       <property name="isFinal" nameId="tpee.1221565133444" value="false" />
       <property name="name" nameId="tpck.1169194664001" value="IntegerInBracketsConverter" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="runesmith" />
+    </node>
+    <node type="tpee.Interface" typeId="tpee.1107796713796" id="2931072954840824925">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="strategy" />
+      <property name="name" nameId="tpck.1169194664001" value="RatingStrategyFactory" />
     </node>
   </roots>
   <root id="2413918680966875813">
@@ -266,7 +270,7 @@
       <link role="templateNode" roleId="tpf8.1167087469901" targetNodeId="7356936744394565503" resolveInfo="RatingStrategy" />
     </node>
     <node role="createRootRule" roleId="tpf8.1167088157977" type="tpf8.CreateRootRule" typeId="tpf8.1167087469898" id="3754205069338694537">
-      <link role="templateNode" roleId="tpf8.1167087469901" targetNodeId="3754205069338619947" resolveInfo="RatingStrategyFactory" />
+      <link role="templateNode" roleId="tpf8.1167087469901" targetNodeId="3754205069338619947" resolveInfo="RatingStrategyFactoryConcrete" />
     </node>
     <node role="createRootRule" roleId="tpf8.1167088157977" type="tpf8.CreateRootRule" typeId="tpf8.1167087469898" id="2413918680966875876">
       <link role="templateNode" roleId="tpf8.1167087469901" targetNodeId="7356936744394564411" resolveInfo="CreatureLoader" />
@@ -349,6 +353,9 @@
     </node>
     <node role="createRootRule" roleId="tpf8.1167088157977" type="tpf8.CreateRootRule" typeId="tpf8.1167087469898" id="5994105463846386820">
       <link role="templateNode" roleId="tpf8.1167087469901" targetNodeId="5994105463846253634" resolveInfo="SkillEnum" />
+    </node>
+    <node role="createRootRule" roleId="tpf8.1167088157977" type="tpf8.CreateRootRule" typeId="tpf8.1167087469898" id="2931072954840825050">
+      <link role="templateNode" roleId="tpf8.1167087469901" targetNodeId="2931072954840824925" resolveInfo="RatingStrategyFactory" />
     </node>
   </root>
   <root id="2413918680966899059">
@@ -3164,6 +3171,9 @@
       </node>
     </node>
     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.RootTemplateAnnotation" typeId="tpf8.1168619357332" id="3754205069338779329" />
+    <node role="implementedInterface" roleId="tpee.1095933932569" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2931072954840851124">
+      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="2931072954840824925" resolveInfo="RatingStrategyFactory" />
+    </node>
   </root>
   <root id="1778400223746894847">
     <node role="component" roleId="cx9y.1239529553065" type="cx9y.NamedTupleComponentDeclaration" typeId="cx9y.1239462176079" id="1778400223746894850">
@@ -5191,6 +5201,31 @@
       </node>
     </node>
     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.RootTemplateAnnotation" typeId="tpf8.1168619357332" id="5994105463846253769" />
+  </root>
+  <root id="2931072954840824925">
+    <node role="method" roleId="tpee.1107880067339" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="2931072954840824981">
+      <property name="isAbstract" nameId="tpee.1178608670077" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="getStrategy" />
+      <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="2931072954840824986">
+        <property name="name" nameId="tpck.1169194664001" value="raceEnum" />
+        <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2931072954840824987">
+          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="7201497847334417258" resolveInfo="RaceEnum" />
+        </node>
+      </node>
+      <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="2931072954840824988">
+        <property name="name" nameId="tpck.1169194664001" value="professionEnum" />
+        <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2931072954840824989">
+          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="2413918680966899059" resolveInfo="ProfessionEnum" />
+        </node>
+      </node>
+      <node role="returnType" roleId="tpee.1068580123133" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2931072954840824985">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="7356936744394565503" resolveInfo="RatingStrategy" />
+      </node>
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="2931072954840824983" />
+      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="2931072954840824984" />
+    </node>
+    <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="2931072954840824926" />
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.RootTemplateAnnotation" typeId="tpf8.1168619357332" id="2931072954840824927" />
   </root>
 </model>
 

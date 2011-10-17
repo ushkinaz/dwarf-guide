@@ -1,6 +1,7 @@
 <project name="DwarfGuide-MPS-compile" default="compile.all">
   <property file="${ant.file}/../DwarfGuide-MPS.properties" />
   <property name="net.dwarfguide.creature.classes" value="${base_dir}/languages/Creature/classes_gen" />
+  <property name="net.dwarfguide.model.classes" value="${base_dir}/solutions/net.dwarfguide.model/classes_gen" />
   <path id="common.classpath">
     <path path="${mps_home}/lib/annotations.jar" />
     <path path="${mps_home}/lib/commons-lang-2.4.jar" />
@@ -19,6 +20,10 @@
   <path id="cycle.net.dwarfguide.creature_e9n0ge.src">
     <path path="${base_dir}/languages/Creature/source_gen" />
     <path path="${base_dir}/languages/Creature/test_gen" />
+  </path>
+  <path id="cycle.net.dwarfguide.model_e9n0ge.src">
+    <path path="${base_dir}/solutions/net.dwarfguide.model/test_gen" />
+    <path path="${base_dir}/src/main/java" />
   </path>
   <path id="cycle.net.dwarfguide.creature_e9n0ge.classpaths">
     <path path="${base_dir}/languages/Creature/classes_gen" />
@@ -119,7 +124,26 @@
     <path path="${mps_home}/lib/tools.jar" />
     <path refid="common.classpath" />
   </path>
-  <target name="compile.all" depends="compile.cycle.net.dwarfguide.creature_e9n0ge" />
+  <path id="cycle.net.dwarfguide.model_e9n0ge.classpaths">
+    <path path="${base_dir}/solutions/net.dwarfguide.model/classes_gen" />
+    <path path="${mps_home}/languages/baseLanguage/closures.runtime.jar" />
+    <path path="${mps_home}/languages/baseLanguage/jetbrains.mps.baseLanguage.collections-runtime.jar" />
+    <path path="${mps_home}/languages/baseLanguage/jetbrains.mps.baseLanguage.tuples.runtime.jar" />
+    <path path="${mps_home}/languages/languageDesign/jetbrains.mps.lang.core-runtime.jar" />
+    <path path="${mps_home}/languages/util/jetbrains.mps.gtext.runtime.jar" />
+    <path path="${base_dir}/lib/commons-io.jar" />
+    <path path="${mps_home}/lib/commons-lang-2.4.jar" />
+    <path path="${base_dir}/lib/guice.jar" />
+    <path path="${base_dir}/lib/javax.inject.jar" />
+    <path path="${base_dir}/lib/jcl-over-slf4j.jar" />
+    <path path="${base_dir}/lib/jsr250-api.jar" />
+    <path path="${base_dir}/lib/simple-xml.jar" />
+    <path path="${base_dir}/lib/slf4j-api.jar" />
+    <path path="${base_dir}/lib/slf4j-log4j12.jar" />
+    <path path="${base_dir}/solutions/net.dwarfguide.model/classes_gen" />
+    <path refid="common.classpath" />
+  </path>
+  <target name="compile.all" depends="compile.cycle.net.dwarfguide.creature_e9n0ge,compile.cycle.net.dwarfguide.model_e9n0ge" />
   <target name="compile.cycle.net.dwarfguide.creature_e9n0ge">
     <property name="classes.dump" value="${net.dwarfguide.creature.classes}.tmp" />
     <fail unless="base_dir" message="Property base_dir unspecified." />
@@ -142,7 +166,30 @@
     </javac>
     <delete dir="${classes.dump}" />
   </target>
+  <target name="compile.cycle.net.dwarfguide.model_e9n0ge" depends="compile.cycle.net.dwarfguide.creature_e9n0ge">
+    <property name="classes.dump" value="${net.dwarfguide.model.classes}.tmp" />
+    <fail unless="base_dir" message="Property base_dir unspecified." />
+    <mkdir dir="${base_dir}/solutions/net.dwarfguide.model/test_gen" />
+    <mkdir dir="${base_dir}/src/main/java" />
+    <mkdir dir="${classes.dump}" />
+    <mkdir dir="${net.dwarfguide.model.classes}" />
+    <javac classpathref="cycle.net.dwarfguide.model_e9n0ge.classpaths" destdir="${classes.dump}" fork="true" includeantruntime="false" memorymaximumsize="1024m">
+      <src refid="cycle.net.dwarfguide.model_e9n0ge.src" />
+    </javac>
+    <copy todir="${net.dwarfguide.model.classes}">
+      <fileset includes="**/*.png" dir="${base_dir}/solutions/net.dwarfguide.model/test_gen" />
+      <fileset includes="**/*.png" dir="${base_dir}/src/main/java" />
+    </copy>
+    <javac classpathref="cycle.net.dwarfguide.model_e9n0ge.classpaths" classpath="${classes.dump}" destdir="${net.dwarfguide.model.classes}" fork="true" includeantruntime="false" memorymaximumsize="1024m" debug="true">
+      <src>
+        <path path="${base_dir}/solutions/net.dwarfguide.model/test_gen" />
+        <path path="${base_dir}/src/main/java" />
+      </src>
+    </javac>
+    <delete dir="${classes.dump}" />
+  </target>
   <target name="clean.classes">
     <delete dir="${net.dwarfguide.creature.classes}" />
+    <delete dir="${net.dwarfguide.model.classes}" />
   </target>
 </project>

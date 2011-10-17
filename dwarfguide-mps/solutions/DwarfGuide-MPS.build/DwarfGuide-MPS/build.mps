@@ -76,6 +76,25 @@
         <node role="entry" roleId="tps4.1203617897549" type="tps4.Module" typeId="tps4.1203599702327" id="3848777903716205162">
           <property name="id" nameId="tps4.1222447189012" value="ec18e679-bd6d-4441-a00b-ab06c2d44eec" />
         </node>
+        <node role="entry" roleId="tps4.1203617897549" type="tps4.Module" typeId="tps4.1203599702327" id="2931072954840819235">
+          <property name="id" nameId="tps4.1222447189012" value="29959101-81b7-471e-875c-7fd056d610fc" />
+          <property name="name" nameId="tpck.1169194664001" value="net.dwarfguide.model" />
+        </node>
+      </node>
+    </node>
+    <node role="propertyFile" roleId="tps4.1240395872155" type="tps4.PropertyFileImport" typeId="tps4.2372113960322848948" id="2931072954840819240">
+      <node role="file" roleId="tps4.2372113960322848949" type="tps4.Path" typeId="tps4.1220973916698" id="2931072954840819241">
+        <node role="macro" roleId="tps4.1220976095387" type="tps4.MacroReference" typeId="tps4.1220976052975" id="2931072954840819242">
+          <property name="name" nameId="tps4.1220976068141" value="base_dir" />
+        </node>
+        <node role="compositePathComponent" roleId="tps4.1220974249696" type="tps4.CompositePathComponent" typeId="tps4.1220973992845" id="2931072954840819243">
+          <node role="pathComponent" roleId="tps4.1220978161990" type="tps4.PathComponent" typeId="tps4.1220973955905" id="2931072954840819247">
+            <property name="path" nameId="tps4.1220974398640" value="build" />
+          </node>
+          <node role="pathComponent" roleId="tps4.1220978161990" type="tps4.PathComponent" typeId="tps4.1220973955905" id="2931072954840819249">
+            <property name="path" nameId="tps4.1220974398640" value="local.properties" />
+          </node>
+        </node>
       </node>
     </node>
   </root>

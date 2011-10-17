@@ -26,6 +26,7 @@ import com.google.inject.AbstractModule;
 import net.dwarfguide.model.core.CreatureLoader;
 import net.dwarfguide.model.core.CreatureRunesmithLoader;
 import net.dwarfguide.model.core.RatingStrategyFactory;
+import net.dwarfguide.model.core.RatingStrategyFactoryConcrete;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -41,7 +42,7 @@ public class GuideModule extends AbstractModule {
   }
 
   protected void configure() {
-    bind(RatingStrategyFactory.class).to(RatingStrategyFactory.class).asEagerSingleton();
+    bind(RatingStrategyFactory.class).to(RatingStrategyFactoryConcrete.class).asEagerSingleton();
     bind(CreatureLoader.class).toInstance(new CreatureRunesmithLoader(xmlFile));
   }
 }
