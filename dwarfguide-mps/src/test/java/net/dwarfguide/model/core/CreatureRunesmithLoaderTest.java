@@ -26,14 +26,14 @@ import java.util.List;
 /**
  * @author Dmitry Sidorenko
  */
-public class RunesmithXMLReaderTest {
+public class CreatureRunesmithLoaderTest {
   @SuppressWarnings({"unused"})
-  private static final Logger LOGGER = LoggerFactory.getLogger(RunesmithXMLReaderTest.class);
+  private static final Logger LOGGER = LoggerFactory.getLogger(CreatureRunesmithLoaderTest.class);
 
   @Test
   public void testGet() throws Exception {
-    RunesmithXMLReader serializer =new RunesmithXMLReader("TestDwarves.xml");
-    List<Creature> creatures = serializer.get();
+    CreatureLoader serializer = new CreatureRunesmithLoader("TestDwarves.xml");
+    List<Creature> creatures = serializer.loadCreatures();
     Assert.assertThat(creatures.size(), CoreMatchers.is(110));
   }
 }
