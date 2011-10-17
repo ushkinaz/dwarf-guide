@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="XMLFile.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="net.dwarfguide.model.core.XMLFile" />
-  <unitInfo fileName="HasName.java" startLine="6" startPosition="0" endLine="9" endPosition="0" unitName="net.dwarfguide.model.core.HasName" />
   <unitInfo fileName="CreatureLoader.java" startLine="7" startPosition="0" endLine="10" endPosition="0" unitName="net.dwarfguide.model.core.CreatureLoader" />
   <unitInfo fileName="RatingStrategy.java" startLine="6" startPosition="0" endLine="10" endPosition="0" unitName="net.dwarfguide.model.core.RatingStrategy" />
   <unitInfo fileName="CreatureRunesmithLoader.java" startLine="38" startPosition="115" endLine="42" endPosition="7" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader$1" />
@@ -161,7 +160,6 @@
   <unitInfo fileName="CreatureRunesmithLoader.java" startLine="77" startPosition="0" endLine="89" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader$EnumTransform" />
   <unitInfo fileName="ReadonlyTransform.java" startLine="7" startPosition="0" endLine="20" endPosition="0" unitName="net.dwarfguide.model.core.ReadonlyTransform" />
   <unitInfo fileName="Creatures.java" startLine="11" startPosition="0" endLine="24" endPosition="0" unitName="net.dwarfguide.model.core.Creatures" />
-  <unitInfo fileName="EnumRegistry.java" startLine="9" startPosition="0" endLine="23" endPosition="0" unitName="net.dwarfguide.model.core.EnumRegistry" />
   <unitInfo fileName="RatingStrategyFactory.java" startLine="9" startPosition="0" endLine="35" endPosition="0" unitName="net.dwarfguide.model.core.RatingStrategyFactory" />
   <unitInfo fileName="SkillXMLInstance.java" startLine="8" startPosition="0" endLine="36" endPosition="0" unitName="net.dwarfguide.model.core.SkillXMLInstance" />
   <unitInfo fileName="IntegerInBracketsConverter.java" startLine="13" startPosition="0" endLine="42" endPosition="0" unitName="net.dwarfguide.model.core.IntegerInBracketsConverter" />
