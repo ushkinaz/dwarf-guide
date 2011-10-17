@@ -22,11 +22,7 @@
   </path>
   <path id="cycle.net.dwarfguide.creature_e9n0ge.classpaths">
     <path path="${base_dir}/languages/Creature/classes_gen" />
-    <path path="C:/Workspace/dg/dwarfguide-mps/languages/Creature/classes_gen" />
-    <path path="C:/Workspace/dg/dwarfguide-mps/lib/guice.jar" />
-    <path path="C:/Workspace/dg/dwarfguide-mps/lib/jsr250-api.jar" />
-    <path path="C:/Workspace/dg/dwarfguide-mps/lib/simple-xml.jar" />
-    <path path="C:/Workspace/dg/dwarfguide-mps/solutions/net.dwarfguide.framework/classes_gen" />
+    <path path="${base_dir}/languages/Creature/classes_gen" />
     <path path="${mps_home}/languages/baseLanguage/closures.runtime.jar" />
     <path path="${mps_home}/languages/baseLanguage/collections_trove.runtime/collections_trove.runtime.jar" />
     <path path="${mps_home}/languages/baseLanguage/collections_trove.runtime/trove-2.1.0.jar" />
@@ -112,10 +108,14 @@
     <path path="${mps_home}/languages/util/ui/jetbrains.mps.ui.swing.runtime/swingx-1.6.jar" />
     <path path="${mps_home}/lib/asm.jar" />
     <path path="${mps_home}/lib/beansbinding-1.2.1.jar" />
+    <path path="${base_dir}/lib/commons-io.jar" />
     <path path="${mps_home}/lib/commons-lang-2.4.jar" />
     <path path="${mps_home}/lib/commons-logging-1.1.jar" />
     <path path="${mps_home}/lib/guava-r06.jar" />
+    <path path="${base_dir}/lib/guice.jar" />
+    <path path="${base_dir}/lib/jsr250-api.jar" />
     <path path="${mps_home}/lib/junit-4.8.2.jar" />
+    <path path="${base_dir}/lib/simple-xml.jar" />
     <path path="${mps_home}/lib/tools.jar" />
     <path refid="common.classpath" />
   </path>

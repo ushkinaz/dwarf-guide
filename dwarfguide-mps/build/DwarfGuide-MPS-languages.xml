@@ -105,7 +105,6 @@
           <module ref="df345b11-b8c7-4213-ac66-48d2a9b75d88(jetbrains.mps.baseLanguageInternal)" />
           <module ref="df9d410f-2ebb-43f7-893a-483a4f085250(jetbrains.mps.smodel.resources)" />
           <module ref="e00b808b-8cda-4cba-becc-a390490358b1(jetbrains.mps.lang.constraints#1147476727047)" />
-          <module ref="e09e5999-3cb3-4167-bcfb-b05d5ee4c55b(net.dwarfguide.framework)" />
           <module ref="e5c2a44a-6085-4aeb-a5b6-851cecd2d926(jetbrains.mps.ui.gwt)" />
           <module ref="e7d4970e-3e9f-4cf0-a129-f5976c82d635(jetbrains.mps.lang.patterns#1174810948060)" />
           <module ref="ed6d7656-532c-4bc2-81d1-af945aeb8280(jetbrains.mps.baseLanguage.blTypes)" />
