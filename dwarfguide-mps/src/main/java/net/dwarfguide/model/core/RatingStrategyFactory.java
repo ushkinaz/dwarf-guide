@@ -20,15 +20,6 @@ public class RatingStrategyFactory {
     if (MapSequence.fromMap(strategies).containsKey(new RaceProfession(raceEnum, professionEnum))) {
       return MapSequence.fromMap(strategies).get(new RaceProfession(raceEnum, professionEnum));
     }
-    if (RaceEnum.DWARF.equals(raceEnum) && ProfessionEnum.WOODCRAFTER.equals(professionEnum)) {
-      return new RatingWoodcrafterDwarf();
-    }
-    if (RaceEnum.GOBLIN.equals(raceEnum) && ProfessionEnum.ADMINISTRATOR.equals(professionEnum)) {
-      return new RatingAdministratorGoblin();
-    }
-    if (RaceEnum.DWARF.equals(raceEnum) && ProfessionEnum.AXEMAN.equals(professionEnum)) {
-      return new RatingAxemanDwarf();
-    }
     // No strategy found, return NullObject 
     return new RatingStrategy() {
       public int getRating(Creature creature) {

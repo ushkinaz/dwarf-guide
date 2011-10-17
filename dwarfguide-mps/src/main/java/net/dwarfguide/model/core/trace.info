@@ -152,7 +152,7 @@
   <unitInfo fileName="CreatureXML.java" startLine="1308" startPosition="67" endLine="1312" endPosition="5" unitName="net.dwarfguide.model.core.CreatureXML$145" />
   <unitInfo fileName="CreatureXML.java" startLine="1316" startPosition="67" endLine="1320" endPosition="5" unitName="net.dwarfguide.model.core.CreatureXML$146" />
   <unitInfo fileName="Sex.java" startLine="6" startPosition="0" endLine="13" endPosition="0" unitName="net.dwarfguide.model.core.Sex" />
-  <unitInfo fileName="RatingStrategyFactory.java" startLine="33" startPosition="15" endLine="41" endPosition="5" unitName="net.dwarfguide.model.core.RatingStrategyFactory$1" />
+  <unitInfo fileName="RatingStrategyFactory.java" startLine="24" startPosition="15" endLine="32" endPosition="5" unitName="net.dwarfguide.model.core.RatingStrategyFactory$1" />
   <unitInfo fileName="RunesmithXMLReader.java" startLine="91" startPosition="0" endLine="99" endPosition="0" unitName="net.dwarfguide.model.core.RunesmithXMLReader$TraitTransform" />
   <unitInfo fileName="Application.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="net.dwarfguide.model.core.Application" />
   <unitInfo fileName="CreatureRunesmithLoader.java" startLine="9" startPosition="0" endLine="19" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader" />
@@ -160,11 +160,11 @@
   <unitInfo fileName="ReadonlyTransform.java" startLine="7" startPosition="0" endLine="20" endPosition="0" unitName="net.dwarfguide.model.core.ReadonlyTransform" />
   <unitInfo fileName="Creatures.java" startLine="11" startPosition="0" endLine="24" endPosition="0" unitName="net.dwarfguide.model.core.Creatures" />
   <unitInfo fileName="EnumRegistry.java" startLine="9" startPosition="0" endLine="23" endPosition="0" unitName="net.dwarfguide.model.core.EnumRegistry" />
+  <unitInfo fileName="RatingStrategyFactory.java" startLine="9" startPosition="0" endLine="35" endPosition="0" unitName="net.dwarfguide.model.core.RatingStrategyFactory" />
   <unitInfo fileName="SkillXMLInstance.java" startLine="8" startPosition="0" endLine="36" endPosition="0" unitName="net.dwarfguide.model.core.SkillXMLInstance" />
   <unitInfo fileName="IntegerInBracketsConverter.java" startLine="13" startPosition="0" endLine="42" endPosition="0" unitName="net.dwarfguide.model.core.IntegerInBracketsConverter" />
   <unitInfo fileName="RaceProfession.java" startLine="8" startPosition="0" endLine="38" endPosition="0" unitName="net.dwarfguide.model.core.RaceProfession" />
   <unitInfo fileName="AttributeEnum.java" startLine="6" startPosition="0" endLine="37" endPosition="0" unitName="net.dwarfguide.model.core.AttributeEnum" />
-  <unitInfo fileName="RatingStrategyFactory.java" startLine="9" startPosition="0" endLine="44" endPosition="0" unitName="net.dwarfguide.model.core.RatingStrategyFactory" />
   <unitInfo fileName="RaceEnum.java" startLine="6" startPosition="0" endLine="43" endPosition="0" unitName="net.dwarfguide.model.core.RaceEnum" />
   <unitInfo fileName="TraitInstance.java" startLine="8" startPosition="0" endLine="46" endPosition="0" unitName="net.dwarfguide.model.core.TraitInstance" />
   <unitInfo fileName="TraitEnum.java" startLine="6" startPosition="0" endLine="48" endPosition="0" unitName="net.dwarfguide.model.core.TraitEnum" />
