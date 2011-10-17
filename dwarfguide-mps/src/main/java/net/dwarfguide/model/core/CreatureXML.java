@@ -7,6 +7,8 @@ import org.simpleframework.xml.Element;
 import org.simpleframework.xml.Path;
 import org.simpleframework.xml.ElementList;
 import java.util.List;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 
 
 /**
@@ -112,7 +114,1212 @@ public class CreatureXML {
   }
 
   public Creature toCreature() {
-    // TODO: implement 
-    return null;
+    Creature cr = new Creature();
+    cr.setName(this.name);
+    cr.setNickname(this.nickname);
+    fillAttributes(cr);
+    fillSkills(cr);
+    fillTraits(cr);
+    return cr;
+  }
+
+  private void fillAttributes(Creature creature) {
+    creature.setAttrRecuperation(Recuperation);
+    creature.setAttrDiseaseResistance(DiseaseResistance);
+    creature.setAttrWillpower(Willpower);
+    creature.setAttrMemory(Memory);
+    creature.setAttrFocus(Focus);
+    creature.setAttrIntuition(Intuition);
+    creature.setAttrPatience(Patience);
+    creature.setAttrEmpathy(Empathy);
+    creature.setAttrSocialAwareness(SocialAwareness);
+    creature.setAttrCreatvity(Creatvity);
+    creature.setAttrMusicality(Musicality);
+    creature.setAttrLinguisticAbility(LinguisticAbility);
+    creature.setAttrSpatialSense(SpatialSense);
+    creature.setAttrKinaestheticSense(KinaestheticSense);
+    creature.setAttrAnalyticalAbility(AnalyticalAbility);
+    creature.setAttrStrength(Strength);
+    creature.setAttrAgility(Agility);
+    creature.setAttrToughness(Toughness);
+    creature.setAttrEndurance(Endurance);
+  }
+
+  private void fillTraits(Creature creature) {
+    // TODO: optimize some day 
+    TraitInstance traitInst;
+    traitInst = ListSequence.fromList(traits).findFirst(new IWhereFilter<TraitInstance>() {
+      public boolean accept(TraitInstance it) {
+        return it.trait() == TraitEnum.NERVOUSNESS;
+      }
+    });
+    if (traitInst != null) {
+      creature.setTraitNervousness((int) traitInst.experience());
+    }
+    traitInst = ListSequence.fromList(traits).findFirst(new IWhereFilter<TraitInstance>() {
+      public boolean accept(TraitInstance it) {
+        return it.trait() == TraitEnum.RAGE;
+      }
+    });
+    if (traitInst != null) {
+      creature.setTraitRage((int) traitInst.experience());
+    }
+    traitInst = ListSequence.fromList(traits).findFirst(new IWhereFilter<TraitInstance>() {
+      public boolean accept(TraitInstance it) {
+        return it.trait() == TraitEnum.DEPRESSION;
+      }
+    });
+    if (traitInst != null) {
+      creature.setTraitDepression((int) traitInst.experience());
+    }
+    traitInst = ListSequence.fromList(traits).findFirst(new IWhereFilter<TraitInstance>() {
+      public boolean accept(TraitInstance it) {
+        return it.trait() == TraitEnum.NEUROSIS;
+      }
+    });
+    if (traitInst != null) {
+      creature.setTraitNeurosis((int) traitInst.experience());
+    }
+    traitInst = ListSequence.fromList(traits).findFirst(new IWhereFilter<TraitInstance>() {
+      public boolean accept(TraitInstance it) {
+        return it.trait() == TraitEnum.URGE;
+      }
+    });
+    if (traitInst != null) {
+      creature.setTraitUrge((int) traitInst.experience());
+    }
+    traitInst = ListSequence.fromList(traits).findFirst(new IWhereFilter<TraitInstance>() {
+      public boolean accept(TraitInstance it) {
+        return it.trait() == TraitEnum.STRESS;
+      }
+    });
+    if (traitInst != null) {
+      creature.setTraitStress((int) traitInst.experience());
+    }
+    traitInst = ListSequence.fromList(traits).findFirst(new IWhereFilter<TraitInstance>() {
+      public boolean accept(TraitInstance it) {
+        return it.trait() == TraitEnum.FRIENDLY;
+      }
+    });
+    if (traitInst != null) {
+      creature.setTraitFriendly((int) traitInst.experience());
+    }
+    traitInst = ListSequence.fromList(traits).findFirst(new IWhereFilter<TraitInstance>() {
+      public boolean accept(TraitInstance it) {
+        return it.trait() == TraitEnum.COMPANY;
+      }
+    });
+    if (traitInst != null) {
+      creature.setTraitCompany((int) traitInst.experience());
+    }
+    traitInst = ListSequence.fromList(traits).findFirst(new IWhereFilter<TraitInstance>() {
+      public boolean accept(TraitInstance it) {
+        return it.trait() == TraitEnum.LEADERSHIP;
+      }
+    });
+    if (traitInst != null) {
+      creature.setTraitLeadership((int) traitInst.experience());
+    }
+    traitInst = ListSequence.fromList(traits).findFirst(new IWhereFilter<TraitInstance>() {
+      public boolean accept(TraitInstance it) {
+        return it.trait() == TraitEnum.ACTIVENESS;
+      }
+    });
+    if (traitInst != null) {
+      creature.setTraitActiveness((int) traitInst.experience());
+    }
+    traitInst = ListSequence.fromList(traits).findFirst(new IWhereFilter<TraitInstance>() {
+      public boolean accept(TraitInstance it) {
+        return it.trait() == TraitEnum.THRILLSEEKING;
+      }
+    });
+    if (traitInst != null) {
+      creature.setTraitThrillseeking((int) traitInst.experience());
+    }
+    traitInst = ListSequence.fromList(traits).findFirst(new IWhereFilter<TraitInstance>() {
+      public boolean accept(TraitInstance it) {
+        return it.trait() == TraitEnum.OPTIMISM;
+      }
+    });
+    if (traitInst != null) {
+      creature.setTraitOptimism((int) traitInst.experience());
+    }
+    traitInst = ListSequence.fromList(traits).findFirst(new IWhereFilter<TraitInstance>() {
+      public boolean accept(TraitInstance it) {
+        return it.trait() == TraitEnum.IMAGINATION;
+      }
+    });
+    if (traitInst != null) {
+      creature.setTraitImagination((int) traitInst.experience());
+    }
+    traitInst = ListSequence.fromList(traits).findFirst(new IWhereFilter<TraitInstance>() {
+      public boolean accept(TraitInstance it) {
+        return it.trait() == TraitEnum.ARTISTIC;
+      }
+    });
+    if (traitInst != null) {
+      creature.setTraitArtistic((int) traitInst.experience());
+    }
+    traitInst = ListSequence.fromList(traits).findFirst(new IWhereFilter<TraitInstance>() {
+      public boolean accept(TraitInstance it) {
+        return it.trait() == TraitEnum.EMOTION;
+      }
+    });
+    if (traitInst != null) {
+      creature.setTraitEmotion((int) traitInst.experience());
+    }
+    traitInst = ListSequence.fromList(traits).findFirst(new IWhereFilter<TraitInstance>() {
+      public boolean accept(TraitInstance it) {
+        return it.trait() == TraitEnum.ADVENTURE;
+      }
+    });
+    if (traitInst != null) {
+      creature.setTraitAdventure((int) traitInst.experience());
+    }
+    traitInst = ListSequence.fromList(traits).findFirst(new IWhereFilter<TraitInstance>() {
+      public boolean accept(TraitInstance it) {
+        return it.trait() == TraitEnum.THINKING;
+      }
+    });
+    if (traitInst != null) {
+      creature.setTraitThinking((int) traitInst.experience());
+    }
+    traitInst = ListSequence.fromList(traits).findFirst(new IWhereFilter<TraitInstance>() {
+      public boolean accept(TraitInstance it) {
+        return it.trait() == TraitEnum.REBELLIOUSNESS;
+      }
+    });
+    if (traitInst != null) {
+      creature.setTraitRebelliousness((int) traitInst.experience());
+    }
+    traitInst = ListSequence.fromList(traits).findFirst(new IWhereFilter<TraitInstance>() {
+      public boolean accept(TraitInstance it) {
+        return it.trait() == TraitEnum.TRUSTING;
+      }
+    });
+    if (traitInst != null) {
+      creature.setTraitTrusting((int) traitInst.experience());
+    }
+    traitInst = ListSequence.fromList(traits).findFirst(new IWhereFilter<TraitInstance>() {
+      public boolean accept(TraitInstance it) {
+        return it.trait() == TraitEnum.HONESTY;
+      }
+    });
+    if (traitInst != null) {
+      creature.setTraitHonesty((int) traitInst.experience());
+    }
+    traitInst = ListSequence.fromList(traits).findFirst(new IWhereFilter<TraitInstance>() {
+      public boolean accept(TraitInstance it) {
+        return it.trait() == TraitEnum.HELPFULNESS;
+      }
+    });
+    if (traitInst != null) {
+      creature.setTraitHelpfulness((int) traitInst.experience());
+    }
+    traitInst = ListSequence.fromList(traits).findFirst(new IWhereFilter<TraitInstance>() {
+      public boolean accept(TraitInstance it) {
+        return it.trait() == TraitEnum.COMPROMISING;
+      }
+    });
+    if (traitInst != null) {
+      creature.setTraitCompromising((int) traitInst.experience());
+    }
+    traitInst = ListSequence.fromList(traits).findFirst(new IWhereFilter<TraitInstance>() {
+      public boolean accept(TraitInstance it) {
+        return it.trait() == TraitEnum.MODESTY;
+      }
+    });
+    if (traitInst != null) {
+      creature.setTraitModesty((int) traitInst.experience());
+    }
+    traitInst = ListSequence.fromList(traits).findFirst(new IWhereFilter<TraitInstance>() {
+      public boolean accept(TraitInstance it) {
+        return it.trait() == TraitEnum.COMPASSION;
+      }
+    });
+    if (traitInst != null) {
+      creature.setTraitCompassion((int) traitInst.experience());
+    }
+    traitInst = ListSequence.fromList(traits).findFirst(new IWhereFilter<TraitInstance>() {
+      public boolean accept(TraitInstance it) {
+        return it.trait() == TraitEnum.CONFIDENCE;
+      }
+    });
+    if (traitInst != null) {
+      creature.setTraitConfidence((int) traitInst.experience());
+    }
+    traitInst = ListSequence.fromList(traits).findFirst(new IWhereFilter<TraitInstance>() {
+      public boolean accept(TraitInstance it) {
+        return it.trait() == TraitEnum.ORGANIZATION;
+      }
+    });
+    if (traitInst != null) {
+      creature.setTraitOrganization((int) traitInst.experience());
+    }
+    traitInst = ListSequence.fromList(traits).findFirst(new IWhereFilter<TraitInstance>() {
+      public boolean accept(TraitInstance it) {
+        return it.trait() == TraitEnum.LAWFULNESS;
+      }
+    });
+    if (traitInst != null) {
+      creature.setTraitLawfulness((int) traitInst.experience());
+    }
+    traitInst = ListSequence.fromList(traits).findFirst(new IWhereFilter<TraitInstance>() {
+      public boolean accept(TraitInstance it) {
+        return it.trait() == TraitEnum.EXCELLENCE;
+      }
+    });
+    if (traitInst != null) {
+      creature.setTraitExcellence((int) traitInst.experience());
+    }
+    traitInst = ListSequence.fromList(traits).findFirst(new IWhereFilter<TraitInstance>() {
+      public boolean accept(TraitInstance it) {
+        return it.trait() == TraitEnum.PERSEVERANCE;
+      }
+    });
+    if (traitInst != null) {
+      creature.setTraitPerseverance((int) traitInst.experience());
+    }
+    traitInst = ListSequence.fromList(traits).findFirst(new IWhereFilter<TraitInstance>() {
+      public boolean accept(TraitInstance it) {
+        return it.trait() == TraitEnum.CAUTIOUSNESS;
+      }
+    });
+    if (traitInst != null) {
+      creature.setTraitCautiousness((int) traitInst.experience());
+    }
+  }
+
+  private void fillSkills(Creature creature) {
+    // TODO: optimize some day 
+    SkillXMLInstance skillXMLInstance;
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.MINING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillMining(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.WOOD_CUTTING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillWood_Cutting(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.CARPENTRY;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillCarpentry(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.ENGRAVING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillEngraving(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.MASONRY;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillMasonry(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.ANIMAL_TRAINING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillAnimal_Training(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.ANIMAL_CARETAKING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillAnimal_Caretaking(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.FISH_DISSECTION;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillFish_Dissection(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.ANIMAL_DISSECTION;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillAnimal_Dissection(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.FISH_CLEANING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillFish_Cleaning(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.BUTCHERY;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillButchery(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.TRAPPING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillTrapping(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.TANNING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillTanning(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.WEAVING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillWeaving(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.BREWING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillBrewing(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.ALCHEMY;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillAlchemy(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.CLOTHES_MAKING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillClothes_Making(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.MILLING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillMilling(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.THRESHING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillThreshing(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.CHEESE_MAKING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillCheese_Making(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.MILKING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillMilking(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.COOKING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillCooking(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.GROWING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillGrowing(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.HERBALISM;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillHerbalism(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.FISHING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillFishing(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.FURNACE_OPERATION;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillFurnace_Operation(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.STRAND_EXTRACTION;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillStrand_Extraction(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.WEAPONSMITHING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillWeaponsmithing(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.ARMORSMITHING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillArmorsmithing(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.METALSMITHING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillMetalsmithing(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.GEM_CUTTING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillGem_Cutting(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.GEM_SETTING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillGem_Setting(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.WOOD_CRAFTING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillWood_Crafting(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.STONE_CRAFTING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillStone_Crafting(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.METAL_CRAFTING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillMetal_Crafting(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.GLASSMAKING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillGlassmaking(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.LEATHERWORKERING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillLeatherworkering(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.BONE_CARVING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillBone_Carving(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.AXE;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillAxe(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.SWORD;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillSword(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.KNIFE;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillKnife(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.MACE;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillMace(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.HAMMER;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillHammer(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.SPEAR;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillSpear(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.CROSSBOW;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillCrossbow(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.SHIELD;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillShield(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.ARMOR;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillArmor(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.SIEGE_ENGINEERING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillSiege_Engineering(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.SIEGE_OPERATION;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillSiege_Operation(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.BOWMAKING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillBowmaking(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.PIKE;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillPike(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.LASH;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillLash(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.BOW;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillBow(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.BLOWGUN;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillBlowgun(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.THROWING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillThrowing(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.MACHINERY;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillMachinery(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.NATURE;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillNature(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.AMBUSH;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillAmbush(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.BUILDING_DESIGN;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillBuilding_Design(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.WOUND_DRESSING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillWound_Dressing(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.DIAGNOSTICS;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillDiagnostics(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.SURGERY;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillSurgery(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.BONE_SETTING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillBone_Setting(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.SUTURING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillSuturing(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.CRUTCH_WALKING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillCrutch_walking(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.WOOD_BURNING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillWood_Burning(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.LYE_MAKING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillLye_Making(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.SOAP_MAKING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillSoap_Making(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.POTASH_MAKING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillPotash_Making(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.DYEING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillDyeing(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.PUMP_OPERATION;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillPump_Operation(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.SWIMMING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillSwimming(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.PERSUASION;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillPersuasion(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.NEGOTIATION;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillNegotiation(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.JUDGING_INTENT;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillJudging_Intent(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.APPRAISAL;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillAppraisal(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.ORGANIZATION;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillOrganization(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.RECORD_KEEPING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillRecord_Keeping(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.LYING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillLying(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.INTIMIDATION;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillIntimidation(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.CONVERSATION;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillConversation(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.COMEDY;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillComedy(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.FLATTERY;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillFlattery(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.CONSOLING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillConsoling(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.PACIFICATION;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillPacification(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.TRACKING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillTracking(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.STUDYING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillStudying(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.CONCENTRATION;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillConcentration(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.DISCIPLINE;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillDiscipline(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.OBSERVATION;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillObservation(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.WRITING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillWriting(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.PROSE;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillProse(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.POETRY;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillPoetry(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.READING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillReading(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.SPEAKING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillSpeaking(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.COORDINATION;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillCoordination(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.BALANCE;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillBalance(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.LEADERSHIP;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillLeadership(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.TEACHING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillTeaching(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.FIGHTING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillFighting(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.ARCHERY;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillArchery(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.WRESTLING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillWrestling(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.BITING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillBiting(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.STRIKING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillStriking(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.KICKING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillKicking(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.DODGING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillDodging(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.MISC__OBJECT;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillMisc__Object(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.KNAPPING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillKnapping(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.SOMETHING_WEIRD;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillSomething_Weird(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.SHEARING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillShearing(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.WOOL_SPINNING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillWool_Spinning(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.POTTERY;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillPottery(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.GLAZING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillGlazing(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.PRESS_OPERATION;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillPress_Operation(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.BEE_KEEPING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillBee_Keeping(skillXMLInstance.getExperience());
+    }
+    skillXMLInstance = ListSequence.fromList(skills).findFirst(new IWhereFilter<SkillXMLInstance>() {
+      public boolean accept(SkillXMLInstance it) {
+        return it.getSkill() == SkillEnum.WAX_WORKING;
+      }
+    });
+    if (skillXMLInstance != null) {
+      creature.setSkillWax_Working(skillXMLInstance.getExperience());
+    }
   }
 }

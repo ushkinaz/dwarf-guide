@@ -10,8 +10,8 @@ public class TraitInstance extends MultiTuple._3<TraitEnum, Integer, Integer> {
     super();
   }
 
-  public TraitInstance(TraitEnum trait, Integer level, Integer value) {
-    super(trait, level, value);
+  public TraitInstance(TraitEnum trait, Integer level, Integer experience) {
+    super(trait, level, experience);
   }
 
   public TraitEnum trait(TraitEnum value) {
@@ -22,7 +22,7 @@ public class TraitInstance extends MultiTuple._3<TraitEnum, Integer, Integer> {
     return super._1(value);
   }
 
-  public Integer value(Integer value) {
+  public Integer experience(Integer value) {
     return super._2(value);
   }
 
@@ -34,7 +34,7 @@ public class TraitInstance extends MultiTuple._3<TraitEnum, Integer, Integer> {
     return super._1();
   }
 
-  public Integer value() {
+  public Integer experience() {
     return super._2();
   }
 

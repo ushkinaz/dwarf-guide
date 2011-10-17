@@ -16,24 +16,23 @@
 
 package net.dwarfguide.model.core;
 
-import org.hamcrest.CoreMatchers;
 import org.junit.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.List;
+import static org.hamcrest.CoreMatchers.notNullValue;
+import static org.junit.Assert.*;
 
 /**
  * @author Dmitry Sidorenko
  */
-public class RunesmithXMLReaderTest {
+public class CreatureXMLTest {
   @SuppressWarnings({"unused"})
-  private static final Logger LOGGER = LoggerFactory.getLogger(RunesmithXMLReaderTest.class);
+  private static final Logger LOGGER = LoggerFactory.getLogger(CreatureXMLTest.class);
 
   @Test
-  public void testGet() throws Exception {
-    RunesmithXMLReader serializer =new RunesmithXMLReader("TestDwarves.xml");
-    List<Creature> creatures = serializer.get();
-    Assert.assertThat(creatures.size(), CoreMatchers.is(110));
+  public void testToCreature() throws Exception {
+    CreatureXML creatureXML = new CreatureXML();
+    assertThat(creatureXML.toCreature(), notNullValue());
   }
 }
