@@ -38,6 +38,12 @@
     </dependency>
 
     <dependency>
+      <groupId>net.dwarfguide</groupId>
+      <artifactId>dwarfguide-mps</artifactId>
+      <version>${version}</version>
+    </dependency>
+
+    <dependency>
       <groupId>org.simpleframework</groupId>
       <artifactId>simple-xml</artifactId>
       <version>2.6.1</version>

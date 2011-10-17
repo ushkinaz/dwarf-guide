@@ -23,6 +23,9 @@
 package net.dwarfguide;
 
 import com.google.inject.AbstractModule;
+import net.dwarfguide.model.core.CreatureLoader;
+import net.dwarfguide.model.core.CreatureRunesmithLoader;
+import net.dwarfguide.model.core.RatingStrategyFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -30,7 +33,16 @@ public class GuideModule extends AbstractModule {
   @SuppressWarnings({"UnusedDeclaration"})
   private static final Logger LOGGER = LoggerFactory.getLogger(GuideModule.class);
 
+
+  private String xmlFile;
+
+  public GuideModule(String xmlFile) {
+    this.xmlFile = xmlFile;
+  }
+
   protected void configure() {
+    bind(RatingStrategyFactory.class).to(RatingStrategyFactory.class).asEagerSingleton();
+    bind(CreatureLoader.class).toInstance(new CreatureRunesmithLoader(xmlFile));
   }
 }
 
