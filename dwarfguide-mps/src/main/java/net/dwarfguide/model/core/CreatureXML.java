@@ -5,6 +5,8 @@ package net.dwarfguide.model.core;
 import org.simpleframework.xml.Root;
 import org.simpleframework.xml.Element;
 import org.simpleframework.xml.Path;
+import org.simpleframework.xml.ElementList;
+import java.util.List;
 
 
 /**
@@ -81,6 +83,10 @@ public class CreatureXML {
   @Path(value = "Attributes")
   @Element(name = "Endurance")
   private int Endurance;
+  @ElementList(entry = "Skill", empty = false)
+  private List<SkillXMLInstance> skills;
+  @ElementList(entry = "Traits", empty = false)
+  private List<TraitInstance> traits;
 
   public CreatureXML() {
   }
@@ -103,5 +109,10 @@ public class CreatureXML {
 
   public int getAge() {
     return age;
+  }
+
+  public Creature toCreature() {
+    // TODO: implement 
+    return null;
   }
 }

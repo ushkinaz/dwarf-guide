@@ -48,13 +48,15 @@ public class RunesmithXMLReader implements Provider<Creatures> {
     registerEnumTransform(matcher, Sex.class);
     registerEnumTransform(matcher, ProfessionEnum.class);
     registerEnumTransform(matcher, TraitEnum.class);
+    registerEnumTransform(matcher, SkillEnum.class);
+    matcher.bind(TraitInstance.class, new RunesmithXMLReader.TraitTransform());
 
     Serializer serializer = new Persister(strategy, matcher, format);
     return serializer.read(Creatures.class, in);
   }
 
-  public void registerEnumTransform(RegistryMatcher matcher, Class enumClass) {
-    matcher.bind(enumClass, new RunesmithXMLReader.EnumTransform(enumClass));
+  public <T extends Enum<T>> void registerEnumTransform(RegistryMatcher matcher, Class<T> enumClass) {
+    matcher.bind(enumClass, new RunesmithXMLReader.EnumTransform<T>(enumClass));
   }
 
   public String getXmlFile() {
@@ -68,14 +70,22 @@ public class RunesmithXMLReader implements Provider<Creatures> {
   private static class EnumTransform<EnumType extends Enum<EnumType>> extends ReadonlyTransform<EnumType> {
     private Class<EnumType> typeClass;
 
-    @SuppressWarnings(value = {"UnusedDeclaration"})
     private EnumTransform(Class<EnumType> typeClass) {
       this.typeClass = typeClass;
     }
 
     @Override
     public EnumType read(String value) throws Exception {
-      return Enum.valueOf(typeClass, value.toUpperCase());
+      return Enum.valueOf(typeClass, value.toUpperCase().replaceAll("\\W", "_"));
+    }
+  }
+
+  private class TraitTransform extends ReadonlyTransform<TraitInstance> {
+    public TraitTransform() {
+    }
+
+    public TraitInstance read(String descr) throws Exception {
+      return TraitDecoder.findByName(descr);
     }
   }
 }

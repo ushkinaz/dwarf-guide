@@ -12,7 +12,7 @@ public class TraitDecoder {
   public TraitDecoder() {
   }
 
-  public TraitInstance findByName(String description) {
+  public static TraitInstance findByName(String description) {
     return MapSequence.fromMap(levels).get(description);
   }
 
