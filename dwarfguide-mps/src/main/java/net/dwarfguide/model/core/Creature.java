@@ -258,6 +258,53 @@ public class Creature {
     }
   }
 
+  /*package*/ void setAttribute(AttributeEnum attributeEnum, int value) {
+    switch (attributeEnum) {
+      case RECUPERATION:
+        this.setAttrRecuperation(value);
+      case DISEASERESISTANCE:
+        this.setAttrDiseaseResistance(value);
+      case WILLPOWER:
+        this.setAttrWillpower(value);
+      case MEMORY:
+        this.setAttrMemory(value);
+      case FOCUS:
+        this.setAttrFocus(value);
+      case INTUITION:
+        this.setAttrIntuition(value);
+      case PATIENCE:
+        this.setAttrPatience(value);
+      case EMPATHY:
+        this.setAttrEmpathy(value);
+      case SOCIALAWARENESS:
+        this.setAttrSocialAwareness(value);
+      case CREATVITY:
+        this.setAttrCreatvity(value);
+      case MUSICALITY:
+        this.setAttrMusicality(value);
+      case LINGUISTICABILITY:
+        this.setAttrLinguisticAbility(value);
+      case SPATIALSENSE:
+        this.setAttrSpatialSense(value);
+      case KINAESTHETICSENSE:
+        this.setAttrKinaestheticSense(value);
+      case ANALYTICALABILITY:
+        this.setAttrAnalyticalAbility(value);
+      case STRENGTH:
+        this.setAttrStrength(value);
+      case AGILITY:
+        this.setAttrAgility(value);
+      case TOUGHNESS:
+        this.setAttrToughness(value);
+      case ENDURANCE:
+        this.setAttrEndurance(value);
+      default:
+        if (log.isErrorEnabled()) {
+          log.error("Unknown attribute: " + attributeEnum);
+        }
+    }
+  }
+
   public String toString() {
     return "Creature {" + this.getName() + "}";
   }
