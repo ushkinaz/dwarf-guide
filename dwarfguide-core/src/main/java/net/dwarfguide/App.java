@@ -1,4 +1,4 @@
-/*
+/***********************************************************************************************************************
  * Copyright (c) 2010-2011, Dmitry Sidorenko. All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,13 +12,16 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */
+ **********************************************************************************************************************/
 
 package net.dwarfguide;
 
 import com.google.inject.Guice;
 import com.google.inject.Injector;
-import net.dwarfguide.model.core.*;
+import net.dwarfguide.model.core.Creature;
+import net.dwarfguide.model.core.CreatureLoader;
+import net.dwarfguide.model.core.CreatureRating;
+import net.dwarfguide.model.core.ProfessionEnum;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -40,7 +43,7 @@ public class App {
 
   public void makeIt() {
     List<Creature> creatures = creatureLoader.loadCreatures();
-    for (CreatureRating creatureRating : ladder.creatureRatings(creatures, RaceEnum.DWARF, ProfessionEnum.AXEMAN)) {
+    for (CreatureRating creatureRating : ladder.creatureRatings(creatures, ProfessionEnum.AXEMAN)) {
       LOGGER.info(creatureRating.toString());
     }
   }

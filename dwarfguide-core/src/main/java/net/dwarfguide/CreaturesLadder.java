@@ -19,7 +19,6 @@ package net.dwarfguide;
 import net.dwarfguide.model.core.Creature;
 import net.dwarfguide.model.core.CreatureRating;
 import net.dwarfguide.model.core.ProfessionEnum;
-import net.dwarfguide.model.core.RaceEnum;
 
 import java.util.List;
 
@@ -27,5 +26,5 @@ import java.util.List;
  * @author Dmitry Sidorenko
  */
 public interface CreaturesLadder {
-  List<CreatureRating> creatureRatings(List<Creature> creatures, RaceEnum race, ProfessionEnum profession);
+  List<CreatureRating> creatureRatings(List<Creature> creatures, ProfessionEnum profession);
 }

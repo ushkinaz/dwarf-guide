@@ -37,10 +37,16 @@ public class SimpleCreaturesLadder implements CreaturesLadder {
 
 
   @Override
-  public List<CreatureRating> creatureRatings(List<Creature> creatures, RaceEnum race, ProfessionEnum profession) {
+  public List<CreatureRating> creatureRatings(List<Creature> creatures, ProfessionEnum profession) {
     List<CreatureRating> list = new ArrayList<CreatureRating>(creatures.size());
+    if (creatures.isEmpty()) {
+      return Collections.emptyList();
+    }
+    RaceEnum race = creatures.get(0).getRace();
     RatingStrategy ratingStrategy = ratingStrategyFactory.getStrategy(race, profession);
     for (Creature creature : creatures) {
+      assert creature.getRace() == race;
+
       list.add(new CreatureRating(creature, ratingStrategy.getRating(creature)));
     }
     Collections.sort(list);
