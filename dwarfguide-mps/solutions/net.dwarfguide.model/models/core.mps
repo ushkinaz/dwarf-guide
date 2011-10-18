@@ -3621,7 +3621,26 @@
   <root id="1147483943" />
   <root id="1147483944" />
   <root id="1147483945" />
-  <root id="1147483946" />
+  <root id="1147483946">
+    <node role="dependsOn" roleId="2ivj.7201497847334467030" type="2ivj.AttributeRef" typeId="2ivj.3169390138954787329" id="7730107903695108799">
+      <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747800" resolveInfo="Strength" />
+    </node>
+    <node role="dependsOn" roleId="2ivj.7201497847334467030" type="2ivj.AttributeRef" typeId="2ivj.3169390138954787329" id="7730107903695108801">
+      <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747802" resolveInfo="Toughness" />
+    </node>
+    <node role="dependsOn" roleId="2ivj.7201497847334467030" type="2ivj.AttributeRef" typeId="2ivj.3169390138954787329" id="7730107903695108803">
+      <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747803" resolveInfo="Endurance" />
+    </node>
+    <node role="dependsOn" roleId="2ivj.7201497847334467030" type="2ivj.AttributeRef" typeId="2ivj.3169390138954787329" id="7730107903695108805">
+      <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="4936626689121327913" resolveInfo="Willpower" />
+    </node>
+    <node role="dependsOn" roleId="2ivj.7201497847334467030" type="2ivj.AttributeRef" typeId="2ivj.3169390138954787329" id="7730107903695108807">
+      <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="4936626689121327923" resolveInfo="SpatialSense" />
+    </node>
+    <node role="dependsOn" roleId="2ivj.7201497847334467030" type="2ivj.AttributeRef" typeId="2ivj.3169390138954787329" id="7730107903695108809">
+      <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="4936626689121327924" resolveInfo="KinaestheticSense" />
+    </node>
+  </root>
   <root id="1147483947" />
   <root id="1147483948" />
   <root id="1147483949" />
@@ -3770,6 +3789,9 @@
   <root id="1147484092">
     <node role="skillRef" roleId="2ivj.7201497847334497020" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="4936626689121327889">
       <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147483946" resolveInfo="Mining" />
+    </node>
+    <node role="labourRef" roleId="2ivj.9062650802968998009" type="2ivj.LabourRef" typeId="2ivj.9062650802968998010" id="7730107903695108811">
+      <link role="labour" roleId="2ivj.9062650802968998011" targetNodeId="1147483649" resolveInfo="Mining" />
     </node>
   </root>
   <root id="1147484093" />
@@ -4683,7 +4705,11 @@
       </node>
     </node>
   </root>
-  <root id="5994105463846200585" />
+  <root id="5994105463846200585">
+    <node role="ref" roleId="2ivj.5994105463846119151" type="2ivj.LabourRef" typeId="2ivj.9062650802968998010" id="7730107903695108810">
+      <link role="labour" roleId="2ivj.9062650802968998011" targetNodeId="1147483649" resolveInfo="Mining" />
+    </node>
+  </root>
   <root id="5994105463846200590" />
   <root id="5994105463846200592" />
   <root id="5994105463846200594" />
