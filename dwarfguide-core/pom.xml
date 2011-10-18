@@ -33,12 +33,6 @@
   <dependencies>
     <dependency>
       <groupId>net.dwarfguide</groupId>
-      <artifactId>dwarfguide-dfhack</artifactId>
-      <version>${version}</version>
-    </dependency>
-
-    <dependency>
-      <groupId>net.dwarfguide</groupId>
       <artifactId>dwarfguide-mps</artifactId>
       <version>${version}</version>
     </dependency>

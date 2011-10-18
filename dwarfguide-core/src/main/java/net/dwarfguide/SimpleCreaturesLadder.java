@@ -16,8 +16,6 @@
 
 package net.dwarfguide;
 
-import net.dwarfguide.dfhack.Profession;
-import net.dwarfguide.dfhack.Race;
 import net.dwarfguide.model.core.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -36,7 +34,6 @@ public class SimpleCreaturesLadder implements CreaturesLadder {
 
   @Inject
   private RatingStrategyFactory ratingStrategyFactory;
-
 
 
   @Override
