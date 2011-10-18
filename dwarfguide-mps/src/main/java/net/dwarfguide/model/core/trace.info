@@ -10,9 +10,9 @@
   <unitInfo fileName="CreatureXML.java" startLine="755" startPosition="55" endLine="759" endPosition="5" unitName="net.dwarfguide.model.core.CreatureXML$2" />
   <unitInfo fileName="Sex.java" startLine="6" startPosition="0" endLine="13" endPosition="0" unitName="net.dwarfguide.model.core.Sex" />
   <unitInfo fileName="RatingStrategyFactoryConcrete.java" startLine="24" startPosition="15" endLine="32" endPosition="5" unitName="net.dwarfguide.model.core.RatingStrategyFactoryConcrete$1" />
-  <unitInfo fileName="CreatureRunesmithLoader.java" startLine="90" startPosition="0" endLine="98" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader$TraitTransform" />
-  <unitInfo fileName="CreatureRunesmithLoader.java" startLine="90" startPosition="0" endLine="98" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader$TraitTransform" />
   <unitInfo fileName="Application.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="net.dwarfguide.model.core.Application" />
+  <unitInfo fileName="CreatureRunesmithLoader.java" startLine="90" startPosition="0" endLine="99" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader$TraitTransform" />
+  <unitInfo fileName="CreatureRunesmithLoader.java" startLine="90" startPosition="0" endLine="99" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader$TraitTransform" />
   <unitInfo fileName="CreatureRunesmithLoader.java" startLine="77" startPosition="0" endLine="89" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader$EnumTransform" />
   <unitInfo fileName="CreatureRunesmithLoader.java" startLine="77" startPosition="0" endLine="89" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader$EnumTransform" />
   <unitInfo fileName="ReadonlyTransform.java" startLine="7" startPosition="0" endLine="20" endPosition="0" unitName="net.dwarfguide.model.core.ReadonlyTransform" />
@@ -25,13 +25,13 @@
   <unitInfo fileName="RaceEnum.java" startLine="6" startPosition="0" endLine="43" endPosition="0" unitName="net.dwarfguide.model.core.RaceEnum" />
   <unitInfo fileName="TraitInstance.java" startLine="8" startPosition="0" endLine="46" endPosition="0" unitName="net.dwarfguide.model.core.TraitInstance" />
   <unitInfo fileName="TraitEnum.java" startLine="6" startPosition="0" endLine="48" endPosition="0" unitName="net.dwarfguide.model.core.TraitEnum" />
-  <unitInfo fileName="CreatureRunesmithLoader.java" startLine="22" startPosition="0" endLine="99" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader" />
-  <unitInfo fileName="CreatureRunesmithLoader.java" startLine="22" startPosition="0" endLine="99" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader" />
+  <unitInfo fileName="CreatureRunesmithLoader.java" startLine="22" startPosition="0" endLine="100" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader" />
+  <unitInfo fileName="CreatureRunesmithLoader.java" startLine="22" startPosition="0" endLine="100" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader" />
+  <unitInfo fileName="Creature.java" startLine="8" startPosition="0" endLine="105" endPosition="0" unitName="net.dwarfguide.model.core.Creature" />
   <unitInfo fileName="ProfessionEnum.java" startLine="6" startPosition="0" endLine="124" endPosition="0" unitName="net.dwarfguide.model.core.ProfessionEnum" />
   <unitInfo fileName="SkillEnum.java" startLine="6" startPosition="0" endLine="134" endPosition="0" unitName="net.dwarfguide.model.core.SkillEnum" />
   <unitInfo fileName="TraitDecoder.java" startLine="9" startPosition="0" endLine="205" endPosition="0" unitName="net.dwarfguide.model.core.TraitDecoder" />
   <unitInfo fileName="CreatureXML.java" startLine="13" startPosition="0" endLine="762" endPosition="0" unitName="net.dwarfguide.model.core.CreatureXML" />
-  <unitInfo fileName="Creature.java" startLine="8" startPosition="0" endLine="1656" endPosition="0" unitName="net.dwarfguide.model.core.Creature" />
   <root nodeId="1778400223746486791">
     <nodeInfo nodeId="1778400223746486791" fileName="RatingAdministratorGoblin.java" startLine="6" startPosition="66" endLine="7" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myDescription" />
     <nodeInfo nodeId="1778400223746486791" fileName="RatingAdministratorGoblin.java" startLine="7" startPosition="31" endLine="8" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myRace" />
@@ -83,8 +83,8 @@
     <nodeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="11" startPosition="30" endLine="12" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="12" startPosition="55" endLine="13" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="13" startPosition="33" endLine="14" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="17" startPosition="43" endLine="18" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="21" startPosition="48" endLine="22" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="17" startPosition="43" endLine="18" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="21" startPosition="48" endLine="22" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="25" startPosition="34" endLine="26" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="29" startPosition="45" endLine="30" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="33" startPosition="29" endLine="34" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -100,8 +100,8 @@
     <nodeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="40" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getProfession#()Lnet/dwarfguide/model/core/ProfessionEnum;" />
     <nodeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="44" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setProfession#(Lnet/dwarfguide/model/core/ProfessionEnum;)V" />
     <nodeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="10" startPosition="0" endLine="15" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="RatingAxemanDwarf#()V" />
-    <scopeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="17" startPosition="43" endLine="18" endPosition="64" />
-    <scopeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="21" startPosition="48" endLine="22" endPosition="44" />
+    <scopeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="17" startPosition="43" endLine="18" endPosition="83" />
+    <scopeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="21" startPosition="48" endLine="22" endPosition="54" />
     <scopeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="25" startPosition="34" endLine="26" endPosition="30" />
     <scopeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="29" startPosition="45" endLine="30" endPosition="31" />
     <scopeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="33" startPosition="29" endLine="34" endPosition="23" />
@@ -255,8 +255,8 @@
     <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterDwarf.java" startLine="11" startPosition="35" endLine="12" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterDwarf.java" startLine="12" startPosition="60" endLine="13" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterDwarf.java" startLine="13" startPosition="33" endLine="14" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterDwarf.java" startLine="17" startPosition="43" endLine="18" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterDwarf.java" startLine="21" startPosition="48" endLine="22" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterDwarf.java" startLine="17" startPosition="43" endLine="18" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterDwarf.java" startLine="21" startPosition="48" endLine="22" endPosition="115" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterDwarf.java" startLine="25" startPosition="34" endLine="26" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterDwarf.java" startLine="29" startPosition="45" endLine="30" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterDwarf.java" startLine="33" startPosition="29" endLine="34" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -272,8 +272,8 @@
     <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterDwarf.java" startLine="40" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getProfession#()Lnet/dwarfguide/model/core/ProfessionEnum;" />
     <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterDwarf.java" startLine="44" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setProfession#(Lnet/dwarfguide/model/core/ProfessionEnum;)V" />
     <nodeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterDwarf.java" startLine="10" startPosition="0" endLine="15" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="RatingWoodcrafterDwarf#()V" />
-    <scopeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterDwarf.java" startLine="17" startPosition="43" endLine="18" endPosition="71" />
-    <scopeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterDwarf.java" startLine="21" startPosition="48" endLine="22" endPosition="96" />
+    <scopeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterDwarf.java" startLine="17" startPosition="43" endLine="18" endPosition="81" />
+    <scopeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterDwarf.java" startLine="21" startPosition="48" endLine="22" endPosition="115" />
     <scopeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterDwarf.java" startLine="25" startPosition="34" endLine="26" endPosition="30" />
     <scopeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterDwarf.java" startLine="29" startPosition="45" endLine="30" endPosition="31" />
     <scopeInfo nodeId="655979893346440619" fileName="RatingWoodcrafterDwarf.java" startLine="33" startPosition="29" endLine="34" endPosition="23" />

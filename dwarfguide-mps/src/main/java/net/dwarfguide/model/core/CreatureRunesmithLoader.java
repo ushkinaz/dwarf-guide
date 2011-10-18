@@ -91,6 +91,7 @@ public class CreatureRunesmithLoader implements CreatureLoader {
     public TraitTransform() {
     }
 
+    @Override
     public TraitInstance read(String descr) throws Exception {
       return TraitDecoder.findByName(descr);
     }

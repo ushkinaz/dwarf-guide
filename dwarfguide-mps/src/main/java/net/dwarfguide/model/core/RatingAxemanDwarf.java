@@ -15,11 +15,11 @@ public class RatingAxemanDwarf implements RatingStrategy {
   }
 
   public int getRating(Creature creature) {
-    return creature.getAttrStrength() - DwarfStats.AVG_STRENGTH;
+    return creature.getAttribute(AttributeEnum.STRENGTH) - DwarfStats.AVG_STRENGTH;
   }
 
   public boolean shouldStop(Creature creature) {
-    return creature.getTraitFriendly() > 30;
+    return creature.getTrait(TraitEnum.FRIENDLY) > 30;
   }
 
   public String getDescription() {

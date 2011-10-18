@@ -127,25 +127,25 @@ public class CreatureXML {
   }
 
   private void fillAttributes(Creature creature) {
-    creature.setAttrRecuperation(Recuperation);
-    creature.setAttrDiseaseResistance(DiseaseResistance);
-    creature.setAttrWillpower(Willpower);
-    creature.setAttrMemory(Memory);
-    creature.setAttrFocus(Focus);
-    creature.setAttrIntuition(Intuition);
-    creature.setAttrPatience(Patience);
-    creature.setAttrEmpathy(Empathy);
-    creature.setAttrSocialAwareness(SocialAwareness);
-    creature.setAttrCreatvity(Creatvity);
-    creature.setAttrMusicality(Musicality);
-    creature.setAttrLinguisticAbility(LinguisticAbility);
-    creature.setAttrSpatialSense(SpatialSense);
-    creature.setAttrKinaestheticSense(KinaestheticSense);
-    creature.setAttrAnalyticalAbility(AnalyticalAbility);
-    creature.setAttrStrength(Strength);
-    creature.setAttrAgility(Agility);
-    creature.setAttrToughness(Toughness);
-    creature.setAttrEndurance(Endurance);
+    creature.setAttribute(AttributeEnum.RECUPERATION, Recuperation);
+    creature.setAttribute(AttributeEnum.DISEASERESISTANCE, DiseaseResistance);
+    creature.setAttribute(AttributeEnum.WILLPOWER, Willpower);
+    creature.setAttribute(AttributeEnum.MEMORY, Memory);
+    creature.setAttribute(AttributeEnum.FOCUS, Focus);
+    creature.setAttribute(AttributeEnum.INTUITION, Intuition);
+    creature.setAttribute(AttributeEnum.PATIENCE, Patience);
+    creature.setAttribute(AttributeEnum.EMPATHY, Empathy);
+    creature.setAttribute(AttributeEnum.SOCIALAWARENESS, SocialAwareness);
+    creature.setAttribute(AttributeEnum.CREATVITY, Creatvity);
+    creature.setAttribute(AttributeEnum.MUSICALITY, Musicality);
+    creature.setAttribute(AttributeEnum.LINGUISTICABILITY, LinguisticAbility);
+    creature.setAttribute(AttributeEnum.SPATIALSENSE, SpatialSense);
+    creature.setAttribute(AttributeEnum.KINAESTHETICSENSE, KinaestheticSense);
+    creature.setAttribute(AttributeEnum.ANALYTICALABILITY, AnalyticalAbility);
+    creature.setAttribute(AttributeEnum.STRENGTH, Strength);
+    creature.setAttribute(AttributeEnum.AGILITY, Agility);
+    creature.setAttribute(AttributeEnum.TOUGHNESS, Toughness);
+    creature.setAttribute(AttributeEnum.ENDURANCE, Endurance);
   }
 
   private void fillTraits(Creature creature) {
@@ -154,123 +154,123 @@ public class CreatureXML {
 
     traitInst = findTrait(TraitEnum.NERVOUSNESS);
     if (traitInst != null) {
-      creature.setTraitNervousness((int) traitInst.experience());
+      creature.setTrait(TraitEnum.NERVOUSNESS, (int) traitInst.experience());
     }
     traitInst = findTrait(TraitEnum.RAGE);
     if (traitInst != null) {
-      creature.setTraitRage((int) traitInst.experience());
+      creature.setTrait(TraitEnum.RAGE, (int) traitInst.experience());
     }
     traitInst = findTrait(TraitEnum.DEPRESSION);
     if (traitInst != null) {
-      creature.setTraitDepression((int) traitInst.experience());
+      creature.setTrait(TraitEnum.DEPRESSION, (int) traitInst.experience());
     }
     traitInst = findTrait(TraitEnum.NEUROSIS);
     if (traitInst != null) {
-      creature.setTraitNeurosis((int) traitInst.experience());
+      creature.setTrait(TraitEnum.NEUROSIS, (int) traitInst.experience());
     }
     traitInst = findTrait(TraitEnum.URGE);
     if (traitInst != null) {
-      creature.setTraitUrge((int) traitInst.experience());
+      creature.setTrait(TraitEnum.URGE, (int) traitInst.experience());
     }
     traitInst = findTrait(TraitEnum.STRESS);
     if (traitInst != null) {
-      creature.setTraitStress((int) traitInst.experience());
+      creature.setTrait(TraitEnum.STRESS, (int) traitInst.experience());
     }
     traitInst = findTrait(TraitEnum.FRIENDLY);
     if (traitInst != null) {
-      creature.setTraitFriendly((int) traitInst.experience());
+      creature.setTrait(TraitEnum.FRIENDLY, (int) traitInst.experience());
     }
     traitInst = findTrait(TraitEnum.COMPANY);
     if (traitInst != null) {
-      creature.setTraitCompany((int) traitInst.experience());
+      creature.setTrait(TraitEnum.COMPANY, (int) traitInst.experience());
     }
     traitInst = findTrait(TraitEnum.LEADERSHIP);
     if (traitInst != null) {
-      creature.setTraitLeadership((int) traitInst.experience());
+      creature.setTrait(TraitEnum.LEADERSHIP, (int) traitInst.experience());
     }
     traitInst = findTrait(TraitEnum.ACTIVENESS);
     if (traitInst != null) {
-      creature.setTraitActiveness((int) traitInst.experience());
+      creature.setTrait(TraitEnum.ACTIVENESS, (int) traitInst.experience());
     }
     traitInst = findTrait(TraitEnum.THRILLSEEKING);
     if (traitInst != null) {
-      creature.setTraitThrillseeking((int) traitInst.experience());
+      creature.setTrait(TraitEnum.THRILLSEEKING, (int) traitInst.experience());
     }
     traitInst = findTrait(TraitEnum.OPTIMISM);
     if (traitInst != null) {
-      creature.setTraitOptimism((int) traitInst.experience());
+      creature.setTrait(TraitEnum.OPTIMISM, (int) traitInst.experience());
     }
     traitInst = findTrait(TraitEnum.IMAGINATION);
     if (traitInst != null) {
-      creature.setTraitImagination((int) traitInst.experience());
+      creature.setTrait(TraitEnum.IMAGINATION, (int) traitInst.experience());
     }
     traitInst = findTrait(TraitEnum.ARTISTIC);
     if (traitInst != null) {
-      creature.setTraitArtistic((int) traitInst.experience());
+      creature.setTrait(TraitEnum.ARTISTIC, (int) traitInst.experience());
     }
     traitInst = findTrait(TraitEnum.EMOTION);
     if (traitInst != null) {
-      creature.setTraitEmotion((int) traitInst.experience());
+      creature.setTrait(TraitEnum.EMOTION, (int) traitInst.experience());
     }
     traitInst = findTrait(TraitEnum.ADVENTURE);
     if (traitInst != null) {
-      creature.setTraitAdventure((int) traitInst.experience());
+      creature.setTrait(TraitEnum.ADVENTURE, (int) traitInst.experience());
     }
     traitInst = findTrait(TraitEnum.THINKING);
     if (traitInst != null) {
-      creature.setTraitThinking((int) traitInst.experience());
+      creature.setTrait(TraitEnum.THINKING, (int) traitInst.experience());
     }
     traitInst = findTrait(TraitEnum.REBELLIOUSNESS);
     if (traitInst != null) {
-      creature.setTraitRebelliousness((int) traitInst.experience());
+      creature.setTrait(TraitEnum.REBELLIOUSNESS, (int) traitInst.experience());
     }
     traitInst = findTrait(TraitEnum.TRUSTING);
     if (traitInst != null) {
-      creature.setTraitTrusting((int) traitInst.experience());
+      creature.setTrait(TraitEnum.TRUSTING, (int) traitInst.experience());
     }
     traitInst = findTrait(TraitEnum.HONESTY);
     if (traitInst != null) {
-      creature.setTraitHonesty((int) traitInst.experience());
+      creature.setTrait(TraitEnum.HONESTY, (int) traitInst.experience());
     }
     traitInst = findTrait(TraitEnum.HELPFULNESS);
     if (traitInst != null) {
-      creature.setTraitHelpfulness((int) traitInst.experience());
+      creature.setTrait(TraitEnum.HELPFULNESS, (int) traitInst.experience());
     }
     traitInst = findTrait(TraitEnum.COMPROMISING);
     if (traitInst != null) {
-      creature.setTraitCompromising((int) traitInst.experience());
+      creature.setTrait(TraitEnum.COMPROMISING, (int) traitInst.experience());
     }
     traitInst = findTrait(TraitEnum.MODESTY);
     if (traitInst != null) {
-      creature.setTraitModesty((int) traitInst.experience());
+      creature.setTrait(TraitEnum.MODESTY, (int) traitInst.experience());
     }
     traitInst = findTrait(TraitEnum.COMPASSION);
     if (traitInst != null) {
-      creature.setTraitCompassion((int) traitInst.experience());
+      creature.setTrait(TraitEnum.COMPASSION, (int) traitInst.experience());
     }
     traitInst = findTrait(TraitEnum.CONFIDENCE);
     if (traitInst != null) {
-      creature.setTraitConfidence((int) traitInst.experience());
+      creature.setTrait(TraitEnum.CONFIDENCE, (int) traitInst.experience());
     }
     traitInst = findTrait(TraitEnum.ORGANIZATION);
     if (traitInst != null) {
-      creature.setTraitOrganization((int) traitInst.experience());
+      creature.setTrait(TraitEnum.ORGANIZATION, (int) traitInst.experience());
     }
     traitInst = findTrait(TraitEnum.LAWFULNESS);
     if (traitInst != null) {
-      creature.setTraitLawfulness((int) traitInst.experience());
+      creature.setTrait(TraitEnum.LAWFULNESS, (int) traitInst.experience());
     }
     traitInst = findTrait(TraitEnum.EXCELLENCE);
     if (traitInst != null) {
-      creature.setTraitExcellence((int) traitInst.experience());
+      creature.setTrait(TraitEnum.EXCELLENCE, (int) traitInst.experience());
     }
     traitInst = findTrait(TraitEnum.PERSEVERANCE);
     if (traitInst != null) {
-      creature.setTraitPerseverance((int) traitInst.experience());
+      creature.setTrait(TraitEnum.PERSEVERANCE, (int) traitInst.experience());
     }
     traitInst = findTrait(TraitEnum.CAUTIOUSNESS);
     if (traitInst != null) {
-      creature.setTraitCautiousness((int) traitInst.experience());
+      creature.setTrait(TraitEnum.CAUTIOUSNESS, (int) traitInst.experience());
     }
   }
 
@@ -287,467 +287,467 @@ public class CreatureXML {
     SkillXMLInstance skillXMLInstance;
     skillXMLInstance = findSkill(SkillEnum.MINING);
     if (skillXMLInstance != null) {
-      creature.setSkillMining(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.MINING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.WOOD_CUTTING);
     if (skillXMLInstance != null) {
-      creature.setSkillWood_Cutting(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.WOOD_CUTTING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.CARPENTRY);
     if (skillXMLInstance != null) {
-      creature.setSkillCarpentry(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.CARPENTRY, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.ENGRAVING);
     if (skillXMLInstance != null) {
-      creature.setSkillEngraving(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.ENGRAVING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.MASONRY);
     if (skillXMLInstance != null) {
-      creature.setSkillMasonry(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.MASONRY, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.ANIMAL_TRAINING);
     if (skillXMLInstance != null) {
-      creature.setSkillAnimal_Training(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.ANIMAL_TRAINING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.ANIMAL_CARETAKING);
     if (skillXMLInstance != null) {
-      creature.setSkillAnimal_Caretaking(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.ANIMAL_CARETAKING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.FISH_DISSECTION);
     if (skillXMLInstance != null) {
-      creature.setSkillFish_Dissection(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.FISH_DISSECTION, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.ANIMAL_DISSECTION);
     if (skillXMLInstance != null) {
-      creature.setSkillAnimal_Dissection(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.ANIMAL_DISSECTION, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.FISH_CLEANING);
     if (skillXMLInstance != null) {
-      creature.setSkillFish_Cleaning(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.FISH_CLEANING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.BUTCHERY);
     if (skillXMLInstance != null) {
-      creature.setSkillButchery(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.BUTCHERY, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.TRAPPING);
     if (skillXMLInstance != null) {
-      creature.setSkillTrapping(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.TRAPPING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.TANNING);
     if (skillXMLInstance != null) {
-      creature.setSkillTanning(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.TANNING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.WEAVING);
     if (skillXMLInstance != null) {
-      creature.setSkillWeaving(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.WEAVING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.BREWING);
     if (skillXMLInstance != null) {
-      creature.setSkillBrewing(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.BREWING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.ALCHEMY);
     if (skillXMLInstance != null) {
-      creature.setSkillAlchemy(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.ALCHEMY, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.CLOTHES_MAKING);
     if (skillXMLInstance != null) {
-      creature.setSkillClothes_Making(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.CLOTHES_MAKING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.MILLING);
     if (skillXMLInstance != null) {
-      creature.setSkillMilling(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.MILLING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.THRESHING);
     if (skillXMLInstance != null) {
-      creature.setSkillThreshing(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.THRESHING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.CHEESE_MAKING);
     if (skillXMLInstance != null) {
-      creature.setSkillCheese_Making(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.CHEESE_MAKING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.MILKING);
     if (skillXMLInstance != null) {
-      creature.setSkillMilking(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.MILKING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.COOKING);
     if (skillXMLInstance != null) {
-      creature.setSkillCooking(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.COOKING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.GROWING);
     if (skillXMLInstance != null) {
-      creature.setSkillGrowing(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.GROWING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.HERBALISM);
     if (skillXMLInstance != null) {
-      creature.setSkillHerbalism(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.HERBALISM, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.FISHING);
     if (skillXMLInstance != null) {
-      creature.setSkillFishing(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.FISHING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.FURNACE_OPERATION);
     if (skillXMLInstance != null) {
-      creature.setSkillFurnace_Operation(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.FURNACE_OPERATION, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.STRAND_EXTRACTION);
     if (skillXMLInstance != null) {
-      creature.setSkillStrand_Extraction(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.STRAND_EXTRACTION, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.WEAPONSMITHING);
     if (skillXMLInstance != null) {
-      creature.setSkillWeaponsmithing(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.WEAPONSMITHING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.ARMORSMITHING);
     if (skillXMLInstance != null) {
-      creature.setSkillArmorsmithing(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.ARMORSMITHING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.METALSMITHING);
     if (skillXMLInstance != null) {
-      creature.setSkillMetalsmithing(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.METALSMITHING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.GEM_CUTTING);
     if (skillXMLInstance != null) {
-      creature.setSkillGem_Cutting(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.GEM_CUTTING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.GEM_SETTING);
     if (skillXMLInstance != null) {
-      creature.setSkillGem_Setting(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.GEM_SETTING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.WOOD_CRAFTING);
     if (skillXMLInstance != null) {
-      creature.setSkillWood_Crafting(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.WOOD_CRAFTING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.STONE_CRAFTING);
     if (skillXMLInstance != null) {
-      creature.setSkillStone_Crafting(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.STONE_CRAFTING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.METAL_CRAFTING);
     if (skillXMLInstance != null) {
-      creature.setSkillMetal_Crafting(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.METAL_CRAFTING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.GLASSMAKING);
     if (skillXMLInstance != null) {
-      creature.setSkillGlassmaking(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.GLASSMAKING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.LEATHERWORKERING);
     if (skillXMLInstance != null) {
-      creature.setSkillLeatherworkering(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.LEATHERWORKERING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.BONE_CARVING);
     if (skillXMLInstance != null) {
-      creature.setSkillBone_Carving(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.BONE_CARVING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.AXE);
     if (skillXMLInstance != null) {
-      creature.setSkillAxe(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.AXE, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.SWORD);
     if (skillXMLInstance != null) {
-      creature.setSkillSword(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.SWORD, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.KNIFE);
     if (skillXMLInstance != null) {
-      creature.setSkillKnife(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.KNIFE, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.MACE);
     if (skillXMLInstance != null) {
-      creature.setSkillMace(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.MACE, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.HAMMER);
     if (skillXMLInstance != null) {
-      creature.setSkillHammer(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.HAMMER, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.SPEAR);
     if (skillXMLInstance != null) {
-      creature.setSkillSpear(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.SPEAR, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.CROSSBOW);
     if (skillXMLInstance != null) {
-      creature.setSkillCrossbow(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.CROSSBOW, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.SHIELD);
     if (skillXMLInstance != null) {
-      creature.setSkillShield(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.SHIELD, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.ARMOR);
     if (skillXMLInstance != null) {
-      creature.setSkillArmor(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.ARMOR, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.SIEGE_ENGINEERING);
     if (skillXMLInstance != null) {
-      creature.setSkillSiege_Engineering(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.SIEGE_ENGINEERING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.SIEGE_OPERATION);
     if (skillXMLInstance != null) {
-      creature.setSkillSiege_Operation(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.SIEGE_OPERATION, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.BOWMAKING);
     if (skillXMLInstance != null) {
-      creature.setSkillBowmaking(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.BOWMAKING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.PIKE);
     if (skillXMLInstance != null) {
-      creature.setSkillPike(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.PIKE, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.LASH);
     if (skillXMLInstance != null) {
-      creature.setSkillLash(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.LASH, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.BOW);
     if (skillXMLInstance != null) {
-      creature.setSkillBow(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.BOW, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.BLOWGUN);
     if (skillXMLInstance != null) {
-      creature.setSkillBlowgun(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.BLOWGUN, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.THROWING);
     if (skillXMLInstance != null) {
-      creature.setSkillThrowing(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.THROWING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.MACHINERY);
     if (skillXMLInstance != null) {
-      creature.setSkillMachinery(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.MACHINERY, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.NATURE);
     if (skillXMLInstance != null) {
-      creature.setSkillNature(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.NATURE, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.AMBUSH);
     if (skillXMLInstance != null) {
-      creature.setSkillAmbush(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.AMBUSH, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.BUILDING_DESIGN);
     if (skillXMLInstance != null) {
-      creature.setSkillBuilding_Design(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.BUILDING_DESIGN, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.WOUND_DRESSING);
     if (skillXMLInstance != null) {
-      creature.setSkillWound_Dressing(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.WOUND_DRESSING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.DIAGNOSTICS);
     if (skillXMLInstance != null) {
-      creature.setSkillDiagnostics(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.DIAGNOSTICS, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.SURGERY);
     if (skillXMLInstance != null) {
-      creature.setSkillSurgery(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.SURGERY, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.BONE_SETTING);
     if (skillXMLInstance != null) {
-      creature.setSkillBone_Setting(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.BONE_SETTING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.SUTURING);
     if (skillXMLInstance != null) {
-      creature.setSkillSuturing(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.SUTURING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.CRUTCH_WALKING);
     if (skillXMLInstance != null) {
-      creature.setSkillCrutch_walking(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.CRUTCH_WALKING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.WOOD_BURNING);
     if (skillXMLInstance != null) {
-      creature.setSkillWood_Burning(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.WOOD_BURNING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.LYE_MAKING);
     if (skillXMLInstance != null) {
-      creature.setSkillLye_Making(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.LYE_MAKING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.SOAP_MAKING);
     if (skillXMLInstance != null) {
-      creature.setSkillSoap_Making(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.SOAP_MAKING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.POTASH_MAKING);
     if (skillXMLInstance != null) {
-      creature.setSkillPotash_Making(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.POTASH_MAKING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.DYEING);
     if (skillXMLInstance != null) {
-      creature.setSkillDyeing(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.DYEING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.PUMP_OPERATION);
     if (skillXMLInstance != null) {
-      creature.setSkillPump_Operation(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.PUMP_OPERATION, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.SWIMMING);
     if (skillXMLInstance != null) {
-      creature.setSkillSwimming(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.SWIMMING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.PERSUASION);
     if (skillXMLInstance != null) {
-      creature.setSkillPersuasion(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.PERSUASION, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.NEGOTIATION);
     if (skillXMLInstance != null) {
-      creature.setSkillNegotiation(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.NEGOTIATION, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.JUDGING_INTENT);
     if (skillXMLInstance != null) {
-      creature.setSkillJudging_Intent(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.JUDGING_INTENT, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.APPRAISAL);
     if (skillXMLInstance != null) {
-      creature.setSkillAppraisal(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.APPRAISAL, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.ORGANIZATION);
     if (skillXMLInstance != null) {
-      creature.setSkillOrganization(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.ORGANIZATION, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.RECORD_KEEPING);
     if (skillXMLInstance != null) {
-      creature.setSkillRecord_Keeping(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.RECORD_KEEPING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.LYING);
     if (skillXMLInstance != null) {
-      creature.setSkillLying(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.LYING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.INTIMIDATION);
     if (skillXMLInstance != null) {
-      creature.setSkillIntimidation(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.INTIMIDATION, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.CONVERSATION);
     if (skillXMLInstance != null) {
-      creature.setSkillConversation(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.CONVERSATION, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.COMEDY);
     if (skillXMLInstance != null) {
-      creature.setSkillComedy(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.COMEDY, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.FLATTERY);
     if (skillXMLInstance != null) {
-      creature.setSkillFlattery(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.FLATTERY, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.CONSOLING);
     if (skillXMLInstance != null) {
-      creature.setSkillConsoling(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.CONSOLING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.PACIFICATION);
     if (skillXMLInstance != null) {
-      creature.setSkillPacification(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.PACIFICATION, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.TRACKING);
     if (skillXMLInstance != null) {
-      creature.setSkillTracking(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.TRACKING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.STUDYING);
     if (skillXMLInstance != null) {
-      creature.setSkillStudying(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.STUDYING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.CONCENTRATION);
     if (skillXMLInstance != null) {
-      creature.setSkillConcentration(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.CONCENTRATION, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.DISCIPLINE);
     if (skillXMLInstance != null) {
-      creature.setSkillDiscipline(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.DISCIPLINE, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.OBSERVATION);
     if (skillXMLInstance != null) {
-      creature.setSkillObservation(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.OBSERVATION, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.WRITING);
     if (skillXMLInstance != null) {
-      creature.setSkillWriting(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.WRITING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.PROSE);
     if (skillXMLInstance != null) {
-      creature.setSkillProse(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.PROSE, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.POETRY);
     if (skillXMLInstance != null) {
-      creature.setSkillPoetry(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.POETRY, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.READING);
     if (skillXMLInstance != null) {
-      creature.setSkillReading(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.READING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.SPEAKING);
     if (skillXMLInstance != null) {
-      creature.setSkillSpeaking(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.SPEAKING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.COORDINATION);
     if (skillXMLInstance != null) {
-      creature.setSkillCoordination(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.COORDINATION, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.BALANCE);
     if (skillXMLInstance != null) {
-      creature.setSkillBalance(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.BALANCE, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.LEADERSHIP);
     if (skillXMLInstance != null) {
-      creature.setSkillLeadership(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.LEADERSHIP, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.TEACHING);
     if (skillXMLInstance != null) {
-      creature.setSkillTeaching(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.TEACHING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.FIGHTING);
     if (skillXMLInstance != null) {
-      creature.setSkillFighting(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.FIGHTING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.ARCHERY);
     if (skillXMLInstance != null) {
-      creature.setSkillArchery(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.ARCHERY, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.WRESTLING);
     if (skillXMLInstance != null) {
-      creature.setSkillWrestling(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.WRESTLING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.BITING);
     if (skillXMLInstance != null) {
-      creature.setSkillBiting(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.BITING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.STRIKING);
     if (skillXMLInstance != null) {
-      creature.setSkillStriking(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.STRIKING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.KICKING);
     if (skillXMLInstance != null) {
-      creature.setSkillKicking(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.KICKING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.DODGING);
     if (skillXMLInstance != null) {
-      creature.setSkillDodging(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.DODGING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.MISC__OBJECT);
     if (skillXMLInstance != null) {
-      creature.setSkillMisc__Object(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.MISC__OBJECT, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.KNAPPING);
     if (skillXMLInstance != null) {
-      creature.setSkillKnapping(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.KNAPPING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.SOMETHING_WEIRD);
     if (skillXMLInstance != null) {
-      creature.setSkillSomething_Weird(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.SOMETHING_WEIRD, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.SHEARING);
     if (skillXMLInstance != null) {
-      creature.setSkillShearing(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.SHEARING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.WOOL_SPINNING);
     if (skillXMLInstance != null) {
-      creature.setSkillWool_Spinning(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.WOOL_SPINNING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.POTTERY);
     if (skillXMLInstance != null) {
-      creature.setSkillPottery(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.POTTERY, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.GLAZING);
     if (skillXMLInstance != null) {
-      creature.setSkillGlazing(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.GLAZING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.PRESS_OPERATION);
     if (skillXMLInstance != null) {
-      creature.setSkillPress_Operation(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.PRESS_OPERATION, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.BEE_KEEPING);
     if (skillXMLInstance != null) {
-      creature.setSkillBee_Keeping(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.BEE_KEEPING, skillXMLInstance.getExperience());
     }
     skillXMLInstance = findSkill(SkillEnum.WAX_WORKING);
     if (skillXMLInstance != null) {
-      creature.setSkillWax_Working(skillXMLInstance.getExperience());
+      creature.setSkill(SkillEnum.WAX_WORKING, skillXMLInstance.getExperience());
     }
   }
 

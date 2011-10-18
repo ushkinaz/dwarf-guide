@@ -15,11 +15,11 @@ public class RatingWoodcrafterDwarf implements RatingStrategy {
   }
 
   public int getRating(Creature creature) {
-    return creature.getTraitAdventure() + 2 - DwarfStats.MAX_ENDURANCE;
+    return creature.getTrait(TraitEnum.ADVENTURE) + 2 - DwarfStats.MAX_ENDURANCE;
   }
 
   public boolean shouldStop(Creature creature) {
-    return creature.getAttrAgility() < (DwarfStats.AVG_AGILITY + (DwarfStats.AVG_STRENGTH + 1));
+    return creature.getAttribute(AttributeEnum.AGILITY) < (DwarfStats.AVG_AGILITY + (DwarfStats.AVG_STRENGTH + 1));
   }
 
   public String getDescription() {
