@@ -23,31 +23,28 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import javax.inject.Inject;
-import java.util.Collections;
 import java.util.List;
 
 public class App {
   @SuppressWarnings({"UnusedDeclaration"})
   private static final Logger LOGGER = LoggerFactory.getLogger(App.class);
 
-  private CreatureLoader        creatureLoader;
-  private RatingStrategyFactory strategyFactory;
+  private final CreatureLoader  creatureLoader;
+  private final CreaturesLadder ladder;
 
   @Inject
-  public App(CreatureLoader creatureLoader, RatingStrategyFactory strategyFactory) {
+  public App(CreatureLoader creatureLoader, CreaturesLadder ladder) {
     this.creatureLoader = creatureLoader;
-    this.strategyFactory = strategyFactory;
+    this.ladder = ladder;
   }
 
   public void makeIt() {
     List<Creature> creatures = creatureLoader.loadCreatures();
-    RatingStrategy ratingStrategy;
-    for (Creature creature: creatures){
-      ratingStrategy = strategyFactory.getStrategy(creature.getRace(), ProfessionEnum.AXEMAN);
-      int rating = ratingStrategy.getRating(creature);
-      LOGGER.info(creature + " : " + rating);
+    for (CreatureRating creatureRating : ladder.creatureRatings(creatures, RaceEnum.DWARF, ProfessionEnum.AXEMAN)) {
+      LOGGER.info(creatureRating.toString());
     }
   }
+
   public static void main(String[] args) {
     final GuideModule module = new GuideModule("TestDwarves.xml");
     Injector injector = Guice.createInjector(module);

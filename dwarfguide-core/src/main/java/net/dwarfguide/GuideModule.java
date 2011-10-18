@@ -44,6 +44,8 @@ public class GuideModule extends AbstractModule {
   protected void configure() {
     bind(RatingStrategyFactory.class).to(RatingStrategyFactoryConcrete.class).asEagerSingleton();
     bind(CreatureLoader.class).toInstance(new CreatureRunesmithLoader(xmlFile));
+
+    bind(CreaturesLadder.class).toInstance(new SimpleCreaturesLadder());
   }
 }
 
