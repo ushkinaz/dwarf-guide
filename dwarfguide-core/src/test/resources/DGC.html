@@ -1,19 +1,3 @@
-<!--
-  ~ Copyright (c) 2010-2011, Dmitry Sidorenko. All Rights Reserved.
-  ~
-  ~ Licensed under the Apache License, Version 2.0 (the "License");
-  ~ you may not use this file except in compliance with the License.
-  ~ You may obtain a copy of the License at
-  ~
-  ~ http://www.apache.org/licenses/LICENSE-2.0
-  ~
-  ~ Unless required by applicable law or agreed to in writing, software
-  ~ distributed under the License is distributed on an "AS IS" BASIS,
-  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  ~ See the License for the specific language governing permissions and
-  ~ limitations under the License.
-  -->
-
 <html>
 <head>
 <title>
@@ -58,8 +42,6 @@ function disablebodyenter(e) {
     directbodysubmit();
     document.getElementById("directbodynum").value = ""
   }
-  ;
-
   return (key != 13);
 }
 
@@ -76,8 +58,6 @@ function disablesoulenter(e) {
     directsoulsubmit();
     document.getElementById("directsoulnum").value = ""
   }
-  ;
-
   return (key != 13);
 }
 
@@ -94,26 +74,6 @@ function disablepersenter(e) {
     directperssubmit();
     document.getElementById("directpersnum").value = ""
   }
-  ;
-
-  return (key != 13);
-}
-
-function disableverbenter(e) {
-  var key;
-  if (window.event) {
-    key = window.event.keyCode;
-  } //IE
-  else {
-    key = e.which;
-  }  //firefox
-
-  if (key == 13) {
-    verbalevalsubmit();
-    document.getElementById("verbaleval").value = ""
-  }
-  ;
-
   return (key != 13);
 }
 
@@ -199,7 +159,6 @@ function printgender(gender) {
   } else {
     gender = "Female"
   }
-  ;
   if (gender == "Male") {
     document.getElementById("printdwarfgender").innerHTML = "\u2642";
     document.getElementById("printdwarfgender2").innerHTML = "\u2642";
@@ -231,16 +190,12 @@ function traitupdate() {
   }
 }
 
-var verbalinput = [];
-
 function xmlprocess() {
   bodyattr = [1250,900,1250,1000,1000,1000];
 
   soulattr = [1250,1250,1250,1000,1500,1000,1250,1500,1000,1000,1000,1000,1000];
 
   perstrait = [50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,55,50,50,50,50,50,50,50,55,50,50,45];
-
-  verbalinput = [];
 
   i = 0;
   for (i = 0; i < bodyattr.length; i++) {
@@ -262,8 +217,6 @@ function xmlprocess() {
     document.getElementById("printdwarf").innerHTML = document.getElementById("dwarfname").value;
     return;
   }
-  ;
-
   var pick = (document.getElementById("dwarflist").selectedIndex - 1);
 
   document.getElementById("dwarfname").value = dwarfnames[pick];
@@ -331,18 +284,6 @@ function xmlprocess() {
     traitstotal[i] = parseInt(traitstotal[i - 1]) + parseInt(traitsperdorf[i]);
   }
   var dwarfpick = document.getElementById("dwarflist").selectedIndex;
-
-  i = 0;
-  for (i = 0; i < traitsperdorf[dwarfpick - 1]; i++) {
-    verbalinput[i] = xmlDoc.getElementsByTagName("Traits")[dwarfpick - 1].getElementsByTagName("Trait")[i]
-            .childNodes[0].nodeValue;
-  }
-
-  i = 0;
-  for (i = 0; i < verbalinput.length; i++) {
-    verbalevalsubmit(verbalinput[i]);
-    document.getElementById("verbaleval").value = ""
-  }
 
   guide();
 }
@@ -612,8 +553,6 @@ function bestdorf() {
       else {
         traitsperdorf[i] = (traitsperdorf[i] - 1) / 2;
       }
-      ;
-
       if (pick == 1) {
 
         x = 0;
@@ -1291,8 +1230,6 @@ function bestdorf() {
       else {
         traitsperdorf[i] = (traitsperdorf[i] - 1) / 2;
       }
-      ;
-
       if (pick == 67) {
 
         x = 0;
@@ -1342,8 +1279,6 @@ function bestdorf() {
       else {
         traitsperdorf[i] = (traitsperdorf[i] - 1) / 2;
       }
-      ;
-
       if (pick == 68) {
 
         x = 0;
@@ -1415,8 +1350,6 @@ function bestdorf() {
       else {
         traitsperdorf[i] = (traitsperdorf[i] - 1) / 2;
       }
-      ;
-
       if (pick == 70) {
 
         x = 0;
@@ -1479,92 +1412,65 @@ function bestdorf() {
     superbname.splice(0, 0, "You are lucky to have a superb " + ratejob + " in");
     superbname[(superbname.length - 1)] = superbname[(superbname.length - 1)].replace(/;/g, ".");
   }
-  ;
   if (superbname.length >= 3) {
     superbname[(superbname.length - 2)] = superbname[(superbname.length - 2)] + " and ";
   }
-  ;
-
   if (verygoodname.length >= 1) {
     verygoodname.splice(0, 0, "You'll have a very good " + ratejob + " in");
     verygoodname[(verygoodname.length - 1)] = verygoodname[(verygoodname.length - 1)].replace(/;/g, ".");
   }
-  ;
   if (verygoodname.length >= 3) {
     verygoodname[(verygoodname.length - 2)] = verygoodname[(verygoodname.length - 2)] + " and ";
   }
-  ;
-
   if (goodname.length >= 1) {
     goodname.splice(0, 0, "If you want a good " + ratejob + "; there's");
     goodname[(goodname.length - 1)] = goodname[(goodname.length - 1)].replace(/;/g, ".");
   }
-  ;
   if (goodname.length >= 3) {
     goodname[(goodname.length - 2)] = goodname[(goodname.length - 2)] + " and ";
   }
-  ;
-
   if (highavgname.length >= 1) {
     highavgname.splice(0, 0, " For a " + ratejob + " a bit above average; try");
     highavgname[(highavgname.length - 1)] = highavgname[(highavgname.length - 1)].replace(/;/g, ".");
   }
-  ;
   if (highavgname.length >= 3) {
     highavgname[(highavgname.length - 2)] = highavgname[(highavgname.length - 2)] + " and ";
   }
-  ;
-
   if (lowavgname.length >= 1) {
     lowavgname.splice(0, 0, "If you'll settle for a below average " + ratejob + "; there's");
     lowavgname[(lowavgname.length - 1)] = lowavgname[(lowavgname.length - 1)].replace(/;/g, ".");
   }
-  ;
   if (lowavgname.length >= 3) {
     lowavgname[(lowavgname.length - 2)] = lowavgname[(lowavgname.length - 2)] + " and ";
   }
-  ;
-
   if (poorname.length >= 1) {
     poorname.splice(0, 0, "You will have a poor " + ratejob + " in");
     poorname[(poorname.length - 1)] = poorname[(poorname.length - 1)].replace(/;/g, ".");
   }
-  ;
   if (poorname.length >= 3) {
     poorname[(poorname.length - 2)] = poorname[(poorname.length - 2)] + " and ";
   }
-  ;
-
   if (verypoorname.length >= 1) {
     verypoorname.splice(0, 0, "You'll have a very poor " + ratejob + " in");
     verypoorname[(verypoorname.length - 1)] = verypoorname[(verypoorname.length - 1)].replace(/;/g, ".");
   }
-  ;
   if (verypoorname.length >= 3) {
     verypoorname[(verypoorname.length - 2)] = verypoorname[(verypoorname.length - 2)] + " and ";
   }
-  ;
-
   if (horriblename.length >= 1) {
     horriblename.splice(0, 0, "You're unlucky to have a horrible " + ratejob + " in");
     horriblename[(horriblename.length - 1)] = horriblename[(horriblename.length - 1)].replace(/;/g, ".");
   }
-  ;
   if (horriblename.length >= 3) {
     horriblename[(horriblename.length - 2)] = horriblename[(horriblename.length - 2)] + " and ";
   }
-  ;
-
   if (deekname.length >= 1) {
     deekname.splice(0, 0, "The following dwarves cannot be a " + ratejob + " because of personality problems:");
     deekname[(deekname.length - 1)] = deekname[(deekname.length - 1)].replace(/;/g, ".");
   }
-  ;
   if (deekname.length >= 3) {
     deekname[(deekname.length - 2)] = deekname[(deekname.length - 2)] + " and ";
   }
-  ;
-
   document.getElementById("printdwarf2").innerHTML = "\u263C " + "Best " + document.getElementById("joblist")
           .options[pick].text;
   document.getElementById("printdwarfgender2").innerHTML = "\u263C";
@@ -1639,1690 +1545,6 @@ function namerate(newname, namepct) {
   }
 
 }
-
-function verbalevalsubmit(verbalinput) {
-  printname();
-// printgender();
-  var verbal;
-  verbal = verbalinput;
-  if (verbal == undefined) {
-    verbal = document.getElementById("verbaleval").value;
-  }
-  verbal = verbal.toLowerCase();
-
-  var i = 0;
-  var bodyiter = document.getElementById("directbody").options;
-  var bodyattrarray = [""];
-  for (i = 0; i < bodyiter.length; i++) {
-    bodyattrarray[i] = bodyiter[i].text;
-    bodyattrarray[i] = bodyattrarray[i].replace(/\s/ig, "_");
-    eval("var " + bodyattrarray[i] + " = ['bodyattr'," + i + ",'directbody'];");
-  }
-
-  var i = 0;
-  var souliter = document.getElementById("directsoul").options;
-  var soulattrarray = [""];
-  for (i = 0; i < souliter.length; i++) {
-    soulattrarray[i] = souliter[i].text;
-    soulattrarray[i] = soulattrarray[i].replace(/\s/ig, "_");
-    eval("var " + soulattrarray[i] + " = ['soulattr'," + i + ",'directsoul'];");
-  }
-
-  var i = 0;
-  var persiter = document.getElementById("directpers").options;
-  var persattrarray = [""];
-  for (i = 0; i < persiter.length; i++) {
-    persattrarray[i] = persiter[i].text;
-    persattrarray[i] = persattrarray[i].replace(/\s/ig, "_");
-    persattrarray[i] = persattrarray[i].replace(/\u0028/ig, "_");
-    persattrarray[i] = persattrarray[i].replace(/\u0029/ig, "_");
-    persattrarray[i] = persattrarray[i].replace(/\u002D/ig, "_");
-    eval("var " + persattrarray[i] + " = ['perstrait'," + i + ",'directpers'];");
-  }
-
-// STRENGTH
-  if (verbal.search("unbelievably strong") != -1) {
-    var newval = 2250;
-    var modarray = Strength;
-  }
-  else if (verbal.search("mighty") != -1) {
-    var newval = 2125;
-    var modarray = Strength;
-  }
-  else if (verbal.search("very strong") != -1) {
-    var newval = 1875;
-    var modarray = Strength;
-  }
-  else if (verbal.search("strong") != -1 && verbal.search("urges") == -1 && verbal.search("duty") == -1) {
-    var newval = 1625;
-    var modarray = Strength;
-  }
-  else if (verbal.search("average strength") != -1) {
-    var newval = 1250;
-    var modarray = Strength;
-  }
-  else if (verbal.search("unfathomably weak") != -1) {
-    var newval = 125;
-    var modarray = Strength;
-  }
-  else if (verbal.search("unquestionably weak") != -1) {
-    var newval = 375;
-    var modarray = Strength;
-  }
-  else if (verbal.search("very weak") != -1) {
-    var newval = 625;
-    var modarray = Strength;
-  }
-  else if (verbal.search("weak") != -1) {
-    var newval = 875;
-    var modarray = Strength;
-  }
-
-// AGILITY
-  else if (verbal.search("amazingly agile") != -1) {
-    var newval = 1900;
-    var modarray = Agility;
-  }
-  else if (verbal.search("extremely agile") != -1) {
-    var newval = 1775;
-    var modarray = Agility;
-  }
-  else if (verbal.search("very agile") != -1) {
-    var newval = 1525;
-    var modarray = Agility;
-  }
-  else if (verbal.search("agile") != -1 && verbal.search("fragile") == -1) {
-    var newval = 1275;
-    var modarray = Agility;
-  }
-  else if (verbal.search("average agility") != -1) {
-    var newval = 900;
-    var modarray = Agility;
-  }
-  else if (verbal.search("abysmally clumsy") != -1) {
-    changelog.splice(0, 0, "No dwarf is abysmally clumsy!");
-    changelogupdate();
-    return;
-  }
-  else if (verbal.search("totally clumsy") != -1) {
-    var newval = 75;
-    var modarray = Agility;
-  }
-  else if (verbal.search("quite clumsy") != -1) {
-    var newval = 275;
-    var modarray = Agility;
-  }
-  else if (verbal.search("clumsy") != -1 && verbal.search("very clumsy") == -1) {
-    var newval = 525;
-    var modarray = Agility;
-  }
-
-// TOUGHNESS
-  else if (verbal.search("basically unbreakable") != -1) {
-    var newval = 2250;
-    var modarray = Toughness;
-  }
-  else if (verbal.search("incredibly tough") != -1) {
-    var newval = 2125;
-    var modarray = Toughness;
-  }
-  else if (verbal.search("quite durable") != -1) {
-    var newval = 1875;
-    var modarray = Toughness;
-  }
-  else if (verbal.search("average toughness") != -1) {
-    var newval = 1250;
-    var modarray = Toughness;
-  }
-  else if (verbal.search("tough") != -1) {
-    var newval = 1625;
-    var modarray = Toughness;
-  }
-  else if (verbal.search("shockingly fragile") != -1) {
-    var newval = 125;
-    var modarray = Toughness;
-  }
-  else if (verbal.search("remarkably flimsy") != -1) {
-    var newval = 375;
-    var modarray = Toughness;
-  }
-  else if (verbal.search("very flimsy") != -1) {
-    var newval = 625;
-    var modarray = Toughness;
-  }
-  else if (verbal.search("flimsy") != -1) {
-    var newval = 875;
-    modarray = Toughness;
-  }
-
-// ENDURANCE
-  else if (verbal.search("absolutely inexhaustible") != -1) {
-    var newval = 2000;
-    var modarray = Endurance;
-  }
-  else if (verbal.search("indefatigable") != -1) {
-    var newval = 1875;
-    var modarray = Endurance;
-  }
-  else if (verbal.search("very slow to tire") != -1) {
-    var newval = 1625;
-    var modarray = Endurance;
-  }
-  else if (verbal.search("slow to tire") != -1) {
-    var newval = 1375;
-    var modarray = Endurance;
-  }
-  else if (verbal.search("average endurance") != -1) {
-    var newval = 1000;
-    var modarray = Endurance;
-  }
-  else if (verbal.search("truly quick to tire") != -1) {
-    var newval = 0;
-    var modarray = Endurance;
-  }
-  else if (verbal.search("extremely quick to tire") != -1) {
-    var newval = 125;
-    var modarray = Endurance;
-  }
-  else if (verbal.search("very quick to tire") != -1) {
-    var newval = 375;
-    var modarray = Endurance;
-  }
-  else if (verbal.search("quick to tire") != -1) {
-    var newval = 625;
-    var modarray = Endurance;
-  }
-
-// DISEASE RESISTANCE
-  else if (verbal.search("virtually never sick") != -1) {
-    var newval = 2000;
-    var modarray = Disease_Resistance;
-  }
-  else if (verbal.search("almost never sick") != -1) {
-    var newval = 1875;
-    var modarray = Disease_Resistance;
-  }
-  else if (verbal.search("very rarely sick") != -1) {
-    var newval = 1625;
-    var modarray = Disease_Resistance;
-  }
-  else if (verbal.search("rarely sick") != -1) {
-    var newval = 1375;
-    var modarray = Disease_Resistance;
-  }
-  else if (verbal.search("average disease resistance") != -1) {
-    var newval = 1000;
-    var modarray = Disease_Resistance;
-  }
-  else if (verbal.search("stunningly susceptible to disease") != -1) {
-    var newval = 0;
-    var modarray = Disease_Resistance;
-  }
-  else if (verbal.search("really susceptible to disease") != -1) {
-    var newval = 125;
-    var modarray = Disease_Resistance;
-  }
-  else if (verbal.search("quite susceptible to disease") != -1) {
-    var newval = 375;
-    var modarray = Disease_Resistance;
-  }
-  else if (verbal.search("susceptible to disease") != -1) {
-    var newval = 625;
-    var modarray = Disease_Resistance;
-  }
-
-// RECUPERATION
-  else if (verbal.search("possessed of amazing recuperative powers") != -1) {
-    var newval = 2000;
-    var modarray = Recuperation;
-  }
-  else if (verbal.search("incredibly quick to heal") != -1) {
-    var newval = 1875;
-    var modarray = Recuperation;
-  }
-  else if (verbal.search("quite quick to heal") != -1) {
-    var newval = 1625;
-    var modarray = Recuperation;
-  }
-  else if (verbal.search("quick to heal") != -1) {
-    var newval = 1375;
-    var modarray = Recuperation;
-  }
-  else if (verbal.search("average recuperation") != -1) {
-    var newval = 1000;
-    var modarray = Recuperation;
-  }
-  else if (verbal.search("shockingly slow to heal") != -1) {
-    var newval = 0;
-    var modarray = Recuperation;
-  }
-  else if (verbal.search("really slow to heal") != -1) {
-    var newval = 125;
-    var modarray = Recuperation;
-  }
-  else if (verbal.search("very slow to heal") != -1) {
-    var newval = 375;
-    var modarray = Recuperation;
-  }
-  else if (verbal.search("slow to heal") != -1) {
-    var newval = 625;
-    var modarray = Recuperation;
-  }
-
-
-// ANALYTICAL ABILITY
-  else if (verbal.search("awesome intellectual powers") != -1) {
-    var newval = 2250;
-    var modarray = Analytical_Ability;
-  }
-  else if (verbal.search("great analytical abilities") != -1) {
-    var newval = 2125;
-    var modarray = Analytical_Ability;
-  }
-  else if (verbal.search("sharp intellect") != -1) {
-    var newval = 1875;
-    var modarray = Analytical_Ability;
-  }
-  else if (verbal.search("good intellect") != -1) {
-    var newval = 1625;
-    var modarray = Analytical_Ability;
-  }
-  else if (verbal.search("average analytical ability") != -1) {
-    var newval = 1250;
-    var modarray = Analytical_Ability;
-  }
-  else if (verbal.search("stunning lack of analytical ability") != -1) {
-    var newval = 125;
-    var modarray = Analytical_Ability;
-  }
-  else if (verbal.search("lousy intellect") != -1) {
-    var newval = 375;
-    var modarray = Analytical_Ability;
-  }
-  else if (verbal.search("very bad analytical abilities") != -1) {
-    var newval = 625;
-    var modarray = Analytical_Ability;
-  }
-  else if (verbal.search("poor analytical abilities") != -1) {
-    var newval = 875;
-    var modarray = Analytical_Ability;
-  }
-
-// MEMORY
-  else if (verbal.search("astonishing memory") != -1) {
-    var newval = 2250;
-    var modarray = Memory;
-  }
-  else if (verbal.search("amazing memory") != -1) {
-    var newval = 2125;
-    var modarray = Memory;
-  }
-  else if (verbal.search("great memory") != -1) {
-    var newval = 1875;
-    var modarray = Memory;
-  }
-  else if (verbal.search("good memory") != -1) {
-    var newval = 1625;
-    var modarray = Memory;
-  }
-  else if (verbal.search("average memory") != -1) {
-    var newval = 1250;
-    var modarray = Memory;
-  }
-  else if (verbal.search("little memory to speak of") != -1) {
-    var newval = 125;
-    var modarray = Memory;
-  }
-  else if (verbal.search("really bad memory") != -1) {
-    var newval = 375;
-    var modarray = Memory;
-  }
-  else if (verbal.search("poor memory") != -1) {
-    var newval = 625;
-    var modarray = Memory;
-  }
-  else if (verbal.search("iffy memory") != -1) {
-    var newval = 875;
-    var modarray = Memory;
-  }
-
-// CREATIVITY
-  else if (verbal.search("boundless creative imagination") != -1) {
-    var newval = 2250;
-    var modarray = Creativity;
-  }
-  else if (verbal.search("great creativity") != -1) {
-    var newval = 2125;
-    var modarray = Creativity;
-  }
-  else if (verbal.search("very good creativity") != -1) {
-    var newval = 1875;
-    var modarray = Creativity;
-  }
-  else if (verbal.search("good creativity") != -1) {
-    var newval = 1625;
-    var modarray = Creativity;
-  }
-  else if (verbal.search("average creativity") != -1) {
-    var newval = 1250;
-    var modarray = Creativity;
-  }
-  else if (verbal.search("next to no creative talent") != -1) {
-    var newval = 125;
-    var modarray = Creativity;
-  }
-  else if (verbal.search("lousy creativity") != -1) {
-    var newval = 375;
-    var modarray = Creativity;
-  }
-  else if (verbal.search("poor creativity") != -1) {
-    var newval = 625;
-    var modarray = Creativity;
-  }
-  else if (verbal.search("meager creativity") != -1) {
-    var newval = 875;
-    var modarray = Creativity;
-  }
-
-// INTUITION
-  else if (verbal.search("uncanny intuition") != -1) {
-    var newval = 2000;
-    var modarray = Intuition;
-  }
-  else if (verbal.search("great intuition") != -1) {
-    var newval = 1875;
-    var modarray = Intuition;
-  }
-  else if (verbal.search("very good intuition") != -1) {
-    var newval = 1625;
-    var modarray = Intuition;
-  }
-  else if (verbal.search("good intuition") != -1) {
-    var newval = 1375;
-    var modarray = Intuition;
-  }
-  else if (verbal.search("average intuition") != -1) {
-    var newval = 1000;
-    var modarray = Intuition;
-  }
-  else if (verbal.search("horrible intuition") != -1) {
-    var newval = 0;
-    var modarray = Intuition;
-  }
-  else if (verbal.search("lousy intuition") != -1) {
-    var newval = 125;
-    var modarray = Intuition;
-  }
-  else if (verbal.search("very bad intuition") != -1) {
-    var newval = 375;
-    var modarray = Intuition;
-  }
-  else if (verbal.search("bad intuition") != -1) {
-    var newval = 625;
-    var modarray = Intuition;
-  }
-
-// FOCUS
-  else if (verbal.search("unbreakable focus") != -1) {
-    var newval = 2542;
-    var modarray = Focus;
-  }
-  else if (verbal.search("great ability to focus") != -1) {
-    var newval = 2417;
-    var modarray = Focus;
-  }
-  else if (verbal.search("very good focus") != -1) {
-    var newval = 2167;
-    var modarray = Focus;
-  }
-  else if (verbal.search("ability to focus") != -1) {
-    var newval = 1917;
-    var modarray = Focus;
-  }
-  else if (verbal.search("average focus") != -1) {
-    var newval = 1500;
-    var modarray = Focus;
-  }
-  else if (verbal.search("absolute inability to focus") != -1) {
-    var newval = 271;
-    var modarray = Focus;
-  }
-  else if (verbal.search("really poor focus") != -1) {
-    var newval = 668;
-    var modarray = Focus;
-  }
-  else if (verbal.search("quite poor focus") != -1) {
-    var newval = 918;
-    var modarray = Focus;
-  }
-  else if (verbal.search("poor focus") != -1) {
-    var newval = 1168;
-    var modarray = Focus;
-  }
-
-// WILLPOWER
-  else if (verbal.search("unbreakable will") != -1) {
-    var newval = 2000;
-    var modarray = Willpower;
-  }
-  else if (verbal.search("iron will") != -1) {
-    var newval = 1875;
-    var modarray = Willpower;
-  }
-  else if (verbal.search("lot of willpower") != -1) {
-    var newval = 1625;
-    var modarray = Willpower;
-  }
-  else if (verbal.search("average willpower") != -1) {
-    var newval = 1000;
-    var modarray = Willpower;
-  }
-  else if (verbal.search("absolutely no willpower") != -1) {
-    var newval = 0;
-    var modarray = Willpower;
-  }
-  else if (verbal.search("next to no willpower") != -1) {
-    var newval = 125;
-    var modarray = Willpower;
-  }
-  else if (verbal.search("large deficit of willpower") != -1) {
-    var newval = 375;
-    var modarray = Willpower;
-  }
-  else if (verbal.search("little willpower") != -1) {
-    var newval = 625;
-    var modarray = Willpower;
-  }
-  else if (verbal.search("willpower") != -1 && verbal.search("great") == -1) {
-    var newval = 1375;
-    var modarray = Willpower;
-  }
-
-// PATIENCE
-  else if (verbal.search("absolutely boundless patience") != -1) {
-    var newval = 2250;
-    var modarray = Patience;
-  }
-  else if (verbal.search("deep well of patience") != -1) {
-    var newval = 2125;
-    var modarray = Patience;
-  }
-  else if (verbal.search("great deal of patience") != -1) {
-    var newval = 1875;
-    var modarray = Patience;
-  }
-  else if (verbal.search("sum of patience") != -1) {
-    var newval = 1625;
-    var modarray = Patience;
-  }
-  else if (verbal.search("average patience") != -1) {
-    var newval = 1250;
-    var modarray = Patience;
-  }
-  else if (verbal.search("no patience at all") != -1) {
-    var newval = 125;
-    var modarray = Patience;
-  }
-  else if (verbal.search("very little patience") != -1) {
-    var newval = 375;
-    var modarray = Patience;
-  }
-  else if (verbal.search("little patience") != -1) {
-    var newval = 625;
-    var modarray = Patience;
-  }
-  else if (verbal.search("shortage of patience") != -1) {
-    var newval = 875;
-    var modarray = Patience;
-  }
-
-// SPATIAL SENSE
-  else if (verbal.search("stunning feel for spatial relationships") != -1) {
-    var newval = 2542;
-    var modarray = Spatial_Sense;
-  }
-  else if (verbal.search("amazing spatial sense") != -1) {
-    var newval = 2417;
-    var modarray = Spatial_Sense;
-  }
-  else if (verbal.search("great feel for the surrounding space") != -1) {
-    var newval = 2167;
-    var modarray = Spatial_Sense;
-  }
-  else if (verbal.search("good spatial sense") != -1) {
-    var newval = 1917;
-    var modarray = Spatial_Sense;
-  }
-  else if (verbal.search("average spatial sense") != -1) {
-    var newval = 1500;
-    var modarray = Spatial_Sense;
-  }
-  else if (verbal.search("no sense for spatial relationships") != -1) {
-    var newval = 271;
-    var modarray = Spatial_Sense;
-  }
-  else if (verbal.search("atrocious spatial sense") != -1) {
-    var newval = 668;
-    var modarray = Spatial_Sense;
-  }
-  else if (verbal.search("poor spatial senses") != -1) {
-    var newval = 918;
-    var modarray = Spatial_Sense;
-  }
-  else if (verbal.search("questionable spatial sense") != -1) {
-    var newval = 1168;
-    var modarray = Spatial_Sense;
-  }
-
-// KINESTHETIC SENSE
-  else if (verbal.search("astounding feel for the position") != -1) {
-    var newval = 2000;
-    var modarray = Kinesthetic_Sense;
-  }
-  else if (verbal.search("great kinesthetic sense") != -1) {
-    var newval = 1875;
-    var modarray = Kinesthetic_Sense;
-  }
-  else if (verbal.search("very good sense of the position") != -1) {
-    var newval = 1625;
-    var modarray = Kinesthetic_Sense;
-  }
-  else if (verbal.search("good kinesthetic sense") != -1) {
-    var newval = 1375;
-    var modarray = Kinesthetic_Sense;
-  }
-  else if (verbal.search("average kinesthetic sense") != -1) {
-    var newval = 1000;
-    var modarray = Kinesthetic_Sense;
-  }
-  else if (verbal.search("unbelievably atrocious sense of the position") != -1) {
-    var newval = 0;
-    var modarray = Kinesthetic_Sense;
-  }
-  else if (verbal.search("very clumsy kinesthetic sense") != -1) {
-    var newval = 125;
-    var modarray = Kinesthetic_Sense;
-  }
-  else if (verbal.search("poor kinesthetic sense") != -1) {
-    var newval = 375;
-    var modarray = Kinesthetic_Sense;
-  }
-  else if (verbal.search("meager kinesthetic sense") != -1) {
-    var newval = 625;
-    var modarray = Kinesthetic_Sense;
-  }
-
-// LINGUISTIC ABILITY
-  else if (verbal.search("astonishing ability with languages") != -1) {
-    var newval = 2000;
-    var modarray = Linguistic_Ability;
-  }
-  else if (verbal.search("great affinity for language") != -1) {
-    var newval = 1875;
-    var modarray = Linguistic_Ability;
-  }
-  else if (verbal.search("natural inclination toward language") != -1) {
-    var newval = 1625;
-    var modarray = Linguistic_Ability;
-  }
-  else if (verbal.search("way with words") != -1) {
-    var newval = 1375;
-    var modarray = Linguistic_Ability;
-  }
-  else if (verbal.search("average linguistic ability") != -1) {
-    var newval = 1000;
-    var modarray = Linguistic_Ability;
-  }
-  else if (verbal.search("difficulty with words and language") != -1) {
-    var newval = 0;
-    var modarray = Linguistic_Ability;
-  }
-  else if (verbal.search("very little linguistic ability") != -1) {
-    var newval = 125;
-    var modarray = Linguistic_Ability;
-  }
-  else if (verbal.search("little linguistic ability") != -1) {
-    var newval = 375;
-    var modarray = Linguistic_Ability;
-  }
-  else if (verbal.search("little difficulty with words") != -1) {
-    var newval = 625;
-    var modarray = Linguistic_Ability;
-  }
-
-// MUSICALITY
-  else if (verbal.search("astonishing knack for music") != -1) {
-    var newval = 2000;
-    var modarray = Musicality;
-  }
-  else if (verbal.search("great musical sense") != -1) {
-    var newval = 1875;
-    var modarray = Musicality;
-  }
-  else if (verbal.search("natural ability with music") != -1) {
-    var newval = 1625;
-    var modarray = Musicality;
-  }
-  else if (verbal.search("feel for music") != -1 && verbal.search("absolutely no") == -1) {
-    var newval = 1375;
-    var modarray = Musicality;
-  }
-  else if (verbal.search("average musicality") != -1) {
-    var newval = 1000;
-    var modarray = Musicality;
-  }
-  else if (verbal.search("absolutely no feel for music") != -1) {
-    var newval = 0;
-    var modarray = Musicality;
-  }
-  else if (verbal.search("next to no natural musical ability") != -1) {
-    var newval = 125;
-    var modarray = Musicality;
-  }
-  else if (verbal.search("little natural inclination toward music") != -1) {
-    var newval = 375;
-    var modarray = Musicality;
-  }
-  else if (verbal.search("iffy sense for music") != -1) {
-    var newval = 675;
-    var modarray = Musicality;
-  }
-
-// EMPATHY
-  else if (verbal.search("remarkable sense of others' emotions") != -1) {
-    var newval = 2000;
-    var modarray = Empathy;
-  }
-  else if (verbal.search("great sense of empathy") != -1) {
-    var newval = 1875;
-    var modarray = Empathy;
-  }
-  else if (verbal.search("very good sense of empathy") != -1) {
-    var newval = 1625;
-    var modarray = Empathy;
-  }
-  else if (verbal.search("ability to read emotions") != -1) {
-    var newval = 1375;
-    var modarray = Empathy;
-  }
-  else if (verbal.search("average empathy") != -1) {
-    var newval = 1000;
-    var modarray = Empathy;
-  }
-  else if (verbal.search("utter inability to judge others' emotions") != -1) {
-    var newval = 0;
-    var modarray = Empathy;
-  }
-  else if (verbal.search("next to no empathy") != -1) {
-    var newval = 125;
-    var modarray = Empathy;
-  }
-  else if (verbal.search("very bad sense of empathy") != -1) {
-    var newval = 375;
-    var modarray = Empathy;
-  }
-  else if (verbal.search("poor empathy") != -1) {
-    var newval = 625;
-    var modarray = Empathy;
-  }
-
-// SOCIAL AWARENESS
-  else if (verbal.search("profound feel for social relationships") != -1) {
-    var newval = 2000;
-    var modarray = Social_Awareness;
-  }
-  else if (verbal.search("great feel for social relationships") != -1) {
-    var newval = 1875;
-    var modarray = Social_Awareness;
-  }
-  else if (verbal.search("very good feel for social relationships") != -1) {
-    var newval = 1625;
-    var modarray = Social_Awareness;
-  }
-  else if (verbal.search("good feel for social relationships") != -1) {
-    var newval = 1375;
-    var modarray = Social_Awareness;
-  }
-  else if (verbal.search("average social awareness") != -1) {
-    var newval = 1000;
-    var modarray = Social_Awareness;
-  }
-  else if (verbal.search("inability to understand social relationships") != -1) {
-    var newval = 0;
-    var modarray = Social_Awareness;
-  }
-  else if (verbal.search("lack of understanding of social relationships") != -1) {
-    var newval = 125;
-    var modarray = Social_Awareness;
-  }
-  else if (verbal.search("poor ability to manage or understand") != -1) {
-    var newval = 375;
-    var modarray = Social_Awareness;
-  }
-  else if (verbal.search("meager ability with social relationships") != -1) {
-    var newval = 625;
-    var modarray = Social_Awareness;
-  }
-
-
-// ACHIEVEMENT STRIVING
-  else if (verbal.search("strives for perfection") != -1) {
-    var newval = 95;
-    var modarray = Achievement_Striving__Excellence_;
-  }
-  else if (verbal.search("important to strive for excellence") != -1) {
-    var newval = 83;
-    var modarray = Achievement_Striving__Excellence_;
-  }
-  else if (verbal.search("strives for excellence") != -1) {
-    var newval = 68;
-    var modarray = Achievement_Striving__Excellence_;
-  }
-  else if (verbal.search("average achievement striving") != -1) {
-    var newval = 50;
-    var modarray = Achievement_Striving__Excellence_;
-  }
-  else if (verbal.search("does the bare minimum") != -1) {
-    var newval = 5;
-    var modarray = Achievement_Striving__Excellence_;
-  }
-  else if (verbal.search("rarely does more work") != -1) {
-    var newval = 17;
-    var modarray = Achievement_Striving__Excellence_;
-  }
-  else if (verbal.search("more work than necessary") != -1) {
-    var newval = 32;
-    var modarray = Achievement_Striving__Excellence_;
-  }
-
-// ACTIVITY LEVEL
-  else if (verbal.search("constantly active and energetic") != -1) {
-    var newval = 95;
-    var modarray = Activity_Level__Activeness_;
-  }
-  else if (verbal.search("very energetic and active") != -1) {
-    var newval = 83;
-    var modarray = Activity_Level__Activeness_;
-  }
-  else if (verbal.search("very active") != -1) {
-    var newval = 68;
-    var modarray = Activity_Level__Activeness_;
-  }
-  else if (verbal.search("average activity level") != -1) {
-    var newval = 50;
-    var modarray = Activity_Level__Activeness_;
-  }
-  else if (verbal.search("be bothered with frantic") != -1) {
-    var newval = 5;
-    var modarray = Activity_Level__Activeness_;
-  }
-  else if (verbal.search("life at a leisurely") != -1) {
-    var newval = 17;
-    var modarray = Activity_Level__Activeness_;
-  }
-  else if (verbal.search("relaxed") != -1) {
-    var newval = 32;
-    var modarray = Activity_Level__Activeness_;
-  }
-
-// ADVENTUROUSNESS
-  else if (verbal.search("loves fresh experiences") != -1) {
-    var newval = 95;
-    var modarray = Adventurousness__Adventure_;
-  }
-  else if (verbal.search("eager for new experiences") != -1) {
-    var newval = 83;
-    var modarray = Adventurousness__Adventure_;
-  }
-  else if (verbal.search("likes to try new things") != -1) {
-    var newval = 68;
-    var modarray = Adventurousness__Adventure_;
-  }
-  else if (verbal.search("average adventurousness") != -1) {
-    var newval = 50;
-    var modarray = Adventurousness__Adventure_;
-  }
-  else if (verbal.search("resistant to change") != -1) {
-    var newval = 5;
-    var modarray = Adventurousness__Adventure_;
-  }
-  else if (verbal.search("uncomfortable with change") != -1) {
-    var newval = 17;
-    var modarray = Adventurousness__Adventure_;
-  }
-  else if (verbal.search("prefers familiar routines") != -1) {
-    var newval = 32;
-    var modarray = Adventurousness__Adventure_;
-  }
-
-// ALTRUISM
-  else if (verbal.search("truly fulfilled by assisting") != -1) {
-    var newval = 95;
-    var modarray = Altruism__Helpfulness_;
-  }
-  else if (verbal.search("helping others very rewarding") != -1) {
-    var newval = 83;
-    var modarray = Altruism__Helpfulness_;
-  }
-  else if (verbal.search("helping others rewarding") != -1) {
-    var newval = 68;
-    var modarray = Altruism__Helpfulness_;
-  }
-  else if (verbal.search("average altruism") != -1) {
-    var newval = 50;
-    var modarray = Altruism__Helpfulness_;
-  }
-  else if (verbal.search("helping others as an imposition") != -1) {
-    var newval = 5;
-    var modarray = Altruism__Helpfulness_;
-  }
-  else if (verbal.search("dislikes helping others") != -1) {
-    var newval = 17;
-    var modarray = Altruism__Helpfulness_;
-  }
-  else if (verbal.search("way to help others") != -1) {
-    var newval = 32;
-    var modarray = Altruism__Helpfulness_;
-  }
-
-// ANGER
-  else if (verbal.search("state of internal rage") != -1) {
-    var newval = 95;
-    var modarray = Anger__Rage_;
-  }
-  else if (verbal.search("very quick to anger") != -1) {
-    var newval = 83;
-    var modarray = Anger__Rage_;
-  }
-  else if (verbal.search("quick to anger") != -1) {
-    var newval = 68;
-    var modarray = Anger__Rage_;
-  }
-  else if (verbal.search("average anger") != -1) {
-    var newval = 50;
-    var modarray = Anger__Rage_;
-  }
-  else if (verbal.search("never becomes angry") != -1) {
-    var newval = 5;
-    var modarray = Anger__Rage_;
-  }
-  else if (verbal.search("very slow to anger") != -1) {
-    var newval = 17;
-    var modarray = Anger__Rage_;
-  }
-  else if (verbal.search("slow to anger") != -1) {
-    var newval = 32;
-    var modarray = Anger__Rage_;
-  }
-
-// ANXIETY
-  else if (verbal.search("nervous wreck") != -1) {
-    var newval = 95;
-    var modarray = Anxiety__Nervousness_;
-  }
-  else if (verbal.search("tense and jittery") != -1) {
-    var newval = 83;
-    var modarray = Anxiety__Nervousness_;
-  }
-  else if (verbal.search("often nervous") != -1) {
-    var newval = 68;
-    var modarray = Anxiety__Nervousness_;
-  }
-  else if (verbal.search("average anxiety") != -1) {
-    var newval = 50;
-    var modarray = Anxiety__Nervousness_;
-  }
-  else if (verbal.search("incredibly calm") != -1) {
-    var newval = 5;
-    var modarray = Anxiety__Nervousness_;
-  }
-  else if (verbal.search("very calm") != -1) {
-    var newval = 17;
-    var modarray = Anxiety__Nervousness_;
-  }
-  else if (verbal.search("calm") != -1) {
-    var newval = 32;
-    var modarray = Anxiety__Nervousness_;
-  }
-
-// ARTISTIC INTEREST
-  else if (verbal.search("easily become absorbed") != -1) {
-    var newval = 95;
-    var modarray = Artistic_Interest__Artistic_;
-  }
-  else if (verbal.search("greatly appreciates art") != -1) {
-    var newval = 83;
-    var modarray = Artistic_Interest__Artistic_;
-  }
-  else if (verbal.search("appreciates art") != -1) {
-    var newval = 68;
-    var modarray = Artistic_Interest__Artistic_;
-  }
-  else if (verbal.search("average artistic interest") != -1) {
-    var newval = 50;
-    var modarray = Artistic_Interest__Artistic_;
-  }
-  else if (verbal.search("completely uninterested in art") != -1) {
-    var newval = 5;
-    var modarray = Artistic_Interest__Artistic_;
-  }
-  else if (verbal.search("not interested in art") != -1) {
-    var newval = 17;
-    var modarray = Artistic_Interest__Artistic_;
-  }
-  else if (verbal.search("not have a great aesthetic") != -1) {
-    var newval = 32;
-    var modarray = Artistic_Interest__Artistic_;
-  }
-
-// ASSERTIVENESS
-  else if (verbal.search("loves to take charge") != -1) {
-    var newval = 95;
-    var modarray = Assertiveness__Leadership_;
-  }
-  else if (verbal.search("very assertive") != -1) {
-    var newval = 83;
-    var modarray = Assertiveness__Leadership_;
-  }
-  else if (verbal.search("average assertiveness") != -1) {
-    var newval = 50;
-    var modarray = Assertiveness__Leadership_;
-  }
-  else if (verbal.search("never speaks out") != -1) {
-    var newval = 5;
-    var modarray = Assertiveness__Leadership_;
-  }
-  else if (verbal.search("others handle the leadership") != -1) {
-    var newval = 17;
-    var modarray = Assertiveness__Leadership_;
-  }
-  else if (verbal.search("unassertive") != -1) {
-    var newval = 32;
-    var modarray = Assertiveness__Leadership_;
-  }
-  else if (verbal.search("assertive") != -1 && verbal.search("average") == -1) {
-    var newval = 68;
-    var modarray = Assertiveness__Leadership_;
-  }
-
-// CAUTIOUSNESS
-  else if (verbal.search("thinks through every alternative") != -1) {
-    var newval = 95;
-    var modarray = Cautiousness;
-  }
-  else if (verbal.search("extremely cautious") != -1) {
-    var newval = 83;
-    var modarray = Cautiousness;
-  }
-  else if (verbal.search("takes time when making decisions") != -1) {
-    var newval = 68;
-    var modarray = Cautiousness;
-  }
-  else if (verbal.search("average cautiousness") != -1) {
-    var newval = 50;
-    var modarray = Cautiousness;
-  }
-  else if (verbal.search("thinking through possibilities") != -1) {
-    var newval = 5;
-    var modarray = Cautiousness;
-  }
-  else if (verbal.search("acts impulsively") != -1) {
-    var newval = 17;
-    var modarray = Cautiousness;
-  }
-  else if (verbal.search("first thing that comes to mind") != -1) {
-    var newval = 32;
-    var modarray = Cautiousness;
-  }
-
-// CHEERFULNESS
-  else if (verbal.search("feels filled with joy") != -1) {
-    var newval = 95;
-    var modarray = Cheerfulness__Optimism_;
-  }
-  else if (verbal.search("very happy and optimistic") != -1) {
-    var newval = 83;
-    var modarray = Cheerfulness__Optimism_;
-  }
-  else if (verbal.search("often cheerful") != -1) {
-    var newval = 68;
-    var modarray = Cheerfulness__Optimism_;
-  }
-  else if (verbal.search("average cheerfulness") != -1) {
-    var newval = 50;
-    var modarray = Cheerfulness__Optimism_;
-  }
-  else if (verbal.search("never optimistic") != -1) {
-    var newval = 5;
-    var modarray = Cheerfulness__Optimism_;
-  }
-  else if (verbal.search("pessimist") != -1) {
-    var newval = 17;
-    var modarray = Cheerfulness__Optimism_;
-  }
-  else if (verbal.search("rarely happy or enthusiastic") != -1) {
-    var newval = 32;
-    var modarray = Cheerfulness__Optimism_;
-  }
-
-// COOPERATION
-  else if (verbal.search("needs to get along with others") != -1) {
-    var newval = 95;
-    var modarray = Cooperation__Compromising_;
-  }
-  else if (verbal.search("dislikes confrontations") != -1) {
-    var newval = 83;
-    var modarray = Cooperation__Compromising_;
-  }
-  else if (verbal.search("willing to compromise") != -1) {
-    var newval = 68;
-    var modarray = Cooperation__Compromising_;
-  }
-  else if (verbal.search("average cooperation") != -1) {
-    var newval = 50;
-    var modarray = Cooperation__Compromising_;
-  }
-  else if (verbal.search("to compromise with somebody else") != -1) {
-    var newval = 5;
-    var modarray = Cooperation__Compromising_;
-  }
-  else if (verbal.search("rather intimidate others") != -1) {
-    var newval = 17;
-    var modarray = Cooperation__Compromising_;
-  }
-  else if (verbal.search("like to compromise") != -1) {
-    var newval = 32;
-    var modarray = Cooperation__Compromising_;
-  }
-
-// DEPRESSION
-  else if (verbal.search("frequently depressed") != -1) {
-    var newval = 95;
-    var modarray = Depression;
-  }
-  else if (verbal.search("often sad and dejected") != -1) {
-    var newval = 83;
-    var modarray = Depression;
-  }
-  else if (verbal.search("often feels discouraged") != -1) {
-    var newval = 68;
-    var modarray = Depression;
-  }
-  else if (verbal.search("average depression") != -1) {
-    var newval = 50;
-    var modarray = Depression;
-  }
-  else if (verbal.search("never feels discouraged") != -1 && verbal.search("almost") == -1) {
-    var newval = 5;
-    var modarray = Depression;
-  }
-  else if (verbal.search("almost never feels discouraged") != -1) {
-    var newval = 17;
-    var modarray = Depression;
-  }
-  else if (verbal.search("rarely feels discouraged") != -1) {
-    var newval = 32;
-    var modarray = Depression;
-  }
-
-// DUTIFULNESS
-  else if (verbal.search("profound sense of duty") != -1) {
-    var newval = 95;
-    var modarray = Dutifulness__Lawfulness_;
-  }
-  else if (verbal.search("strong sense of duty") != -1) {
-    var newval = 83;
-    var modarray = Dutifulness__Lawfulness_;
-  }
-  else if (verbal.search("sense of duty") != -1) {
-    var newval = 68;
-    var modarray = Dutifulness__Lawfulness_;
-  }
-  else if (verbal.search("average dutifulness") != -1) {
-    var newval = 50;
-    var modarray = Dutifulness__Lawfulness_;
-  }
-  else if (verbal.search("contracts and other confining") != -1) {
-    var newval = 5;
-    var modarray = Dutifulness__Lawfulness_;
-  }
-  else if (verbal.search("dislikes contracts and regulations") != -1) {
-    var newval = 17;
-    var modarray = Dutifulness__Lawfulness_;
-  }
-  else if (verbal.search("finds rules confining") != -1) {
-    var newval = 32;
-    var modarray = Dutifulness__Lawfulness_;
-  }
-
-// EMOTIONALITY
-  else if (verbal.search("profound understanding") != -1 && verbal.search("own emotions") != -1) {
-    var newval = 95;
-    var modarray = Emotionality__Emotion_;
-  }
-  else if (verbal.search("great awareness") != -1 && verbal.search("own emotions") != -1) {
-    var newval = 83;
-    var modarray = Emotionality__Emotion_;
-  }
-  else if (verbal.search("good awareness") != -1 && verbal.search("own emotions") != -1) {
-    var newval = 68;
-    var modarray = Emotionality__Emotion_;
-  }
-  else if (verbal.search("average emotionality") != -1) {
-    var newval = 50;
-    var modarray = Emotionality__Emotion_;
-  }
-  else if (verbal.search("does not display") != -1 && verbal.search("own emotions") != -1) {
-    var newval = 5;
-    var modarray = Emotionality__Emotion_;
-  }
-  else if (verbal.search("mostly unaware") != -1 && verbal.search("own emotions") != -1) {
-    var newval = 17;
-    var modarray = Emotionality__Emotion_;
-  }
-  else if (verbal.search("tends not to openly express emotions") != -1) {
-    var newval = 32;
-    var modarray = Emotionality__Emotion_;
-  }
-
-// EXCITEMENT SEEKING
-  else if (verbal.search("lives for risk") != -1) {
-    var newval = 95;
-    var modarray = Excitement_Seeking__Thrillseeking_;
-  }
-  else if (verbal.search("risk-taker and a thrill-seeker") != -1) {
-    var newval = 83;
-    var modarray = Excitement_Seeking__Thrillseeking_;
-  }
-  else if (verbal.search("loves a good thrill") != -1) {
-    var newval = 68;
-    var modarray = Excitement_Seeking__Thrillseeking_;
-  }
-  else if (verbal.search("average excitement seeking") != -1) {
-    var newval = 50;
-    var modarray = Excitement_Seeking__Thrillseeking_;
-  }
-  else if (verbal.search("entirely adverse to risk") != -1) {
-    var newval = 5;
-    var modarray = Excitement_Seeking__Thrillseeking_;
-  }
-  else if (verbal.search("need thrills or risks") != -1) {
-    var newval = 17;
-    var modarray = Excitement_Seeking__Thrillseeking_;
-  }
-  else if (verbal.search("not a risk-taker") != -1) {
-    var newval = 32;
-    var modarray = Excitement_Seeking__Thrillseeking_;
-  }
-
-// FRIENDLINESS
-  else if (verbal.search("genuinely likes others") != -1) {
-    var newval = 95;
-    var modarray = Friendliness__Friendly_;
-  }
-  else if (verbal.search("makes friends quickly") != -1) {
-    var newval = 83;
-    var modarray = Friendliness__Friendly_;
-  }
-  else if (verbal.search("very friendly") != -1) {
-    var newval = 68;
-    var modarray = Friendliness__Friendly_;
-  }
-  else if (verbal.search("average friendliness") != -1) {
-    var newval = 50;
-    var modarray = Friendliness__Friendly_;
-  }
-  else if (verbal.search("incredibly distant and reserved") != -1) {
-    var newval = 5;
-    var modarray = Friendliness__Friendly_;
-  }
-  else if (verbal.search("very distant and reserved") != -1) {
-    var newval = 17;
-    var modarray = Friendliness__Friendly_;
-  }
-  else if (verbal.search("somewhat reserved") != -1) {
-    var newval = 32;
-    var modarray = Friendliness__Friendly_;
-  }
-
-// GREGARIOUSNESS
-  else if (verbal.search("treasures the company of others") != -1) {
-    var newval = 95;
-    var modarray = Gregariousness__Company_;
-  }
-  else if (verbal.search("enjoys being in crowds") != -1) {
-    var newval = 83;
-    var modarray = Gregariousness__Company_;
-  }
-  else if (verbal.search("enjoys the company of others") != -1) {
-    var newval = 68;
-    var modarray = Gregariousness__Company_;
-  }
-  else if (verbal.search("average gregariousness") != -1) {
-    var newval = 50;
-    var modarray = Gregariousness__Company_;
-  }
-  else if (verbal.search("spending time alone much more") != -1) {
-    var newval = 5;
-    var modarray = Gregariousness__Company_;
-  }
-  else if (verbal.search("prefers to be alone") != -1) {
-    var newval = 17;
-    var modarray = Gregariousness__Company_;
-  }
-  else if (verbal.search("tends to avoid crowds") != -1) {
-    var newval = 32;
-    var modarray = Gregariousness__Company_;
-  }
-
-// IMAGINATION
-  else if (verbal.search("bored by reality") != -1) {
-    var newval = 95;
-    var modarray = Imagination;
-  }
-  else if (verbal.search("incredibly creative") != -1) {
-    var newval = 83;
-    var modarray = Imagination;
-  }
-  else if (verbal.search("fertile imagination") != -1) {
-    var newval = 68;
-    var modarray = Imagination;
-  }
-  else if (verbal.search("average imagination") != -1) {
-    var newval = 50;
-    var modarray = Imagination;
-  }
-  else if (verbal.search("interested only in facts") != -1) {
-    var newval = 5;
-    var modarray = Imagination;
-  }
-  else if (verbal.search("grounded in reality") != -1) {
-    var newval = 17;
-    var modarray = Imagination;
-  }
-  else if (verbal.search("flights of fancy") != -1) {
-    var newval = 32;
-    var modarray = Imagination;
-  }
-
-// IMMODERATION
-  else if (verbal.search("ruled by irresistible cravings") != -1) {
-    var newval = 95;
-    var modarray = Immoderation__Urge_;
-  }
-  else if (verbal.search("feels strong urges") != -1) {
-    var newval = 83;
-    var modarray = Immoderation__Urge_;
-  }
-  else if (verbal.search("occasionally overindulges") != -1 || verbal.search("occassionally overindulges") != -1) {
-    var newval = 68;
-    var modarray = Immoderation__Urge_;
-  }
-  else if (verbal.search("average immoderation") != -1) {
-    var newval = 55;
-    var modarray = Immoderation__Urge_;
-  }
-  else if (verbal.search("never feels tempted") != -1) {
-    var newval = 5;
-    var modarray = Immoderation__Urge_;
-  }
-  else if (verbal.search("rarely feels strong cravings") != -1) {
-    var newval = 17;
-    var modarray = Immoderation__Urge_;
-  }
-  else if (verbal.search("experience strong cravings") != -1) {
-    var newval = 32;
-    var modarray = Immoderation__Urge_;
-  }
-
-// INTELLECTUAL CURIOSITY
-  else if (verbal.search("entranced by riddles") != -1) {
-    var newval = 95;
-    var modarray = Intellectual_Curiosity__Thinking_;
-  }
-  else if (verbal.search("new and fresh ideas") != -1) {
-    var newval = 83;
-    var modarray = Intellectual_Curiosity__Thinking_;
-  }
-  else if (verbal.search("open-minded to new ideas") != -1) {
-    var newval = 68;
-    var modarray = Intellectual_Curiosity__Thinking_;
-  }
-  else if (verbal.search("average intellectual curiosity") != -1) {
-    var newval = 50;
-    var modarray = Intellectual_Curiosity__Thinking_;
-  }
-  else if (verbal.search("uninterested in ideas") != -1) {
-    var newval = 5;
-    var modarray = Intellectual_Curiosity__Thinking_;
-  }
-  else if (verbal.search("regards intellectual exercises") != -1) {
-    var newval = 17;
-    var modarray = Intellectual_Curiosity__Thinking_;
-  }
-  else if (verbal.search("dislikes intellectual discussions") != -1) {
-    var newval = 32;
-    var modarray = Intellectual_Curiosity__Thinking_;
-  }
-
-// LIBERALISM
-  else if (verbal.search("revels in chaos") != -1) {
-    var newval = 95;
-    var modarray = Liberalism__Rebelliousness_;
-  }
-  else if (verbal.search("loves to defy convention") != -1) {
-    var newval = 83;
-    var modarray = Liberalism__Rebelliousness_;
-  }
-  else if (verbal.search("put off by authority") != -1) {
-    var newval = 68;
-    var modarray = Liberalism__Rebelliousness_;
-  }
-  else if (verbal.search("average liberalism") != -1) {
-    var newval = 50;
-    var modarray = Liberalism__Rebelliousness_;
-  }
-  else if (verbal.search("ardent believer in convention") != -1) {
-    var newval = 5;
-    var modarray = Liberalism__Rebelliousness_;
-  }
-  else if (verbal.search("prefers stability and security") != -1) {
-    var newval = 17;
-    var modarray = Liberalism__Rebelliousness_;
-  }
-  else if (verbal.search("admires tradition") != -1) {
-    var newval = 32;
-    var modarray = Liberalism__Rebelliousness_;
-  }
-
-// MODESTY
-  else if (verbal.search("never claim to be better") != -1) {
-    var newval = 95;
-    var modarray = Modesty;
-  }
-  else if (verbal.search("immodesty distasteful") != -1) {
-    var newval = 83;
-    var modarray = Modesty;
-  }
-  else if (verbal.search("average modesty") != -1) {
-    var newval = 50;
-    var modarray = Modesty;
-  }
-  else if (verbal.search("would never shy away") != -1) {
-    var newval = 5;
-    var modarray = Modesty;
-  }
-  else if (verbal.search("very willing to compare") != -1) {
-    var newval = 17;
-    var modarray = Modesty;
-  }
-  else if (verbal.search("immodest") != -1) {
-    var newval = 32;
-    var modarray = Modesty;
-  }
-  else if (verbal.search("modest") != -1) {
-    var newval = 68;
-    var modarray = Modesty;
-  }
-
-// ORDERLINESS
-  else if (verbal.search("loves to make lists") != -1) {
-    var newval = 95;
-    var modarray = Orderliness__Organization_;
-  }
-  else if (verbal.search("well-organized life") != -1) {
-    var newval = 83;
-    var modarray = Orderliness__Organization_;
-  }
-  else if (verbal.search("average orderliness") != -1) {
-    var newval = 50;
-    var modarray = Orderliness__Organization_;
-  }
-  else if (verbal.search("completely disorganized") != -1) {
-    var newval = 5;
-    var modarray = Orderliness__Organization_;
-  }
-  else if (verbal.search("very disorganized") != -1) {
-    var newval = 17;
-    var modarray = Orderliness__Organization_;
-  }
-  else if (verbal.search("disorganized") != -1) {
-    var newval = 32;
-    var modarray = Orderliness__Organization_;
-  }
-  else if (verbal.search("organized") != -1) {
-    var newval = 68;
-    var modarray = Orderliness__Organization_;
-  }
-
-// SELF-CONSCIOUSNESS
-  else if (verbal.search("socially crippled") != -1) {
-    var newval = 95;
-    var modarray = Self_Consciousness__Neurosis_;
-  }
-  else if (verbal.search("rejection and ridicule") != -1) {
-    var newval = 83;
-    var modarray = Self_Consciousness__Neurosis_;
-  }
-  else if (verbal.search("average self-consciousness") != -1) {
-    var newval = 50;
-    var modarray = Self_Consciousness__Neurosis_;
-  }
-  else if (verbal.search("self-conscious") != -1) {
-    var newval = 68;
-    var modarray = Self_Consciousness__Neurosis_;
-  }
-  else if (verbal.search("absolutely unfazed") != -1) {
-    var newval = 5;
-    var modarray = Self_Consciousness__Neurosis_;
-  }
-  else if (verbal.search("very comfortable in social situations") != -1) {
-    var newval = 17;
-    var modarray = Self_Consciousness__Neurosis_;
-  }
-  else if (verbal.search("comfortable in social situations") != -1) {
-    var newval = 32;
-    var modarray = Self_Consciousness__Neurosis_;
-  }
-
-// SELF-DISCIPLINE
-  else if (verbal.search("will persist in the face") != -1) {
-    var newval = 95;
-    var modarray = Self_Discipline__Perseverance_;
-  }
-  else if (verbal.search("great willpower") != -1) {
-    var newval = 83;
-    var modarray = Self_Discipline__Perseverance_;
-  }
-  else if (verbal.search("self-disciplined") != -1) {
-    var newval = 68;
-    var modarray = Self_Discipline__Perseverance_;
-  }
-  else if (verbal.search("average self-discipline") != -1) {
-    var newval = 50;
-    var modarray = Self_Discipline__Perseverance_;
-  }
-  else if (verbal.search("rarely completes tasks") != -1) {
-    var newval = 5;
-    var modarray = Self_Discipline__Perseverance_;
-  }
-  else if (verbal.search("little self-discipline") != -1) {
-    var newval = 17;
-    var modarray = Self_Discipline__Perseverance_;
-  }
-  else if (verbal.search("procrastination") != -1) {
-    var newval = 32;
-    var modarray = Self_Discipline__Perseverance_;
-  }
-
-// SELF-EFFICACY
-  else if (verbal.search("incredibly confident") != -1) {
-    var newval = 95;
-    var modarray = Self_Efficacy__Confidence_;
-  }
-  else if (verbal.search("very confident") != -1) {
-    var newval = 83;
-    var modarray = Self_Efficacy__Confidence_;
-  }
-  else if (verbal.search("confident") != -1 && verbal.search("under") == -1) {
-    var newval = 68;
-    var modarray = Self_Efficacy__Confidence_;
-  }
-  else if (verbal.search("average self-efficacy") != -1) {
-    var newval = 50;
-    var modarray = Self_Efficacy__Confidence_;
-  }
-  else if (verbal.search("feels as if") != -1 && verbal.search("not in control") != -1) {
-    var newval = 5;
-    var modarray = Self_Efficacy__Confidence_;
-  }
-  else if (verbal.search("does not feel effective") != -1) {
-    var newval = 17;
-    var modarray = Self_Efficacy__Confidence_;
-  }
-  else if (verbal.search("lacks confidence") != -1) {
-    var newval = 32;
-    var modarray = Self_Efficacy__Confidence_;
-  }
-
-// STRAIGHTFORWARDNESS
-  else if (verbal.search("incredibly frank and candid") != -1) {
-    var newval = 95;
-    var modarray = Straightforwardness__Honesty_;
-  }
-  else if (verbal.search("very straightforward") != -1) {
-    var newval = 83;
-    var modarray = Straightforwardness__Honesty_;
-  }
-  else if (verbal.search("candid and sincere") != -1) {
-    var newval = 68;
-    var modarray = Straightforwardness__Honesty_;
-  }
-  else if (verbal.search("average straightforwardness") != -1) {
-    var newval = 55;
-    var modarray = Straightforwardness__Honesty_;
-  }
-  else if (verbal.search("some deception is necessary") != -1) {
-    var newval = 5;
-    var modarray = Straightforwardness__Honesty_;
-  }
-  else if (verbal.search("not straightforward") != -1) {
-    var newval = 17;
-    var modarray = Straightforwardness__Honesty_;
-  }
-  else if (verbal.search("guarded in relationships") != -1) {
-    var newval = 32;
-    var modarray = Straightforwardness__Honesty_;
-  }
-
-// SYMPATHY
-  else if (verbal.search("incredibly compassionate") != -1) {
-    var newval = 95;
-    var modarray = Sympathy__Compassion_;
-  }
-  else if (verbal.search("compassionate") != -1) {
-    var newval = 68;
-    var modarray = Sympathy__Compassion_;
-  }
-  else if (verbal.search("average sympathy") != -1) {
-    var newval = 50;
-    var modarray = Sympathy__Compassion_;
-  }
-  else if (verbal.search("tempered by mercy or pity") != -1) {
-    var newval = 5;
-    var modarray = Sympathy__Compassion_;
-  }
-  else if (verbal.search("suffering of others") != -1) {
-    var newval = 17;
-    var modarray = Sympathy__Compassion_;
-  }
-  else if (verbal.search("not easily moved to pity") != -1) {
-    var newval = 32;
-    var modarray = Sympathy__Compassion_;
-  }
-  else if (verbal.search("easily moved to pity") != -1) {
-    var newval = 83;
-    var modarray = Sympathy__Compassion_;
-  }
-
-// TRUST
-  else if (verbal.search("naturally trustful") != -1) {
-    var newval = 95;
-    var modarray = Trust__Trusting_;
-  }
-  else if (verbal.search("very trusting") != -1) {
-    var newval = 83;
-    var modarray = Trust__Trusting_;
-  }
-  else if (verbal.search("trusting") != -1) {
-    var newval = 68;
-    var modarray = Trust__Trusting_;
-  }
-  else if (verbal.search("average trust") != -1) {
-    var newval = 50;
-    var modarray = Trust__Trusting_;
-  }
-  else if (verbal.search("selfish and conniving") != -1) {
-    var newval = 5;
-    var modarray = Trust__Trusting_;
-  }
-  else if (verbal.search("not trust others") != -1) {
-    var newval = 17;
-    var modarray = Trust__Trusting_;
-  }
-  else if (verbal.search("slow to trust") != -1) {
-    var newval = 32;
-    var modarray = Trust__Trusting_;
-  }
-
-// VULNERABILITY
-  else if (verbal.search("completely helpless") != -1) {
-    var newval = 95;
-    var modarray = Vulnerability__Stress_;
-  }
-  else if (verbal.search("cracks easily") != -1) {
-    var newval = 83;
-    var modarray = Vulnerability__Stress_;
-  }
-  else if (verbal.search("handle stress well") != -1) {
-    var newval = 68;
-    var modarray = Vulnerability__Stress_;
-  }
-  else if (verbal.search("average vulnerability") != -1) {
-    var newval = 45;
-    var modarray = Vulnerability__Stress_;
-  }
-  else if (verbal.search("effects of stress") != -1) {
-    var newval = 5;
-    var modarray = Vulnerability__Stress_;
-  }
-  else if (verbal.search("confident under pressure") != -1) {
-    var newval = 17;
-    var modarray = Vulnerability__Stress_;
-  }
-  else if (verbal.search("can handle stress") != -1) {
-      var newval = 32;
-      var modarray = Vulnerability__Stress_;
-    }
-
-
-    else {
-      changelog.splice(0, 0, "Error! Counselor could not evaluate your verbal input.");
-      changelogupdate();
-      return;
-    }
-  verbapprox(modarray, newval);
-  guide();
-  changelogupdate();
-}
-
-function verbapprox(modarray, newval) {
-  eval(modarray[0])[eval(modarray[1])] = newval;
-  document.getElementById(String(modarray[0]) + String(modarray[1])).innerHTML = eval(modarray[0])[eval(modarray[1])];
-  changelog.splice(0, 0, document.getElementById(String(modarray[2])).options[eval(modarray[1])]
-          .text + " set to " + eval(modarray[0])[eval(modarray[1])] + " by Counselor.");
-}
-
 function minusattrtopct(newattr) {
 
   var x = newattr;
@@ -3346,8 +1568,6 @@ function minusattrtopct(newattr) {
   else if (x >= 1100) {
     xpct = Math.round((0.0417669 * x) + 37.3904)
   }
-  ;
-
   newattr = xpct;
   return newattr;
 }
@@ -3375,8 +1595,6 @@ function avgattrtopct(newattr) {
   else if (x >= 1300) {
     xpct = Math.round((0.0238412 * x) + 52.3404)
   }
-  ;
-
   newattr = xpct;
   return newattr;
 }
@@ -3404,8 +1622,6 @@ function plusattrtopct(newattr) {
   else if (x >= 1550) {
     xpct = Math.round((0.0238412 * x) + 46.3801)
   }
-  ;
-
   newattr = xpct;
   return newattr;
 }
@@ -3433,8 +1649,6 @@ function dubplusattrtopct(newattr) {
   else if (x >= 1800) {
     xpct = Math.round((0.0238412 * x) + 40.4198)
   }
-  ;
-
   newattr = xpct;
   return newattr;
 }
@@ -3624,11 +1838,9 @@ function guide() {
   if (perstrait[10] <= 60) {
     jobrate("Intimidator;", intim);
   }
-  ;
   if (perstrait[23] <= 75) {
     jobrate("Comedian;", comedy);
   }
-  ;
   jobrate("Wrestler;", armwork);
   jobrate("Dodger;", dodger);
   jobrate("Biter;", minbit);
@@ -3700,82 +1912,58 @@ function guide() {
     superb.splice(0, 0, subjpro + " bears the mien of a superb ");
     superb[(superb.length - 1)] = superb[(superb.length - 1)].replace(/;/g, ".");
   }
-  ;
   if (superb.length >= 3) {
     superb[(superb.length - 2)] = superb[(superb.length - 2)] + " and ";
   }
-  ;
-
   if (verygood.length >= 1) {
     verygood.splice(0, 0, subjpro + " has the potential to be a very good ");
     verygood[(verygood.length - 1)] = verygood[(verygood.length - 1)].replace(/;/g, ".");
   }
-  ;
   if (verygood.length >= 3) {
     verygood[(verygood.length - 2)] = verygood[(verygood.length - 2)] + " and ";
   }
-  ;
-
   if (good.length >= 1) {
     good.splice(0, 0, subjpro + " has the look of a good ");
     good[(good.length - 1)] = good[(good.length - 1)].replace(/;/g, ".");
   }
-  ;
   if (good.length >= 3) {
     good[(good.length - 2)] = good[(good.length - 2)] + " and ";
   }
-  ;
-
   if (highavg.length >= 1) {
     highavg.splice(0, 0, subjpro + " will be a little better than most as a ");
     highavg[(highavg.length - 1)] = highavg[(highavg.length - 1)].replace(/;/g, ".");
   }
-  ;
   if (highavg.length >= 3) {
     highavg[(highavg.length - 2)] = highavg[(highavg.length - 2)] + " and ";
   }
-  ;
-
   if (lowavg.length >= 1) {
     lowavg.splice(0, 0, subjpro + " comes across as a below average ");
     lowavg[(lowavg.length - 1)] = lowavg[(lowavg.length - 1)].replace(/;/g, ".");
   }
-  ;
   if (lowavg.length >= 3) {
     lowavg[(lowavg.length - 2)] = lowavg[(lowavg.length - 2)] + " and ";
   }
-  ;
-
   if (poor.length >= 1) {
     poor.splice(0, 0, subjpro + " will make a poor ");
     poor[(poor.length - 1)] = poor[(poor.length - 1)].replace(/;/g, ".");
   }
-  ;
   if (poor.length >= 3) {
     poor[(poor.length - 2)] = poor[(poor.length - 2)] + " and ";
   }
-  ;
-
   if (verypoor.length >= 1) {
     verypoor.splice(0, 0, subjpro + " seems like a very poor ");
     verypoor[(verypoor.length - 1)] = verypoor[(verypoor.length - 1)].replace(/;/g, ".");
   }
-  ;
   if (verypoor.length >= 3) {
     verypoor[(verypoor.length - 2)] = verypoor[(verypoor.length - 2)] + " and ";
   }
-  ;
-
   if (horrible.length >= 1) {
     horrible.splice(0, 0, subjpro + " would be horrible as a ");
     horrible[(horrible.length - 1)] = horrible[(horrible.length - 1)].replace(/;/g, ".");
   }
-  ;
   if (horrible.length >= 3) {
     horrible[(horrible.length - 2)] = horrible[(horrible.length - 2)] + " and ";
   }
-  ;
-
   if (document.getElementById("brightside").checked == true && superb.length + verygood.length + good.length + highavg
           .length < 20) {
     analysis.splice(0, 0, superb + " " + verygood + " " + good + " " + highavg + " " + lowavg);
@@ -4053,7 +2241,7 @@ And your gender? <input type="radio" name="gender" id="male" value="Male" checke
 
   <tr>
     <td valign="top">Thoughts and Preferences&nbsp;</td>
-    <td colspan="2"><input type="text" id="verbaleval" size="71" onKeyPress="return disableverbenter(event)"></td>
+    <td colspan="2"></td>
   </tr>
 
 </table>
