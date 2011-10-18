@@ -22,6 +22,8 @@
   <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(java.io@java_stub)" version="-1" />
   <import index="p2eo" modelUID="f:java_stub#ec18e679-bd6d-4441-a00b-ab06c2d44eec#org.apache.commons.io(net.dwarfguide.creature/org.apache.commons.io@java_stub)" version="-1" />
   <import index="k7g3" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" version="-1" />
+  <import index="lgzw" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util.regex(java.util.regex@java_stub)" version="-1" />
+  <import index="cm1o" modelUID="f:java_stub#cd2006f9-7fb7-4cd6-8983-2a54d8aa19d3#org.simpleframework.xml.stream(org.simpleframework.xml.stream@java_stub)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpf8" modelUID="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" version="2" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
@@ -34,8 +36,6 @@
   <import index="pjsg" modelUID="r:d8f85d2e-469e-4aba-a209-6a7cbbd34398(net.dwarfguide.creature.accessory)" version="-1" implicit="yes" />
   <import index="m373" modelUID="r:4095af4f-a097-4799-aaa9-03df087ddfa6(jetbrains.mps.baseLanguage.javadoc.structure)" version="5" implicit="yes" />
   <import index="tpib" modelUID="r:00000000-0000-4000-0000-011c8959057f(jetbrains.mps.baseLanguage.logging.structure)" version="0" implicit="yes" />
-  <import index="lgzw" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util.regex(java.util.regex@java_stub)" version="-1" implicit="yes" />
-  <import index="cm1o" modelUID="f:java_stub#cd2006f9-7fb7-4cd6-8983-2a54d8aa19d3#org.simpleframework.xml.stream(org.simpleframework.xml.stream@java_stub)" version="-1" implicit="yes" />
   <roots>
     <node type="tpf8.MappingConfiguration" typeId="tpf8.1095416546421" id="2413918680966875813">
       <property name="name" nameId="tpck.1169194664001" value="main" />
@@ -177,7 +177,7 @@
       <link role="applicableConcept" roleId="tpf8.1219952338328" targetNodeId="2ivj.3025991346593851837" resolveInfo="Trait" />
     </node>
     <node role="dropRootRule" roleId="tpf8.1219952894531" type="tpf8.DropRootRule" typeId="tpf8.1219952072943" id="5994105463846228946">
-      <link role="applicableConcept" roleId="tpf8.1219952338328" targetNodeId="2ivj.5994105463846119150" resolveInfo="ProfessionCategory" />
+      <link role="applicableConcept" roleId="tpf8.1219952338328" targetNodeId="2ivj.5994105463846119150" resolveInfo="LabourCategory" />
     </node>
     <node role="dropRootRule" roleId="tpf8.1219952894531" type="tpf8.DropRootRule" typeId="tpf8.1219952072943" id="5994105463846386817">
       <link role="applicableConcept" roleId="tpf8.1219952338328" targetNodeId="2ivj.7336574368822058574" resolveInfo="Skill" />

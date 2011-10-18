@@ -84,7 +84,7 @@
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.9062650802968998010" resolveInfo="LabourRef" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="5994105463846119153">
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.5994105463846119150" resolveInfo="ProfessionCategory" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2ivj.5994105463846119150" resolveInfo="LabourCategory" />
     </node>
   </roots>
   <root id="2413918680966836693">

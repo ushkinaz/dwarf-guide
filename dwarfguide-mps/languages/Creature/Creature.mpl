@@ -15,6 +15,9 @@
         <generator generatorUID="5f9babc9-8d5d-4825-8e61-17b241ee6272(jetbrains.mps.baseLanguage.collections#1151699677197)" />
         <generator generatorUID="a150150e-46ee-4c9e-b080-08d136e4eefb(jetbrains.mps.baseLanguage.tuples#1238919486295)" />
       </external-templates>
+      <dependencies>
+        <dependency reexport="false">cd2006f9-7fb7-4cd6-8983-2a54d8aa19d3(net.dwarfguide.creature#2413918680966875812)</dependency>
+      </dependencies>
       <usedDevKits>
         <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
       </usedDevKits>

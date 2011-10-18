@@ -144,7 +144,7 @@
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5994105463846119150">
-      <property name="name" nameId="tpck.1169194664001" value="ProfessionCategory" />
+      <property name="name" nameId="tpck.1169194664001" value="LabourCategory" />
       <property name="rootable" nameId="tpce.1096454100552" value="true" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
@@ -517,9 +517,9 @@
     </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5994105463846119151">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="professionRef" />
+      <property name="role" nameId="tpce.1071599776563" value="ref" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="2413918680966836691" resolveInfo="ProfessionRef" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="9062650802968998010" resolveInfo="LabourRef" />
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5994105463846119255">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="3025991346594277161" resolveInfo="HasName" />

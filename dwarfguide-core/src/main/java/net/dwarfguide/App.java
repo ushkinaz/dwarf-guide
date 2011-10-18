@@ -49,7 +49,7 @@ public class App {
   }
 
   public static void main(String[] args) {
-    final GuideModule module = new GuideModule("TestDwarves.xml");
+    final GuideModule module = new GuideModule("Dwarves.xml");
     Injector injector = Guice.createInjector(module);
     injector.getInstance(App.class).makeIt();
   }
