@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <title>
   Dwarven Guidance Counselor
@@ -16,66 +17,6 @@ var changelog = [""];
 var newbody = 0;
 var newsoul = 0;
 var newtrait = 0;
-
-function disableEnterKey(e) {
-  var key;
-  if (window.event) {
-    key = window.event.keyCode;
-  } //IE
-  else {
-    key = e.which;
-  }  //firefox
-
-  return (key != 13);
-}
-
-function disablebodyenter(e) {
-  var key;
-  if (window.event) {
-    key = window.event.keyCode;
-  } //IE
-  else {
-    key = e.which;
-  }  //firefox
-
-  if (key == 13) {
-    directbodysubmit();
-    document.getElementById("directbodynum").value = ""
-  }
-  return (key != 13);
-}
-
-function disablesoulenter(e) {
-  var key;
-  if (window.event) {
-    key = window.event.keyCode;
-  } //IE
-  else {
-    key = e.which;
-  }  //firefox
-
-  if (key == 13) {
-    directsoulsubmit();
-    document.getElementById("directsoulnum").value = ""
-  }
-  return (key != 13);
-}
-
-function disablepersenter(e) {
-  var key;
-  if (window.event) {
-    key = window.event.keyCode;
-  } //IE
-  else {
-    key = e.which;
-  }  //firefox
-
-  if (key == 13) {
-    directperssubmit();
-    document.getElementById("directpersnum").value = ""
-  }
-  return (key != 13);
-}
 
 var xmlDoc;
 var dwarfnames = [];
@@ -107,8 +48,7 @@ function xmlupdate() {
     dorfnum = ((xmlDoc.getElementsByTagName("Creatures")[0].childNodes.length - 1) / 2);
   }
   dorfnum = parseInt(dorfnum);
-  var i = 0;
-  for (i = 0; i < dorfnum; i++) {
+  for (var i = 0; i < dorfnum; i++) {
     try {
       dwarfnames[i] = xmlDoc.getElementsByTagName("Creature")[i].getElementsByTagName("Nickname")[0].childNodes[0]
               .nodeValue;
@@ -117,13 +57,12 @@ function xmlupdate() {
       dwarfnames[i] = xmlDoc.getElementsByTagName("Creature")[i].getElementsByTagName("Name")[0].childNodes[0]
               .nodeValue;
     }
-    var x = document.getElementById("dwarflist");
-    var option = document.createElement("option");
+    x = document.getElementById("dwarflist");
+    option = document.createElement("option");
     option.text = dwarfnames[i];
     x.options.add(option, x.options.length);
   }
 
-  var i = 0;
   for (i = 0; i < dorfnum; i++) {
     try {
       dwarfnames[i] = xmlDoc.getElementsByTagName("Creature")[i].getElementsByTagName("Nickname")[0].childNodes[0]
@@ -197,7 +136,7 @@ function xmlprocess() {
 
   perstrait = [50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,55,50,50,50,50,50,50,50,55,50,50,45];
 
-  i = 0;
+  var i = 0;
   for (i = 0; i < bodyattr.length; i++) {
     document.getElementById("bodyattr" + i).innerHTML = bodyattr[i];
   }
@@ -222,13 +161,14 @@ function xmlprocess() {
   document.getElementById("dwarfname").value = dwarfnames[pick];
   printname();
 
+  var gender;
   if (xmlDoc.getElementsByTagName("Sex")[pick].childNodes[0].nodeValue == "Male") {
     document.getElementById("male").checked = true;
-    var gender = "Male";
+    gender = "Male";
   }
   else if (xmlDoc.getElementsByTagName("Sex")[pick].childNodes[0].nodeValue == "Female") {
     document.getElementById("female").checked = true;
-    var gender = "Female";
+    gender = "Female";
   }
   printgender(gender);
 
@@ -264,7 +204,7 @@ function xmlprocess() {
   }
 
   var traitsperdorf = [];
-
+  var dorftraitlist = [];
 
   i = 0;
   for (i = 0; i < dorfnum; i++) {
@@ -291,7 +231,7 @@ function xmlprocess() {
 
 function directbodysubmit() {
   printname();
-  printgender();
+  printgender(null);
 
   var pick = document.getElementById("directbody").selectedIndex;
   bodyattr[pick] = document.getElementById("directbodynum").value;
@@ -320,7 +260,7 @@ function directbodysubmit() {
 
 function directsoulsubmit() {
   printname();
-  printgender();
+  printgender(null);
   var pick = document.getElementById("directsoul").selectedIndex;
   soulattr[pick] = document.getElementById("directsoulnum").value;
   soulattr[pick] = parseInt(soulattr[pick], 10);
@@ -348,7 +288,7 @@ function directsoulsubmit() {
 
 function directperssubmit() {
   printname();
-  printgender();
+  printgender(null);
   var pick = document.getElementById("directpers").selectedIndex;
   perstrait[pick] = document.getElementById("directpersnum").value;
   perstrait[pick] = parseInt(perstrait[pick], 10);
@@ -476,7 +416,7 @@ function bestdorf() {
     return avgattrtopct(skilleval[18]);
   }
 
-  i = 0;
+  var i = 0;
   for (i = 0; i < dorfnum; i++) {
     dorfbodyattrs[0] = xmlDoc.getElementsByTagName("Strength")[i].childNodes[0].nodeValue;
     dorfbodyattrs[1] = xmlDoc.getElementsByTagName("Agility")[i].childNodes[0].nodeValue;
@@ -502,6 +442,7 @@ function bestdorf() {
     dorfallattrs[i] = dorfbodyattrs.concat(dorfsoulattrs);
   }
 
+  var x;
   if (pick == 0) {
     document.getElementById("printdwarf2").innerHTML = "\u263C " + "Your Embark";
     document.getElementById("printdwarfgender2").innerHTML = "\u263C";
@@ -539,13 +480,15 @@ function bestdorf() {
     return;
   }
 
+  var traitsperdorf;
+
 // LEADER/MANAGER (not low straightforwardness, not low cooperation, organizer, socializer)
   i = 0;
   for (i = 0; i < dorfnum; i++) {
 
     if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
             .selected == true) {
-      var traitsperdorf = [];
+      traitsperdorf = [];
       var traitList = [];
       traitsperdorf[i] = xmlDoc.getElementsByTagName("Traits")[i].childNodes.length;
       if (microsoft == "yes") {
@@ -1222,8 +1165,8 @@ function bestdorf() {
 
     if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
             .selected == true) {
-      var traitsperdorf = [];
-      var dorftraitlist = [];
+      traitsperdorf = [];
+      dorftraitlist = [];
       traitsperdorf[i] = xmlDoc.getElementsByTagName("Traits")[i].childNodes.length;
       if (microsoft == "yes") {
       }
@@ -1271,8 +1214,8 @@ function bestdorf() {
 
     if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
             .selected == true) {
-      var traitsperdorf = [];
-      var dorftraitlist = [];
+      traitsperdorf = [];
+      dorftraitlist = [];
       traitsperdorf[i] = xmlDoc.getElementsByTagName("Traits")[i].childNodes.length;
       if (microsoft == "yes") {
       }
@@ -1342,8 +1285,8 @@ function bestdorf() {
 
     if (document.getElementById("dorfsfrom")[0].selected == true || document.getElementById("dorfsfrom")[i + 1]
             .selected == true) {
-      var traitsperdorf = [];
-      var dorftraitlist = [];
+      traitsperdorf = [];
+      dorftraitlist = [];
       traitsperdorf[i] = xmlDoc.getElementsByTagName("Traits")[i].childNodes.length;
       if (microsoft == "yes") {
       }
@@ -2042,16 +1985,8 @@ function guide() {
 </script>
 </head>
 <body>
-Welcome to the Dwarven Guidance Counselor. I'll be offering you advice today. Shall I color-code your evaluation? <input
-        type="checkbox" id="colorcode" checked><br>
-What's your name, please? <input type="text" id="dwarfname" value="Urist McAverage"
-                                 onKeyPress="return disableEnterKey(event)" onkeyup="printname()">
-And your gender? <input type="radio" name="gender" id="male" value="Male" checked="checked"
-                        onclick="printgender(this.value)">Male</input> <input type="radio" name="gender" id="female"
-                                                                              value="Female"
-                                                                              onclick="printgender(this.value)">Female</input>
-&nbsp;Are we looking on the bright side today? <input type="checkbox" id="brightside"><br>
-
+Shall I color-code your evaluation? <input type="checkbox" id="colorcode" checked><br>
+Are we looking on the bright side today? <input type="checkbox" id="brightside"><br>
 
 <p>
 <table>
@@ -2149,93 +2084,13 @@ And your gender? <input type="radio" name="gender" id="male" value="Male" checke
     </td>
     <td valign="top" rowspan="5">Find Best Among:
       <p>
-        <select id="dorfsfrom" multiple="true" size="6" onchange="bestdorf()">
+        <select id="dorfsfrom" multiple="multiple" size="6" onchange="bestdorf()">
           <option>All Dwarves</option>
         </select>
     </td>
     <td valign="top" rowspan="5">
       Last 5 updates (most recent first):<p>
       <a id="changelogoutput"> </a>
-    </td>
-  </tr>
-
-  <tr>
-    <td valign="top">Body Attributes&nbsp;</td>
-    <td><input type="text" id="directbodynum" maxlength="4" onKeyPress="return disablebodyenter(event)"></td>
-    <td>
-      <select id="directbody">
-        <option>Strength</option>
-        <option>Agility</option>
-        <option>Toughness</option>
-        <option>Endurance</option>
-        <option>Disease Resistance</option>
-        <option>Recuperation</option>
-      </select>
-      <button type="button" onclick="directbodysubmit()">Update</button>
-    </td>
-  </tr>
-
-  <tr>
-    <td valign="top">Soul Attributes&nbsp;</td>
-    <td><input type="text" id="directsoulnum" maxlength="4" onKeyPress="return disablesoulenter(event)"></td>
-    <td>
-      <select id="directsoul">
-        <option>Analytical Ability</option>
-        <option>Memory</option>
-        <option>Creativity</option>
-        <option>Intuition</option>
-        <option>Focus</option>
-        <option>Willpower</option>
-        <option>Patience</option>
-        <option>Spatial Sense</option>
-        <option>Kinesthetic Sense</option>
-        <option>Linguistic Ability</option>
-        <option>Musicality</option>
-        <option>Empathy</option>
-        <option>Social Awareness</option>
-      </select>
-      <button type="button" onclick="directsoulsubmit()">Update</button>
-    </td>
-  </tr>
-
-  <tr>
-    <td valign="top">Personality Traits&nbsp;</td>
-    <td><input type="text" id="directpersnum" maxlength="3" onKeyPress="return disablepersenter(event)"></td>
-    <td>
-      <select id="directpers">
-        <option>Achievement Striving (Excellence)</option>
-        <option>Activity Level (Activeness)</option>
-        <option>Adventurousness (Adventure)</option>
-        <option>Altruism (Helpfulness)</option>
-        <option>Anger (Rage)</option>
-        <option>Anxiety (Nervousness)</option>
-        <option>Artistic Interest (Artistic)</option>
-        <option>Assertiveness (Leadership)</option>
-        <option>Cautiousness</option>
-        <option>Cheerfulness (Optimism)</option>
-        <option>Cooperation (Compromising)</option>
-        <option>Depression</option>
-        <option>Dutifulness (Lawfulness)</option>
-        <option>Emotionality (Emotion)</option>
-        <option>Excitement Seeking (Thrillseeking)</option>
-        <option>Friendliness (Friendly)</option>
-        <option>Gregariousness (Company)</option>
-        <option>Imagination</option>
-        <option>Immoderation (Urge)</option>
-        <option>Intellectual Curiosity (Thinking)</option>
-        <option>Liberalism (Rebelliousness)</option>
-        <option>Modesty</option>
-        <option>Orderliness (Organization)</option>
-        <option>Self-Consciousness (Neurosis)</option>
-        <option>Self-Discipline (Perseverance)</option>
-        <option>Self-Efficacy (Confidence)</option>
-        <option>Straightforwardness (Honesty)</option>
-        <option>Sympathy (Compassion)</option>
-        <option>Trust (Trusting)</option>
-        <option>Vulnerability (Stress)</option>
-      </select>
-      <button type="button" onclick="directperssubmit()">Update</button>
-      &nbsp;
     </td>
   </tr>
 
