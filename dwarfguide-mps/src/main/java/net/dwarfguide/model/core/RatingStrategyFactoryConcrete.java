@@ -14,6 +14,7 @@ public class RatingStrategyFactoryConcrete implements RatingStrategyFactory {
     MapSequence.fromMap(strategies).put(new RaceProfession(RaceEnum.DWARF, ProfessionEnum.WOODCRAFTER), new RatingWoodcrafterDwarf());
     MapSequence.fromMap(strategies).put(new RaceProfession(RaceEnum.GOBLIN, ProfessionEnum.ADMINISTRATOR), new RatingAdministratorGoblin());
     MapSequence.fromMap(strategies).put(new RaceProfession(RaceEnum.DWARF, ProfessionEnum.AXEMAN), new RatingAxemanDwarf());
+    MapSequence.fromMap(strategies).put(new RaceProfession(RaceEnum.DWARF, ProfessionEnum.ALCHEMIST), new RatingAlchemistDwarf());
   }
 
   public RatingStrategy getStrategy(RaceEnum raceEnum, ProfessionEnum professionEnum) {

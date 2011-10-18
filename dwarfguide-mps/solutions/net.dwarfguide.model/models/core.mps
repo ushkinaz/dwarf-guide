@@ -3322,6 +3322,7 @@
       <property name="virtualPackage" nameId="tpck.1193676396447" value="professions.category" />
       <property name="name" nameId="tpck.1169194664001" value="Military" />
     </node>
+    <node type="2ivj.AttributesBasedStrategy" typeId="2ivj.6240134291333200471" id="6240134291333203356" />
   </roots>
   <root id="1147483649" />
   <root id="1147483650" />
@@ -4702,5 +4703,19 @@
   <root id="5994105463846200607" />
   <root id="5994105463846200608" />
   <root id="5994105463846200609" />
+  <root id="6240134291333203356">
+    <node role="raceRef" roleId="2ivj.3848777903716151684" type="2ivj.RaceRef" typeId="2ivj.2455624152132549373" id="6240134291333203359">
+      <link role="race" roleId="2ivj.2455624152132549374" targetNodeId="2455624152132595976" resolveInfo="Dwarf" />
+    </node>
+    <node role="professionRef" roleId="2ivj.3848777903716151686" type="2ivj.ProfessionRef" typeId="2ivj.2413918680966836691" id="6240134291333203360">
+      <link role="profession" roleId="2ivj.2413918680966836692" targetNodeId="1147484153" resolveInfo="Alchemist" />
+    </node>
+    <node role="stopExpression" roleId="2ivj.3848777903716482831" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="6240134291333203361">
+      <property name="value" nameId="tpee.1068580123138" value="false" />
+    </node>
+    <node role="ratingFormula" roleId="2ivj.3848777903716482832" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="6240134291333203368">
+      <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147484021" resolveInfo="Appraisal" />
+    </node>
+  </root>
 </model>
 
