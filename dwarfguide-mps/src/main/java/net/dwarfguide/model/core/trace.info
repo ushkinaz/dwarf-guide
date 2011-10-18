@@ -83,7 +83,7 @@
     <nodeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="11" startPosition="30" endLine="12" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="12" startPosition="55" endLine="13" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="13" startPosition="33" endLine="14" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="17" startPosition="43" endLine="18" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="17" startPosition="43" endLine="18" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="21" startPosition="48" endLine="22" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="25" startPosition="34" endLine="26" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="29" startPosition="45" endLine="30" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -100,7 +100,7 @@
     <nodeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="40" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getProfession#()Lnet/dwarfguide/model/core/ProfessionEnum;" />
     <nodeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="44" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setProfession#(Lnet/dwarfguide/model/core/ProfessionEnum;)V" />
     <nodeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="10" startPosition="0" endLine="15" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="RatingAxemanDwarf#()V" />
-    <scopeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="17" startPosition="43" endLine="18" endPosition="96" />
+    <scopeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="17" startPosition="43" endLine="18" endPosition="64" />
     <scopeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="21" startPosition="48" endLine="22" endPosition="44" />
     <scopeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="25" startPosition="34" endLine="26" endPosition="30" />
     <scopeInfo nodeId="1778400223746510448" fileName="RatingAxemanDwarf.java" startLine="29" startPosition="45" endLine="30" endPosition="31" />

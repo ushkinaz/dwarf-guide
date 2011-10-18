@@ -15,7 +15,7 @@ public class RatingAxemanDwarf implements RatingStrategy {
   }
 
   public int getRating(Creature creature) {
-    return creature.getAttrStrength() + creature.getAttrToughness() + creature.getSkillAmbush();
+    return creature.getAttrStrength() - DwarfStats.AVG_STRENGTH;
   }
 
   public boolean shouldStop(Creature creature) {

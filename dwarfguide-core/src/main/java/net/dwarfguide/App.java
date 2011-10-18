@@ -41,8 +41,9 @@ public class App {
 
   public void makeIt() {
     List<Creature> creatures = creatureLoader.loadCreatures();
-    RatingStrategy ratingStrategy = strategyFactory.getStrategy(RaceEnum.DWARF, ProfessionEnum.WOODCUTTER);
+    RatingStrategy ratingStrategy;
     for (Creature creature: creatures){
+      ratingStrategy = strategyFactory.getStrategy(creature.getRace(), ProfessionEnum.AXEMAN);
       int rating = ratingStrategy.getRating(creature);
       LOGGER.info(creature + " : " + rating);
     }

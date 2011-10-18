@@ -4670,17 +4670,15 @@
         <property name="value" nameId="tpee.1068580320021" value="30" />
       </node>
     </node>
-    <node role="ratingFormula" roleId="2ivj.3848777903716482832" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="1778400223746510463">
-      <node role="rightExpression" roleId="tpee.1081773367579" type="2ivj.SkillRef" typeId="2ivj.3169390138954787311" id="1778400223746510466">
-        <link role="skill" roleId="2ivj.3169390138954787312" targetNodeId="1147484003" resolveInfo="Ambush" />
-      </node>
-      <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="1778400223746510459">
-        <node role="leftExpression" roleId="tpee.1081773367580" type="2ivj.AttributeRef" typeId="2ivj.3169390138954787329" id="1778400223746510458">
+    <node role="ratingFormula" roleId="2ivj.3848777903716482832" type="tpee.MinusExpression" typeId="tpee.1068581242869" id="2931072954840951523">
+      <node role="rightExpression" roleId="tpee.1081773367579" type="2ivj.Statistic" typeId="2ivj.297736238471143922" id="2931072954840951526">
+        <property name="statisticType" nameId="2ivj.297736238471365654" value="average" />
+        <node role="attributeRef" roleId="2ivj.297736238471143923" type="2ivj.AttributeRef" typeId="2ivj.3169390138954787329" id="2931072954840951528">
           <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747800" resolveInfo="Strength" />
         </node>
-        <node role="rightExpression" roleId="tpee.1081773367579" type="2ivj.AttributeRef" typeId="2ivj.3169390138954787329" id="1778400223746510462">
-          <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747802" resolveInfo="Toughness" />
-        </node>
+      </node>
+      <node role="leftExpression" roleId="tpee.1081773367580" type="2ivj.AttributeRef" typeId="2ivj.3169390138954787329" id="2931072954840951522">
+        <link role="attribute" roleId="2ivj.3169390138954787330" targetNodeId="8701932881020747800" resolveInfo="Strength" />
       </node>
     </node>
   </root>
