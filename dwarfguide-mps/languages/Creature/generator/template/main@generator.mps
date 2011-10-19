@@ -10,6 +10,7 @@
   <language namespace="a247e09e-2435-45ba-b8d2-07e93feba96a(jetbrains.mps.baseLanguage.tuples)" />
   <language namespace="f2801650-65d5-424e-bb1b-463a8781b786(jetbrains.mps.baseLanguage.javadoc)" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
+  <language namespace="d965f506-a0c0-43c2-871a-b97ce8f6c751(baseLanguage.sugar)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="2ivj" modelUID="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(net.dwarfguide.creature.structure)" version="0" />
   <import index="12f6" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.annotation(JDK/javax.annotation@java_stub)" version="-1" />
@@ -37,6 +38,7 @@
   <import index="pjsg" modelUID="r:d8f85d2e-469e-4aba-a209-6a7cbbd34398(net.dwarfguide.creature.accessory)" version="-1" implicit="yes" />
   <import index="m373" modelUID="r:4095af4f-a097-4799-aaa9-03df087ddfa6(jetbrains.mps.baseLanguage.javadoc.structure)" version="5" implicit="yes" />
   <import index="tpib" modelUID="r:00000000-0000-4000-0000-011c8959057f(jetbrains.mps.baseLanguage.logging.structure)" version="0" implicit="yes" />
+  <import index="atci" modelUID="r:455e9449-2e48-48a9-93ac-e0c6a3819e34(baseLanguage.sugar.structure)" version="1" implicit="yes" />
   <roots>
     <node type="tpf8.MappingConfiguration" typeId="tpf8.1095416546421" id="2413918680966875813">
       <property name="name" nameId="tpck.1169194664001" value="main" />
@@ -3392,21 +3394,26 @@
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.StringType" typeId="tpee.1225271177708" id="5030881626311029355" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="5030881626311029307" />
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="5030881626311029308">
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5030881626311029340">
-          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5030881626311029350">
-            <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5030881626311029343">
-              <node role="operand" roleId="tpee.1197027771414" type="tpee.ClassifierClassExpression" typeId="tpee.1116615150612" id="5030881626311029342">
-                <link role="classifier" roleId="tpee.1116615189566" targetNodeId="5030881626311029298" resolveInfo="Application" />
-              </node>
-              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5030881626311029347">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~Class%dgetAnnotation(java%dlang%dClass)%cjava%dlang%dannotation%dAnnotation" resolveInfo="getAnnotation" />
-                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.ClassifierClassExpression" typeId="tpee.1116615150612" id="5030881626311029349">
-                  <link role="classifier" roleId="tpee.1116615189566" targetNodeId="12f6.~Generated" resolveInfo="Generated" />
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="959314896742250954">
+          <node role="expression" roleId="tpee.1068580123156" type="atci.StringFormat" typeId="atci.7730107903695361636" id="959314896742250956">
+            <node role="parameters" roleId="atci.7730107903695472152" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5030881626311029350">
+              <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5030881626311029343">
+                <node role="operand" roleId="tpee.1197027771414" type="tpee.ClassifierClassExpression" typeId="tpee.1116615150612" id="5030881626311029342">
+                  <link role="classifier" roleId="tpee.1116615189566" targetNodeId="5030881626311029298" resolveInfo="Application" />
+                </node>
+                <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5030881626311029347">
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~Class%dgetAnnotation(java%dlang%dClass)%cjava%dlang%dannotation%dAnnotation" resolveInfo="getAnnotation" />
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.ClassifierClassExpression" typeId="tpee.1116615150612" id="5030881626311029349">
+                    <link role="classifier" roleId="tpee.1116615189566" targetNodeId="12f6.~Generated" resolveInfo="Generated" />
+                  </node>
                 </node>
               </node>
+              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5030881626311029354">
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="12f6.~Generated%ddate()" resolveInfo="date" />
+              </node>
             </node>
-            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5030881626311029354">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="12f6.~Generated%ddate()" resolveInfo="date" />
+            <node role="stringFormat" roleId="atci.7730107903695439071" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="959314896742250955">
+              <property name="value" nameId="tpee.1070475926801" value="Generated on %s" />
             </node>
           </node>
         </node>

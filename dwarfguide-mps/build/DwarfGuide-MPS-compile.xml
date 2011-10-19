@@ -118,9 +118,13 @@
     <path path="${mps_home}/lib/commons-logging-1.1.jar" />
     <path path="${mps_home}/lib/guava-r06.jar" />
     <path path="${base_dir}/lib/guice.jar" />
+    <path path="${base_dir}/lib/javax.inject.jar" />
+    <path path="${base_dir}/lib/jcl-over-slf4j.jar" />
     <path path="${base_dir}/lib/jsr250-api.jar" />
     <path path="${mps_home}/lib/junit-4.8.2.jar" />
     <path path="${base_dir}/lib/simple-xml.jar" />
+    <path path="${base_dir}/lib/slf4j-api.jar" />
+    <path path="${base_dir}/lib/slf4j-log4j12.jar" />
     <path path="${mps_home}/lib/tools.jar" />
     <path refid="common.classpath" />
   </path>
