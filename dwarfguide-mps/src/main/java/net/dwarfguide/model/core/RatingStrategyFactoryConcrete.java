@@ -12,7 +12,6 @@ public class RatingStrategyFactoryConcrete implements RatingStrategyFactory {
   public RatingStrategyFactoryConcrete() {
     strategies = MapSequence.fromMap(new HashMap<RaceProfession, RatingStrategy>());
     MapSequence.fromMap(strategies).put(new RaceProfession(RaceEnum.DWARF, ProfessionEnum.MINER), new RatingMinerDwarf());
-    MapSequence.fromMap(strategies).put(new RaceProfession(RaceEnum.DWARF, ProfessionEnum.MINER), new AttributeRatingMinerDwarf());
   }
 
   public RatingStrategy getStrategy(RaceEnum raceEnum, ProfessionEnum professionEnum) {
@@ -23,10 +22,6 @@ public class RatingStrategyFactoryConcrete implements RatingStrategyFactory {
     return new RatingStrategy() {
       public int getRating(Creature creature) {
         return 0;
-      }
-
-      public boolean shouldStop(Creature creature) {
-        return false;
       }
     };
   }

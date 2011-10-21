@@ -120,7 +120,7 @@
       <property name="virtualPackage" nameId="tpck.1193676396447" value="interfaces" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3848777903716482830">
-      <property name="name" nameId="tpck.1169194664001" value="RatingStrategy" />
+      <property name="name" nameId="tpck.1169194664001" value="FormulaRatingStrategy" />
       <property name="rootable" nameId="tpce.1096454100552" value="true" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="strategy" />
       <property name="iconPath" nameId="tpce.1160488491229" value="${DWARVEN_PATH}/dwarfguide-resources/icons/ratingstrategy.png" />
@@ -152,7 +152,11 @@
       <property name="virtualPackage" nameId="tpck.1193676396447" value="strategy" />
       <property name="name" nameId="tpck.1169194664001" value="AttributesBasedStrategy" />
       <property name="rootable" nameId="tpce.1096454100552" value="true" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="3848777903716482830" resolveInfo="RatingStrategy" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    </node>
+    <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="957305663110941283">
+      <property name="name" nameId="tpck.1169194664001" value="RatingStrategy" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="strategy" />
     </node>
   </roots>
   <root id="7336574368822048409">
@@ -434,7 +438,7 @@
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3848777903716151684">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="raceRef" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="2455624152132549373" resolveInfo="RaceRef" />
     </node>
   </root>
@@ -442,15 +446,13 @@
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3848777903716151686">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="professionRef" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="2413918680966836691" resolveInfo="ProfessionRef" />
     </node>
   </root>
   <root id="3848777903716482830">
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3848777903716482831">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="stopExpression" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="957305663110941289">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="957305663110941283" resolveInfo="RatingStrategy" />
     </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3848777903716482832">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -464,12 +466,6 @@
     <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="3848777903716482834">
       <property name="value" nameId="tpce.1105725733873" value="strategy" />
       <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="3848777903716482835">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="3848777903716151683" resolveInfo="HasRaceContraint" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="3848777903716482836">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="3848777903716151685" resolveInfo="HasProfessionConstraint" />
     </node>
   </root>
   <root id="297736238471143922">
@@ -533,6 +529,17 @@
     <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="6240134291333236934">
       <property name="value" nameId="tpce.1105725733873" value="rating based on related attributes" />
       <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473914776" resolveInfo="shortDescription" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="957305663110941290">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="957305663110941283" resolveInfo="RatingStrategy" />
+    </node>
+  </root>
+  <root id="957305663110941283">
+    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="957305663110941285">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="3848777903716151683" resolveInfo="HasRaceContraint" />
+    </node>
+    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="957305663110941287">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="3848777903716151685" resolveInfo="HasProfessionConstraint" />
     </node>
   </root>
 </model>

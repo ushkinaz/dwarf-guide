@@ -5,5 +5,4 @@ package net.dwarfguide.model.core;
 
 public interface RatingStrategy {
   public int getRating(Creature creature);
-  public boolean shouldStop(Creature creature);
 }
