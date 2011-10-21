@@ -28,6 +28,20 @@
     </projectModules>
     <genConfs />
   </component>
+  <component name="ProjectLibraryManager">
+    <option name="libraries">
+      <map>
+        <entry key="baseLanguage.sugar">
+          <value>
+            <Library>
+              <option name="name" value="baseLanguage.sugar" />
+              <option name="path" value="${MPS_LIBS}/baseLang-sugar" />
+            </Library>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="ProjectModuleManager">
     <modules />
   </component>
