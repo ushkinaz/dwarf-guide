@@ -182,6 +182,9 @@
     <node role="dropRootRule" roleId="tpf8.1219952894531" type="tpf8.DropRootRule" typeId="tpf8.1219952072943" id="6143566370761667927">
       <link role="applicableConcept" roleId="tpf8.1219952338328" targetNodeId="2ivj.7336574368822058574" resolveInfo="Skill" />
     </node>
+    <node role="dropRootRule" roleId="tpf8.1219952894531" type="tpf8.DropRootRule" typeId="tpf8.1219952072943" id="8822866992754445668">
+      <link role="applicableConcept" roleId="tpf8.1219952338328" targetNodeId="2ivj.2935713650494001850" resolveInfo="Attribute" />
+    </node>
     <node role="dropRootRule" roleId="tpf8.1219952894531" type="tpf8.DropRootRule" typeId="tpf8.1219952072943" id="6143566370761714639">
       <link role="applicableConcept" roleId="tpf8.1219952338328" targetNodeId="2ivj.3025991346594277152" resolveInfo="Profession" />
     </node>
@@ -191,8 +194,14 @@
     <node role="dropRootRule" roleId="tpf8.1219952894531" type="tpf8.DropRootRule" typeId="tpf8.1219952072943" id="5994105463846228946">
       <link role="applicableConcept" roleId="tpf8.1219952338328" targetNodeId="2ivj.5994105463846119150" resolveInfo="LabourCategory" />
     </node>
+    <node role="dropRootRule" roleId="tpf8.1219952894531" type="tpf8.DropRootRule" typeId="tpf8.1219952072943" id="8822866992754462381">
+      <link role="applicableConcept" roleId="tpf8.1219952338328" targetNodeId="2ivj.3025991346594277173" resolveInfo="Labour" />
+    </node>
     <node role="dropRootRule" roleId="tpf8.1219952894531" type="tpf8.DropRootRule" typeId="tpf8.1219952072943" id="5994105463846386817">
       <link role="applicableConcept" roleId="tpf8.1219952338328" targetNodeId="2ivj.7336574368822058574" resolveInfo="Skill" />
+    </node>
+    <node role="dropRootRule" roleId="tpf8.1219952894531" type="tpf8.DropRootRule" typeId="tpf8.1219952072943" id="8822866992754428955">
+      <link role="applicableConcept" roleId="tpf8.1219952338328" targetNodeId="2ivj.3025991346594277158" resolveInfo="Job" />
     </node>
     <node role="mappingLabel" roleId="tpf8.1200911492601" type="tpf8.MappingLabelDeclaration" typeId="tpf8.1200911316486" id="3848777903716024833">
       <property name="name" nameId="tpck.1169194664001" value="RaceEnumLabel" />
