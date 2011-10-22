@@ -16,7 +16,7 @@
   <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895903ac(jetbrains.mps.baseLanguageInternal.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590580(jetbrains.mps.baseLanguage.logging.generator.baseLanguage.template.main@generator)" />
-  <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" hash="-amrw9srcii3z3sskj9gmjdy0p9iiclb" />
+  <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" hash="-1r4fk5xzw0e4djzvv96cqlm90a7dbcz" />
   <dep model="r:1ed15f01-bfff-4415-ad99-ca4fdf487cf5(baseLanguage.sugar.generator.template.generator.template.main@generator)" />
   <dep model="r:309aeee7-bee8-445c-b31d-35928d1da75f(jetbrains.mps.baseLanguage.tuples.structure)" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
@@ -350,895 +350,895 @@
     <file name="XMLFile.java" />
   </common>
   <source id="1147483649" name="Mining" hash="-cjx2tcu03mraxujawnv6eq1xz9ejk6s">
-    <file name="Mining" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483650" name="Stone Hauling" hash="5vn7ss6jsdv0ztc1qzbfgqnsv1ca4fz">
-    <file name="Stone Hauling" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483651" name="Wood Hauling" hash="-2scekk989rw4ja7kyqf5ax1ou5b9zts">
-    <file name="Wood Hauling" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483652" name="Burial" hash="-9l7a14y6smewvb8leulhfeyn1bomaea">
-    <file name="Burial" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483653" name="Food Hauling" hash="-elmmeuftufwkc7bpqfu40o6mwyfgyzs">
-    <file name="Food Hauling" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483654" name="Refuse Hauling" hash="-4npfjii8yj2lzodm2nypfep3hw9s0m4">
-    <file name="Refuse Hauling" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483655" name="Item Hauling" hash="-ds5xwn3hc7g5pjr7sxiv7gaczvr9ffj">
-    <file name="Item Hauling" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483656" name="Furniture Hauling" hash="7ewzz4cawvyac86noikx8pqftgfnc29">
-    <file name="Furniture Hauling" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483657" name="Animal Hauling" hash="-w0j123ov6uds9a63j9m92j51kfw6a0">
-    <file name="Animal Hauling" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483658" name="Cleaning" hash="-1jlt9iz9dbsm4u1oej4xycxgakc17yd">
-    <file name="Cleaning" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483659" name="Wood Cutting" hash="b37qyamh2xu1nk6dn98tqiji8yoi8re">
-    <file name="Wood Cutting" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483660" name="Carpentry" hash="-8axmvsw2toiuux8edkv36ir6w285wt2">
-    <file name="Carpentry" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483661" name="Stone Detailing" hash="-58vpyxvgjecb9qtgwfps7dw3q0bwhva">
-    <file name="Stone Detailing" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483662" name="Masonry" hash="cqsteim9rgxkftk3adlmlz9woudevdj">
-    <file name="Masonry" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483663" name="Architecture" hash="cd79f6fq4oir89jkdgf36t9brvkcvpr">
-    <file name="Architecture" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483664" name="Animal Training" hash="7bl4cyrm39ey2n9dft83vhlx246reqx">
-    <file name="Animal Training" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483665" name="Animal Care" hash="-ayis8jxm6yf0ji417c4ys4rpcmpkl8v">
-    <file name="Animal Care" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483666" name="Diagnosis" hash="5tmniwg8ofllc3w51rr0853h04yngfd">
-    <file name="Diagnosis" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483667" name="Surgery" hash="23sju14t57s4um3ukv3ejbgby4r9buy">
-    <file name="Surgery" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483668" name="Setting Bones" hash="-2sfxuplco4cjtml5ly2yiww65oopxby">
-    <file name="Setting Bones" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483669" name="Suturing" hash="9y1by4z3si3qt6yvs59s6f7jrve0des">
-    <file name="Suturing" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483670" name="Dressing Wounds" hash="eb5sb4caoijqac68wegpmlxm78cx05w">
-    <file name="Dressing Wounds" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483671" name="Feed Patients/Prisoners" hash="-1y0s6pz0btgsmee7jc5a09s0l3o12is">
-    <file name="Feed Patients/Prisoners" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483672" name="Recovering Wounded" hash="-1oq4qob8drvvq3tjywwc7bwukyh0eza">
-    <file name="Recovering Wounded" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483673" name="Butchery" hash="9qq7lpqlndrfgubmm1yrwactlgi3n1x">
-    <file name="Butchery" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483674" name="Trapping" hash="-p9l6tp69iofecluu60bt49bsnklvna">
-    <file name="Trapping" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483675" name="Small Animal Dissection" hash="-5orvf1k4h5wz6cge692xwy17hov5hqc">
-    <file name="Small Animal Dissection" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483676" name="Leatherworking" hash="-moa860r91z1gyfbv05zvhiu3bya9us">
-    <file name="Leatherworking" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483677" name="Tanning" hash="ex9n47ron3wv86b5c5y209xtew4y84q">
-    <file name="Tanning" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483678" name="Brewing" hash="-2qkgje0te0xotcgr4mz3p8atvhlwem4">
-    <file name="Brewing" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483679" name="Alchemy" hash="1sf1ius1i9mh3o2g7yn1znsdaa8xgh3">
-    <file name="Alchemy" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483680" name="Soap Maker" hash="87te0mo1uku9r69dbixsew1a5anrzru">
-    <file name="Soap Maker" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483681" name="Weaving" hash="166tf70dsijlhl6uly102ka34cyd55">
-    <file name="Weaving" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483682" name="Clothesmaking" hash="-5wscqm4jyd0xhcbcg6imzmqy4q7u97g">
-    <file name="Clothesmaking" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483683" name="Milling" hash="-9dbxltglfn9qy7ovxutj5y95aw7jnnw">
-    <file name="Milling" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483684" name="Plant Processing" hash="cqm97w53psgsn9nwaugwjb6udbm2wl5">
-    <file name="Plant Processing" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483685" name="Cheese Making" hash="57wd8d942yqjz47ap5nkrckcs3trmvq">
-    <file name="Cheese Making" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483686" name="Milking" hash="-bo5d0ptlix4k3k8dwhc483or34buhh6">
-    <file name="Milking" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483687" name="Cooking" hash="acp7p0cuq9panie9f0hv4vfch9gely4">
-    <file name="Cooking" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483688" name="Farming (Fields)" hash="-5bz4b40r12jaba2woi5zig10htp6dcf">
-    <file name="Farming (Fields)" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483689" name="Plant Gathering" hash="exlr59l4r8xjxsh37y3ixz5g9zqodll">
-    <file name="Plant Gathering" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483690" name="Fishing" hash="-ag43nk8mlbpjr1tbotehbsrhn1i8xz2">
-    <file name="Fishing" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483691" name="Fish Cleaning" hash="-dzwvjnp7hr7elm8f8gallfp0utwe8vg">
-    <file name="Fish Cleaning" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483692" name="Fish Dissection" hash="9htqxtu8cr62y7u2uui2y2fs41rurwt">
-    <file name="Fish Dissection" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483693" name="Hunting" hash="-28wrdsf6qi1xmf8ktm95gr90ovuj7qi">
-    <file name="Hunting" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483694" name="Furnace Operating" hash="72umyg26j9l5tph2cj1undddcvupx21">
-    <file name="Furnace Operating" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483695" name="Weaponsmithing" hash="-85fbzz24u5275vfch4vbz4zsookp8yc">
-    <file name="Weaponsmithing" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483696" name="Armoring" hash="-2o57v9q8o2eq5gxbumzmifnkuhkq065">
-    <file name="Armoring" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483697" name="Blacksmithing" hash="5i8jn3clmvz9xv74x344ipw73lshvhy">
-    <file name="Blacksmithing" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483698" name="Metalcrafting" hash="-egasip8ryhuvlnm3h8p593o3b6h81uv">
-    <file name="Metalcrafting" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483699" name="Gem Cutting" hash="co3c9addh136wcs3iu3qwn3g0a1wjpw">
-    <file name="Gem Cutting" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483700" name="Gem Setting" hash="-bk5psxk1g1jwcl5sib78eoiz35fri5g">
-    <file name="Gem Setting" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483701" name="Woodcrafting" hash="98k0vwxnqf0xgww70ad52o7hcxpaxze">
-    <file name="Woodcrafting" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483702" name="Stonecrafting" hash="3r5wxo0wew36d6839c2gcdk0utan6gl">
-    <file name="Stonecrafting" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483703" name="Bone Carving" hash="-edhvj83k2u1cd2ucnwneortl34vjpoz">
-    <file name="Bone Carving" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483704" name="Glassmaking" hash="-cenp736tcaoqmtadhik94a8rbezwdv2">
-    <file name="Glassmaking" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483705" name="Strand Extraction" hash="-ebxjcf8k1nme0g90afe7iiixw8afeo8">
-    <file name="Strand Extraction" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483706" name="Siege Engineering" hash="5mawxcbzgipeyq4zietgq3puhzqiwzr">
-    <file name="Siege Engineering" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483707" name="Siege Operating" hash="ekiwsjb5ks8nb3y3pj7e4yavb4xowj9">
-    <file name="Siege Operating" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483708" name="Crossbow-making" hash="-77bhzc7hv4lkrubhe1dtsemz3s8qw6r">
-    <file name="Crossbow-making" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483709" name="Mechanics" hash="b6b8twvyb0iq5gt0143b1j99xj8civn">
-    <file name="Mechanics" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483710" name="Potash Making" hash="-j6q40tgs0ekki0s5cntvp9dvbh3pdz">
-    <file name="Potash Making" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483711" name="Lye Making" hash="b2v6fjmj0gudsrzb375rj9708nrgei">
-    <file name="Lye Making" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483712" name="Dyeing" hash="-23o6rj6lab6ldgnrp1n8wtq965zwxi1">
-    <file name="Dyeing" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483713" name="Wood Burning" hash="-51xhhd3xneishg8awzqx1h4n99hp7ev">
-    <file name="Wood Burning" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483714" name="Pump Operating" hash="p6mfrbouedkofihrp796iqv2jz3ca7">
-    <file name="Pump Operating" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483715" name="Shearing" hash="enn08syl05spss9k4pcib84kbn03jm5">
-    <file name="Shearing" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483716" name="Spinning" hash="-cg8xoh64ajs7rhv7h5yl5rfj5ae2un3">
-    <file name="Spinning" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483717" name="Pottery" hash="-306jxmmk1k60a6jvc9q2dc8fv8qpv4b">
-    <file name="Pottery" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483718" name="Glazing" hash="4dgbdnnw57jy334nj5vnnmjf3hcq97x">
-    <file name="Glazing" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483719" name="Pressing" hash="-bgmqe360mvblr3xjjgr6z9xa48e1hoy">
-    <file name="Pressing" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483720" name="Bee Keeping" hash="bmh9cd1bw0nebaghts04lw2x0iq0v5q">
-    <file name="Bee Keeping" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483721" name="Wax Working" hash="-e356a3nfvq90ykf1ozdnhv3o2kprgb8">
-    <file name="Wax Working" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483722" name="Carve Fortification" hash="-1j4qpfdpin92t2xz22s0abid0gh3yue">
-    <file name="Carve Fortification" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483723" name="Detail Wall" hash="-3l3hq6z6bz3v6vobn63cr8bd0tyyqye">
-    <file name="Detail Wall" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483724" name="Detail Floor" hash="32c3dd1bep6ojbwvh5y9fo4y0v0k8ce">
-    <file name="Detail Floor" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483725" name="Dig" hash="246hqfy369x8i5a520205wihbn28eok">
-    <file name="Dig" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483726" name="Carve Upward Staircase" hash="d15qsfrsgpht9fpviciz69t7z02injx">
-    <file name="Carve Upward Staircase" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483727" name="Carve Downward Staircase" hash="-1wfb4zjijk1g9h822myugj6wetpo6jc">
-    <file name="Carve Downward Staircase" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483728" name="Carve Up/Down Staircase" hash="em4jyier5sxe7isdkpeirhqn0sq8gi9">
-    <file name="Carve Up/Down Staircase" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483729" name="Carve Ramp" hash="58rs7i7cxbtimiiwx7zdfvrc70umk6f">
-    <file name="Carve Ramp" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483730" name="Dig Channel" hash="emavnq5am06ha5aeeaqvjzsss0w7e5u">
-    <file name="Dig Channel" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483731" name="Fell Tree" hash="-cl3ifp4yec7z4t9kxcohuoiavkh77ar">
-    <file name="Fell Tree" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483732" name="Gather Plants" hash="-8rh9xuvsaif9o2rmchorjqs8siynze1">
-    <file name="Gather Plants" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483733" name="Remove Construction" hash="bzk8ximk66m224inqsnkf9cawsepg9p">
-    <file name="Remove Construction" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483734" name="Collect Webs" hash="bho3tnzsz26s9r2cy6k67a1hhk1ibx2">
-    <file name="Collect Webs" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483735" name="Bring Item to Depot" hash="-59avmtl3pdszd94wnmnnookn7igv1a7">
-    <file name="Bring Item to Depot" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483736" name="Bring Item to Shop" hash="-9ay5n9m7oatbhuy1fy24czjaxtcy144">
-    <file name="Bring Item to Shop" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483737" name="Eat" hash="-8dg1l05iz1emi3lhg5oeeeurmnp1py6">
-    <file name="Eat" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483738" name="Get Provisions" hash="-91rfkn31iriexco2a6586gsqg2sxfy4">
-    <file name="Get Provisions" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483739" name="Drink" hash="-2lia6631lovv60980txa418pvxxt1z5">
-    <file name="Drink" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483740" name="Drink" hash="-eaqjfo3137us77bej07p4b3u8tfo2dt">
-    <file name="Drink" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483741" name="Fill Waterskin" hash="-8ps252hjlf0qqudmnedsvk04l4vl6ku">
-    <file name="Fill Waterskin" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483742" name="Fill Waterskin" hash="-6qqma043gdv4ep6wpykdmb4wqeam59o">
-    <file name="Fill Waterskin" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483743" name="Sleep" hash="1yq3g2uupmaz1qrz7m3ofd8jlqcg0nc">
-    <file name="Sleep" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483744" name="Collect Sand" hash="-2uz59r89smevkwtodj1ipge2wyzwg88">
-    <file name="Collect Sand" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483745" name="Fish" hash="akpivyrkdieqr0inno2iui4d8eecp8u">
-    <file name="Fish" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483746" name="Hunt" hash="5wd1janobodhagyun0ybt8myia3jhu1">
-    <file name="Hunt" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483747" name="Hunt for Small Creature" hash="-dlmnwfplvgydl3xasvt1ew2zudbyjeb">
-    <file name="Hunt for Small Creature" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483748" name="Kidnap" hash="axevw8bm98wmk3v373geldddycwk1bu">
-    <file name="Kidnap" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483749" name="Beat Criminal" hash="-ax2ob27tituqozjw6t8ocsubjnw8n1j">
-    <file name="Beat Criminal" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483750" name="Starting Fist Fight" hash="4di0xkafy6ldilfle738lgqaggj8rst">
-    <file name="Starting Fist Fight" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483751" name="Collect Taxes" hash="ctfg9digck7y3xwd3oqs9cn97p94bwc">
-    <file name="Collect Taxes" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483752" name="Guard Tax Collector" hash="1bz439gyz5hru6r7kogiautyptz19ph">
-    <file name="Guard Tax Collector" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483753" name="Catch Live Land Animal" hash="-1fgfqbmjho0ihopmvwa3wlyqxq5stot">
-    <file name="Catch Live Land Animal" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483754" name="Catch Live Fish" hash="-87xmwv72qhuent8dox1epqaazgi1k3p">
-    <file name="Catch Live Fish" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483755" name="Return Kill" hash="3idh5vyonin7ecgh6m3mzaqksrtylna">
-    <file name="Return Kill" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483756" name="Check Chesk" hash="-72ur4d4anupq1ydl9tdoehd0owwc507">
-    <file name="Check Chesk" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483757" name="Store Owned Item" hash="-dhzcgpn7de9emj0lrvsoanzsn08pdbe">
-    <file name="Store Owned Item" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483758" name="Place Item in Tomb" hash="-8d4gt4ms23vpm46j93raon2k6zxmu8x">
-    <file name="Place Item in Tomb" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483759" name="Store Item in Stockpile" hash="-301hqrz95fknimmafg3wwwq7hkzaqo">
-    <file name="Store Item in Stockpile" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483760" name="Store Item in Bag" hash="7ane6r4zzwkagdsyorpi2taxzcens2r">
-    <file name="Store Item in Bag" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483761" name="Store Item in Hospital" hash="3kihot1bwa549b8rrvcwvcm3ryt6xqr">
-    <file name="Store Item in Hospital" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483762" name="Store Item in Chest" hash="ei3msygkh8u0s8anto9ssubfsdrpj3i">
-    <file name="Store Item in Chest" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483763" name="Store Item in Cabinet" hash="47siwm3jgemjdzbjl4zm77akso193zo">
-    <file name="Store Item in Cabinet" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483764" name="Store Weapon" hash="-75zw816wpbk5sn5v142fn67kzcrslak">
-    <file name="Store Weapon" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483765" name="Store Armor" hash="cce7fxgfwdsih70p6r5zjotjtx343l7">
-    <file name="Store Armor" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483766" name="Store Item in Barrel" hash="8kygytgx5jjyavjh46hwdiaf9prc7g6">
-    <file name="Store Item in Barrel" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483767" name="Store Item in Bin" hash="-ufwi60k78cfuhf0t5cmofpjmrogca3">
-    <file name="Store Item in Bin" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483768" name="Seek Artifact" hash="-9td9dwdo0lch34jdp2d0ctmvqzltqrk">
-    <file name="Seek Artifact" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483769" name="Seek Infant" hash="xbbknughpdf3y2306xkoqr7koy5qvv">
-    <file name="Seek Infant" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483770" name="Attend Party" hash="9182zmuaqi3vwzqollik210viyb5axt">
-    <file name="Attend Party" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483771" name="Go Shopping" hash="6fuvyhhw8ob5zuv06dyjg342vzqpwk2">
-    <file name="Go Shopping" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483772" name="Go Shopping" hash="-9ksr6z5aezg15ycd6n5qfonh4o13nse">
-    <file name="Go Shopping" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483773" name="Clean" hash="3l1fxhspzp1krqotsi3s90ol04lt0f8">
-    <file name="Clean" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483774" name="Rest" hash="xda72nasrwxyskgt3kh8hrym5aje0b">
-    <file name="Rest" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483775" name="Pickup Equipment" hash="-bgexu1yu67nplwdtvovy5gqxwzz1q6n">
-    <file name="Pickup Equipment" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483776" name="Dump Item" hash="3zm5xah2ooxquz4ktq8vi31c30nnuxl">
-    <file name="Dump Item" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483777" name="Strange Mood Crafter" hash="dixc4kp1pucycix7p7rhzcp0e7ap5je">
-    <file name="Strange Mood Crafter" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483778" name="Strange Mood Jeweller" hash="-3ivmhmgatlkv3133vkdm27a0pi1a6">
-    <file name="Strange Mood Jeweller" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483779" name="Strange Mood Forge" hash="-6yjpqhr9b599kfzlocaypietrpoi2tz">
-    <file name="Strange Mood Forge" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483780" name="Strange Mood Magma Forge" hash="-b7v05wnzx78drubxb8lycnp1sascajh">
-    <file name="Strange Mood Magma Forge" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483781" name="Strange Mood Brooding" hash="dfi66hevxb0s38h1g7fuo02urm77dmn">
-    <file name="Strange Mood Brooding" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483782" name="Strange Mood Fell" hash="3tn0oo89k7e7lpfr4pf5gqtqoqx1ucw">
-    <file name="Strange Mood Fell" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483783" name="Strange Mood Carpenter" hash="-87lyejial8i1i0eq3d0lf0uvq19vi76">
-    <file name="Strange Mood Carpenter" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483784" name="Strange Mood Mason" hash="-915888n5bmawzrr4m8au2jckgeg12nn">
-    <file name="Strange Mood Mason" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483785" name="Strange Mood Bowyer" hash="4dfbydxtl9icwtush8kifj170uoqan">
-    <file name="Strange Mood Bowyer" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483786" name="Strange Mood Tanner" hash="-734xml8anzl31bau5sxxl2719x7f2oh">
-    <file name="Strange Mood Tanner" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483787" name="Strange Mood Weaver" hash="d6eq7f45k6kibwk086f67tdiqqte1sq">
-    <file name="Strange Mood Weaver" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483788" name="Strange Mood Glassmaker" hash="d3srhu0idcwkgfx49ra0w7ruji7fsu1">
-    <file name="Strange Mood Glassmaker" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483789" name="Strange Mood Mechanics" hash="ar005z3lub0v1yu075kvkz0k3pnm8s2">
-    <file name="Strange Mood Mechanics" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483790" name="Construct Building" hash="-6ylwf8ed5v9ssxs6y2ounlm9qldhusx">
-    <file name="Construct Building" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483791" name="Construct Door" hash="dzlrokhuey48w47imu0ki3bs33wzbnb">
-    <file name="Construct Door" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483792" name="Construct Floodgate" hash="-2cq9b72n372oebmbpeu24cbk0vcjcph">
-    <file name="Construct Floodgate" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483793" name="Construct ?? Bed" hash="-5hr6uuc6barqbkxqgaempmm8uhkndj4">
-    <file name="Construct ?? Bed" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483794" name="Construct ?? Throne" hash="bgz7xdvrsys54g9u5cqaiayposy464w">
-    <file name="Construct ?? Throne" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483795" name="Construct ?? Casket/Sarcophagus/Coffin" hash="deq9kkhhtxor1jh8ckp5sira7ttiihb">
-    <file name="Construct ?? Casket/Sarcophagus/Coffin" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483796" name="Construct ?? Table" hash="-7ph44l2s1dhb9d6akzp8ka3apx5xco2">
-    <file name="Construct ?? Table" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483797" name="Construct ?? Container" hash="-5zc3f7y6w0vvl0pz348etuteo1rn7mx">
-    <file name="Construct ?? Container" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483798" name="Construct ?? Bin" hash="b5rucr0hxffqj8ivsnyay4e2nprlvqp">
-    <file name="Construct ?? Bin" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483799" name="Construct ?? Armor Stand" hash="2yvwd0tr44msnws0fw8iw9d1repz00j">
-    <file name="Construct ?? Armor Stand" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483800" name="Construct ?? Weapon Rack" hash="-bkj3k11pssznnp29zh11jq99zrpdse5">
-    <file name="Construct ?? Weapon Rack" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483801" name="Construct ?? Cabinet" hash="19db0cknqdwuifs1g563sfh3vetpwku">
-    <file name="Construct ?? Cabinet" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483802" name="Construct ?? Statue" hash="4qu1duv66fc5mo3xyfk88q61sw69dh6">
-    <file name="Construct ?? Statue" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483803" name="Construct ?? Blocks" hash="e6to2yfyluhvnrayfhgu4yk0yr6xjb4">
-    <file name="Construct ?? Blocks" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483804" name="Make Raw ??" hash="-9z291zn4vsuw8mtgtghc84ticv3i1b2">
-    <file name="Make Raw ??" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483805" name="Make ?? Crafts" hash="-1gkhiahtc7c39w56rwj7ztukoa9vm13">
-    <file name="Make ?? Crafts" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483806" name="Mint ?? Coins" hash="-97dix1jbs2r0ddsbaps5lkupd8d2pn">
-    <file name="Mint ?? Coins" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483807" name="Cut ?A?" hash="9fl0d1td5jh2vikf24eci8r1dkqk3el">
-    <file name="Cut ?A?" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483808" name="Cut crystal(?) glass(?)" hash="18i8rh4lr2lt7y1uexlvke6cxledfmv">
-    <file name="Cut crystal(?) glass(?)" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483809" name="Encrust ?something? with ?somethings?" hash="-76sbrkra5dgjo7u5jg4b05a24nthjqv">
-    <file name="Encrust ?something? with ?somethings?" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483810" name="Encrust ?something? with ?somethings?" hash="-76bpqiv3np253ugoq2yoamwxx6zw0ig">
-    <file name="Encrust ?something? with ?somethings?" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483811" name="Destroy Building" hash="-bvtvzwcc34bnufut76kg1uc38dc5me6">
-    <file name="Destroy Building" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483812" name="Smelt ?? Ore" hash="-1ekzavjdozx7x7ieykvn0zcke20j26v">
-    <file name="Smelt ?? Ore" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483813" name="Melt a Metal Object" hash="3vdg1agzf5pxxz7obwteahf0t09g4em">
-    <file name="Melt a Metal Object" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483814" name="Extract Metal Strands" hash="-1y3y2ze7mqz7mzrpm93o7x4nn1xplz3">
-    <file name="Extract Metal Strands" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483815" name="Plant Seeds" hash="8jst4669ko2u2e965hfnkww0oigxayd">
-    <file name="Plant Seeds" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483816" name="Harvest Plants" hash="-3szfjvmpd4zzf7lzs2k5onytu7tkf4g">
-    <file name="Harvest Plants" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483817" name="Train Hunting Animal" hash="-d8fgaz2mfk6iyqivnvenddgguyhzlcu">
-    <file name="Train Hunting Animal" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483818" name="Train War Animal" hash="-601pci59kiulotottyzq4hjff2t2p3">
-    <file name="Train War Animal" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483819" name="Forge ?? Short Sword" hash="-7lkexdcc898lkjd0h6q9019qv5pba8a">
-    <file name="Forge ?? Short Sword" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483820" name="(Job-Id 98)" hash="256pj7sbpuhwanhbtwijbq4ynfjrhi4">
-    <file name="(Job-Id 98)" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483821" name="Construct Catapult Parts" hash="beo0nk7j4ectwadt631udcbosygq8fv">
-    <file name="Construct Catapult Parts" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483822" name="Forge Anvil" hash="-5fba7vs8atvab2eloo22va7pa8ihz8r">
-    <file name="Forge Anvil" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483823" name="Construct Catapult Parts" hash="-1wptiaqiucuvxbzmfas5wxx5scwnp4e">
-    <file name="Construct Catapult Parts" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483824" name="Forge Helm" hash="-e4qejldbzfhvm3l31ewr4dfxqbpe7cq">
-    <file name="Forge Helm" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483825" name="Forge Leggings" hash="-7oc6i0ho7azq7kdzjtkw9fk2vhqe2fk">
-    <file name="Forge Leggings" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483826" name="Stud with ?something?" hash="-a6vivzmqc56hvan1fj0g5bho1zfjk8q">
-    <file name="Stud with ?something?" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483827" name="Butcher an Animal" hash="-3qg4rxvfd9v07o8rbk789uprd3tesbw">
-    <file name="Butcher an Animal" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483828" name="Prepare a Raw Fish" hash="-dd26nx0zjsbd3l40upbujkc7j8tgjkv">
-    <file name="Prepare a Raw Fish" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483829" name="Mill Plants" hash="cmi5fmyp61v8f5bk8wrmcr1d87jcsw5">
-    <file name="Mill Plants" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483830" name="Bait Trap with Meat/Gem/Fish" hash="-in5jla4c69gfmkm9th877qmmv7tvy3">
-    <file name="Bait Trap with Meat/Gem/Fish" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483831" name="Milk Creature" hash="-348i4tjpzperwi9boe7hcwwdomtrtov">
-    <file name="Milk Creature" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483832" name="Make Cheese" hash="-4pr32arng2pn6p0c5tywbx7tsyyiyrv">
-    <file name="Make Cheese" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483833" name="Process Plants" hash="-1sz8fp96pxmvotny7lt0b6b7j4110od">
-    <file name="Process Plants" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483834" name="Process Plants (Bag)" hash="4chxcu9vfwxw6070x9rpdp9zujhefr">
-    <file name="Process Plants (Bag)" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483835" name="Process Plants (Vial)" hash="34sfxwzokuzg4bjabhxp0swmoj3scn1">
-    <file name="Process Plants (Vial)" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483836" name="Process Plants (Barrel)" hash="54sfce8kjbdkavhgdbtout25i2po53u">
-    <file name="Process Plants (Barrel)" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483837" name="Prepare Meal" hash="26vltl75tz0jf4zh5c8wr89lh8m9tkn">
-    <file name="Prepare Meal" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483838" name="Weave ?? into ??" hash="cuepy56t3zzh9vn2ev2hrzmxv29rvj5">
-    <file name="Weave ?? into ??" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483839" name="Forge Gauntlet" hash="5k4b8rd9c6phuxu3nj0lzvifb4h4nrm">
-    <file name="Forge Gauntlet" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483840" name="Forge High Boot" hash="-5u7k5m4m5o41ygrg6dvgvsofaxt1479">
-    <file name="Forge High Boot" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483841" name="Forge Shield" hash="-bvld3fthbi9tkiyp1la4lp1kndgz4ib">
-    <file name="Forge Shield" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483842" name="Forge Cage" hash="7iqpue8q1ilaj8stp41ipgz7luvyhuw">
-    <file name="Forge Cage" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483843" name="Forge/Make F" hash="7px9p8ppnuskspmsgdxwbzdp7uw77vv">
-    <file name="Forge/Make F" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483844" name="Forge/Make Waterskin/Vial/Flask" hash="-i0in02saarr8y3e5qhezxosmu2s86b">
-    <file name="Forge/Make Waterskin/Vial/Flask" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483845" name="Forge Rope" hash="4hfzos85wlpxjhezdoj51b09tjgwhmx">
-    <file name="Forge Rope" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483846" name="Forge Flask" hash="-8wrga1wle0k9gvs652awgf12t90zzq1">
-    <file name="Forge Flask" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483847" name="Forge Goblet" hash="mvvtc53yguuztzcyr4d01zftyk3xf5">
-    <file name="Forge Goblet" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483848" name="Forge Instrument" hash="eeo9puxmvzf62ulxq5c0kn4u7nvy7t0">
-    <file name="Forge Instrument" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483849" name="Make Barrel" hash="2re95pipnirj6sbgtwt8eqsgussib8">
-    <file name="Make Barrel" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483850" name="Forge Animal Trap" hash="2ha94ku6dvw0z85i3g9e3wjru13zhdg">
-    <file name="Forge Animal Trap" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483851" name="Forge Barrel" hash="-9lyi5iyfw0aeea2tr685dr1f63vssas">
-    <file name="Forge Barrel" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483852" name="Make Totel" hash="eeurw7nu4jg340cwcrcsvrpelldfxz1">
-    <file name="Make Totel" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483853" name="Forge Bolts" hash="8g68vz5e4prq6fqlfkpnazlzq7xpz63">
-    <file name="Forge Bolts" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483854" name="Decorate With ?something?" hash="erbl8braf9hdup9p0sbywbs4svszr3p">
-    <file name="Decorate With ?something?" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483855" name="Forge/Make G" hash="-ciee4qmutbd8kad2grqz4ns4m7p208l">
-    <file name="Forge/Make G" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483856" name="Make leather quiver" hash="cs87n5k51posb7fqwjcp00hssscfehf">
-    <file name="Make leather quiver" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483857" name="Make Backpack" hash="c240w10g3o5ikz71zam9sigd00p4grm">
-    <file name="Make Backpack" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483858" name="Make Quiver" hash="-bcask8o4ty8d8se344wle83sfi7mnik">
-    <file name="Make Quiver" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483859" name="Load Catapult" hash="30i4bvlk17ldk2bxbrx4i0rj1p12bfj">
-    <file name="Load Catapult" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483860" name="Load Ballista" hash="chakfecvf18dpy10wtvklwpptco4j3u">
-    <file name="Load Ballista" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483861" name="Fire Catapult" hash="-13tg58w7bpg32yi0jt5ut5izm98sawl">
-    <file name="Fire Catapult" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483862" name="Fire Ballista" hash="-8foul8jmm35gt91viieas82izzklnkk">
-    <file name="Fire Ballista" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483863" name="Construct Mechanisms" hash="-co4bavvy2nnsudmeao87q6f1q9i6ihl">
-    <file name="Construct Mechanisms" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483864" name="Forge Trap Weapon" hash="8kxqvr4emwh9uc5olw3j0wv3qapz387">
-    <file name="Forge Trap Weapon" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483865" name="Load Cage Trap" hash="-5gd0x8plvq40ovnqcz9ax70tifi9pvt">
-    <file name="Load Cage Trap" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483866" name="Load Stone Trap" hash="-9ig872tyxk7bxbozl6qo6kjim29h409">
-    <file name="Load Stone Trap" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483867" name="Load Weapon Trap" hash="-8y6e2vcquq9dm9zs3z2k9lexwb42b15">
-    <file name="Load Weapon Trap" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483868" name="Clean Trap" hash="a0fzhy0xolnc64nvvhnsi1i3l5nbun3">
-    <file name="Clean Trap" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483869" name="Cast Spell" hash="ztpiprqcmvpxdru6hk2rgcriv4ivih">
-    <file name="Cast Spell" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483870" name="Link a Building to Trigger" hash="2y56w0xyiklq6x24xbyqq2505o2ahea">
-    <file name="Link a Building to Trigger" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483871" name="Pull the Lever" hash="bwh56rv3v57y7giisjrkv9y0jwfng0x">
-    <file name="Pull the Lever" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483872" name="Brew Drink" hash="-rfdi13mz8cafcm2ka8nqd0oebv83aq">
-    <file name="Brew Drink" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483873" name="Extract from Plants" hash="5vwrmk84qqovjnqfx83zs0n1twgv0io">
-    <file name="Extract from Plants" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483874" name="Extract from Raw Fish" hash="7jdb6wus0b9y8qfw8n8uvzm01fkiq7o">
-    <file name="Extract from Raw Fish" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483875" name="Extract from Land Animal" hash="dcupuyghvwdr0os1twbzywbd9xqavro">
-    <file name="Extract from Land Animal" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483876" name="Tame Small Animal" hash="-qun4xq6h4lod8ln09kfgl3bre0idu1">
-    <file name="Tame Small Animal" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483877" name="Tame ?something?" hash="5wtbnr0g4iv9a0348kf1qs4rkjnskz2">
-    <file name="Tame ?something?" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483878" name="Chain Animal" hash="-aqbjf55q4j8tqj9j1k989fdkih467ln">
-    <file name="Chain Animal" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483879" name="Unchain Animal" hash="-90i1y8ynqikkxyecbv575qbqc9hivf2">
-    <file name="Unchain Animal" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483880" name="Unchain Pet" hash="-36ig38t3smrpv2xb1qvx530q0i16pic">
-    <file name="Unchain Pet" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483881" name="Release Large Creature" hash="9qzceuejv9bkcixidknaryrd6dw710y">
-    <file name="Release Large Creature" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483882" name="Release Pet" hash="-dwiiycr93mu4f2c7v0aaz6k4jz08coi">
-    <file name="Release Pet" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483883" name="Release Small Creature" hash="e8odzo2c19lj62momulsb68xizpscs8">
-    <file name="Release Small Creature" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483884" name="Handle Small Creature" hash="-efzmk2g3gbl0ppl33qwz8wu5keitvgo">
-    <file name="Handle Small Creature" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483885" name="Handle Large Creature" hash="13f7lgrzvvies1wn22jxh4xhx44owa6">
-    <file name="Handle Large Creature" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483886" name="Cage Large Creature" hash="9vffnldmaxz7dauxqhjyrlubkcelatu">
-    <file name="Cage Large Creature" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483887" name="Cage Small Creature" hash="dfbrgqa0hvft8g4gimwxo7doax9m8gk">
-    <file name="Cage Small Creature" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483888" name="Recover Wounded" hash="-dr9q3gkoccrfeba3x66v2ayql7x33p7">
-    <file name="Recover Wounded" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483889" name="Diagnose Patient" hash="1hov8z10we20y78tpv2ra1krf6cjo2c">
-    <file name="Diagnose Patient" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483890" name="Immobilize Break" hash="d45e0wb7gdzh2n14tt2k8mygylhkguz">
-    <file name="Immobilize Break" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483891" name="Dress Wound" hash="-88g95czdw9eiyhrhqk1ue6u2klqkiy">
-    <file name="Dress Wound" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483892" name="Clean Patient" hash="-4th4txq7ttmgmzanvsmxwtafri0wdu7">
-    <file name="Clean Patient" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483893" name="Surgery" hash="2cr8loifuatjl7pg9tunlfwnctj9w24">
-    <file name="Surgery" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483894" name="Suture" hash="-8mya4lbs1hce8f5w831bq7epk9reicl">
-    <file name="Suture" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483895" name="Set Bone" hash="-efy47qhxb5jvsle1q9ub38n24ibijgb">
-    <file name="Set Bone" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483896" name="Place In Traction" hash="-43trls4urlz0caach8j85us3k4rdddp">
-    <file name="Place In Traction" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483897" name="Drain Aquarium" hash="-3vifuxylgu8l8542dqm2ndxhyff50yl">
-    <file name="Drain Aquarium" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483898" name="Fill Aquarium" hash="-b47638ez7ugo19g78cz2wdkwy6p4itv">
-    <file name="Fill Aquarium" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483899" name="Fill Pond" hash="-4eoh53yctgenhxuirnjcpy5fwaf4wbi">
-    <file name="Fill Pond" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483900" name="Give Water" hash="-7dszwzlnbcmob4eqba79v85l9e5xxq6">
-    <file name="Give Water" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483901" name="Give Food" hash="-c2qdixk1sktmqagegwn12g8v3m0orbd">
-    <file name="Give Food" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483902" name="Give Water" hash="-9m91qi7nni65dp1gqqukjwqbjuq3mjd">
-    <file name="Give Water" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483903" name="Give Food" hash="-d3r7dj1huh21s7q7u9remxovhmpeoqp">
-    <file name="Give Food" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483904" name="Recover Pet" hash="-3ycx4xtn8l2t2payeho8oha31flmumz">
-    <file name="Recover Pet" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483905" name="Pit/Pond Large Animal" hash="-eal1w9vqw9myv3zhen5j414h4iyjypk">
-    <file name="Pit/Pond Large Animal" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483906" name="Pit/Pond Small Animal" hash="emr6817qe6oae4j1869i25pebhtaz14">
-    <file name="Pit/Pond Small Animal" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483907" name="Slaughter Animal" hash="4y8tlwtngo0tk97rarjr2k909mv0pel">
-    <file name="Slaughter Animal" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483908" name="Make Charcoal" hash="d2rjbsx23koyu5qrhcsihefsv9pytuj">
-    <file name="Make Charcoal" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483909" name="Make Ash" hash="7nwdq951r087hssr3uqlu7wvbvm7yh8">
-    <file name="Make Ash" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483910" name="Make Lye" hash="emmgat3h2u7bis7dnn42eteim0dehpi">
-    <file name="Make Lye" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483911" name="Make Potash From Lye" hash="a2gsjluidy3k9rqyvlauwntaidnjteh">
-    <file name="Make Potash From Lye" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483912" name="Fertilize Field" hash="p5oc0hr5es3risddbh9h9oa6itf9uq">
-    <file name="Fertilize Field" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483913" name="Make Potash From Ash" hash="duez3yucnsdqlpx904tnf09iq62uaxa">
-    <file name="Make Potash From Ash" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483914" name="Dye Thread" hash="6bs0hujj4evm2qxpd0u8l0e27iubygg">
-    <file name="Dye Thread" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483915" name="Dye Cloth" hash="-9ovkl2xulxofysdqhgqaivt2286s72j">
-    <file name="Dye Cloth" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483916" name="Sew ?? Image" hash="-9igg3233ru89hwl35q9wbm7itmjyg2m">
-    <file name="Sew ?? Image" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483917" name="Manage Work Orders" hash="2i73bekzfm0nebtj688r2i9xyodk0cw">
-    <file name="Manage Work Orders" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483918" name="Operate Pump" hash="73vsawp3hsj11hlbvqfans12890huhu">
-    <file name="Operate Pump" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483919" name="Manage Work Orders" hash="4p7421z5r3nhf2b1yaal90le25wy2h5">
-    <file name="Manage Work Orders" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483920" name="Update Stockpile Records" hash="-2e2hwh3jxpn1l0ajypqw7wcr3xjyijc">
-    <file name="Update Stockpile Records" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483921" name="Trade at Depot" hash="-ds0vt1luhrlqvsczkfvbh3qcozv0jgo">
-    <file name="Trade at Depot" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483922" name="Construct ?? Hatch Cover" hash="cv8ivxqiku7kw0figaw7g10tznqalyi">
-    <file name="Construct ?? Hatch Cover" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483923" name="Construct ?? Grate" hash="-75p9fzo8ddwxu28yvyxy4h23r0g9y19">
-    <file name="Construct ?? Grate" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483924" name="Remove Stairs/Ramps" hash="-3ib4z5mgcnqrpcbvd2mghb2o4cj91l2">
-    <file name="Remove Stairs/Ramps" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483925" name="Construct ?? Quern" hash="-4f110sc1dbxuu7k7dtutq8pj6arqu3w">
-    <file name="Construct ?? Quern" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483926" name="Upgrade Squad Equipment" hash="-5gmtlnwhof66jii0okzmoy1diwqysvm">
-    <file name="Upgrade Squad Equipment" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483927" name="Prepare Equipment Manifests" hash="2zpz92dffphdf1rprg3s8837e6zl5rc">
-    <file name="Prepare Equipment Manifests" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483928" name="Construct ?? Splint" hash="5tbookp1gpodng6tnie9cz5c99hkl09">
-    <file name="Construct ?? Splint" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483929" name="Construct ?? Crutch" hash="-d0ngqq4fm04880aaum39hltw3bgqa6n">
-    <file name="Construct ?? Crutch" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483930" name="Construct Traction Bench" hash="bewvstazoy7wr05605m07pgm09z8hrq">
-    <file name="Construct Traction Bench" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483931" name="Clean Self" hash="6eya5tsrs0jm9wt7kttu40ihni3ulco">
-    <file name="Clean Self" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483932" name="Bring Crutch" hash="9wweogzqavcb3o96d4p6jdb3z7ugwa4">
-    <file name="Bring Crutch" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483933" name="Apply Cast" hash="a1xwg7xtbumo6e6oc3vda30wt6v20l0">
-    <file name="Apply Cast" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483934" name="Render Fat/Tan a Hide/Make Soap" hash="-56u7gkwxb97y6z1vz5hk1ztbu49ykwi">
-    <file name="Render Fat/Tan a Hide/Make Soap" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483935" name="Unknown Job" hash="1ue8nr4qyveyrblukgjckwreyy0fysr">
-    <file name="Unknown Job" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483936" name="Unknown Job" hash="8cadrwopo0pkw7kj45x6fnr3s5ugl52">
-    <file name="Unknown Job" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483937" name="Shear Creature" hash="-dpnm0y55fl4km71dl2hntuydk4bluy5">
-    <file name="Shear Creature" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483938" name="Spin Thread" hash="-38ojhg45qujlr7lb7cg057jcdeyjkb6">
-    <file name="Spin Thread" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483939" name="Pen/Pasture Large Animal" hash="3n1hsydrtf2craiaasnpn1tlh8js6il">
-    <file name="Pen/Pasture Large Animal" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483940" name="Pen/Pasture Small Animal" hash="-6wr6mxqcvr7yccfqveg6qdg3yo0a3sx">
-    <file name="Pen/Pasture Small Animal" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483941" name="Unknown Job" hash="96vfenuhfid11dz9oga9mq514pvjp4x">
-    <file name="Unknown Job" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483942" name="Forge Tool" hash="-5q6p10abfdppws8k9w39mvtank2rien">
-    <file name="Forge Tool" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483943" name="Collect Clay" hash="-4tg7jrelyotfndaink0ije3ddwwh8ih">
-    <file name="Collect Clay" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483944" name="Install Colony In Hive" hash="-dxu6hptpjxlv284igmg3f0w3ff86yed">
-    <file name="Install Colony In Hive" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483945" name="Collect Hive Products" hash="-bp2a364m22m0ktpvpf2ee76xpo4c82q">
-    <file name="Collect Hive Products" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="1147483946" name="Mining" hash="67vqooiebc6bvx1fzfdzy35hib3kand">
     <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
@@ -2051,61 +2051,61 @@
     <file name="GoblinStats.java" />
   </source>
   <source id="8701932881020747801" name="Agility" hash="9jq894w6qbswjm872gdqjr0xsde0k7i">
-    <file name="Agility" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="8701932881020747803" name="Endurance" hash="d9up3jyggx2q6xugamctaao028nomxz">
-    <file name="Endurance" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="8701932881020747800" name="Strength" hash="-55sgrkyxibp8zndg37otq4rg34cqcn7">
-    <file name="Strength" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="8701932881020747802" name="Toughness" hash="138ndrvz526d1tvi1dz8fgloekdn3qf">
-    <file name="Toughness" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="4936626689121327911" name="Recuperation" hash="6vcseuqn8123x78rb5vf5c6w79fltqg">
-    <file name="Recuperation" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="4936626689121327912" name="DiseaseResistance" hash="7lg5lqro6ser3nejz8eq5b9dbo2c7wd">
-    <file name="DiseaseResistance" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="4936626689121327913" name="Willpower" hash="249nxfl13598aackrajlhv2pcgxieyb">
-    <file name="Willpower" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="4936626689121327914" name="Memory" hash="5an07xtcsyp4ldwe75121dxzy43ag8t">
-    <file name="Memory" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="4936626689121327915" name="Focus" hash="-78g39rw93ix9c2hfnago9u22u4kwelc">
-    <file name="Focus" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="4936626689121327916" name="Intuition" hash="-6ifhg44mim2yb783vx8okuvp4qbb1md">
-    <file name="Intuition" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="4936626689121327917" name="Patience" hash="-2dm6tusqcadd1zr5lypn4a2ipuiquxt">
-    <file name="Patience" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="4936626689121327918" name="Empathy" hash="6ecai9ugom33nrodttdhux5n2une4">
-    <file name="Empathy" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="4936626689121327919" name="SocialAwareness" hash="7zjk7hnbsid5gyhs0gv6zxi9g3zcolb">
-    <file name="SocialAwareness" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="4936626689121327920" name="Creatvity" hash="eil4h07h18tgadjg0ytu58zgeb77lpu">
-    <file name="Creatvity" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="4936626689121327921" name="Musicality" hash="a2t36k56fnjyay2ip0o42zln8o7mdd2">
-    <file name="Musicality" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="4936626689121327922" name="LinguisticAbility" hash="4bvtlwod0axuac6l3fxxban62bys3ri">
-    <file name="LinguisticAbility" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="4936626689121327923" name="SpatialSense" hash="1uxlsy6mnxo84yfgmyopntpjjlw2ah9">
-    <file name="SpatialSense" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="4936626689121327924" name="KinaestheticSense" hash="-1cl83jjbygo7io2ihhq4u1ni1axdur6">
-    <file name="KinaestheticSense" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="4936626689121327925" name="AnalyticalAbility" hash="9rq9rqrq27v1v42c17hpku6rbca4reg">
-    <file name="AnalyticalAbility" />
+    <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
   <source id="655979893346440619" hash="5z2gqmuxv39slkqy0i07be49f0iynpo" dependsOnCreated="true">
     <dep root="1147484092" />
