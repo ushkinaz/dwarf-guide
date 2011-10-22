@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="net.dwarfguide.creature.behavior.AttributeRef_BehaviorDescriptor" file="AttributeRef_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.Expression_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="net.dwarfguide.creature.behavior.AttributeStatistic_Behavior" file="AttributeStatistic_Behavior.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.HasName_Behavior" />
+  </dependency>
+  <dependency className="net.dwarfguide.creature.behavior.AttributeStatistic_BehaviorDescriptor" file="AttributeStatistic_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="net.dwarfguide.creature.behavior.Attribute_BehaviorDescriptor" file="Attribute_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.Entity_BehaviorDescriptor" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.Feature_BehaviorDescriptor" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.HasName_Behavior" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="net.dwarfguide.creature.behavior.AttributesBasedStrategy_BehaviorDescriptor" file="AttributesBasedStrategy_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.HasProfessionConstraint_Behavior" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.HasRaceContraint_Behavior" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.RatingStrategy_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="net.dwarfguide.creature.behavior.BehaviorAspectDescriptor" file="BehaviorAspectDescriptor.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Arrays" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.AttributeRef_BehaviorDescriptor" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.AttributeStatistic_BehaviorDescriptor" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.Attribute_BehaviorDescriptor" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.AttributesBasedStrategy_BehaviorDescriptor" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.FormulaRatingStrategy_BehaviorDescriptor" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.Job_BehaviorDescriptor" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.LabourCategory_BehaviorDescriptor" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.LabourRef_BehaviorDescriptor" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.Labour_BehaviorDescriptor" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.Level_BehaviorDescriptor" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.ProfessionRef_BehaviorDescriptor" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.Profession_BehaviorDescriptor" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.RaceRef_BehaviorDescriptor" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.Race_BehaviorDescriptor" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.SkillRef_BehaviorDescriptor" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.Skill_BehaviorDescriptor" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.Statistic_BehaviorDescriptor" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.StatisticsField_BehaviorDescriptor" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.TraitRef_BehaviorDescriptor" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.Trait_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
+  </dependency>
+  <dependency className="net.dwarfguide.creature.behavior.Entity_BehaviorDescriptor" file="Entity_BehaviorDescriptor.java">
+    <classNode dependClassName="net.dwarfguide.creature.behavior.HasId_BehaviorDescriptor" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.HasName_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+  </dependency>
+  <dependency className="net.dwarfguide.creature.behavior.Feature_BehaviorDescriptor" file="Feature_BehaviorDescriptor.java">
+    <classNode dependClassName="net.dwarfguide.creature.behavior.HasName_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+  </dependency>
+  <dependency className="net.dwarfguide.creature.behavior.FormulaRatingStrategy_BehaviorDescriptor" file="FormulaRatingStrategy_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.HasProfessionConstraint_Behavior" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.HasRaceContraint_Behavior" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.RatingStrategy_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="net.dwarfguide.creature.behavior.HasId_BehaviorDescriptor" file="HasId_BehaviorDescriptor.java" />
+  <dependency className="net.dwarfguide.creature.behavior.HasName_Behavior" file="HasName_Behavior.java">
+    <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorManager" />
+    <classNode dependClassName="jetbrains.mps.smodel.structure.BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.structure.ConceptRegistry" />
+  </dependency>
+  <dependency className="net.dwarfguide.creature.behavior.HasName_BehaviorDescriptor" file="HasName_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+  </dependency>
+  <dependency className="net.dwarfguide.creature.behavior.HasProfessionConstraint_Behavior" file="HasProfessionConstraint_Behavior.java">
+    <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorManager" />
+    <classNode dependClassName="jetbrains.mps.smodel.structure.BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.structure.ConceptRegistry" />
+  </dependency>
+  <dependency className="net.dwarfguide.creature.behavior.HasProfessionConstraint_BehaviorDescriptor" file="HasProfessionConstraint_BehaviorDescriptor.java">
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+  </dependency>
+  <dependency className="net.dwarfguide.creature.behavior.HasRaceContraint_Behavior" file="HasRaceContraint_Behavior.java">
+    <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorManager" />
+    <classNode dependClassName="jetbrains.mps.smodel.structure.BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.structure.ConceptRegistry" />
+  </dependency>
+  <dependency className="net.dwarfguide.creature.behavior.HasRaceContraint_BehaviorDescriptor" file="HasRaceContraint_BehaviorDescriptor.java">
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+  </dependency>
+  <dependency className="net.dwarfguide.creature.behavior.Job_BehaviorDescriptor" file="Job_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.Entity_BehaviorDescriptor" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.HasName_Behavior" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="net.dwarfguide.creature.behavior.LabourCategory_BehaviorDescriptor" file="LabourCategory_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.HasName_Behavior" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.HasName_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="net.dwarfguide.creature.behavior.LabourRef_BehaviorDescriptor" file="LabourRef_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="net.dwarfguide.creature.behavior.Labour_BehaviorDescriptor" file="Labour_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.Entity_BehaviorDescriptor" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.HasName_Behavior" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="net.dwarfguide.creature.behavior.Level_BehaviorDescriptor" file="Level_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.Entity_BehaviorDescriptor" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.HasName_Behavior" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="net.dwarfguide.creature.behavior.ProfessionRef_BehaviorDescriptor" file="ProfessionRef_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="net.dwarfguide.creature.behavior.Profession_BehaviorDescriptor" file="Profession_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.Entity_BehaviorDescriptor" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.HasName_Behavior" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="net.dwarfguide.creature.behavior.RaceRef_BehaviorDescriptor" file="RaceRef_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="net.dwarfguide.creature.behavior.Race_BehaviorDescriptor" file="Race_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.Entity_BehaviorDescriptor" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.HasName_Behavior" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="net.dwarfguide.creature.behavior.RatingStrategy_BehaviorDescriptor" file="RatingStrategy_BehaviorDescriptor.java">
+    <classNode dependClassName="net.dwarfguide.creature.behavior.HasProfessionConstraint_BehaviorDescriptor" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.HasRaceContraint_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+  </dependency>
+  <dependency className="net.dwarfguide.creature.behavior.SkillRef_BehaviorDescriptor" file="SkillRef_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.Expression_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="net.dwarfguide.creature.behavior.Skill_BehaviorDescriptor" file="Skill_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.Entity_BehaviorDescriptor" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.Feature_BehaviorDescriptor" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.HasName_Behavior" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="net.dwarfguide.creature.behavior.Statistic_BehaviorDescriptor" file="Statistic_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.Expression_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="net.dwarfguide.creature.behavior.StatisticsField_BehaviorDescriptor" file="StatisticsField_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="net.dwarfguide.creature.behavior.TraitRef_BehaviorDescriptor" file="TraitRef_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.Expression_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="net.dwarfguide.creature.behavior.Trait_BehaviorDescriptor" file="Trait_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.Entity_BehaviorDescriptor" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.Feature_BehaviorDescriptor" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.HasName_Behavior" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+</dependenciesRoot>
+

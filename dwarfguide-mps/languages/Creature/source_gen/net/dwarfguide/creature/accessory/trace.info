@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <root nodeId="1778400223746937100">
+    <nodeInfo nodeId="5030881626311048417" fileName="GenerationUtils.java" startLine="15" startPosition="31" endLine="16" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5030881626311048424" fileName="GenerationUtils.java" startLine="16" startPosition="59" endLine="17" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5030881626311048455" fileName="GenerationUtils.java" startLine="20" startPosition="35" endLine="21" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5030881626311048459" fileName="GenerationUtils.java" startLine="21" startPosition="49" endLine="22" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1778400223746974733" fileName="GenerationUtils.java" startLine="25" startPosition="30" endLine="26" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5030881626310881933" fileName="GenerationUtils.java" startLine="29" startPosition="61" endLine="30" endPosition="103" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1778400223746937102" fileName="GenerationUtils.java" startLine="11" startPosition="30" endLine="13" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="GenerationUtils#()V" />
+    <nodeInfo nodeId="1778400223746974729" fileName="GenerationUtils.java" startLine="24" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="who#()Ljava/lang/String;" />
+    <nodeInfo nodeId="5030881626310585392" fileName="GenerationUtils.java" startLine="28" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="why#(Ljetbrains/mps/generator/template/TemplateQueryContext;)Ljava/lang/String;" />
+    <nodeInfo nodeId="1778400223746937106" fileName="GenerationUtils.java" startLine="14" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="when#()Ljava/lang/String;" />
+    <nodeInfo nodeId="5030881626311029360" fileName="GenerationUtils.java" startLine="19" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="whenLong#()Ljava/lang/String;" />
+    <scopeInfo nodeId="1778400223746937105" fileName="GenerationUtils.java" startLine="12" startPosition="28" endLine="12" endPosition="28" />
+    <scopeInfo nodeId="1778400223746974732" fileName="GenerationUtils.java" startLine="25" startPosition="30" endLine="26" endPosition="17" />
+    <scopeInfo nodeId="5030881626310585395" fileName="GenerationUtils.java" startLine="29" startPosition="61" endLine="30" endPosition="103" />
+    <scopeInfo nodeId="1778400223746937102" fileName="GenerationUtils.java" startLine="11" startPosition="30" endLine="13" endPosition="3" />
+    <scopeInfo nodeId="1778400223746937109" fileName="GenerationUtils.java" startLine="15" startPosition="31" endLine="17" endPosition="37">
+      <varInfo nodeId="5030881626311048418" varName="format" />
+    </scopeInfo>
+    <scopeInfo nodeId="5030881626311029363" fileName="GenerationUtils.java" startLine="20" startPosition="35" endLine="22" endPosition="37">
+      <varInfo nodeId="5030881626311048456" varName="format" />
+    </scopeInfo>
+    <scopeInfo nodeId="1778400223746974729" fileName="GenerationUtils.java" startLine="24" startPosition="0" endLine="28" endPosition="0" />
+    <scopeInfo nodeId="5030881626310585392" fileName="GenerationUtils.java" startLine="28" startPosition="0" endLine="32" endPosition="0">
+      <varInfo nodeId="5030881626310881922" varName="gencontext" />
+    </scopeInfo>
+    <scopeInfo nodeId="1778400223746937106" fileName="GenerationUtils.java" startLine="14" startPosition="0" endLine="19" endPosition="0" />
+    <scopeInfo nodeId="5030881626311029360" fileName="GenerationUtils.java" startLine="19" startPosition="0" endLine="24" endPosition="0" />
+    <unitInfo nodeId="1778400223746937100" fileName="GenerationUtils.java" startLine="11" startPosition="0" endLine="33" endPosition="0" unitName="net.dwarfguide.creature.accessory.GenerationUtils" />
+  </root>
+</debugInfo>
+

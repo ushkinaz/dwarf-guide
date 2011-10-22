@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="DwarfGuide-MPS.build.DwarfGuide-MPS-compile" file="DwarfGuide-MPS-compile.xml" />
+  <dependency className="DwarfGuide-MPS.build.DwarfGuide-MPS-default" file="DwarfGuide-MPS-default.xml" />
+  <dependency className="DwarfGuide-MPS.build.DwarfGuide-MPS-languages" file="DwarfGuide-MPS-languages.xml" />
+  <dependency className="DwarfGuide-MPS.build.DwarfGuide-MPS" file="DwarfGuide-MPS.properties" />
+</dependenciesRoot>
+

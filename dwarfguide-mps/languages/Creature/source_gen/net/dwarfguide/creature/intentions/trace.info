@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="IntentionsDescriptor.java" startLine="9" startPosition="0" endLine="19" endPosition="0" unitName="net.dwarfguide.creature.intentions.IntentionsDescriptor" />
+  <root nodeId="2455624152132456396">
+    <nodeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="21" startPosition="30" endLine="22" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="25" startPosition="36" endLine="26" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="29" startPosition="37" endLine="30" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="33" startPosition="44" endLine="34" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2455624152132456401" fileName="PopulateRaceWithFileds_Intention.java" startLine="37" startPosition="85" endLine="38" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2455624152132512026" fileName="PopulateRaceWithFileds_Intention.java" startLine="41" startPosition="76" endLine="42" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2455624152132512018" fileName="PopulateRaceWithFileds_Intention.java" startLine="44" startPosition="45" endLine="45" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2455624152132501518" fileName="PopulateRaceWithFileds_Intention.java" startLine="47" startPosition="16" endLine="48" endPosition="128" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2455624152132511886" fileName="PopulateRaceWithFileds_Intention.java" startLine="48" startPosition="128" endLine="49" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2455624152132598428" fileName="PopulateRaceWithFileds_Intention.java" startLine="49" startPosition="156" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="2455624152132549416" fileName="PopulateRaceWithFileds_Intention.java" startLine="50" startPosition="0" endLine="51" endPosition="119" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2455624152132766246" fileName="PopulateRaceWithFileds_Intention.java" startLine="51" startPosition="119" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="2455624152132766248" fileName="PopulateRaceWithFileds_Intention.java" startLine="52" startPosition="0" endLine="53" endPosition="158" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2455624152132766294" fileName="PopulateRaceWithFileds_Intention.java" startLine="53" startPosition="158" endLine="54" endPosition="111" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2455624152132766321" fileName="PopulateRaceWithFileds_Intention.java" startLine="54" startPosition="111" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="2455624152132766282" fileName="PopulateRaceWithFileds_Intention.java" startLine="55" startPosition="0" endLine="56" endPosition="158" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2455624152132766308" fileName="PopulateRaceWithFileds_Intention.java" startLine="56" startPosition="158" endLine="57" endPosition="114" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2455624152132766307" fileName="PopulateRaceWithFileds_Intention.java" startLine="57" startPosition="114" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="2455624152132766283" fileName="PopulateRaceWithFileds_Intention.java" startLine="58" startPosition="0" endLine="59" endPosition="162" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2455624152132766323" fileName="PopulateRaceWithFileds_Intention.java" startLine="59" startPosition="162" endLine="60" endPosition="118" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2455624152132766264" fileName="PopulateRaceWithFileds_Intention.java" startLine="60" startPosition="118" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="2455624152132487577" fileName="PopulateRaceWithFileds_Intention.java" startLine="61" startPosition="0" endLine="62" endPosition="121" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="66" startPosition="37" endLine="67" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="17" startPosition="90" endLine="19" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="PopulateRaceWithFileds_Intention#()V" />
+    <nodeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="20" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
+    <nodeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="24" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isParameterized#()Z" />
+    <nodeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="28" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isErrorIntention#()Z" />
+    <nodeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="32" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
+    <nodeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="36" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Ljava/lang/String;" />
+    <nodeInfo nodeId="2455624152132512012" fileName="PopulateRaceWithFileds_Intention.java" startLine="43" startPosition="194" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljetbrains/mps/smodel/SNode;)Ljava/lang/Comparable;" />
+    <nodeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="65" startPosition="0" endLine="69" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLocationString#()Ljava/lang/String;" />
+    <nodeInfo nodeId="2455624152132487573" fileName="PopulateRaceWithFileds_Intention.java" startLine="42" startPosition="96" endLine="63" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="40" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)V" />
+    <scopeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="18" startPosition="45" endLine="18" endPosition="45" />
+    <scopeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="21" startPosition="30" endLine="22" endPosition="52" />
+    <scopeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="25" startPosition="36" endLine="26" endPosition="17" />
+    <scopeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="29" startPosition="37" endLine="30" endPosition="17" />
+    <scopeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="33" startPosition="44" endLine="34" endPosition="17" />
+    <scopeInfo nodeId="2455624152132456398" fileName="PopulateRaceWithFileds_Intention.java" startLine="37" startPosition="85" endLine="38" endPosition="54" />
+    <scopeInfo nodeId="2455624152132512013" fileName="PopulateRaceWithFileds_Intention.java" startLine="44" startPosition="45" endLine="45" endPosition="64" />
+    <scopeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="66" startPosition="37" endLine="67" endPosition="48" />
+    <scopeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="17" startPosition="90" endLine="19" endPosition="3" />
+    <scopeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="20" startPosition="0" endLine="24" endPosition="0" />
+    <scopeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="24" startPosition="0" endLine="28" endPosition="0" />
+    <scopeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="28" startPosition="0" endLine="32" endPosition="0" />
+    <scopeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="32" startPosition="0" endLine="36" endPosition="0" />
+    <scopeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="36" startPosition="0" endLine="40" endPosition="0" />
+    <scopeInfo nodeId="2455624152132512012" fileName="PopulateRaceWithFileds_Intention.java" startLine="43" startPosition="194" endLine="47" endPosition="0" />
+    <scopeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="65" startPosition="0" endLine="69" endPosition="0" />
+    <scopeInfo nodeId="2455624152132487576" fileName="PopulateRaceWithFileds_Intention.java" startLine="47" startPosition="16" endLine="62" endPosition="121">
+      <varInfo nodeId="2455624152132501519" varName="attributeStatistic" />
+    </scopeInfo>
+    <scopeInfo nodeId="2455624152132487573" fileName="PopulateRaceWithFileds_Intention.java" startLine="42" startPosition="96" endLine="63" endPosition="5" />
+    <scopeInfo nodeId="2455624152132456400" fileName="PopulateRaceWithFileds_Intention.java" startLine="41" startPosition="76" endLine="63" endPosition="5" />
+    <scopeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="40" startPosition="0" endLine="65" endPosition="0" />
+    <unitInfo nodeId="2455624152132512012" fileName="PopulateRaceWithFileds_Intention.java" startLine="43" startPosition="159" endLine="47" endPosition="5" unitName="net.dwarfguide.creature.intentions.PopulateRaceWithFileds_Intention$1" />
+    <unitInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="17" startPosition="0" endLine="70" endPosition="0" unitName="net.dwarfguide.creature.intentions.PopulateRaceWithFileds_Intention" />
+  </root>
+  <root nodeId="2455624152132987133">
+    <nodeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="18" startPosition="30" endLine="19" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="22" startPosition="36" endLine="23" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="26" startPosition="37" endLine="27" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="30" startPosition="44" endLine="31" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2455624152132987138" fileName="GenerateId_Intention.java" startLine="34" startPosition="85" endLine="35" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2455624152132987198" fileName="GenerateId_Intention.java" startLine="38" startPosition="76" endLine="39" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2455624152132987204" fileName="GenerateId_Intention.java" startLine="42" startPosition="32" endLine="43" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2455624152132987224" fileName="GenerateId_Intention.java" startLine="46" startPosition="5" endLine="47" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="50" startPosition="37" endLine="51" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="14" startPosition="78" endLine="16" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="GenerateId_Intention#()V" />
+    <nodeInfo nodeId="2455624152132986667" fileName="GenerateId_Intention.java" startLine="41" startPosition="108" endLine="44" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
+    <nodeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="21" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isParameterized#()Z" />
+    <nodeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="25" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isErrorIntention#()Z" />
+    <nodeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
+    <nodeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="33" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Ljava/lang/String;" />
+    <nodeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="49" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLocationString#()Ljava/lang/String;" />
+    <nodeInfo nodeId="2455624152132986635" fileName="GenerateId_Intention.java" startLine="40" startPosition="153" endLine="45" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="2455624152132987141" fileName="GenerateId_Intention.java" startLine="39" startPosition="18" endLine="46" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="37" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)V" />
+    <scopeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="15" startPosition="33" endLine="15" endPosition="33" />
+    <scopeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="18" startPosition="30" endLine="19" endPosition="53" />
+    <scopeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="22" startPosition="36" endLine="23" endPosition="17" />
+    <scopeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="26" startPosition="37" endLine="27" endPosition="17" />
+    <scopeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="30" startPosition="44" endLine="31" endPosition="17" />
+    <scopeInfo nodeId="2455624152132987135" fileName="GenerateId_Intention.java" startLine="34" startPosition="85" endLine="35" endPosition="32" />
+    <scopeInfo nodeId="2455624152132986668" fileName="GenerateId_Intention.java" startLine="42" startPosition="32" endLine="43" endPosition="91" />
+    <scopeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="50" startPosition="37" endLine="51" endPosition="48" />
+    <scopeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="14" startPosition="78" endLine="16" endPosition="3" />
+    <scopeInfo nodeId="2455624152132986636" fileName="GenerateId_Intention.java" startLine="41" startPosition="108" endLine="44" endPosition="9" />
+    <scopeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
+    <scopeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="33" startPosition="0" endLine="37" endPosition="0" />
+    <scopeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="49" startPosition="0" endLine="53" endPosition="0" />
+    <scopeInfo nodeId="2455624152132987144" fileName="GenerateId_Intention.java" startLine="40" startPosition="153" endLine="45" endPosition="7" />
+    <scopeInfo nodeId="2455624152132987141" fileName="GenerateId_Intention.java" startLine="39" startPosition="18" endLine="46" endPosition="5" />
+    <scopeInfo nodeId="2455624152132987137" fileName="GenerateId_Intention.java" startLine="38" startPosition="76" endLine="47" endPosition="62">
+      <varInfo nodeId="2455624152132987199" varName="maxId" />
+    </scopeInfo>
+    <scopeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="37" startPosition="0" endLine="49" endPosition="0" />
+    <unitInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="14" startPosition="0" endLine="54" endPosition="0" unitName="net.dwarfguide.creature.intentions.GenerateId_Intention" />
+  </root>
+</debugInfo>
+
