@@ -33,7 +33,7 @@
           <value>
             <Library>
               <option name="name" value="baseLanguage.sugar" />
-              <option name="path" value="${MPS_LIBS}/baseLang-sugar" />
+              <option name="path" value="${MPS_LIBS}/baseLanguage.sugar" />
             </Library>
           </value>
         </entry>
