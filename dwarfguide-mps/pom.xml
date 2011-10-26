@@ -35,7 +35,7 @@
     <dependency>
       <groupId>net.dwarfguide</groupId>
       <artifactId>dwarfguide-core</artifactId>
-      <version>${version}</version>
+      <version>${project.version}</version>
     </dependency>
 -->
 
