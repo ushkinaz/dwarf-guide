@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-6clfwbktubonbtdga8cp4xopsdi4tam">
+<dependencies version="2" modelHash="-92766m2i7pbo7rkjn02obso32ij0lh2">
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
   <dep model="f:java_stub#d44dab97-aaac-44cb-9745-8a14db674c03#jetbrains.mps.baseLanguage.tuples.runtime(jetbrains.mps.baseLanguage.tuples.runtime/jetbrains.mps.baseLanguage.tuples.runtime@java_stub)" />
@@ -16,7 +16,7 @@
   <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895903ac(jetbrains.mps.baseLanguageInternal.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590580(jetbrains.mps.baseLanguage.logging.generator.baseLanguage.template.main@generator)" />
-  <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" hash="-1r4fk5xzw0e4djzvv96cqlm90a7dbcz" />
+  <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" hash="-7mb86ny3ktoau4hsigfreb0k8aa8ky3" />
   <dep model="r:1ed15f01-bfff-4415-ad99-ca4fdf487cf5(baseLanguage.sugar.generator.template.generator.template.main@generator)" />
   <dep model="r:309aeee7-bee8-445c-b31d-35928d1da75f(jetbrains.mps.baseLanguage.tuples.structure)" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
@@ -294,6 +294,7 @@
     <dep root="4936626689121327923" />
     <dep root="4936626689121327924" />
     <dep root="4936626689121327925" />
+    <dep root="6240134291333203356" />
     <dep root="655979893346440619" />
     <dep root="8701932881020747800" />
     <dep root="8701932881020747801" />
@@ -2107,8 +2108,8 @@
   <source id="4936626689121327925" name="AnalyticalAbility" hash="9rq9rqrq27v1v42c17hpku6rbca4reg">
     <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />
   </source>
-  <source id="655979893346440619" hash="5z2gqmuxv39slkqy0i07be49f0iynpo" dependsOnCreated="true">
-    <dep root="1147484092" />
+  <source id="655979893346440619" hash="-5kppv9fo6qcf9zp6440gqe7joeu77wq" dependsOnCreated="true">
+    <dep root="1147484109" />
     <dep root="2455624152132595976" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
@@ -2121,7 +2122,7 @@
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
     <dep model="r:c71b740e-a20d-4190-9688-0f8df932da4d(jetbrains.mps.baseLanguage.tuples.generator.template.main@generator)" />
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
-    <file name="RatingMinerDwarf.java" />
+    <file name="RatingArmorerDwarf.java" />
   </source>
   <source id="5994105463846200585" name="Miner" hash="-8or4gyjyars2cvgwyzjzr53f76p4jjg">
     <dep model="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" />

@@ -52,13 +52,13 @@
     <nodeInfo nodeId="1778400223746895192" fileName="QueriesGenerated.java" startLine="244" startPosition="151" endLine="245" endPosition="183" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1778400223746895219" fileName="QueriesGenerated.java" startLine="248" startPosition="151" endLine="249" endPosition="201" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1778400223746902206" fileName="QueriesGenerated.java" startLine="254" startPosition="39" endLine="255" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1778400223746895170" fileName="QueriesGenerated.java" startLine="344" startPosition="155" endLine="345" endPosition="122" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1778400223746895170" fileName="QueriesGenerated.java" startLine="344" startPosition="155" endLine="345" endPosition="115" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1778400223746902201" fileName="QueriesGenerated.java" startLine="253" startPosition="217" endLine="257" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/smodel/SNode;)Z" />
     <nodeInfo nodeId="1778400223746902177" fileName="QueriesGenerated.java" startLine="252" startPosition="151" endLine="257" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="1778400223746895178" fileName="QueriesGenerated.java" startLine="244" startPosition="151" endLine="245" endPosition="183" />
     <scopeInfo nodeId="1778400223746895204" fileName="QueriesGenerated.java" startLine="248" startPosition="151" endLine="249" endPosition="201" />
     <scopeInfo nodeId="1778400223746902202" fileName="QueriesGenerated.java" startLine="254" startPosition="39" endLine="255" endPosition="98" />
-    <scopeInfo nodeId="1778400223746895167" fileName="QueriesGenerated.java" startLine="344" startPosition="155" endLine="345" endPosition="122" />
+    <scopeInfo nodeId="1778400223746895167" fileName="QueriesGenerated.java" startLine="344" startPosition="155" endLine="345" endPosition="115" />
     <scopeInfo nodeId="1778400223746902201" fileName="QueriesGenerated.java" startLine="253" startPosition="217" endLine="257" endPosition="0" />
     <scopeInfo nodeId="1778400223746902163" fileName="QueriesGenerated.java" startLine="252" startPosition="151" endLine="257" endPosition="7" />
     <unitInfo nodeId="1778400223746902201" fileName="QueriesGenerated.java" startLine="253" startPosition="194" endLine="257" endPosition="5" unitName="net.dwarfguide.creature.generator.template.generator.template.main.QueriesGenerated$2" />

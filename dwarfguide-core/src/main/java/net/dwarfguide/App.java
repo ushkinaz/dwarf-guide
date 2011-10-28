@@ -43,7 +43,7 @@ public class App {
 
   public void makeIt() {
     List<Creature> creatures = creatureLoader.loadCreatures();
-    for (CreatureRating creatureRating : ladder.creatureRatings(creatures, ProfessionEnum.AXEMAN)) {
+    for (CreatureRating creatureRating : ladder.creatureRatings(creatures, ProfessionEnum.MINER)) {
       LOGGER.info(creatureRating.toString());
     }
   }

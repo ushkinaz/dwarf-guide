@@ -141,7 +141,7 @@
     <classNode dependClassName="net.dwarfguide.model.core.RaceEnum" />
     <classNode extendsClassName="jetbrains.mps.baseLanguage.tuples.runtime._2" />
   </dependency>
-  <dependency className="net.dwarfguide.model.core.RatingMinerDwarf" file="RatingMinerDwarf.java">
+  <dependency className="net.dwarfguide.model.core.RatingArmorerDwarf" file="RatingArmorerDwarf.java">
     <classNode dependClassName="net.dwarfguide.model.core.Creature" />
     <classNode dependClassName="net.dwarfguide.model.core.DwarfStats" />
     <classNode dependClassName="net.dwarfguide.model.core.ProfessionEnum" />
@@ -161,11 +161,12 @@
     <classNode dependClassName="java.util.HashMap" />
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
+    <classNode dependClassName="net.dwarfguide.model.core.AttributeRatingMinerDwarf" />
     <classNode dependClassName="net.dwarfguide.model.core.Creature" />
     <classNode dependClassName="net.dwarfguide.model.core.ProfessionEnum" />
     <classNode dependClassName="net.dwarfguide.model.core.RaceEnum" />
     <classNode dependClassName="net.dwarfguide.model.core.RaceProfession" />
-    <classNode dependClassName="net.dwarfguide.model.core.RatingMinerDwarf" />
+    <classNode dependClassName="net.dwarfguide.model.core.RatingArmorerDwarf" />
     <classNode dependClassName="net.dwarfguide.model.core.RatingStrategy" />
     <classNode extendsClassName="net.dwarfguide.model.core.RatingStrategyFactory" />
   </dependency>

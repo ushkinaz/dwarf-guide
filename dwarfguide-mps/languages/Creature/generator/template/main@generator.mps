@@ -3089,7 +3089,7 @@
                       <node role="operation" roleId="tpee.1197027833540" type="tpf3.GenerationContextOp_GetInputModel" typeId="tpf3.1217004708011" id="1778400223746895174" />
                     </node>
                     <node role="operation" roleId="tpee.1197027833540" type="tp25.Model_NodesOperation" typeId="tp25.1171323947159" id="1778400223746895175">
-                      <link role="concept" roleId="tp25.1171323947160" targetNodeId="2ivj.3848777903716482830" resolveInfo="FormulaRatingStrategy" />
+                      <link role="concept" roleId="tp25.1171323947160" targetNodeId="2ivj.957305663110941283" resolveInfo="RatingStrategy" />
                     </node>
                   </node>
                 </node>

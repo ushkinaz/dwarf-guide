@@ -342,7 +342,7 @@ public class QueriesGenerated {
   }
 
   public static Iterable sourceNodesQuery_1778400223746895166(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
-    return SModelOperations.getNodes(_context.getInputModel(), "net.dwarfguide.creature.structure.FormulaRatingStrategy");
+    return SModelOperations.getNodes(_context.getInputModel(), "net.dwarfguide.creature.structure.RatingStrategy");
   }
 
   public static Iterable sourceNodesQuery_9062650802969084991(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {

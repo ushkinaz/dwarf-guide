@@ -4611,9 +4611,6 @@
   <root id="4936626689121327924" />
   <root id="4936626689121327925" />
   <root id="655979893346440619">
-    <node role="professionRef" roleId="2ivj.3848777903716151686" type="2ivj.ProfessionRef" typeId="2ivj.2413918680966836691" id="7730107903695239024">
-      <link role="profession" roleId="2ivj.2413918680966836692" targetNodeId="1147484092" resolveInfo="Miner" />
-    </node>
     <node role="ratingFormula" roleId="2ivj.3848777903716482832" type="tpee.MinusExpression" typeId="tpee.1068581242869" id="655979893346440728">
       <node role="rightExpression" roleId="tpee.1081773367579" type="2ivj.Statistic" typeId="2ivj.297736238471143922" id="655979893346440731">
         <property name="statisticType" nameId="2ivj.297736238471365654" value="max" />
@@ -4632,6 +4629,9 @@
     </node>
     <node role="raceRef" roleId="2ivj.3848777903716151684" type="2ivj.RaceRef" typeId="2ivj.2455624152132549373" id="4445912768816522403">
       <link role="race" roleId="2ivj.2455624152132549374" targetNodeId="2455624152132595976" resolveInfo="Dwarf" />
+    </node>
+    <node role="professionRef" roleId="2ivj.3848777903716151686" type="2ivj.ProfessionRef" typeId="2ivj.2413918680966836691" id="5798787672921110714">
+      <link role="profession" roleId="2ivj.2413918680966836692" targetNodeId="1147484109" resolveInfo="Armorer" />
     </node>
   </root>
   <root id="5994105463846200585">
