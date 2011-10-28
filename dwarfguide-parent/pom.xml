@@ -152,5 +152,10 @@
       <name>java.net m2 repo</name>
       <url>http://download.java.net/maven/2/</url>
     </repository>
+    <repository>
+      <id>cloudbee-release</id>
+      <name>CloudBees releases</name>
+      <url>http://repository-ushkinaz.forge.cloudbees.com/release/</url>
+    </repository>
   </repositories>
 </project>
