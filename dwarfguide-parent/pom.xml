@@ -20,7 +20,7 @@
   <groupId>net.dwarfguide</groupId>
   <artifactId>dwarfguide-parent</artifactId>
   <packaging>pom</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>0.1-SNAPSHOT</version>
 
   <name>DwarfGuide Parent</name>
 
