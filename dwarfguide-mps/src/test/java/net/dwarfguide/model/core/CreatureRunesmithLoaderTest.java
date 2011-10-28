@@ -32,7 +32,8 @@ public class CreatureRunesmithLoaderTest {
 
   @Test
   public void testGet() throws Exception {
-    CreatureLoader serializer = new CreatureRunesmithLoader("TestDwarves.xml");
+    String testPath = this.getClass().getClassLoader().getResource("TestDwarves.xml").getFile();
+    CreatureLoader serializer = new CreatureRunesmithLoader(testPath);
     List<Creature> creatures = serializer.loadCreatures();
     Assert.assertThat(creatures.size(), CoreMatchers.is(110));
   }
