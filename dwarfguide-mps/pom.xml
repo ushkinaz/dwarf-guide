@@ -31,13 +31,13 @@
   <name>MPS generated files for DwarfGuide</name>
 
   <dependencies>
-<!--
-    <dependency>
-      <groupId>net.dwarfguide</groupId>
-      <artifactId>dwarfguide-core</artifactId>
-      <version>${project.version}</version>
-    </dependency>
--->
+    <!--
+        <dependency>
+          <groupId>net.dwarfguide</groupId>
+          <artifactId>dwarfguide-core</artifactId>
+          <version>${project.version}</version>
+        </dependency>
+    -->
 
     <dependency>
       <groupId>commons-io</groupId>
@@ -62,6 +62,25 @@
       <artifactId>jcl-over-slf4j</artifactId>
       <version>1.6.2</version>
     </dependency>
+
+    <dependency>
+      <groupId>jetbrains.mps.baseLanguage</groupId>
+      <artifactId>closures</artifactId>
+      <version>2.0.2</version>
+    </dependency>
+
+    <dependency>
+      <groupId>jetbrains.mps.baseLanguage</groupId>
+      <artifactId>collections</artifactId>
+      <version>2.0.2</version>
+    </dependency>
+
+    <dependency>
+      <groupId>jetbrains.mps.baseLanguage</groupId>
+      <artifactId>tuples</artifactId>
+      <version>2.0.2</version>
+    </dependency>
+
   </dependencies>
 
   <build>
