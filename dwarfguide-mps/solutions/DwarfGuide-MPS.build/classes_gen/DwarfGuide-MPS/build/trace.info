@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <root nodeId="3848777903716205128">
+    <nodeInfo nodeId="3848777903716205128" fileName="DwarfGuide-MPS.properties" startLine="1" startPosition="0" endLine="1" endPosition="0" conceptFqName="jetbrains.mps.gtext.structure.GIndent" />
+    <nodeInfo nodeId="3848777903716205128" fileName="DwarfGuide-MPS.properties" startLine="1" startPosition="0" endLine="1" endPosition="39" conceptFqName="jetbrains.mps.gtext.structure.GText" />
+    <nodeInfo nodeId="3848777903716205128" fileName="DwarfGuide-MPS.properties" startLine="2" startPosition="0" endLine="2" endPosition="0" conceptFqName="jetbrains.mps.gtext.structure.GIndent" />
+    <nodeInfo nodeId="3848777903716205128" fileName="DwarfGuide-MPS.properties" startLine="2" startPosition="0" endLine="2" endPosition="32" conceptFqName="jetbrains.mps.gtext.structure.GText" />
+    <nodeInfo nodeId="3848777903716205128" fileName="DwarfGuide-MPS.properties" startLine="3" startPosition="0" endLine="3" endPosition="0" conceptFqName="jetbrains.mps.gtext.structure.GIndent" />
+    <nodeInfo nodeId="3848777903716205128" fileName="DwarfGuide-MPS.properties" startLine="3" startPosition="0" endLine="3" endPosition="29" conceptFqName="jetbrains.mps.gtext.structure.GText" />
+    <nodeInfo nodeId="3848777903716205128" fileName="DwarfGuide-MPS.properties" startLine="1" startPosition="0" endLine="2" endPosition="0" conceptFqName="jetbrains.mps.gtext.structure.GItemList" />
+    <nodeInfo nodeId="3848777903716205128" fileName="DwarfGuide-MPS.properties" startLine="1" startPosition="39" endLine="2" endPosition="0" conceptFqName="jetbrains.mps.gtext.structure.GNewLine" />
+    <nodeInfo nodeId="3848777903716205128" fileName="DwarfGuide-MPS.properties" startLine="2" startPosition="0" endLine="3" endPosition="0" conceptFqName="jetbrains.mps.gtext.structure.GItemList" />
+    <nodeInfo nodeId="3848777903716205128" fileName="DwarfGuide-MPS.properties" startLine="2" startPosition="32" endLine="3" endPosition="0" conceptFqName="jetbrains.mps.gtext.structure.GNewLine" />
+    <nodeInfo nodeId="3848777903716205128" fileName="DwarfGuide-MPS.properties" startLine="3" startPosition="0" endLine="4" endPosition="0" conceptFqName="jetbrains.mps.gtext.structure.GItemList" />
+    <nodeInfo nodeId="3848777903716205128" fileName="DwarfGuide-MPS.properties" startLine="3" startPosition="29" endLine="4" endPosition="0" conceptFqName="jetbrains.mps.gtext.structure.GNewLine" />
+    <unitInfo nodeId="3848777903716205128" fileName="DwarfGuide-MPS.properties" startLine="1" startPosition="0" endLine="4" endPosition="0" unitName="DwarfGuide-MPS.properties" />
+  </root>
+</debugInfo>
+
