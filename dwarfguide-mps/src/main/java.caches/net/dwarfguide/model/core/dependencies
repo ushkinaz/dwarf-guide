@@ -107,10 +107,18 @@
     <classNode dependClassName="org.simpleframework.xml.Root" />
   </dependency>
   <dependency className="net.dwarfguide.model.core.DwarfStats" file="DwarfStats.java">
+    <classNode dependClassName="java.util.EnumMap" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="net.dwarfguide.model.core.AttributeEnum" />
     <classNode dependClassName="net.dwarfguide.model.core.RaceEnum" />
+    <classNode dependClassName="net.dwarfguide.model.core.StatisticsTuple" />
   </dependency>
   <dependency className="net.dwarfguide.model.core.GoblinStats" file="GoblinStats.java">
+    <classNode dependClassName="java.util.EnumMap" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="net.dwarfguide.model.core.AttributeEnum" />
     <classNode dependClassName="net.dwarfguide.model.core.RaceEnum" />
+    <classNode dependClassName="net.dwarfguide.model.core.StatisticsTuple" />
   </dependency>
   <dependency className="net.dwarfguide.model.core.IntegerInBracketsConverter" file="IntegerInBracketsConverter.java">
     <classNode dependClassName="java.lang.Exception" />
@@ -187,6 +195,13 @@
     <classNode dependClassName="net.dwarfguide.model.core.SkillEnum" />
     <classNode dependClassName="org.simpleframework.xml.Element" />
     <classNode dependClassName="org.simpleframework.xml.convert.Convert" />
+  </dependency>
+  <dependency className="net.dwarfguide.model.core.StatisticsTuple" file="StatisticsTuple.java">
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.SuppressWarnings" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.tuples.runtime.MultiTuple" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.tuples.runtime.Tuples" />
+    <classNode extendsClassName="jetbrains.mps.baseLanguage.tuples.runtime._3" />
   </dependency>
   <dependency className="net.dwarfguide.model.core.TraitDecoder" file="TraitDecoder.java">
     <classNode dependClassName="java.lang.String" />

@@ -92,7 +92,7 @@ public class AttributeStatistic_Editor extends DefaultNodeEditor {
   private EditorCell createRefNode_cb0lbw_c0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("min");
-    provider.setNoTargetText("<no min>");
+    provider.setNoTargetText("0");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     {

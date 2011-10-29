@@ -85,6 +85,18 @@ public class QueriesGenerated {
     return HasName_Behavior.call_getSanitizedName_3848777903716100296(_context.getNode()) + "Stats";
   }
 
+  public static Object propertyMacro_GetPropertyValue_1056254091089918115(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return AttributeStatistic_Behavior.call_getMin_3848777903716026587(_context.getNode());
+  }
+
+  public static Object propertyMacro_GetPropertyValue_1056254091089918124(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return AttributeStatistic_Behavior.call_getMax_3848777903716026604(_context.getNode());
+  }
+
+  public static Object propertyMacro_GetPropertyValue_1056254091089918133(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return AttributeStatistic_Behavior.call_getAvg_3848777903716026570(_context.getNode());
+  }
+
   public static Object propertyMacro_GetPropertyValue_4936626689121451188(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "name");
   }
@@ -209,6 +221,10 @@ public class QueriesGenerated {
     return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "RaceEnumLabel");
   }
 
+  public static Object referenceMacro_GetReferent_1056254091089918100(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "attr", true), "attribute", false), "AttributeEnumLabel");
+  }
+
   public static Object referenceMacro_GetReferent_4425779126295958589(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(_context.getNode(), "skill", false), "SkillEnumLabel");
   }
@@ -326,6 +342,10 @@ public class QueriesGenerated {
   }
 
   public static Iterable sourceNodesQuery_6143566370761624145(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(_context.getNode(), "attributeStatistic", true);
+  }
+
+  public static Iterable sourceNodesQuery_1056254091089918140(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "attributeStatistic", true);
   }
 

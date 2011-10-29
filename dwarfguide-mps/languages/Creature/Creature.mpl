@@ -20,6 +20,7 @@
       </dependencies>
       <usedLanguages>
         <usedLanguage>d965f506-a0c0-43c2-871a-b97ce8f6c751(baseLanguage.sugar)</usedLanguage>
+        <usedLanguage>ec18e679-bd6d-4441-a00b-ab06c2d44eec(net.dwarfguide.creature)</usedLanguage>
       </usedLanguages>
       <usedDevKits>
         <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
