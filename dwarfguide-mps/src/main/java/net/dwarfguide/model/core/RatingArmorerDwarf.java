@@ -9,6 +9,6 @@ public class RatingArmorerDwarf extends AbstractRatingStrategy {
   }
 
   public int getRating(Creature creature) {
-    return creature.getTrait(TraitEnum.ADVENTURE) + 2 - DwarfStats.MAX_ENDURANCE;
+    return creature.getTrait(TraitEnum.ADVENTURE) + 2 - DwarfStats.getMax(AttributeEnum.ENDURANCE);
   }
 }

@@ -150,6 +150,7 @@
     <classNode extendsClassName="jetbrains.mps.baseLanguage.tuples.runtime._2" />
   </dependency>
   <dependency className="net.dwarfguide.model.core.RatingArmorerDwarf" file="RatingArmorerDwarf.java">
+    <classNode dependClassName="net.dwarfguide.model.core.AttributeEnum" />
     <classNode dependClassName="net.dwarfguide.model.core.Creature" />
     <classNode dependClassName="net.dwarfguide.model.core.DwarfStats" />
     <classNode dependClassName="net.dwarfguide.model.core.ProfessionEnum" />

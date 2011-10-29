@@ -10,7 +10,6 @@ public class AttributeRatingMinerDwarf extends AbstractRatingStrategy {
 
   public int getRating(Creature creature) {
     int sum = 0;
-
     sum += creature.getAttribute(AttributeEnum.STRENGTH);
     sum += creature.getAttribute(AttributeEnum.TOUGHNESS);
     sum += creature.getAttribute(AttributeEnum.ENDURANCE);
