@@ -19,6 +19,7 @@
   <unitInfo fileName="Creatures.java" startLine="11" startPosition="0" endLine="24" endPosition="0" unitName="net.dwarfguide.model.core.Creatures" />
   <unitInfo fileName="RatingStrategyFactoryConcrete.java" startLine="9" startPosition="0" endLine="30" endPosition="0" unitName="net.dwarfguide.model.core.RatingStrategyFactoryConcrete" />
   <unitInfo fileName="SkillXMLInstance.java" startLine="8" startPosition="0" endLine="36" endPosition="0" unitName="net.dwarfguide.model.core.SkillXMLInstance" />
+  <unitInfo fileName="CreatureStatistic.java" startLine="7" startPosition="0" endLine="36" endPosition="0" unitName="net.dwarfguide.model.core.CreatureStatistic" />
   <unitInfo fileName="IntegerInBracketsConverter.java" startLine="13" startPosition="0" endLine="42" endPosition="0" unitName="net.dwarfguide.model.core.IntegerInBracketsConverter" />
   <unitInfo fileName="RaceProfession.java" startLine="8" startPosition="0" endLine="38" endPosition="0" unitName="net.dwarfguide.model.core.RaceProfession" />
   <unitInfo fileName="AttributeEnum.java" startLine="6" startPosition="0" endLine="37" endPosition="0" unitName="net.dwarfguide.model.core.AttributeEnum" />
@@ -28,6 +29,7 @@
   <unitInfo fileName="CreatureRating.java" startLine="8" startPosition="0" endLine="46" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRating" />
   <unitInfo fileName="TraitInstance.java" startLine="8" startPosition="0" endLine="46" endPosition="0" unitName="net.dwarfguide.model.core.TraitInstance" />
   <unitInfo fileName="TraitEnum.java" startLine="6" startPosition="0" endLine="48" endPosition="0" unitName="net.dwarfguide.model.core.TraitEnum" />
+  <unitInfo fileName="CreatureStatisticsManager.java" startLine="10" startPosition="0" endLine="75" endPosition="0" unitName="net.dwarfguide.model.core.CreatureStatisticsManager" />
   <unitInfo fileName="CreatureRunesmithLoader.java" startLine="22" startPosition="0" endLine="100" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader" />
   <unitInfo fileName="CreatureRunesmithLoader.java" startLine="22" startPosition="0" endLine="100" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader" />
   <unitInfo fileName="Creature.java" startLine="8" startPosition="0" endLine="105" endPosition="0" unitName="net.dwarfguide.model.core.Creature" />
@@ -43,25 +45,25 @@
     <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="23" startPosition="48" endLine="24" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="27" startPosition="48" endLine="28" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="31" startPosition="10" endLine="32" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="32" startPosition="77" endLine="33" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="33" startPosition="71" endLine="34" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="34" startPosition="83" endLine="35" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="35" startPosition="78" endLine="36" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="36" startPosition="83" endLine="37" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="37" startPosition="83" endLine="38" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="38" startPosition="76" endLine="39" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="39" startPosition="75" endLine="40" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="40" startPosition="81" endLine="41" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="41" startPosition="73" endLine="42" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="42" startPosition="74" endLine="43" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="43" startPosition="75" endLine="44" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="44" startPosition="72" endLine="45" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="45" startPosition="75" endLine="46" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="46" startPosition="83" endLine="47" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="47" startPosition="78" endLine="48" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="48" startPosition="75" endLine="49" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="49" startPosition="74" endLine="50" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="50" startPosition="75" endLine="51" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="32" startPosition="77" endLine="33" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="33" startPosition="74" endLine="34" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="34" startPosition="72" endLine="35" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="35" startPosition="75" endLine="36" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="36" startPosition="75" endLine="37" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="37" startPosition="83" endLine="38" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="38" startPosition="78" endLine="39" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="39" startPosition="83" endLine="40" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="40" startPosition="72" endLine="41" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="41" startPosition="75" endLine="42" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="42" startPosition="75" endLine="43" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="43" startPosition="71" endLine="44" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="44" startPosition="75" endLine="45" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="45" startPosition="74" endLine="46" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="46" startPosition="78" endLine="47" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="47" startPosition="83" endLine="48" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="48" startPosition="83" endLine="49" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="49" startPosition="76" endLine="50" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="50" startPosition="73" endLine="51" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="11" startPosition="0" endLine="13" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="DwarfStats#()V" />
     <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="14" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="normalizeValue#(IILnet/dwarfguide/model/core/AttributeEnum;)I" />
     <nodeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="18" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getAverage#(Lnet/dwarfguide/model/core/AttributeEnum;)I" />
@@ -77,7 +79,7 @@
     <scopeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
     <scopeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
     <scopeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="31" startPosition="10" endLine="51" endPosition="73" />
+    <scopeInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="31" startPosition="10" endLine="51" endPosition="81" />
     <unitInfo nodeId="2455624152132595976" fileName="DwarfStats.java" startLine="8" startPosition="0" endLine="54" endPosition="0" unitName="net.dwarfguide.model.core.DwarfStats" />
   </root>
   <root nodeId="2455624152132937618">

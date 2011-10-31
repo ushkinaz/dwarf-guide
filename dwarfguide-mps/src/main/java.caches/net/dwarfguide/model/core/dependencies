@@ -79,6 +79,22 @@
     <classNode extendsClassName="net.dwarfguide.model.core.CreatureLoader" />
     <classNode extendsClassName="net.dwarfguide.model.core.ReadonlyTransform" />
   </dependency>
+  <dependency className="net.dwarfguide.model.core.CreatureStatistic" file="CreatureStatistic.java">
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="net.dwarfguide.model.core.AttributeEnum" />
+    <classNode dependClassName="net.dwarfguide.model.core.RaceEnum" />
+    <classNode dependClassName="net.dwarfguide.model.core.StatisticsTuple" />
+  </dependency>
+  <dependency className="net.dwarfguide.model.core.CreatureStatisticsManager" file="CreatureStatisticsManager.java">
+    <classNode dependClassName="java.util.EnumMap" />
+    <classNode dependClassName="java.util.HashMap" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
+    <classNode dependClassName="net.dwarfguide.model.core.AttributeEnum" />
+    <classNode dependClassName="net.dwarfguide.model.core.CreatureStatistic" />
+    <classNode dependClassName="net.dwarfguide.model.core.RaceEnum" />
+    <classNode dependClassName="net.dwarfguide.model.core.StatisticsTuple" />
+  </dependency>
   <dependency className="net.dwarfguide.model.core.CreatureXML" file="CreatureXML.java">
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.List" />

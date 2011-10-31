@@ -30,24 +30,24 @@ public class DwarfStats {
 
   static {
     stats = new EnumMap<AttributeEnum, StatisticsTuple>(AttributeEnum.class);
+    stats.put(AttributeEnum.STRENGTH, new StatisticsTuple(0, 5000, 1250));
+    stats.put(AttributeEnum.AGILITY, new StatisticsTuple(0, 5000, 900));
+    stats.put(AttributeEnum.TOUGHNESS, new StatisticsTuple(0, 5000, 1250));
+    stats.put(AttributeEnum.ENDURANCE, new StatisticsTuple(0, 5000, 1000));
+    stats.put(AttributeEnum.DISEASERESISTANCE, new StatisticsTuple(0, 5000, 1000));
+    stats.put(AttributeEnum.RECUPERATION, new StatisticsTuple(0, 5000, 1000));
+    stats.put(AttributeEnum.ANALYTICALABILITY, new StatisticsTuple(0, 5000, 1250));
+    stats.put(AttributeEnum.MEMORY, new StatisticsTuple(0, 5000, 1250));
+    stats.put(AttributeEnum.CREATVITY, new StatisticsTuple(0, 5000, 1250));
+    stats.put(AttributeEnum.INTUITION, new StatisticsTuple(0, 5000, 1000));
     stats.put(AttributeEnum.FOCUS, new StatisticsTuple(0, 5000, 1500));
-    stats.put(AttributeEnum.KINAESTHETICSENSE, new StatisticsTuple(0, 5000, 1500));
+    stats.put(AttributeEnum.WILLPOWER, new StatisticsTuple(0, 5000, 1000));
+    stats.put(AttributeEnum.PATIENCE, new StatisticsTuple(0, 5000, 1250));
     stats.put(AttributeEnum.SPATIALSENSE, new StatisticsTuple(0, 5000, 1500));
-    stats.put(AttributeEnum.LINGUISTICABILITY, new StatisticsTuple(0, 5000, 1500));
-    stats.put(AttributeEnum.ANALYTICALABILITY, new StatisticsTuple(0, 5000, 1500));
-    stats.put(AttributeEnum.MUSICALITY, new StatisticsTuple(0, 5000, 1500));
-    stats.put(AttributeEnum.CREATVITY, new StatisticsTuple(0, 5000, 1500));
-    stats.put(AttributeEnum.SOCIALAWARENESS, new StatisticsTuple(0, 5000, 1500));
-    stats.put(AttributeEnum.EMPATHY, new StatisticsTuple(0, 5000, 1500));
-    stats.put(AttributeEnum.PATIENCE, new StatisticsTuple(0, 5000, 1500));
-    stats.put(AttributeEnum.INTUITION, new StatisticsTuple(0, 5000, 1500));
-    stats.put(AttributeEnum.MEMORY, new StatisticsTuple(0, 5000, 1500));
-    stats.put(AttributeEnum.WILLPOWER, new StatisticsTuple(0, 5000, 1500));
-    stats.put(AttributeEnum.DISEASERESISTANCE, new StatisticsTuple(0, 5000, 1500));
-    stats.put(AttributeEnum.RECUPERATION, new StatisticsTuple(0, 5000, 1500));
-    stats.put(AttributeEnum.TOUGHNESS, new StatisticsTuple(0, 5000, 1500));
-    stats.put(AttributeEnum.STRENGTH, new StatisticsTuple(0, 5000, 1500));
-    stats.put(AttributeEnum.ENDURANCE, new StatisticsTuple(0, 5000, 1500));
-    stats.put(AttributeEnum.AGILITY, new StatisticsTuple(0, 5000, 1500));
+    stats.put(AttributeEnum.KINAESTHETICSENSE, new StatisticsTuple(0, 5000, 1000));
+    stats.put(AttributeEnum.LINGUISTICABILITY, new StatisticsTuple(0, 5000, 1000));
+    stats.put(AttributeEnum.MUSICALITY, new StatisticsTuple(0, 5000, 1000));
+    stats.put(AttributeEnum.EMPATHY, new StatisticsTuple(0, 5000, 1000));
+    stats.put(AttributeEnum.SOCIALAWARENESS, new StatisticsTuple(0, 5000, 1000));
   }
 }
