@@ -19,6 +19,7 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
+import net.dwarfguide.creature.behavior.Profession_Behavior;
 
 public class QueriesGenerated {
   public static boolean baseMappingRule_Condition_5248964655731768021(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
@@ -249,7 +250,11 @@ public class QueriesGenerated {
     return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "SkillEnumLabel");
   }
 
-  public static Object referenceMacro_GetReferent_7730107903695162944(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+  public static Object referenceMacro_GetReferent_5248964655731903897(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(_context.getNode(), "attribute", false), "AttributeEnumLabel");
+  }
+
+  public static Object referenceMacro_GetReferent_5248964655731903912(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(_context.getNode(), "attribute", false), "AttributeEnumLabel");
   }
 
@@ -341,8 +346,8 @@ public class QueriesGenerated {
     return SModelOperations.getNodes(_context.getInputModel(), "net.dwarfguide.creature.structure.Skill");
   }
 
-  public static Iterable sourceNodesQuery_7730107903695144599(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
-    return SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(HasProfessionConstraint_Behavior.call_profession_7730107903695144631(_context.getNode()), "skillRef", true), "skill", false), "dependsOn", true);
+  public static Iterable sourceNodesQuery_5248964655731903929(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return Profession_Behavior.call_dependentSkills_5248964655731903843(HasProfessionConstraint_Behavior.call_profession_7730107903695144631(_context.getNode()));
   }
 
   public static Iterable sourceNodesQuery_5248964655731453421(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {

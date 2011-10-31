@@ -19,6 +19,7 @@
     <classNode dependClassName="net.dwarfguide.creature.behavior.HasName_Behavior" />
     <classNode dependClassName="net.dwarfguide.creature.behavior.HasProfessionConstraint_Behavior" />
     <classNode dependClassName="net.dwarfguide.creature.behavior.HasRaceContraint_Behavior" />
+    <classNode dependClassName="net.dwarfguide.creature.behavior.Profession_Behavior" />
     <classNode dependClassName="net.dwarfguide.creature.behavior.Statistic_Behavior" />
   </dependency>
 </dependenciesRoot>

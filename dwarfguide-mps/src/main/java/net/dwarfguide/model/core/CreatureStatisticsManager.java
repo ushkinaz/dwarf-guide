@@ -64,4 +64,18 @@ public class CreatureStatisticsManager {
   public StatisticsTuple getStats(RaceEnum race, AttributeEnum attr) {
     return statistics.get(race).get(attr);
   }
+
+  /**
+   * Normalize value to fit [0..max] range
+   * 
+   * @param value value
+   * @param max maximum
+   * @param race race
+   * @param attr attribute
+   * @return normalized value
+   */
+  public int normalize(int value, int max, RaceEnum race, AttributeEnum attr) {
+    StatisticsTuple stat = getStats(race, attr);
+    return max * (value - (int) stat.min()) / ((int) stat.max() - (int) stat.min());
+  }
 }

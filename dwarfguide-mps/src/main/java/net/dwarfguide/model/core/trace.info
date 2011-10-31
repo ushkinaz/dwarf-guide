@@ -29,7 +29,7 @@
   <unitInfo fileName="CreatureRating.java" startLine="8" startPosition="0" endLine="46" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRating" />
   <unitInfo fileName="TraitInstance.java" startLine="8" startPosition="0" endLine="46" endPosition="0" unitName="net.dwarfguide.model.core.TraitInstance" />
   <unitInfo fileName="TraitEnum.java" startLine="6" startPosition="0" endLine="48" endPosition="0" unitName="net.dwarfguide.model.core.TraitEnum" />
-  <unitInfo fileName="CreatureStatisticsManager.java" startLine="8" startPosition="0" endLine="68" endPosition="0" unitName="net.dwarfguide.model.core.CreatureStatisticsManager" />
+  <unitInfo fileName="CreatureStatisticsManager.java" startLine="8" startPosition="0" endLine="82" endPosition="0" unitName="net.dwarfguide.model.core.CreatureStatisticsManager" />
   <unitInfo fileName="CreatureRunesmithLoader.java" startLine="22" startPosition="0" endLine="100" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader" />
   <unitInfo fileName="CreatureRunesmithLoader.java" startLine="22" startPosition="0" endLine="100" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader" />
   <unitInfo fileName="Creature.java" startLine="8" startPosition="0" endLine="105" endPosition="0" unitName="net.dwarfguide.model.core.Creature" />
@@ -38,23 +38,24 @@
   <unitInfo fileName="TraitDecoder.java" startLine="9" startPosition="0" endLine="205" endPosition="0" unitName="net.dwarfguide.model.core.TraitDecoder" />
   <unitInfo fileName="CreatureXML.java" startLine="13" startPosition="0" endLine="762" endPosition="0" unitName="net.dwarfguide.model.core.CreatureXML" />
   <root nodeId="6240134291333203356">
-    <nodeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="7" startPosition="81" endLine="8" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="11" startPosition="43" endLine="12" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="12" startPosition="16" endLine="13" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="13" startPosition="57" endLine="14" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="14" startPosition="58" endLine="15" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="15" startPosition="58" endLine="16" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="16" startPosition="58" endLine="17" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="17" startPosition="61" endLine="18" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="18" startPosition="66" endLine="19" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="19" startPosition="18" endLine="20" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="6" startPosition="71" endLine="9" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="AttributeRatingMinerDwarf#(Lnet/dwarfguide/model/core/CreatureStatisticsManager;)V" />
-    <nodeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="10" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getRating#(Lnet/dwarfguide/model/core/Creature;)I" />
-    <scopeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="7" startPosition="81" endLine="8" endPosition="113" />
-    <scopeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="6" startPosition="71" endLine="9" endPosition="3" />
-    <scopeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="11" startPosition="43" endLine="20" endPosition="15" />
-    <scopeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="10" startPosition="0" endLine="22" endPosition="0" />
-    <unitInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="6" startPosition="0" endLine="23" endPosition="0" unitName="net.dwarfguide.model.core.AttributeRatingMinerDwarf" />
+    <nodeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="6" startPosition="71" endLine="7" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="MAX_NORMALIZED" />
+    <nodeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="9" startPosition="81" endLine="10" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="13" startPosition="43" endLine="14" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="14" startPosition="16" endLine="15" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="15" startPosition="146" endLine="16" endPosition="148" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="16" startPosition="148" endLine="17" endPosition="148" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="17" startPosition="148" endLine="18" endPosition="148" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="18" startPosition="148" endLine="19" endPosition="154" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="19" startPosition="154" endLine="20" endPosition="164" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="20" startPosition="164" endLine="21" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="21" startPosition="18" endLine="22" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="8" startPosition="0" endLine="11" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="AttributeRatingMinerDwarf#(Lnet/dwarfguide/model/core/CreatureStatisticsManager;)V" />
+    <nodeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="12" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getRating#(Lnet/dwarfguide/model/core/Creature;)I" />
+    <scopeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="9" startPosition="81" endLine="10" endPosition="113" />
+    <scopeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="8" startPosition="0" endLine="11" endPosition="3" />
+    <scopeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="13" startPosition="43" endLine="22" endPosition="15" />
+    <scopeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="12" startPosition="0" endLine="24" endPosition="0" />
+    <unitInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="6" startPosition="0" endLine="25" endPosition="0" unitName="net.dwarfguide.model.core.AttributeRatingMinerDwarf" />
   </root>
   <root nodeId="655979893346440619">
     <nodeInfo nodeId="655979893346440619" fileName="RatingArmorerDwarf.java" startLine="7" startPosition="74" endLine="8" endPosition="101" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />

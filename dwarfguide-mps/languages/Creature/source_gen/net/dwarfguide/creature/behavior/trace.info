@@ -100,6 +100,16 @@
     <scopeInfo nodeId="5248964655731809074" fileName="Statistic_Behavior.java" startLine="11" startPosition="0" endLine="15" endPosition="0" />
     <unitInfo nodeId="5248964655731809074" fileName="Statistic_Behavior.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="net.dwarfguide.creature.behavior.Statistic_Behavior" />
   </root>
+  <root nodeId="5248964655731903840">
+    <nodeInfo nodeId="5248964655731903848" fileName="Profession_Behavior.java" startLine="12" startPosition="90" endLine="13" endPosition="155" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5248964655731903840" fileName="Profession_Behavior.java" startLine="8" startPosition="34" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="5248964655731903840" fileName="Profession_Behavior.java" startLine="11" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_dependentSkills_5248964655731903843#(Ljetbrains/mps/smodel/SNode;)Ljava/lang/Iterable;" />
+    <scopeInfo nodeId="5248964655731903842" fileName="Profession_Behavior.java" startLine="9" startPosition="43" endLine="9" endPosition="43" />
+    <scopeInfo nodeId="5248964655731903846" fileName="Profession_Behavior.java" startLine="12" startPosition="90" endLine="13" endPosition="155" />
+    <scopeInfo nodeId="5248964655731903840" fileName="Profession_Behavior.java" startLine="8" startPosition="34" endLine="11" endPosition="0" />
+    <scopeInfo nodeId="5248964655731903840" fileName="Profession_Behavior.java" startLine="11" startPosition="0" endLine="15" endPosition="0" />
+    <unitInfo nodeId="5248964655731903840" fileName="Profession_Behavior.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="net.dwarfguide.creature.behavior.Profession_Behavior" />
+  </root>
   <root nodeId="6143566370761775355">
     <nodeInfo nodeId="6143566370761775355" fileName="HasRaceContraint_Behavior.java" startLine="12" startPosition="40" endLine="13" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="PARAMETERS_6143566370761776415" />
     <nodeInfo nodeId="6143566370761776420" fileName="HasRaceContraint_Behavior.java" startLine="18" startPosition="75" endLine="19" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
