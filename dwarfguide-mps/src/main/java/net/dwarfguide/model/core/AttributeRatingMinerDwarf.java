@@ -4,8 +4,8 @@ package net.dwarfguide.model.core;
 
 
 public class AttributeRatingMinerDwarf extends AbstractRatingStrategy {
-  public AttributeRatingMinerDwarf() {
-    super("Attribute Based Strategy for dwarven miner", RaceEnum.DWARF, ProfessionEnum.MINER);
+  public AttributeRatingMinerDwarf(CreatureStatisticsManager statisticsManager) {
+    super("Attribute Based Strategy for dwarven miner", RaceEnum.DWARF, ProfessionEnum.MINER, statisticsManager);
   }
 
   public int getRating(Creature creature) {

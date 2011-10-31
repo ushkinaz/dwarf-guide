@@ -4,14 +4,16 @@ package net.dwarfguide.model.core;
 
 
 public abstract class AbstractRatingStrategy implements RatingStrategy {
+  protected CreatureStatisticsManager statisticsManager;
   private String myDescription;
   private RaceEnum myRace;
   private ProfessionEnum myProfession;
 
-  protected AbstractRatingStrategy(String description, RaceEnum raceEnum, ProfessionEnum professionEnum) {
+  protected AbstractRatingStrategy(String description, RaceEnum raceEnum, ProfessionEnum professionEnum, CreatureStatisticsManager statisticsManager) {
     this.setDescription(description);
     this.setRace(raceEnum);
     this.setProfession(professionEnum);
+    this.statisticsManager = statisticsManager;
   }
 
   public String getDescription() {

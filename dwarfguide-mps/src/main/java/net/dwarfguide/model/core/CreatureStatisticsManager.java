@@ -4,21 +4,14 @@ package net.dwarfguide.model.core;
 
 import java.util.Map;
 import java.util.EnumMap;
-import jetbrains.mps.internal.collections.runtime.MapSequence;
-import java.util.HashMap;
 
 public class CreatureStatisticsManager {
-  private Map<RaceEnum, CreatureStatistic> statistics;
+  private Map<RaceEnum, Map<AttributeEnum, StatisticsTuple>> statistics;
 
   public CreatureStatisticsManager() {
-    statistics = new EnumMap<RaceEnum, CreatureStatistic>(RaceEnum.class);
-
-
-    Map<AttributeEnum, StatisticsTuple> ss;
-    ss = MapSequence.fromMap(new HashMap<AttributeEnum, StatisticsTuple>());
+    statistics = new EnumMap<RaceEnum, Map<AttributeEnum, StatisticsTuple>>(RaceEnum.class);
 
     Map<AttributeEnum, StatisticsTuple> stats;
-    CreatureStatistic creatureStatistic;
 
     // Statistics for dwarf 
     stats = new EnumMap<AttributeEnum, StatisticsTuple>(AttributeEnum.class);
@@ -41,9 +34,7 @@ public class CreatureStatisticsManager {
     stats.put(AttributeEnum.MUSICALITY, new StatisticsTuple(0, 5000, 1000));
     stats.put(AttributeEnum.EMPATHY, new StatisticsTuple(0, 5000, 1000));
     stats.put(AttributeEnum.SOCIALAWARENESS, new StatisticsTuple(0, 5000, 1000));
-
-    creatureStatistic = new CreatureStatistic(RaceEnum.DWARF, stats);
-    statistics.put(RaceEnum.DWARF, creatureStatistic);
+    statistics.put(RaceEnum.DWARF, stats);
 
     // Statistics for goblin 
     stats = new EnumMap<AttributeEnum, StatisticsTuple>(AttributeEnum.class);
@@ -66,9 +57,11 @@ public class CreatureStatisticsManager {
     stats.put(AttributeEnum.STRENGTH, new StatisticsTuple(0, 5000, 1500));
     stats.put(AttributeEnum.ENDURANCE, new StatisticsTuple(0, 5000, 1500));
     stats.put(AttributeEnum.AGILITY, new StatisticsTuple(0, 5000, 1500));
+    statistics.put(RaceEnum.GOBLIN, stats);
 
-    creatureStatistic = new CreatureStatistic(RaceEnum.GOBLIN, stats);
-    statistics.put(RaceEnum.GOBLIN, creatureStatistic);
+  }
 
+  public StatisticsTuple getStats(RaceEnum race, AttributeEnum attr) {
+    return statistics.get(race).get(attr);
   }
 }

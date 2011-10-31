@@ -2,6 +2,7 @@
 <dependenciesRoot>
   <dependency className="net.dwarfguide.model.core.AbstractRatingStrategy" file="AbstractRatingStrategy.java">
     <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="net.dwarfguide.model.core.CreatureStatisticsManager" />
     <classNode dependClassName="net.dwarfguide.model.core.ProfessionEnum" />
     <classNode dependClassName="net.dwarfguide.model.core.RaceEnum" />
     <classNode extendsClassName="net.dwarfguide.model.core.RatingStrategy" />
@@ -17,6 +18,7 @@
   <dependency className="net.dwarfguide.model.core.AttributeRatingMinerDwarf" file="AttributeRatingMinerDwarf.java">
     <classNode dependClassName="net.dwarfguide.model.core.AttributeEnum" />
     <classNode dependClassName="net.dwarfguide.model.core.Creature" />
+    <classNode dependClassName="net.dwarfguide.model.core.CreatureStatisticsManager" />
     <classNode dependClassName="net.dwarfguide.model.core.ProfessionEnum" />
     <classNode dependClassName="net.dwarfguide.model.core.RaceEnum" />
     <classNode extendsClassName="net.dwarfguide.model.core.AbstractRatingStrategy" />
@@ -79,19 +81,10 @@
     <classNode extendsClassName="net.dwarfguide.model.core.CreatureLoader" />
     <classNode extendsClassName="net.dwarfguide.model.core.ReadonlyTransform" />
   </dependency>
-  <dependency className="net.dwarfguide.model.core.CreatureStatistic" file="CreatureStatistic.java">
-    <classNode dependClassName="java.util.Map" />
-    <classNode dependClassName="net.dwarfguide.model.core.AttributeEnum" />
-    <classNode dependClassName="net.dwarfguide.model.core.RaceEnum" />
-    <classNode dependClassName="net.dwarfguide.model.core.StatisticsTuple" />
-  </dependency>
   <dependency className="net.dwarfguide.model.core.CreatureStatisticsManager" file="CreatureStatisticsManager.java">
     <classNode dependClassName="java.util.EnumMap" />
-    <classNode dependClassName="java.util.HashMap" />
     <classNode dependClassName="java.util.Map" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
     <classNode dependClassName="net.dwarfguide.model.core.AttributeEnum" />
-    <classNode dependClassName="net.dwarfguide.model.core.CreatureStatistic" />
     <classNode dependClassName="net.dwarfguide.model.core.RaceEnum" />
     <classNode dependClassName="net.dwarfguide.model.core.StatisticsTuple" />
   </dependency>
@@ -122,20 +115,6 @@
     <classNode dependClassName="org.simpleframework.xml.ElementList" />
     <classNode dependClassName="org.simpleframework.xml.Root" />
   </dependency>
-  <dependency className="net.dwarfguide.model.core.DwarfStats" file="DwarfStats.java">
-    <classNode dependClassName="java.util.EnumMap" />
-    <classNode dependClassName="java.util.Map" />
-    <classNode dependClassName="net.dwarfguide.model.core.AttributeEnum" />
-    <classNode dependClassName="net.dwarfguide.model.core.RaceEnum" />
-    <classNode dependClassName="net.dwarfguide.model.core.StatisticsTuple" />
-  </dependency>
-  <dependency className="net.dwarfguide.model.core.GoblinStats" file="GoblinStats.java">
-    <classNode dependClassName="java.util.EnumMap" />
-    <classNode dependClassName="java.util.Map" />
-    <classNode dependClassName="net.dwarfguide.model.core.AttributeEnum" />
-    <classNode dependClassName="net.dwarfguide.model.core.RaceEnum" />
-    <classNode dependClassName="net.dwarfguide.model.core.StatisticsTuple" />
-  </dependency>
   <dependency className="net.dwarfguide.model.core.IntegerInBracketsConverter" file="IntegerInBracketsConverter.java">
     <classNode dependClassName="java.lang.Exception" />
     <classNode dependClassName="java.lang.Integer" />
@@ -149,6 +128,15 @@
     <classNode dependClassName="org.simpleframework.xml.stream.InputNode" />
     <classNode dependClassName="org.simpleframework.xml.stream.OutputNode" />
     <classNode extendsClassName="org.simpleframework.xml.convert.Converter" />
+  </dependency>
+  <dependency className="net.dwarfguide.model.core.MPSModule" file="MPSModule.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="net.dwarfguide.model.core.CreatureLoader" />
+    <classNode dependClassName="net.dwarfguide.model.core.CreatureRunesmithLoader" />
+    <classNode dependClassName="net.dwarfguide.model.core.CreatureStatisticsManager" />
+    <classNode dependClassName="net.dwarfguide.model.core.RatingStrategyFactory" />
+    <classNode dependClassName="net.dwarfguide.model.core.RatingStrategyFactoryConcrete" />
+    <classNode extendsClassName="com.google.inject.AbstractModule" />
   </dependency>
   <dependency className="net.dwarfguide.model.core.ProfessionEnum" file="ProfessionEnum.java">
     <classNode dependClassName="java.lang.String" />
@@ -168,7 +156,7 @@
   <dependency className="net.dwarfguide.model.core.RatingArmorerDwarf" file="RatingArmorerDwarf.java">
     <classNode dependClassName="net.dwarfguide.model.core.AttributeEnum" />
     <classNode dependClassName="net.dwarfguide.model.core.Creature" />
-    <classNode dependClassName="net.dwarfguide.model.core.DwarfStats" />
+    <classNode dependClassName="net.dwarfguide.model.core.CreatureStatisticsManager" />
     <classNode dependClassName="net.dwarfguide.model.core.ProfessionEnum" />
     <classNode dependClassName="net.dwarfguide.model.core.RaceEnum" />
     <classNode dependClassName="net.dwarfguide.model.core.TraitEnum" />
@@ -185,9 +173,11 @@
   <dependency className="net.dwarfguide.model.core.RatingStrategyFactoryConcrete" file="RatingStrategyFactoryConcrete.java">
     <classNode dependClassName="java.util.HashMap" />
     <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="javax.inject.Inject" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
     <classNode dependClassName="net.dwarfguide.model.core.AttributeRatingMinerDwarf" />
     <classNode dependClassName="net.dwarfguide.model.core.Creature" />
+    <classNode dependClassName="net.dwarfguide.model.core.CreatureStatisticsManager" />
     <classNode dependClassName="net.dwarfguide.model.core.ProfessionEnum" />
     <classNode dependClassName="net.dwarfguide.model.core.RaceEnum" />
     <classNode dependClassName="net.dwarfguide.model.core.RaceProfession" />

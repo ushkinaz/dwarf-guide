@@ -58,6 +58,12 @@
     </generator>
   </generators>
   <stubModelEntries>
+    <stubModelEntry path="${DWARVEN_PATH}/dwarfguide-mps/lib/guice.jar">
+      <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
+    </stubModelEntry>
+    <stubModelEntry path="${DWARVEN_PATH}/dwarfguide-mps/lib/javax.inject.jar">
+      <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
+    </stubModelEntry>
     <stubModelEntry path="${DWARVEN_PATH}/dwarfguide-mps/lib/commons-io.jar">
       <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
     </stubModelEntry>

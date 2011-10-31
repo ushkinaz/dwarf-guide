@@ -18,10 +18,7 @@ package net.dwarfguide;
 
 import com.google.inject.Guice;
 import com.google.inject.Injector;
-import net.dwarfguide.model.core.Creature;
-import net.dwarfguide.model.core.CreatureLoader;
-import net.dwarfguide.model.core.CreatureRating;
-import net.dwarfguide.model.core.ProfessionEnum;
+import net.dwarfguide.model.core.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -49,8 +46,9 @@ public class App {
   }
 
   public static void main(String[] args) {
-    final GuideModule module = new GuideModule("Dwarves.xml");
-    Injector injector = Guice.createInjector(module);
+    Injector injector = Guice.createInjector(
+            new GuideModule(),
+            new MPSModule("Dwarves.xml"));
     injector.getInstance(App.class).makeIt();
   }
 }

@@ -10,40 +10,27 @@ import net.dwarfguide.creature.behavior.HasName_Behavior;
 import net.dwarfguide.creature.behavior.HasRaceContraint_Behavior;
 import net.dwarfguide.creature.behavior.HasProfessionConstraint_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import net.dwarfguide.creature.behavior.AttributeStatistic_Behavior;
 import net.dwarfguide.creature.accessory.GenerationUtils;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import net.dwarfguide.creature.behavior.AttributeStatistic_Behavior;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.internal.collections.runtime.IWhereFilter;
+import net.dwarfguide.creature.behavior.Statistic_Behavior;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 
 public class QueriesGenerated {
-  public static boolean baseMappingRule_Condition_1056254091090077934(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
-    return SPropertyOperations.hasValue(_context.getNode(), "statisticType", "min", null);
-  }
-
-  public static boolean baseMappingRule_Condition_1056254091090077969(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
-    return SPropertyOperations.hasValue(_context.getNode(), "statisticType", "max", null);
-  }
-
-  public static boolean baseMappingRule_Condition_1056254091090077973(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
+  public static boolean baseMappingRule_Condition_5248964655731768021(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
     return SPropertyOperations.hasValue(_context.getNode(), "statisticType", "average", null);
   }
 
-  public static boolean baseMappingRule_Condition_1056254091090039103(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
+  public static boolean baseMappingRule_Condition_5248964655731768101(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
     return SPropertyOperations.hasValue(_context.getNode(), "statisticType", "min", null);
   }
 
-  public static boolean baseMappingRule_Condition_1056254091090039139(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
+  public static boolean baseMappingRule_Condition_5248964655731768061(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
     return SPropertyOperations.hasValue(_context.getNode(), "statisticType", "max", null);
-  }
-
-  public static boolean baseMappingRule_Condition_1056254091090039164(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
-    return SPropertyOperations.hasValue(_context.getNode(), "statisticType", "average", null);
   }
 
   public static Object propertyMacro_GetPropertyValue_3754205069338473634(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -80,22 +67,6 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_297736238470942446(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return "Rating" + HasName_Behavior.call_getSanitizedName_3848777903716100296(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "professionRef", true), "profession", false)) + HasName_Behavior.call_getSanitizedName_3848777903716100296(HasRaceContraint_Behavior.call_getRace_6143566370761776415(_context.getNode()));
-  }
-
-  public static Object propertyMacro_GetPropertyValue_6143566370761624277(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return HasName_Behavior.call_getSanitizedName_3848777903716100296(_context.getNode()) + "Stats";
-  }
-
-  public static Object propertyMacro_GetPropertyValue_1056254091089918115(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return AttributeStatistic_Behavior.call_getMin_3848777903716026587(_context.getNode());
-  }
-
-  public static Object propertyMacro_GetPropertyValue_1056254091089918124(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return AttributeStatistic_Behavior.call_getMax_3848777903716026604(_context.getNode());
-  }
-
-  public static Object propertyMacro_GetPropertyValue_1056254091089918133(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return AttributeStatistic_Behavior.call_getAvg_3848777903716026570(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_4936626689121451188(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -194,30 +165,6 @@ public class QueriesGenerated {
     return AttributeStatistic_Behavior.call_getAvg_3848777903716026570(_context.getNode());
   }
 
-  public static Object referenceMacro_GetReferent_1056254091090077949(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "attributeRef", true), "attribute", false), "AttributeEnumLabel");
-  }
-
-  public static Object referenceMacro_GetReferent_1056254091090117411(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.getAncestor(_context.getNode(), "net.dwarfguide.creature.structure.HasRaceContraint", false, false), "raceRef", true), "race", false), "CreatureStatsClassLabel");
-  }
-
-  public static Object referenceMacro_GetReferent_1056254091090117541(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "attributeRef", true), "attribute", false), "AttributeEnumLabel");
-  }
-
-  public static Object referenceMacro_GetReferent_1056254091090117553(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.getAncestor(_context.getNode(), "net.dwarfguide.creature.structure.HasRaceContraint", false, false), "raceRef", true), "race", false), "CreatureStatsClassLabel");
-  }
-
-  public static Object referenceMacro_GetReferent_1056254091090117509(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "attributeRef", true), "attribute", false), "AttributeEnumLabel");
-  }
-
-  public static Object referenceMacro_GetReferent_1056254091090117521(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.getAncestor(_context.getNode(), "net.dwarfguide.creature.structure.HasRaceContraint", false, false), "raceRef", true), "race", false), "CreatureStatsClassLabel");
-  }
-
   public static Object referenceMacro_GetReferent_4425779126295914503(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "TraitEnumLabel");
   }
@@ -232,14 +179,6 @@ public class QueriesGenerated {
 
   public static Object referenceMacro_GetReferent_4425779126295924313(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(_context.getNode(), "attribute", false), "AttributeEnumLabel");
-  }
-
-  public static Object referenceMacro_GetReferent_6143566370761757948(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "RaceEnumLabel");
-  }
-
-  public static Object referenceMacro_GetReferent_1056254091089918100(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "attr", true), "attribute", false), "AttributeEnumLabel");
   }
 
   public static Object referenceMacro_GetReferent_4425779126295958589(final IOperationContext operationContext, final ReferenceMacroContext _context) {
@@ -283,11 +222,7 @@ public class QueriesGenerated {
   }
 
   public static Object referenceMacro_GetReferent_1778400223746902162(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return ListSequence.fromList(SLinkOperations.getTargets(_context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "RatingStrategyClassLabel"), "constructor", true)).findFirst(new IWhereFilter<SNode>() {
-      public boolean accept(SNode it) {
-        return ListSequence.fromList(SLinkOperations.getTargets(it, "parameter", true)).isEmpty();
-      }
-    });
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "RatingStrategyConstructor");
   }
 
   public static Object referenceMacro_GetReferent_4425779126295914859(final IOperationContext operationContext, final ReferenceMacroContext _context) {
@@ -326,24 +261,24 @@ public class QueriesGenerated {
     return _context.getOutputNodeByInputNodeAndMappingLabel(HasProfessionConstraint_Behavior.call_profession_7730107903695144631(_context.getNode()), "ProfessionEnumLabel");
   }
 
-  public static Object referenceMacro_GetReferent_1056254091090039176(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "attributeRef", true), "attribute", false), "AttributeEnumLabel");
-  }
-
-  public static Object referenceMacro_GetReferent_1056254091090039128(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "attributeRef", true), "attribute", false), "AttributeEnumLabel");
-  }
-
-  public static Object referenceMacro_GetReferent_1056254091090039192(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "attributeRef", true), "attribute", false), "AttributeEnumLabel");
-  }
-
   public static Object referenceMacro_GetReferent_5248964655731546327(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return _context.getOutputNodeByInputNodeAndMappingLabel(AttributeStatistic_Behavior.call_getAttribute_6143566370761777642(_context.getNode()), "AttributeEnumLabel");
   }
 
   public static Object referenceMacro_GetReferent_5248964655731453358(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "RaceEnumLabel");
+  }
+
+  public static Object referenceMacro_GetReferent_5248964655731809055(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(Statistic_Behavior.call_getAttribute_5248964655731809077(_context.getNode()), "AttributeEnumLabel");
+  }
+
+  public static Object referenceMacro_GetReferent_5248964655731809096(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(Statistic_Behavior.call_getAttribute_5248964655731809077(_context.getNode()), "AttributeEnumLabel");
+  }
+
+  public static Object referenceMacro_GetReferent_5248964655731809108(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(Statistic_Behavior.call_getAttribute_5248964655731809077(_context.getNode()), "AttributeEnumLabel");
   }
 
   public static SNode sourceNodeQuery_3848777903716482944(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
@@ -368,10 +303,6 @@ public class QueriesGenerated {
 
   public static Iterable sourceNodesQuery_7201497847334464008(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SModelOperations.getRoots(_context.getInputModel(), "net.dwarfguide.creature.structure.Race");
-  }
-
-  public static Iterable sourceNodesQuery_1056254091089918140(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
-    return SLinkOperations.getTargets(_context.getNode(), "attributeStatistic", true);
   }
 
   public static Iterable sourceNodesQuery_6143566370761822240(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
