@@ -9,8 +9,8 @@ public class FormulaRatingStrategy_BehaviorDescriptor extends BaseConcept_Behavi
   public FormulaRatingStrategy_BehaviorDescriptor() {
   }
 
-  public SNode virtual_getRace_6143566370761776415(SNode thisNode) {
-    return HasRaceContraint_Behavior.virtual_getRace_6143566370761776415(thisNode);
+  public SNode virtual_race_6143566370761776415(SNode thisNode) {
+    return HasRaceContraint_Behavior.virtual_race_6143566370761776415(thisNode);
   }
 
   public SNode virtual_profession_7730107903695144631(SNode thisNode) {

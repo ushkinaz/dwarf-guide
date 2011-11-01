@@ -15,16 +15,16 @@ public class HasRaceContraint_Behavior {
   public static void init(SNode thisNode) {
   }
 
-  public static SNode virtual_getRace_6143566370761776415(SNode thisNode) {
+  public static SNode virtual_race_6143566370761776415(SNode thisNode) {
     return SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, "raceRef", true), "race", false);
   }
 
-  public static SNode call_getRace_6143566370761776415(SNode thisNode) {
+  public static SNode call_race_6143566370761776415(SNode thisNode) {
     BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
-    return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "net.dwarfguide.creature.structure.HasRaceContraint"), "virtual_getRace_6143566370761776415", PARAMETERS_6143566370761776415);
+    return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "net.dwarfguide.creature.structure.HasRaceContraint"), "virtual_race_6143566370761776415", PARAMETERS_6143566370761776415);
   }
 
-  public static SNode callSuper_getRace_6143566370761776415(SNode thisNode, String callerConceptFqName) {
-    return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "net.dwarfguide.creature.structure.HasRaceContraint"), callerConceptFqName, "virtual_getRace_6143566370761776415", PARAMETERS_6143566370761776415);
+  public static SNode callSuper_race_6143566370761776415(SNode thisNode, String callerConceptFqName) {
+    return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "net.dwarfguide.creature.structure.HasRaceContraint"), callerConceptFqName, "virtual_race_6143566370761776415", PARAMETERS_6143566370761776415);
   }
 }

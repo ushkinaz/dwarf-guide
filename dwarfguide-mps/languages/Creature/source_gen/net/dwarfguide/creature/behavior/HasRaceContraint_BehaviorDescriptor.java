@@ -5,5 +5,5 @@ package net.dwarfguide.creature.behavior;
 import jetbrains.mps.smodel.SNode;
 
 public interface HasRaceContraint_BehaviorDescriptor {
-  public SNode virtual_getRace_6143566370761776415(SNode thisNode);
+  public SNode virtual_race_6143566370761776415(SNode thisNode);
 }

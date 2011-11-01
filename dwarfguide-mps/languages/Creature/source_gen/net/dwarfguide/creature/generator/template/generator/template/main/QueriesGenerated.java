@@ -9,17 +9,18 @@ import jetbrains.mps.generator.template.PropertyMacroContext;
 import net.dwarfguide.creature.behavior.HasName_Behavior;
 import net.dwarfguide.creature.behavior.HasRaceContraint_Behavior;
 import net.dwarfguide.creature.behavior.HasProfessionConstraint_Behavior;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import net.dwarfguide.creature.accessory.GenerationUtils;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.internal.collections.runtime.Sequence;
+import net.dwarfguide.creature.behavior.Profession_Behavior;
 import net.dwarfguide.creature.behavior.AttributeStatistic_Behavior;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import net.dwarfguide.creature.behavior.Statistic_Behavior;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
-import net.dwarfguide.creature.behavior.Profession_Behavior;
 
 public class QueriesGenerated {
   public static boolean baseMappingRule_Condition_5248964655731768021(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
@@ -63,11 +64,11 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_7730107903695343402(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return "Strategy for " + SPropertyOperations.getString(HasRaceContraint_Behavior.call_getRace_6143566370761776415(_context.getNode()), "adjective") + " " + SPropertyOperations.getString(HasProfessionConstraint_Behavior.call_profession_7730107903695144631(_context.getNode()), "name").toLowerCase();
+    return "Strategy for " + SPropertyOperations.getString(HasRaceContraint_Behavior.call_race_6143566370761776415(_context.getNode()), "adjective") + " " + SPropertyOperations.getString(HasProfessionConstraint_Behavior.call_profession_7730107903695144631(_context.getNode()), "name").toLowerCase();
   }
 
   public static Object propertyMacro_GetPropertyValue_297736238470942446(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return "Rating" + HasName_Behavior.call_getSanitizedName_3848777903716100296(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "professionRef", true), "profession", false)) + HasName_Behavior.call_getSanitizedName_3848777903716100296(HasRaceContraint_Behavior.call_getRace_6143566370761776415(_context.getNode()));
+    return "Rating" + HasName_Behavior.call_getSanitizedName_3848777903716100296(HasProfessionConstraint_Behavior.call_profession_7730107903695144631(_context.getNode())) + HasName_Behavior.call_getSanitizedName_3848777903716100296(HasRaceContraint_Behavior.call_race_6143566370761776415(_context.getNode()));
   }
 
   public static Object propertyMacro_GetPropertyValue_4936626689121451188(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -139,15 +140,15 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_7730107903695144661(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(HasProfessionConstraint_Behavior.call_profession_7730107903695144631(_context.getNode()), "skillRef", true), "skill", false), "dependsOn", true)).count();
+    return Sequence.fromIterable(Profession_Behavior.call_dependentSkills_5248964655731903843(HasProfessionConstraint_Behavior.call_profession_7730107903695144631(_context.getNode()))).count();
   }
 
   public static Object propertyMacro_GetPropertyValue_7730107903695343237(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return "Attribute Based Strategy for " + SPropertyOperations.getString(HasRaceContraint_Behavior.call_getRace_6143566370761776415(_context.getNode()), "adjective") + " " + SPropertyOperations.getString(HasProfessionConstraint_Behavior.call_profession_7730107903695144631(_context.getNode()), "name").toLowerCase();
+    return "Attribute Based Strategy for " + SPropertyOperations.getString(HasRaceContraint_Behavior.call_race_6143566370761776415(_context.getNode()), "adjective") + " " + SPropertyOperations.getString(HasProfessionConstraint_Behavior.call_profession_7730107903695144631(_context.getNode()), "name").toLowerCase();
   }
 
   public static Object propertyMacro_GetPropertyValue_7730107903695108831(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return "AttributeRating" + HasName_Behavior.call_getSanitizedName_3848777903716100296(HasProfessionConstraint_Behavior.call_profession_7730107903695144631(_context.getNode())) + HasName_Behavior.call_getSanitizedName_3848777903716100296(HasRaceContraint_Behavior.call_getRace_6143566370761776415(_context.getNode()));
+    return "AttributeRating" + HasName_Behavior.call_getSanitizedName_3848777903716100296(HasProfessionConstraint_Behavior.call_profession_7730107903695144631(_context.getNode())) + HasName_Behavior.call_getSanitizedName_3848777903716100296(HasRaceContraint_Behavior.call_race_6143566370761776415(_context.getNode()));
   }
 
   public static Object propertyMacro_GetPropertyValue_5248964655731546400(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -171,7 +172,7 @@ public class QueriesGenerated {
   }
 
   public static Object referenceMacro_GetReferent_7730107903695343424(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(HasRaceContraint_Behavior.call_getRace_6143566370761776415(_context.getNode()), "RaceEnumLabel");
+    return _context.getOutputNodeByInputNodeAndMappingLabel(HasRaceContraint_Behavior.call_race_6143566370761776415(_context.getNode()), "RaceEnumLabel");
   }
 
   public static Object referenceMacro_GetReferent_7730107903695343435(final IOperationContext operationContext, final ReferenceMacroContext _context) {
@@ -215,11 +216,11 @@ public class QueriesGenerated {
   }
 
   public static Object referenceMacro_GetReferent_1778400223746895177(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "raceRef", true), "race", false), "RaceEnumLabel");
+    return _context.getOutputNodeByInputNodeAndMappingLabel(HasRaceContraint_Behavior.call_race_6143566370761776415(_context.getNode()), "RaceEnumLabel");
   }
 
   public static Object referenceMacro_GetReferent_1778400223746895203(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "professionRef", true), "profession", false), "ProfessionEnumLabel");
+    return _context.getOutputNodeByInputNodeAndMappingLabel(HasProfessionConstraint_Behavior.call_profession_7730107903695144631(_context.getNode()), "ProfessionEnumLabel");
   }
 
   public static Object referenceMacro_GetReferent_1778400223746902162(final IOperationContext operationContext, final ReferenceMacroContext _context) {
@@ -259,7 +260,7 @@ public class QueriesGenerated {
   }
 
   public static Object referenceMacro_GetReferent_7730107903695343260(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(HasRaceContraint_Behavior.call_getRace_6143566370761776415(_context.getNode()), "RaceEnumLabel");
+    return _context.getOutputNodeByInputNodeAndMappingLabel(HasRaceContraint_Behavior.call_race_6143566370761776415(_context.getNode()), "RaceEnumLabel");
   }
 
   public static Object referenceMacro_GetReferent_7730107903695343277(final IOperationContext operationContext, final ReferenceMacroContext _context) {
