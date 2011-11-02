@@ -12,7 +12,8 @@ public class MPSModule extends AbstractModule {
   }
 
   protected void configure() {
-    bind(RatingStrategyFactory.class).to(RatingStrategyFactoryConcrete.class).asEagerSingleton();
+    // Should use XMLFile annotation. After [MPS-14390] fixed. 
+    bind(RatingStrategyFactory.class).to(RatingStrategyFactoryConcrete.class);
     bind(CreatureLoader.class).toInstance(new CreatureRunesmithLoader(xmlFile));
     bind(CreatureStatisticsManager.class).toInstance(new CreatureStatisticsManager());
   }

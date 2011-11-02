@@ -16,6 +16,7 @@
         <generator generatorUID="a150150e-46ee-4c9e-b080-08d136e4eefb(jetbrains.mps.baseLanguage.tuples#1238919486295)" />
       </external-templates>
       <dependencies>
+        <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
         <dependency reexport="false">cd2006f9-7fb7-4cd6-8983-2a54d8aa19d3(net.dwarfguide.creature#2413918680966875812)</dependency>
       </dependencies>
       <usedLanguages>

@@ -5,7 +5,7 @@ package net.dwarfguide.model.core;
 import javax.annotation.Generated;
 import java.util.Formatter;
 
-@Generated(value = {"MPS"}, date = "2011.11.02", comments = "Generated from model net.dwarfguide.model.core")
+@Generated(value = {"MPS"}, date = "2011.11.03", comments = "Generated from model net.dwarfguide.model.core")
 public class Application {
   public Application() {
   }

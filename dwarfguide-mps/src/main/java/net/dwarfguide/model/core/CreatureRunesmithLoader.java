@@ -28,7 +28,7 @@ public class CreatureRunesmithLoader implements CreatureLoader {
 
   private String myXmlFile;
 
-  public CreatureRunesmithLoader(String xmlFile) {
+  public CreatureRunesmithLoader(@XMLFile String xmlFile) {
     this.setXmlFile(xmlFile);
   }
 
