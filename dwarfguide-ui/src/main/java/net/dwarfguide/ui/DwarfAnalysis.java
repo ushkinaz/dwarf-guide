@@ -26,6 +26,9 @@
  */
 package net.dwarfguide.ui;
 
+import net.dwarfguide.model.core.Creature;
+import net.dwarfguide.model.core.ProfessionEnum;
+
 /**
  * @author Dmitry Sidorenko
  */
@@ -47,14 +50,18 @@ public class DwarfAnalysis extends javax.swing.JPanel {
   @SuppressWarnings("unchecked")
   // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
   private void initComponents() {
+    bindingGroup = new org.jdesktop.beansbinding.BindingGroup();
 
+    professionsBean = new net.dwarfguide.ui.ProfessionsBean();
     jScrollPane2 = new javax.swing.JScrollPane();
-    dwarvesList = new javax.swing.JList();
-    jScrollPane3 = new javax.swing.JScrollPane();
-    professionsTree = new javax.swing.JTree();
-    jProgressBar1 = new javax.swing.JProgressBar();
-    jScrollPane4 = new javax.swing.JScrollPane();
+    dwarvesList = new javax.swing.JList<Creature>();
+    jLabel2 = new javax.swing.JLabel();
+    jLabel3 = new javax.swing.JLabel();
+    jScrollPane1 = new javax.swing.JScrollPane();
     foundDwarves = new javax.swing.JTree();
+    professionSearch = new javax.swing.JTextField();
+    jScrollPane3 = new javax.swing.JScrollPane();
+    professionsList = new javax.swing.JList<ProfessionEnum>();
 
     dwarvesList.setModel(new javax.swing.AbstractListModel() {
       String[] strings = {"Item 1", "Item 2", "Item 3", "Item 4", "Item 5"};
@@ -69,9 +76,33 @@ public class DwarfAnalysis extends javax.swing.JPanel {
     });
     jScrollPane2.setViewportView(dwarvesList);
 
-    jScrollPane3.setViewportView(professionsTree);
+    jLabel2.setText("Dwarves:");
 
-    jScrollPane4.setViewportView(foundDwarves);
+    jLabel3.setText("Rating:");
+
+    foundDwarves.addTreeSelectionListener(new javax.swing.event.TreeSelectionListener() {
+      public void valueChanged(javax.swing.event.TreeSelectionEvent evt) {
+        foundDwarvesValueChanged(evt);
+      }
+    });
+    jScrollPane1.setViewportView(foundDwarves);
+
+    professionSearch.setText("Profession");
+    professionSearch.addFocusListener(new java.awt.event.FocusAdapter() {
+      public void focusGained(java.awt.event.FocusEvent evt) {
+        professionSearchFocusGained(evt);
+      }
+    });
+
+    org.jdesktop.beansbinding.ELProperty eLProperty = org.jdesktop.beansbinding.ELProperty.create("${model}");
+    org.jdesktop.swingbinding.JListBinding jListBinding = org.jdesktop
+            .swingbinding
+            .SwingBindings
+            .createJListBinding(org.jdesktop.beansbinding.AutoBinding.UpdateStrategy.READ_ONCE, professionsBean, eLProperty, professionsList, "");
+    jListBinding.setDetailBinding(org.jdesktop.beansbinding.ELProperty.create("${name}"));
+    bindingGroup.addBinding(jListBinding);
+
+    jScrollPane3.setViewportView(professionsList);
 
     javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
     this.setLayout(layout);
@@ -79,38 +110,64 @@ public class DwarfAnalysis extends javax.swing.JPanel {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                             .addContainerGap()
-                            .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 118, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, 446, Short.MAX_VALUE)
-                                    .addComponent(jProgressBar1, javax.swing.GroupLayout.DEFAULT_SIZE, 446, Short.MAX_VALUE))
-                            .addContainerGap())
+                                    .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 223, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(professionSearch, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(jLabel2, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 196, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addGroup(layout.createSequentialGroup()
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                            .addComponent(jLabel3)
+                                            .addContainerGap(202, Short.MAX_VALUE))
+                                    .addGroup(layout.createSequentialGroup()
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 223, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addContainerGap())))
     );
+
+    layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[]{jScrollPane1, jScrollPane2});
+
     layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                    .addGroup(layout.createSequentialGroup()
                             .addContainerGap()
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 278, Short.MAX_VALUE)
-                                    .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 278, Short.MAX_VALUE)
-                                    .addGroup(layout.createSequentialGroup()
-                                            .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, 258, Short.MAX_VALUE)
-                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                            .addComponent(jProgressBar1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jLabel2)
+                                    .addComponent(jLabel3)
+                                    .addComponent(professionSearch, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 362, Short.MAX_VALUE)
+                                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 362, Short.MAX_VALUE)
+                                    .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 362, Short.MAX_VALUE))
                             .addContainerGap())
     );
+
+    bindingGroup.bind();
   }// </editor-fold>//GEN-END:initComponents
 
+  private void foundDwarvesValueChanged(javax.swing.event.TreeSelectionEvent evt) {//GEN-FIRST:event_foundDwarvesValueChanged
+    // TODO add your handling code here:
+  }//GEN-LAST:event_foundDwarvesValueChanged
+
+  private void professionSearchFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_professionSearchFocusGained
+    professionSearch.setText("");
+  }//GEN-LAST:event_professionSearchFocusGained
+
   // Variables declaration - do not modify//GEN-BEGIN:variables
-  private javax.swing.JList        dwarvesList;
-  private javax.swing.JTree        foundDwarves;
-  private javax.swing.JProgressBar jProgressBar1;
-  private javax.swing.JScrollPane  jScrollPane1;
-  private javax.swing.JScrollPane  jScrollPane2;
-  private javax.swing.JScrollPane  jScrollPane3;
-  private javax.swing.JScrollPane  jScrollPane4;
-  private javax.swing.JTree        professionsTree;
+  private javax.swing.JList<Creature>            dwarvesList;
+  private javax.swing.JTree                      foundDwarves;
+  private javax.swing.JLabel                     jLabel2;
+  private javax.swing.JLabel                     jLabel3;
+  private javax.swing.JScrollPane                jScrollPane1;
+  private javax.swing.JScrollPane                jScrollPane2;
+  private javax.swing.JScrollPane                jScrollPane3;
+  private javax.swing.JTextField                 professionSearch;
+  private net.dwarfguide.ui.ProfessionsBean      professionsBean;
+  private javax.swing.JList<ProfessionEnum>      professionsList;
+  private org.jdesktop.beansbinding.BindingGroup bindingGroup;
   // End of variables declaration//GEN-END:variables
 }
