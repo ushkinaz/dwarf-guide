@@ -18,36 +18,31 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package net.dwarfguide.ui;
+package net.dwarfguide.ui.guts;
 
-import net.dwarfguide.model.core.ProfessionEnum;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import com.google.inject.AbstractModule;
+import net.guts.gui.application.AppLifecycleStarter;
+import net.guts.gui.resource.Resources;
 
-import java.util.*;
+import javax.swing.*;
 
 /**
  * @author Dmitry Sidorenko
  */
-public class ProfessionsBean {
-  @SuppressWarnings({"UnusedDeclaration"})
-  private static final Logger LOGGER = LoggerFactory.getLogger(ProfessionsBean.class);
+public class GutsModule extends AbstractModule {
 
-  public ProfessionsBean() {
-    LOGGER.debug("ProfessionsBean");
+  public GutsModule() {
   }
 
-  public List<ProfessionEnum> getModel() {
-    List<ProfessionEnum> professions = new ArrayList<ProfessionEnum>(Arrays.asList(ProfessionEnum.values()));
-    Collections.sort(professions, new Comparator<ProfessionEnum>() {
-      @Override
-      public int compare(ProfessionEnum o1, ProfessionEnum o2) {
-        return o1.getName().compareTo(o2.getName());
-      }
-    });
-    return professions;
-  }
+  @Override
+  protected void configure() {
+    Resources.bindRootBundle(binder(), getClass(), "resources");
+//    Resources.bindEnumConverter(binder(), TaskInfo.State.class);
+//    EnumIconRenderer.bind(binder(), TaskInfo.State.class);
 
-  public void setSelected(List sel) {
+    bind(AppLifecycleStarter.class).to(DwarfAppLifecycleStarter.class).asEagerSingleton();
+
+    bind(JMenuBar.class).to(DwarfMenuBar.class);
+    bind(DwarfAnalysis.class).asEagerSingleton();
   }
 }

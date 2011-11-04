@@ -18,21 +18,36 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package net.dwarfguide.ui;
+package net.dwarfguide.ui.guts;
 
-import com.google.inject.AbstractModule;
+import net.dwarfguide.model.core.ProfessionEnum;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.util.*;
 
 /**
  * @author Dmitry Sidorenko
  */
-class GUIModule extends AbstractModule {
+public class ProfessionsBean {
+  @SuppressWarnings({"UnusedDeclaration"})
+  private static final Logger LOGGER = LoggerFactory.getLogger(ProfessionsBean.class);
 
-  public GUIModule() {
+  public ProfessionsBean() {
+    LOGGER.debug("ProfessionsBean");
   }
 
-  @Override
-  protected void configure() {
-    bind(GUIApplication.class).asEagerSingleton();
-    bind(DwarfAnalysis.class).asEagerSingleton();
+  public List<ProfessionEnum> getModel() {
+    List<ProfessionEnum> professions = new ArrayList<ProfessionEnum>(Arrays.asList(ProfessionEnum.values()));
+    Collections.sort(professions, new Comparator<ProfessionEnum>() {
+      @Override
+      public int compare(ProfessionEnum o1, ProfessionEnum o2) {
+        return o1.getName().compareTo(o2.getName());
+      }
+    });
+    return professions;
+  }
+
+  public void setSelected(List sel) {
   }
 }

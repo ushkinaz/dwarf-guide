@@ -30,4 +30,4 @@ Currently this does not include generation step from MPS, but latest generated s
 
 [The Dwarf Fortress Wiki](http://df.magmawiki.com/)
 
-Some icons are copyright (c) [Yusuke Kamiyamane](http://p.yusukekamiyamane.com/).
+Some icons are copyright (c) [Yusuke Kamiyamane](http://p.yusukekamiyamane.com/), [Ralf Engels](from http://www.rengels.de/).
