@@ -1,4 +1,7 @@
-DwarfGuide is helper application for [Dwarf Fortress](http://www.bay12games.com/dwarves/)
+DwarfGuide ![Project status](http://stillmaintained.com/ushkinaz/dwarf-guide.png) 
+========
+Helper application for [Dwarf Fortress](http://www.bay12games.com/dwarves/)
+
 
 # Purpose
 The ultimate goal is simple - be most advanced support tool for Dwarf Fortress.
