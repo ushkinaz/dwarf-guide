@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="RatingStrategy_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="net.dwarfguide.creature.behavior.RatingStrategy_BehaviorDescriptor" />
+  <unitInfo fileName="AttributeRef_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="net.dwarfguide.creature.behavior.AttributeRef_BehaviorDescriptor" />
+  <unitInfo fileName="AttributeStatistic_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="net.dwarfguide.creature.behavior.AttributeStatistic_BehaviorDescriptor" />
+  <unitInfo fileName="Attribute_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="26" endPosition="0" unitName="net.dwarfguide.creature.behavior.Attribute_BehaviorDescriptor" />
+  <unitInfo fileName="AttributesBasedStrategy_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="25" endPosition="0" unitName="net.dwarfguide.creature.behavior.AttributesBasedStrategy_BehaviorDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="62" endPosition="0" unitName="net.dwarfguide.creature.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="Entity_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="net.dwarfguide.creature.behavior.Entity_BehaviorDescriptor" />
   <unitInfo fileName="Feature_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="net.dwarfguide.creature.behavior.Feature_BehaviorDescriptor" />
+  <unitInfo fileName="FormulaRatingStrategy_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="25" endPosition="0" unitName="net.dwarfguide.creature.behavior.FormulaRatingStrategy_BehaviorDescriptor" />
   <unitInfo fileName="HasId_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="net.dwarfguide.creature.behavior.HasId_BehaviorDescriptor" />
+  <unitInfo fileName="HasName_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="11" endPosition="0" unitName="net.dwarfguide.creature.behavior.HasName_BehaviorDescriptor" />
   <unitInfo fileName="HasProfessionConstraint_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="10" endPosition="0" unitName="net.dwarfguide.creature.behavior.HasProfessionConstraint_BehaviorDescriptor" />
   <unitInfo fileName="HasRaceContraint_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="10" endPosition="0" unitName="net.dwarfguide.creature.behavior.HasRaceContraint_BehaviorDescriptor" />
-  <unitInfo fileName="HasName_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="11" endPosition="0" unitName="net.dwarfguide.creature.behavior.HasName_BehaviorDescriptor" />
-  <unitInfo fileName="LabourRef_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="net.dwarfguide.creature.behavior.LabourRef_BehaviorDescriptor" />
-  <unitInfo fileName="Statistic_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="net.dwarfguide.creature.behavior.Statistic_BehaviorDescriptor" />
-  <unitInfo fileName="RaceRef_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="net.dwarfguide.creature.behavior.RaceRef_BehaviorDescriptor" />
-  <unitInfo fileName="AttributeStatistic_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="net.dwarfguide.creature.behavior.AttributeStatistic_BehaviorDescriptor" />
-  <unitInfo fileName="StatisticsField_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="net.dwarfguide.creature.behavior.StatisticsField_BehaviorDescriptor" />
-  <unitInfo fileName="AttributeRef_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="net.dwarfguide.creature.behavior.AttributeRef_BehaviorDescriptor" />
-  <unitInfo fileName="TraitRef_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="net.dwarfguide.creature.behavior.TraitRef_BehaviorDescriptor" />
-  <unitInfo fileName="SkillRef_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="net.dwarfguide.creature.behavior.SkillRef_BehaviorDescriptor" />
-  <unitInfo fileName="ProfessionRef_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="net.dwarfguide.creature.behavior.ProfessionRef_BehaviorDescriptor" />
-  <unitInfo fileName="AttributesBasedStrategy_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="25" endPosition="0" unitName="net.dwarfguide.creature.behavior.AttributesBasedStrategy_BehaviorDescriptor" />
-  <unitInfo fileName="FormulaRatingStrategy_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="25" endPosition="0" unitName="net.dwarfguide.creature.behavior.FormulaRatingStrategy_BehaviorDescriptor" />
-  <unitInfo fileName="LabourCategory_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="26" endPosition="0" unitName="net.dwarfguide.creature.behavior.LabourCategory_BehaviorDescriptor" />
-  <unitInfo fileName="Race_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="26" endPosition="0" unitName="net.dwarfguide.creature.behavior.Race_BehaviorDescriptor" />
-  <unitInfo fileName="Profession_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="26" endPosition="0" unitName="net.dwarfguide.creature.behavior.Profession_BehaviorDescriptor" />
-  <unitInfo fileName="Attribute_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="26" endPosition="0" unitName="net.dwarfguide.creature.behavior.Attribute_BehaviorDescriptor" />
-  <unitInfo fileName="Skill_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="26" endPosition="0" unitName="net.dwarfguide.creature.behavior.Skill_BehaviorDescriptor" />
-  <unitInfo fileName="Level_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="26" endPosition="0" unitName="net.dwarfguide.creature.behavior.Level_BehaviorDescriptor" />
-  <unitInfo fileName="Trait_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="26" endPosition="0" unitName="net.dwarfguide.creature.behavior.Trait_BehaviorDescriptor" />
-  <unitInfo fileName="Labour_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="26" endPosition="0" unitName="net.dwarfguide.creature.behavior.Labour_BehaviorDescriptor" />
   <unitInfo fileName="Job_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="26" endPosition="0" unitName="net.dwarfguide.creature.behavior.Job_BehaviorDescriptor" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="62" endPosition="0" unitName="net.dwarfguide.creature.behavior.BehaviorAspectDescriptor" />
-  <root nodeId="3848777903716026502">
+  <unitInfo fileName="LabourCategory_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="26" endPosition="0" unitName="net.dwarfguide.creature.behavior.LabourCategory_BehaviorDescriptor" />
+  <unitInfo fileName="LabourRef_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="net.dwarfguide.creature.behavior.LabourRef_BehaviorDescriptor" />
+  <unitInfo fileName="Labour_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="26" endPosition="0" unitName="net.dwarfguide.creature.behavior.Labour_BehaviorDescriptor" />
+  <unitInfo fileName="Level_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="26" endPosition="0" unitName="net.dwarfguide.creature.behavior.Level_BehaviorDescriptor" />
+  <unitInfo fileName="ProfessionRef_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="net.dwarfguide.creature.behavior.ProfessionRef_BehaviorDescriptor" />
+  <unitInfo fileName="Profession_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="26" endPosition="0" unitName="net.dwarfguide.creature.behavior.Profession_BehaviorDescriptor" />
+  <unitInfo fileName="RaceRef_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="net.dwarfguide.creature.behavior.RaceRef_BehaviorDescriptor" />
+  <unitInfo fileName="Race_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="26" endPosition="0" unitName="net.dwarfguide.creature.behavior.Race_BehaviorDescriptor" />
+  <unitInfo fileName="RatingStrategy_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="net.dwarfguide.creature.behavior.RatingStrategy_BehaviorDescriptor" />
+  <unitInfo fileName="SkillRef_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="net.dwarfguide.creature.behavior.SkillRef_BehaviorDescriptor" />
+  <unitInfo fileName="Skill_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="26" endPosition="0" unitName="net.dwarfguide.creature.behavior.Skill_BehaviorDescriptor" />
+  <unitInfo fileName="Statistic_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="net.dwarfguide.creature.behavior.Statistic_BehaviorDescriptor" />
+  <unitInfo fileName="StatisticsField_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="net.dwarfguide.creature.behavior.StatisticsField_BehaviorDescriptor" />
+  <unitInfo fileName="TraitRef_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="net.dwarfguide.creature.behavior.TraitRef_BehaviorDescriptor" />
+  <unitInfo fileName="Trait_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="26" endPosition="0" unitName="net.dwarfguide.creature.behavior.Trait_BehaviorDescriptor" />
+  <root nodeId="3848777903716026502" modelId="r:b6fd1764-9efa-4f45-9ad7-a43db3ccfbb1(net.dwarfguide.creature.behavior)">
     <nodeInfo nodeId="3848777903716026512" fileName="AttributeStatistic_Behavior.java" startLine="13" startPosition="82" endLine="14" endPosition="147" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3848777903716026575" fileName="AttributeStatistic_Behavior.java" startLine="17" startPosition="69" endLine="18" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3848777903716026592" fileName="AttributeStatistic_Behavior.java" startLine="21" startPosition="69" endLine="22" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -46,22 +46,34 @@
     <scopeInfo nodeId="3848777903716026590" fileName="AttributeStatistic_Behavior.java" startLine="21" startPosition="69" endLine="22" endPosition="105" />
     <scopeInfo nodeId="3848777903716026607" fileName="AttributeStatistic_Behavior.java" startLine="25" startPosition="69" endLine="26" endPosition="105" />
     <scopeInfo nodeId="6143566370761777645" fileName="AttributeStatistic_Behavior.java" startLine="29" startPosition="77" endLine="30" endPosition="108" />
-    <scopeInfo nodeId="3848777903716026502" fileName="AttributeStatistic_Behavior.java" startLine="9" startPosition="42" endLine="12" endPosition="0" />
-    <scopeInfo nodeId="3848777903716026502" fileName="AttributeStatistic_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0" />
-    <scopeInfo nodeId="3848777903716026502" fileName="AttributeStatistic_Behavior.java" startLine="16" startPosition="0" endLine="20" endPosition="0" />
-    <scopeInfo nodeId="3848777903716026502" fileName="AttributeStatistic_Behavior.java" startLine="20" startPosition="0" endLine="24" endPosition="0" />
-    <scopeInfo nodeId="3848777903716026502" fileName="AttributeStatistic_Behavior.java" startLine="24" startPosition="0" endLine="28" endPosition="0" />
-    <scopeInfo nodeId="3848777903716026502" fileName="AttributeStatistic_Behavior.java" startLine="28" startPosition="0" endLine="32" endPosition="0" />
+    <scopeInfo nodeId="3848777903716026502" fileName="AttributeStatistic_Behavior.java" startLine="9" startPosition="42" endLine="12" endPosition="0">
+      <varInfo nodeId="3848777903716026502" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="3848777903716026502" fileName="AttributeStatistic_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0">
+      <varInfo nodeId="3848777903716026502" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="3848777903716026502" fileName="AttributeStatistic_Behavior.java" startLine="16" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="3848777903716026502" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="3848777903716026502" fileName="AttributeStatistic_Behavior.java" startLine="20" startPosition="0" endLine="24" endPosition="0">
+      <varInfo nodeId="3848777903716026502" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="3848777903716026502" fileName="AttributeStatistic_Behavior.java" startLine="24" startPosition="0" endLine="28" endPosition="0">
+      <varInfo nodeId="3848777903716026502" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="3848777903716026502" fileName="AttributeStatistic_Behavior.java" startLine="28" startPosition="0" endLine="32" endPosition="0">
+      <varInfo nodeId="3848777903716026502" varName="thisNode" />
+    </scopeInfo>
     <unitInfo nodeId="3848777903716026502" fileName="AttributeStatistic_Behavior.java" startLine="9" startPosition="0" endLine="33" endPosition="0" unitName="net.dwarfguide.creature.behavior.AttributeStatistic_Behavior" />
   </root>
-  <root nodeId="3848777903716100288">
+  <root nodeId="3848777903716100288" modelId="r:b6fd1764-9efa-4f45-9ad7-a43db3ccfbb1(net.dwarfguide.creature.behavior)">
     <nodeInfo nodeId="3848777903716100288" fileName="HasName_Behavior.java" startLine="12" startPosition="31" endLine="13" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="PARAMETERS_3848777903716100296" />
     <nodeInfo nodeId="3848777903716100460" fileName="HasName_Behavior.java" startLine="18" startPosition="85" endLine="19" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="6143566370761722957" fileName="HasName_Behavior.java" startLine="22" startPosition="77" endLine="23" endPosition="145" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="6143566370761722945" fileName="HasName_Behavior.java" startLine="26" startPosition="90" endLine="27" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3848777903716100288" fileName="HasName_Behavior.java" startLine="30" startPosition="82" endLine="31" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3848777903716100288" fileName="HasName_Behavior.java" startLine="31" startPosition="113" endLine="32" endPosition="209" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3848777903716100288" fileName="HasName_Behavior.java" startLine="35" startPosition="115" endLine="36" endPosition="254" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3848777903716100288" fileName="HasName_Behavior.java" startLine="31" startPosition="113" endLine="32" endPosition="225" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3848777903716100288" fileName="HasName_Behavior.java" startLine="35" startPosition="115" endLine="36" endPosition="270" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3848777903716100304" fileName="HasName_Behavior.java" startLine="39" startPosition="70" endLine="40" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3848777903716100288" fileName="HasName_Behavior.java" startLine="14" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
     <nodeInfo nodeId="3848777903716100288" fileName="HasName_Behavior.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getSanitizedName_3848777903716100296#(Ljetbrains/mps/smodel/SNode;)Ljava/lang/String;" />
@@ -74,80 +86,124 @@
     <scopeInfo nodeId="3848777903716100299" fileName="HasName_Behavior.java" startLine="18" startPosition="85" endLine="19" endPosition="110" />
     <scopeInfo nodeId="6143566370761722862" fileName="HasName_Behavior.java" startLine="22" startPosition="77" endLine="23" endPosition="145" />
     <scopeInfo nodeId="6143566370761722938" fileName="HasName_Behavior.java" startLine="26" startPosition="90" endLine="27" endPosition="16" />
-    <scopeInfo nodeId="3848777903716100288" fileName="HasName_Behavior.java" startLine="35" startPosition="115" endLine="36" endPosition="254" />
+    <scopeInfo nodeId="3848777903716100288" fileName="HasName_Behavior.java" startLine="35" startPosition="115" endLine="36" endPosition="270" />
     <scopeInfo nodeId="3848777903716100294" fileName="HasName_Behavior.java" startLine="39" startPosition="70" endLine="40" endPosition="39" />
-    <scopeInfo nodeId="3848777903716100288" fileName="HasName_Behavior.java" startLine="30" startPosition="82" endLine="32" endPosition="209" />
-    <scopeInfo nodeId="3848777903716100288" fileName="HasName_Behavior.java" startLine="14" startPosition="0" endLine="17" endPosition="0" />
-    <scopeInfo nodeId="3848777903716100288" fileName="HasName_Behavior.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
-    <scopeInfo nodeId="3848777903716100288" fileName="HasName_Behavior.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="3848777903716100288" fileName="HasName_Behavior.java" startLine="30" startPosition="82" endLine="32" endPosition="225">
+      <varInfo nodeId="3848777903716100288" varName="descriptor" />
+    </scopeInfo>
+    <scopeInfo nodeId="3848777903716100288" fileName="HasName_Behavior.java" startLine="14" startPosition="0" endLine="17" endPosition="0">
+      <varInfo nodeId="3848777903716100288" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="3848777903716100288" fileName="HasName_Behavior.java" startLine="17" startPosition="0" endLine="21" endPosition="0">
+      <varInfo nodeId="3848777903716100288" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="3848777903716100288" fileName="HasName_Behavior.java" startLine="21" startPosition="0" endLine="25" endPosition="0">
+      <varInfo nodeId="3848777903716100288" varName="thisNode" />
+    </scopeInfo>
     <scopeInfo nodeId="3848777903716100288" fileName="HasName_Behavior.java" startLine="25" startPosition="0" endLine="29" endPosition="0">
       <varInfo nodeId="6143566370761722942" varName="name" />
+      <varInfo nodeId="3848777903716100288" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="3848777903716100288" fileName="HasName_Behavior.java" startLine="34" startPosition="0" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="3848777903716100288" fileName="HasName_Behavior.java" startLine="34" startPosition="0" endLine="38" endPosition="0">
+      <varInfo nodeId="3848777903716100288" varName="callerConceptFqName" />
+      <varInfo nodeId="3848777903716100288" varName="thisNode" />
+    </scopeInfo>
     <scopeInfo nodeId="3848777903716100288" fileName="HasName_Behavior.java" startLine="38" startPosition="0" endLine="42" endPosition="0">
       <varInfo nodeId="3848777903716100301" varName="name" />
     </scopeInfo>
-    <scopeInfo nodeId="3848777903716100288" fileName="HasName_Behavior.java" startLine="29" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="3848777903716100288" fileName="HasName_Behavior.java" startLine="29" startPosition="0" endLine="34" endPosition="0">
+      <varInfo nodeId="3848777903716100288" varName="thisNode" />
+    </scopeInfo>
     <unitInfo nodeId="3848777903716100288" fileName="HasName_Behavior.java" startLine="12" startPosition="0" endLine="43" endPosition="0" unitName="net.dwarfguide.creature.behavior.HasName_Behavior" />
   </root>
-  <root nodeId="5248964655731809074">
+  <root nodeId="5248964655731809074" modelId="r:b6fd1764-9efa-4f45-9ad7-a43db3ccfbb1(net.dwarfguide.creature.behavior)">
     <nodeInfo nodeId="5248964655731809082" fileName="Statistic_Behavior.java" startLine="12" startPosition="77" endLine="13" endPosition="116" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="5248964655731809074" fileName="Statistic_Behavior.java" startLine="8" startPosition="33" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
     <nodeInfo nodeId="5248964655731809074" fileName="Statistic_Behavior.java" startLine="11" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getAttribute_5248964655731809077#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" />
     <scopeInfo nodeId="5248964655731809076" fileName="Statistic_Behavior.java" startLine="9" startPosition="43" endLine="9" endPosition="43" />
     <scopeInfo nodeId="5248964655731809080" fileName="Statistic_Behavior.java" startLine="12" startPosition="77" endLine="13" endPosition="116" />
-    <scopeInfo nodeId="5248964655731809074" fileName="Statistic_Behavior.java" startLine="8" startPosition="33" endLine="11" endPosition="0" />
-    <scopeInfo nodeId="5248964655731809074" fileName="Statistic_Behavior.java" startLine="11" startPosition="0" endLine="15" endPosition="0" />
+    <scopeInfo nodeId="5248964655731809074" fileName="Statistic_Behavior.java" startLine="8" startPosition="33" endLine="11" endPosition="0">
+      <varInfo nodeId="5248964655731809074" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="5248964655731809074" fileName="Statistic_Behavior.java" startLine="11" startPosition="0" endLine="15" endPosition="0">
+      <varInfo nodeId="5248964655731809074" varName="thisNode" />
+    </scopeInfo>
     <unitInfo nodeId="5248964655731809074" fileName="Statistic_Behavior.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="net.dwarfguide.creature.behavior.Statistic_Behavior" />
   </root>
-  <root nodeId="5248964655731903840">
+  <root nodeId="5248964655731903840" modelId="r:b6fd1764-9efa-4f45-9ad7-a43db3ccfbb1(net.dwarfguide.creature.behavior)">
     <nodeInfo nodeId="5248964655731903848" fileName="Profession_Behavior.java" startLine="12" startPosition="90" endLine="13" endPosition="155" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="5248964655731903840" fileName="Profession_Behavior.java" startLine="8" startPosition="34" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
     <nodeInfo nodeId="5248964655731903840" fileName="Profession_Behavior.java" startLine="11" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_dependentSkills_5248964655731903843#(Ljetbrains/mps/smodel/SNode;)Ljava/lang/Iterable;" />
     <scopeInfo nodeId="5248964655731903842" fileName="Profession_Behavior.java" startLine="9" startPosition="43" endLine="9" endPosition="43" />
     <scopeInfo nodeId="5248964655731903846" fileName="Profession_Behavior.java" startLine="12" startPosition="90" endLine="13" endPosition="155" />
-    <scopeInfo nodeId="5248964655731903840" fileName="Profession_Behavior.java" startLine="8" startPosition="34" endLine="11" endPosition="0" />
-    <scopeInfo nodeId="5248964655731903840" fileName="Profession_Behavior.java" startLine="11" startPosition="0" endLine="15" endPosition="0" />
+    <scopeInfo nodeId="5248964655731903840" fileName="Profession_Behavior.java" startLine="8" startPosition="34" endLine="11" endPosition="0">
+      <varInfo nodeId="5248964655731903840" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="5248964655731903840" fileName="Profession_Behavior.java" startLine="11" startPosition="0" endLine="15" endPosition="0">
+      <varInfo nodeId="5248964655731903840" varName="thisNode" />
+    </scopeInfo>
     <unitInfo nodeId="5248964655731903840" fileName="Profession_Behavior.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="net.dwarfguide.creature.behavior.Profession_Behavior" />
   </root>
-  <root nodeId="6143566370761775355">
+  <root nodeId="6143566370761775355" modelId="r:b6fd1764-9efa-4f45-9ad7-a43db3ccfbb1(net.dwarfguide.creature.behavior)">
     <nodeInfo nodeId="6143566370761775355" fileName="HasRaceContraint_Behavior.java" startLine="12" startPosition="40" endLine="13" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="PARAMETERS_6143566370761776415" />
     <nodeInfo nodeId="6143566370761776420" fileName="HasRaceContraint_Behavior.java" startLine="18" startPosition="72" endLine="19" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="6143566370761775355" fileName="HasRaceContraint_Behavior.java" startLine="22" startPosition="69" endLine="23" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6143566370761775355" fileName="HasRaceContraint_Behavior.java" startLine="23" startPosition="113" endLine="24" endPosition="205" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6143566370761775355" fileName="HasRaceContraint_Behavior.java" startLine="27" startPosition="102" endLine="28" endPosition="250" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6143566370761775355" fileName="HasRaceContraint_Behavior.java" startLine="23" startPosition="113" endLine="24" endPosition="221" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6143566370761775355" fileName="HasRaceContraint_Behavior.java" startLine="27" startPosition="102" endLine="28" endPosition="266" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="6143566370761775355" fileName="HasRaceContraint_Behavior.java" startLine="14" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
     <nodeInfo nodeId="6143566370761775355" fileName="HasRaceContraint_Behavior.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_race_6143566370761776415#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" />
     <nodeInfo nodeId="6143566370761775355" fileName="HasRaceContraint_Behavior.java" startLine="26" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_race_6143566370761776415#(Ljetbrains/mps/smodel/SNode;Ljava/lang/String;)Ljetbrains/mps/smodel/SNode;" />
     <nodeInfo nodeId="6143566370761775355" fileName="HasRaceContraint_Behavior.java" startLine="21" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_race_6143566370761776415#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" />
     <scopeInfo nodeId="6143566370761775357" fileName="HasRaceContraint_Behavior.java" startLine="15" startPosition="43" endLine="15" endPosition="43" />
     <scopeInfo nodeId="6143566370761776418" fileName="HasRaceContraint_Behavior.java" startLine="18" startPosition="72" endLine="19" endPosition="106" />
-    <scopeInfo nodeId="6143566370761775355" fileName="HasRaceContraint_Behavior.java" startLine="27" startPosition="102" endLine="28" endPosition="250" />
-    <scopeInfo nodeId="6143566370761775355" fileName="HasRaceContraint_Behavior.java" startLine="22" startPosition="69" endLine="24" endPosition="205" />
-    <scopeInfo nodeId="6143566370761775355" fileName="HasRaceContraint_Behavior.java" startLine="14" startPosition="0" endLine="17" endPosition="0" />
-    <scopeInfo nodeId="6143566370761775355" fileName="HasRaceContraint_Behavior.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
-    <scopeInfo nodeId="6143566370761775355" fileName="HasRaceContraint_Behavior.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="6143566370761775355" fileName="HasRaceContraint_Behavior.java" startLine="21" startPosition="0" endLine="26" endPosition="0" />
+    <scopeInfo nodeId="6143566370761775355" fileName="HasRaceContraint_Behavior.java" startLine="27" startPosition="102" endLine="28" endPosition="266" />
+    <scopeInfo nodeId="6143566370761775355" fileName="HasRaceContraint_Behavior.java" startLine="22" startPosition="69" endLine="24" endPosition="221">
+      <varInfo nodeId="6143566370761775355" varName="descriptor" />
+    </scopeInfo>
+    <scopeInfo nodeId="6143566370761775355" fileName="HasRaceContraint_Behavior.java" startLine="14" startPosition="0" endLine="17" endPosition="0">
+      <varInfo nodeId="6143566370761775355" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="6143566370761775355" fileName="HasRaceContraint_Behavior.java" startLine="17" startPosition="0" endLine="21" endPosition="0">
+      <varInfo nodeId="6143566370761775355" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="6143566370761775355" fileName="HasRaceContraint_Behavior.java" startLine="26" startPosition="0" endLine="30" endPosition="0">
+      <varInfo nodeId="6143566370761775355" varName="callerConceptFqName" />
+      <varInfo nodeId="6143566370761775355" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="6143566370761775355" fileName="HasRaceContraint_Behavior.java" startLine="21" startPosition="0" endLine="26" endPosition="0">
+      <varInfo nodeId="6143566370761775355" varName="thisNode" />
+    </scopeInfo>
     <unitInfo nodeId="6143566370761775355" fileName="HasRaceContraint_Behavior.java" startLine="12" startPosition="0" endLine="31" endPosition="0" unitName="net.dwarfguide.creature.behavior.HasRaceContraint_Behavior" />
   </root>
-  <root nodeId="7730107903695144628">
+  <root nodeId="7730107903695144628" modelId="r:b6fd1764-9efa-4f45-9ad7-a43db3ccfbb1(net.dwarfguide.creature.behavior)">
     <nodeInfo nodeId="7730107903695144628" fileName="HasProfessionConstraint_Behavior.java" startLine="12" startPosition="47" endLine="13" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="PARAMETERS_7730107903695144631" />
     <nodeInfo nodeId="7730107903695144636" fileName="HasProfessionConstraint_Behavior.java" startLine="18" startPosition="78" endLine="19" endPosition="118" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="7730107903695144628" fileName="HasProfessionConstraint_Behavior.java" startLine="22" startPosition="75" endLine="23" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7730107903695144628" fileName="HasProfessionConstraint_Behavior.java" startLine="23" startPosition="113" endLine="24" endPosition="218" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7730107903695144628" fileName="HasProfessionConstraint_Behavior.java" startLine="27" startPosition="108" endLine="28" endPosition="263" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7730107903695144628" fileName="HasProfessionConstraint_Behavior.java" startLine="23" startPosition="113" endLine="24" endPosition="234" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7730107903695144628" fileName="HasProfessionConstraint_Behavior.java" startLine="27" startPosition="108" endLine="28" endPosition="279" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="7730107903695144628" fileName="HasProfessionConstraint_Behavior.java" startLine="14" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
     <nodeInfo nodeId="7730107903695144628" fileName="HasProfessionConstraint_Behavior.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_profession_7730107903695144631#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" />
     <nodeInfo nodeId="7730107903695144628" fileName="HasProfessionConstraint_Behavior.java" startLine="26" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_profession_7730107903695144631#(Ljetbrains/mps/smodel/SNode;Ljava/lang/String;)Ljetbrains/mps/smodel/SNode;" />
     <nodeInfo nodeId="7730107903695144628" fileName="HasProfessionConstraint_Behavior.java" startLine="21" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_profession_7730107903695144631#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" />
     <scopeInfo nodeId="7730107903695144630" fileName="HasProfessionConstraint_Behavior.java" startLine="15" startPosition="43" endLine="15" endPosition="43" />
     <scopeInfo nodeId="7730107903695144634" fileName="HasProfessionConstraint_Behavior.java" startLine="18" startPosition="78" endLine="19" endPosition="118" />
-    <scopeInfo nodeId="7730107903695144628" fileName="HasProfessionConstraint_Behavior.java" startLine="27" startPosition="108" endLine="28" endPosition="263" />
-    <scopeInfo nodeId="7730107903695144628" fileName="HasProfessionConstraint_Behavior.java" startLine="22" startPosition="75" endLine="24" endPosition="218" />
-    <scopeInfo nodeId="7730107903695144628" fileName="HasProfessionConstraint_Behavior.java" startLine="14" startPosition="0" endLine="17" endPosition="0" />
-    <scopeInfo nodeId="7730107903695144628" fileName="HasProfessionConstraint_Behavior.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
-    <scopeInfo nodeId="7730107903695144628" fileName="HasProfessionConstraint_Behavior.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="7730107903695144628" fileName="HasProfessionConstraint_Behavior.java" startLine="21" startPosition="0" endLine="26" endPosition="0" />
+    <scopeInfo nodeId="7730107903695144628" fileName="HasProfessionConstraint_Behavior.java" startLine="27" startPosition="108" endLine="28" endPosition="279" />
+    <scopeInfo nodeId="7730107903695144628" fileName="HasProfessionConstraint_Behavior.java" startLine="22" startPosition="75" endLine="24" endPosition="234">
+      <varInfo nodeId="7730107903695144628" varName="descriptor" />
+    </scopeInfo>
+    <scopeInfo nodeId="7730107903695144628" fileName="HasProfessionConstraint_Behavior.java" startLine="14" startPosition="0" endLine="17" endPosition="0">
+      <varInfo nodeId="7730107903695144628" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="7730107903695144628" fileName="HasProfessionConstraint_Behavior.java" startLine="17" startPosition="0" endLine="21" endPosition="0">
+      <varInfo nodeId="7730107903695144628" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="7730107903695144628" fileName="HasProfessionConstraint_Behavior.java" startLine="26" startPosition="0" endLine="30" endPosition="0">
+      <varInfo nodeId="7730107903695144628" varName="callerConceptFqName" />
+      <varInfo nodeId="7730107903695144628" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="7730107903695144628" fileName="HasProfessionConstraint_Behavior.java" startLine="21" startPosition="0" endLine="26" endPosition="0">
+      <varInfo nodeId="7730107903695144628" varName="thisNode" />
+    </scopeInfo>
     <unitInfo nodeId="7730107903695144628" fileName="HasProfessionConstraint_Behavior.java" startLine="12" startPosition="0" endLine="31" endPosition="0" unitName="net.dwarfguide.creature.behavior.HasProfessionConstraint_Behavior" />
   </root>
 </debugInfo>

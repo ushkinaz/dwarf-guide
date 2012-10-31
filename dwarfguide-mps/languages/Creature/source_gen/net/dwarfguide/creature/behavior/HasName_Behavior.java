@@ -4,8 +4,8 @@ package net.dwarfguide.creature.behavior;
 
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.smodel.structure.BehaviorDescriptor;
-import jetbrains.mps.smodel.structure.ConceptRegistry;
+import jetbrains.mps.smodel.runtime.BehaviorDescriptor;
+import jetbrains.mps.smodel.language.ConceptRegistry;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
 
@@ -29,11 +29,11 @@ public class HasName_Behavior {
 
   public static String call_getSanitizedName_3848777903716100296(SNode thisNode) {
     BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
-    return (String) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "net.dwarfguide.creature.structure.HasName"), "virtual_getSanitizedName_3848777903716100296", PARAMETERS_3848777903716100296);
+    return (String) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "net.dwarfguide.creature.structure.HasName"), "virtual_getSanitizedName_3848777903716100296", PARAMETERS_3848777903716100296, new Object[]{});
   }
 
   public static String callSuper_getSanitizedName_3848777903716100296(SNode thisNode, String callerConceptFqName) {
-    return (String) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "net.dwarfguide.creature.structure.HasName"), callerConceptFqName, "virtual_getSanitizedName_3848777903716100296", PARAMETERS_3848777903716100296);
+    return (String) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "net.dwarfguide.creature.structure.HasName"), callerConceptFqName, "virtual_getSanitizedName_3848777903716100296", PARAMETERS_3848777903716100296, new Object[]{});
   }
 
   public static String sanitizeName_3848777903716100291(String name) {

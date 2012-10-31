@@ -4,8 +4,8 @@ package net.dwarfguide.creature.behavior;
 
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.smodel.structure.BehaviorDescriptor;
-import jetbrains.mps.smodel.structure.ConceptRegistry;
+import jetbrains.mps.smodel.runtime.BehaviorDescriptor;
+import jetbrains.mps.smodel.language.ConceptRegistry;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
 
@@ -21,10 +21,10 @@ public class HasRaceContraint_Behavior {
 
   public static SNode call_race_6143566370761776415(SNode thisNode) {
     BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
-    return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "net.dwarfguide.creature.structure.HasRaceContraint"), "virtual_race_6143566370761776415", PARAMETERS_6143566370761776415);
+    return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "net.dwarfguide.creature.structure.HasRaceContraint"), "virtual_race_6143566370761776415", PARAMETERS_6143566370761776415, new Object[]{});
   }
 
   public static SNode callSuper_race_6143566370761776415(SNode thisNode, String callerConceptFqName) {
-    return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "net.dwarfguide.creature.structure.HasRaceContraint"), callerConceptFqName, "virtual_race_6143566370761776415", PARAMETERS_6143566370761776415);
+    return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "net.dwarfguide.creature.structure.HasRaceContraint"), callerConceptFqName, "virtual_race_6143566370761776415", PARAMETERS_6143566370761776415, new Object[]{});
   }
 }

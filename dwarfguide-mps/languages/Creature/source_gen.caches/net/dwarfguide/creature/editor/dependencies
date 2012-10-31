@@ -57,6 +57,7 @@
   </dependency>
   <dependency className="net.dwarfguide.creature.editor.EntityEditor" file="EntityEditor.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.lang.editor.cellProviders.ConceptPropertyCellProvider" />
     <classNode dependClassName="jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
@@ -74,7 +75,6 @@
     <classNode dependClassName="jetbrains.mps.smodel.IScope" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="net.dwarfguide.creature.editor.Dwarfs_StyleSheet" />
-    <classNode dependClassName="org.apache.commons.lang.StringUtils" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.AbstractCellProvider" />
   </dependency>
   <dependency className="net.dwarfguide.creature.editor.FormulaRatingStrategy_Editor" file="FormulaRatingStrategy_Editor.java">

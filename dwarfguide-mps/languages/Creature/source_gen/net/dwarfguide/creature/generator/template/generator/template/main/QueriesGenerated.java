@@ -7,20 +7,18 @@ import jetbrains.mps.generator.template.BaseMappingRuleContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import net.dwarfguide.creature.behavior.HasName_Behavior;
+import net.dwarfguide.creature.accessory.GenerationUtils;
 import net.dwarfguide.creature.behavior.HasRaceContraint_Behavior;
 import net.dwarfguide.creature.behavior.HasProfessionConstraint_Behavior;
-import net.dwarfguide.creature.accessory.GenerationUtils;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import net.dwarfguide.creature.behavior.Profession_Behavior;
-import net.dwarfguide.creature.behavior.AttributeStatistic_Behavior;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import net.dwarfguide.creature.behavior.Statistic_Behavior;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 
 public class QueriesGenerated {
   public static boolean baseMappingRule_Condition_5248964655731768021(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
@@ -61,14 +59,6 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_7201497847334464907(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return HasName_Behavior.call_getSanitizedName_3848777903716100296(_context.getNode()).toUpperCase();
-  }
-
-  public static Object propertyMacro_GetPropertyValue_7730107903695343402(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return "Strategy for " + SPropertyOperations.getString(HasRaceContraint_Behavior.call_race_6143566370761776415(_context.getNode()), "adjective") + " " + SPropertyOperations.getString(HasProfessionConstraint_Behavior.call_profession_7730107903695144631(_context.getNode()), "name").toLowerCase();
-  }
-
-  public static Object propertyMacro_GetPropertyValue_297736238470942446(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return "Rating" + HasName_Behavior.call_getSanitizedName_3848777903716100296(HasProfessionConstraint_Behavior.call_profession_7730107903695144631(_context.getNode())) + HasName_Behavior.call_getSanitizedName_3848777903716100296(HasRaceContraint_Behavior.call_race_6143566370761776415(_context.getNode()));
   }
 
   public static Object propertyMacro_GetPropertyValue_4936626689121451188(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -123,20 +113,20 @@ public class QueriesGenerated {
     return GenerationUtils.why(_context);
   }
 
-  public static Object propertyMacro_GetPropertyValue_9062650802969086332(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getNode(), "name");
-  }
-
-  public static Object propertyMacro_GetPropertyValue_9062650802969086342(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return HasName_Behavior.call_getSanitizedName_3848777903716100296(_context.getNode());
-  }
-
   public static Object propertyMacro_GetPropertyValue_5994105463846253644(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "name");
   }
 
   public static Object propertyMacro_GetPropertyValue_5994105463846253660(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return HasName_Behavior.call_getSanitizedName_3848777903716100296(_context.getNode()).toUpperCase();
+  }
+
+  public static Object propertyMacro_GetPropertyValue_7730107903695343402(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return "Strategy for " + SPropertyOperations.getString(HasRaceContraint_Behavior.call_race_6143566370761776415(_context.getNode()), "adjective") + " " + SPropertyOperations.getString(HasProfessionConstraint_Behavior.call_profession_7730107903695144631(_context.getNode()), "name").toLowerCase();
+  }
+
+  public static Object propertyMacro_GetPropertyValue_297736238470942446(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return "Rating" + HasName_Behavior.call_getSanitizedName_3848777903716100296(HasProfessionConstraint_Behavior.call_profession_7730107903695144631(_context.getNode())) + HasName_Behavior.call_getSanitizedName_3848777903716100296(HasRaceContraint_Behavior.call_race_6143566370761776415(_context.getNode()));
   }
 
   public static Object propertyMacro_GetPropertyValue_7730107903695144661(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -151,36 +141,8 @@ public class QueriesGenerated {
     return "AttributeRating" + HasName_Behavior.call_getSanitizedName_3848777903716100296(HasProfessionConstraint_Behavior.call_profession_7730107903695144631(_context.getNode())) + HasName_Behavior.call_getSanitizedName_3848777903716100296(HasRaceContraint_Behavior.call_race_6143566370761776415(_context.getNode()));
   }
 
-  public static Object propertyMacro_GetPropertyValue_5248964655731546400(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getNode(), "singular");
-  }
-
-  public static Object propertyMacro_GetPropertyValue_5248964655731453122(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return AttributeStatistic_Behavior.call_getMin_3848777903716026587(_context.getNode());
-  }
-
-  public static Object propertyMacro_GetPropertyValue_5248964655731453131(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return AttributeStatistic_Behavior.call_getMax_3848777903716026604(_context.getNode());
-  }
-
-  public static Object propertyMacro_GetPropertyValue_5248964655731453140(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return AttributeStatistic_Behavior.call_getAvg_3848777903716026570(_context.getNode());
-  }
-
-  public static Object referenceMacro_GetReferent_4425779126295914503(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "TraitEnumLabel");
-  }
-
-  public static Object referenceMacro_GetReferent_7730107903695343424(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(HasRaceContraint_Behavior.call_race_6143566370761776415(_context.getNode()), "RaceEnumLabel");
-  }
-
-  public static Object referenceMacro_GetReferent_7730107903695343435(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(HasProfessionConstraint_Behavior.call_profession_7730107903695144631(_context.getNode()), "ProfessionEnumLabel");
-  }
-
   public static Object referenceMacro_GetReferent_4425779126295924313(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(_context.getNode(), "attribute", false), "AttributeEnumLabel");
+    return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(_context.getNode(), "attribute", false), "AttributeEnumConstantLabel");
   }
 
   public static Object referenceMacro_GetReferent_4425779126295958589(final IOperationContext operationContext, final ReferenceMacroContext _context) {
@@ -191,120 +153,168 @@ public class QueriesGenerated {
     return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "TraitEnumLabel");
   }
 
+  public static Object referenceMacro_GetReferent_6071912477001188894(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByMappingLabel("TraitEnumClass");
+  }
+
   public static Object referenceMacro_GetReferent_7795409581775719487(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "TraitEnumLabel");
+  }
+
+  public static Object referenceMacro_GetReferent_6071912477001188917(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByMappingLabel("TraitEnumClass");
   }
 
   public static Object referenceMacro_GetReferent_7795409581775719504(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "TraitEnumLabel");
   }
 
+  public static Object referenceMacro_GetReferent_6071912477001188938(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByMappingLabel("TraitEnumClass");
+  }
+
   public static Object referenceMacro_GetReferent_7795409581775719521(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "TraitEnumLabel");
+  }
+
+  public static Object referenceMacro_GetReferent_6071912477001188959(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByMappingLabel("TraitEnumClass");
   }
 
   public static Object referenceMacro_GetReferent_7795409581775719538(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "TraitEnumLabel");
   }
 
+  public static Object referenceMacro_GetReferent_6071912477001188980(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByMappingLabel("TraitEnumClass");
+  }
+
   public static Object referenceMacro_GetReferent_7795409581775719555(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "TraitEnumLabel");
+  }
+
+  public static Object referenceMacro_GetReferent_6071912477001189001(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByMappingLabel("TraitEnumClass");
   }
 
   public static Object referenceMacro_GetReferent_4425779126295958620(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(_context.getNode(), "trait", false), "TraitEnumLabel");
   }
 
+  public static Object referenceMacro_GetReferent_6071912477001280380(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByMappingLabel("TraitEnumClass");
+  }
+
+  public static Object referenceMacro_GetReferent_5248964655731809055(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(Statistic_Behavior.call_getAttribute_5248964655731809077(_context.getNode()), "AttributeEnumConstantLabel");
+  }
+
+  public static Object referenceMacro_GetReferent_6071912477001305830(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByMappingLabel("AttributeEnumClass");
+  }
+
+  public static Object referenceMacro_GetReferent_5248964655731809096(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(Statistic_Behavior.call_getAttribute_5248964655731809077(_context.getNode()), "AttributeEnumConstantLabel");
+  }
+
+  public static Object referenceMacro_GetReferent_6071912477001280429(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByMappingLabel("TraitEnumClass");
+  }
+
+  public static Object referenceMacro_GetReferent_5248964655731809108(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(Statistic_Behavior.call_getAttribute_5248964655731809077(_context.getNode()), "AttributeEnumConstantLabel");
+  }
+
+  public static Object referenceMacro_GetReferent_6071912477001280420(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByMappingLabel("AttributeEnumClass");
+  }
+
+  public static Object referenceMacro_GetReferent_6071912477001211187(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByMappingLabel("RaceEnumClass");
+  }
+
+  public static Object referenceMacro_GetReferent_6071912477001211300(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByMappingLabel("ProfessionEnumClass");
+  }
+
   public static Object referenceMacro_GetReferent_1778400223746895177(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return _context.getOutputNodeByInputNodeAndMappingLabel(HasRaceContraint_Behavior.call_race_6143566370761776415(_context.getNode()), "RaceEnumLabel");
+  }
+
+  public static Object referenceMacro_GetReferent_6071912477001218581(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByMappingLabel("RaceEnumClass");
   }
 
   public static Object referenceMacro_GetReferent_1778400223746895203(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return _context.getOutputNodeByInputNodeAndMappingLabel(HasProfessionConstraint_Behavior.call_profession_7730107903695144631(_context.getNode()), "ProfessionEnumLabel");
   }
 
+  public static Object referenceMacro_GetReferent_6071912477001218599(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByMappingLabel("ProfessionEnumClass");
+  }
+
   public static Object referenceMacro_GetReferent_1778400223746902162(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "RatingStrategyConstructor");
   }
 
-  public static Object referenceMacro_GetReferent_4425779126295914859(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "AttributeEnumLabel");
+  public static Object referenceMacro_GetReferent_7730107903695343424(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(HasRaceContraint_Behavior.call_race_6143566370761776415(_context.getNode()), "RaceEnumLabel");
   }
 
-  public static Object referenceMacro_GetReferent_4425779126295914904(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "AttributeXMLField");
+  public static Object referenceMacro_GetReferent_6071912477001188846(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByMappingLabel("RaceEnumClass");
   }
 
-  public static Object referenceMacro_GetReferent_2931072954840907356(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "TraitEnumLabel");
+  public static Object referenceMacro_GetReferent_7730107903695343435(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(HasProfessionConstraint_Behavior.call_profession_7730107903695144631(_context.getNode()), "ProfessionEnumLabel");
   }
 
-  public static Object referenceMacro_GetReferent_4425779126295917478(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "TraitEnumLabel");
-  }
-
-  public static Object referenceMacro_GetReferent_2931072954840907432(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "SkillEnumLabel");
-  }
-
-  public static Object referenceMacro_GetReferent_4425779126295917511(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "SkillEnumLabel");
+  public static Object referenceMacro_GetReferent_6071912477001188860(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByMappingLabel("ProfessionEnumClass");
   }
 
   public static Object referenceMacro_GetReferent_5248964655731903897(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(_context.getNode(), "attribute", false), "AttributeEnumLabel");
+    return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(_context.getNode(), "attribute", false), "AttributeEnumConstantLabel");
+  }
+
+  public static Object referenceMacro_GetReferent_6071912477001187435(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByMappingLabel("AttributeEnumClass");
   }
 
   public static Object referenceMacro_GetReferent_5248964655731903912(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(_context.getNode(), "attribute", false), "AttributeEnumLabel");
+    return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(_context.getNode(), "attribute", false), "AttributeEnumConstantLabel");
+  }
+
+  public static Object referenceMacro_GetReferent_6071912477001188468(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByMappingLabel("AttributeEnumClass");
   }
 
   public static Object referenceMacro_GetReferent_7730107903695343260(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return _context.getOutputNodeByInputNodeAndMappingLabel(HasRaceContraint_Behavior.call_race_6143566370761776415(_context.getNode()), "RaceEnumLabel");
   }
 
+  public static Object referenceMacro_GetReferent_6071912477001188800(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByMappingLabel("RaceEnumClass");
+  }
+
   public static Object referenceMacro_GetReferent_7730107903695343277(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return _context.getOutputNodeByInputNodeAndMappingLabel(HasProfessionConstraint_Behavior.call_profession_7730107903695144631(_context.getNode()), "ProfessionEnumLabel");
   }
 
-  public static Object referenceMacro_GetReferent_5248964655731546327(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(AttributeStatistic_Behavior.call_getAttribute_6143566370761777642(_context.getNode()), "AttributeEnumLabel");
+  public static Object referenceMacro_GetReferent_6071912477001188191(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByMappingLabel("ProfessionEnumClass");
   }
 
-  public static Object referenceMacro_GetReferent_5248964655731453358(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "RaceEnumLabel");
+  public static Object referenceMacro_GetReferent_6071912477001227717(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByMappingLabel("RatingStrategyFactoryConcreteLabel");
   }
 
-  public static Object referenceMacro_GetReferent_5248964655731809055(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(Statistic_Behavior.call_getAttribute_5248964655731809077(_context.getNode()), "AttributeEnumLabel");
-  }
-
-  public static Object referenceMacro_GetReferent_5248964655731809096(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(Statistic_Behavior.call_getAttribute_5248964655731809077(_context.getNode()), "AttributeEnumLabel");
-  }
-
-  public static Object referenceMacro_GetReferent_5248964655731809108(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(Statistic_Behavior.call_getAttribute_5248964655731809077(_context.getNode()), "AttributeEnumLabel");
-  }
-
-  public static SNode sourceNodeQuery_3848777903716482944(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+  public static SNode sourceNodeQuery_6071912477001159248(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "ratingFormula", true);
-  }
-
-  public static SNode sourceNodeQuery_5030881626311029314(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    if ((_context.getNode() != null)) {
-      return _context.getNode();
-    } else {
-      return ListSequence.fromList(SModelOperations.getRoots(_context.getOriginalInputModel(), null)).getElement(0);
-    }
   }
 
   public static Iterable sourceNodesQuery_2413918680967037267(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SModelOperations.getRoots(_context.getInputModel(), "net.dwarfguide.creature.structure.Profession");
-  }
-
-  public static Iterable sourceNodesQuery_4425779126295914474(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
-    return SModelOperations.getNodes(_context.getInputModel(), "net.dwarfguide.creature.structure.Trait");
   }
 
   public static Iterable sourceNodesQuery_7201497847334464008(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
@@ -323,39 +333,15 @@ public class QueriesGenerated {
     return SModelOperations.getNodes(_context.getInputModel(), "net.dwarfguide.creature.structure.Attribute");
   }
 
-  public static Iterable sourceNodesQuery_1778400223746895166(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
-    return SModelOperations.getNodes(_context.getInputModel(), "net.dwarfguide.creature.structure.RatingStrategy");
-  }
-
-  public static Iterable sourceNodesQuery_9062650802969084991(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
-    return SModelOperations.getNodes(_context.getInputModel(), "net.dwarfguide.creature.structure.Attribute");
-  }
-
-  public static Iterable sourceNodesQuery_7806889456355265230(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
-    return SModelOperations.getNodes(_context.getInputModel(), "net.dwarfguide.creature.structure.Attribute");
-  }
-
-  public static Iterable sourceNodesQuery_7806889456355308094(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
-    return SModelOperations.getNodes(_context.getInputModel(), "net.dwarfguide.creature.structure.Trait");
-  }
-
-  public static Iterable sourceNodesQuery_7806889456355308465(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
-    return SModelOperations.getNodes(_context.getInputModel(), "net.dwarfguide.creature.structure.Skill");
-  }
-
   public static Iterable sourceNodesQuery_5994105463846253651(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SModelOperations.getNodes(_context.getInputModel(), "net.dwarfguide.creature.structure.Skill");
   }
 
+  public static Iterable sourceNodesQuery_1778400223746895166(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SModelOperations.getNodes(_context.getInputModel(), "net.dwarfguide.creature.structure.RatingStrategy");
+  }
+
   public static Iterable sourceNodesQuery_5248964655731903929(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return Profession_Behavior.call_dependentSkills_5248964655731903843(HasProfessionConstraint_Behavior.call_profession_7730107903695144631(_context.getNode()));
-  }
-
-  public static Iterable sourceNodesQuery_5248964655731453421(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
-    return SLinkOperations.getTargets(_context.getNode(), "attributeStatistic", true);
-  }
-
-  public static Iterable sourceNodesQuery_5248964655731453318(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
-    return SModelOperations.getNodes(_context.getInputModel(), "net.dwarfguide.creature.structure.Race");
   }
 }

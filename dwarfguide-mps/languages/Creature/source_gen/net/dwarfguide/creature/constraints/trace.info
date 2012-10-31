@@ -1,37 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="27" endPosition="0" unitName="net.dwarfguide.creature.constraints.ConstraintsAspectDescriptor" />
-  <root nodeId="3848777903716482883">
-    <nodeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="14" startPosition="82" endLine="15" endPosition="179" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="canBeAncesctorBreakingPoint" />
-    <nodeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="17" startPosition="46" endLine="18" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="22" startPosition="46" endLine="23" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="27" startPosition="135" endLine="28" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="28" startPosition="94" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="30" startPosition="51" endLine="31" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="32" startPosition="5" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="33" startPosition="0" endLine="34" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="297736238471263977" fileName="FormulaRatingStrategy_Constraints.java" startLine="37" startPosition="129" endLine="38" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
-    <nodeInfo nodeId="3848777903716482888" fileName="FormulaRatingStrategy_Constraints.java" startLine="39" startPosition="140" endLine="40" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3848777903716482894" fileName="FormulaRatingStrategy_Constraints.java" startLine="41" startPosition="5" endLine="42" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="16" startPosition="0" endLine="19" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="FormulaRatingStrategy_Constraints#()V" />
-    <nodeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="29" startPosition="0" endLine="32" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="3848777903716482886" fileName="FormulaRatingStrategy_Constraints.java" startLine="38" startPosition="32" endLine="41" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="20" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnCanBeAncestorMethod#()Z" />
-    <nodeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="36" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="static_canBeAnAncestor#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/constraints/CanBeAnAncestorContext;)Z" />
-    <nodeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="25" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="canBeAncestor#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
-    <scopeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="17" startPosition="46" endLine="18" endPosition="69" />
-    <scopeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="22" startPosition="46" endLine="23" endPosition="16" />
-    <scopeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="30" startPosition="51" endLine="31" endPosition="71" />
-    <scopeInfo nodeId="3848777903716482887" fileName="FormulaRatingStrategy_Constraints.java" startLine="39" startPosition="140" endLine="40" endPosition="19" />
-    <scopeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="16" startPosition="0" endLine="19" endPosition="3" />
-    <scopeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="20" startPosition="0" endLine="25" endPosition="0" />
-    <scopeInfo nodeId="3848777903716482885" fileName="FormulaRatingStrategy_Constraints.java" startLine="37" startPosition="129" endLine="42" endPosition="16" />
-    <scopeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="27" startPosition="135" endLine="34" endPosition="18" />
-    <scopeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="36" startPosition="0" endLine="44" endPosition="0" />
-    <scopeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="25" startPosition="0" endLine="36" endPosition="0" />
-    <unitInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="14" startPosition="0" endLine="45" endPosition="0" unitName="net.dwarfguide.creature.constraints.FormulaRatingStrategy_Constraints" />
+  <root nodeId="3848777903716482883" modelId="r:4ee42f44-921d-417e-8cb8-b81a75bdc0f1(net.dwarfguide.creature.constraints)">
+    <nodeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="13" startPosition="82" endLine="14" endPosition="179" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="canBeAncesctorBreakingPoint" />
+    <nodeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="16" startPosition="46" endLine="17" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="21" startPosition="46" endLine="22" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="26" startPosition="169" endLine="27" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="27" startPosition="84" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="29" startPosition="51" endLine="30" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="31" startPosition="5" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="32" startPosition="0" endLine="33" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="297736238471263977" fileName="FormulaRatingStrategy_Constraints.java" startLine="36" startPosition="139" endLine="37" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="3848777903716482888" fileName="FormulaRatingStrategy_Constraints.java" startLine="38" startPosition="126" endLine="39" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3848777903716482894" fileName="FormulaRatingStrategy_Constraints.java" startLine="40" startPosition="5" endLine="41" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="15" startPosition="0" endLine="18" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="FormulaRatingStrategy_Constraints#()V" />
+    <nodeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="28" startPosition="0" endLine="31" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3848777903716482886" fileName="FormulaRatingStrategy_Constraints.java" startLine="37" startPosition="32" endLine="40" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="19" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnCanBeAncestorMethod#()Z" />
+    <nodeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="35" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="static_canBeAnAncestor#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/IOperationContext;)Z" />
+    <nodeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="24" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="canBeAncestor#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+    <scopeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="16" startPosition="46" endLine="17" endPosition="69" />
+    <scopeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="21" startPosition="46" endLine="22" endPosition="16" />
+    <scopeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="29" startPosition="51" endLine="30" endPosition="71" />
+    <scopeInfo nodeId="3848777903716482887" fileName="FormulaRatingStrategy_Constraints.java" startLine="38" startPosition="126" endLine="39" endPosition="19" />
+    <scopeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="15" startPosition="0" endLine="18" endPosition="3" />
+    <scopeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="19" startPosition="0" endLine="24" endPosition="0" />
+    <scopeInfo nodeId="3848777903716482885" fileName="FormulaRatingStrategy_Constraints.java" startLine="36" startPosition="139" endLine="41" endPosition="16" />
+    <scopeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="26" startPosition="169" endLine="33" endPosition="18">
+      <varInfo nodeId="3848777903716482883" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="35" startPosition="0" endLine="43" endPosition="0">
+      <varInfo nodeId="3848777903716482883" varName="childConcept" />
+      <varInfo nodeId="3848777903716482883" varName="childNode" />
+      <varInfo nodeId="3848777903716482883" varName="node" />
+      <varInfo nodeId="3848777903716482883" varName="operationContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="24" startPosition="0" endLine="35" endPosition="0">
+      <varInfo nodeId="3848777903716482883" varName="checkingNodeContext" />
+      <varInfo nodeId="3848777903716482883" varName="childConcept" />
+      <varInfo nodeId="3848777903716482883" varName="childNode" />
+      <varInfo nodeId="3848777903716482883" varName="context" />
+      <varInfo nodeId="3848777903716482883" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="3848777903716482883" fileName="FormulaRatingStrategy_Constraints.java" startLine="13" startPosition="0" endLine="44" endPosition="0" unitName="net.dwarfguide.creature.constraints.FormulaRatingStrategy_Constraints" />
   </root>
-  <root nodeId="627290435249133500">
+  <root nodeId="627290435249133500" modelId="r:4ee42f44-921d-417e-8cb8-b81a75bdc0f1(net.dwarfguide.creature.constraints)">
     <nodeInfo nodeId="627290435249133500" fileName="HasId_Constraints.java" startLine="18" startPosition="30" endLine="19" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="627290435249133500" fileName="HasId_Constraints.java" startLine="23" startPosition="82" endLine="24" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="627290435249133500" fileName="HasId_Constraints.java" startLine="27" startPosition="40" endLine="28" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -57,11 +70,21 @@
     <scopeInfo nodeId="2455624152132986636" fileName="HasId_Constraints.java" startLine="37" startPosition="112" endLine="40" endPosition="13" />
     <scopeInfo nodeId="627290435249133500" fileName="HasId_Constraints.java" startLine="25" startPosition="92" endLine="30" endPosition="0" />
     <scopeInfo nodeId="2455624152132986580" fileName="HasId_Constraints.java" startLine="36" startPosition="157" endLine="41" endPosition="11" />
-    <scopeInfo nodeId="2455624152132986577" fileName="HasId_Constraints.java" startLine="35" startPosition="81" endLine="42" endPosition="9" />
+    <scopeInfo nodeId="2455624152132986577" fileName="HasId_Constraints.java" startLine="35" startPosition="81" endLine="42" endPosition="9">
+      <varInfo nodeId="2455624152132986577" varName="neighbour" />
+    </scopeInfo>
     <scopeInfo nodeId="627290435249133506" fileName="HasId_Constraints.java" startLine="33" startPosition="43" endLine="43" endPosition="68" />
-    <scopeInfo nodeId="627290435249133500" fileName="HasId_Constraints.java" startLine="32" startPosition="84" endLine="43" endPosition="68" />
-    <scopeInfo nodeId="627290435249133500" fileName="HasId_Constraints.java" startLine="30" startPosition="0" endLine="45" endPosition="0" />
-    <scopeInfo nodeId="627290435249133500" fileName="HasId_Constraints.java" startLine="23" startPosition="82" endLine="46" endPosition="22" />
+    <scopeInfo nodeId="627290435249133500" fileName="HasId_Constraints.java" startLine="32" startPosition="84" endLine="43" endPosition="68">
+      <varInfo nodeId="627290435249133500" varName="propertyName" />
+    </scopeInfo>
+    <scopeInfo nodeId="627290435249133500" fileName="HasId_Constraints.java" startLine="30" startPosition="0" endLine="45" endPosition="0">
+      <varInfo nodeId="627290435249133500" varName="node" />
+      <varInfo nodeId="627290435249133500" varName="propertyValue" />
+      <varInfo nodeId="627290435249133500" varName="scope" />
+    </scopeInfo>
+    <scopeInfo nodeId="627290435249133500" fileName="HasId_Constraints.java" startLine="23" startPosition="82" endLine="46" endPosition="22">
+      <varInfo nodeId="627290435249133500" varName="properties" />
+    </scopeInfo>
     <scopeInfo nodeId="627290435249133500" fileName="HasId_Constraints.java" startLine="21" startPosition="0" endLine="48" endPosition="0" />
     <unitInfo nodeId="627290435249133500" fileName="HasId_Constraints.java" startLine="25" startPosition="37" endLine="45" endPosition="5" unitName="net.dwarfguide.creature.constraints.HasId_Constraints$1" />
     <unitInfo nodeId="627290435249133500" fileName="HasId_Constraints.java" startLine="17" startPosition="0" endLine="49" endPosition="0" unitName="net.dwarfguide.creature.constraints.HasId_Constraints" />

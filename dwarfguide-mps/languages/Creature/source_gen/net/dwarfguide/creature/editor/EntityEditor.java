@@ -18,7 +18,6 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.ConceptPropertyCellProvider;
 import jetbrains.mps.smodel.IScope;
-import org.apache.commons.lang.StringUtils;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class EntityEditor extends AbstractCellProvider {
@@ -134,6 +133,10 @@ public class EntityEditor extends AbstractCellProvider {
   }
 
   private static boolean renderingCondition_3zskvc_a0a(SNode node, EditorContext editorContext, IScope scope) {
-    return StringUtils.isNotEmpty(SPropertyOperations.getString(node, "alias"));
+    return isNotEmpty_3zskvc_a0a0a(SPropertyOperations.getString(node, "alias"));
+  }
+
+  public static boolean isNotEmpty_3zskvc_a0a0a(String str) {
+    return str != null && str.length() > 0;
   }
 }
