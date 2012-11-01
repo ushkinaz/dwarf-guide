@@ -31,7 +31,7 @@
   <name>MPS generated files for DwarfGuide</name>
 
   <properties>
-    <mps.version>2.0.2</mps.version>
+    <mps.version>2.5.2</mps.version>
   </properties>
 
   <dependencies>

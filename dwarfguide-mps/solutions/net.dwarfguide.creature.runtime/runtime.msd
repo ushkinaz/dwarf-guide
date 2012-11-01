@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solution name="net.dwarfguide.creature.runtime" uuid="09b9c58c-caa6-4842-a7bf-c03a1b4ac9ac" compileInMPS="true">
   <models>
+    <modelRoot path="${DWARVEN_PATH}/dwarfguide-mps/lib/guice.jar">
+      <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
+    </modelRoot>
+    <modelRoot path="${DWARVEN_PATH}/dwarfguide-mps/lib/javax.inject.jar">
+      <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
+    </modelRoot>
+    <modelRoot path="${DWARVEN_PATH}/dwarfguide-mps/lib/simple-xml.jar" />
     <modelRoot path="${solution_descriptor}/models" />
   </models>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
-    <dependency reexport="false">ec18e679-bd6d-4441-a00b-ab06c2d44eec(net.dwarfguide.creature)</dependency>
     <dependency reexport="false">cd2006f9-7fb7-4cd6-8983-2a54d8aa19d3(net.dwarfguide.creature#2413918680966875812)</dependency>
   </dependencies>
   <usedLanguages>

@@ -12,25 +12,14 @@
   <language namespace="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" />
   <language namespace="f2801650-65d5-424e-bb1b-463a8781b786(jetbrains.mps.baseLanguage.javadoc)" />
   <import index="12f6" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.annotation(JDK/javax.annotation@java_stub)" version="-1" />
-  <import index="ebxb" modelUID="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" version="-1" />
   <import index="rzz2" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang.annotation(JDK/java.lang.annotation@java_stub)" version="-1" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" />
-  <import index="rpr4" modelUID="f:java_stub#cd2006f9-7fb7-4cd6-8983-2a54d8aa19d3#com.google.inject(net.dwarfguide.creature#2413918680966875812/com.google.inject@java_stub)" version="-1" />
   <import index="lgzw" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util.regex(JDK/java.util.regex@java_stub)" version="-1" />
-  <import index="rqt" modelUID="f:java_stub#ec18e679-bd6d-4441-a00b-ab06c2d44eec#org.simpleframework.xml.stream(net.dwarfguide.creature/org.simpleframework.xml.stream@java_stub)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
-  <import index="1zyv" modelUID="f:java_stub#ec18e679-bd6d-4441-a00b-ab06c2d44eec#org.simpleframework.xml.transform(net.dwarfguide.creature/org.simpleframework.xml.transform@java_stub)" version="-1" />
-  <import index="hwdk" modelUID="f:java_stub#ec18e679-bd6d-4441-a00b-ab06c2d44eec#org.simpleframework.xml.strategy(net.dwarfguide.creature/org.simpleframework.xml.strategy@java_stub)" version="-1" />
-  <import index="cm1o" modelUID="f:java_stub#cd2006f9-7fb7-4cd6-8983-2a54d8aa19d3#org.simpleframework.xml.stream(net.dwarfguide.creature#2413918680966875812/org.simpleframework.xml.stream@java_stub)" version="-1" />
-  <import index="2ivj" modelUID="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(net.dwarfguide.creature.structure)" version="0" />
-  <import index="tb4p" modelUID="f:java_stub#ec18e679-bd6d-4441-a00b-ab06c2d44eec#org.simpleframework.xml(net.dwarfguide.creature/org.simpleframework.xml@java_stub)" version="-1" />
-  <import index="2yst" modelUID="r:b6fd1764-9efa-4f45-9ad7-a43db3ccfbb1(net.dwarfguide.creature.behavior)" version="0" />
-  <import index="8s7o" modelUID="f:java_stub#ec18e679-bd6d-4441-a00b-ab06c2d44eec#org.simpleframework.xml.core(net.dwarfguide.creature/org.simpleframework.xml.core@java_stub)" version="-1" />
-  <import index="p2eo" modelUID="f:java_stub#ec18e679-bd6d-4441-a00b-ab06c2d44eec#org.apache.commons.io(net.dwarfguide.creature/org.apache.commons.io@java_stub)" version="-1" />
-  <import index="akbi" modelUID="f:java_stub#ec18e679-bd6d-4441-a00b-ab06c2d44eec#org.simpleframework.xml.convert(net.dwarfguide.creature/org.simpleframework.xml.convert@java_stub)" version="-1" />
   <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" />
   <import index="k7g3" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" version="-1" />
-  <import index="3cc8" modelUID="f:java_stub#cd2006f9-7fb7-4cd6-8983-2a54d8aa19d3#com.google.inject.binder(net.dwarfguide.creature#2413918680966875812/com.google.inject.binder@java_stub)" version="-1" />
+  <import index="3tgx" modelUID="f:java_stub#09b9c58c-caa6-4842-a7bf-c03a1b4ac9ac#com.google.inject(net.dwarfguide.creature.runtime/com.google.inject@java_stub)" version="-1" />
+  <import index="ebxb" modelUID="r:0c637f0c-2188-4a2e-b298-2a825eb61a7f(net.dwarfguide.creature.generator.template.generator.template.main@generator)" version="-1" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
   <import index="tpf8" modelUID="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" version="2" implicit="yes" />
   <import index="atci" modelUID="r:455e9449-2e48-48a9-93ac-e0c6a3819e34(baseLanguage.sugar.structure)" version="1" implicit="yes" />
@@ -41,6 +30,17 @@
   <import index="m373" modelUID="r:4095af4f-a097-4799-aaa9-03df087ddfa6(jetbrains.mps.baseLanguage.javadoc.structure)" version="5" implicit="yes" />
   <import index="tpib" modelUID="r:00000000-0000-4000-0000-011c8959057f(jetbrains.mps.baseLanguage.logging.structure)" version="0" implicit="yes" />
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" implicit="yes" />
+  <import index="rqt" modelUID="f:java_stub#ec18e679-bd6d-4441-a00b-ab06c2d44eec#org.simpleframework.xml.stream(net.dwarfguide.creature/org.simpleframework.xml.stream@java_stub)" version="-1" implicit="yes" />
+  <import index="1zyv" modelUID="f:java_stub#ec18e679-bd6d-4441-a00b-ab06c2d44eec#org.simpleframework.xml.transform(net.dwarfguide.creature/org.simpleframework.xml.transform@java_stub)" version="-1" implicit="yes" />
+  <import index="hwdk" modelUID="f:java_stub#ec18e679-bd6d-4441-a00b-ab06c2d44eec#org.simpleframework.xml.strategy(net.dwarfguide.creature/org.simpleframework.xml.strategy@java_stub)" version="-1" implicit="yes" />
+  <import index="cm1o" modelUID="f:java_stub#cd2006f9-7fb7-4cd6-8983-2a54d8aa19d3#org.simpleframework.xml.stream(net.dwarfguide.creature#2413918680966875812/org.simpleframework.xml.stream@java_stub)" version="-1" implicit="yes" />
+  <import index="2ivj" modelUID="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(net.dwarfguide.creature.structure)" version="0" implicit="yes" />
+  <import index="2yst" modelUID="r:b6fd1764-9efa-4f45-9ad7-a43db3ccfbb1(net.dwarfguide.creature.behavior)" version="0" implicit="yes" />
+  <import index="tb4p" modelUID="f:java_stub#ec18e679-bd6d-4441-a00b-ab06c2d44eec#org.simpleframework.xml(net.dwarfguide.creature/org.simpleframework.xml@java_stub)" version="-1" implicit="yes" />
+  <import index="8s7o" modelUID="f:java_stub#ec18e679-bd6d-4441-a00b-ab06c2d44eec#org.simpleframework.xml.core(net.dwarfguide.creature/org.simpleframework.xml.core@java_stub)" version="-1" implicit="yes" />
+  <import index="p2eo" modelUID="f:java_stub#ec18e679-bd6d-4441-a00b-ab06c2d44eec#org.apache.commons.io(net.dwarfguide.creature/org.apache.commons.io@java_stub)" version="-1" implicit="yes" />
+  <import index="akbi" modelUID="f:java_stub#ec18e679-bd6d-4441-a00b-ab06c2d44eec#org.simpleframework.xml.convert(net.dwarfguide.creature/org.simpleframework.xml.convert@java_stub)" version="-1" implicit="yes" />
+  <import index="rpr4" modelUID="f:java_stub#cd2006f9-7fb7-4cd6-8983-2a54d8aa19d3#com.google.inject(net.dwarfguide.creature#2413918680966875812/com.google.inject@java_stub)" version="-1" implicit="yes" />
   <roots>
     <node type="cx9y.NamedTupleDeclaration" typeId="cx9y.1239360506533" id="4425779126296170366">
       <property name="name" nameId="tpck.1169194664001" value="CreatureRating" />
@@ -2226,7 +2226,7 @@
     <node role="component" roleId="cx9y.1239529553065" type="cx9y.NamedTupleComponentDeclaration" typeId="cx9y.1239462176079" id="1778400223746894853">
       <property name="final" nameId="cx9y.1240400839614" value="false" />
       <property name="name" nameId="tpck.1169194664001" value="profession" />
-      <node role="type" roleId="cx9y.1239462974287" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1778400223746894855">
+      <node role="type" roleId="cx9y.1239462974287" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="249557062164411690">
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ebxb.2413918680966899059" resolveInfo="ProfessionEnum" />
       </node>
     </node>

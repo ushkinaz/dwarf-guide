@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="net.dwarfguide.model" uuid="29959101-81b7-471e-875c-7fd056d610fc" compileInMPS="true" generatorOutputPath="${WORKSPACE}/dwarf-guide/dwarfguide-mps/src/main/java">
+<solution name="net.dwarfguide.model" uuid="29959101-81b7-471e-875c-7fd056d610fc" compileInMPS="true" generatorOutputPath="${DWARVEN_PATH}/dwarf-guide/dwarfguide-mps/src/main/java">
   <models>
     <modelRoot path="${solution_descriptor}/" />
     <modelRoot path="${solution_descriptor}/models" />
