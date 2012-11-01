@@ -31,7 +31,7 @@
   <name>MPS generated files for DwarfGuide</name>
 
   <properties>
-    <mps.version>2.0.2</mps.version>
+    <mps.version>2.5.2</mps.version>
   </properties>
 
   <dependencies>
@@ -87,7 +87,7 @@
         <version>2.3</version>
         <executions>
           <execution>
-            <id>copy-lib</id>
+            <id>copy-lib-solution</id>
             <phase>generate-resources</phase>
             <goals>
               <goal>copy-dependencies</goal>
@@ -95,7 +95,20 @@
             <configuration>
               <excludeTransitive>false</excludeTransitive>
               <stripVersion>true</stripVersion>
-              <outputDirectory>${project.basedir}/lib</outputDirectory>
+              <outputDirectory>${project.basedir}/solutions/net.dwarfguide.model/lib</outputDirectory>
+              <includeScope>compile</includeScope>
+            </configuration>
+          </execution>
+          <execution>
+            <id>copy-lib-lang</id>
+            <phase>generate-resources</phase>
+            <goals>
+              <goal>copy-dependencies</goal>
+            </goals>
+            <configuration>
+              <excludeTransitive>false</excludeTransitive>
+              <stripVersion>true</stripVersion>
+              <outputDirectory>${project.basedir}/languages/Creature/lib</outputDirectory>
               <includeScope>compile</includeScope>
             </configuration>
           </execution>
