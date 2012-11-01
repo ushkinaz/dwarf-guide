@@ -141,6 +141,14 @@ public class QueriesGenerated {
     return "AttributeRating" + HasName_Behavior.call_getSanitizedName_3848777903716100296(HasProfessionConstraint_Behavior.call_profession_7730107903695144631(_context.getNode())) + HasName_Behavior.call_getSanitizedName_3848777903716100296(HasRaceContraint_Behavior.call_race_6143566370761776415(_context.getNode()));
   }
 
+  public static Object propertyMacro_GetPropertyValue_6071912477001434689(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "name");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_6071912477001434705(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return HasName_Behavior.call_getSanitizedName_3848777903716100296(_context.getNode());
+  }
+
   public static Object referenceMacro_GetReferent_4425779126295924313(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(_context.getNode(), "attribute", false), "AttributeEnumConstantLabel");
   }
@@ -309,6 +317,34 @@ public class QueriesGenerated {
     return _context.getOutputNodeByMappingLabel("RatingStrategyFactoryConcreteLabel");
   }
 
+  public static Object referenceMacro_GetReferent_6071912477001434447(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "TraitEnumLabel");
+  }
+
+  public static Object referenceMacro_GetReferent_6071912477001434826(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "AttributeEnumConstantLabel");
+  }
+
+  public static Object referenceMacro_GetReferent_6071912477001434835(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "AttributeXMLField");
+  }
+
+  public static Object referenceMacro_GetReferent_6071912477001434861(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "TraitEnumLabel");
+  }
+
+  public static Object referenceMacro_GetReferent_6071912477001434877(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "TraitEnumLabel");
+  }
+
+  public static Object referenceMacro_GetReferent_6071912477001434937(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "SkillEnumLabel");
+  }
+
+  public static Object referenceMacro_GetReferent_6071912477001434953(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "SkillEnumLabel");
+  }
+
   public static SNode sourceNodeQuery_6071912477001159248(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "ratingFormula", true);
   }
@@ -343,5 +379,25 @@ public class QueriesGenerated {
 
   public static Iterable sourceNodesQuery_5248964655731903929(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return Profession_Behavior.call_dependentSkills_5248964655731903843(HasProfessionConstraint_Behavior.call_profession_7730107903695144631(_context.getNode()));
+  }
+
+  public static Iterable sourceNodesQuery_6071912477001434456(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SModelOperations.getNodes(_context.getInputModel(), "net.dwarfguide.creature.structure.Trait");
+  }
+
+  public static Iterable sourceNodesQuery_6071912477001434696(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SModelOperations.getNodes(_context.getInputModel(), "net.dwarfguide.creature.structure.Attribute");
+  }
+
+  public static Iterable sourceNodesQuery_6071912477001434813(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SModelOperations.getNodes(_context.getInputModel(), "net.dwarfguide.creature.structure.Attribute");
+  }
+
+  public static Iterable sourceNodesQuery_6071912477001434891(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SModelOperations.getNodes(_context.getInputModel(), "net.dwarfguide.creature.structure.Trait");
+  }
+
+  public static Iterable sourceNodesQuery_6071912477001434967(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SModelOperations.getNodes(_context.getInputModel(), "net.dwarfguide.creature.structure.Skill");
   }
 }
