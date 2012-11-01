@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="IntentionsDescriptor.java" startLine="9" startPosition="0" endLine="19" endPosition="0" unitName="net.dwarfguide.creature.intentions.IntentionsDescriptor" />
-  <root nodeId="2455624152132456396">
+  <root nodeId="2455624152132456396" modelId="r:2ed640f1-ef9d-4ab2-87bd-9aa7ef6046fd(net.dwarfguide.creature.intentions)">
     <nodeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="21" startPosition="30" endLine="22" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="25" startPosition="36" endLine="26" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="29" startPosition="37" endLine="30" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -48,19 +48,29 @@
     <scopeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="24" startPosition="0" endLine="28" endPosition="0" />
     <scopeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="28" startPosition="0" endLine="32" endPosition="0" />
     <scopeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="32" startPosition="0" endLine="36" endPosition="0" />
-    <scopeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="36" startPosition="0" endLine="40" endPosition="0" />
-    <scopeInfo nodeId="2455624152132512012" fileName="PopulateRaceWithFileds_Intention.java" startLine="43" startPosition="194" endLine="47" endPosition="0" />
+    <scopeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="36" startPosition="0" endLine="40" endPosition="0">
+      <varInfo nodeId="2455624152132456396" varName="editorContext" />
+      <varInfo nodeId="2455624152132456396" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="2455624152132512012" fileName="PopulateRaceWithFileds_Intention.java" startLine="43" startPosition="194" endLine="47" endPosition="0">
+      <varInfo nodeId="2455624152132512012" varName="it" />
+    </scopeInfo>
     <scopeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="65" startPosition="0" endLine="69" endPosition="0" />
     <scopeInfo nodeId="2455624152132487576" fileName="PopulateRaceWithFileds_Intention.java" startLine="47" startPosition="16" endLine="62" endPosition="121">
       <varInfo nodeId="2455624152132501519" varName="attributeStatistic" />
     </scopeInfo>
-    <scopeInfo nodeId="2455624152132487573" fileName="PopulateRaceWithFileds_Intention.java" startLine="42" startPosition="96" endLine="63" endPosition="5" />
+    <scopeInfo nodeId="2455624152132487573" fileName="PopulateRaceWithFileds_Intention.java" startLine="42" startPosition="96" endLine="63" endPosition="5">
+      <varInfo nodeId="2455624152132487573" varName="attr" />
+    </scopeInfo>
     <scopeInfo nodeId="2455624152132456400" fileName="PopulateRaceWithFileds_Intention.java" startLine="41" startPosition="76" endLine="63" endPosition="5" />
-    <scopeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="40" startPosition="0" endLine="65" endPosition="0" />
+    <scopeInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="40" startPosition="0" endLine="65" endPosition="0">
+      <varInfo nodeId="2455624152132456396" varName="editorContext" />
+      <varInfo nodeId="2455624152132456396" varName="node" />
+    </scopeInfo>
     <unitInfo nodeId="2455624152132512012" fileName="PopulateRaceWithFileds_Intention.java" startLine="43" startPosition="159" endLine="47" endPosition="5" unitName="net.dwarfguide.creature.intentions.PopulateRaceWithFileds_Intention$1" />
     <unitInfo nodeId="2455624152132456396" fileName="PopulateRaceWithFileds_Intention.java" startLine="17" startPosition="0" endLine="70" endPosition="0" unitName="net.dwarfguide.creature.intentions.PopulateRaceWithFileds_Intention" />
   </root>
-  <root nodeId="2455624152132987133">
+  <root nodeId="2455624152132987133" modelId="r:2ed640f1-ef9d-4ab2-87bd-9aa7ef6046fd(net.dwarfguide.creature.intentions)">
     <nodeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="18" startPosition="30" endLine="19" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="22" startPosition="36" endLine="23" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="26" startPosition="37" endLine="27" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -95,14 +105,22 @@
     <scopeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
     <scopeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
     <scopeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
-    <scopeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="33" startPosition="0" endLine="37" endPosition="0" />
+    <scopeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="33" startPosition="0" endLine="37" endPosition="0">
+      <varInfo nodeId="2455624152132987133" varName="editorContext" />
+      <varInfo nodeId="2455624152132987133" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="49" startPosition="0" endLine="53" endPosition="0" />
     <scopeInfo nodeId="2455624152132987144" fileName="GenerateId_Intention.java" startLine="40" startPosition="153" endLine="45" endPosition="7" />
-    <scopeInfo nodeId="2455624152132987141" fileName="GenerateId_Intention.java" startLine="39" startPosition="18" endLine="46" endPosition="5" />
+    <scopeInfo nodeId="2455624152132987141" fileName="GenerateId_Intention.java" startLine="39" startPosition="18" endLine="46" endPosition="5">
+      <varInfo nodeId="2455624152132987141" varName="neighbour" />
+    </scopeInfo>
     <scopeInfo nodeId="2455624152132987137" fileName="GenerateId_Intention.java" startLine="38" startPosition="76" endLine="47" endPosition="62">
       <varInfo nodeId="2455624152132987199" varName="maxId" />
     </scopeInfo>
-    <scopeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="37" startPosition="0" endLine="49" endPosition="0" />
+    <scopeInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="37" startPosition="0" endLine="49" endPosition="0">
+      <varInfo nodeId="2455624152132987133" varName="editorContext" />
+      <varInfo nodeId="2455624152132987133" varName="node" />
+    </scopeInfo>
     <unitInfo nodeId="2455624152132987133" fileName="GenerateId_Intention.java" startLine="14" startPosition="0" endLine="54" endPosition="0" unitName="net.dwarfguide.creature.intentions.GenerateId_Intention" />
   </root>
 </debugInfo>

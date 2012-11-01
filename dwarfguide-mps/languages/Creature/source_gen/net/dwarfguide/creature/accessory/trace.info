@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="1778400223746937100">
+  <root nodeId="1778400223746937100" modelId="r:d8f85d2e-469e-4aba-a209-6a7cbbd34398(net.dwarfguide.creature.accessory)">
     <nodeInfo nodeId="5030881626311048417" fileName="GenerationUtils.java" startLine="15" startPosition="31" endLine="16" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5030881626311048424" fileName="GenerationUtils.java" startLine="16" startPosition="59" endLine="17" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="5030881626311048455" fileName="GenerationUtils.java" startLine="20" startPosition="35" endLine="21" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />

@@ -11,6 +11,7 @@
     <classNode dependClassName="net.dwarfguide.creature.structure.Entity" />
     <classNode dependClassName="net.dwarfguide.creature.structure.Feature" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="net.dwarfguide.creature.structure.AttributeRef" file="AttributeRef.java">
     <classNode dependClassName="java.lang.String" />
@@ -45,6 +46,7 @@
     <classNode dependClassName="net.dwarfguide.creature.structure.RaceRef" />
     <classNode dependClassName="net.dwarfguide.creature.structure.RatingStrategy" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="net.dwarfguide.creature.structure.Creature_Language" file="Creature_Language.java">
     <classNode dependClassName="jetbrains.mps.project.structure.modules.ModuleReference" />
@@ -76,6 +78,7 @@
     <classNode dependClassName="net.dwarfguide.creature.structure.RaceRef" />
     <classNode dependClassName="net.dwarfguide.creature.structure.RatingStrategy" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="net.dwarfguide.creature.structure.HasId" file="HasId.java">
     <classNode dependClassName="java.lang.String" />
@@ -107,6 +110,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="net.dwarfguide.creature.structure.Entity" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="net.dwarfguide.creature.structure.Labour" file="Labour.java">
     <classNode dependClassName="java.lang.String" />
@@ -119,6 +123,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="net.dwarfguide.creature.structure.Entity" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="net.dwarfguide.creature.structure.LabourCategory" file="LabourCategory.java">
     <classNode dependClassName="java.lang.String" />
@@ -132,6 +137,7 @@
     <classNode dependClassName="net.dwarfguide.creature.structure.HasName" />
     <classNode dependClassName="net.dwarfguide.creature.structure.LabourRef" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="net.dwarfguide.creature.structure.LabourRef" file="LabourRef.java">
     <classNode dependClassName="java.lang.String" />
@@ -153,6 +159,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="net.dwarfguide.creature.structure.Entity" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="net.dwarfguide.creature.structure.Profession" file="Profession.java">
     <classNode dependClassName="java.lang.String" />
@@ -167,6 +174,7 @@
     <classNode dependClassName="net.dwarfguide.creature.structure.LabourRef" />
     <classNode dependClassName="net.dwarfguide.creature.structure.SkillRef" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="net.dwarfguide.creature.structure.ProfessionRef" file="ProfessionRef.java">
     <classNode dependClassName="java.lang.String" />
@@ -189,6 +197,7 @@
     <classNode dependClassName="net.dwarfguide.creature.structure.AttributeStatistic" />
     <classNode dependClassName="net.dwarfguide.creature.structure.Entity" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="net.dwarfguide.creature.structure.RaceRef" file="RaceRef.java">
     <classNode dependClassName="java.lang.String" />
@@ -218,6 +227,7 @@
     <classNode dependClassName="net.dwarfguide.creature.structure.Entity" />
     <classNode dependClassName="net.dwarfguide.creature.structure.Feature" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="net.dwarfguide.creature.structure.SkillRef" file="SkillRef.java">
     <classNode dependClassName="java.lang.String" />
@@ -281,6 +291,7 @@
     <classNode dependClassName="net.dwarfguide.creature.structure.Entity" />
     <classNode dependClassName="net.dwarfguide.creature.structure.Feature" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="net.dwarfguide.creature.structure.TraitRef" file="TraitRef.java">
     <classNode dependClassName="java.lang.String" />

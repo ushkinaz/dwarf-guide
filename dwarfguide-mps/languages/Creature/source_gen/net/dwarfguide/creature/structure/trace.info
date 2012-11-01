@@ -2,7 +2,7 @@
 <debugInfo>
   <unitInfo fileName="Creature_Language.java" startLine="9" startPosition="0" endLine="16" endPosition="0" unitName="net.dwarfguide.creature.structure.Creature_Language" />
   <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="77" endPosition="0" unitName="net.dwarfguide.creature.structure.StructureAspectDescriptor" />
-  <root nodeId="2413918680966836691">
+  <root nodeId="2413918680966836691" modelId="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(net.dwarfguide.creature.structure)">
     <nodeInfo nodeId="2413918680966836691" fileName="ProfessionRef.java" startLine="11" startPosition="48" endLine="12" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="2413918680966836691" fileName="ProfessionRef.java" startLine="12" startPosition="89" endLine="13" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="PROFESSION" />
     <nodeInfo nodeId="2413918680966836691" fileName="ProfessionRef.java" startLine="15" startPosition="36" endLine="16" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -20,14 +20,23 @@
     <scopeInfo nodeId="2413918680966836691" fileName="ProfessionRef.java" startLine="23" startPosition="46" endLine="24" endPosition="54" />
     <scopeInfo nodeId="2413918680966836691" fileName="ProfessionRef.java" startLine="27" startPosition="68" endLine="28" endPosition="173" />
     <scopeInfo nodeId="2413918680966836691" fileName="ProfessionRef.java" startLine="31" startPosition="54" endLine="32" endPosition="48" />
-    <scopeInfo nodeId="2413918680966836691" fileName="ProfessionRef.java" startLine="14" startPosition="0" endLine="17" endPosition="3" />
+    <scopeInfo nodeId="2413918680966836691" fileName="ProfessionRef.java" startLine="14" startPosition="0" endLine="17" endPosition="3">
+      <varInfo nodeId="2413918680966836691" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="2413918680966836691" fileName="ProfessionRef.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
-    <scopeInfo nodeId="2413918680966836691" fileName="ProfessionRef.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
-    <scopeInfo nodeId="2413918680966836691" fileName="ProfessionRef.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="2413918680966836691" fileName="ProfessionRef.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="2413918680966836691" fileName="ProfessionRef.java" startLine="22" startPosition="0" endLine="26" endPosition="0">
+      <varInfo nodeId="2413918680966836691" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="2413918680966836691" fileName="ProfessionRef.java" startLine="26" startPosition="0" endLine="30" endPosition="0">
+      <varInfo nodeId="2413918680966836691" varName="init" />
+      <varInfo nodeId="2413918680966836691" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="2413918680966836691" fileName="ProfessionRef.java" startLine="30" startPosition="0" endLine="34" endPosition="0">
+      <varInfo nodeId="2413918680966836691" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="2413918680966836691" fileName="ProfessionRef.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="net.dwarfguide.creature.structure.ProfessionRef" />
   </root>
-  <root nodeId="2455624152132514798">
+  <root nodeId="2455624152132514798" modelId="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(net.dwarfguide.creature.structure)">
     <nodeInfo nodeId="2455624152132514798" fileName="AttributeStatistic.java" startLine="11" startPosition="53" endLine="12" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="2455624152132514798" fileName="AttributeStatistic.java" startLine="12" startPosition="94" endLine="13" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ATTR" />
     <nodeInfo nodeId="2455624152132514798" fileName="AttributeStatistic.java" startLine="13" startPosition="43" endLine="14" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="AVERAGE" />
@@ -66,20 +75,35 @@
     <scopeInfo nodeId="2455624152132514798" fileName="AttributeStatistic.java" startLine="50" startPosition="44" endLine="51" endPosition="49" />
     <scopeInfo nodeId="2455624152132514798" fileName="AttributeStatistic.java" startLine="54" startPosition="73" endLine="55" endPosition="183" />
     <scopeInfo nodeId="2455624152132514798" fileName="AttributeStatistic.java" startLine="58" startPosition="59" endLine="59" endPosition="53" />
-    <scopeInfo nodeId="2455624152132514798" fileName="AttributeStatistic.java" startLine="17" startPosition="0" endLine="20" endPosition="3" />
+    <scopeInfo nodeId="2455624152132514798" fileName="AttributeStatistic.java" startLine="17" startPosition="0" endLine="20" endPosition="3">
+      <varInfo nodeId="2455624152132514798" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="2455624152132514798" fileName="AttributeStatistic.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
-    <scopeInfo nodeId="2455624152132514798" fileName="AttributeStatistic.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="2455624152132514798" fileName="AttributeStatistic.java" startLine="25" startPosition="0" endLine="29" endPosition="0">
+      <varInfo nodeId="2455624152132514798" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="2455624152132514798" fileName="AttributeStatistic.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
-    <scopeInfo nodeId="2455624152132514798" fileName="AttributeStatistic.java" startLine="33" startPosition="0" endLine="37" endPosition="0" />
+    <scopeInfo nodeId="2455624152132514798" fileName="AttributeStatistic.java" startLine="33" startPosition="0" endLine="37" endPosition="0">
+      <varInfo nodeId="2455624152132514798" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="2455624152132514798" fileName="AttributeStatistic.java" startLine="37" startPosition="0" endLine="41" endPosition="0" />
-    <scopeInfo nodeId="2455624152132514798" fileName="AttributeStatistic.java" startLine="41" startPosition="0" endLine="45" endPosition="0" />
+    <scopeInfo nodeId="2455624152132514798" fileName="AttributeStatistic.java" startLine="41" startPosition="0" endLine="45" endPosition="0">
+      <varInfo nodeId="2455624152132514798" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="2455624152132514798" fileName="AttributeStatistic.java" startLine="45" startPosition="0" endLine="49" endPosition="0" />
-    <scopeInfo nodeId="2455624152132514798" fileName="AttributeStatistic.java" startLine="49" startPosition="0" endLine="53" endPosition="0" />
-    <scopeInfo nodeId="2455624152132514798" fileName="AttributeStatistic.java" startLine="53" startPosition="0" endLine="57" endPosition="0" />
-    <scopeInfo nodeId="2455624152132514798" fileName="AttributeStatistic.java" startLine="57" startPosition="0" endLine="61" endPosition="0" />
+    <scopeInfo nodeId="2455624152132514798" fileName="AttributeStatistic.java" startLine="49" startPosition="0" endLine="53" endPosition="0">
+      <varInfo nodeId="2455624152132514798" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="2455624152132514798" fileName="AttributeStatistic.java" startLine="53" startPosition="0" endLine="57" endPosition="0">
+      <varInfo nodeId="2455624152132514798" varName="init" />
+      <varInfo nodeId="2455624152132514798" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="2455624152132514798" fileName="AttributeStatistic.java" startLine="57" startPosition="0" endLine="61" endPosition="0">
+      <varInfo nodeId="2455624152132514798" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="2455624152132514798" fileName="AttributeStatistic.java" startLine="11" startPosition="0" endLine="62" endPosition="0" unitName="net.dwarfguide.creature.structure.AttributeStatistic" />
   </root>
-  <root nodeId="2455624152132549373">
+  <root nodeId="2455624152132549373" modelId="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(net.dwarfguide.creature.structure)">
     <nodeInfo nodeId="2455624152132549373" fileName="RaceRef.java" startLine="11" startPosition="42" endLine="12" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="2455624152132549373" fileName="RaceRef.java" startLine="12" startPosition="83" endLine="13" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="RACE" />
     <nodeInfo nodeId="2455624152132549373" fileName="RaceRef.java" startLine="15" startPosition="30" endLine="16" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -97,14 +121,23 @@
     <scopeInfo nodeId="2455624152132549373" fileName="RaceRef.java" startLine="23" startPosition="34" endLine="24" endPosition="42" />
     <scopeInfo nodeId="2455624152132549373" fileName="RaceRef.java" startLine="27" startPosition="62" endLine="28" endPosition="161" />
     <scopeInfo nodeId="2455624152132549373" fileName="RaceRef.java" startLine="31" startPosition="48" endLine="32" endPosition="42" />
-    <scopeInfo nodeId="2455624152132549373" fileName="RaceRef.java" startLine="14" startPosition="0" endLine="17" endPosition="3" />
+    <scopeInfo nodeId="2455624152132549373" fileName="RaceRef.java" startLine="14" startPosition="0" endLine="17" endPosition="3">
+      <varInfo nodeId="2455624152132549373" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="2455624152132549373" fileName="RaceRef.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
-    <scopeInfo nodeId="2455624152132549373" fileName="RaceRef.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
-    <scopeInfo nodeId="2455624152132549373" fileName="RaceRef.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="2455624152132549373" fileName="RaceRef.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="2455624152132549373" fileName="RaceRef.java" startLine="22" startPosition="0" endLine="26" endPosition="0">
+      <varInfo nodeId="2455624152132549373" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="2455624152132549373" fileName="RaceRef.java" startLine="26" startPosition="0" endLine="30" endPosition="0">
+      <varInfo nodeId="2455624152132549373" varName="init" />
+      <varInfo nodeId="2455624152132549373" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="2455624152132549373" fileName="RaceRef.java" startLine="30" startPosition="0" endLine="34" endPosition="0">
+      <varInfo nodeId="2455624152132549373" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="2455624152132549373" fileName="RaceRef.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="net.dwarfguide.creature.structure.RaceRef" />
   </root>
-  <root nodeId="2886000266267467114">
+  <root nodeId="2886000266267467114" modelId="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(net.dwarfguide.creature.structure)">
     <nodeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="14" startPosition="58" endLine="15" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="15" startPosition="81" endLine="16" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="NAME" />
     <nodeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="16" startPosition="43" endLine="17" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHORT_DESCRIPTION" />
@@ -173,29 +206,53 @@
     <scopeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="92" startPosition="69" endLine="93" endPosition="57" />
     <scopeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="96" startPosition="60" endLine="97" endPosition="157" />
     <scopeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="100" startPosition="46" endLine="101" endPosition="40" />
-    <scopeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="23" startPosition="0" endLine="26" endPosition="3" />
+    <scopeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="23" startPosition="0" endLine="26" endPosition="3">
+      <varInfo nodeId="2886000266267467114" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
-    <scopeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="31" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="31" startPosition="0" endLine="35" endPosition="0">
+      <varInfo nodeId="2886000266267467114" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="35" startPosition="0" endLine="39" endPosition="0" />
-    <scopeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="39" startPosition="0" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="39" startPosition="0" endLine="43" endPosition="0">
+      <varInfo nodeId="2886000266267467114" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="43" startPosition="0" endLine="47" endPosition="0" />
-    <scopeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="47" startPosition="0" endLine="51" endPosition="0" />
+    <scopeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="47" startPosition="0" endLine="51" endPosition="0">
+      <varInfo nodeId="2886000266267467114" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="51" startPosition="0" endLine="55" endPosition="0" />
-    <scopeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="55" startPosition="0" endLine="59" endPosition="0" />
+    <scopeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="55" startPosition="0" endLine="59" endPosition="0">
+      <varInfo nodeId="2886000266267467114" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="59" startPosition="0" endLine="63" endPosition="0" />
-    <scopeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="63" startPosition="0" endLine="67" endPosition="0" />
+    <scopeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="63" startPosition="0" endLine="67" endPosition="0">
+      <varInfo nodeId="2886000266267467114" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="67" startPosition="0" endLine="71" endPosition="0" />
-    <scopeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="71" startPosition="0" endLine="75" endPosition="0" />
+    <scopeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="71" startPosition="0" endLine="75" endPosition="0">
+      <varInfo nodeId="2886000266267467114" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="75" startPosition="0" endLine="79" endPosition="0" />
     <scopeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="79" startPosition="0" endLine="83" endPosition="0" />
     <scopeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="83" startPosition="0" endLine="87" endPosition="0" />
-    <scopeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="87" startPosition="0" endLine="91" endPosition="0" />
-    <scopeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="91" startPosition="0" endLine="95" endPosition="0" />
-    <scopeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="95" startPosition="0" endLine="99" endPosition="0" />
-    <scopeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="99" startPosition="0" endLine="103" endPosition="0" />
+    <scopeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="87" startPosition="0" endLine="91" endPosition="0">
+      <varInfo nodeId="2886000266267467114" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="91" startPosition="0" endLine="95" endPosition="0">
+      <varInfo nodeId="2886000266267467114" varName="node" />
+      <varInfo nodeId="2886000266267467114" varName="prev" />
+    </scopeInfo>
+    <scopeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="95" startPosition="0" endLine="99" endPosition="0">
+      <varInfo nodeId="2886000266267467114" varName="init" />
+      <varInfo nodeId="2886000266267467114" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="2886000266267467114" fileName="Level.java" startLine="99" startPosition="0" endLine="103" endPosition="0">
+      <varInfo nodeId="2886000266267467114" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="2886000266267467114" fileName="Level.java" startLine="14" startPosition="0" endLine="104" endPosition="0" unitName="net.dwarfguide.creature.structure.Level" />
   </root>
-  <root nodeId="2935713650494001850">
+  <root nodeId="2935713650494001850" modelId="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(net.dwarfguide.creature.structure)">
     <nodeInfo nodeId="2935713650494001850" fileName="Attribute.java" startLine="13" startPosition="71" endLine="14" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="2935713650494001850" fileName="Attribute.java" startLine="14" startPosition="85" endLine="15" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="NAME" />
     <nodeInfo nodeId="2935713650494001850" fileName="Attribute.java" startLine="15" startPosition="43" endLine="16" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHORT_DESCRIPTION" />
@@ -257,27 +314,49 @@
     <scopeInfo nodeId="2935713650494001850" fileName="Attribute.java" startLine="82" startPosition="137" endLine="83" endPosition="61" />
     <scopeInfo nodeId="2935713650494001850" fileName="Attribute.java" startLine="86" startPosition="64" endLine="87" endPosition="165" />
     <scopeInfo nodeId="2935713650494001850" fileName="Attribute.java" startLine="90" startPosition="50" endLine="91" endPosition="44" />
-    <scopeInfo nodeId="2935713650494001850" fileName="Attribute.java" startLine="21" startPosition="0" endLine="24" endPosition="3" />
+    <scopeInfo nodeId="2935713650494001850" fileName="Attribute.java" startLine="21" startPosition="0" endLine="24" endPosition="3">
+      <varInfo nodeId="2935713650494001850" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="2935713650494001850" fileName="Attribute.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
-    <scopeInfo nodeId="2935713650494001850" fileName="Attribute.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="2935713650494001850" fileName="Attribute.java" startLine="29" startPosition="0" endLine="33" endPosition="0">
+      <varInfo nodeId="2935713650494001850" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="2935713650494001850" fileName="Attribute.java" startLine="33" startPosition="0" endLine="37" endPosition="0" />
-    <scopeInfo nodeId="2935713650494001850" fileName="Attribute.java" startLine="37" startPosition="0" endLine="41" endPosition="0" />
+    <scopeInfo nodeId="2935713650494001850" fileName="Attribute.java" startLine="37" startPosition="0" endLine="41" endPosition="0">
+      <varInfo nodeId="2935713650494001850" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="2935713650494001850" fileName="Attribute.java" startLine="41" startPosition="0" endLine="45" endPosition="0" />
-    <scopeInfo nodeId="2935713650494001850" fileName="Attribute.java" startLine="45" startPosition="0" endLine="49" endPosition="0" />
+    <scopeInfo nodeId="2935713650494001850" fileName="Attribute.java" startLine="45" startPosition="0" endLine="49" endPosition="0">
+      <varInfo nodeId="2935713650494001850" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="2935713650494001850" fileName="Attribute.java" startLine="49" startPosition="0" endLine="53" endPosition="0" />
-    <scopeInfo nodeId="2935713650494001850" fileName="Attribute.java" startLine="53" startPosition="0" endLine="57" endPosition="0" />
+    <scopeInfo nodeId="2935713650494001850" fileName="Attribute.java" startLine="53" startPosition="0" endLine="57" endPosition="0">
+      <varInfo nodeId="2935713650494001850" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="2935713650494001850" fileName="Attribute.java" startLine="57" startPosition="0" endLine="61" endPosition="0" />
-    <scopeInfo nodeId="2935713650494001850" fileName="Attribute.java" startLine="61" startPosition="0" endLine="65" endPosition="0" />
+    <scopeInfo nodeId="2935713650494001850" fileName="Attribute.java" startLine="61" startPosition="0" endLine="65" endPosition="0">
+      <varInfo nodeId="2935713650494001850" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="2935713650494001850" fileName="Attribute.java" startLine="65" startPosition="0" endLine="69" endPosition="0" />
     <scopeInfo nodeId="2935713650494001850" fileName="Attribute.java" startLine="69" startPosition="0" endLine="73" endPosition="0" />
     <scopeInfo nodeId="2935713650494001850" fileName="Attribute.java" startLine="73" startPosition="0" endLine="77" endPosition="0" />
-    <scopeInfo nodeId="2935713650494001850" fileName="Attribute.java" startLine="77" startPosition="0" endLine="81" endPosition="0" />
-    <scopeInfo nodeId="2935713650494001850" fileName="Attribute.java" startLine="81" startPosition="0" endLine="85" endPosition="0" />
-    <scopeInfo nodeId="2935713650494001850" fileName="Attribute.java" startLine="85" startPosition="0" endLine="89" endPosition="0" />
-    <scopeInfo nodeId="2935713650494001850" fileName="Attribute.java" startLine="89" startPosition="0" endLine="93" endPosition="0" />
+    <scopeInfo nodeId="2935713650494001850" fileName="Attribute.java" startLine="77" startPosition="0" endLine="81" endPosition="0">
+      <varInfo nodeId="2935713650494001850" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="2935713650494001850" fileName="Attribute.java" startLine="81" startPosition="0" endLine="85" endPosition="0">
+      <varInfo nodeId="2935713650494001850" varName="node" />
+      <varInfo nodeId="2935713650494001850" varName="prev" />
+    </scopeInfo>
+    <scopeInfo nodeId="2935713650494001850" fileName="Attribute.java" startLine="85" startPosition="0" endLine="89" endPosition="0">
+      <varInfo nodeId="2935713650494001850" varName="init" />
+      <varInfo nodeId="2935713650494001850" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="2935713650494001850" fileName="Attribute.java" startLine="89" startPosition="0" endLine="93" endPosition="0">
+      <varInfo nodeId="2935713650494001850" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="2935713650494001850" fileName="Attribute.java" startLine="13" startPosition="0" endLine="94" endPosition="0" unitName="net.dwarfguide.creature.structure.Attribute" />
   </root>
-  <root nodeId="297736238471143922">
+  <root nodeId="297736238471143922" modelId="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(net.dwarfguide.creature.structure)">
     <nodeInfo nodeId="297736238471143922" fileName="Statistic.java" startLine="11" startPosition="43" endLine="12" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="297736238471143922" fileName="Statistic.java" startLine="12" startPosition="85" endLine="13" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="STATISTIC_TYPE" />
     <nodeInfo nodeId="297736238471143922" fileName="Statistic.java" startLine="13" startPosition="62" endLine="14" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ATTRIBUTE_REF" />
@@ -290,65 +369,60 @@
     <nodeInfo nodeId="297736238471143922" fileName="Statistic.java" startLine="37" startPosition="64" endLine="38" endPosition="165" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="297736238471143922" fileName="Statistic.java" startLine="41" startPosition="50" endLine="42" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="297736238471143922" fileName="Statistic.java" startLine="15" startPosition="0" endLine="18" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Statistic#(Ljetbrains/mps/smodel/SNode;)V" />
-    <nodeInfo nodeId="297736238471143922" fileName="Statistic.java" startLine="24" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setStatisticType#(Lnet/dwarfguide/creature/structure/StatisticType;)V" />
+    <nodeInfo nodeId="297736238471143922" fileName="Statistic.java" startLine="24" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setStatisticType#(Ljava/lang/Object;)V" />
     <nodeInfo nodeId="297736238471143922" fileName="Statistic.java" startLine="28" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getAttributeRef#()Ljetbrains/mps/smodel/INodeAdapter;" />
     <nodeInfo nodeId="297736238471143922" fileName="Statistic.java" startLine="32" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setAttributeRef#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
     <nodeInfo nodeId="297736238471143922" fileName="Statistic.java" startLine="36" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;Z)Lnet/dwarfguide/creature/structure/Statistic;" />
     <nodeInfo nodeId="297736238471143922" fileName="Statistic.java" startLine="40" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="newInstance#(Ljetbrains/mps/smodel/SModel;)Lnet/dwarfguide/creature/structure/Statistic;" />
-    <nodeInfo nodeId="297736238471143922" fileName="Statistic.java" startLine="19" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getStatisticType#()Lnet/dwarfguide/creature/structure/StatisticType;" />
+    <nodeInfo nodeId="297736238471143922" fileName="Statistic.java" startLine="19" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getStatisticType#()Ljava/lang/Object;" />
     <scopeInfo nodeId="297736238471143922" fileName="Statistic.java" startLine="16" startPosition="32" endLine="17" endPosition="16" />
     <scopeInfo nodeId="297736238471143922" fileName="Statistic.java" startLine="25" startPosition="53" endLine="26" endPosition="74" />
     <scopeInfo nodeId="297736238471143922" fileName="Statistic.java" startLine="29" startPosition="41" endLine="30" endPosition="85" />
     <scopeInfo nodeId="297736238471143922" fileName="Statistic.java" startLine="33" startPosition="50" endLine="34" endPosition="50" />
     <scopeInfo nodeId="297736238471143922" fileName="Statistic.java" startLine="37" startPosition="64" endLine="38" endPosition="165" />
     <scopeInfo nodeId="297736238471143922" fileName="Statistic.java" startLine="41" startPosition="50" endLine="42" endPosition="44" />
-    <scopeInfo nodeId="297736238471143922" fileName="Statistic.java" startLine="20" startPosition="43" endLine="22" endPosition="43" />
-    <scopeInfo nodeId="297736238471143922" fileName="Statistic.java" startLine="15" startPosition="0" endLine="18" endPosition="3" />
-    <scopeInfo nodeId="297736238471143922" fileName="Statistic.java" startLine="24" startPosition="0" endLine="28" endPosition="0" />
+    <scopeInfo nodeId="297736238471143922" fileName="Statistic.java" startLine="20" startPosition="43" endLine="22" endPosition="43">
+      <varInfo nodeId="297736238471143922" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="297736238471143922" fileName="Statistic.java" startLine="15" startPosition="0" endLine="18" endPosition="3">
+      <varInfo nodeId="297736238471143922" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="297736238471143922" fileName="Statistic.java" startLine="24" startPosition="0" endLine="28" endPosition="0">
+      <varInfo nodeId="297736238471143922" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="297736238471143922" fileName="Statistic.java" startLine="28" startPosition="0" endLine="32" endPosition="0" />
-    <scopeInfo nodeId="297736238471143922" fileName="Statistic.java" startLine="32" startPosition="0" endLine="36" endPosition="0" />
-    <scopeInfo nodeId="297736238471143922" fileName="Statistic.java" startLine="36" startPosition="0" endLine="40" endPosition="0" />
-    <scopeInfo nodeId="297736238471143922" fileName="Statistic.java" startLine="40" startPosition="0" endLine="44" endPosition="0" />
+    <scopeInfo nodeId="297736238471143922" fileName="Statistic.java" startLine="32" startPosition="0" endLine="36" endPosition="0">
+      <varInfo nodeId="297736238471143922" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="297736238471143922" fileName="Statistic.java" startLine="36" startPosition="0" endLine="40" endPosition="0">
+      <varInfo nodeId="297736238471143922" varName="init" />
+      <varInfo nodeId="297736238471143922" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="297736238471143922" fileName="Statistic.java" startLine="40" startPosition="0" endLine="44" endPosition="0">
+      <varInfo nodeId="297736238471143922" varName="sm" />
+    </scopeInfo>
     <scopeInfo nodeId="297736238471143922" fileName="Statistic.java" startLine="19" startPosition="0" endLine="24" endPosition="0" />
     <unitInfo nodeId="297736238471143922" fileName="Statistic.java" startLine="11" startPosition="0" endLine="45" endPosition="0" unitName="net.dwarfguide.creature.structure.Statistic" />
   </root>
-  <root nodeId="297736238471365650">
-    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="11" startPosition="24" endLine="12" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <root nodeId="297736238471365650" modelId="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(net.dwarfguide.creature.structure)">
     <nodeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="13" startPosition="0" endLine="14" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myName" />
-    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="13" startPosition="5" endLine="14" endPosition="103" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="14" startPosition="24" endLine="15" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myValue" />
-    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="15" startPosition="33" endLine="16" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="17" startPosition="44" endLine="18" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="17" startPosition="45" endLine="18" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="18" startPosition="23" endLine="19" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="20" startPosition="5" endLine="21" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="22" startPosition="27" endLine="23" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="25" startPosition="24" endLine="26" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="26" startPosition="36" endLine="27" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="27" startPosition="5" endLine="28" endPosition="103" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="29" startPosition="33" endLine="30" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="30" startPosition="28" endLine="31" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="31" startPosition="45" endLine="32" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="34" startPosition="5" endLine="35" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="34" startPosition="52" endLine="35" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="35" startPosition="86" endLine="36" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="36" startPosition="66" endLine="37" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="37" startPosition="62" endLine="38" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="38" startPosition="49" endLine="39" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="38" startPosition="62" endLine="39" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="40" startPosition="27" endLine="41" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="42" startPosition="5" endLine="43" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="42" startPosition="44" endLine="43" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="47" startPosition="24" endLine="48" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="50" startPosition="65" endLine="51" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="53" startPosition="61" endLine="54" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="56" startPosition="61" endLine="57" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="58" startPosition="5" endLine="59" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="10" startPosition="44" endLine="13" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="16" startPosition="48" endLine="19" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="24" startPosition="47" endLine="27" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="30" startPosition="48" endLine="33" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="39" startPosition="61" endLine="42" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="46" startPosition="56" endLine="49" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="49" startPosition="5" endLine="52" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="52" startPosition="5" endLine="55" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
@@ -358,48 +432,89 @@
     <nodeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="25" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValueAsString#()Ljava/lang/String;" />
     <nodeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValue#()Ljava/lang/String;" />
     <nodeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="41" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getDefault#()Lnet/dwarfguide/creature/structure/StatisticType;" />
+    <nodeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="33" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getConstants#()Ljava/util/List;" />
+    <nodeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="45" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="parseValue#(Ljava/lang/String;)Lnet/dwarfguide/creature/structure/StatisticType;" />
+    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="11" startPosition="24" endLine="12" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="13" startPosition="5" endLine="14" endPosition="103" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="15" startPosition="33" endLine="16" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="17" startPosition="45" endLine="18" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="20" startPosition="5" endLine="21" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="25" startPosition="24" endLine="26" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="27" startPosition="5" endLine="28" endPosition="103" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="29" startPosition="33" endLine="30" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="31" startPosition="45" endLine="32" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="34" startPosition="5" endLine="35" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="38" startPosition="49" endLine="39" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="40" startPosition="27" endLine="41" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="42" startPosition="5" endLine="43" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="10" startPosition="44" endLine="13" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="16" startPosition="48" endLine="19" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="24" startPosition="47" endLine="27" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="30" startPosition="48" endLine="33" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="39" startPosition="61" endLine="42" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="14" startPosition="103" endLine="20" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
     <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="28" startPosition="103" endLine="34" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
-    <nodeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="33" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getConstants#()Ljava/util/List;" />
     <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="37" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
     <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="9" startPosition="68" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="canSetValue#(Ljava/lang/String;)Z" />
     <nodeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="23" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
-    <nodeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="45" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="parseValue#(Ljava/lang/String;)Lnet/dwarfguide/creature/structure/StatisticType;" />
-    <scopeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="11" startPosition="24" endLine="12" endPosition="18" />
-    <scopeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="17" startPosition="45" endLine="18" endPosition="20" />
     <scopeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="22" startPosition="27" endLine="23" endPosition="23" />
-    <scopeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="25" startPosition="24" endLine="26" endPosition="18" />
     <scopeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="26" startPosition="36" endLine="27" endPosition="24" />
     <scopeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="30" startPosition="28" endLine="31" endPosition="24" />
-    <scopeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="31" startPosition="45" endLine="32" endPosition="43" />
-    <scopeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="40" startPosition="27" endLine="41" endPosition="32" />
     <scopeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="42" startPosition="44" endLine="43" endPosition="16" />
     <scopeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="47" startPosition="24" endLine="48" endPosition="40" />
     <scopeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="50" startPosition="65" endLine="51" endPosition="35" />
     <scopeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="53" startPosition="61" endLine="54" endPosition="31" />
     <scopeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="56" startPosition="61" endLine="57" endPosition="31" />
     <scopeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="17" startPosition="44" endLine="19" endPosition="25" />
-    <scopeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="15" startPosition="33" endLine="19" endPosition="7" />
-    <scopeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="16" startPosition="0" endLine="20" endPosition="3" />
+    <scopeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="16" startPosition="0" endLine="20" endPosition="3">
+      <varInfo nodeId="297736238471365650" varName="name" />
+      <varInfo nodeId="297736238471365650" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
     <scopeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
     <scopeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
-    <scopeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="29" startPosition="33" endLine="33" endPosition="7" />
     <scopeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="41" startPosition="0" endLine="45" endPosition="0" />
-    <scopeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="34" startPosition="52" endLine="39" endPosition="16" />
-    <scopeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="38" startPosition="49" endLine="43" endPosition="14" />
+    <scopeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="34" startPosition="52" endLine="39" endPosition="16">
+      <varInfo nodeId="297736238471365650" varName="list" />
+    </scopeInfo>
     <scopeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="33" startPosition="0" endLine="41" endPosition="0" />
-    <scopeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="37" startPosition="0" endLine="45" endPosition="0" />
-    <scopeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="10" startPosition="44" endLine="21" endPosition="17" />
-    <scopeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="24" startPosition="47" endLine="35" endPosition="16" />
     <scopeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="46" startPosition="56" endLine="59" endPosition="38" />
-    <scopeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="9" startPosition="68" endLine="23" endPosition="0" />
-    <scopeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="23" startPosition="0" endLine="37" endPosition="0" />
-    <scopeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="45" startPosition="0" endLine="61" endPosition="0" />
-    <unitInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="net.dwarfguide.creature.structure.StatisticType_PropertySupport" />
+    <scopeInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="45" startPosition="0" endLine="61" endPosition="0">
+      <varInfo nodeId="297736238471365650" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="11" startPosition="24" endLine="12" endPosition="18" />
+    <scopeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="17" startPosition="45" endLine="18" endPosition="20" />
+    <scopeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="25" startPosition="24" endLine="26" endPosition="18" />
+    <scopeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="31" startPosition="45" endLine="32" endPosition="43" />
+    <scopeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="40" startPosition="27" endLine="41" endPosition="32" />
+    <scopeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="15" startPosition="33" endLine="19" endPosition="7">
+      <varInfo nodeId="297736238471365650" varName="constant" />
+    </scopeInfo>
+    <scopeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="29" startPosition="33" endLine="33" endPosition="7">
+      <varInfo nodeId="297736238471365650" varName="constant" />
+    </scopeInfo>
+    <scopeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="38" startPosition="49" endLine="43" endPosition="14">
+      <varInfo nodeId="297736238471365650" varName="constant" />
+    </scopeInfo>
+    <scopeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="37" startPosition="0" endLine="45" endPosition="0">
+      <varInfo nodeId="297736238471365650" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="10" startPosition="44" endLine="21" endPosition="17">
+      <varInfo nodeId="297736238471365650" varName="constants" />
+    </scopeInfo>
+    <scopeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="24" startPosition="47" endLine="35" endPosition="16">
+      <varInfo nodeId="297736238471365650" varName="constants" />
+    </scopeInfo>
+    <scopeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="9" startPosition="68" endLine="23" endPosition="0">
+      <varInfo nodeId="297736238471365650" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="23" startPosition="0" endLine="37" endPosition="0">
+      <varInfo nodeId="297736238471365650" varName="value" />
+    </scopeInfo>
     <unitInfo nodeId="297736238471365650" fileName="StatisticType.java" startLine="9" startPosition="0" endLine="62" endPosition="0" unitName="net.dwarfguide.creature.structure.StatisticType" />
+    <unitInfo nodeId="297736238471365650" fileName="StatisticType_PropertySupport.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="net.dwarfguide.creature.structure.StatisticType_PropertySupport" />
   </root>
-  <root nodeId="3025991346593851837">
+  <root nodeId="3025991346593851837" modelId="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(net.dwarfguide.creature.structure)">
     <nodeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="14" startPosition="67" endLine="15" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="15" startPosition="81" endLine="16" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="HIGHEST" />
     <nodeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="16" startPosition="49" endLine="17" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="VERY_HIGH" />
@@ -503,39 +618,73 @@
     <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="137" startPosition="69" endLine="138" endPosition="57" />
     <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="141" startPosition="60" endLine="142" endPosition="157" />
     <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="145" startPosition="46" endLine="146" endPosition="40" />
-    <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="28" startPosition="0" endLine="31" endPosition="3" />
+    <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="28" startPosition="0" endLine="31" endPosition="3">
+      <varInfo nodeId="3025991346593851837" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="32" startPosition="0" endLine="36" endPosition="0" />
-    <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="36" startPosition="0" endLine="40" endPosition="0" />
+    <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="36" startPosition="0" endLine="40" endPosition="0">
+      <varInfo nodeId="3025991346593851837" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="40" startPosition="0" endLine="44" endPosition="0" />
-    <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="44" startPosition="0" endLine="48" endPosition="0" />
+    <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="44" startPosition="0" endLine="48" endPosition="0">
+      <varInfo nodeId="3025991346593851837" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="48" startPosition="0" endLine="52" endPosition="0" />
-    <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="52" startPosition="0" endLine="56" endPosition="0" />
+    <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="52" startPosition="0" endLine="56" endPosition="0">
+      <varInfo nodeId="3025991346593851837" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="56" startPosition="0" endLine="60" endPosition="0" />
-    <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="60" startPosition="0" endLine="64" endPosition="0" />
+    <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="60" startPosition="0" endLine="64" endPosition="0">
+      <varInfo nodeId="3025991346593851837" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="64" startPosition="0" endLine="68" endPosition="0" />
-    <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="68" startPosition="0" endLine="72" endPosition="0" />
+    <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="68" startPosition="0" endLine="72" endPosition="0">
+      <varInfo nodeId="3025991346593851837" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="72" startPosition="0" endLine="76" endPosition="0" />
-    <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="76" startPosition="0" endLine="80" endPosition="0" />
+    <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="76" startPosition="0" endLine="80" endPosition="0">
+      <varInfo nodeId="3025991346593851837" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="80" startPosition="0" endLine="84" endPosition="0" />
-    <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="84" startPosition="0" endLine="88" endPosition="0" />
+    <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="84" startPosition="0" endLine="88" endPosition="0">
+      <varInfo nodeId="3025991346593851837" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="88" startPosition="0" endLine="92" endPosition="0" />
-    <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="92" startPosition="0" endLine="96" endPosition="0" />
+    <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="92" startPosition="0" endLine="96" endPosition="0">
+      <varInfo nodeId="3025991346593851837" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="96" startPosition="0" endLine="100" endPosition="0" />
-    <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="100" startPosition="0" endLine="104" endPosition="0" />
+    <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="100" startPosition="0" endLine="104" endPosition="0">
+      <varInfo nodeId="3025991346593851837" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="104" startPosition="0" endLine="108" endPosition="0" />
-    <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="108" startPosition="0" endLine="112" endPosition="0" />
+    <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="108" startPosition="0" endLine="112" endPosition="0">
+      <varInfo nodeId="3025991346593851837" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="112" startPosition="0" endLine="116" endPosition="0" />
-    <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="116" startPosition="0" endLine="120" endPosition="0" />
+    <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="116" startPosition="0" endLine="120" endPosition="0">
+      <varInfo nodeId="3025991346593851837" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="120" startPosition="0" endLine="124" endPosition="0" />
     <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="124" startPosition="0" endLine="128" endPosition="0" />
     <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="128" startPosition="0" endLine="132" endPosition="0" />
-    <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="132" startPosition="0" endLine="136" endPosition="0" />
-    <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="136" startPosition="0" endLine="140" endPosition="0" />
-    <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="140" startPosition="0" endLine="144" endPosition="0" />
-    <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="144" startPosition="0" endLine="148" endPosition="0" />
+    <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="132" startPosition="0" endLine="136" endPosition="0">
+      <varInfo nodeId="3025991346593851837" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="136" startPosition="0" endLine="140" endPosition="0">
+      <varInfo nodeId="3025991346593851837" varName="node" />
+      <varInfo nodeId="3025991346593851837" varName="prev" />
+    </scopeInfo>
+    <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="140" startPosition="0" endLine="144" endPosition="0">
+      <varInfo nodeId="3025991346593851837" varName="init" />
+      <varInfo nodeId="3025991346593851837" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="144" startPosition="0" endLine="148" endPosition="0">
+      <varInfo nodeId="3025991346593851837" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="3025991346593851837" fileName="Trait.java" startLine="14" startPosition="0" endLine="149" endPosition="0" unitName="net.dwarfguide.creature.structure.Trait" />
   </root>
-  <root nodeId="3025991346594277152">
+  <root nodeId="3025991346594277152" modelId="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(net.dwarfguide.creature.structure)">
     <nodeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="14" startPosition="63" endLine="15" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="15" startPosition="86" endLine="16" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="NAME" />
     <nodeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="16" startPosition="43" endLine="17" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHORT_DESCRIPTION" />
@@ -625,35 +774,65 @@
     <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="119" startPosition="69" endLine="120" endPosition="62" />
     <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="123" startPosition="65" endLine="124" endPosition="167" />
     <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="127" startPosition="51" endLine="128" endPosition="45" />
-    <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="26" startPosition="0" endLine="29" endPosition="3" />
+    <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="26" startPosition="0" endLine="29" endPosition="3">
+      <varInfo nodeId="3025991346594277152" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
-    <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="34" startPosition="0" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="34" startPosition="0" endLine="38" endPosition="0">
+      <varInfo nodeId="3025991346594277152" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="38" startPosition="0" endLine="42" endPosition="0" />
-    <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="42" startPosition="0" endLine="46" endPosition="0" />
+    <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="42" startPosition="0" endLine="46" endPosition="0">
+      <varInfo nodeId="3025991346594277152" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="46" startPosition="0" endLine="50" endPosition="0" />
-    <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="50" startPosition="0" endLine="54" endPosition="0" />
+    <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="50" startPosition="0" endLine="54" endPosition="0">
+      <varInfo nodeId="3025991346594277152" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="54" startPosition="0" endLine="58" endPosition="0" />
-    <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="58" startPosition="0" endLine="62" endPosition="0" />
+    <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="58" startPosition="0" endLine="62" endPosition="0">
+      <varInfo nodeId="3025991346594277152" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="62" startPosition="0" endLine="66" endPosition="0" />
-    <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="66" startPosition="0" endLine="70" endPosition="0" />
+    <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="66" startPosition="0" endLine="70" endPosition="0">
+      <varInfo nodeId="3025991346594277152" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="70" startPosition="0" endLine="74" endPosition="0" />
-    <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="74" startPosition="0" endLine="78" endPosition="0" />
+    <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="74" startPosition="0" endLine="78" endPosition="0">
+      <varInfo nodeId="3025991346594277152" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="78" startPosition="0" endLine="82" endPosition="0" />
-    <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="82" startPosition="0" endLine="86" endPosition="0" />
+    <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="82" startPosition="0" endLine="86" endPosition="0">
+      <varInfo nodeId="3025991346594277152" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="86" startPosition="0" endLine="90" endPosition="0" />
-    <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="90" startPosition="0" endLine="94" endPosition="0" />
+    <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="90" startPosition="0" endLine="94" endPosition="0">
+      <varInfo nodeId="3025991346594277152" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="94" startPosition="0" endLine="98" endPosition="0" />
-    <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="98" startPosition="0" endLine="102" endPosition="0" />
+    <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="98" startPosition="0" endLine="102" endPosition="0">
+      <varInfo nodeId="3025991346594277152" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="102" startPosition="0" endLine="106" endPosition="0" />
     <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="106" startPosition="0" endLine="110" endPosition="0" />
     <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="110" startPosition="0" endLine="114" endPosition="0" />
-    <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="114" startPosition="0" endLine="118" endPosition="0" />
-    <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="118" startPosition="0" endLine="122" endPosition="0" />
-    <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="122" startPosition="0" endLine="126" endPosition="0" />
-    <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="126" startPosition="0" endLine="130" endPosition="0" />
+    <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="114" startPosition="0" endLine="118" endPosition="0">
+      <varInfo nodeId="3025991346594277152" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="118" startPosition="0" endLine="122" endPosition="0">
+      <varInfo nodeId="3025991346594277152" varName="node" />
+      <varInfo nodeId="3025991346594277152" varName="prev" />
+    </scopeInfo>
+    <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="122" startPosition="0" endLine="126" endPosition="0">
+      <varInfo nodeId="3025991346594277152" varName="init" />
+      <varInfo nodeId="3025991346594277152" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="126" startPosition="0" endLine="130" endPosition="0">
+      <varInfo nodeId="3025991346594277152" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="3025991346594277152" fileName="Profession.java" startLine="14" startPosition="0" endLine="131" endPosition="0" unitName="net.dwarfguide.creature.structure.Profession" />
   </root>
-  <root nodeId="3025991346594277158">
+  <root nodeId="3025991346594277158" modelId="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(net.dwarfguide.creature.structure)">
     <nodeInfo nodeId="3025991346594277158" fileName="Job.java" startLine="14" startPosition="56" endLine="15" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="3025991346594277158" fileName="Job.java" startLine="15" startPosition="79" endLine="16" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="NAME" />
     <nodeInfo nodeId="3025991346594277158" fileName="Job.java" startLine="16" startPosition="43" endLine="17" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHORT_DESCRIPTION" />
@@ -715,31 +894,53 @@
     <scopeInfo nodeId="3025991346594277158" fileName="Job.java" startLine="83" startPosition="69" endLine="84" endPosition="55" />
     <scopeInfo nodeId="3025991346594277158" fileName="Job.java" startLine="87" startPosition="58" endLine="88" endPosition="153" />
     <scopeInfo nodeId="3025991346594277158" fileName="Job.java" startLine="91" startPosition="44" endLine="92" endPosition="38" />
-    <scopeInfo nodeId="3025991346594277158" fileName="Job.java" startLine="22" startPosition="0" endLine="25" endPosition="3" />
+    <scopeInfo nodeId="3025991346594277158" fileName="Job.java" startLine="22" startPosition="0" endLine="25" endPosition="3">
+      <varInfo nodeId="3025991346594277158" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="3025991346594277158" fileName="Job.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="3025991346594277158" fileName="Job.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="3025991346594277158" fileName="Job.java" startLine="30" startPosition="0" endLine="34" endPosition="0">
+      <varInfo nodeId="3025991346594277158" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3025991346594277158" fileName="Job.java" startLine="34" startPosition="0" endLine="38" endPosition="0" />
-    <scopeInfo nodeId="3025991346594277158" fileName="Job.java" startLine="38" startPosition="0" endLine="42" endPosition="0" />
+    <scopeInfo nodeId="3025991346594277158" fileName="Job.java" startLine="38" startPosition="0" endLine="42" endPosition="0">
+      <varInfo nodeId="3025991346594277158" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3025991346594277158" fileName="Job.java" startLine="42" startPosition="0" endLine="46" endPosition="0" />
-    <scopeInfo nodeId="3025991346594277158" fileName="Job.java" startLine="46" startPosition="0" endLine="50" endPosition="0" />
+    <scopeInfo nodeId="3025991346594277158" fileName="Job.java" startLine="46" startPosition="0" endLine="50" endPosition="0">
+      <varInfo nodeId="3025991346594277158" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3025991346594277158" fileName="Job.java" startLine="50" startPosition="0" endLine="54" endPosition="0" />
-    <scopeInfo nodeId="3025991346594277158" fileName="Job.java" startLine="54" startPosition="0" endLine="58" endPosition="0" />
+    <scopeInfo nodeId="3025991346594277158" fileName="Job.java" startLine="54" startPosition="0" endLine="58" endPosition="0">
+      <varInfo nodeId="3025991346594277158" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3025991346594277158" fileName="Job.java" startLine="58" startPosition="0" endLine="62" endPosition="0" />
-    <scopeInfo nodeId="3025991346594277158" fileName="Job.java" startLine="62" startPosition="0" endLine="66" endPosition="0" />
+    <scopeInfo nodeId="3025991346594277158" fileName="Job.java" startLine="62" startPosition="0" endLine="66" endPosition="0">
+      <varInfo nodeId="3025991346594277158" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3025991346594277158" fileName="Job.java" startLine="66" startPosition="0" endLine="70" endPosition="0" />
     <scopeInfo nodeId="3025991346594277158" fileName="Job.java" startLine="70" startPosition="0" endLine="74" endPosition="0" />
     <scopeInfo nodeId="3025991346594277158" fileName="Job.java" startLine="74" startPosition="0" endLine="78" endPosition="0" />
-    <scopeInfo nodeId="3025991346594277158" fileName="Job.java" startLine="78" startPosition="0" endLine="82" endPosition="0" />
-    <scopeInfo nodeId="3025991346594277158" fileName="Job.java" startLine="82" startPosition="0" endLine="86" endPosition="0" />
-    <scopeInfo nodeId="3025991346594277158" fileName="Job.java" startLine="86" startPosition="0" endLine="90" endPosition="0" />
-    <scopeInfo nodeId="3025991346594277158" fileName="Job.java" startLine="90" startPosition="0" endLine="94" endPosition="0" />
+    <scopeInfo nodeId="3025991346594277158" fileName="Job.java" startLine="78" startPosition="0" endLine="82" endPosition="0">
+      <varInfo nodeId="3025991346594277158" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3025991346594277158" fileName="Job.java" startLine="82" startPosition="0" endLine="86" endPosition="0">
+      <varInfo nodeId="3025991346594277158" varName="node" />
+      <varInfo nodeId="3025991346594277158" varName="prev" />
+    </scopeInfo>
+    <scopeInfo nodeId="3025991346594277158" fileName="Job.java" startLine="86" startPosition="0" endLine="90" endPosition="0">
+      <varInfo nodeId="3025991346594277158" varName="init" />
+      <varInfo nodeId="3025991346594277158" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="3025991346594277158" fileName="Job.java" startLine="90" startPosition="0" endLine="94" endPosition="0">
+      <varInfo nodeId="3025991346594277158" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="3025991346594277158" fileName="Job.java" startLine="14" startPosition="0" endLine="95" endPosition="0" unitName="net.dwarfguide.creature.structure.Job" />
   </root>
-  <root nodeId="3025991346594277161">
+  <root nodeId="3025991346594277161" modelId="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(net.dwarfguide.creature.structure)">
     <nodeInfo nodeId="3025991346594277161" fileName="HasName.java" startLine="7" startPosition="48" endLine="8" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <unitInfo nodeId="3025991346594277161" fileName="HasName.java" startLine="7" startPosition="0" endLine="10" endPosition="0" unitName="net.dwarfguide.creature.structure.HasName" />
   </root>
-  <root nodeId="3025991346594277173">
+  <root nodeId="3025991346594277173" modelId="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(net.dwarfguide.creature.structure)">
     <nodeInfo nodeId="3025991346594277173" fileName="Labour.java" startLine="14" startPosition="59" endLine="15" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="3025991346594277173" fileName="Labour.java" startLine="15" startPosition="82" endLine="16" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="NAME" />
     <nodeInfo nodeId="3025991346594277173" fileName="Labour.java" startLine="16" startPosition="43" endLine="17" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHORT_DESCRIPTION" />
@@ -801,27 +1002,49 @@
     <scopeInfo nodeId="3025991346594277173" fileName="Labour.java" startLine="83" startPosition="69" endLine="84" endPosition="58" />
     <scopeInfo nodeId="3025991346594277173" fileName="Labour.java" startLine="87" startPosition="61" endLine="88" endPosition="159" />
     <scopeInfo nodeId="3025991346594277173" fileName="Labour.java" startLine="91" startPosition="47" endLine="92" endPosition="41" />
-    <scopeInfo nodeId="3025991346594277173" fileName="Labour.java" startLine="22" startPosition="0" endLine="25" endPosition="3" />
+    <scopeInfo nodeId="3025991346594277173" fileName="Labour.java" startLine="22" startPosition="0" endLine="25" endPosition="3">
+      <varInfo nodeId="3025991346594277173" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="3025991346594277173" fileName="Labour.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="3025991346594277173" fileName="Labour.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="3025991346594277173" fileName="Labour.java" startLine="30" startPosition="0" endLine="34" endPosition="0">
+      <varInfo nodeId="3025991346594277173" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3025991346594277173" fileName="Labour.java" startLine="34" startPosition="0" endLine="38" endPosition="0" />
-    <scopeInfo nodeId="3025991346594277173" fileName="Labour.java" startLine="38" startPosition="0" endLine="42" endPosition="0" />
+    <scopeInfo nodeId="3025991346594277173" fileName="Labour.java" startLine="38" startPosition="0" endLine="42" endPosition="0">
+      <varInfo nodeId="3025991346594277173" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3025991346594277173" fileName="Labour.java" startLine="42" startPosition="0" endLine="46" endPosition="0" />
-    <scopeInfo nodeId="3025991346594277173" fileName="Labour.java" startLine="46" startPosition="0" endLine="50" endPosition="0" />
+    <scopeInfo nodeId="3025991346594277173" fileName="Labour.java" startLine="46" startPosition="0" endLine="50" endPosition="0">
+      <varInfo nodeId="3025991346594277173" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3025991346594277173" fileName="Labour.java" startLine="50" startPosition="0" endLine="54" endPosition="0" />
-    <scopeInfo nodeId="3025991346594277173" fileName="Labour.java" startLine="54" startPosition="0" endLine="58" endPosition="0" />
+    <scopeInfo nodeId="3025991346594277173" fileName="Labour.java" startLine="54" startPosition="0" endLine="58" endPosition="0">
+      <varInfo nodeId="3025991346594277173" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3025991346594277173" fileName="Labour.java" startLine="58" startPosition="0" endLine="62" endPosition="0" />
-    <scopeInfo nodeId="3025991346594277173" fileName="Labour.java" startLine="62" startPosition="0" endLine="66" endPosition="0" />
+    <scopeInfo nodeId="3025991346594277173" fileName="Labour.java" startLine="62" startPosition="0" endLine="66" endPosition="0">
+      <varInfo nodeId="3025991346594277173" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3025991346594277173" fileName="Labour.java" startLine="66" startPosition="0" endLine="70" endPosition="0" />
     <scopeInfo nodeId="3025991346594277173" fileName="Labour.java" startLine="70" startPosition="0" endLine="74" endPosition="0" />
     <scopeInfo nodeId="3025991346594277173" fileName="Labour.java" startLine="74" startPosition="0" endLine="78" endPosition="0" />
-    <scopeInfo nodeId="3025991346594277173" fileName="Labour.java" startLine="78" startPosition="0" endLine="82" endPosition="0" />
-    <scopeInfo nodeId="3025991346594277173" fileName="Labour.java" startLine="82" startPosition="0" endLine="86" endPosition="0" />
-    <scopeInfo nodeId="3025991346594277173" fileName="Labour.java" startLine="86" startPosition="0" endLine="90" endPosition="0" />
-    <scopeInfo nodeId="3025991346594277173" fileName="Labour.java" startLine="90" startPosition="0" endLine="94" endPosition="0" />
+    <scopeInfo nodeId="3025991346594277173" fileName="Labour.java" startLine="78" startPosition="0" endLine="82" endPosition="0">
+      <varInfo nodeId="3025991346594277173" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3025991346594277173" fileName="Labour.java" startLine="82" startPosition="0" endLine="86" endPosition="0">
+      <varInfo nodeId="3025991346594277173" varName="node" />
+      <varInfo nodeId="3025991346594277173" varName="prev" />
+    </scopeInfo>
+    <scopeInfo nodeId="3025991346594277173" fileName="Labour.java" startLine="86" startPosition="0" endLine="90" endPosition="0">
+      <varInfo nodeId="3025991346594277173" varName="init" />
+      <varInfo nodeId="3025991346594277173" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="3025991346594277173" fileName="Labour.java" startLine="90" startPosition="0" endLine="94" endPosition="0">
+      <varInfo nodeId="3025991346594277173" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="3025991346594277173" fileName="Labour.java" startLine="14" startPosition="0" endLine="95" endPosition="0" unitName="net.dwarfguide.creature.structure.Labour" />
   </root>
-  <root nodeId="3169390138954787311">
+  <root nodeId="3169390138954787311" modelId="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(net.dwarfguide.creature.structure)">
     <nodeInfo nodeId="3169390138954787311" fileName="SkillRef.java" startLine="11" startPosition="42" endLine="12" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="3169390138954787311" fileName="SkillRef.java" startLine="12" startPosition="84" endLine="13" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SKILL" />
     <nodeInfo nodeId="3169390138954787311" fileName="SkillRef.java" startLine="15" startPosition="31" endLine="16" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -839,14 +1062,23 @@
     <scopeInfo nodeId="3169390138954787311" fileName="SkillRef.java" startLine="23" startPosition="36" endLine="24" endPosition="44" />
     <scopeInfo nodeId="3169390138954787311" fileName="SkillRef.java" startLine="27" startPosition="63" endLine="28" endPosition="163" />
     <scopeInfo nodeId="3169390138954787311" fileName="SkillRef.java" startLine="31" startPosition="49" endLine="32" endPosition="43" />
-    <scopeInfo nodeId="3169390138954787311" fileName="SkillRef.java" startLine="14" startPosition="0" endLine="17" endPosition="3" />
+    <scopeInfo nodeId="3169390138954787311" fileName="SkillRef.java" startLine="14" startPosition="0" endLine="17" endPosition="3">
+      <varInfo nodeId="3169390138954787311" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="3169390138954787311" fileName="SkillRef.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
-    <scopeInfo nodeId="3169390138954787311" fileName="SkillRef.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
-    <scopeInfo nodeId="3169390138954787311" fileName="SkillRef.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="3169390138954787311" fileName="SkillRef.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="3169390138954787311" fileName="SkillRef.java" startLine="22" startPosition="0" endLine="26" endPosition="0">
+      <varInfo nodeId="3169390138954787311" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3169390138954787311" fileName="SkillRef.java" startLine="26" startPosition="0" endLine="30" endPosition="0">
+      <varInfo nodeId="3169390138954787311" varName="init" />
+      <varInfo nodeId="3169390138954787311" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="3169390138954787311" fileName="SkillRef.java" startLine="30" startPosition="0" endLine="34" endPosition="0">
+      <varInfo nodeId="3169390138954787311" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="3169390138954787311" fileName="SkillRef.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="net.dwarfguide.creature.structure.SkillRef" />
   </root>
-  <root nodeId="3169390138954787317">
+  <root nodeId="3169390138954787317" modelId="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(net.dwarfguide.creature.structure)">
     <nodeInfo nodeId="3169390138954787317" fileName="TraitRef.java" startLine="11" startPosition="42" endLine="12" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="3169390138954787317" fileName="TraitRef.java" startLine="12" startPosition="84" endLine="13" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="TRAIT" />
     <nodeInfo nodeId="3169390138954787317" fileName="TraitRef.java" startLine="15" startPosition="31" endLine="16" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -864,14 +1096,23 @@
     <scopeInfo nodeId="3169390138954787317" fileName="TraitRef.java" startLine="23" startPosition="36" endLine="24" endPosition="44" />
     <scopeInfo nodeId="3169390138954787317" fileName="TraitRef.java" startLine="27" startPosition="63" endLine="28" endPosition="163" />
     <scopeInfo nodeId="3169390138954787317" fileName="TraitRef.java" startLine="31" startPosition="49" endLine="32" endPosition="43" />
-    <scopeInfo nodeId="3169390138954787317" fileName="TraitRef.java" startLine="14" startPosition="0" endLine="17" endPosition="3" />
+    <scopeInfo nodeId="3169390138954787317" fileName="TraitRef.java" startLine="14" startPosition="0" endLine="17" endPosition="3">
+      <varInfo nodeId="3169390138954787317" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="3169390138954787317" fileName="TraitRef.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
-    <scopeInfo nodeId="3169390138954787317" fileName="TraitRef.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
-    <scopeInfo nodeId="3169390138954787317" fileName="TraitRef.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="3169390138954787317" fileName="TraitRef.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="3169390138954787317" fileName="TraitRef.java" startLine="22" startPosition="0" endLine="26" endPosition="0">
+      <varInfo nodeId="3169390138954787317" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3169390138954787317" fileName="TraitRef.java" startLine="26" startPosition="0" endLine="30" endPosition="0">
+      <varInfo nodeId="3169390138954787317" varName="init" />
+      <varInfo nodeId="3169390138954787317" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="3169390138954787317" fileName="TraitRef.java" startLine="30" startPosition="0" endLine="34" endPosition="0">
+      <varInfo nodeId="3169390138954787317" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="3169390138954787317" fileName="TraitRef.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="net.dwarfguide.creature.structure.TraitRef" />
   </root>
-  <root nodeId="3169390138954787329">
+  <root nodeId="3169390138954787329" modelId="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(net.dwarfguide.creature.structure)">
     <nodeInfo nodeId="3169390138954787329" fileName="AttributeRef.java" startLine="11" startPosition="46" endLine="12" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="3169390138954787329" fileName="AttributeRef.java" startLine="12" startPosition="88" endLine="13" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ATTRIBUTE" />
     <nodeInfo nodeId="3169390138954787329" fileName="AttributeRef.java" startLine="15" startPosition="35" endLine="16" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -889,18 +1130,27 @@
     <scopeInfo nodeId="3169390138954787329" fileName="AttributeRef.java" startLine="23" startPosition="44" endLine="24" endPosition="52" />
     <scopeInfo nodeId="3169390138954787329" fileName="AttributeRef.java" startLine="27" startPosition="67" endLine="28" endPosition="171" />
     <scopeInfo nodeId="3169390138954787329" fileName="AttributeRef.java" startLine="31" startPosition="53" endLine="32" endPosition="47" />
-    <scopeInfo nodeId="3169390138954787329" fileName="AttributeRef.java" startLine="14" startPosition="0" endLine="17" endPosition="3" />
+    <scopeInfo nodeId="3169390138954787329" fileName="AttributeRef.java" startLine="14" startPosition="0" endLine="17" endPosition="3">
+      <varInfo nodeId="3169390138954787329" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="3169390138954787329" fileName="AttributeRef.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
-    <scopeInfo nodeId="3169390138954787329" fileName="AttributeRef.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
-    <scopeInfo nodeId="3169390138954787329" fileName="AttributeRef.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="3169390138954787329" fileName="AttributeRef.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="3169390138954787329" fileName="AttributeRef.java" startLine="22" startPosition="0" endLine="26" endPosition="0">
+      <varInfo nodeId="3169390138954787329" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3169390138954787329" fileName="AttributeRef.java" startLine="26" startPosition="0" endLine="30" endPosition="0">
+      <varInfo nodeId="3169390138954787329" varName="init" />
+      <varInfo nodeId="3169390138954787329" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="3169390138954787329" fileName="AttributeRef.java" startLine="30" startPosition="0" endLine="34" endPosition="0">
+      <varInfo nodeId="3169390138954787329" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="3169390138954787329" fileName="AttributeRef.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="net.dwarfguide.creature.structure.AttributeRef" />
   </root>
-  <root nodeId="3169390138954906798">
+  <root nodeId="3169390138954906798" modelId="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(net.dwarfguide.creature.structure)">
     <nodeInfo nodeId="3169390138954906798" fileName="Feature.java" startLine="6" startPosition="42" endLine="7" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <unitInfo nodeId="3169390138954906798" fileName="Feature.java" startLine="6" startPosition="0" endLine="9" endPosition="0" unitName="net.dwarfguide.creature.structure.Feature" />
   </root>
-  <root nodeId="3169390138954984125">
+  <root nodeId="3169390138954984125" modelId="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(net.dwarfguide.creature.structure)">
     <nodeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="14" startPosition="57" endLine="15" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="15" startPosition="80" endLine="16" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SINGULAR" />
     <nodeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="16" startPosition="51" endLine="17" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="PLURAL" />
@@ -999,56 +1249,93 @@
     <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="131" startPosition="69" endLine="132" endPosition="56" />
     <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="135" startPosition="59" endLine="136" endPosition="155" />
     <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="139" startPosition="45" endLine="140" endPosition="39" />
-    <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="26" startPosition="0" endLine="29" endPosition="3" />
+    <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="26" startPosition="0" endLine="29" endPosition="3">
+      <varInfo nodeId="3169390138954984125" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
-    <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="34" startPosition="0" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="34" startPosition="0" endLine="38" endPosition="0">
+      <varInfo nodeId="3169390138954984125" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="38" startPosition="0" endLine="42" endPosition="0" />
-    <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="42" startPosition="0" endLine="46" endPosition="0" />
+    <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="42" startPosition="0" endLine="46" endPosition="0">
+      <varInfo nodeId="3169390138954984125" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="46" startPosition="0" endLine="50" endPosition="0" />
-    <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="50" startPosition="0" endLine="54" endPosition="0" />
+    <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="50" startPosition="0" endLine="54" endPosition="0">
+      <varInfo nodeId="3169390138954984125" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="54" startPosition="0" endLine="58" endPosition="0" />
-    <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="58" startPosition="0" endLine="62" endPosition="0" />
+    <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="58" startPosition="0" endLine="62" endPosition="0">
+      <varInfo nodeId="3169390138954984125" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="62" startPosition="0" endLine="66" endPosition="0" />
-    <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="66" startPosition="0" endLine="70" endPosition="0" />
+    <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="66" startPosition="0" endLine="70" endPosition="0">
+      <varInfo nodeId="3169390138954984125" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="70" startPosition="0" endLine="74" endPosition="0" />
-    <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="74" startPosition="0" endLine="78" endPosition="0" />
+    <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="74" startPosition="0" endLine="78" endPosition="0">
+      <varInfo nodeId="3169390138954984125" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="78" startPosition="0" endLine="82" endPosition="0" />
-    <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="82" startPosition="0" endLine="86" endPosition="0" />
+    <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="82" startPosition="0" endLine="86" endPosition="0">
+      <varInfo nodeId="3169390138954984125" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="86" startPosition="0" endLine="90" endPosition="0" />
-    <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="90" startPosition="0" endLine="94" endPosition="0" />
+    <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="90" startPosition="0" endLine="94" endPosition="0">
+      <varInfo nodeId="3169390138954984125" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="94" startPosition="0" endLine="98" endPosition="0" />
     <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="98" startPosition="0" endLine="102" endPosition="0" />
     <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="102" startPosition="0" endLine="106" endPosition="0" />
-    <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="106" startPosition="0" endLine="110" endPosition="0" />
-    <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="110" startPosition="0" endLine="114" endPosition="0" />
+    <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="106" startPosition="0" endLine="110" endPosition="0">
+      <varInfo nodeId="3169390138954984125" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="110" startPosition="0" endLine="114" endPosition="0">
+      <varInfo nodeId="3169390138954984125" varName="node" />
+      <varInfo nodeId="3169390138954984125" varName="prev" />
+    </scopeInfo>
     <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="114" startPosition="0" endLine="118" endPosition="0" />
     <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="118" startPosition="0" endLine="122" endPosition="0" />
     <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="122" startPosition="0" endLine="126" endPosition="0" />
-    <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="126" startPosition="0" endLine="130" endPosition="0" />
-    <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="130" startPosition="0" endLine="134" endPosition="0" />
-    <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="134" startPosition="0" endLine="138" endPosition="0" />
-    <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="138" startPosition="0" endLine="142" endPosition="0" />
+    <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="126" startPosition="0" endLine="130" endPosition="0">
+      <varInfo nodeId="3169390138954984125" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="130" startPosition="0" endLine="134" endPosition="0">
+      <varInfo nodeId="3169390138954984125" varName="node" />
+      <varInfo nodeId="3169390138954984125" varName="prev" />
+    </scopeInfo>
+    <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="134" startPosition="0" endLine="138" endPosition="0">
+      <varInfo nodeId="3169390138954984125" varName="init" />
+      <varInfo nodeId="3169390138954984125" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="3169390138954984125" fileName="Race.java" startLine="138" startPosition="0" endLine="142" endPosition="0">
+      <varInfo nodeId="3169390138954984125" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="3169390138954984125" fileName="Race.java" startLine="14" startPosition="0" endLine="143" endPosition="0" unitName="net.dwarfguide.creature.structure.Race" />
   </root>
-  <root nodeId="3848777903716151683">
+  <root nodeId="3848777903716151683" modelId="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(net.dwarfguide.creature.structure)">
     <nodeInfo nodeId="3848777903716151683" fileName="HasRaceContraint.java" startLine="7" startPosition="56" endLine="8" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="3848777903716151683" fileName="HasRaceContraint.java" startLine="8" startPosition="92" endLine="9" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="RACE_REF" />
     <nodeInfo nodeId="3848777903716151683" fileName="HasRaceContraint.java" startLine="10" startPosition="0" endLine="11" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getRaceRef#()Ljetbrains/mps/smodel/INodeAdapter;" />
     <nodeInfo nodeId="3848777903716151683" fileName="HasRaceContraint.java" startLine="11" startPosition="30" endLine="12" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setRaceRef#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
     <scopeInfo nodeId="3848777903716151683" fileName="HasRaceContraint.java" startLine="10" startPosition="0" endLine="11" endPosition="30" />
-    <scopeInfo nodeId="3848777903716151683" fileName="HasRaceContraint.java" startLine="11" startPosition="30" endLine="12" endPosition="39" />
+    <scopeInfo nodeId="3848777903716151683" fileName="HasRaceContraint.java" startLine="11" startPosition="30" endLine="12" endPosition="39">
+      <varInfo nodeId="3848777903716151683" varName="node" />
+    </scopeInfo>
     <unitInfo nodeId="3848777903716151683" fileName="HasRaceContraint.java" startLine="7" startPosition="0" endLine="14" endPosition="0" unitName="net.dwarfguide.creature.structure.HasRaceContraint" />
   </root>
-  <root nodeId="3848777903716151685">
+  <root nodeId="3848777903716151685" modelId="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(net.dwarfguide.creature.structure)">
     <nodeInfo nodeId="3848777903716151685" fileName="HasProfessionConstraint.java" startLine="7" startPosition="63" endLine="8" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="3848777903716151685" fileName="HasProfessionConstraint.java" startLine="8" startPosition="99" endLine="9" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="PROFESSION_REF" />
     <nodeInfo nodeId="3848777903716151685" fileName="HasProfessionConstraint.java" startLine="10" startPosition="0" endLine="11" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getProfessionRef#()Ljetbrains/mps/smodel/INodeAdapter;" />
     <nodeInfo nodeId="3848777903716151685" fileName="HasProfessionConstraint.java" startLine="11" startPosition="42" endLine="12" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setProfessionRef#(Ljetbrains/mps/smodel/INodeAdapter;)V" />
     <scopeInfo nodeId="3848777903716151685" fileName="HasProfessionConstraint.java" startLine="10" startPosition="0" endLine="11" endPosition="42" />
-    <scopeInfo nodeId="3848777903716151685" fileName="HasProfessionConstraint.java" startLine="11" startPosition="42" endLine="12" endPosition="51" />
+    <scopeInfo nodeId="3848777903716151685" fileName="HasProfessionConstraint.java" startLine="11" startPosition="42" endLine="12" endPosition="51">
+      <varInfo nodeId="3848777903716151685" varName="node" />
+    </scopeInfo>
     <unitInfo nodeId="3848777903716151685" fileName="HasProfessionConstraint.java" startLine="7" startPosition="0" endLine="14" endPosition="0" unitName="net.dwarfguide.creature.structure.HasProfessionConstraint" />
   </root>
-  <root nodeId="3848777903716482830">
+  <root nodeId="3848777903716482830" modelId="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(net.dwarfguide.creature.structure)">
     <nodeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="15" startPosition="82" endLine="16" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="16" startPosition="97" endLine="17" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHORT_DESCRIPTION" />
     <nodeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="17" startPosition="68" endLine="18" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ALIAS" />
@@ -1117,29 +1404,53 @@
     <scopeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="93" startPosition="69" endLine="94" endPosition="73" />
     <scopeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="97" startPosition="76" endLine="98" endPosition="189" />
     <scopeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="101" startPosition="62" endLine="102" endPosition="56" />
-    <scopeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="24" startPosition="0" endLine="27" endPosition="3" />
+    <scopeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="24" startPosition="0" endLine="27" endPosition="3">
+      <varInfo nodeId="3848777903716482830" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="28" startPosition="0" endLine="32" endPosition="0" />
-    <scopeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="32" startPosition="0" endLine="36" endPosition="0" />
+    <scopeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="32" startPosition="0" endLine="36" endPosition="0">
+      <varInfo nodeId="3848777903716482830" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="36" startPosition="0" endLine="40" endPosition="0" />
-    <scopeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="40" startPosition="0" endLine="44" endPosition="0" />
+    <scopeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="40" startPosition="0" endLine="44" endPosition="0">
+      <varInfo nodeId="3848777903716482830" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="44" startPosition="0" endLine="48" endPosition="0" />
-    <scopeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="48" startPosition="0" endLine="52" endPosition="0" />
+    <scopeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="48" startPosition="0" endLine="52" endPosition="0">
+      <varInfo nodeId="3848777903716482830" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="52" startPosition="0" endLine="56" endPosition="0" />
-    <scopeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="56" startPosition="0" endLine="60" endPosition="0" />
+    <scopeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="56" startPosition="0" endLine="60" endPosition="0">
+      <varInfo nodeId="3848777903716482830" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="60" startPosition="0" endLine="64" endPosition="0" />
-    <scopeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="64" startPosition="0" endLine="68" endPosition="0" />
+    <scopeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="64" startPosition="0" endLine="68" endPosition="0">
+      <varInfo nodeId="3848777903716482830" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="68" startPosition="0" endLine="72" endPosition="0" />
-    <scopeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="72" startPosition="0" endLine="76" endPosition="0" />
+    <scopeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="72" startPosition="0" endLine="76" endPosition="0">
+      <varInfo nodeId="3848777903716482830" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="76" startPosition="0" endLine="80" endPosition="0" />
     <scopeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="80" startPosition="0" endLine="84" endPosition="0" />
     <scopeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="84" startPosition="0" endLine="88" endPosition="0" />
-    <scopeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="88" startPosition="0" endLine="92" endPosition="0" />
-    <scopeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="92" startPosition="0" endLine="96" endPosition="0" />
-    <scopeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="96" startPosition="0" endLine="100" endPosition="0" />
-    <scopeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="100" startPosition="0" endLine="104" endPosition="0" />
+    <scopeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="88" startPosition="0" endLine="92" endPosition="0">
+      <varInfo nodeId="3848777903716482830" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="92" startPosition="0" endLine="96" endPosition="0">
+      <varInfo nodeId="3848777903716482830" varName="node" />
+      <varInfo nodeId="3848777903716482830" varName="prev" />
+    </scopeInfo>
+    <scopeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="96" startPosition="0" endLine="100" endPosition="0">
+      <varInfo nodeId="3848777903716482830" varName="init" />
+      <varInfo nodeId="3848777903716482830" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="100" startPosition="0" endLine="104" endPosition="0">
+      <varInfo nodeId="3848777903716482830" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="3848777903716482830" fileName="FormulaRatingStrategy.java" startLine="15" startPosition="0" endLine="105" endPosition="0" unitName="net.dwarfguide.creature.structure.FormulaRatingStrategy" />
   </root>
-  <root nodeId="4319959043046304680">
+  <root nodeId="4319959043046304680" modelId="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(net.dwarfguide.creature.structure)">
     <nodeInfo nodeId="4319959043046304680" fileName="StatisticsField.java" startLine="11" startPosition="50" endLine="12" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="4319959043046304680" fileName="StatisticsField.java" startLine="12" startPosition="91" endLine="13" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="STATISTIC" />
     <nodeInfo nodeId="4319959043046304680" fileName="StatisticsField.java" startLine="15" startPosition="38" endLine="16" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -1157,14 +1468,23 @@
     <scopeInfo nodeId="4319959043046304680" fileName="StatisticsField.java" startLine="23" startPosition="39" endLine="24" endPosition="62" />
     <scopeInfo nodeId="4319959043046304680" fileName="StatisticsField.java" startLine="27" startPosition="70" endLine="28" endPosition="177" />
     <scopeInfo nodeId="4319959043046304680" fileName="StatisticsField.java" startLine="31" startPosition="56" endLine="32" endPosition="50" />
-    <scopeInfo nodeId="4319959043046304680" fileName="StatisticsField.java" startLine="14" startPosition="0" endLine="17" endPosition="3" />
+    <scopeInfo nodeId="4319959043046304680" fileName="StatisticsField.java" startLine="14" startPosition="0" endLine="17" endPosition="3">
+      <varInfo nodeId="4319959043046304680" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="4319959043046304680" fileName="StatisticsField.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
-    <scopeInfo nodeId="4319959043046304680" fileName="StatisticsField.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
-    <scopeInfo nodeId="4319959043046304680" fileName="StatisticsField.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="4319959043046304680" fileName="StatisticsField.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="4319959043046304680" fileName="StatisticsField.java" startLine="22" startPosition="0" endLine="26" endPosition="0">
+      <varInfo nodeId="4319959043046304680" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="4319959043046304680" fileName="StatisticsField.java" startLine="26" startPosition="0" endLine="30" endPosition="0">
+      <varInfo nodeId="4319959043046304680" varName="init" />
+      <varInfo nodeId="4319959043046304680" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="4319959043046304680" fileName="StatisticsField.java" startLine="30" startPosition="0" endLine="34" endPosition="0">
+      <varInfo nodeId="4319959043046304680" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="4319959043046304680" fileName="StatisticsField.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="net.dwarfguide.creature.structure.StatisticsField" />
   </root>
-  <root nodeId="5994105463846119150">
+  <root nodeId="5994105463846119150" modelId="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(net.dwarfguide.creature.structure)">
     <nodeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="14" startPosition="68" endLine="15" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="15" startPosition="90" endLine="16" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="NAME" />
     <nodeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="16" startPosition="43" endLine="17" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHORT_DESCRIPTION" />
@@ -1235,30 +1555,55 @@
     <scopeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="95" startPosition="69" endLine="96" endPosition="66" />
     <scopeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="99" startPosition="69" endLine="100" endPosition="175" />
     <scopeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="103" startPosition="55" endLine="104" endPosition="49" />
-    <scopeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="22" startPosition="0" endLine="25" endPosition="3" />
+    <scopeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="22" startPosition="0" endLine="25" endPosition="3">
+      <varInfo nodeId="5994105463846119150" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="30" startPosition="0" endLine="34" endPosition="0">
+      <varInfo nodeId="5994105463846119150" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="34" startPosition="0" endLine="38" endPosition="0" />
-    <scopeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="38" startPosition="0" endLine="42" endPosition="0" />
+    <scopeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="38" startPosition="0" endLine="42" endPosition="0">
+      <varInfo nodeId="5994105463846119150" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="42" startPosition="0" endLine="46" endPosition="0" />
-    <scopeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="46" startPosition="0" endLine="50" endPosition="0" />
+    <scopeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="46" startPosition="0" endLine="50" endPosition="0">
+      <varInfo nodeId="5994105463846119150" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="50" startPosition="0" endLine="54" endPosition="0" />
-    <scopeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="54" startPosition="0" endLine="58" endPosition="0" />
+    <scopeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="54" startPosition="0" endLine="58" endPosition="0">
+      <varInfo nodeId="5994105463846119150" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="58" startPosition="0" endLine="62" endPosition="0" />
     <scopeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="62" startPosition="0" endLine="66" endPosition="0" />
     <scopeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="66" startPosition="0" endLine="70" endPosition="0" />
-    <scopeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="70" startPosition="0" endLine="74" endPosition="0" />
-    <scopeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="74" startPosition="0" endLine="78" endPosition="0" />
+    <scopeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="70" startPosition="0" endLine="74" endPosition="0">
+      <varInfo nodeId="5994105463846119150" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="74" startPosition="0" endLine="78" endPosition="0">
+      <varInfo nodeId="5994105463846119150" varName="node" />
+      <varInfo nodeId="5994105463846119150" varName="prev" />
+    </scopeInfo>
     <scopeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="78" startPosition="0" endLine="82" endPosition="0" />
     <scopeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="82" startPosition="0" endLine="86" endPosition="0" />
     <scopeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="86" startPosition="0" endLine="90" endPosition="0" />
-    <scopeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="90" startPosition="0" endLine="94" endPosition="0" />
-    <scopeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="94" startPosition="0" endLine="98" endPosition="0" />
-    <scopeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="98" startPosition="0" endLine="102" endPosition="0" />
-    <scopeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="102" startPosition="0" endLine="106" endPosition="0" />
+    <scopeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="90" startPosition="0" endLine="94" endPosition="0">
+      <varInfo nodeId="5994105463846119150" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="94" startPosition="0" endLine="98" endPosition="0">
+      <varInfo nodeId="5994105463846119150" varName="node" />
+      <varInfo nodeId="5994105463846119150" varName="prev" />
+    </scopeInfo>
+    <scopeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="98" startPosition="0" endLine="102" endPosition="0">
+      <varInfo nodeId="5994105463846119150" varName="init" />
+      <varInfo nodeId="5994105463846119150" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="102" startPosition="0" endLine="106" endPosition="0">
+      <varInfo nodeId="5994105463846119150" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="5994105463846119150" fileName="LabourCategory.java" startLine="14" startPosition="0" endLine="107" endPosition="0" unitName="net.dwarfguide.creature.structure.LabourCategory" />
   </root>
-  <root nodeId="6240134291333200471">
+  <root nodeId="6240134291333200471" modelId="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(net.dwarfguide.creature.structure)">
     <nodeInfo nodeId="6240134291333200471" fileName="AttributesBasedStrategy.java" startLine="14" startPosition="84" endLine="15" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="6240134291333200471" fileName="AttributesBasedStrategy.java" startLine="15" startPosition="99" endLine="16" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHORT_DESCRIPTION" />
     <nodeInfo nodeId="6240134291333200471" fileName="AttributesBasedStrategy.java" startLine="16" startPosition="68" endLine="17" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ALIAS" />
@@ -1320,40 +1665,64 @@
     <scopeInfo nodeId="6240134291333200471" fileName="AttributesBasedStrategy.java" startLine="83" startPosition="69" endLine="84" endPosition="75" />
     <scopeInfo nodeId="6240134291333200471" fileName="AttributesBasedStrategy.java" startLine="87" startPosition="78" endLine="88" endPosition="193" />
     <scopeInfo nodeId="6240134291333200471" fileName="AttributesBasedStrategy.java" startLine="91" startPosition="64" endLine="92" endPosition="58" />
-    <scopeInfo nodeId="6240134291333200471" fileName="AttributesBasedStrategy.java" startLine="22" startPosition="0" endLine="25" endPosition="3" />
+    <scopeInfo nodeId="6240134291333200471" fileName="AttributesBasedStrategy.java" startLine="22" startPosition="0" endLine="25" endPosition="3">
+      <varInfo nodeId="6240134291333200471" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="6240134291333200471" fileName="AttributesBasedStrategy.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="6240134291333200471" fileName="AttributesBasedStrategy.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="6240134291333200471" fileName="AttributesBasedStrategy.java" startLine="30" startPosition="0" endLine="34" endPosition="0">
+      <varInfo nodeId="6240134291333200471" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="6240134291333200471" fileName="AttributesBasedStrategy.java" startLine="34" startPosition="0" endLine="38" endPosition="0" />
-    <scopeInfo nodeId="6240134291333200471" fileName="AttributesBasedStrategy.java" startLine="38" startPosition="0" endLine="42" endPosition="0" />
+    <scopeInfo nodeId="6240134291333200471" fileName="AttributesBasedStrategy.java" startLine="38" startPosition="0" endLine="42" endPosition="0">
+      <varInfo nodeId="6240134291333200471" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="6240134291333200471" fileName="AttributesBasedStrategy.java" startLine="42" startPosition="0" endLine="46" endPosition="0" />
-    <scopeInfo nodeId="6240134291333200471" fileName="AttributesBasedStrategy.java" startLine="46" startPosition="0" endLine="50" endPosition="0" />
+    <scopeInfo nodeId="6240134291333200471" fileName="AttributesBasedStrategy.java" startLine="46" startPosition="0" endLine="50" endPosition="0">
+      <varInfo nodeId="6240134291333200471" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="6240134291333200471" fileName="AttributesBasedStrategy.java" startLine="50" startPosition="0" endLine="54" endPosition="0" />
-    <scopeInfo nodeId="6240134291333200471" fileName="AttributesBasedStrategy.java" startLine="54" startPosition="0" endLine="58" endPosition="0" />
+    <scopeInfo nodeId="6240134291333200471" fileName="AttributesBasedStrategy.java" startLine="54" startPosition="0" endLine="58" endPosition="0">
+      <varInfo nodeId="6240134291333200471" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="6240134291333200471" fileName="AttributesBasedStrategy.java" startLine="58" startPosition="0" endLine="62" endPosition="0" />
-    <scopeInfo nodeId="6240134291333200471" fileName="AttributesBasedStrategy.java" startLine="62" startPosition="0" endLine="66" endPosition="0" />
+    <scopeInfo nodeId="6240134291333200471" fileName="AttributesBasedStrategy.java" startLine="62" startPosition="0" endLine="66" endPosition="0">
+      <varInfo nodeId="6240134291333200471" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="6240134291333200471" fileName="AttributesBasedStrategy.java" startLine="66" startPosition="0" endLine="70" endPosition="0" />
     <scopeInfo nodeId="6240134291333200471" fileName="AttributesBasedStrategy.java" startLine="70" startPosition="0" endLine="74" endPosition="0" />
     <scopeInfo nodeId="6240134291333200471" fileName="AttributesBasedStrategy.java" startLine="74" startPosition="0" endLine="78" endPosition="0" />
-    <scopeInfo nodeId="6240134291333200471" fileName="AttributesBasedStrategy.java" startLine="78" startPosition="0" endLine="82" endPosition="0" />
-    <scopeInfo nodeId="6240134291333200471" fileName="AttributesBasedStrategy.java" startLine="82" startPosition="0" endLine="86" endPosition="0" />
-    <scopeInfo nodeId="6240134291333200471" fileName="AttributesBasedStrategy.java" startLine="86" startPosition="0" endLine="90" endPosition="0" />
-    <scopeInfo nodeId="6240134291333200471" fileName="AttributesBasedStrategy.java" startLine="90" startPosition="0" endLine="94" endPosition="0" />
+    <scopeInfo nodeId="6240134291333200471" fileName="AttributesBasedStrategy.java" startLine="78" startPosition="0" endLine="82" endPosition="0">
+      <varInfo nodeId="6240134291333200471" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6240134291333200471" fileName="AttributesBasedStrategy.java" startLine="82" startPosition="0" endLine="86" endPosition="0">
+      <varInfo nodeId="6240134291333200471" varName="node" />
+      <varInfo nodeId="6240134291333200471" varName="prev" />
+    </scopeInfo>
+    <scopeInfo nodeId="6240134291333200471" fileName="AttributesBasedStrategy.java" startLine="86" startPosition="0" endLine="90" endPosition="0">
+      <varInfo nodeId="6240134291333200471" varName="init" />
+      <varInfo nodeId="6240134291333200471" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="6240134291333200471" fileName="AttributesBasedStrategy.java" startLine="90" startPosition="0" endLine="94" endPosition="0">
+      <varInfo nodeId="6240134291333200471" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="6240134291333200471" fileName="AttributesBasedStrategy.java" startLine="14" startPosition="0" endLine="95" endPosition="0" unitName="net.dwarfguide.creature.structure.AttributesBasedStrategy" />
   </root>
-  <root nodeId="7201497847334508686">
+  <root nodeId="7201497847334508686" modelId="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(net.dwarfguide.creature.structure)">
     <nodeInfo nodeId="7201497847334508686" fileName="Entity.java" startLine="6" startPosition="48" endLine="7" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <unitInfo nodeId="7201497847334508686" fileName="Entity.java" startLine="6" startPosition="0" endLine="9" endPosition="0" unitName="net.dwarfguide.creature.structure.Entity" />
   </root>
-  <root nodeId="7336574368822048409">
+  <root nodeId="7336574368822048409" modelId="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(net.dwarfguide.creature.structure)">
     <nodeInfo nodeId="7336574368822048409" fileName="HasId.java" startLine="7" startPosition="45" endLine="8" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="7336574368822048409" fileName="HasId.java" startLine="8" startPosition="81" endLine="9" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="IDENTIFIER" />
     <nodeInfo nodeId="7336574368822048409" fileName="HasId.java" startLine="10" startPosition="0" endLine="11" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIdentifier#()I" />
     <nodeInfo nodeId="7336574368822048409" fileName="HasId.java" startLine="11" startPosition="29" endLine="12" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setIdentifier#(I)V" />
     <scopeInfo nodeId="7336574368822048409" fileName="HasId.java" startLine="10" startPosition="0" endLine="11" endPosition="29" />
-    <scopeInfo nodeId="7336574368822048409" fileName="HasId.java" startLine="11" startPosition="29" endLine="12" endPosition="39" />
+    <scopeInfo nodeId="7336574368822048409" fileName="HasId.java" startLine="11" startPosition="29" endLine="12" endPosition="39">
+      <varInfo nodeId="7336574368822048409" varName="value" />
+    </scopeInfo>
     <unitInfo nodeId="7336574368822048409" fileName="HasId.java" startLine="7" startPosition="0" endLine="14" endPosition="0" unitName="net.dwarfguide.creature.structure.HasId" />
   </root>
-  <root nodeId="7336574368822058574">
+  <root nodeId="7336574368822058574" modelId="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(net.dwarfguide.creature.structure)">
     <nodeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="14" startPosition="67" endLine="15" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="15" startPosition="81" endLine="16" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="NAME" />
     <nodeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="16" startPosition="43" endLine="17" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHORT_DESCRIPTION" />
@@ -1431,32 +1800,59 @@
     <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="104" startPosition="69" endLine="105" endPosition="57" />
     <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="108" startPosition="60" endLine="109" endPosition="157" />
     <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="112" startPosition="46" endLine="113" endPosition="40" />
-    <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="23" startPosition="0" endLine="26" endPosition="3" />
+    <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="23" startPosition="0" endLine="26" endPosition="3">
+      <varInfo nodeId="7336574368822058574" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
-    <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="31" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="31" startPosition="0" endLine="35" endPosition="0">
+      <varInfo nodeId="7336574368822058574" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="35" startPosition="0" endLine="39" endPosition="0" />
-    <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="39" startPosition="0" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="39" startPosition="0" endLine="43" endPosition="0">
+      <varInfo nodeId="7336574368822058574" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="43" startPosition="0" endLine="47" endPosition="0" />
-    <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="47" startPosition="0" endLine="51" endPosition="0" />
+    <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="47" startPosition="0" endLine="51" endPosition="0">
+      <varInfo nodeId="7336574368822058574" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="51" startPosition="0" endLine="55" endPosition="0" />
-    <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="55" startPosition="0" endLine="59" endPosition="0" />
+    <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="55" startPosition="0" endLine="59" endPosition="0">
+      <varInfo nodeId="7336574368822058574" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="59" startPosition="0" endLine="63" endPosition="0" />
-    <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="63" startPosition="0" endLine="67" endPosition="0" />
+    <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="63" startPosition="0" endLine="67" endPosition="0">
+      <varInfo nodeId="7336574368822058574" varName="value" />
+    </scopeInfo>
     <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="67" startPosition="0" endLine="71" endPosition="0" />
     <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="71" startPosition="0" endLine="75" endPosition="0" />
     <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="75" startPosition="0" endLine="79" endPosition="0" />
-    <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="79" startPosition="0" endLine="83" endPosition="0" />
-    <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="83" startPosition="0" endLine="87" endPosition="0" />
+    <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="79" startPosition="0" endLine="83" endPosition="0">
+      <varInfo nodeId="7336574368822058574" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="83" startPosition="0" endLine="87" endPosition="0">
+      <varInfo nodeId="7336574368822058574" varName="node" />
+      <varInfo nodeId="7336574368822058574" varName="prev" />
+    </scopeInfo>
     <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="87" startPosition="0" endLine="91" endPosition="0" />
     <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="91" startPosition="0" endLine="95" endPosition="0" />
     <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="95" startPosition="0" endLine="99" endPosition="0" />
-    <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="99" startPosition="0" endLine="103" endPosition="0" />
-    <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="103" startPosition="0" endLine="107" endPosition="0" />
-    <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="107" startPosition="0" endLine="111" endPosition="0" />
-    <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="111" startPosition="0" endLine="115" endPosition="0" />
+    <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="99" startPosition="0" endLine="103" endPosition="0">
+      <varInfo nodeId="7336574368822058574" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="103" startPosition="0" endLine="107" endPosition="0">
+      <varInfo nodeId="7336574368822058574" varName="node" />
+      <varInfo nodeId="7336574368822058574" varName="prev" />
+    </scopeInfo>
+    <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="107" startPosition="0" endLine="111" endPosition="0">
+      <varInfo nodeId="7336574368822058574" varName="init" />
+      <varInfo nodeId="7336574368822058574" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="111" startPosition="0" endLine="115" endPosition="0">
+      <varInfo nodeId="7336574368822058574" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="7336574368822058574" fileName="Skill.java" startLine="14" startPosition="0" endLine="116" endPosition="0" unitName="net.dwarfguide.creature.structure.Skill" />
   </root>
-  <root nodeId="9062650802968998010">
+  <root nodeId="9062650802968998010" modelId="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(net.dwarfguide.creature.structure)">
     <nodeInfo nodeId="9062650802968998010" fileName="LabourRef.java" startLine="11" startPosition="44" endLine="12" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="9062650802968998010" fileName="LabourRef.java" startLine="12" startPosition="85" endLine="13" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="LABOUR" />
     <nodeInfo nodeId="9062650802968998010" fileName="LabourRef.java" startLine="15" startPosition="32" endLine="16" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -1474,14 +1870,23 @@
     <scopeInfo nodeId="9062650802968998010" fileName="LabourRef.java" startLine="23" startPosition="38" endLine="24" endPosition="46" />
     <scopeInfo nodeId="9062650802968998010" fileName="LabourRef.java" startLine="27" startPosition="64" endLine="28" endPosition="165" />
     <scopeInfo nodeId="9062650802968998010" fileName="LabourRef.java" startLine="31" startPosition="50" endLine="32" endPosition="44" />
-    <scopeInfo nodeId="9062650802968998010" fileName="LabourRef.java" startLine="14" startPosition="0" endLine="17" endPosition="3" />
+    <scopeInfo nodeId="9062650802968998010" fileName="LabourRef.java" startLine="14" startPosition="0" endLine="17" endPosition="3">
+      <varInfo nodeId="9062650802968998010" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="9062650802968998010" fileName="LabourRef.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
-    <scopeInfo nodeId="9062650802968998010" fileName="LabourRef.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
-    <scopeInfo nodeId="9062650802968998010" fileName="LabourRef.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="9062650802968998010" fileName="LabourRef.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="9062650802968998010" fileName="LabourRef.java" startLine="22" startPosition="0" endLine="26" endPosition="0">
+      <varInfo nodeId="9062650802968998010" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="9062650802968998010" fileName="LabourRef.java" startLine="26" startPosition="0" endLine="30" endPosition="0">
+      <varInfo nodeId="9062650802968998010" varName="init" />
+      <varInfo nodeId="9062650802968998010" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="9062650802968998010" fileName="LabourRef.java" startLine="30" startPosition="0" endLine="34" endPosition="0">
+      <varInfo nodeId="9062650802968998010" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="9062650802968998010" fileName="LabourRef.java" startLine="11" startPosition="0" endLine="35" endPosition="0" unitName="net.dwarfguide.creature.structure.LabourRef" />
   </root>
-  <root nodeId="957305663110941283">
+  <root nodeId="957305663110941283" modelId="r:d9ea8357-6e92-4acc-ad6c-98cf7d2d625b(net.dwarfguide.creature.structure)">
     <nodeInfo nodeId="957305663110941283" fileName="RatingStrategy.java" startLine="6" startPosition="83" endLine="7" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <unitInfo nodeId="957305663110941283" fileName="RatingStrategy.java" startLine="6" startPosition="0" endLine="9" endPosition="0" unitName="net.dwarfguide.creature.structure.RatingStrategy" />
   </root>

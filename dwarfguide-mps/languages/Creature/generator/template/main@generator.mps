@@ -296,7 +296,7 @@
     <node role="createRootRule" roleId="tpf8.1167088157977" type="tpf8.CreateRootRule" typeId="tpf8.1167087469898" id="6143566370761832270">
       <link role="templateNode" roleId="tpf8.1167087469901" targetNodeId="6143566370761832222" resolveInfo="TraitDecoder" />
     </node>
-    <node role="createRootRule" roleId="tpf8.1167088157977" type="tpf8.CreateRootRule" typeId="tpf8.1167087469898" id="1713051917773913039">
+    <node role="createRootRule" roleId="tpf8.1167088157977" type="tpf8.CreateRootRule" typeId="tpf8.1167087469898" id="6071912477001869848">
       <link role="templateNode" roleId="tpf8.1167087469901" targetNodeId="6143566370761832738" resolveInfo="TraitInstance" />
     </node>
     <node role="createRootRule" roleId="tpf8.1167088157977" type="tpf8.CreateRootRule" typeId="tpf8.1167087469898" id="7356936744394458256">
@@ -4112,24 +4112,6 @@
             </node>
             <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.ClassifierClassExpression" typeId="tpee.1116615150612" id="4650077135992582544">
               <link role="classifier" roleId="tpee.1116615189566" targetNodeId="5994105463846253634" resolveInfo="SkillEnum" />
-            </node>
-          </node>
-        </node>
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4650077135992609827">
-          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4650077135992609829">
-            <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="4650077135992609828">
-              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="9062650802969150289" resolveInfo="matcher" />
-            </node>
-            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4650077135992609833">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1zyv.~RegistryMatcher%dbind(java%dlang%dClass,org%dsimpleframework%dxml%dtransform%dTransform)%cvoid" resolveInfo="bind" />
-              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.ClassifierClassExpression" typeId="tpee.1116615150612" id="4650077135992615043">
-                <link role="classifier" roleId="tpee.1116615189566" targetNodeId="6143566370761832738" resolveInfo="TraitInstance" />
-              </node>
-              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="4650077135992609840">
-                <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="4650077135992615062">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="4650077135992615058" resolveInfo="CreatureRunesmithLoader.TraitTransform" />
-                </node>
-              </node>
             </node>
           </node>
         </node>

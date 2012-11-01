@@ -1,43 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="RatingStrategyFactory.java" startLine="6" startPosition="0" endLine="9" endPosition="0" unitName="net.dwarfguide.model.core.RatingStrategyFactory" />
-  <unitInfo fileName="RatingStrategy.java" startLine="6" startPosition="0" endLine="9" endPosition="0" unitName="net.dwarfguide.model.core.RatingStrategy" />
+  <unitInfo fileName="AbstractRatingStrategy.java" startLine="6" startPosition="0" endLine="43" endPosition="0" unitName="net.dwarfguide.model.core.AbstractRatingStrategy" />
+  <unitInfo fileName="Application.java" startLine="8" startPosition="0" endLine="17" endPosition="0" unitName="net.dwarfguide.model.core.Application" />
+  <unitInfo fileName="AttributeEnum.java" startLine="6" startPosition="0" endLine="37" endPosition="0" unitName="net.dwarfguide.model.core.AttributeEnum" />
+  <unitInfo fileName="Creature.java" startLine="8" startPosition="0" endLine="105" endPosition="0" unitName="net.dwarfguide.model.core.Creature" />
   <unitInfo fileName="CreatureLoader.java" startLine="7" startPosition="0" endLine="10" endPosition="0" unitName="net.dwarfguide.model.core.CreatureLoader" />
-  <unitInfo fileName="RatingStrategyFactoryConcrete.java" startLine="25" startPosition="15" endLine="29" endPosition="5" unitName="net.dwarfguide.model.core.RatingStrategyFactoryConcrete$1" />
+  <unitInfo fileName="CreatureRating.java" startLine="8" startPosition="0" endLine="46" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRating" />
   <unitInfo fileName="CreatureRunesmithLoader.java" startLine="38" startPosition="115" endLine="42" endPosition="7" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader$1" />
-  <unitInfo fileName="CreatureRunesmithLoader.java" startLine="38" startPosition="115" endLine="42" endPosition="7" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader$1" />
+  <unitInfo fileName="CreatureRunesmithLoader.java" startLine="89" startPosition="0" endLine="98" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader$TraitTransform" />
+  <unitInfo fileName="CreatureRunesmithLoader.java" startLine="76" startPosition="0" endLine="88" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader$EnumTransform" />
+  <unitInfo fileName="CreatureRunesmithLoader.java" startLine="22" startPosition="0" endLine="99" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader" />
+  <unitInfo fileName="CreatureStatisticsManager.java" startLine="8" startPosition="0" endLine="82" endPosition="0" unitName="net.dwarfguide.model.core.CreatureStatisticsManager" />
   <unitInfo fileName="CreatureXML.java" startLine="278" startPosition="55" endLine="282" endPosition="5" unitName="net.dwarfguide.model.core.CreatureXML$1" />
   <unitInfo fileName="CreatureXML.java" startLine="755" startPosition="55" endLine="759" endPosition="5" unitName="net.dwarfguide.model.core.CreatureXML$2" />
-  <unitInfo fileName="XMLFile.java" startLine="11" startPosition="0" endLine="16" endPosition="0" unitName="net.dwarfguide.model.core.XMLFile" />
-  <unitInfo fileName="Sex.java" startLine="6" startPosition="0" endLine="13" endPosition="0" unitName="net.dwarfguide.model.core.Sex" />
-  <unitInfo fileName="Application.java" startLine="8" startPosition="0" endLine="17" endPosition="0" unitName="net.dwarfguide.model.core.Application" />
-  <unitInfo fileName="CreatureRunesmithLoader.java" startLine="90" startPosition="0" endLine="99" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader$TraitTransform" />
-  <unitInfo fileName="CreatureRunesmithLoader.java" startLine="90" startPosition="0" endLine="99" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader$TraitTransform" />
-  <unitInfo fileName="CreatureRunesmithLoader.java" startLine="77" startPosition="0" endLine="89" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader$EnumTransform" />
-  <unitInfo fileName="CreatureRunesmithLoader.java" startLine="77" startPosition="0" endLine="89" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader$EnumTransform" />
-  <unitInfo fileName="ReadonlyTransform.java" startLine="7" startPosition="0" endLine="20" endPosition="0" unitName="net.dwarfguide.model.core.ReadonlyTransform" />
-  <unitInfo fileName="Creatures.java" startLine="11" startPosition="0" endLine="24" endPosition="0" unitName="net.dwarfguide.model.core.Creatures" />
-  <unitInfo fileName="MPSModule.java" startLine="7" startPosition="0" endLine="21" endPosition="0" unitName="net.dwarfguide.model.core.MPSModule" />
-  <unitInfo fileName="RatingStrategyFactoryConcrete.java" startLine="10" startPosition="0" endLine="32" endPosition="0" unitName="net.dwarfguide.model.core.RatingStrategyFactoryConcrete" />
-  <unitInfo fileName="SkillXMLInstance.java" startLine="8" startPosition="0" endLine="36" endPosition="0" unitName="net.dwarfguide.model.core.SkillXMLInstance" />
-  <unitInfo fileName="IntegerInBracketsConverter.java" startLine="13" startPosition="0" endLine="42" endPosition="0" unitName="net.dwarfguide.model.core.IntegerInBracketsConverter" />
-  <unitInfo fileName="RaceProfession.java" startLine="8" startPosition="0" endLine="38" endPosition="0" unitName="net.dwarfguide.model.core.RaceProfession" />
-  <unitInfo fileName="AttributeEnum.java" startLine="6" startPosition="0" endLine="37" endPosition="0" unitName="net.dwarfguide.model.core.AttributeEnum" />
-  <unitInfo fileName="AbstractRatingStrategy.java" startLine="6" startPosition="0" endLine="43" endPosition="0" unitName="net.dwarfguide.model.core.AbstractRatingStrategy" />
-  <unitInfo fileName="RaceEnum.java" startLine="6" startPosition="0" endLine="43" endPosition="0" unitName="net.dwarfguide.model.core.RaceEnum" />
-  <unitInfo fileName="StatisticsTuple.java" startLine="8" startPosition="0" endLine="46" endPosition="0" unitName="net.dwarfguide.model.core.StatisticsTuple" />
-  <unitInfo fileName="CreatureRating.java" startLine="8" startPosition="0" endLine="46" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRating" />
-  <unitInfo fileName="TraitInstance.java" startLine="8" startPosition="0" endLine="46" endPosition="0" unitName="net.dwarfguide.model.core.TraitInstance" />
-  <unitInfo fileName="TraitEnum.java" startLine="6" startPosition="0" endLine="48" endPosition="0" unitName="net.dwarfguide.model.core.TraitEnum" />
-  <unitInfo fileName="CreatureStatisticsManager.java" startLine="8" startPosition="0" endLine="82" endPosition="0" unitName="net.dwarfguide.model.core.CreatureStatisticsManager" />
-  <unitInfo fileName="CreatureRunesmithLoader.java" startLine="22" startPosition="0" endLine="100" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader" />
-  <unitInfo fileName="CreatureRunesmithLoader.java" startLine="22" startPosition="0" endLine="100" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader" />
-  <unitInfo fileName="Creature.java" startLine="8" startPosition="0" endLine="105" endPosition="0" unitName="net.dwarfguide.model.core.Creature" />
-  <unitInfo fileName="ProfessionEnum.java" startLine="6" startPosition="0" endLine="124" endPosition="0" unitName="net.dwarfguide.model.core.ProfessionEnum" />
-  <unitInfo fileName="SkillEnum.java" startLine="6" startPosition="0" endLine="134" endPosition="0" unitName="net.dwarfguide.model.core.SkillEnum" />
-  <unitInfo fileName="TraitDecoder.java" startLine="9" startPosition="0" endLine="205" endPosition="0" unitName="net.dwarfguide.model.core.TraitDecoder" />
   <unitInfo fileName="CreatureXML.java" startLine="13" startPosition="0" endLine="762" endPosition="0" unitName="net.dwarfguide.model.core.CreatureXML" />
-  <root nodeId="6240134291333203356">
+  <unitInfo fileName="Creatures.java" startLine="11" startPosition="0" endLine="24" endPosition="0" unitName="net.dwarfguide.model.core.Creatures" />
+  <unitInfo fileName="IntegerInBracketsConverter.java" startLine="13" startPosition="0" endLine="42" endPosition="0" unitName="net.dwarfguide.model.core.IntegerInBracketsConverter" />
+  <unitInfo fileName="MPSModule.java" startLine="7" startPosition="0" endLine="21" endPosition="0" unitName="net.dwarfguide.model.core.MPSModule" />
+  <unitInfo fileName="ProfessionEnum.java" startLine="6" startPosition="0" endLine="124" endPosition="0" unitName="net.dwarfguide.model.core.ProfessionEnum" />
+  <unitInfo fileName="RaceEnum.java" startLine="6" startPosition="0" endLine="43" endPosition="0" unitName="net.dwarfguide.model.core.RaceEnum" />
+  <unitInfo fileName="RaceProfession.java" startLine="8" startPosition="0" endLine="38" endPosition="0" unitName="net.dwarfguide.model.core.RaceProfession" />
+  <unitInfo fileName="RatingStrategy.java" startLine="6" startPosition="0" endLine="9" endPosition="0" unitName="net.dwarfguide.model.core.RatingStrategy" />
+  <unitInfo fileName="RatingStrategyFactory.java" startLine="6" startPosition="0" endLine="9" endPosition="0" unitName="net.dwarfguide.model.core.RatingStrategyFactory" />
+  <unitInfo fileName="RatingStrategyFactoryConcrete.java" startLine="26" startPosition="15" endLine="30" endPosition="5" unitName="net.dwarfguide.model.core.RatingStrategyFactoryConcrete$1" />
+  <unitInfo fileName="RatingStrategyFactoryConcrete.java" startLine="10" startPosition="0" endLine="33" endPosition="0" unitName="net.dwarfguide.model.core.RatingStrategyFactoryConcrete" />
+  <unitInfo fileName="ReadonlyTransform.java" startLine="7" startPosition="0" endLine="20" endPosition="0" unitName="net.dwarfguide.model.core.ReadonlyTransform" />
+  <unitInfo fileName="Sex.java" startLine="6" startPosition="0" endLine="13" endPosition="0" unitName="net.dwarfguide.model.core.Sex" />
+  <unitInfo fileName="SkillEnum.java" startLine="6" startPosition="0" endLine="134" endPosition="0" unitName="net.dwarfguide.model.core.SkillEnum" />
+  <unitInfo fileName="SkillXMLInstance.java" startLine="8" startPosition="0" endLine="36" endPosition="0" unitName="net.dwarfguide.model.core.SkillXMLInstance" />
+  <unitInfo fileName="StatisticsTuple.java" startLine="8" startPosition="0" endLine="46" endPosition="0" unitName="net.dwarfguide.model.core.StatisticsTuple" />
+  <unitInfo fileName="TraitDecoder.java" startLine="9" startPosition="0" endLine="205" endPosition="0" unitName="net.dwarfguide.model.core.TraitDecoder" />
+  <unitInfo fileName="TraitEnum.java" startLine="6" startPosition="0" endLine="48" endPosition="0" unitName="net.dwarfguide.model.core.TraitEnum" />
+  <unitInfo fileName="TraitInstance.java" startLine="8" startPosition="0" endLine="46" endPosition="0" unitName="net.dwarfguide.model.core.TraitInstance" />
+  <unitInfo fileName="XMLFile.java" startLine="11" startPosition="0" endLine="16" endPosition="0" unitName="net.dwarfguide.model.core.XMLFile" />
+  <root nodeId="6071912477001813921" modelId="r:0afa5aba-9393-48fd-a0f8-fb77c2ba06be(net.dwarfguide.model.core)">
+    <nodeInfo nodeId="6071912477001813921" fileName="AttributeRatingAlchemistDwarf.java" startLine="6" startPosition="75" endLine="7" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="MAX_NORMALIZED" />
+    <nodeInfo nodeId="6071912477001813921" fileName="AttributeRatingAlchemistDwarf.java" startLine="9" startPosition="85" endLine="10" endPosition="121" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="6071912477001813921" fileName="AttributeRatingAlchemistDwarf.java" startLine="13" startPosition="43" endLine="14" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6071912477001813921" fileName="AttributeRatingAlchemistDwarf.java" startLine="14" startPosition="16" endLine="15" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6071912477001813921" fileName="AttributeRatingAlchemistDwarf.java" startLine="15" startPosition="18" endLine="16" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6071912477001813921" fileName="AttributeRatingAlchemistDwarf.java" startLine="8" startPosition="0" endLine="11" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="AttributeRatingAlchemistDwarf#(Lnet/dwarfguide/model/core/CreatureStatisticsManager;)V" />
+    <nodeInfo nodeId="6071912477001813921" fileName="AttributeRatingAlchemistDwarf.java" startLine="12" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getRating#(Lnet/dwarfguide/model/core/Creature;)I" />
+    <scopeInfo nodeId="6071912477001813921" fileName="AttributeRatingAlchemistDwarf.java" startLine="9" startPosition="85" endLine="10" endPosition="121" />
+    <scopeInfo nodeId="6071912477001813921" fileName="AttributeRatingAlchemistDwarf.java" startLine="8" startPosition="0" endLine="11" endPosition="3">
+      <varInfo nodeId="6071912477001813921" varName="statisticsManager" />
+    </scopeInfo>
+    <scopeInfo nodeId="6071912477001813921" fileName="AttributeRatingAlchemistDwarf.java" startLine="13" startPosition="43" endLine="16" endPosition="15">
+      <varInfo nodeId="6071912477001813921" varName="sum" />
+    </scopeInfo>
+    <scopeInfo nodeId="6071912477001813921" fileName="AttributeRatingAlchemistDwarf.java" startLine="12" startPosition="0" endLine="18" endPosition="0">
+      <varInfo nodeId="6071912477001813921" varName="creature" />
+    </scopeInfo>
+    <unitInfo nodeId="6071912477001813921" fileName="AttributeRatingAlchemistDwarf.java" startLine="6" startPosition="0" endLine="19" endPosition="0" unitName="net.dwarfguide.model.core.AttributeRatingAlchemistDwarf" />
+  </root>
+  <root nodeId="6071912477001835246" modelId="r:0afa5aba-9393-48fd-a0f8-fb77c2ba06be(net.dwarfguide.model.core)">
+    <nodeInfo nodeId="6071912477001835246" fileName="RatingAnimal_DissectorGoblin.java" startLine="7" startPosition="84" endLine="8" endPosition="119" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="6071912477001835246" fileName="RatingAnimal_DissectorGoblin.java" startLine="11" startPosition="43" endLine="12" endPosition="141" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6071912477001835246" fileName="RatingAnimal_DissectorGoblin.java" startLine="6" startPosition="74" endLine="9" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="RatingAnimal_DissectorGoblin#(Lnet/dwarfguide/model/core/CreatureStatisticsManager;)V" />
+    <nodeInfo nodeId="6071912477001835246" fileName="RatingAnimal_DissectorGoblin.java" startLine="10" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getRating#(Lnet/dwarfguide/model/core/Creature;)I" />
+    <scopeInfo nodeId="6071912477001835246" fileName="RatingAnimal_DissectorGoblin.java" startLine="7" startPosition="84" endLine="8" endPosition="119" />
+    <scopeInfo nodeId="6071912477001835246" fileName="RatingAnimal_DissectorGoblin.java" startLine="11" startPosition="43" endLine="12" endPosition="141" />
+    <scopeInfo nodeId="6071912477001835246" fileName="RatingAnimal_DissectorGoblin.java" startLine="6" startPosition="74" endLine="9" endPosition="3">
+      <varInfo nodeId="6071912477001835246" varName="statisticsManager" />
+    </scopeInfo>
+    <scopeInfo nodeId="6071912477001835246" fileName="RatingAnimal_DissectorGoblin.java" startLine="10" startPosition="0" endLine="14" endPosition="0">
+      <varInfo nodeId="6071912477001835246" varName="creature" />
+    </scopeInfo>
+    <unitInfo nodeId="6071912477001835246" fileName="RatingAnimal_DissectorGoblin.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="net.dwarfguide.model.core.RatingAnimal_DissectorGoblin" />
+  </root>
+  <root nodeId="6240134291333203356" modelId="r:0afa5aba-9393-48fd-a0f8-fb77c2ba06be(net.dwarfguide.model.core)">
     <nodeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="6" startPosition="71" endLine="7" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="MAX_NORMALIZED" />
     <nodeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="9" startPosition="81" endLine="10" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="13" startPosition="43" endLine="14" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -52,21 +83,16 @@
     <nodeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="8" startPosition="0" endLine="11" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="AttributeRatingMinerDwarf#(Lnet/dwarfguide/model/core/CreatureStatisticsManager;)V" />
     <nodeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="12" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getRating#(Lnet/dwarfguide/model/core/Creature;)I" />
     <scopeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="9" startPosition="81" endLine="10" endPosition="113" />
-    <scopeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="8" startPosition="0" endLine="11" endPosition="3" />
-    <scopeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="13" startPosition="43" endLine="22" endPosition="15" />
-    <scopeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="12" startPosition="0" endLine="24" endPosition="0" />
+    <scopeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="8" startPosition="0" endLine="11" endPosition="3">
+      <varInfo nodeId="6240134291333203356" varName="statisticsManager" />
+    </scopeInfo>
+    <scopeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="13" startPosition="43" endLine="22" endPosition="15">
+      <varInfo nodeId="6240134291333203356" varName="sum" />
+    </scopeInfo>
+    <scopeInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="12" startPosition="0" endLine="24" endPosition="0">
+      <varInfo nodeId="6240134291333203356" varName="creature" />
+    </scopeInfo>
     <unitInfo nodeId="6240134291333203356" fileName="AttributeRatingMinerDwarf.java" startLine="6" startPosition="0" endLine="25" endPosition="0" unitName="net.dwarfguide.model.core.AttributeRatingMinerDwarf" />
-  </root>
-  <root nodeId="655979893346440619">
-    <nodeInfo nodeId="655979893346440619" fileName="RatingArmorerDwarf.java" startLine="7" startPosition="74" endLine="8" endPosition="101" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="655979893346440619" fileName="RatingArmorerDwarf.java" startLine="11" startPosition="43" endLine="12" endPosition="225" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="655979893346440619" fileName="RatingArmorerDwarf.java" startLine="6" startPosition="64" endLine="9" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="RatingArmorerDwarf#(Lnet/dwarfguide/model/core/CreatureStatisticsManager;)V" />
-    <nodeInfo nodeId="655979893346440619" fileName="RatingArmorerDwarf.java" startLine="10" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getRating#(Lnet/dwarfguide/model/core/Creature;)I" />
-    <scopeInfo nodeId="655979893346440619" fileName="RatingArmorerDwarf.java" startLine="7" startPosition="74" endLine="8" endPosition="101" />
-    <scopeInfo nodeId="655979893346440619" fileName="RatingArmorerDwarf.java" startLine="11" startPosition="43" endLine="12" endPosition="225" />
-    <scopeInfo nodeId="655979893346440619" fileName="RatingArmorerDwarf.java" startLine="6" startPosition="64" endLine="9" endPosition="3" />
-    <scopeInfo nodeId="655979893346440619" fileName="RatingArmorerDwarf.java" startLine="10" startPosition="0" endLine="14" endPosition="0" />
-    <unitInfo nodeId="655979893346440619" fileName="RatingArmorerDwarf.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="net.dwarfguide.model.core.RatingArmorerDwarf" />
   </root>
 </debugInfo>
 

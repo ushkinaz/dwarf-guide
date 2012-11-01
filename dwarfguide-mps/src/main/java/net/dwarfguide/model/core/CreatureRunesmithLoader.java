@@ -56,7 +56,6 @@ public class CreatureRunesmithLoader implements CreatureLoader {
     registerEnumTransform(matcher, ProfessionEnum.class);
     registerEnumTransform(matcher, TraitEnum.class);
     registerEnumTransform(matcher, SkillEnum.class);
-    matcher.bind(TraitInstance.class, new CreatureRunesmithLoader.TraitTransform());
 
     Serializer serializer = new Persister(strategy, matcher, format);
     return serializer.read(Creatures.class, in).getCreatures();
