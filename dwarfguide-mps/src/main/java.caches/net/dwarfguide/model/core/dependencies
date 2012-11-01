@@ -75,10 +75,7 @@
     <classNode dependClassName="net.dwarfguide.model.core.TraitDecoder" />
     <classNode dependClassName="net.dwarfguide.model.core.TraitEnum" />
     <classNode dependClassName="net.dwarfguide.model.core.TraitInstance" />
-    <classNode dependClassName="net.dwarfguide.model.core.XMLFile" />
     <classNode dependClassName="org.apache.commons.io.FileUtils" />
-    <classNode dependClassName="org.apache.commons.logging.Log" />
-    <classNode dependClassName="org.apache.commons.logging.LogFactory" />
     <classNode dependClassName="org.simpleframework.xml.Serializer" />
     <classNode dependClassName="org.simpleframework.xml.convert.AnnotationStrategy" />
     <classNode dependClassName="org.simpleframework.xml.core.Persister" />
@@ -131,20 +128,9 @@
     <classNode dependClassName="java.lang.UnsupportedOperationException" />
     <classNode dependClassName="java.util.regex.Matcher" />
     <classNode dependClassName="java.util.regex.Pattern" />
-    <classNode dependClassName="org.apache.commons.logging.Log" />
-    <classNode dependClassName="org.apache.commons.logging.LogFactory" />
     <classNode dependClassName="org.simpleframework.xml.stream.InputNode" />
     <classNode dependClassName="org.simpleframework.xml.stream.OutputNode" />
     <classNode extendsClassName="org.simpleframework.xml.convert.Converter" />
-  </dependency>
-  <dependency className="net.dwarfguide.model.core.MPSModule" file="MPSModule.java">
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="net.dwarfguide.model.core.CreatureLoader" />
-    <classNode dependClassName="net.dwarfguide.model.core.CreatureRunesmithLoader" />
-    <classNode dependClassName="net.dwarfguide.model.core.CreatureStatisticsManager" />
-    <classNode dependClassName="net.dwarfguide.model.core.RatingStrategyFactory" />
-    <classNode dependClassName="net.dwarfguide.model.core.RatingStrategyFactoryConcrete" />
-    <classNode extendsClassName="com.google.inject.AbstractModule" />
   </dependency>
   <dependency className="net.dwarfguide.model.core.ProfessionEnum" file="ProfessionEnum.java">
     <classNode dependClassName="java.lang.String" />
@@ -181,7 +167,6 @@
   <dependency className="net.dwarfguide.model.core.RatingStrategyFactoryConcrete" file="RatingStrategyFactoryConcrete.java">
     <classNode dependClassName="java.util.HashMap" />
     <classNode dependClassName="java.util.Map" />
-    <classNode dependClassName="javax.inject.Inject" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
     <classNode dependClassName="net.dwarfguide.model.core.AttributeRatingAlchemistDwarf" />
     <classNode dependClassName="net.dwarfguide.model.core.AttributeRatingMinerDwarf" />
@@ -237,13 +222,6 @@
     <classNode dependClassName="jetbrains.mps.baseLanguage.tuples.runtime.Tuples" />
     <classNode dependClassName="net.dwarfguide.model.core.TraitEnum" />
     <classNode extendsClassName="jetbrains.mps.baseLanguage.tuples.runtime._3" />
-  </dependency>
-  <dependency className="net.dwarfguide.model.core.XMLFile" file="XMLFile.java">
-    <classNode dependClassName="com.google.inject.BindingAnnotation" />
-    <classNode dependClassName="java.lang.annotation.ElementType" />
-    <classNode dependClassName="java.lang.annotation.Retention" />
-    <classNode dependClassName="java.lang.annotation.RetentionPolicy" />
-    <classNode dependClassName="java.lang.annotation.Target" />
   </dependency>
 </dependenciesRoot>
 

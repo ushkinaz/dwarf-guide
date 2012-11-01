@@ -4,8 +4,6 @@ package net.dwarfguide.model.core;
 
 import org.simpleframework.xml.convert.Converter;
 import java.util.regex.Pattern;
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
 import org.simpleframework.xml.stream.InputNode;
 import java.util.regex.Matcher;
 import org.simpleframework.xml.stream.OutputNode;
@@ -16,7 +14,6 @@ import org.simpleframework.xml.stream.OutputNode;
  */
 public class IntegerInBracketsConverter implements Converter<Integer> {
   private static final Pattern BRACKETS_PATTERN = Pattern.compile(".* \\[(\\d*)\\]");
-  protected static Log log = LogFactory.getLog(IntegerInBracketsConverter.class);
 
   public IntegerInBracketsConverter() {
   }
@@ -27,9 +24,6 @@ public class IntegerInBracketsConverter implements Converter<Integer> {
     Matcher matcher = BRACKETS_PATTERN.matcher(value);
     if (matcher.find()) {
       return Integer.valueOf(matcher.group(1));
-    }
-    if (log.isWarnEnabled()) {
-      log.warn("Can't read happiness from node: " + node);
     }
     return 0;
   }
