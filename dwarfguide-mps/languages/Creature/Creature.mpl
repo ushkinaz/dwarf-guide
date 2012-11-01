@@ -25,28 +25,28 @@
     <generator name="CreatureGenerator" generatorUID="net.dwarfguide.creature#2413918680966875812" uuid="cd2006f9-7fb7-4cd6-8983-2a54d8aa19d3">
       <models>
         <modelRoot path="${language_descriptor}/generator/template" />
-        <modelRoot path="${DWARVEN_PATH}/dwarfguide-mps/lib/guice.jar">
+        <modelRoot path="${language_descriptor}/lib/guice.jar">
           <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
         </modelRoot>
-        <modelRoot path="${DWARVEN_PATH}/dwarfguide-mps/lib/slf4j-api.jar">
+        <modelRoot path="${language_descriptor}/lib/slf4j-api.jar">
           <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
         </modelRoot>
-        <modelRoot path="${DWARVEN_PATH}/dwarfguide-mps/lib/slf4j-log4j12.jar">
+        <modelRoot path="${language_descriptor}/lib/slf4j-log4j12.jar">
           <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
         </modelRoot>
-        <modelRoot path="${DWARVEN_PATH}/dwarfguide-mps/lib/javax.inject.jar">
+        <modelRoot path="${language_descriptor}/lib/javax.inject.jar">
           <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
         </modelRoot>
-        <modelRoot path="${DWARVEN_PATH}/dwarfguide-mps/lib/jcl-over-slf4j.jar">
+        <modelRoot path="${language_descriptor}/lib/jcl-over-slf4j.jar">
           <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
         </modelRoot>
-        <modelRoot path="${DWARVEN_PATH}/dwarfguide-mps/lib/commons-io.jar">
+        <modelRoot path="${language_descriptor}/lib/commons-io.jar">
           <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
         </modelRoot>
-        <modelRoot path="${DWARVEN_PATH}/dwarfguide-mps/lib/simple-xml.jar">
+        <modelRoot path="${language_descriptor}/lib/simple-xml.jar">
           <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
         </modelRoot>
-        <modelRoot path="${DWARVEN_PATH}/dwarfguide-mps/lib/jsr250-api.jar">
+        <modelRoot path="${language_descriptor}/lib/jsr250-api.jar">
           <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
         </modelRoot>
       </models>
@@ -115,28 +115,28 @@
     </stubModelEntry>
   </stubModelEntries>
   <runtimeStubModels>
-    <stubModelEntry path="${DWARVEN_PATH}/dwarfguide-mps/lib/guice.jar">
+    <stubModelEntry path="${language_descriptor}/lib/guice.jar">
       <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
     </stubModelEntry>
-    <stubModelEntry path="${DWARVEN_PATH}/dwarfguide-mps/lib/slf4j-api.jar">
+    <stubModelEntry path="${language_descriptor}/lib/slf4j-api.jar">
       <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
     </stubModelEntry>
-    <stubModelEntry path="${DWARVEN_PATH}/dwarfguide-mps/lib/slf4j-log4j12.jar">
+    <stubModelEntry path="${language_descriptor}/lib/slf4j-log4j12.jar">
       <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
     </stubModelEntry>
-    <stubModelEntry path="${DWARVEN_PATH}/dwarfguide-mps/lib/javax.inject.jar">
+    <stubModelEntry path="${language_descriptor}/lib/javax.inject.jar">
       <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
     </stubModelEntry>
-    <stubModelEntry path="${DWARVEN_PATH}/dwarfguide-mps/lib/jcl-over-slf4j.jar">
+    <stubModelEntry path="${language_descriptor}/lib/jcl-over-slf4j.jar">
       <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
     </stubModelEntry>
-    <stubModelEntry path="${DWARVEN_PATH}/dwarfguide-mps/lib/commons-io.jar">
+    <stubModelEntry path="${language_descriptor}/lib/commons-io.jar">
       <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
     </stubModelEntry>
-    <stubModelEntry path="${DWARVEN_PATH}/dwarfguide-mps/lib/simple-xml.jar">
+    <stubModelEntry path="${language_descriptor}/lib/simple-xml.jar">
       <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
     </stubModelEntry>
-    <stubModelEntry path="${DWARVEN_PATH}/dwarfguide-mps/lib/jsr250-api.jar">
+    <stubModelEntry path="${language_descriptor}/lib/jsr250-api.jar">
       <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
     </stubModelEntry>
   </runtimeStubModels>
