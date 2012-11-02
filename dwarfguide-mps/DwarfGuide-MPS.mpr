@@ -20,6 +20,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="${project}/languages/Creature/Creature.mpl" folder="" />
+      <modulePath path="${project}/solutions/DwarfGuide-MPS.build/build.msd" />
       <modulePath path="${project}/solutions/net.dwarfguide.libraries/libraries.msd" />
       <modulePath path="${project}/solutions/net.dwarfguide.model/model.msd" folder="" />
     </projectModules>
