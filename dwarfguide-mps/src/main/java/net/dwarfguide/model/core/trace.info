@@ -7,9 +7,9 @@
   <unitInfo fileName="CreatureLoader.java" startLine="7" startPosition="0" endLine="10" endPosition="0" unitName="net.dwarfguide.model.core.CreatureLoader" />
   <unitInfo fileName="CreatureRating.java" startLine="8" startPosition="0" endLine="46" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRating" />
   <unitInfo fileName="CreatureRunesmithLoader.java" startLine="34" startPosition="115" endLine="38" endPosition="7" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader$1" />
-  <unitInfo fileName="CreatureRunesmithLoader.java" startLine="82" startPosition="0" endLine="91" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader$TraitTransform" />
-  <unitInfo fileName="CreatureRunesmithLoader.java" startLine="69" startPosition="0" endLine="81" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader$EnumTransform" />
-  <unitInfo fileName="CreatureRunesmithLoader.java" startLine="20" startPosition="0" endLine="92" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader" />
+  <unitInfo fileName="CreatureRunesmithLoader.java" startLine="83" startPosition="0" endLine="92" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader$TraitTransform" />
+  <unitInfo fileName="CreatureRunesmithLoader.java" startLine="70" startPosition="0" endLine="82" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader$EnumTransform" />
+  <unitInfo fileName="CreatureRunesmithLoader.java" startLine="20" startPosition="0" endLine="93" endPosition="0" unitName="net.dwarfguide.model.core.CreatureRunesmithLoader" />
   <unitInfo fileName="CreatureStatisticsManager.java" startLine="8" startPosition="0" endLine="82" endPosition="0" unitName="net.dwarfguide.model.core.CreatureStatisticsManager" />
   <unitInfo fileName="CreatureXML.java" startLine="278" startPosition="55" endLine="282" endPosition="5" unitName="net.dwarfguide.model.core.CreatureXML$1" />
   <unitInfo fileName="CreatureXML.java" startLine="755" startPosition="55" endLine="759" endPosition="5" unitName="net.dwarfguide.model.core.CreatureXML$2" />

@@ -43,6 +43,7 @@ public class CreatureRunesmithLoader implements CreatureLoader {
 
   private List<CreatureXML> deserialize(InputStream in) throws Exception {
     Format format = new Format(new CamelCaseStyle(true));
+
     Strategy strategy = new AnnotationStrategy();
     RegistryMatcher matcher = new RegistryMatcher();
     registerEnumTransform(matcher, Sex.class);
