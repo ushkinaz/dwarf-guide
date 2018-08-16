@@ -1,4 +1,4 @@
-DwarfGuide ![Project status](http://stillmaintained.com/ushkinaz/dwarf-guide.png) 
+DwarfGuide ![Project status](Not Active) 
 ========
 Helper application for [Dwarf Fortress](http://www.bay12games.com/dwarves/)
 
